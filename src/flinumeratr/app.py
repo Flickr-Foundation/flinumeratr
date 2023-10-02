@@ -17,5 +17,5 @@ def images():
     return render_template("images.html", url=url)
     
 
-if __name__ == '__main__':
+def main():
     app.run(debug=True)
