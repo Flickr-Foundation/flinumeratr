@@ -36,5 +36,14 @@ def categorise_flickr_url(url):
             'url': url,
             'photo_id': u.path[2],
         }
-    
+
+    # The URL for an album, e.g.
+    # https://www.flickr.com/photos/cat_tac/albums/72157666833379009
+    if len(u.path) == 4 and u.path[0] == 'photos' and u.path[2] == 'albums' and u.path[3].isnumeric():
+        return {
+            'type': 'album',
+            'url': url,
+            'album_id': u.path[3]
+        }
+
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")

@@ -26,3 +26,13 @@ def test_it_categorises_a_single_image_in_a_photoset():
         'url': url,
         'photo_id': '32812033543',
     }
+
+
+def test_it_categories_an_album():
+    url = 'https://www.flickr.com/photos/cat_tac/albums/72157666833379009'
+    
+    assert categorise_flickr_url(url) == {
+        'type': 'album',
+        'url': url,
+        'album_id': '72157666833379009',
+    }
