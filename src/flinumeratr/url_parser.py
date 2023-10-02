@@ -14,7 +14,7 @@ def categorise_flickr_url(url):
     Categorises a Flickr URL, e.g. whether it's a single image, an album,
     a user.
     """
-    u = hyperlink.URL.from_text(url)
+    u = hyperlink.URL.from_text(url.rstrip('/'))
     
     # If this URL doesn't come from Flickr.com, then we can't possibly classify
     # it as a Flickr URL!
@@ -30,7 +30,7 @@ def categorise_flickr_url(url):
             'photo_id': u.path[2],
         }
     
-    if len(u.path) == 5 and u.path[0] == 'photos' and u.path[2].isnumeric() and u.path[3] == 'in' and u.path[4].startswith('photolist-'):
+    if len(u.path) == 5 and u.path[0] == 'photos' and u.path[2].isnumeric() and u.path[3] == 'in' and u.path[4].startswith(('album-', 'photolist-')):
         return {
             'type': 'single_image',
             'url': url,
