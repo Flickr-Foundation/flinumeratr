@@ -151,3 +151,21 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
         "url": photo_page_url,
         "sizes": sizes,
     }
+
+
+def lookup_user_id_from_url(api, *, user_url):
+    """
+    Given the link to a user's photos or profile, return their NSID.
+    """
+    resp = api.call("flickr.urls.lookupUser", url=user_url)
+    
+    # The lookupUser response is of the form:
+    #
+    #       <?xml version="1.0" encoding="utf-8" ?>
+    #       <rsp stat="ok">
+    #       <user id="12403504@N02">
+    #       	<username>The British Library</username>
+    #       </user>
+    #       </rsp>
+    #
+    return resp.find(".//user").attrib["id"]

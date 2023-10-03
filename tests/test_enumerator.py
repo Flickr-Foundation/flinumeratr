@@ -44,5 +44,6 @@ def test_it_categories_an_album():
     assert categorise_flickr_url(url) == {
         "type": "photoset",
         "url": url,
+        "user_url": "https://www.flickr.com/photos/cat_tac",
         "photoset_id": "72157666833379009",
     }

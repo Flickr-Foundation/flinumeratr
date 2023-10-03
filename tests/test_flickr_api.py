@@ -1,6 +1,6 @@
 import datetime
 
-from flinumeratr.flickr_api import get_licenses, get_single_photo_info
+from flinumeratr.flickr_api import get_licenses, get_single_photo_info, lookup_user_id_from_url
 
 
 def test_get_licenses(api):
@@ -169,3 +169,9 @@ def test_get_single_photo_info(api):
         },
         "url": "https://www.flickr.com/photos/coast_guard/32812033543/",
     }
+
+
+def test_lookup_user_id_from_url(api):
+    nsid = lookup_user_id_from_url(api, user_url="https://www.flickr.com/photos/britishlibrary/")
+    
+    assert nsid == "12403504@N02"

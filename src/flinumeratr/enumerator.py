@@ -71,7 +71,12 @@ def categorise_flickr_url(url):
         and u.path[2] == "albums"
         and u.path[3].isnumeric()
     ):
-        return {"type": "photoset", "url": url, "photoset_id": u.path[3]}
+        return {
+            "type": "photoset",
+            "url": url,
+            "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
+            "photoset_id": u.path[3],
+        }
 
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
