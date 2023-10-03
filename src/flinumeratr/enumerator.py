@@ -17,9 +17,11 @@ The process of flinumeration is split into two steps:
 import hyperlink
 
 from flinumeratr.flickr_api import (
+    get_photos_in_group_pool,
     get_photos_in_photoset,
     get_public_photos_by_person,
     get_single_photo_info,
+    lookup_group_nsid_from_url,
     lookup_user_nsid_from_url,
 )
 
@@ -102,6 +104,25 @@ def categorise_flickr_url(url):
             "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
         }
 
+    # URLs for a group, e.g.
+    #
+    #     https://www.flickr.com/groups/slovenia/pool
+    #     https://www.flickr.com/groups/slovenia
+    #
+    if len(u.path) == 2 and u.path[0] == "groups":
+        return {
+            "type": "group",
+            "url": url,
+            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+        }
+
+    if len(u.path) == 3 and u.path[0] == "groups" and u.path[2] == "pool":
+        return {
+            "type": "group",
+            "url": url,
+            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+        }
+
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
 
@@ -129,6 +150,12 @@ def get_photo_data(api, *, categorised_url, page):
         user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
 
         return get_public_photos_by_person(api, user_nsid=user_nsid, page=page)
+    elif categorised_url["type"] == "group":
+        group_nsid = lookup_group_nsid_from_url(
+            api, group_url=categorised_url["group_url"]
+        )
+
+        return get_photos_in_group_pool(api, group_nsid=group_nsid, page=page)
     else:
         return {}
 

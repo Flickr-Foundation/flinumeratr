@@ -197,6 +197,21 @@ def lookup_user_nsid_from_url(api, *, user_url):
     return resp.find(".//user").attrib["id"]
 
 
+def lookup_group_nsid_from_url(api, *, group_url):
+    """
+    Given the link to a group's photos or profile, return their NSID.
+    """
+    resp = api.call("flickr.urls.lookupGroup", url=group_url)
+
+    # The lookupUser response is of the form:
+    #
+    #       <group id="34427469792@N01">
+    #         <groupname>FlickrCentral</groupname>
+    #       </group>
+    #
+    return resp.find(".//group").attrib["id"]
+
+
 def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
     """
     A wrapper for calling APIs that return lots of photos as an array of
@@ -314,6 +329,21 @@ def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):
         # The response is wrapped in <photos> … </photos>
         wrapper_element="photos",
         user_id=user_nsid,
+        page=page,
+        per_page=per_page,
+    )
+
+
+def get_photos_in_group_pool(api, *, group_nsid, page, per_page=10):
+    """
+    Given a group on Flickr, return a list of photos in the group's pool.
+    """
+    return _call_get_photos_api(
+        api,
+        "flickr.groups.pools.getPhotos",
+        # The response is wrapped in <photos> … </photos>
+        wrapper_element="photos",
+        group_id=group_nsid,
         page=page,
         per_page=per_page,
     )
