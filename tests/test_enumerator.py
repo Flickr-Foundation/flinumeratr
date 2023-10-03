@@ -1,11 +1,17 @@
 import pytest
 
-from flinumeratr.url_parser import categorise_flickr_url, NotAFlickrUrl
+from flinumeratr.enumerator import categorise_flickr_url, NotAFlickrUrl
 
 
-def test_it_rejects_a_url_which_isnt_flickr():
+@pytest.mark.parametrize('url', [
+    ''
+    '1.2.3.4',
+    'https://example.net',
+    'ftp://s3.amazonaws.com/my-bukkit/object.txt'
+])
+def test_it_rejects_a_url_which_isnt_flickr(url):
     with pytest.raises(NotAFlickrUrl):
-        categorise_flickr_url('https://example.net')
+        categorise_flickr_url(url)
 
 
 @pytest.mark.parametrize(['url', 'photo_id'], [
@@ -25,7 +31,7 @@ def test_it_categories_an_album():
     url = 'https://www.flickr.com/photos/cat_tac/albums/72157666833379009'
     
     assert categorise_flickr_url(url) == {
-        'type': 'album',
+        'type': 'photoset',
         'url': url,
-        'album_id': '72157666833379009',
+        'photoset_id': '72157666833379009',
     }

@@ -1,3 +1,19 @@
+"""
+This file contains the core logic for "flinumeration" -- that is,
+taking any URL on Flickr.com, and identifying a list of photos
+that are behind that URL.
+
+The process of flinumeration is split into two steps:
+
+    1.  Categorising the URL.  This means taking a URL, and working
+        out what it points to, e.g. a single image, album, a user.
+
+    2.  Getting results from the categorised URL.  This means taking
+        the output of step 1, and calling the Flickr API to get the
+        appropriate images.
+
+"""
+
 import hyperlink
 
 
@@ -13,6 +29,8 @@ def categorise_flickr_url(url):
     """
     Categorises a Flickr URL, e.g. whether it's a single image, an album,
     a user.
+    
+    This is the first step of flinumeration.
     """
     u = hyperlink.URL.from_text(url.rstrip('/'))
     
@@ -41,9 +59,9 @@ def categorise_flickr_url(url):
     # https://www.flickr.com/photos/cat_tac/albums/72157666833379009
     if len(u.path) == 4 and u.path[0] == 'photos' and u.path[2] == 'albums' and u.path[3].isnumeric():
         return {
-            'type': 'album',
+            'type': 'photoset',
             'url': url,
-            'album_id': u.path[3]
+            'photoset_id': u.path[3]
         }
 
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
