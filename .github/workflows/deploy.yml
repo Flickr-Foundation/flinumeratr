@@ -12,8 +12,8 @@ jobs:
       uses: wei/git-sync@v1
       env:
         SOURCE_REPO: "https://github.com/wellcomecollection/ingest-inspector.git"
-        SOURCE_BRANCH: "live"
+        SOURCE_BRANCH: "main"
         DESTINATION_REPO: ${{ secrets.glitch_git_URL }}
-        DESTINATION_BRANCH: "live"
+        DESTINATION_BRANCH: "main"
       with:
         args: $SOURCE_REPO $SOURCE_BRANCH $DESTINATION_REPO $DESTINATION_BRANCH
