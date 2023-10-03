@@ -1,6 +1,52 @@
 import datetime
 
-from flinumeratr.flickr_api import get_single_photo_info
+from flinumeratr.flickr_api import get_licenses, get_single_photo_info
+
+
+def test_get_licenses(api):
+    assert get_licenses(api) == {
+        "0": {"name": "All Rights Reserved", "url": ""},
+        "1": {
+            "name": "Attribution-NonCommercial-ShareAlike License",
+            "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        },
+        "10": {
+            "name": "Public Domain Mark",
+            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        },
+        "2": {
+            "name": "Attribution-NonCommercial License",
+            "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        },
+        "3": {
+            "name": "Attribution-NonCommercial-NoDerivs License",
+            "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        },
+        "4": {
+            "name": "Attribution License",
+            "url": "https://creativecommons.org/licenses/by/2.0/",
+        },
+        "5": {
+            "name": "Attribution-ShareAlike License",
+            "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        },
+        "6": {
+            "name": "Attribution-NoDerivs License",
+            "url": "https://creativecommons.org/licenses/by-nd/2.0/",
+        },
+        "7": {
+            "name": "No known copyright restrictions",
+            "url": "https://www.flickr.com/commons/usage/",
+        },
+        "8": {
+            "name": "United States Government Work",
+            "url": "http://www.usa.gov/copyright.shtml",
+        },
+        "9": {
+            "name": "Public Domain Dedication (CC0)",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        },
+    }
 
 
 def test_get_single_photo_info(api):
@@ -116,5 +162,9 @@ def test_get_single_photo_info(api):
                 "width": 5172,
             },
         ],
+        "license": {
+            "name": "United States Government Work",
+            "url": "http://www.usa.gov/copyright.shtml",
+        },
         "url": "https://www.flickr.com/photos/coast_guard/32812033543/",
     }

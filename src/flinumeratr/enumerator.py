@@ -16,6 +16,8 @@ The process of flinumeration is split into two steps:
 
 import hyperlink
 
+from flinumeratr.flickr_api import get_single_photo_info
+
 
 class NotAFlickrUrl(Exception):
     pass
@@ -72,3 +74,26 @@ def categorise_flickr_url(url):
         return {"type": "photoset", "url": url, "photoset_id": u.path[3]}
 
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
+
+
+def get_photo_data(api, *, categorised_url):
+    """
+    Given some data about a categorised URL, actually fetch a list of photos
+    from Flickr.
+
+    This is the second step of flinumeration.
+    """
+    if categorised_url["type"] == "single_photo":
+        return [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
+    else:
+        return []
+
+
+def flinumerate(api, *, url):
+    categorised_url = categorise_flickr_url(url)
+    photos = get_photo_data(api, categorised_url=categorised_url)
+
+    return {
+        **categorised_url,
+        "photos": photos,
+    }

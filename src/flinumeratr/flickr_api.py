@@ -3,6 +3,7 @@ This file contains some methods for calling the Flickr API.
 """
 
 import datetime
+import functools
 import xml.etree.ElementTree as ET
 
 import httpx
@@ -38,6 +39,24 @@ class FlickrApi:
         return ET.fromstring(resp.text)
 
 
+@functools.lru_cache
+def get_licenses(api: FlickrApi):
+    """
+    Returns a list of licenses, arranged by code.
+    """
+    license_resp = api.call("flickr.photos.licenses.getInfo")
+
+    result = {}
+
+    for lic in license_resp.findall(".//license"):
+        result[lic.attrib["id"]] = {
+            "name": lic.attrib["name"],
+            "url": lic.attrib["url"],
+        }
+
+    return result
+
+
 def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     """
     Look up the information for a single photo.
@@ -45,11 +64,13 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     info_resp = api.call("flickr.photos.getInfo", photo_id=photo_id)
     sizes_resp = api.call("flickr.photos.getSizes", photo_id=photo_id)
 
+    licenses = get_licenses(api)
+
     # The getInfo response is a blob of XML of the form:
     #
     #       <?xml version="1.0" encoding="utf-8" ?>
     #       <rsp stat="ok">
-    #       <photo …>
+    #       <photo license="8" …>
     #       	<owner
     #               nsid="30884892@N08
     #               username="U.S. Coast Guard"
@@ -83,6 +104,9 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     )
 
     photo_page_url = info_resp.find('.//photo/urls/url[@type="photopage"]').text
+
+    license_code = info_resp.find(".//photo").attrib["license"]
+    license = licenses[license_code]
 
     # The getSizes response is a blob of XML of the form:
     #
@@ -121,6 +145,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
         "title": title,
         "date_posted": date_posted,
         "date_taken": date_taken,
+        "license": license,
         "url": photo_page_url,
         "sizes": sizes,
     }
