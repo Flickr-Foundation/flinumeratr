@@ -194,6 +194,9 @@ def lookup_user_nsid_from_url(api, *, user_url):
 
 
 def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
+    """
+    Given a photoset (album) on Flickr, return a list of photos in the album.
+    """
     extras = [
         "license",
         "date_upload",
