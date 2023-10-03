@@ -1,12 +1,20 @@
 import datetime
+import json
 
 from flinumeratr.flickr_api import (
     get_licenses,
     get_photos_in_photoset,
+    get_public_photos_by_person,
     get_single_photo_info,
     lookup_license_code,
     lookup_user_nsid_from_url,
 )
+
+
+class DatetimeEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.isoformat()
 
 
 def test_get_licenses(api):
@@ -372,6 +380,42 @@ def test_get_photos_in_photoset_can_paginate(api):
         api,
         user_nsid="12403504@N02",
         photoset_id="72157638792012173",
+        page=5,
+        per_page=1,
+    )
+
+    assert individual_resp["photos"][0] == all_resp["photos"][4]
+
+
+def test_get_public_photos_by_person(api):
+    resp = get_public_photos_by_person(
+        api,
+        user_nsid="47265398@N04",
+        page=1,
+        per_page=5,
+    )
+    
+    expected_result =  open('tests/fixtures/results/47265398@N04.json').read()
+
+    # Note: we have to serialise the response via JSON here because
+    # it contains `datetime.datetime` objects which were converted to
+    # strings in the saved JSON.
+    assert json.loads(json.dumps(resp, cls=DatetimeEncoder)) == json.loads(expected_result)
+
+
+
+def test_get_public_photos_by_person_can_paginate(api):
+    all_resp = get_public_photos_by_person(
+        api,
+        user_nsid="47265398@N04",
+        page=1,
+        per_page=5,
+    )
+
+    # Getting the 5th page with a page size of 1 means getting the 5th image
+    individual_resp = get_public_photos_by_person(
+        api,
+        user_nsid="47265398@N04",
         page=5,
         per_page=1,
     )
