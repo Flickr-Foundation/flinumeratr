@@ -43,14 +43,14 @@ def categorise_flickr_url(url):
     # https://www.flickr.com/photos/coast_guard/32812033543/
     if len(u.path) == 3 and u.path[0] == 'photos' and u.path[2].isnumeric():
         return {
-            'type': 'single_image',
+            'type': 'single_photo',
             'url': url,
             'photo_id': u.path[2],
         }
     
     if len(u.path) == 5 and u.path[0] == 'photos' and u.path[2].isnumeric() and u.path[3] == 'in' and u.path[4].startswith(('album-', 'photolist-')):
         return {
-            'type': 'single_image',
+            'type': 'single_photo',
             'url': url,
             'photo_id': u.path[2],
         }
