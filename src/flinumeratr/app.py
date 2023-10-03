@@ -24,6 +24,15 @@ else:
 
 @app.template_filter()
 def image_at(sizes, desired_size):
+    """
+    Given a list of image sizes from the Flickr API, return the source URL of
+    the desired size.
+    """
+    # TODO: Make more rigorous.  This function is very basic, and will throw
+    # a StopIteration exception if the size isn't found.
+    #
+    # It would be better if it had an awareness of the sizes that the Flickr API
+    # might return, so it could 
     return next(s["source"] for s in sizes if s["label"] == desired_size)
 
 
