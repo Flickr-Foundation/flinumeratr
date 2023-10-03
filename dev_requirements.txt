@@ -4,24 +4,49 @@
 #
 #    pip-compile dev_requirements.in
 #
+anyio==4.0.0
+    # via
+    #   -r requirements.txt
+    #   httpcore
 blinker==1.6.2
     # via
     #   -r requirements.txt
     #   flask
+certifi==2023.7.22
+    # via
+    #   -r requirements.txt
+    #   httpcore
+    #   httpx
 click==8.1.7
     # via
     #   -r requirements.txt
     #   flask
 exceptiongroup==1.1.3
-    # via pytest
+    # via
+    #   -r requirements.txt
+    #   anyio
+    #   pytest
 flask==3.0.0
+    # via -r requirements.txt
+h11==0.14.0
+    # via
+    #   -r requirements.txt
+    #   httpcore
+httpcore==0.18.0
+    # via
+    #   -r requirements.txt
+    #   httpx
+httpx==0.25.0
     # via -r requirements.txt
 hyperlink==21.0.0
     # via -r requirements.txt
 idna==3.4
     # via
     #   -r requirements.txt
+    #   anyio
+    #   httpx
     #   hyperlink
+    #   yarl
 importlib-metadata==6.8.0
     # via
     #   -r requirements.txt
@@ -41,18 +66,36 @@ markupsafe==2.1.3
     #   -r requirements.txt
     #   jinja2
     #   werkzeug
+multidict==6.0.4
+    # via yarl
 packaging==23.2
     # via pytest
 pluggy==1.3.0
     # via pytest
 pytest==7.4.2
     # via -r dev_requirements.in
+pyyaml==6.0.1
+    # via vcrpy
+sniffio==1.3.0
+    # via
+    #   -r requirements.txt
+    #   anyio
+    #   httpcore
+    #   httpx
 tomli==2.0.1
     # via pytest
+urllib3==1.26.17
+    # via vcrpy
+vcrpy==5.1.0
+    # via -r dev_requirements.in
 werkzeug==3.0.0
     # via
     #   -r requirements.txt
     #   flask
+wrapt==1.15.0
+    # via vcrpy
+yarl==1.9.2
+    # via vcrpy
 zipp==3.17.0
     # via
     #   -r requirements.txt
