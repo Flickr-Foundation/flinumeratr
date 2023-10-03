@@ -127,12 +127,8 @@ def get_photo_data(api, *, categorised_url, page):
         )
     elif categorised_url["type"] == "people":
         user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
-        
-        return get_public_photos_by_person(
-            api,
-            user_nsid=user_nsid,
-            page=page
-        )
+
+        return get_public_photos_by_person(api, user_nsid=user_nsid, page=page)
     else:
         return {}
 

@@ -292,7 +292,7 @@ def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
         api,
         "flickr.photosets.getPhotos",
         # The response is wrapped in <photoset> … </photoset>
-        wrapper_element='photoset',
+        wrapper_element="photoset",
         user_id=user_nsid,
         photoset_id=photoset_id,
         page=page,
@@ -308,7 +308,7 @@ def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):
         api,
         "flickr.people.getPublicPhotos",
         # The response is wrapped in <photos> … </photos>
-        wrapper_element='photos',
+        wrapper_element="photos",
         user_id=user_nsid,
         page=page,
         per_page=per_page,

@@ -394,14 +394,15 @@ def test_get_public_photos_by_person(api):
         page=1,
         per_page=5,
     )
-    
-    expected_result =  open('tests/fixtures/results/47265398@N04.json').read()
+
+    expected_result = open("tests/fixtures/results/47265398@N04.json").read()
 
     # Note: we have to serialise the response via JSON here because
     # it contains `datetime.datetime` objects which were converted to
     # strings in the saved JSON.
-    assert json.loads(json.dumps(resp, cls=DatetimeEncoder)) == json.loads(expected_result)
-
+    assert json.loads(json.dumps(resp, cls=DatetimeEncoder)) == json.loads(
+        expected_result
+    )
 
 
 def test_get_public_photos_by_person_can_paginate(api):
