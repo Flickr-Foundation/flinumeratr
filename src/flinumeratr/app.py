@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 
 from flask import Flask, render_template, request
 
@@ -10,7 +11,14 @@ from flinumeratr.flickr_api import FlickrApi, get_single_photo_info
 
 app = Flask(__name__)
 
-api = FlickrApi.with_api_key(os.environ['FLICKR_API_KEY'])
+try:
+    api_key = os.environ['FLICKR_API_KEY']
+except KeyError:
+    sys.exit(
+        "Could not find Flickr API key! "
+        "Please set the FLICKR_API_KEY environment variable and run again.")
+else:
+    api = FlickrApi.with_api_key(api_key)
 
 
 @app.route("/")
