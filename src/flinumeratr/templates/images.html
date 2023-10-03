@@ -2,7 +2,19 @@
 
 {% block content %}
 
+<form action="images">
+	<label for="flickr_url">Flickr URL</label>
+  
+	<input type="url" name="flickr_url" placeholder="https://www.flickr.com/photos/…" value="{{ data.url }}"/>
+</form>
+
+<hr/>
+
 <style>
+  form {
+    margin-bottom: 1em;
+  }
+  
 	#photos {
 		list-style: none;
 	    padding: 0;
