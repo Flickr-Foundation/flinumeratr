@@ -47,3 +47,19 @@ def test_it_categories_an_album():
         "user_url": "https://www.flickr.com/photos/cat_tac",
         "photoset_id": "72157666833379009",
     }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://www.flickr.com/photos/blueminds/",
+        "https://www.flickr.com/people/blueminds/",
+        "https://www.flickr.com/photos/blueminds/albums",
+    ],
+)
+def test_it_categorises_a_person(url):
+    assert categorise_flickr_url(url) == {
+        "type": "people",
+        "url": url,
+        "user_url": "https://www.flickr.com/photos/blueminds",
+    }

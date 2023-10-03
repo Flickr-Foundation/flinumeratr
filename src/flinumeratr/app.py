@@ -36,6 +36,11 @@ def image_at(sizes, desired_size):
     return next(s["source"] for s in sizes if s["label"] == desired_size)
 
 
+@app.template_filter()
+def example_url(url):
+    return f'<li><a href="{url}">{url.replace("https://www.flickr.com", "")}</a></li>'
+
+
 @app.route("/")
 def index():
     return render_template("index.html")

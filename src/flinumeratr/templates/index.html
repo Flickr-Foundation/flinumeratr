@@ -22,24 +22,19 @@
 <ul>
   <li>Look up a single image:
     <ul>
-      <li>
-        <a href="{{ url_for('images', flickr_url='https://www.flickr.com/photos/coast_guard/32812033543')}}">
-          https://www.flickr.com/photos/coast_guard/32812033543
-        </a>
+      {{ "https://www.flickr.com/photos/coast_guard/32812033543" | example_url | safe }}
     </ul>
   </li>
   <li>Look up an album:
     <ul>
-      <li>
-        <a href="{{ url_for('images', flickr_url='https://www.flickr.com/photos/cat_tac/albums/72157666833379009')}}">
-          https://www.flickr.com/photos/cat_tac/albums/72157666833379009
-        </a>
-      </li>
-      <li>
-        <a href="{{ url_for('images', flickr_url='https://www.flickr.com/photos/britishlibrary/albums/72157638792012173')}}">
-          https://www.flickr.com/photos/britishlibrary/albums/72157638792012173
-        </a>
-      </li>
+      {{ "https://www.flickr.com/photos/cat_tac/albums/72157666833379009" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/britishlibrary/albums/72157638792012173" | example_url | safe }}
+    </ul>
+  </li>
+  <li>Look up a user:
+    <ul>
+      {{ "https://www.flickr.com/people/blueminds/" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/hansfotografeert/" | example_url | safe }}
     </ul>
   </li>
 </ul>
