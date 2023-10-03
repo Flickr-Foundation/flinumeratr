@@ -3,6 +3,7 @@ import json
 
 from flinumeratr.flickr_api import (
     get_licenses,
+    get_photos_in_gallery,
     get_photos_in_group_pool,
     get_photos_in_photoset,
     get_public_photos_by_person,
@@ -13,6 +14,7 @@ from flinumeratr.flickr_api import (
 )
 
 from fixtures import (
+    GET_PHOTOS_IN_GALLERY,
     GET_PHOTOS_IN_PHOTOSET,
     GET_PUBLIC_PHOTOS_BY_PERSON,
     GET_PHOTOS_IN_GROUP_POOL,
@@ -279,3 +281,11 @@ def test_get_photos_in_group_pool(api):
     resp = get_photos_in_group_pool(api, group_nsid="31849566@N00", page=1, per_page=5)
 
     assert resp == GET_PHOTOS_IN_GROUP_POOL
+
+
+def test_get_photos_in_gallery(api):
+    resp = get_photos_in_gallery(
+        api, gallery_id="72157722096057728", page=1, per_page=5
+    )
+
+    assert resp == GET_PHOTOS_IN_GALLERY
