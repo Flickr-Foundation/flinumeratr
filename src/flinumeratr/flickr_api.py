@@ -77,12 +77,16 @@ def lookup_license_code(api: FlickrApi, *, license_code: str):
 
 
 def _parse_date_posted(p):
+    # See https://www.flickr.com/services/api/misc.dates.html
     # e.g. '1490376472'
-    return datetime.datetime.fromtimestamp(int(p))
+    return datetime.datetime.utcfromtimestamp(int(p))
 
 
 def _parse_date_taken(p):
+    # See https://www.flickr.com/services/api/misc.dates.html
     # e.g. '2017-02-17 00:00:00'
+    #
+    # TODO: Implement proper support for granularity in this function.
     return datetime.datetime.strptime(p, "%Y-%m-%d %H:%M:%S")
 
 
