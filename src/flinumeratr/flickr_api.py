@@ -9,6 +9,13 @@ import httpx
 
 
 class FlickrApi:
+    """
+    This is a thin wrapper for calling the Flickr API.
+    
+    It doesn't do much interesting stuff; the goal is just to reduce boilerplate
+    in the rest of the codebase, e.g. have the XML parsing in one place rather
+    than repeated everywhere.
+    """
     def __init__(self, *, api_key):
         self.client = httpx.Client(
             base_url='https://api.flickr.com/services/rest/',
