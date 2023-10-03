@@ -1,7 +1,5 @@
 import datetime
 
-import httpx
-
 from flinumeratr.flickr_api import get_single_photo_info
 
 
