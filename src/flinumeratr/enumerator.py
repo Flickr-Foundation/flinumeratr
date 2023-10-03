@@ -20,6 +20,7 @@ from flinumeratr.flickr_api import (
     get_photos_in_gallery,
     get_photos_in_group_pool,
     get_photos_in_photoset,
+    get_photos_with_tag,
     get_public_photos_by_person,
     get_single_photo_info,
     lookup_group_nsid_from_url,
@@ -46,7 +47,7 @@ def categorise_flickr_url(url):
 
     # If this URL doesn't come from Flickr.com, then we can't possibly classify
     # it as a Flickr URL!
-    if u.host != "www.flickr.com":
+    if u.host not in {"www.flickr.com", "flickr.com"}:
         raise NotAFlickrUrl(url)
 
     # The URL for a single photo, e.g.
@@ -136,6 +137,13 @@ def categorise_flickr_url(url):
     ):
         return {"type": "galleries", "url": url, "gallery_id": u.path[3]}
 
+    # URL for a tag, e.g.
+    #
+    #     https://flickr.com/photos/tags/tennis/
+    #
+    if len(u.path) == 3 and u.path[0] == "photos" and u.path[1] == "tags":
+        return {"type": "tags", "url": url, "tag": u.path[2]}
+
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
 
@@ -173,6 +181,8 @@ def get_photo_data(api, *, categorised_url, page):
         )
 
         return get_photos_in_group_pool(api, group_nsid=group_nsid, page=page)
+    elif categorised_url["type"] == "tags":
+        return get_photos_with_tag(api, tag=categorised_url["tag"], page=page)
     else:
         return {}
 

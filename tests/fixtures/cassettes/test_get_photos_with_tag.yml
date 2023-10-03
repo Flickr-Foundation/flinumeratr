@@ -1,0 +1,167 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.25.0
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Cpath_alias%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o&method=flickr.photos.search&page=1&per_page=5&sort=interestingness-desc&tags=tennis
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
+      page=\"1\" pages=\"207965\" perpage=\"5\" total=\"1039821\">\n\t<photo id=\"34858269343\"
+      owner=\"62505753@N08\" secret=\"40416c4ce2\" server=\"4233\" farm=\"5\" title=\"2017_Aegon_0450\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1498992441\"
+      datetaken=\"2017-06-19 18:28:50\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"SJM_1974\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4233/34858269343_40416c4ce2_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4233/34858269343_40416c4ce2_t.jpg\"
+      height_t=\"100\" width_t=\"73\" url_s=\"https://live.staticflickr.com/4233/34858269343_40416c4ce2_m.jpg\"
+      height_s=\"240\" width_s=\"174\" url_m=\"https://live.staticflickr.com/4233/34858269343_40416c4ce2.jpg\"
+      height_m=\"500\" width_m=\"363\" url_o=\"https://live.staticflickr.com/4233/34858269343_f17cdf5bd6_o.jpg\"
+      height_o=\"3738\" width_o=\"2715\" pathalias=\"sjm_1974\" />\n\t<photo id=\"26993403354\"
+      owner=\"49077663@N03\" secret=\"50187b9fb5\" server=\"7407\" farm=\"8\" title=\"Sorana
+      Cirstea\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1465665607\"
+      datetaken=\"2016-05-17 14:13:47\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Jimmie48 Tennis Photography\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/7407/26993403354_50187b9fb5_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/7407/26993403354_50187b9fb5_t.jpg\"
+      height_t=\"72\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7407/26993403354_50187b9fb5_m.jpg\"
+      height_s=\"174\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7407/26993403354_50187b9fb5.jpg\"
+      height_m=\"362\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7407/26993403354_0e617ac559_o.jpg\"
+      height_o=\"869\" width_o=\"1200\" pathalias=\"jjtennis\" />\n\t<photo id=\"26684886710\"
+      owner=\"49077663@N03\" secret=\"be712a4c51\" server=\"7557\" farm=\"8\" title=\"Jelena
+      Ostapenko\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1462999542\"
+      datetaken=\"2016-05-05 14:20:44\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Jimmie48 Tennis Photography\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/7557/26684886710_be712a4c51_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/7557/26684886710_be712a4c51_t.jpg\"
+      height_t=\"68\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7557/26684886710_be712a4c51_m.jpg\"
+      height_s=\"163\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7557/26684886710_be712a4c51.jpg\"
+      height_m=\"339\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7557/26684886710_b57d7ddce8_o.jpg\"
+      height_o=\"813\" width_o=\"1200\" pathalias=\"jjtennis\" />\n\t<photo id=\"23035076662\"
+      owner=\"98192132@N02\" secret=\"35122ca9b5\" server=\"775\" farm=\"1\" title=\"IMG_0045\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1447631654\"
+      datetaken=\"2014-06-12 13:36:13\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"stevez10is\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/775/23035076662_35122ca9b5_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/775/23035076662_35122ca9b5_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/775/23035076662_35122ca9b5_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/775/23035076662_35122ca9b5.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/775/23035076662_0c9b0f95e6_o.jpg\"
+      height_o=\"3648\" width_o=\"5472\" pathalias=\"\" />\n\t<photo id=\"19424174139\"
+      owner=\"49077663@N03\" secret=\"b6da7cc7c1\" server=\"314\" farm=\"1\" title=\"Eugenie
+      Bouchard\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1436640862\"
+      datetaken=\"2015-06-24 14:09:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Jimmie48 Tennis Photography\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/314/19424174139_b6da7cc7c1_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/314/19424174139_b6da7cc7c1_t.jpg\"
+      height_t=\"97\" width_t=\"100\" url_s=\"https://live.staticflickr.com/314/19424174139_b6da7cc7c1_m.jpg\"
+      height_s=\"233\" width_s=\"240\" url_m=\"https://live.staticflickr.com/314/19424174139_b6da7cc7c1.jpg\"
+      height_m=\"485\" width_m=\"500\" url_o=\"https://live.staticflickr.com/314/19424174139_820a97d5fe_o.jpg\"
+      height_o=\"1163\" width_o=\"1200\" pathalias=\"jjtennis\" />\n</photos>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1008'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 03 Oct 2023 15:06:44 GMT
+      Via:
+      - 1.1 3e01624605be2cc1fb592922856a08c6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - gnVc3mcPcme_JfwFL8thOkPO-RROzBIxix3qEu-dTPEn2__tXSMLxg==
+      X-Amz-Cf-Pop:
+      - LHR61-P1
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A0%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 15:06:44 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 15:06:44 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.25.0
+    method: GET
+    uri: https://api.flickr.com/services/rest/?method=flickr.photos.licenses.getInfo
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<licenses>\n\t<license
+      id=\"0\" name=\"All Rights Reserved\" url=\"\" />\n\t<license id=\"4\" name=\"Attribution
+      License\" url=\"https://creativecommons.org/licenses/by/2.0/\" />\n\t<license
+      id=\"6\" name=\"Attribution-NoDerivs License\" url=\"https://creativecommons.org/licenses/by-nd/2.0/\"
+      />\n\t<license id=\"3\" name=\"Attribution-NonCommercial-NoDerivs License\"
+      url=\"https://creativecommons.org/licenses/by-nc-nd/2.0/\" />\n\t<license id=\"2\"
+      name=\"Attribution-NonCommercial License\" url=\"https://creativecommons.org/licenses/by-nc/2.0/\"
+      />\n\t<license id=\"1\" name=\"Attribution-NonCommercial-ShareAlike License\"
+      url=\"https://creativecommons.org/licenses/by-nc-sa/2.0/\" />\n\t<license id=\"5\"
+      name=\"Attribution-ShareAlike License\" url=\"https://creativecommons.org/licenses/by-sa/2.0/\"
+      />\n\t<license id=\"7\" name=\"No known copyright restrictions\" url=\"https://www.flickr.com/commons/usage/\"
+      />\n\t<license id=\"8\" name=\"United States Government Work\" url=\"http://www.usa.gov/copyright.shtml\"
+      />\n\t<license id=\"9\" name=\"Public Domain Dedication (CC0)\" url=\"https://creativecommons.org/publicdomain/zero/1.0/\"
+      />\n\t<license id=\"10\" name=\"Public Domain Mark\" url=\"https://creativecommons.org/publicdomain/mark/1.0/\"
+      />\n</licenses>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '395'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 03 Oct 2023 15:06:44 GMT
+      Via:
+      - 1.1 3e01624605be2cc1fb592922856a08c6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Bx2SCUq6TP_RInePaYXRYn-N6iaSOF14VEOutxKSC4yz8YVcpmiAVw==
+      X-Amz-Cf-Pop:
+      - LHR61-P1
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 15:06:44 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

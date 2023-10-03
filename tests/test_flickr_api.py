@@ -6,6 +6,7 @@ from flinumeratr.flickr_api import (
     get_photos_in_gallery,
     get_photos_in_group_pool,
     get_photos_in_photoset,
+    get_photos_with_tag,
     get_public_photos_by_person,
     get_single_photo_info,
     lookup_license_code,
@@ -18,6 +19,7 @@ from fixtures import (
     GET_PHOTOS_IN_PHOTOSET,
     GET_PUBLIC_PHOTOS_BY_PERSON,
     GET_PHOTOS_IN_GROUP_POOL,
+    GET_PHOTOS_WITH_TAG,
 )
 
 
@@ -289,3 +291,9 @@ def test_get_photos_in_gallery(api):
     )
 
     assert resp == GET_PHOTOS_IN_GALLERY
+
+
+def test_get_photos_with_tag(api):
+    resp = get_photos_with_tag(api, tag="tennis", page=1, per_page=5)
+
+    assert resp == GET_PHOTOS_WITH_TAG
