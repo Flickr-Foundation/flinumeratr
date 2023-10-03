@@ -1,5 +1,13 @@
 <html>
 
+<style>
+  body{
+    margin: 1em auto;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+</style>
+
 <form action="images">
 	<label for="flickr_url">Flickr URL</label>
 	<input type="url" name="flickr_url"/>
@@ -7,3 +15,31 @@
 	<input type="submit" value="Go!" />
 	
 </form>
+
+<hr/>
+
+<h3>Examples</h3>
+<ul>
+  <li>Look up a single image:
+    <ul>
+      <li>
+        <a href="{{ url_for('images', flickr_url='https://www.flickr.com/photos/coast_guard/32812033543')}}">
+          https://www.flickr.com/photos/coast_guard/32812033543
+        </a>
+    </ul>
+  </li>
+  <li>Look up an album:
+    <ul>
+      <li>
+        <a href="{{ url_for('images', flickr_url='https://www.flickr.com/photos/cat_tac/albums/72157666833379009')}}">
+          https://www.flickr.com/photos/cat_tac/albums/72157666833379009
+        </a>
+      </li>
+      <li>
+        <a href="{{ url_for('images', flickr_url='https://www.flickr.com/photos/britishlibrary/albums/72157638792012173')}}">
+          https://www.flickr.com/photos/britishlibrary/albums/72157638792012173
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>

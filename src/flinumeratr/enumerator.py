@@ -16,7 +16,11 @@ The process of flinumeration is split into two steps:
 
 import hyperlink
 
-from flinumeratr.flickr_api import get_single_photo_info
+from flinumeratr.flickr_api import (
+    get_photos_in_photoset,
+    get_single_photo_info,
+    lookup_user_id_from_url,
+)
 
 
 class NotAFlickrUrl(Exception):
@@ -81,7 +85,7 @@ def categorise_flickr_url(url):
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
 
-def get_photo_data(api, *, categorised_url):
+def get_photo_data(api, *, categorised_url, page):
     """
     Given some data about a categorised URL, actually fetch a list of photos
     from Flickr.
@@ -89,16 +93,27 @@ def get_photo_data(api, *, categorised_url):
     This is the second step of flinumeration.
     """
     if categorised_url["type"] == "single_photo":
-        return [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
+        return {
+            "photos": [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
+        }
+    elif categorised_url["type"] == "photoset":
+        user_nsid = lookup_user_id_from_url(api, user_url=categorised_url["user_url"])
+
+        return get_photos_in_photoset(
+            api,
+            user_nsid=user_nsid,
+            photoset_id=categorised_url["photoset_id"],
+            page=page,
+        )
     else:
-        return []
+        return {}
 
 
-def flinumerate(api, *, url):
+def flinumerate(api, *, url, page):
     categorised_url = categorise_flickr_url(url)
-    photos = get_photo_data(api, categorised_url=categorised_url)
+    photos = get_photo_data(api, categorised_url=categorised_url, page=page)
 
     return {
         **categorised_url,
-        "photos": photos,
+        **photos,
     }

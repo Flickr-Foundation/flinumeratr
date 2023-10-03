@@ -14,7 +14,7 @@
 		display: grid;
 		grid-gap: 10px;
 		
-		grid-template-columns: 250px auto;		
+		grid-template-columns: 200px auto;		
 	}
 	
 	#photos .photo {
@@ -35,16 +35,15 @@
 <ul id="photos">
 {% for p in data.photos %}
 	<li>
-		<a class="photo" href="{{ p.url }}"><img src="{{ p.thumbnail }}"></a><br/>
+		<a class="photo" href="{{ p.url }}"><img src="{{ p.sizes | image_at("Small") }}"></a><br/>
 		<div class="metadata">
-			<p><h4><a href="{{ p.url }}">{{ p.title }}</a> | {{ p.author }}</h4></p>
+			<p><h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a> | {{ p.owner }}</h4></p>
 			taken {{ p.date_taken.strftime("%-d %B %Y") }}, posted to Flickr {{ p.date_posted.strftime("%-d %B %Y") }}<br/>
 			<a href="{{ p.license.url }}">{{ p.license.name }}</a>
 		</div>
 	</li>
 {% endfor %}
 </ul>
-
 
 <p>
 	<a href="/">go back to the start</a>

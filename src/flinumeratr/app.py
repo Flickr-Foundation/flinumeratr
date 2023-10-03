@@ -22,6 +22,11 @@ else:
     api = FlickrApi(api_key=api_key)
 
 
+@app.template_filter()
+def image_at(sizes, desired_size):
+    return next(s["source"] for s in sizes if s["label"] == desired_size)
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -29,9 +34,10 @@ def index():
 
 @app.route("/images")
 def images():
-    return render_template(
-        "images.html", data=flinumerate(api, url=request.args["flickr_url"])
-    )
+    url = request.args["flickr_url"]
+    page = int(request.args.get("page", "1"))
+
+    return render_template("images.html", data=flinumerate(api, url=url, page=page))
 
 
 def main():
