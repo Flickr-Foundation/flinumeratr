@@ -78,3 +78,14 @@ def test_it_categorises_a_group(url):
         "url": url,
         "group_url": "https://www.flickr.com/groups/slovenia",
     }
+
+
+@pytest.mark.parametrize(
+    "url", ["https://www.flickr.com/photos/flickr/galleries/72157722096057728/"]
+)
+def test_it_categorises_a_gallery(url):
+    assert categorise_flickr_url(url) == {
+        "type": "galleries",
+        "url": url,
+        "gallery_id": "72157722096057728",
+    }

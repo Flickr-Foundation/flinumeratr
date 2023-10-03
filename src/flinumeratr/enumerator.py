@@ -17,6 +17,7 @@ The process of flinumeration is split into two steps:
 import hyperlink
 
 from flinumeratr.flickr_api import (
+    get_photos_in_gallery,
     get_photos_in_group_pool,
     get_photos_in_photoset,
     get_public_photos_by_person,
@@ -123,6 +124,18 @@ def categorise_flickr_url(url):
             "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
         }
 
+    # URLs for a gallery, e.g.
+    #
+    #     https://www.flickr.com/photos/flickr/galleries/72157722096057728/
+    #
+    if (
+        len(u.path) == 4
+        and u.path[0] == "photos"
+        and u.path[2] == "galleries"
+        and u.path[3].isnumeric()
+    ):
+        return {"type": "galleries", "url": url, "gallery_id": u.path[3]}
+
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
 
@@ -150,6 +163,10 @@ def get_photo_data(api, *, categorised_url, page):
         user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
 
         return get_public_photos_by_person(api, user_nsid=user_nsid, page=page)
+    elif categorised_url["type"] == "galleries":
+        return get_photos_in_gallery(
+            api, gallery_id=categorised_url["gallery_id"], page=page
+        )
     elif categorised_url["type"] == "group":
         group_nsid = lookup_group_nsid_from_url(
             api, group_url=categorised_url["group_url"]

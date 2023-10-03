@@ -347,3 +347,18 @@ def get_photos_in_group_pool(api, *, group_nsid, page, per_page=10):
         page=page,
         per_page=per_page,
     )
+
+
+def get_photos_in_gallery(api, *, gallery_id, page, per_page=10):
+    """
+    Given a group on Flickr, return a list of photos in the group's pool.
+    """
+    return _call_get_photos_api(
+        api,
+        "flickr.galleries.getPhotos",
+        gallery_id=gallery_id,
+        # The response is wrapped in <photos> … </photos>
+        wrapper_element="photos",
+        page=page,
+        per_page=per_page,
+    )
