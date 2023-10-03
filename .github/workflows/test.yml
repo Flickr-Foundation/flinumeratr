@@ -22,7 +22,7 @@ jobs:
         pip install -e .
         pip install -r dev_requirements.txt
 		- name: Run linting
-		  run:
+		  run: |
 				black --check .
 				
 				# E501 = line too long; anything up to 100-ish is fine in my book
