@@ -175,7 +175,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     }
 
 
-def lookup_user_id_from_url(api, *, user_url):
+def lookup_user_nsid_from_url(api, *, user_url):
     """
     Given the link to a user's photos or profile, return their NSID.
     """

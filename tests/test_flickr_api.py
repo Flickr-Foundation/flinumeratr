@@ -5,7 +5,7 @@ from flinumeratr.flickr_api import (
     get_photos_in_photoset,
     get_single_photo_info,
     lookup_license_code,
-    lookup_user_id_from_url,
+    lookup_user_nsid_from_url,
 )
 
 
@@ -184,8 +184,8 @@ def test_get_single_photo_info(api):
     }
 
 
-def test_lookup_user_id_from_url(api):
-    nsid = lookup_user_id_from_url(
+def test_lookup_user_nsid_from_url(api):
+    nsid = lookup_user_nsid_from_url(
         api, user_url="https://www.flickr.com/photos/britishlibrary/"
     )
 

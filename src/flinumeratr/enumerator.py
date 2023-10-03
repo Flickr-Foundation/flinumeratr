@@ -19,7 +19,7 @@ import hyperlink
 from flinumeratr.flickr_api import (
     get_photos_in_photoset,
     get_single_photo_info,
-    lookup_user_id_from_url,
+    lookup_user_nsid_from_url,
 )
 
 
@@ -97,7 +97,7 @@ def get_photo_data(api, *, categorised_url, page):
             "photos": [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
         }
     elif categorised_url["type"] == "photoset":
-        user_nsid = lookup_user_id_from_url(api, user_url=categorised_url["user_url"])
+        user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
 
         return get_photos_in_photoset(
             api,
