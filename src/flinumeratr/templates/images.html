@@ -1,8 +1,49 @@
 <h3>
-	Images for {{ url }}
+	Images for {{ data.url }}
 </h3>
 
-IMAGE 1 / IMAGE 2 / IMAGE 3
+<style>
+	#photos {
+		list-style: none;
+	    padding: 0;
+	    margin:  0;
+		
+	}
+	
+	#photos li {
+		display: grid;
+		grid-gap: 10px;
+		
+		grid-template-columns: 200px auto;		
+	}
+	
+	#photos .photo {
+		grid-column: 1 / 2;
+		grid-row: 1 / 1;
+	}
+	
+	#photos .photo img {
+		max-width: 100%;
+	}
+	
+	#photos .metadata {
+		grid-column: 2 / 2;
+		grid-row: 1 / 1;
+	}
+</style>
+
+<ul id="photos">
+{% for p in data.photos %}
+	<li>
+		<a class="photo" href="{{ p.url }}"><img src="{{ p.sizes | image_at("Small") }}"></a><br/>
+		<div class="metadata">
+			<p><h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a> | {{ p.owner }}</h4></p>
+			taken {{ p.date_taken.strftime("%-d %B %Y") }}, posted to Flickr {{ p.date_posted.strftime("%-d %B %Y") }}<br/>
+			<a href="{{ p.license.url }}">{{ p.license.name }}</a>
+		</div>
+	</li>
+{% endfor %}
+</ul>
 
 <p>
 	<a href="/">go back to the start</a>

@@ -1,0 +1,300 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.25.0
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Cpath_alias%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157638792012173&user_id=12403504%40N02
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
+      id=\"72157638792012173\" primary=\"11225186786\" owner=\"12403504@N02\" ownername=\"The
+      British Library\" page=\"1\" per_page=\"10\" perpage=\"10\" pages=\"10\" title=\"Random
+      Selections made by the Mechanical Curator\" total=\"100\">\n\t<photo id=\"11225186786\"
+      secret=\"d0316726e1\" server=\"3755\" farm=\"4\" title=\"British Library digitised
+      image from page 99 of &quot;The Cathedral Churches of Ireland: being notes,
+      more especially on the smaller and less known of those churches, etc&quot;\"
+      isprimary=\"1\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" dateupload=\"1386269730\"
+      datetaken=\"2013-12-05 18:55:30\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"The British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3755/11225186786_d0316726e1_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3755/11225186786_d0316726e1_t.jpg\"
+      height_t=\"100\" width_t=\"77\" url_s=\"https://live.staticflickr.com/3755/11225186786_d0316726e1_m.jpg\"
+      height_s=\"240\" width_s=\"186\" url_m=\"https://live.staticflickr.com/3755/11225186786_d0316726e1.jpg\"
+      height_m=\"500\" width_m=\"387\" url_o=\"https://live.staticflickr.com/3755/11225186786_141efb0b4d_o.jpg\"
+      height_o=\"1777\" width_o=\"1377\" pathalias=\"britishlibrary\" />\n\t<photo
+      id=\"11027979564\" secret=\"c8cf42af86\" server=\"2874\" farm=\"3\" title=\"British
+      Library digitised image from page 36 of &quot;A New and Popular Pictorial Description
+      of England, Scotland, Ireland, Wales, and the British Islands. Embellished with
+      several hundred handsome engravings ... Sixth thousand&quot;\" isprimary=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" dateupload=\"1385300388\"
+      datetaken=\"2013-11-24 13:39:48\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"The British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2874/11027979564_c8cf42af86_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2874/11027979564_c8cf42af86_t.jpg\"
+      height_t=\"61\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2874/11027979564_c8cf42af86_m.jpg\"
+      height_s=\"146\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2874/11027979564_c8cf42af86.jpg\"
+      height_m=\"303\" width_m=\"500\" url_o=\"https://live.staticflickr.com/2874/11027979564_dde17ab292_o.jpg\"
+      height_o=\"2451\" width_o=\"1487\" pathalias=\"britishlibrary\" />\n\t<photo
+      id=\"11146804456\" secret=\"f9cecc2443\" server=\"3693\" farm=\"4\" title=\"British
+      Library digitised image from page 163 of &quot;History of the Hospital and School
+      in Glasgow founded by George and Thomas Hutcheson, of Lambhill, A.D. 1639-41,
+      with notices of the founders, etc&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"7\" dateupload=\"1385882844\" datetaken=\"2013-12-01
+      07:27:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
+      British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3693/11146804456_f9cecc2443_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3693/11146804456_f9cecc2443_t.jpg\"
+      height_t=\"57\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3693/11146804456_f9cecc2443_m.jpg\"
+      height_s=\"136\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3693/11146804456_f9cecc2443.jpg\"
+      height_m=\"283\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3693/11146804456_4ba65fbed5_o.jpg\"
+      height_o=\"2368\" width_o=\"1342\" pathalias=\"britishlibrary\" />\n\t<photo
+      id=\"11229968365\" secret=\"25b271b4c0\" server=\"5497\" farm=\"6\" title=\"British
+      Library digitised image from page 401 of &quot;A History of the Scottish People
+      from the earliest times to the ... year ... 1887 [By T. Thomson. Continued by
+      C. Annandale. With illustrations.]&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"7\" dateupload=\"1386295681\" datetaken=\"2013-12-06
+      02:08:01\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
+      British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5497/11229968365_25b271b4c0_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5497/11229968365_25b271b4c0_t.jpg\"
+      height_t=\"100\" width_t=\"61\" url_s=\"https://live.staticflickr.com/5497/11229968365_25b271b4c0_m.jpg\"
+      height_s=\"240\" width_s=\"146\" url_m=\"https://live.staticflickr.com/5497/11229968365_25b271b4c0.jpg\"
+      height_m=\"500\" width_m=\"305\" url_o=\"https://live.staticflickr.com/5497/11229968365_49ac7990d1_o.jpg\"
+      height_o=\"2693\" width_o=\"1642\" pathalias=\"britishlibrary\" />\n\t<photo
+      id=\"11249316316\" secret=\"c5a2ed526f\" server=\"7319\" farm=\"8\" title=\"British
+      Library digitised image from page 194 of &quot;Om Lappland och Lapparne, f\xF6retr\xE4desvis
+      de Svenske. Ethnografiska studier, etc&quot;\" isprimary=\"0\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"7\" dateupload=\"1386410741\" datetaken=\"2013-12-07
+      10:05:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
+      British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f_t.jpg\"
+      height_t=\"64\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f_m.jpg\"
+      height_s=\"153\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f.jpg\"
+      height_m=\"319\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7319/11249316316_6c73b3d3db_o.jpg\"
+      height_o=\"1007\" width_o=\"1578\" pathalias=\"britishlibrary\" />\n\t<photo
+      id=\"11116877876\" secret=\"0baff0800f\" server=\"7456\" farm=\"8\" title=\"British
+      Library digitised image from page 74 of &quot;The Aldine &#039;O&#039;er Land
+      and Sea.&#039; Library&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"7\" dateupload=\"1385734427\" datetaken=\"2013-11-29
+      14:13:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
+      British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7456/11116877876_0baff0800f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7456/11116877876_0baff0800f_t.jpg\"
+      height_t=\"70\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7456/11116877876_0baff0800f_m.jpg\"
+      height_s=\"169\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7456/11116877876_0baff0800f.jpg\"
+      height_m=\"351\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7456/11116877876_c8890a0271_o.jpg\"
+      height_o=\"583\" width_o=\"830\" pathalias=\"britishlibrary\" />\n\t<photo id=\"11038496414\"
+      secret=\"3129bf6329\" server=\"7367\" farm=\"8\" title=\"British Library digitised
+      image from page 113 of &quot;A collection of ballads printed in London. Formed
+      by T. Crampton&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"7\" dateupload=\"1385335536\" datetaken=\"2013-11-24 23:25:36\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"The British Library\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/7367/11038496414_3129bf6329_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/7367/11038496414_3129bf6329_t.jpg\"
+      height_t=\"69\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7367/11038496414_3129bf6329_m.jpg\"
+      height_s=\"165\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7367/11038496414_3129bf6329.jpg\"
+      height_m=\"344\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7367/11038496414_58c65ac678_o.jpg\"
+      height_o=\"680\" width_o=\"988\" pathalias=\"britishlibrary\" />\n\t<photo id=\"11048086716\"
+      secret=\"9a8a290117\" server=\"5528\" farm=\"6\" title=\"British Library digitised
+      image from page 540 of &quot;Der Mensch, die R\xE4thsel und Wunder seiner Natur.
+      ... Vierte Auflage&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"7\" dateupload=\"1521187954\" datetaken=\"2013-11-25 12:25:41\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"The British Library\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/5528/11048086716_9a8a290117_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/5528/11048086716_9a8a290117_t.jpg\"
+      height_t=\"74\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5528/11048086716_9a8a290117_m.jpg\"
+      height_s=\"177\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5528/11048086716_9a8a290117.jpg\"
+      height_m=\"369\" width_m=\"500\" url_o=\"https://live.staticflickr.com/5528/11048086716_a8a8625eb6_o.jpg\"
+      height_o=\"630\" width_o=\"853\" pathalias=\"britishlibrary\" />\n\t<photo id=\"11292316305\"
+      secret=\"1cc9b91267\" server=\"7291\" farm=\"8\" title=\"British Library digitised
+      image from page 49 of &quot;La Terra, trattato popolare di geografia universale
+      per G. Marinelli ed altri scienziati italiani, etc [With illustrations and maps.]&quot;\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" dateupload=\"1386607177\"
+      datetaken=\"2013-12-09 16:39:37\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"The British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7291/11292316305_1cc9b91267_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7291/11292316305_1cc9b91267_t.jpg\"
+      height_t=\"100\" width_t=\"91\" url_s=\"https://live.staticflickr.com/7291/11292316305_1cc9b91267_m.jpg\"
+      height_s=\"240\" width_s=\"219\" url_m=\"https://live.staticflickr.com/7291/11292316305_1cc9b91267.jpg\"
+      height_m=\"500\" width_m=\"455\" url_o=\"https://live.staticflickr.com/7291/11292316305_4357559fee_o.jpg\"
+      height_o=\"1231\" width_o=\"1121\" pathalias=\"britishlibrary\" />\n\t<photo
+      id=\"11117665116\" secret=\"2e219714d9\" server=\"3819\" farm=\"4\" title=\"British
+      Library digitised image from page 389 of &quot;King&#039;s Hand-book of the
+      United States planned and edited by M. King. Text by M. F. Sweetser ... Illustrations,
+      etc&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
+      dateupload=\"1385738166\" datetaken=\"2013-11-29 15:16:06\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"The British Library\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/3819/11117665116_2e219714d9_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/3819/11117665116_2e219714d9_t.jpg\"
+      height_t=\"56\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3819/11117665116_2e219714d9_m.jpg\"
+      height_s=\"134\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3819/11117665116_2e219714d9.jpg\"
+      height_m=\"280\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3819/11117665116_1bd1f2d459_o.jpg\"
+      height_o=\"448\" width_o=\"800\" pathalias=\"britishlibrary\" />\n</photoset>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2250'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 03 Oct 2023 11:29:49 GMT
+      Via:
+      - 1.1 43334d331c518c3406b3d27e1a927864.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - q0RTs_UX4_552HznFDjTKqOLkBh50hZp39Oc3SIoqFwHL50Ei1R3iA==
+      X-Amz-Cf-Pop:
+      - LHR61-P1
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A0%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 11:29:48 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 11:29:48 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.25.0
+    method: GET
+    uri: https://api.flickr.com/services/rest/?method=flickr.photos.licenses.getInfo
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<licenses>\n\t<license
+      id=\"0\" name=\"All Rights Reserved\" url=\"\" />\n\t<license id=\"4\" name=\"Attribution
+      License\" url=\"https://creativecommons.org/licenses/by/2.0/\" />\n\t<license
+      id=\"6\" name=\"Attribution-NoDerivs License\" url=\"https://creativecommons.org/licenses/by-nd/2.0/\"
+      />\n\t<license id=\"3\" name=\"Attribution-NonCommercial-NoDerivs License\"
+      url=\"https://creativecommons.org/licenses/by-nc-nd/2.0/\" />\n\t<license id=\"2\"
+      name=\"Attribution-NonCommercial License\" url=\"https://creativecommons.org/licenses/by-nc/2.0/\"
+      />\n\t<license id=\"1\" name=\"Attribution-NonCommercial-ShareAlike License\"
+      url=\"https://creativecommons.org/licenses/by-nc-sa/2.0/\" />\n\t<license id=\"5\"
+      name=\"Attribution-ShareAlike License\" url=\"https://creativecommons.org/licenses/by-sa/2.0/\"
+      />\n\t<license id=\"7\" name=\"No known copyright restrictions\" url=\"https://www.flickr.com/commons/usage/\"
+      />\n\t<license id=\"8\" name=\"United States Government Work\" url=\"http://www.usa.gov/copyright.shtml\"
+      />\n\t<license id=\"9\" name=\"Public Domain Dedication (CC0)\" url=\"https://creativecommons.org/publicdomain/zero/1.0/\"
+      />\n\t<license id=\"10\" name=\"Public Domain Mark\" url=\"https://creativecommons.org/publicdomain/mark/1.0/\"
+      />\n</licenses>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '395'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 03 Oct 2023 11:29:49 GMT
+      Via:
+      - 1.1 43334d331c518c3406b3d27e1a927864.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - CephyzapjIxvTeaZpm8beyvAlbNgUeVfT5pf-YVBikd7fJw5d_2eZg==
+      X-Amz-Cf-Pop:
+      - LHR61-P1
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 11:29:49 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.25.0
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Cpath_alias%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o&method=flickr.photosets.getPhotos&page=5&per_page=1&photoset_id=72157638792012173&user_id=12403504%40N02
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
+      id=\"72157638792012173\" primary=\"11225186786\" owner=\"12403504@N02\" ownername=\"The
+      British Library\" page=\"5\" per_page=\"1\" perpage=\"1\" pages=\"100\" title=\"Random
+      Selections made by the Mechanical Curator\" total=\"100\">\n\t<photo id=\"11249316316\"
+      secret=\"c5a2ed526f\" server=\"7319\" farm=\"8\" title=\"British Library digitised
+      image from page 194 of &quot;Om Lappland och Lapparne, f\xF6retr\xE4desvis de
+      Svenske. Ethnografiska studier, etc&quot;\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"7\" dateupload=\"1386410741\" datetaken=\"2013-12-07
+      10:05:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
+      British Library\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f_t.jpg\"
+      height_t=\"64\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f_m.jpg\"
+      height_s=\"153\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7319/11249316316_c5a2ed526f.jpg\"
+      height_m=\"319\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7319/11249316316_6c73b3d3db_o.jpg\"
+      height_o=\"1007\" width_o=\"1578\" pathalias=\"britishlibrary\" />\n</photoset>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '631'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 03 Oct 2023 11:29:49 GMT
+      Via:
+      - 1.1 43334d331c518c3406b3d27e1a927864.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - SokqywI2FaAmOCVQwlAGCr8X4GaUca-UOnwbKur5Bd1gGLLi_UxfDw==
+      X-Amz-Cf-Pop:
+      - LHR61-P1
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 02-Nov-2023 11:29:49 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

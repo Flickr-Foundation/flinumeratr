@@ -3,6 +3,7 @@ This file contains some methods for calling the Flickr API.
 """
 
 import datetime
+import functools
 import xml.etree.ElementTree as ET
 
 import httpx
@@ -38,6 +39,53 @@ class FlickrApi:
         return ET.fromstring(resp.text)
 
 
+@functools.lru_cache
+def get_licenses(api: FlickrApi):
+    """
+    Returns a list of licenses, arranged by code.
+    """
+    license_resp = api.call("flickr.photos.licenses.getInfo")
+
+    result = {}
+
+    for lic in license_resp.findall(".//license"):
+        result[lic.attrib["id"]] = {
+            "name": lic.attrib["name"],
+            "url": lic.attrib["url"],
+        }
+
+    return result
+
+
+@functools.lru_cache
+def lookup_license_code(api: FlickrApi, *, license_code: str):
+    """
+    Given a license code from the Flickr API, return the license data.
+
+    e.g. a Flickr API response might include a photo in the following form:
+
+        <photo license="0" …>
+
+    Then you'd call this function to find out what that means:
+
+        >>> lookup_license_code(api, license_code="0")
+        {"name": "All Rights Reserved", "url": ""}
+
+    """
+    licenses = get_licenses(api)
+    return licenses[license_code]
+
+
+def _parse_date_posted(p):
+    # e.g. '1490376472'
+    return datetime.datetime.fromtimestamp(int(p))
+
+
+def _parse_date_taken(p):
+    # e.g. '2017-02-17 00:00:00'
+    return datetime.datetime.strptime(p, "%Y-%m-%d %H:%M:%S")
+
+
 def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     """
     Look up the information for a single photo.
@@ -49,7 +97,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     #
     #       <?xml version="1.0" encoding="utf-8" ?>
     #       <rsp stat="ok">
-    #       <photo …>
+    #       <photo license="8" …>
     #       	<owner
     #               nsid="30884892@N08
     #               username="U.S. Coast Guard"
@@ -71,18 +119,17 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     #       </rsp>
     #
     title = info_resp.find(".//photo/title").text
+    owner = info_resp.find(".//photo/owner").attrib["realname"]
 
-    # e.g. '1490376472'
-    date_posted = datetime.datetime.fromtimestamp(
-        int(info_resp.find(".//photo/dates").attrib["posted"])
-    )
+    date_posted = _parse_date_posted(info_resp.find(".//photo/dates").attrib["posted"])
 
-    # e.g. '2017-02-17 00:00:00'
-    date_taken = datetime.datetime.strptime(
-        info_resp.find(".//photo/dates").attrib["taken"], "%Y-%m-%d %H:%M:%S"
-    )
+    date_taken = _parse_date_taken(info_resp.find(".//photo/dates").attrib["taken"])
 
     photo_page_url = info_resp.find('.//photo/urls/url[@type="photopage"]').text
+
+    license = lookup_license_code(
+        api, license_code=info_resp.find(".//photo").attrib["license"]
+    )
 
     # The getSizes response is a blob of XML of the form:
     #
@@ -119,8 +166,121 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
 
     return {
         "title": title,
+        "owner": owner,
         "date_posted": date_posted,
         "date_taken": date_taken,
+        "license": license,
         "url": photo_page_url,
         "sizes": sizes,
     }
+
+
+def lookup_user_nsid_from_url(api, *, user_url):
+    """
+    Given the link to a user's photos or profile, return their NSID.
+    """
+    resp = api.call("flickr.urls.lookupUser", url=user_url)
+
+    # The lookupUser response is of the form:
+    #
+    #       <?xml version="1.0" encoding="utf-8" ?>
+    #       <rsp stat="ok">
+    #       <user id="12403504@N02">
+    #       	<username>The British Library</username>
+    #       </user>
+    #       </rsp>
+    #
+    return resp.find(".//user").attrib["id"]
+
+
+def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
+    """
+    Given a photoset (album) on Flickr, return a list of photos in the album.
+    """
+    extras = [
+        "license",
+        "date_upload",
+        "date_taken",
+        "media",
+        "owner_name",
+        "path_alias",
+        "url_sq",
+        "url_t",
+        "url_s",
+        "url_m",
+        "url_o",
+    ]
+
+    resp = api.call(
+        "flickr.photosets.getPhotos",
+        user_id=user_nsid,
+        photoset_id=photoset_id,
+        page=page,
+        per_page=per_page,
+        extras=",".join(extras),
+    )
+
+    # The getPhotos response returns a list of IDs, of the form:
+    #
+    #       <photoset … pages="1">
+    #           <photo
+    #               …"
+    #               title=""
+    #               license="0"
+    #               dateupload="1511798124"
+    #               datetaken="2017-11-01 01:27:43"
+    #               ownername="Cat_tac"
+    #               url_sq="https://live.staticflickr.com/4529/38624477376_88d8b25499_s.jpg"
+    #               height_sq="75"
+    #               width_sq="75"
+    #           />
+    #           …
+    #       </photoset>
+    #
+    page_count = int(resp.find(".//photoset").attrib["pages"])
+
+    photos = []
+
+    for p in resp.findall(".//photo"):
+        # TODO: This is definitely a bit fragile and could do with refactoring/more
+        # rigorous testing.  e.g.
+        #
+        #   -   Do we need all the fields here, or just some?  We could simplify the
+        #       response both here and in `get_single_photo_info`.
+        #
+        sizes = []
+
+        for suffix, label in [
+            # TODO: Is this Square or Large Square?
+            ("sq", "Square"),
+            ("t", "Thumbnail"),
+            ("s", "Small"),
+            ("m", "Medium"),
+            ("o", "Original"),
+        ]:
+            try:
+                sizes.append(
+                    {
+                        "height": int(p.attrib[f"height_{suffix}"]),
+                        "width": int(p.attrib[f"width_{suffix}"]),
+                        "label": label,
+                        "media": p.attrib["media"],
+                        "source": p.attrib[f"url_{suffix}"],
+                    }
+                )
+            except KeyError:
+                pass
+
+        photos.append(
+            {
+                "title": p.attrib["title"],
+                "license": lookup_license_code(api, license_code=p.attrib["license"]),
+                "owner": p.attrib["ownername"],
+                "date_posted": _parse_date_posted(p.attrib["dateupload"]),
+                "date_taken": _parse_date_taken(p.attrib["datetaken"]),
+                "url": f"https://www.flickr.com/photos/{p.attrib['pathalias']}/{p.attrib['id']}",
+                "sizes": sizes,
+            }
+        )
+
+    return {"page_count": page_count, "photos": photos}
