@@ -124,20 +124,3 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
         'url': photo_page_url,
         'sizes': sizes,
     }
-    
-    # resp. ap
-    # info = client.get(params={})
-    # info = flickr.photos.getInfo(photo_id=category['photo_id'])
-    # sizes = flickr.photos.getSizes(photo_id=category['photo_id'])
-    #
-    # photos = [
-    #     {
-    #         'title': info['photo']['title']['_content'],
-    #         'dates': info['photo']['dates'],
-    #         'url': info['photo']['urls']['url'][0]['_content'],
-    #         'author': info['photo']['owner']['realname'],
-    #         'thumbnail': next(
-    #             s['source'] for s in sizes['sizes']['size'] if s['label'] == 'Thumbnail')
-    #     },
-    # ]
-    #
