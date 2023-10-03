@@ -93,8 +93,4 @@ def test_it_categorises_a_gallery(url):
 
 @pytest.mark.parametrize("url", ["https://flickr.com/photos/tags/tennis/"])
 def test_it_categories_a_tag(url):
-    assert categorise_flickr_url(url) == {
-        "type": "tags",
-        "url": url,
-        "tag": "tennis"
-    }
+    assert categorise_flickr_url(url) == {"type": "tags", "url": url, "tag": "tennis"}

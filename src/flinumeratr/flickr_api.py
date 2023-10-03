@@ -362,3 +362,24 @@ def get_photos_in_gallery(api, *, gallery_id, page, per_page=10):
         page=page,
         per_page=per_page,
     )
+
+
+def get_photos_with_tag(api, *, tag, page, per_page=10):
+    """
+    Given a tag on Flickr, return a list of photos in that tag.
+    """
+    return _call_get_photos_api(
+        api,
+        "flickr.photos.search",
+        tags=tag,
+        # This is so we get the same photos as you see on the "tag" page
+        # under "All Photos Tagged XYZ" -- if you click the URL to the
+        # full search results, you end up on a page like:
+        #
+        #     https://flickr.com/search/?sort=interestingness-desc&…
+        #
+        sort="interestingness-desc",
+        wrapper_element="photos",
+        page=page,
+        per_page=per_page,
+    )
