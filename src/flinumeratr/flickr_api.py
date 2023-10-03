@@ -193,9 +193,10 @@ def lookup_user_nsid_from_url(api, *, user_url):
     return resp.find(".//user").attrib["id"]
 
 
-def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
+def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
     """
-    Given a photoset (album) on Flickr, return a list of photos in the album.
+    A wrapper for calling APIs that return lots of photos as an array of
+    <photo> elements.
     """
     extras = [
         "license",
@@ -212,11 +213,8 @@ def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
     ]
 
     resp = api.call(
-        "flickr.photosets.getPhotos",
-        user_id=user_nsid,
-        photoset_id=photoset_id,
-        page=page,
-        per_page=per_page,
+        api_method,
+        **kwargs,
         extras=",".join(extras),
     )
 
@@ -237,7 +235,7 @@ def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
     #           …
     #       </photoset>
     #
-    page_count = int(resp.find(".//photoset").attrib["pages"])
+    page_count = int(resp.find(f".//{wrapper_element}").attrib["pages"])
 
     photos = []
 
@@ -284,3 +282,34 @@ def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
         )
 
     return {"page_count": page_count, "photos": photos}
+
+
+def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
+    """
+    Given a photoset (album) on Flickr, return a list of photos in the album.
+    """
+    return _call_get_photos_api(
+        api,
+        "flickr.photosets.getPhotos",
+        # The response is wrapped in <photoset> … </photoset>
+        wrapper_element='photoset',
+        user_id=user_nsid,
+        photoset_id=photoset_id,
+        page=page,
+        per_page=per_page,
+    )
+
+
+def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):
+    """
+    Given a person (user) on Flickr, return a list of their public photos.
+    """
+    return _call_get_photos_api(
+        api,
+        "flickr.people.getPublicPhotos",
+        # The response is wrapped in <photos> … </photos>
+        wrapper_element='photos',
+        user_id=user_nsid,
+        page=page,
+        per_page=per_page,
+    )
