@@ -10,7 +10,7 @@ import httpx
 
 class FlickrApi:
     def __init__(self, *, api_key):
-        self.client=httpx.Client(
+        self.client = httpx.Client(
             base_url='https://api.flickr.com/services/rest/',
             params={'api_key': api_key}
         )
@@ -104,7 +104,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     #
     # Within this function, we just return all the sizes -- we leave it up to the
     # caller to decide which size is most appropriate for their purposes.
-    sizes = [s.attrib for s in size_attribs.findall('.//size')]
+    sizes = [s.attrib for s in sizes_resp.findall('.//size')]
     
     for s in sizes:
         s['width'] = int(s['width'])
