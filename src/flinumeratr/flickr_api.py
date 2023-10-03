@@ -92,6 +92,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     #       </rsp>
     #
     title = info_resp.find(".//photo/title").text
+    owner = info_resp.find(".//photo/owner").attrib["realname"]
 
     # e.g. '1490376472'
     date_posted = datetime.datetime.fromtimestamp(
@@ -143,6 +144,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
 
     return {
         "title": title,
+        "owner": owner,
         "date_posted": date_posted,
         "date_taken": date_taken,
         "license": license,

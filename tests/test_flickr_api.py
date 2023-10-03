@@ -54,6 +54,7 @@ def test_get_single_photo_info(api):
 
     assert info == {
         "title": "Puppy Kisses",
+        "owner": "Coast Guard",
         "date_posted": datetime.datetime(2017, 3, 24, 17, 27, 52),
         "date_taken": datetime.datetime(2017, 2, 17, 0, 0),
         "sizes": [
