@@ -366,7 +366,7 @@ def test_get_photos_in_photoset_can_paginate(api):
     all_resp = get_photos_in_photoset(
         api, user_nsid="12403504@N02", photoset_id="72157638792012173", page=1
     )
-    
+
     # Getting the 5th page with a page size of 1 means getting the 5th image
     individual_resp = get_photos_in_photoset(
         api,

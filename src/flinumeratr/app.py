@@ -32,7 +32,7 @@ def image_at(sizes, desired_size):
     # a StopIteration exception if the size isn't found.
     #
     # It would be better if it had an awareness of the sizes that the Flickr API
-    # might return, so it could 
+    # might return, so it could
     return next(s["source"] for s in sizes if s["label"] == desired_size)
 
 
