@@ -3,14 +3,20 @@ import json
 
 from flinumeratr.flickr_api import (
     get_licenses,
+    get_photos_in_group_pool,
     get_photos_in_photoset,
     get_public_photos_by_person,
     get_single_photo_info,
     lookup_license_code,
+    lookup_group_nsid_from_url,
     lookup_user_nsid_from_url,
 )
 
-from fixtures import GET_PHOTOS_IN_PHOTOSET, GET_PUBLIC_PHOTOS_BY_PERSON
+from fixtures import (
+    GET_PHOTOS_IN_PHOTOSET,
+    GET_PUBLIC_PHOTOS_BY_PERSON,
+    GET_PHOTOS_IN_GROUP_POOL,
+)
 
 
 class DatetimeEncoder(json.JSONEncoder):
@@ -202,6 +208,14 @@ def test_lookup_user_nsid_from_url(api):
     assert nsid == "12403504@N02"
 
 
+def test_lookup_group_nsid_from_url(api):
+    nsid = lookup_group_nsid_from_url(
+        api, group_url="https://www.flickr.com/groups/slovenia/pool/"
+    )
+
+    assert nsid == "31849566@N00"
+
+
 def test_get_photos_in_photoset(api):
     resp = get_photos_in_photoset(
         api,
@@ -259,3 +273,9 @@ def test_get_public_photos_by_person_can_paginate(api):
     )
 
     assert individual_resp["photos"][0] == all_resp["photos"][4]
+
+
+def test_get_photos_in_group_pool(api):
+    resp = get_photos_in_group_pool(api, group_nsid="31849566@N00", page=1, per_page=5)
+
+    assert resp == GET_PHOTOS_IN_GROUP_POOL
