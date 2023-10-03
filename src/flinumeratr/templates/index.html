@@ -22,19 +22,19 @@
 <ul>
   <li>Look up a single image:
     <ul>
-      {{ "https://www.flickr.com/photos/coast_guard/32812033543" | example_url }}
+      {{ "https://www.flickr.com/photos/coast_guard/32812033543" | example_url | safe }}
     </ul>
   </li>
   <li>Look up an album:
     <ul>
-      {{ "https://www.flickr.com/photos/cat_tac/albums/72157666833379009" | example_url }}
-      {{ "https://www.flickr.com/photos/britishlibrary/albums/72157638792012173" | example_url }}
+      {{ "https://www.flickr.com/photos/cat_tac/albums/72157666833379009" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/britishlibrary/albums/72157638792012173" | example_url | safe }}
     </ul>
   </li>
   <li>Look up a user:
     <ul>
-      {{ "https://www.flickr.com/people/blueminds/" | example_url }}
-      {{ "https://www.flickr.com/photos/hansfotografeert/" | example_url }}
+      {{ "https://www.flickr.com/people/blueminds/" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/hansfotografeert/" | example_url | safe }}
     </ul>
   </li>
 </ul>
