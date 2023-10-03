@@ -1,13 +1,6 @@
-<html>
+{% extends "base.html" %}
 
-<style>
-  body{
-    margin: 1em auto;
-    max-width: 700px;
-    line-height: 1.6;
-  }
-</style>
-
+{% block content %}
 <form action="images">
 	<label for="flickr_url">Flickr URL</label>
 	<input type="url" name="flickr_url"/>
@@ -55,3 +48,4 @@
     </ul>
   </li>
 </ul>
+{% endblock %}
