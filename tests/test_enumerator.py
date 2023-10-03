@@ -63,3 +63,18 @@ def test_it_categorises_a_person(url):
         "url": url,
         "user_url": "https://www.flickr.com/photos/blueminds",
     }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://www.flickr.com/groups/slovenia/pool/",
+        "https://www.flickr.com/groups/slovenia/",
+    ],
+)
+def test_it_categorises_a_group(url):
+    assert categorise_flickr_url(url) == {
+        "type": "group",
+        "url": url,
+        "group_url": "https://www.flickr.com/groups/slovenia",
+    }

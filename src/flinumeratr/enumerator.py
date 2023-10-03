@@ -102,6 +102,25 @@ def categorise_flickr_url(url):
             "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
         }
 
+    # URLs for a group, e.g.
+    #
+    #     https://www.flickr.com/groups/slovenia/pool
+    #     https://www.flickr.com/groups/slovenia
+    #
+    if len(u.path) == 2 and u.path[0] == "groups":
+        return {
+            "type": "group",
+            "url": url,
+            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+        }
+
+    if len(u.path) == 3 and u.path[0] == "groups" and u.path[2] == "pool":
+        return {
+            "type": "group",
+            "url": url,
+            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+        }
+
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
 
