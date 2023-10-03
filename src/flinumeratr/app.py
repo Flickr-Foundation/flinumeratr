@@ -38,7 +38,7 @@ def image_at(sizes, desired_size):
 
 @app.template_filter()
 def example_url(url):
-    return f'<li><a href="{url}">{url.replace("https://www.flickr.com", "")}</a></li>'
+    return f'<li><a href="/images?flickr_url={url}">{url.replace("https://www.flickr.com", "")}</a></li>'
 
 
 @app.route("/")
