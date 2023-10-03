@@ -10,6 +10,8 @@ from flinumeratr.flickr_api import (
     lookup_user_nsid_from_url,
 )
 
+from fixtures import GET_PHOTOS_IN_PHOTOSET, GET_PUBLIC_PHOTOS_BY_PERSON
+
 
 class DatetimeEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -209,165 +211,7 @@ def test_get_photos_in_photoset(api):
         per_page=3,
     )
 
-    assert resp == {
-        "page_count": 34,
-        "photos": [
-            {
-                "date_posted": datetime.datetime(2013, 12, 5, 18, 55, 30),
-                "date_taken": datetime.datetime(2013, 12, 5, 18, 55, 30),
-                "license": {
-                    "name": "No known copyright restrictions",
-                    "url": "https://www.flickr.com/commons/usage/",
-                },
-                "owner": "The British Library",
-                "sizes": [
-                    {
-                        "height": 75,
-                        "label": "Square",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3755/11225186786_d0316726e1_s.jpg",
-                        "width": 75,
-                    },
-                    {
-                        "height": 100,
-                        "label": "Thumbnail",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3755/11225186786_d0316726e1_t.jpg",
-                        "width": 77,
-                    },
-                    {
-                        "height": 240,
-                        "label": "Small",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3755/11225186786_d0316726e1_m.jpg",
-                        "width": 186,
-                    },
-                    {
-                        "height": 500,
-                        "label": "Medium",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3755/11225186786_d0316726e1.jpg",
-                        "width": 387,
-                    },
-                    {
-                        "height": 1777,
-                        "label": "Original",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3755/11225186786_141efb0b4d_o.jpg",
-                        "width": 1377,
-                    },
-                ],
-                "title": 'British Library digitised image from page 99 of "The '
-                "Cathedral Churches of Ireland: being notes, more "
-                "especially on the smaller and less known of those "
-                'churches, etc"',
-                "url": "https://www.flickr.com/photos/britishlibrary/11225186786",
-            },
-            {
-                "date_posted": datetime.datetime(2013, 11, 24, 13, 39, 48),
-                "date_taken": datetime.datetime(2013, 11, 24, 13, 39, 48),
-                "license": {
-                    "name": "No known copyright restrictions",
-                    "url": "https://www.flickr.com/commons/usage/",
-                },
-                "owner": "The British Library",
-                "sizes": [
-                    {
-                        "height": 75,
-                        "label": "Square",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/2874/11027979564_c8cf42af86_s.jpg",
-                        "width": 75,
-                    },
-                    {
-                        "height": 61,
-                        "label": "Thumbnail",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/2874/11027979564_c8cf42af86_t.jpg",
-                        "width": 100,
-                    },
-                    {
-                        "height": 146,
-                        "label": "Small",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/2874/11027979564_c8cf42af86_m.jpg",
-                        "width": 240,
-                    },
-                    {
-                        "height": 303,
-                        "label": "Medium",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/2874/11027979564_c8cf42af86.jpg",
-                        "width": 500,
-                    },
-                    {
-                        "height": 2451,
-                        "label": "Original",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/2874/11027979564_dde17ab292_o.jpg",
-                        "width": 1487,
-                    },
-                ],
-                "title": 'British Library digitised image from page 36 of "A New '
-                "and Popular Pictorial Description of England, Scotland, "
-                "Ireland, Wales, and the British Islands. Embellished "
-                "with several hundred handsome engravings ... Sixth "
-                'thousand"',
-                "url": "https://www.flickr.com/photos/britishlibrary/11027979564",
-            },
-            {
-                "date_posted": datetime.datetime(2013, 12, 1, 7, 27, 24),
-                "date_taken": datetime.datetime(2013, 12, 1, 7, 27, 24),
-                "license": {
-                    "name": "No known copyright restrictions",
-                    "url": "https://www.flickr.com/commons/usage/",
-                },
-                "owner": "The British Library",
-                "sizes": [
-                    {
-                        "height": 75,
-                        "label": "Square",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3693/11146804456_f9cecc2443_s.jpg",
-                        "width": 75,
-                    },
-                    {
-                        "height": 57,
-                        "label": "Thumbnail",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3693/11146804456_f9cecc2443_t.jpg",
-                        "width": 100,
-                    },
-                    {
-                        "height": 136,
-                        "label": "Small",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3693/11146804456_f9cecc2443_m.jpg",
-                        "width": 240,
-                    },
-                    {
-                        "height": 283,
-                        "label": "Medium",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3693/11146804456_f9cecc2443.jpg",
-                        "width": 500,
-                    },
-                    {
-                        "height": 2368,
-                        "label": "Original",
-                        "media": "photo",
-                        "source": "https://live.staticflickr.com/3693/11146804456_4ba65fbed5_o.jpg",
-                        "width": 1342,
-                    },
-                ],
-                "title": "British Library digitised image from page 163 of "
-                '"History of the Hospital and School in Glasgow founded '
-                "by George and Thomas Hutcheson, of Lambhill, A.D. "
-                '1639-41, with notices of the founders, etc"',
-                "url": "https://www.flickr.com/photos/britishlibrary/11146804456",
-            },
-        ],
-    }
+    assert resp == GET_PHOTOS_IN_PHOTOSET
 
 
 def test_get_photos_in_photoset_can_paginate(api):
@@ -395,14 +239,7 @@ def test_get_public_photos_by_person(api):
         per_page=5,
     )
 
-    expected_result = open("tests/fixtures/results/47265398@N04.json").read()
-
-    # Note: we have to serialise the response via JSON here because
-    # it contains `datetime.datetime` objects which were converted to
-    # strings in the saved JSON.
-    assert json.loads(json.dumps(resp, cls=DatetimeEncoder)) == json.loads(
-        expected_result
-    )
+    assert resp == GET_PUBLIC_PHOTOS_BY_PERSON
 
 
 def test_get_public_photos_by_person_can_paginate(api):
