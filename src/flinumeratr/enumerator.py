@@ -45,6 +45,22 @@ def categorise_flickr_url(url):
     """
     u = hyperlink.URL.from_text(url.rstrip("/"))
 
+    # Handle URLs without a scheme, e.g.
+    #
+    #     flickr.com/photos/1234
+    #
+    # We know what the user means, but the hyperlink URL parsing library
+    # thinks this is just the path component, not a sans-HTTP URL.
+    #
+    # These lines convert this to a full HTTPS URL, i.e.
+    #
+    #     https://flickr.com/photos/1234
+    #
+    # which allows the rest of the logic in the function to do
+    # the "right thing" with this URL.
+    if not url.startswith("http") and u.path[0] in {"www.flickr.com", "flickr.com"}:
+        u = hyperlink.URL.from_text("https://" + url.rstrip("/"))
+
     # If this URL doesn't come from Flickr.com, then we can't possibly classify
     # it as a Flickr URL!
     if u.host not in {"www.flickr.com", "flickr.com"}:
