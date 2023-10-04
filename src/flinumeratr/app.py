@@ -4,7 +4,7 @@ import os
 import secrets
 import sys
 
-from flask import Flask, flash, redirect, render_template, request, url_for
+from flask import Flask, flash, render_template, request
 
 from flinumeratr.enumerator import (
     categorise_flickr_url,
