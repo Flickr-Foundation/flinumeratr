@@ -8,6 +8,19 @@
     {% if flickr_url %}
     value="{{ flickr_url }}"
     {% endif %}
+
+    {% block comment %}
+      The effect of this line is to prepend 'https://' to the start of
+      the URL if the user has entered something that starts with 'flickr.com'
+      but isn't a full URL -- the `type="url"` is quite strict about needing
+      a protocol here.
+
+      (Alternatively, we could get rid of `type="url"`, but I like that for
+       the small UX improvement on mobile.)
+    {% endblock %}
+    onchange="if (!~this.value.indexOf('http') &&
+                  (this.value.indexOf('flickr.com') === 0 || this.value.indexOf('www.flickr.com') === 0)
+                 ) this.value = 'https://' + this.value"
   />
 
 	<input type="submit" value="Go!" />
