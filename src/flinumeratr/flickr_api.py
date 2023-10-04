@@ -66,6 +66,10 @@ class FlickrApiException(Exception):
     Base class for all exceptions thrown from the Flickr API.
     """
 
+    @property
+    def code(self):
+        return self.args[0]["code"]
+
     pass
 
 
@@ -74,9 +78,22 @@ class PhotoNotFound(FlickrApiException):
     Thrown when you try to look up a photo that doesn't exist.
     """
 
-    def __init__(self, photo_id):
+    def __init__(self, *, photo_id):
         self.photo_id = photo_id
         super().__init__(f"Unable to find photo with ID {photo_id}")
+
+
+class PhotosetNotFound(FlickrApiException):
+    """
+    Thrown when you try to look up a photoset that doesn't exist.
+    """
+
+    def __init__(self, *, user_id, photoset_id):
+        self.user_id = user_id
+        self.photoset_id = photoset_id
+        super().__init__(
+            f"Unable to find photoset with ID {photoset_id} from user ID {user_id}"
+        )
 
 
 @functools.lru_cache(maxsize=None)
@@ -137,8 +154,8 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     try:
         info_resp = api.call("flickr.photos.getInfo", photo_id=photo_id)
     except FlickrApiException as exc:
-        if exc.args[0]["code"] == "1":
-            raise PhotoNotFound(photo_id)
+        if exc.code == "1":
+            raise PhotoNotFound(photo_id=photo_id)
         else:
             raise
 
@@ -350,20 +367,26 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
     return {"page_count": page_count, "photos": photos}
 
 
-def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
+def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):
     """
     Given a photoset (album) on Flickr, return a list of photos in the album.
     """
-    return _call_get_photos_api(
-        api,
-        "flickr.photosets.getPhotos",
-        # The response is wrapped in <photoset> … </photoset>
-        wrapper_element="photoset",
-        user_id=user_nsid,
-        photoset_id=photoset_id,
-        page=page,
-        per_page=per_page,
-    )
+    try:
+        return _call_get_photos_api(
+            api,
+            "flickr.photosets.getPhotos",
+            # The response is wrapped in <photoset> … </photoset>
+            wrapper_element="photoset",
+            user_id=user_id,
+            photoset_id=photoset_id,
+            page=page,
+            per_page=per_page,
+        )
+    except FlickrApiException as exc:
+        if exc.code == "1":
+            raise PhotosetNotFound(user_id=user_id, photoset_id=photoset_id)
+        else:
+            raise
 
 
 def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):

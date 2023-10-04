@@ -7,7 +7,7 @@ import sys
 from flask import Flask, flash, redirect, render_template, request, url_for
 
 from flinumeratr.enumerator import flinumerate
-from flinumeratr.flickr_api import FlickrApi, PhotoNotFound
+from flinumeratr.flickr_api import FlickrApi, PhotoNotFound, PhotosetNotFound
 
 
 app = Flask(__name__)
@@ -61,6 +61,9 @@ def images():
         data = flinumerate(api, url=url, page=page)
     except PhotoNotFound as e:
         flash(f"Unable to find a photo at <span class='user_input'>{url}</span>")
+        return render_template("error.html", flickr_url=url, error=e)
+    except PhotosetNotFound as e:
+        flash(f"Unable to find an album at <span class='user_input'>{url}</span>")
         return render_template("error.html", flickr_url=url, error=e)
     except Exception as e:
         flash(f"Boom! Something went wrong: {e}")

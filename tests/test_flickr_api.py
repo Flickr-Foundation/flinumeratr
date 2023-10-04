@@ -15,6 +15,7 @@ from flinumeratr.flickr_api import (
     lookup_group_nsid_from_url,
     lookup_user_nsid_from_url,
     PhotoNotFound,
+    PhotosetNotFound,
 )
 from fixtures import (
     GET_PHOTOS_IN_GALLERY,
@@ -119,7 +120,7 @@ def test_lookup_group_nsid_from_url(api):
 def test_get_photos_in_photoset(api):
     resp = get_photos_in_photoset(
         api,
-        user_nsid="12403504@N02",
+        user_id="12403504@N02",
         photoset_id="72157638792012173",
         page=1,
         per_page=3,
@@ -130,19 +131,30 @@ def test_get_photos_in_photoset(api):
 
 def test_get_photos_in_photoset_can_paginate(api):
     all_resp = get_photos_in_photoset(
-        api, user_nsid="12403504@N02", photoset_id="72157638792012173", page=1
+        api, user_id="12403504@N02", photoset_id="72157638792012173", page=1
     )
 
     # Getting the 5th page with a page size of 1 means getting the 5th image
     individual_resp = get_photos_in_photoset(
         api,
-        user_nsid="12403504@N02",
+        user_id="12403504@N02",
         photoset_id="72157638792012173",
         page=5,
         per_page=1,
     )
 
     assert individual_resp["photos"][0] == all_resp["photos"][4]
+
+
+def test_get_photos_in_photoset_fails_if_no_photoset(api):
+    user_id = "12403504@N02"
+    photoset_id = "123456789123456789"
+
+    with pytest.raises(PhotosetNotFound) as exc:
+        get_photos_in_photoset(api, user_id=user_id, photoset_id=photoset_id, page=1)
+
+    assert exc.value.user_id == user_id
+    assert exc.value.photoset_id == photoset_id
 
 
 def test_get_public_photos_by_person(api):

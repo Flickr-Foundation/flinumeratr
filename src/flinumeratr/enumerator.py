@@ -175,11 +175,11 @@ def get_photo_data(api, *, categorised_url, page):
             "photos": [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
         }
     elif categorised_url["type"] == "photoset":
-        user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
+        user_id = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
 
         return get_photos_in_photoset(
             api,
-            user_nsid=user_nsid,
+            user_id=user_id,
             photoset_id=categorised_url["photoset_id"],
             page=page,
         )
