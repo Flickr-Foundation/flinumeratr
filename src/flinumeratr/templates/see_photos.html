@@ -97,8 +97,16 @@
   </p>
 {% elif data.type == "tags" %}
   <p id="infobox">
-    This URL shows photos tagged with <a href="{{ flickr_url }}">{{ data.tag }}</a>,
-    of which there are {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    This URL shows photos tagged with <a href="{{ flickr_url }}">{{ data.tag }}</a>.
+    
+    {#
+      We don't include the photo count on tags, because it's pretty inconsistent.
+      The number can vary by several hundred or thousand, depending on the popularity
+      of the tag -- this is probably due to the hard problem of searching that many
+      images on the Flickr side.
+      
+      Rather than include an obviously inconsistent count, we just omit it for tag pages.
+    #}
   </p>
 {% elif data.type == "single_photo" %}
   <p id="infobox">
@@ -139,7 +147,14 @@
     /
   {% endif %}
 
-  page {{ page }} of {{ data.page_count | intcomma }}
+  {#
+    For the same reason we don't show a tag count on tag pages, we don't
+    show the page count -- see comment above.
+  #}
+  page {{ page }}
+  {% if data.type != "tags" %}
+    of {{ data.page_count | intcomma }}
+  {% endif %}
 
   {% if page != data.page_count %}
     /
