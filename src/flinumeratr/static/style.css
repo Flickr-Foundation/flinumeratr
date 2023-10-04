@@ -52,15 +52,29 @@ a:hover {
   color: #914db4;
 }
 
+#intro h2 {
+  margin-bottom: 0;
+}
+
+#intro p {
+  margin-top: 10px;
+}
+
 /* Styles specifically for the "Enter a Flickr URL" form */
+
+#enter_flickr_url {
+  background: #ff008419;
+  padding: 1em;
+  border-radius: 4px;
+}
 
 input[type="url"] {
   display: block;
-  width: 100%;
+  width: calc(100% - 1em);
   font-size: 1em;
   border: none;
   border-radius: 4px;
-  background: #ff008419;
+  background: white;
   padding: 8px;
 }
 
