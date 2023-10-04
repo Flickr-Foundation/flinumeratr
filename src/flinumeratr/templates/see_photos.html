@@ -76,13 +76,33 @@
 {% if data.type == "people" %}
   <p id="infobox">
     This URL shows the photos taken by
-    <span class="key_info">{{ data.person_info.realname or data.person_info.username }}</span>,
-    who has posted {{ data.total_photos }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
-    <a href="{{ flickr_url }}">See this URL on Flickr</a>
+    <a href="https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>,
+    who has posted {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% else %}
-  <p>
-    This URL was identified as {{ label }}.
+{% elif data.type == "photoset" %}
+  <p id="infobox">
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.photoset_title }}</a> album,
+    which was created by <a href="/see_photos?flickr_url=https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>.
+    It contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "group" %}
+  <p id="infobox">
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.group_name }}</a> group pool,
+    which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "galleries" %}
+  <p id="infobox">
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.gallery_title }}</a> gallery,
+    which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "tags" %}
+  <p id="infobox">
+    This URL shows photos tagged with <a href="{{ flickr_url }}">{{ data.tag }}</a>,
+    of which there are {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "single_photo" %}
+  <p id="infobox">
+    This URL is <a href="{{ flickr_url }}">a single photo</a> on Flickr.
   </p>
 {% endif %}
 
@@ -95,9 +115,9 @@
     </a>
 		<div class="metadata">
       <h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a></h4>
-      {% if data.type != "people" %}
+      {% if data.type != "people" and data.type != "photoset" %}
         <h5 class="owner">
-          by <a href="{{ p.url | owner_url }}">{{ p.owner }}</a>
+          by <a href="/see_photos?flickr_url={{ p.url | owner_url }}">{{ p.owner }}</a>
         </h5>
       {% endif %}
       <p>

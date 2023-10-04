@@ -438,3 +438,21 @@ def get_photos_with_tag(api, *, tag, page, per_page=10):
         page=page,
         per_page=per_page,
     )
+
+
+def get_user_info(api, *, user_id):
+    """
+    Returns some basic info about a given user.
+    """
+    person_resp = api.call("flickr.people.getInfo", user_id=user_id)
+
+    try:
+        real_name = person_resp.find(".//realname")
+    except AttributeError:
+        real_name = None
+
+    return {
+        "realname": real_name,
+        "username": person_resp.find(".//username").text,
+        "user_id": user_id,
+    }

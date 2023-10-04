@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
+import humanize
 import hyperlink
 
 from flinumeratr.enumerator import (
@@ -112,6 +114,11 @@ def owner_url(photo_url):
     owner_id = u.path[1]
 
     return f"https://www.flickr.com/photos/{owner_id}"
+
+
+@app.template_filter()
+def intcomma(n):
+    return humanize.intcomma(n)
 
 
 @app.route("/")
