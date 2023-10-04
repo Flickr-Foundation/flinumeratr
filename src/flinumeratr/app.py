@@ -6,7 +6,7 @@ import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
 
-from flinumeratr.enumerator import categorise_flickr_url, get_photo_data
+from flinumeratr.enumerator import categorise_flickr_url, get_photo_data, NotAFlickrUrl, UnrecognisedUrl
 from flinumeratr.flickr_api import FlickrApi, ResourceNotFound
 
 
@@ -57,23 +57,34 @@ def images():
     url = request.args["flickr_url"]
     page = int(request.args.get("page", "1"))
 
-    categorised_url = categorise_flickr_url(url)
+    try:
+        categorised_url = categorise_flickr_url(url)
+    except UnrecognisedUrl:
+        flash(
+            f"Unable to find any photos at <span class='user_input'>{url}</span>"
+        )
+        return render_template("error.html", flickr_url=url)
+    except NotAFlickrUrl:
+        flash(
+            f"The URL <span class='user_input'>{url}</span> isn’t on Flickr.com"
+        )
+        return render_template("error.html", flickr_url=url)
+    
+    category_label = {
+        'single_photo': 'a photo',
+        'photoset': 'an album',
+        'people': 'a person',
+        'group': 'a group',
+        'galleries': 'a gallery',
+    }[categorised_url['type']]
 
     try:
         photos = get_photo_data(api, categorised_url=categorised_url, page=page)
     except ResourceNotFound as e:
-        label = {
-            'single_photo': 'a photo',
-            'photoset': 'an album',
-            'people': 'a person',
-            'group': 'a group',
-            'galleries': 'a gallery',
-        }[categorised_url['type']]
-        
         flash(
-            f"Unable to find a {label} at <span class='user_input'>{url}</span>"
+            f"Unable to find {category_label} at <span class='user_input'>{url}</span>"
         )
-        return render_template("error.html", flickr_url=url, error=e)
+        return render_template("error.html", flickr_url=url)
     except Exception as e:
         flash(f"Boom! Something went wrong: {e}")
         return render_template("error.html", flickr_url=url, error=e)

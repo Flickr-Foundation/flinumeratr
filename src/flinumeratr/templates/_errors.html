@@ -1,6 +1,17 @@
 <style>
   .flashes {
-    border: 2px solid red;
+    border: 4px solid red;
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 1em;
+  }
+  
+  .flashes p:first-child {
+    margin-top: 0;
+  }
+  
+  .flashes p:last-child {
+    margin-bottom: 0;
   }
   
   .flashes .user_input {
@@ -10,10 +21,10 @@
 
 {% with messages = get_flashed_messages() %}
   {% if messages %}
-    <ul class="flashes">
+    <div class="flashes">
     {% for message in messages %}
-      <li>{{ message | safe }}</li>
+      <p>{{ message | safe }}</p>
     {% endfor %}
-    </ul>
+    </div>
   {% endif %}
 {% endwith %}
