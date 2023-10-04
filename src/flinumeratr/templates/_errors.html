@@ -2,13 +2,17 @@
   .flashes {
     border: 2px solid red;
   }
+  
+  .flashes .user_input {
+    font-weight: bold;
+  }
 </style>
 
 {% with messages = get_flashed_messages() %}
   {% if messages %}
     <ul class="flashes">
     {% for message in messages %}
-      <li>{{ message }}</li>
+      <li>{{ message | safe }}</li>
     {% endfor %}
     </ul>
   {% endif %}

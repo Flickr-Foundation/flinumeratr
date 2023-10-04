@@ -76,7 +76,7 @@ class PhotoNotFound(FlickrApiException):
 
     def __init__(self, photo_id):
         self.photo_id = photo_id
-        super().__init__()
+        super().__init__(f"Unable to find photo with ID {photo_id}")
 
 
 @functools.lru_cache(maxsize=None)
