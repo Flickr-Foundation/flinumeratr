@@ -24,7 +24,10 @@ class FlickrApi:
             params={"api_key": api_key},
         )
 
-    def call(self, method, /, **params):
+    # TODO: I would really like 'method' to be a positional-only arg,
+    # using the 3.8+ syntax.
+    # See https://github.com/Flickr-Foundation/flinumeratr/issues/23
+    def call(self, method, **params):
         params["method"] = method
 
         resp = self.client.get(url="", params=params)
@@ -39,7 +42,7 @@ class FlickrApi:
         return ET.fromstring(resp.text)
 
 
-@functools.lru_cache
+@functools.lru_cache(maxsize=None)
 def get_licenses(api: FlickrApi):
     """
     Returns a list of licenses, arranged by code.
@@ -57,7 +60,7 @@ def get_licenses(api: FlickrApi):
     return result
 
 
-@functools.lru_cache
+@functools.lru_cache(maxsize=None)
 def lookup_license_code(api: FlickrApi, *, license_code: str):
     """
     Given a license code from the Flickr API, return the license data.

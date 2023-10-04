@@ -1,16 +1,10 @@
-<html>
+{% extends "base.html" %}
 
-<style>
-  body{
-    margin: 1em auto;
-    max-width: 700px;
-    line-height: 1.6;
-  }
-</style>
-
+{% block content %}
 <form action="images">
 	<label for="flickr_url">Flickr URL</label>
-	<input type="url" name="flickr_url"/>
+  
+	<input type="url" name="flickr_url" placeholder="https://www.flickr.com/photos/…"/>
 	
 	<input type="submit" value="Go!" />
 	
@@ -23,24 +17,25 @@
   <li>Look up a single image:
     <ul>
       {{ "https://www.flickr.com/photos/coast_guard/32812033543" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/sdasmarchives/50567413447" | example_url | safe }}
     </ul>
   </li>
   <li>Look up an album:
     <ul>
       {{ "https://www.flickr.com/photos/cat_tac/albums/72157666833379009" | example_url | safe }}
-      {{ "https://www.flickr.com/photos/britishlibrary/albums/72157638792012173" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/26602223@N00/albums/72157690631188766" | example_url | safe }}
     </ul>
   </li>
   <li>Look up a user:
     <ul>
       {{ "https://www.flickr.com/people/blueminds/" | example_url | safe }}
-      {{ "https://www.flickr.com/photos/hansfotografeert/" | example_url | safe }}
+      {{ "https://www.flickr.com/photos/george/" | example_url | safe }}
     </ul>
   </li>
   <li>Look up a group:
     <ul>
       {{ "https://www.flickr.com/groups/slovenia/pool/" | example_url | safe }}
-      {{ "https://www.flickr.com/groups/missile/" | example_url | safe }}
+      {{ "https://www.flickr.com/groups/boroughmarket/" | example_url | safe }}
     </ul>
   </li>
   <li>Look up a gallery:
@@ -51,7 +46,9 @@
   </li>
   <li>Look up a tag:
     <ul>
-      {{ "https://flickr.com/photos/tags/tennis/" | example_url | safe }}
+      {{ "https://flickr.com/photos/tags/ukulele/" | example_url | safe }}
+      {{ "https://flickr.com/photos/tags/corkscrew/" | example_url | safe }}
     </ul>
   </li>
 </ul>
+{% endblock %}
