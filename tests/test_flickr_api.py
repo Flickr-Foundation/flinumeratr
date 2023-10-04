@@ -39,10 +39,6 @@ def test_get_licenses(api):
             "name": "Attribution-NonCommercial-ShareAlike License",
             "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
         },
-        "10": {
-            "name": "Public Domain Mark",
-            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        },
         "2": {
             "name": "Attribution-NonCommercial License",
             "url": "https://creativecommons.org/licenses/by-nc/2.0/",
@@ -74,6 +70,10 @@ def test_get_licenses(api):
         "9": {
             "name": "Public Domain Dedication (CC0)",
             "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        },
+        "10": {
+            "name": "Public Domain Mark",
+            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
         },
     }
 
