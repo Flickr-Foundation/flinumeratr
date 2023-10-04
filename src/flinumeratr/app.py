@@ -81,7 +81,7 @@ def images():
 
     try:
         photos = get_photo_data(api, categorised_url=categorised_url, page=page)
-    except ResourceNotFound as e:
+    except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{url}</span>"
         )

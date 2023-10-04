@@ -113,7 +113,7 @@ def test_get_single_photo_info(api):
     ],
 )
 def test_methods_fail_if_not_found(api, method, params):
-    with pytest.raises(ResourceNotFound) as exc:
+    with pytest.raises(ResourceNotFound):
         method(api, **params)
 
 
