@@ -90,6 +90,10 @@ a:hover {
   background: #cecef299;
 }
 
+.pagination a {
+    font-weight: normal;
+}
+
 /* Styles specifically for the "Enter a Flickr URL" form */
 
 #enter_flickr_url {
