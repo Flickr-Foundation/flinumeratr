@@ -16,14 +16,17 @@ def test_it_rejects_a_url_which_isnt_flickr(url):
         categorise_flickr_url(url)
 
 
-@pytest.mark.parametrize("url", [
-    "https://www.flickr.com/photos/coast_guard/32812033543",
-    "http://www.flickr.com/photos/coast_guard/32812033543",
-    "https://flickr.com/photos/coast_guard/32812033543",
-    "http://flickr.com/photos/coast_guard/32812033543",
-    "www.flickr.com/photos/coast_guard/32812033543",
-    "flickr.com/photos/coast_guard/32812033543",
-])
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://www.flickr.com/photos/coast_guard/32812033543",
+        "http://www.flickr.com/photos/coast_guard/32812033543",
+        "https://flickr.com/photos/coast_guard/32812033543",
+        "http://flickr.com/photos/coast_guard/32812033543",
+        "www.flickr.com/photos/coast_guard/32812033543",
+        "flickr.com/photos/coast_guard/32812033543",
+    ],
+)
 def test_it_can_categorise_urls_even_if_the_host_is_a_bit_unusual(url):
     assert categorise_flickr_url(url) == {
         "type": "single_photo",
