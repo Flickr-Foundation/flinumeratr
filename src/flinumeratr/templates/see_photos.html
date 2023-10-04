@@ -141,7 +141,12 @@
 </ul>
 
 {% if data.page_count and data.page_count > 1 %}
-<p class="pagination">
+<p class="pagination">  
+  {% if page > 2 %}
+    <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=1) }}">⇤ start</a>
+    /
+  {% endif %}
+  
   {% if page > 1 %}
     <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=page - 1) }}">&larr; prev</a>
     /
