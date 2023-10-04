@@ -87,7 +87,9 @@
     </a>
 		<div class="metadata">
       <h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a></h4>
-      <h5>{{ p.owner }}</h5>
+      <h5 class="owner">
+        by <a href="{{ p.url | owner_url }}">{{ p.owner }}</a>
+      </h5>
       <p>
         taken {{ p.date_taken.strftime("%-d %B %Y") }}<br/>
         uploaded {{ p.date_posted.strftime("%-d %B %Y") }}

@@ -5,6 +5,7 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
+import hyperlink
 
 from flinumeratr.enumerator import (
     categorise_flickr_url,
@@ -100,6 +101,17 @@ def enrich_license(license):
             for name in extra_info.get("icon_names", [])
         ],
     }
+
+
+@app.template_filter()
+def owner_url(photo_url):
+    """
+    Given the URL of a photo, return the author's URL.
+    """
+    u = hyperlink.URL.from_text(photo_url)
+    owner_id = u.path[1]
+
+    return f"https://www.flickr.com/photos/{owner_id}"
 
 
 @app.route("/")
