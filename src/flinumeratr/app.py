@@ -49,7 +49,7 @@ def example_url(url):
     display_url = url.replace("https://www.flickr.com", "").replace(
         "https://flickr.com", ""
     )
-    return f'<li><a href="/images?flickr_url={url}">{display_url}</a></li>'
+    return f'<li><a href="/see_photos?flickr_url={url}">{display_url}</a></li>'
 
 
 @app.route("/")
@@ -57,8 +57,8 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/images")
-def images():
+@app.route("/see_photos")
+def see_photos():
     try:
         flickr_url = request.args["flickr_url"]
     except KeyError:
