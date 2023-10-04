@@ -4,7 +4,7 @@ import os
 import secrets
 import sys
 
-from flask import Flask, flash, render_template, request
+from flask import Flask, flash, redirect, render_template, request, url_for
 
 from flinumeratr.enumerator import (
     categorise_flickr_url,
@@ -59,7 +59,11 @@ def index():
 
 @app.route("/images")
 def images():
-    flickr_url = request.args["flickr_url"]
+    try:
+        flickr_url = request.args["flickr_url"]
+    except KeyError:
+        return redirect(url_for("index"))
+
     page = int(request.args.get("page", "1"))
 
     try:
