@@ -95,7 +95,7 @@ def see_photos():
         return render_template("error.html", flickr_url=flickr_url, error=e)
     else:
         return render_template(
-            "images.html",
+            "see_photos.html",
             flickr_url=flickr_url,
             data={**categorised_url, **photos},
             label=category_label,
