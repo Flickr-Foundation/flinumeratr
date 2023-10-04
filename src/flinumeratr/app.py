@@ -81,7 +81,8 @@ def see_photos():
         "people": "a person",
         "group": "a group",
         "galleries": "a gallery",
-    }[categorised_url["type"]]
+        "tags": "a tag",
+    }.get(categorised_url["type"], "a " + categorised_url["type"])
 
     try:
         photos = get_photo_data(api, categorised_url=categorised_url, page=page)
