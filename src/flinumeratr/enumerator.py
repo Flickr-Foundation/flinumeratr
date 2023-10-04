@@ -14,6 +14,8 @@ The process of flinumeration is split into two steps:
 
 """
 
+import re
+
 import hyperlink
 
 from flinumeratr.flickr_api import (
@@ -175,8 +177,17 @@ def categorise_flickr_url(url):
     # URL for a tag, e.g.
     #
     #     https://flickr.com/photos/tags/tennis/
+    #     https://flickr.com/photos/tags/fluorspar/page1
     #
     if len(u.path) == 3 and u.path[0] == "photos" and u.path[1] == "tags":
+        return {"type": "tags", "url": url, "tag": u.path[2]}
+
+    if (
+        len(u.path) == 4
+        and u.path[0] == "photos"
+        and u.path[1] == "tags"
+        and re.match(r"^page\d+$", u.path[3])
+    ):
         return {"type": "tags", "url": url, "tag": u.path[2]}
 
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
