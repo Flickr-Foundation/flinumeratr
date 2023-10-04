@@ -174,7 +174,3 @@ def see_photos():
             data={**categorised_url, **photos},
             label=category_label,
         )
-
-
-def main():
-    app.run(debug=True)

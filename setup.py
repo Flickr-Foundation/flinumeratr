@@ -33,7 +33,7 @@ setuptools.setup(
     python_requires=">=3.7",
     entry_points={
         "console_scripts": [
-            "flinumeratr = flinumeratr.app:main",
+            "flinumeratr = flinumeratr.cli:main",
         ]
     },
 )
