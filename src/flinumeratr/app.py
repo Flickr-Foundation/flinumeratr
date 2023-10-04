@@ -52,6 +52,51 @@ def example_url(url):
     return f'<li><a href="/see_photos?flickr_url={url}">{display_url}</a></li>'
 
 
+@app.template_filter()
+def enrich_license(license):
+    try:
+        extra_info = {
+            "All Rights Reserved": {"label": "&copy; All Rights Reserved"},
+            "Attribution-NonCommercial-ShareAlike License": {
+                "label": "CC BY-NC-SA 2.0",
+                "icon_names": ["cc", "by", "nc", "sa"],
+            },
+            "Attribution-NonCommercial License": {
+                "label": "CC BY-NC 2.0",
+                "icon_names": ["cc", "by", "nc"],
+            },
+            "Attribution-NonCommercial-NoDerivs License": {
+                "label": "CC BY-NC-ND 2.0",
+                "icon_names": ["cc", "by", "nc", "nd"],
+            },
+            "Attribution License": {"label": "CC BY 2.0", "icon_names": ["cc", "by"]},
+            "Attribution-ShareAlike License": {
+                "label": "CC BY-SA 2.0",
+                "icon_names": ["cc", "by", "sa"],
+            },
+            "Attribution-NoDerivs License": {
+                "label": "CC BY-ND 2.0",
+                "icon_names": ["cc", "by", "nd"],
+            },
+            "Public Domain Dedication (CC0)": {
+                "label": "Public Domain",
+                "icon_names": ["zero"],
+            },
+            "Public Domain Mark": {"label": "Public Domain", "icon_names": ["zero"]},
+        }[license["name"]]
+    except KeyError:
+        extra_info = {}
+
+    return {
+        **license,
+        "label": extra_info.get("label", license["name"]),
+        "icons": [
+            url_for("static", filename=f"icons/{name}.svg")
+            for name in extra_info.get("icon_names", [])
+        ],
+    }
+
+
 @app.route("/")
 def index():
     return render_template("index.html")

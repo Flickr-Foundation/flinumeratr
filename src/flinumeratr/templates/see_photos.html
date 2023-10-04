@@ -92,17 +92,9 @@
         taken {{ p.date_taken.strftime("%-d %B %Y") }}<br/>
         uploaded {{ p.date_posted.strftime("%-d %B %Y") }}
       </p>
-			<p>
-        {% if p.license.name == "All Rights Reserved" %}
-          &copy;
-        {% endif %}
-
-        {% if p.license.url %}
-          <a href="{{ p.license.url }}">{{ p.license.name }}</a>
-        {% else %}
-          {{ p.license.name }}
-        {% endif %}
-      </p>
+			<div class="license">
+        {% include "_license.html" %}
+      </div>
 		</div>
 	</li>
 {% endfor %}

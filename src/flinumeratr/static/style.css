@@ -48,6 +48,23 @@ a {
   font-weight: 700;
 }
 
+.license {
+  font-weight: 700;
+}
+
+/* This tightens up the spacing between text/icons if both are present */
+.license .license_text + .license_icons {
+  margin-top: -0.65em;
+}
+
+.license .license_icons img {
+  height: 25px;
+}
+
+.license .license_icons a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #914db4;
 }
