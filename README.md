@@ -31,6 +31,8 @@ Then you can run the app by running `flinumeratr` with your API key passed as an
 $ FLICKR_API_KEY=<KEY> flinumeratr
 ```
 
+You can run `flinumeratr --help` to see a few other options.
+
 If you want to run tests, install the dev dependencies and run py.test:
 
 ```console
