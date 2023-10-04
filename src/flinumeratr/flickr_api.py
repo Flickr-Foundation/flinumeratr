@@ -39,7 +39,44 @@ class FlickrApi:
         # which we trust.
         #
         # [1]: https://docs.python.org/3/library/xml.etree.elementtree.html
-        return ET.fromstring(resp.text)
+        xml = ET.fromstring(resp.text)
+
+        # If the Flickr API call fails, it will return a block of XML like:
+        #
+        #       <rsp stat="fail">
+        #       	<err
+        #               code="1"
+        #               msg="Photo &quot;1211111111111111&quot; not found (invalid ID)"
+        #           />
+        #       </rsp>
+        #
+        # Different API endpoints have different codes, and so we just throw
+        # and let calling functions decide how to handle it.
+        #
+        # TODO: Certain codes may be universal (e.g. 105 Service currently unavailable);
+        # if so we should consider handling them here.
+        if xml.attrib["stat"] == "fail":
+            raise FlickrApiException(xml.find(".//err").attrib)
+
+        return xml
+
+
+class FlickrApiException(Exception):
+    """
+    Base class for all exceptions thrown from the Flickr API.
+    """
+
+    pass
+
+
+class PhotoNotFound(FlickrApiException):
+    """
+    Thrown when you try to look up a photo that doesn't exist.
+    """
+
+    def __init__(self, photo_id):
+        self.photo_id = photo_id
+        super().__init__()
 
 
 @functools.lru_cache(maxsize=None)
@@ -97,7 +134,14 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     """
     Look up the information for a single photo.
     """
-    info_resp = api.call("flickr.photos.getInfo", photo_id=photo_id)
+    try:
+        info_resp = api.call("flickr.photos.getInfo", photo_id=photo_id)
+    except FlickrApiException as exc:
+        if exc.args[0]["code"] == "1":
+            raise PhotoNotFound(photo_id)
+        else:
+            raise
+
     sizes_resp = api.call("flickr.photos.getSizes", photo_id=photo_id)
 
     # The getInfo response is a blob of XML of the form:
