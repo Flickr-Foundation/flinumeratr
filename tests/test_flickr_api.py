@@ -1,6 +1,8 @@
 import datetime
 import json
 
+import pytest
+
 from flinumeratr.flickr_api import (
     get_licenses,
     get_photos_in_gallery,
@@ -12,14 +14,15 @@ from flinumeratr.flickr_api import (
     lookup_license_code,
     lookup_group_nsid_from_url,
     lookup_user_nsid_from_url,
+    ResourceNotFound,
 )
-
 from fixtures import (
     GET_PHOTOS_IN_GALLERY,
     GET_PHOTOS_IN_PHOTOSET,
     GET_PUBLIC_PHOTOS_BY_PERSON,
     GET_PHOTOS_IN_GROUP_POOL,
     GET_PHOTOS_WITH_TAG,
+    GET_SINGLE_PHOTO,
 )
 
 
@@ -85,123 +88,33 @@ def test_lookup_license_code(api):
 def test_get_single_photo_info(api):
     info = get_single_photo_info(api, photo_id="32812033543")
 
-    assert info == {
-        "title": "Puppy Kisses",
-        "owner": "Coast Guard",
-        "date_posted": datetime.datetime(2017, 3, 24, 17, 27, 52),
-        "date_taken": datetime.datetime(2017, 2, 17, 0, 0),
-        "sizes": [
-            {
-                "height": 75,
-                "label": "Square",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_s.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/sq/",
-                "width": 75,
-            },
-            {
-                "height": 150,
-                "label": "Large Square",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_q.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/q/",
-                "width": 150,
-            },
-            {
-                "height": 61,
-                "label": "Thumbnail",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_t.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/t/",
-                "width": 100,
-            },
-            {
-                "height": 146,
-                "label": "Small",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_m.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/s/",
-                "width": 240,
-            },
-            {
-                "height": 195,
-                "label": "Small 320",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_n.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/n/",
-                "width": 320,
-            },
-            {
-                "height": 243,
-                "label": "Small 400",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_w.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/w/",
-                "width": 400,
-            },
-            {
-                "height": 304,
-                "label": "Medium",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/m/",
-                "width": 500,
-            },
-            {
-                "height": 389,
-                "label": "Medium 640",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_z.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/z/",
-                "width": 640,
-            },
-            {
-                "height": 486,
-                "label": "Medium 800",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_c.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/c/",
-                "width": 800,
-            },
-            {
-                "height": 623,
-                "label": "Large",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c1b3784192_b.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/l/",
-                "width": 1024,
-            },
-            {
-                "height": 973,
-                "label": "Large 1600",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_c34e251a30_h.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/h/",
-                "width": 1600,
-            },
-            {
-                "height": 1245,
-                "label": "Large 2048",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_04e9bcc8a2_k.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/k/",
-                "width": 2048,
-            },
-            {
-                "height": 3145,
-                "label": "Original",
-                "media": "photo",
-                "source": "https://live.staticflickr.com/2903/32812033543_41cc4e453a_o.jpg",
-                "url": "https://www.flickr.com/photos/coast_guard/32812033543/sizes/o/",
-                "width": 5172,
-            },
-        ],
-        "license": {
-            "name": "United States Government Work",
-            "url": "http://www.usa.gov/copyright.shtml",
-        },
-        "url": "https://www.flickr.com/photos/coast_guard/32812033543/",
-    }
+    assert info == GET_SINGLE_PHOTO
+
+
+@pytest.mark.parametrize(
+    ["method", "params"],
+    [
+        (get_single_photo_info, {"photo_id": "123456789123456789"}),
+        (
+            lookup_user_nsid_from_url,
+            {"user_url": "https://www.flickr.com/photos/doesnotexistnonono/"},
+        ),
+        (
+            lookup_group_nsid_from_url,
+            {"group_url": "https://www.flickr.com/groups/doesnotexist/pool/"},
+        ),
+        (
+            get_photos_in_photoset,
+            {"user_id": "12403504@N02", "photoset_id": "123456789123456789", "page": 1},
+        ),
+        (get_public_photos_by_person, {"user_nsid": "doesnotexist", "page": 1}),
+        (get_photos_in_group_pool, {"group_nsid": "doesnotexist", "page": 1}),
+        (get_photos_in_gallery, {"gallery_id": "doesnotexist", "page": 1}),
+    ],
+)
+def test_methods_fail_if_not_found(api, method, params):
+    with pytest.raises(ResourceNotFound):
+        method(api, **params)
 
 
 def test_lookup_user_nsid_from_url(api):
@@ -223,7 +136,7 @@ def test_lookup_group_nsid_from_url(api):
 def test_get_photos_in_photoset(api):
     resp = get_photos_in_photoset(
         api,
-        user_nsid="12403504@N02",
+        user_id="12403504@N02",
         photoset_id="72157638792012173",
         page=1,
         per_page=3,
@@ -234,13 +147,13 @@ def test_get_photos_in_photoset(api):
 
 def test_get_photos_in_photoset_can_paginate(api):
     all_resp = get_photos_in_photoset(
-        api, user_nsid="12403504@N02", photoset_id="72157638792012173", page=1
+        api, user_id="12403504@N02", photoset_id="72157638792012173", page=1
     )
 
     # Getting the 5th page with a page size of 1 means getting the 5th image
     individual_resp = get_photos_in_photoset(
         api,
-        user_nsid="12403504@N02",
+        user_id="12403504@N02",
         photoset_id="72157638792012173",
         page=5,
         per_page=1,

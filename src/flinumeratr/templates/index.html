@@ -1,10 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+{% include "_errors.html" %}
+
 <form action="images">
 	<label for="flickr_url">Flickr URL</label>
   
-	<input type="url" name="flickr_url" placeholder="https://www.flickr.com/photos/…"/>
+	<input
+    type="url"
+    name="flickr_url"
+    placeholder="https://www.flickr.com/photos/…"
+    {% if flickr_url %}
+    value="{{ flickr_url }}"
+    {% endif %}
+  />
 	
 	<input type="submit" value="Go!" />
 	

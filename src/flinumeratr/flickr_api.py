@@ -39,7 +39,50 @@ class FlickrApi:
         # which we trust.
         #
         # [1]: https://docs.python.org/3/library/xml.etree.elementtree.html
-        return ET.fromstring(resp.text)
+        xml = ET.fromstring(resp.text)
+
+        # If the Flickr API call fails, it will return a block of XML like:
+        #
+        #       <rsp stat="fail">
+        #       	<err
+        #               code="1"
+        #               msg="Photo &quot;1211111111111111&quot; not found (invalid ID)"
+        #           />
+        #       </rsp>
+        #
+        # Different API endpoints have different codes, and so we just throw
+        # and let calling functions decide how to handle it.
+        if xml.attrib["stat"] == "fail":
+            errors = xml.find(".//err").attrib
+
+            # Although I haven't found any explicit documentation of this,
+            # it seems like a pretty common convention that error code "1"
+            # means "not found".
+            if errors["code"] == "1":
+                raise ResourceNotFound(**params)
+            else:
+                raise FlickrApiException(errors)
+
+        return xml
+
+
+class FlickrApiException(Exception):
+    """
+    Base class for all exceptions thrown from the Flickr API.
+    """
+
+    pass
+
+
+class ResourceNotFound(FlickrApiException):
+    """
+    Thrown when you try to look up a resource that doesn't exist.
+    """
+
+    def __init__(self, method, **params):
+        super().__init__(
+            f"Unable to find resource at {method} with properties {params}"
+        )
 
 
 @functools.lru_cache(maxsize=None)
@@ -306,7 +349,7 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
     return {"page_count": page_count, "photos": photos}
 
 
-def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
+def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):
     """
     Given a photoset (album) on Flickr, return a list of photos in the album.
     """
@@ -315,7 +358,7 @@ def get_photos_in_photoset(api, *, user_nsid, photoset_id, page, per_page=10):
         "flickr.photosets.getPhotos",
         # The response is wrapped in <photoset> … </photoset>
         wrapper_element="photoset",
-        user_id=user_nsid,
+        user_id=user_id,
         photoset_id=photoset_id,
         page=page,
         per_page=per_page,
