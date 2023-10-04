@@ -96,7 +96,7 @@
       <h5>{{ p.owner }}</h5>
       <p>
         taken {{ p.date_taken.strftime("%-d %B %Y") }}<br/>
-        posted {{ p.date_posted.strftime("%-d %B %Y") }}
+        uploaded {{ p.date_posted.strftime("%-d %B %Y") }}
       </p>
 			<p>
         <a href="{{ p.license.url }}">{{ p.license.name }}</a>
