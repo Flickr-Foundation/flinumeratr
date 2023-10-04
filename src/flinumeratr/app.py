@@ -90,7 +90,7 @@ def images():
         flash(f"Boom! Something went wrong: {e}")
         return render_template("error.html", flickr_url=url, error=e)
     else:
-        return render_template("images.html", data={**categorised_url, **photos})
+        return render_template("images.html", data={**categorised_url, **photos}, label=category_label)
 
 
 def main():
