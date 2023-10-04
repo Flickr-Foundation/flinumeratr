@@ -52,6 +52,8 @@ a:hover {
   color: #914db4;
 }
 
+/* Styles specifically for the "Enter a Flickr URL" form */
+
 input[type="url"] {
   display: block;
   width: 100%;
@@ -60,6 +62,27 @@ input[type="url"] {
   border-radius: 4px;
   background: #ff008419;
   padding: 8px;
+}
+
+input[type="submit"] {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #ff008479;
+  border: none;
+  margin-top: 5px;
+  padding: 3px 10px;
+}
+
+input[type="submit"]:hover {
+  background: #ff008499;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
 }
 
 /* Styles specifically for the footer */
