@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 
 import os
+import secrets
 import sys
 
-from flask import Flask, render_template, request
+from flask import Flask, flash, redirect, render_template, request, url_for
 
 from flinumeratr.enumerator import flinumerate
 from flinumeratr.flickr_api import FlickrApi
 
 
 app = Flask(__name__)
+
+app.config["SECRET_KEY"] = secrets.token_hex()
 
 try:
     api_key = os.environ["FLICKR_API_KEY"]
@@ -54,7 +57,13 @@ def images():
     url = request.args["flickr_url"]
     page = int(request.args.get("page", "1"))
 
-    return render_template("images.html", data=flinumerate(api, url=url, page=page))
+    try:
+        data = flinumerate(api, url=url, page=page)
+    except Exception as e:
+        flash(f"Boom! Something went wrong: {e}")
+        return render_template("error.html", flickr_url=url, error=e)
+    else:
+        return render_template("images.html", data=flinumerate(api, url=url, page=page))
 
 
 def main():
