@@ -139,7 +139,7 @@
     /
   {% endif %}
 
-  page {{ page }} of {{ data.page_count }}
+  page {{ page }} of {{ data.page_count | intcomma }}
 
   {% if page != data.page_count %}
     /
