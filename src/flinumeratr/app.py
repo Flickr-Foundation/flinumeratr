@@ -59,17 +59,17 @@ def index():
 
 @app.route("/images")
 def images():
-    url = request.args["flickr_url"]
+    flickr_url = request.args["flickr_url"]
     page = int(request.args.get("page", "1"))
 
     try:
-        categorised_url = categorise_flickr_url(url)
+        categorised_url = categorise_flickr_url(flickr_url)
     except UnrecognisedUrl:
         flash(f"There are no photos to show at <span class='user_input'>{url}</span>")
-        return render_template("error.html", flickr_url=url)
+        return render_template("error.html", flickr_url=flickr_url)
     except NotAFlickrUrl:
         flash(f"<span class='user_input'>{url}</span> doesn’t live on Flickr.com")
-        return render_template("error.html", flickr_url=url)
+        return render_template("error.html", flickr_url=flickr_url)
 
     category_label = {
         "single_photo": "a photo",
@@ -85,12 +85,17 @@ def images():
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{url}</span>"
         )
-        return render_template("error.html", flickr_url=url)
+        return render_template("error.html", flickr_url=flickr_url)
     except Exception as e:
         flash(f"Boom! Something went wrong: {e}")
-        return render_template("error.html", flickr_url=url, error=e)
+        return render_template("error.html", flickr_url=flickr_url, error=e)
     else:
-        return render_template("images.html", data={**categorised_url, **photos}, label=category_label)
+        return render_template(
+            "images.html",
+            flickr_url=flickr_url,
+            data={**categorised_url, **photos},
+            label=category_label,
+        )
 
 
 def main():

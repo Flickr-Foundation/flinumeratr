@@ -7,21 +7,7 @@ This is a toy to help you pull images out of Flickr.
 
 <hr/>
 
-<form action="images">
-	<label for="flickr_url">Enter a Flickr URL:</label>
-  
-	<input
-    type="url"
-    name="flickr_url"
-    placeholder="https://www.flickr.com/photos/…"
-    {% if flickr_url %}
-    value="{{ flickr_url }}"
-    {% endif %}
-  />
-	
-	<input type="submit" value="Go!" />
-	
-</form>
+{% include "_form.html" %}
 
 <hr/>
 
