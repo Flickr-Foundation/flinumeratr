@@ -111,6 +111,16 @@ def test_it_categorises_a_gallery(url):
     }
 
 
-@pytest.mark.parametrize("url", ["https://flickr.com/photos/tags/tennis/"])
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://flickr.com/photos/tags/fluorspar/",
+        "https://flickr.com/photos/tags/fluorspar/page1",
+    ],
+)
 def test_it_categories_a_tag(url):
-    assert categorise_flickr_url(url) == {"type": "tags", "url": url, "tag": "tennis"}
+    assert categorise_flickr_url(url) == {
+        "type": "tags",
+        "url": url,
+        "tag": "fluorspar",
+    }
