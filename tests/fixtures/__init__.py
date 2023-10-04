@@ -131,6 +131,7 @@ GET_SINGLE_PHOTO = {
 
 GET_PHOTOS_IN_PHOTOSET = {
     "page_count": 34,
+    "total_photos": 100,
     "photos": [
         {
             "date_posted": datetime.datetime(2013, 12, 5, 18, 55, 30),
@@ -292,6 +293,7 @@ GET_PHOTOS_IN_PHOTOSET = {
 
 GET_PUBLIC_PHOTOS_BY_PERSON = {
     "page_count": 73,
+    "total_photos": 364,
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 9, 16, 15, 35, 25),
@@ -489,6 +491,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
 
 GET_PHOTOS_IN_GROUP_POOL = {
     "page_count": 8878,
+    "total_photos": 44388,
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 45),
@@ -707,6 +710,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
 
 GET_PHOTOS_IN_GALLERY = {
     "page_count": 4,
+    "total_photos": 18,
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 9, 18, 12, 35, 43),
@@ -939,6 +943,7 @@ GET_PHOTOS_IN_GALLERY = {
 
 GET_PHOTOS_WITH_TAG = {
     "page_count": 207965,
+    "total_photos": 1039821,
     "photos": [
         {
             "date_posted": datetime.datetime(2017, 7, 2, 10, 47, 21),

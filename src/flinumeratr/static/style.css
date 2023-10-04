@@ -48,6 +48,10 @@ a {
   font-weight: 700;
 }
 
+.key_info {
+  font-weight: 700;
+}
+
 .license {
   font-weight: 700;
 }
@@ -77,12 +81,19 @@ a:hover {
   margin-top: 10px;
 }
 
+#infobox, #enter_flickr_url {
+  padding: 1em;
+  border-radius: 4px;
+}
+
+#infobox {
+  background: #cecef299;
+}
+
 /* Styles specifically for the "Enter a Flickr URL" form */
 
 #enter_flickr_url {
   background: #ff008419;
-  padding: 1em;
-  border-radius: 4px;
 }
 
 input[type="url"] {

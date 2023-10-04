@@ -11,9 +11,8 @@
 
 	#photos {
 		list-style: none;
-	    padding: 0;
-	    margin:  0;
-
+    padding: 0;
+    margin:  0;
 	}
 
 	#photos li {
@@ -70,11 +69,22 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .infobox {}
 </style>
 
-<p>
-  This URL was identified as {{ label }}.
-</p>
+{% if data.type == "people" %}
+  <p id="infobox">
+    This URL shows the photos taken by
+    <span class="key_info">{{ data.person_info.realname or data.person_info.username }}</span>,
+    who has posted {{ data.total_photos }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    <a href="{{ flickr_url }}">See this URL on Flickr</a>
+  </p>
+{% else %}
+  <p>
+    This URL was identified as {{ label }}.
+  </p>
+{% endif %}
 
 <ul id="photos">
 
@@ -85,9 +95,11 @@
     </a>
 		<div class="metadata">
       <h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a></h4>
-      <h5 class="owner">
-        by <a href="{{ p.url | owner_url }}">{{ p.owner }}</a>
-      </h5>
+      {% if data.type != "people" %}
+        <h5 class="owner">
+          by <a href="{{ p.url | owner_url }}">{{ p.owner }}</a>
+        </h5>
+      {% endif %}
       <p>
         taken {{ p.date_taken.strftime("%-d %B %Y") }}<br/>
         uploaded {{ p.date_posted.strftime("%-d %B %Y") }}

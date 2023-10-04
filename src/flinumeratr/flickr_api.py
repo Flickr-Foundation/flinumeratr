@@ -308,6 +308,7 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, owner=None, **kwar
     #       </photoset>
     #
     page_count = int(resp.find(f".//{wrapper_element}").attrib["pages"])
+    total_photos = int(resp.find(f".//{wrapper_element}").attrib["total"])
 
     photos = []
 
@@ -353,7 +354,7 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, owner=None, **kwar
             }
         )
 
-    return {"page_count": page_count, "photos": photos}
+    return {"page_count": page_count, "photos": photos, "total_photos": total_photos}
 
 
 def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):

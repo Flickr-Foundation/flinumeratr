@@ -204,7 +204,16 @@ def get_photo_data(api, *, categorised_url, page):
     elif categorised_url["type"] == "people":
         user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
 
-        return get_public_photos_by_person(api, user_nsid=user_nsid, page=page)
+        person_resp = api.call("flickr.people.getInfo", user_id=user_nsid)
+        person_info = {
+            "realname": person_resp.find(".//realname").text,
+            "username": person_resp.find(".//username").text,
+        }
+
+        return {
+            "person_info": person_info,
+            **get_public_photos_by_person(api, user_nsid=user_nsid, page=page)
+        }
     elif categorised_url["type"] == "galleries":
         return get_photos_in_gallery(
             api, gallery_id=categorised_url["gallery_id"], page=page
