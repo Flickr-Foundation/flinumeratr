@@ -75,6 +75,7 @@ def test_it_categories_an_album():
         "https://www.flickr.com/photos/blueminds/",
         "https://www.flickr.com/people/blueminds/",
         "https://www.flickr.com/photos/blueminds/albums",
+        "https://www.flickr.com/photos/blueminds/page3",
     ],
 )
 def test_it_categorises_a_person(url):
@@ -90,6 +91,7 @@ def test_it_categorises_a_person(url):
     [
         "https://www.flickr.com/groups/slovenia/pool/",
         "https://www.flickr.com/groups/slovenia/",
+        "https://www.flickr.com/groups/slovenia/pool/page30",
     ],
 )
 def test_it_categorises_a_group(url):
@@ -101,7 +103,11 @@ def test_it_categorises_a_group(url):
 
 
 @pytest.mark.parametrize(
-    "url", ["https://www.flickr.com/photos/flickr/galleries/72157722096057728/"]
+    "url",
+    [
+        "https://www.flickr.com/photos/flickr/galleries/72157722096057728/",
+        "https://www.flickr.com/photos/flickr/galleries/72157722096057728/page2",
+    ],
 )
 def test_it_categorises_a_gallery(url):
     assert categorise_flickr_url(url) == {
