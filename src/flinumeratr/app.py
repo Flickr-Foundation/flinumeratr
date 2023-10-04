@@ -6,7 +6,12 @@ import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
 
-from flinumeratr.enumerator import categorise_flickr_url, get_photo_data, NotAFlickrUrl, UnrecognisedUrl
+from flinumeratr.enumerator import (
+    categorise_flickr_url,
+    get_photo_data,
+    NotAFlickrUrl,
+    UnrecognisedUrl,
+)
 from flinumeratr.flickr_api import FlickrApi, ResourceNotFound
 
 
@@ -60,23 +65,19 @@ def images():
     try:
         categorised_url = categorise_flickr_url(url)
     except UnrecognisedUrl:
-        flash(
-            f"Unable to find any photos at <span class='user_input'>{url}</span>"
-        )
+        flash(f"Unable to find any photos at <span class='user_input'>{url}</span>")
         return render_template("error.html", flickr_url=url)
     except NotAFlickrUrl:
-        flash(
-            f"The URL <span class='user_input'>{url}</span> isn’t on Flickr.com"
-        )
+        flash(f"The URL <span class='user_input'>{url}</span> isn’t on Flickr.com")
         return render_template("error.html", flickr_url=url)
-    
+
     category_label = {
-        'single_photo': 'a photo',
-        'photoset': 'an album',
-        'people': 'a person',
-        'group': 'a group',
-        'galleries': 'a gallery',
-    }[categorised_url['type']]
+        "single_photo": "a photo",
+        "photoset": "an album",
+        "people": "a person",
+        "group": "a group",
+        "galleries": "a gallery",
+    }[categorised_url["type"]]
 
     try:
         photos = get_photo_data(api, categorised_url=categorised_url, page=page)
