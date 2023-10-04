@@ -29,21 +29,37 @@ from flinumeratr.flickr_api import (
 
 
 class NotAFlickrUrl(Exception):
+    """
+    Raised when somebody tries to flinumerate a URL which isn't from Flickr.
+    """
     pass
 
 
 class UnrecognisedUrl(Exception):
+    """
+    Raised when somebody tries to flinumerate a URL on Flickr, but we
+    can't work out what photos are there.
+    """
     pass
 
 
 def categorise_flickr_url(url):
     """
-    Categorises a Flickr URL, e.g. whether it's a single image, an album,
+    Categorises a Flickr URL, e.g. whether it's a single photo, an album,
     a user.
 
     This is the first step of flinumeration.
     """
-    u = hyperlink.URL.from_text(url.rstrip("/"))
+    try:
+        u = hyperlink.URL.from_text(url.rstrip("/"))
+
+    # This is for anything which any string can't be parsed as a URL,
+    # e.g. `https://https://`
+    #
+    # Arguably some of those might be malformed URLs from flickr.com,
+    # but it's a rare enough edge case that this is fine.
+    except hyperlink.URLParseError:
+        raise NotAFlickrUrl(url)
 
     # Handle URLs without a scheme, e.g.
     #
