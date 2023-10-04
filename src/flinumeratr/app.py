@@ -54,6 +54,11 @@ def example_url(url):
 
 @app.template_filter()
 def enrich_license(license):
+    """
+    Add extra information to licenses, in particular display labels and
+    a list of icons.
+    """
+    # TODO: Write tests for this function.
     try:
         extra_info = {
             "All Rights Reserved": {"label": "&copy; All Rights Reserved"},
