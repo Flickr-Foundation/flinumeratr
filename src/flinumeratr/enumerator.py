@@ -48,6 +48,10 @@ class UnrecognisedUrl(Exception):
     pass
 
 
+def is_page(path_component):
+    return re.match(r"^page\d+$", path_component)
+
+
 def categorise_flickr_url(url):
     """
     Categorises a Flickr URL, e.g. whether it's a single photo, an album,
@@ -145,7 +149,7 @@ def categorise_flickr_url(url):
             "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
         }
 
-    if len(u.path) == 3 and u.path[0] == "photos" and re.match(r"^page\d+$", u.path[2]):
+    if len(u.path) == 3 and u.path[0] == "photos" and is_page(u.path[2]):
         return {
             "type": "people",
             "url": url,
@@ -156,6 +160,7 @@ def categorise_flickr_url(url):
     #
     #     https://www.flickr.com/groups/slovenia/pool
     #     https://www.flickr.com/groups/slovenia
+    #     https://www.flickr.com/groups/slovenia/pool/page16
     #
     if len(u.path) == 2 and u.path[0] == "groups":
         return {
@@ -171,15 +176,37 @@ def categorise_flickr_url(url):
             "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
         }
 
+    if (
+        len(u.path) == 4
+        and u.path[0] == "groups"
+        and u.path[2] == "pool"
+        and is_page(u.path[3])
+    ):
+        return {
+            "type": "group",
+            "url": url,
+            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+        }
+
     # URLs for a gallery, e.g.
     #
     #     https://www.flickr.com/photos/flickr/galleries/72157722096057728/
+    #     https://www.flickr.com/photos/flickr/galleries/72157722096057728/page2
     #
     if (
         len(u.path) == 4
         and u.path[0] == "photos"
         and u.path[2] == "galleries"
         and u.path[3].isnumeric()
+    ):
+        return {"type": "galleries", "url": url, "gallery_id": u.path[3]}
+
+    if (
+        len(u.path) == 5
+        and u.path[0] == "photos"
+        and u.path[2] == "galleries"
+        and u.path[3].isnumeric()
+        and is_page(u.path[4])
     ):
         return {"type": "galleries", "url": url, "gallery_id": u.path[3]}
 
@@ -195,7 +222,7 @@ def categorise_flickr_url(url):
         len(u.path) == 4
         and u.path[0] == "photos"
         and u.path[1] == "tags"
-        and re.match(r"^page\d+$", u.path[3])
+        and is_page(u.path[3])
     ):
         return {"type": "tags", "url": url, "tag": u.path[2]}
 
