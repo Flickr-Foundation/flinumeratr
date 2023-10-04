@@ -99,7 +99,15 @@
         uploaded {{ p.date_posted.strftime("%-d %B %Y") }}
       </p>
 			<p>
-        <a href="{{ p.license.url }}">{{ p.license.name }}</a>
+        {% if p.license.name == "All Rights Reserved" %}
+          &copy;
+        {% endif %}
+
+        {% if p.license.url %}
+          <a href="{{ p.license.url }}">{{ p.license.name }}</a>
+        {% else %}
+          {{ p.license.name }}
+        {% endif %}
       </p>
 		</div>
 	</li>
