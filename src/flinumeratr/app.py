@@ -62,8 +62,16 @@ def images():
     try:
         photos = get_photo_data(api, categorised_url=categorised_url, page=page)
     except ResourceNotFound as e:
+        label = {
+            'single_photo': 'a photo',
+            'photoset': 'an album',
+            'people': 'a person',
+            'group': 'a group',
+            'galleries': 'a gallery',
+        }[categorised_url['type']]
+        
         flash(
-            f"Unable to find a {categorised_url['type']} at <span class='user_input'>{url}</span>"
+            f"Unable to find a {label} at <span class='user_input'>{url}</span>"
         )
         return render_template("error.html", flickr_url=url, error=e)
     except Exception as e:
