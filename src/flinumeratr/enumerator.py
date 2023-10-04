@@ -125,9 +125,11 @@ def categorise_flickr_url(url):
         }
 
     # The URL for a user, e.g.
-    # https://www.flickr.com/photos/blueminds/
-    # https://www.flickr.com/people/blueminds/
-    # https://www.flickr.com/photos/blueminds/albums
+    #
+    #     https://www.flickr.com/photos/blueminds/
+    #     https://www.flickr.com/people/blueminds/
+    #     https://www.flickr.com/photos/blueminds/albums
+    #     https://www.flickr.com/people/blueminds/page3
     #
     if len(u.path) == 2 and u.path[0] in ("photos", "people"):
         return {
@@ -137,6 +139,13 @@ def categorise_flickr_url(url):
         }
 
     if len(u.path) == 3 and u.path[0] == "photos" and u.path[2] == "albums":
+        return {
+            "type": "people",
+            "url": url,
+            "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
+        }
+
+    if len(u.path) == 3 and u.path[0] == "photos" and re.match(r"^page\d+$", u.path[2]):
         return {
             "type": "people",
             "url": url,

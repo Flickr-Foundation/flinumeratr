@@ -75,6 +75,7 @@ def test_it_categories_an_album():
         "https://www.flickr.com/photos/blueminds/",
         "https://www.flickr.com/people/blueminds/",
         "https://www.flickr.com/photos/blueminds/albums",
+        "https://www.flickr.com/photos/blueminds/page3",
     ],
 )
 def test_it_categorises_a_person(url):
