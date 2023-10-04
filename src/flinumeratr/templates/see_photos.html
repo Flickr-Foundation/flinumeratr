@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "_form.html" %}
+
+<style>
+  form {
+    margin-bottom: 1em;
+  }
+
+	#photos {
+		list-style: none;
+    padding: 0;
+    margin:  0;
+	}
+
+	#photos li {
+		display: grid;
+		grid-gap: 1em;
+
+		grid-template-columns: 500px auto;
+	}
+
+	#photos .photo {
+		grid-column: 1 / 2;
+		grid-row: 1 / 1;
+	}
+
+	#photos .metadata {
+		grid-column: 2 / 2;
+		grid-row: 1 / 1;
+	}
+
+  @media screen and (max-width: 700px) {
+  	#photos li {
+  		grid-template-columns: auto;
+      grid-gap: 10px;
+  	}
+
+  	#photos .photo {
+  		grid-column: 1 / 1;
+  		grid-row: 1 / 2;
+  	}
+
+  	#photos .metadata {
+  		grid-column: 1 / 2;
+  		grid-row: 2 / 2;
+  	}
+
+    h4 {
+      margin-top: 0;
+    }
+  }
+
+	#photos .photo img {
+		max-width: 100%;
+	}
+
+  #photos .metadata p {
+    font-size: 16px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .infobox {}
+</style>
+
+{% if data.type == "people" %}
+  <p id="infobox">
+    This URL shows the photos taken by
+    <a href="https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>,
+    who has posted {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "photoset" %}
+  <p id="infobox">
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.photoset_title }}</a> album,
+    which was created by <a href="/see_photos?flickr_url=https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>.
+    It contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "group" %}
+  <p id="infobox">
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.group_name }}</a> group pool,
+    which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "galleries" %}
+  <p id="infobox">
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.gallery_title }}</a> gallery,
+    which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "tags" %}
+  <p id="infobox">
+    This URL shows photos tagged with <a href="{{ flickr_url }}">{{ data.tag }}</a>,
+    of which there are {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+  </p>
+{% elif data.type == "single_photo" %}
+  <p id="infobox">
+    This URL is <a href="{{ flickr_url }}">a single photo</a> on Flickr.
+  </p>
+{% endif %}
+
+<ul id="photos">
+
+{% for p in data.photos %}
+	<li>
+		<a class="photo" href="{{ p.url }}">
+      <img src="{{ p.sizes | image_at("Medium") }}">
+    </a>
+		<div class="metadata">
+      <h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a></h4>
+      {% if data.type != "people" and data.type != "photoset" %}
+        <h5 class="owner">
+          by <a href="/see_photos?flickr_url={{ p.url | owner_url }}">{{ p.owner }}</a>
+        </h5>
+      {% endif %}
+      <p>
+        taken {{ p.date_taken.strftime("%-d %B %Y") }}<br/>
+        uploaded {{ p.date_posted.strftime("%-d %B %Y") }}
+      </p>
+			<div class="license">
+        {% include "_license.html" %}
+      </div>
+		</div>
+	</li>
+{% endfor %}
+</ul>
+
+{% if data.page_count and data.page_count > 1 %}
+<p class="pagination">
+  {% if page > 1 %}
+    <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=page - 1) }}">&larr; prev</a>
+    /
+  {% endif %}
+
+  page {{ page }} of {{ data.page_count | intcomma }}
+
+  {% if page != data.page_count %}
+    /
+    <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=page + 1) }}">next &rarr;</a>
+  {% endif %}
+</p>
+{% endif %}
+
+{% endblock %}

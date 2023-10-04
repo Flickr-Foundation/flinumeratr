@@ -6,6 +6,7 @@ hyperlink
 # See https://github.com/Flickr-Foundation/flinumeratr/issues/23
 flask<2.3.0
 httpx<0.25.0
+humanize<4.7.0
 werkzeug<2.3.0
 zipp<3.16.0
 

@@ -4,17 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    
+
     <title>flinumeratr</title>
-    
+
     <link rel="stylesheet" href="{{ url_for('static', filename='phk3iud.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    {% include "_favicons.html" %}
   </head>
 
   <body>
     {% include "_header.html" %}
-    
+
     <main>
+      {% include "_errors.html" %}
+
       {% block content %}{% endblock %}
     </main>
 

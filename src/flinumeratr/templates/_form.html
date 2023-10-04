@@ -1,0 +1,39 @@
+<form id="enter_flickr_url" action="{{ url_for('see_photos') }}">
+	<label for="flickr_url">Enter a Flickr URL:</label>
+
+	<input
+    type="url"
+    name="flickr_url"
+    placeholder="https://www.flickr.com/photos/…"
+    {% if flickr_url %}
+    value="{{ flickr_url }}"
+    {% endif %}
+
+    {#
+      I considered adding a `pattern` and `title` attribute here [1],
+      which would only allow users to enter flickr.com URLs.
+
+      I decided against it for now because I'm not a massive of the
+      in-browser alerts explaining what's wrong -- I think we can do
+      a better job letting users submit a non-Flickr URL and showing
+      our error flow.
+
+      [1]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url#pattern_validation
+    #}
+
+    {#
+      The effect of this line is to prepend 'https://' to the start of
+      the URL if the user has entered something that starts with 'flickr.com'
+      but isn't a full URL -- the `type="url"` is quite strict about needing
+      a protocol here.
+
+      (Alternatively, we could get rid of `type="url"`, but I like that for
+       the small UX improvement on mobile.)
+    #}
+    onchange="if (!~this.value.indexOf('http') &&
+                  (this.value.indexOf('flickr.com') === 0 || this.value.indexOf('www.flickr.com') === 0)
+                 ) this.value = 'https://' + this.value"
+  />
+
+	<input type="submit" value="Go!" />
+</form>

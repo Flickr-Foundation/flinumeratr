@@ -2,59 +2,52 @@
 
 {% block content %}
 
-{% include "_errors.html" %}
+<div id="intro">
+  <h2>
+    Welcome to the flinumeratr.
+  </h2>
 
-<form action="images">
-	<label for="flickr_url">Flickr URL</label>
-  
-	<input
-    type="url"
-    name="flickr_url"
-    placeholder="https://www.flickr.com/photos/…"
-    {% if flickr_url %}
-    value="{{ flickr_url }}"
-    {% endif %}
-  />
-	
-	<input type="submit" value="Go!" />
-	
-</form>
+  <p>
+    This is a toy to help you pull images out of Flickr.
+  </p>
+</div>
 
-<hr/>
+{% include "_form.html" %}
 
-<h3>Examples</h3>
+<p>Here are examples of the kind of URLs that’ll give you images:</p>
+
 <ul>
-  <li>Look up a single image:
+  <li>A single image:
     <ul>
       {{ "https://www.flickr.com/photos/schlesinger_library/13270291833" | example_url | safe }}
       {{ "https://www.flickr.com/photos/sdasmarchives/50567413447" | example_url | safe }}
     </ul>
   </li>
-  <li>Look up an album:
+  <li>An album:
     <ul>
       {{ "https://www.flickr.com/photos/aljazeeraenglish/albums/72157626164453131" | example_url | safe }}
       {{ "https://www.flickr.com/photos/spike_yun/albums/72157677773252346" | example_url | safe }}
     </ul>
   </li>
-  <li>Look up a user:
+  <li>A person’s photos:
     <ul>
       {{ "https://www.flickr.com/people/blueminds/" | example_url | safe }}
       {{ "https://www.flickr.com/photos/obamawhitehouse/" | example_url | safe }}
     </ul>
   </li>
-  <li>Look up a group:
+  <li>A group:
     <ul>
       {{ "https://www.flickr.com/groups/lomo/pool/" | example_url | safe }}
       {{ "https://www.flickr.com/groups/birdguide/" | example_url | safe }}
     </ul>
   </li>
-  <li>Look up a gallery:
+  <li>A gallery:
     <ul>
       {{ "https://www.flickr.com/photos/george/galleries/72157621848008117/" | example_url | safe }}
       {{ "https://www.flickr.com/photos/bunnyfrogs/galleries/72157628088497125/" | example_url | safe }}
     </ul>
   </li>
-  <li>Look up a tag:
+  <li>A tag:
     <ul>
       {{ "https://flickr.com/photos/tags/thatch/" | example_url | safe }}
       {{ "https://flickr.com/photos/tags/auroraborealis/" | example_url | safe }}

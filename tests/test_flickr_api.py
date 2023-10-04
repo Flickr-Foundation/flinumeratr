@@ -11,6 +11,7 @@ from flinumeratr.flickr_api import (
     get_photos_with_tag,
     get_public_photos_by_person,
     get_single_photo_info,
+    get_user_info,
     lookup_license_code,
     lookup_group_nsid_from_url,
     lookup_user_nsid_from_url,
@@ -38,10 +39,6 @@ def test_get_licenses(api):
         "1": {
             "name": "Attribution-NonCommercial-ShareAlike License",
             "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
-        },
-        "10": {
-            "name": "Public Domain Mark",
-            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
         },
         "2": {
             "name": "Attribution-NonCommercial License",
@@ -74,6 +71,10 @@ def test_get_licenses(api):
         "9": {
             "name": "Public Domain Dedication (CC0)",
             "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        },
+        "10": {
+            "name": "Public Domain Mark",
+            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
         },
     }
 
@@ -210,3 +211,20 @@ def test_get_photos_with_tag(api):
     resp = get_photos_with_tag(api, tag="tennis", page=1, per_page=5)
 
     assert resp == GET_PHOTOS_WITH_TAG
+
+
+@pytest.mark.parametrize(
+    ["user_id", "user_info"],
+    [
+        (
+            "35591378@N03",
+            {
+                "realname": None,
+                "user_id": "35591378@N03",
+                "username": "Obama White House Archived",
+            },
+        )
+    ],
+)
+def test_get_user_info(api, user_id, user_info):
+    assert get_user_info(api, user_id=user_id) == user_info

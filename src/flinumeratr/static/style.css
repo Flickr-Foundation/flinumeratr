@@ -17,7 +17,7 @@ main, footer {
   margin-bottom: 1em;
 }
 
-main, #header a, footer p {
+main, #header a, #footer_inner {
   max-width: 750px;
   margin: 0 auto;
   padding-left:  1em;
@@ -33,38 +33,14 @@ main, #header a, footer p {
   font-weight: 700;
   color: white;
   text-decoration: none;
-  
-  display: grid;
-  grid-template-columns: 35px auto;
-  grid-gap: 5px;
-  padding-top: 5px;
+
+  display: block;
+  padding-top:    5px;
   padding-bottom: 5px;
-}
-
-#header a span {
-  padding-top: 3px;
-  padding-bottom: 3px; 
-}
-
-#header a img {
-  width: 35px;
 }
 
 #header a:hover {
   opacity: 0.8;
-}
-
-footer {
-  background: rgb(240, 237, 238);
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 14px;
-  color: rgb(39, 37, 33);
-}
-
-footer a, footer a:hover {
-  color: rgb(39, 37, 33);
-  font-weight: 400;
 }
 
 a {
@@ -72,16 +48,122 @@ a {
   font-weight: 700;
 }
 
+.key_info {
+  font-weight: 700;
+}
+
+.license {
+  font-weight: 700;
+}
+
+/* This tightens up the spacing between text/icons if both are present */
+.license .license_text + .license_icons {
+  margin-top: -0.65em;
+}
+
+.license .license_icons img {
+  height: 25px;
+}
+
+.license .license_icons a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #914db4;
 }
 
+#intro h2 {
+  margin-bottom: 0;
+}
+
+#intro p {
+  margin-top: 10px;
+}
+
+#infobox, #enter_flickr_url {
+  padding: 1em;
+  border-radius: 4px;
+}
+
+#infobox {
+  background: #cecef299;
+}
+
+.pagination a {
+    font-weight: normal;
+}
+
+/* Styles specifically for the "Enter a Flickr URL" form */
+
+#enter_flickr_url {
+  background: #ff008419;
+}
+
 input[type="url"] {
   display: block;
-  width: 100%;
+  width: calc(100% - 1em);
   font-size: 1em;
   border: none;
   border-radius: 4px;
-  background: #ff008419;
+  background: white;
   padding: 8px;
+}
+
+input[type="submit"] {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #ff008479;
+  border: none;
+  margin-top: 5px;
+  padding: 3px 10px;
+}
+
+input[type="submit"]:hover {
+  background: #ff008499;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+/* Styles specifically for the footer */
+
+footer {
+  background: rgb(240, 237, 238);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 14px;
+  color: rgb(39, 37, 33);
+  margin-top: 2em;
+}
+
+footer a, footer a:hover {
+  color: rgb(39, 37, 33);
+  font-weight: 400;
+}
+
+#footer_inner {
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-gap: 10px;
+  height: 60px;
+}
+
+#footer_inner img {
+  width: 60px;
+  grid-column: 1 / 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#footer_inner p {
+  grid-column: 2 / 2;
+  grid-row:    1 / 2;
+  align-self: center;
+  margin: 0;
 }

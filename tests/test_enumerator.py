@@ -9,6 +9,7 @@ from flinumeratr.enumerator import categorise_flickr_url, NotAFlickrUrl
         "" "1.2.3.4",
         "https://example.net",
         "ftp://s3.amazonaws.com/my-bukkit/object.txt",
+        "http://http://",
     ],
 )
 def test_it_rejects_a_url_which_isnt_flickr(url):

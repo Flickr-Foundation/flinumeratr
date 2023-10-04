@@ -258,7 +258,7 @@ def lookup_group_nsid_from_url(api, *, group_url):
     return resp.find(".//group").attrib["id"]
 
 
-def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
+def _call_get_photos_api(api, api_method, *, wrapper_element, owner=None, **kwargs):
     """
     A wrapper for calling APIs that return lots of photos as an array of
     <photo> elements.
@@ -269,6 +269,13 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
         "date_taken",
         "media",
         "owner_name",
+        # TODO: Remove the use of the `path_alias` field; we aren't using it.
+        #
+        # At one point I was using it to construct the photo URLs, but
+        # that was incorrect -- I've now fixed it, but removing it means
+        # regenerating all the test cassettes, which is mildly annoying.
+        # There's not much harm in it being here, but it should be removed
+        # at some point to avoid confusing future devs.
         "path_alias",
         "url_sq",
         "url_t",
@@ -301,6 +308,7 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
     #       </photoset>
     #
     page_count = int(resp.find(f".//{wrapper_element}").attrib["pages"])
+    total_photos = int(resp.find(f".//{wrapper_element}").attrib["total"])
 
     photos = []
 
@@ -341,12 +349,12 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, **kwargs):
                 "owner": p.attrib["ownername"],
                 "date_posted": _parse_date_posted(p.attrib["dateupload"]),
                 "date_taken": _parse_date_taken(p.attrib["datetaken"]),
-                "url": f"https://www.flickr.com/photos/{p.attrib['pathalias']}/{p.attrib['id']}",
+                "url": f"https://www.flickr.com/photos/{owner or p.attrib['owner']}/{p.attrib['id']}",
                 "sizes": sizes,
             }
         )
 
-    return {"page_count": page_count, "photos": photos}
+    return {"page_count": page_count, "photos": photos, "total_photos": total_photos}
 
 
 def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):
@@ -356,6 +364,7 @@ def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):
     return _call_get_photos_api(
         api,
         "flickr.photosets.getPhotos",
+        owner=user_id,
         # The response is wrapped in <photoset> … </photoset>
         wrapper_element="photoset",
         user_id=user_id,
@@ -429,3 +438,21 @@ def get_photos_with_tag(api, *, tag, page, per_page=10):
         page=page,
         per_page=per_page,
     )
+
+
+def get_user_info(api, *, user_id):
+    """
+    Returns some basic info about a given user.
+    """
+    person_resp = api.call("flickr.people.getInfo", user_id=user_id)
+
+    try:
+        real_name = person_resp.find(".//realname")
+    except AttributeError:
+        real_name = None
+
+    return {
+        "realname": real_name,
+        "username": person_resp.find(".//username").text,
+        "user_id": user_id,
+    }

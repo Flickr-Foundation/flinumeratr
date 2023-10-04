@@ -131,6 +131,7 @@ GET_SINGLE_PHOTO = {
 
 GET_PHOTOS_IN_PHOTOSET = {
     "page_count": 34,
+    "total_photos": 100,
     "photos": [
         {
             "date_posted": datetime.datetime(2013, 12, 5, 18, 55, 30),
@@ -181,7 +182,7 @@ GET_PHOTOS_IN_PHOTOSET = {
             "Cathedral Churches of Ireland: being notes, more "
             "especially on the smaller and less known of those "
             'churches, etc"',
-            "url": "https://www.flickr.com/photos/britishlibrary/11225186786",
+            "url": "https://www.flickr.com/photos/12403504@N02/11225186786",
         },
         {
             "date_posted": datetime.datetime(2013, 11, 24, 13, 39, 48),
@@ -233,7 +234,7 @@ GET_PHOTOS_IN_PHOTOSET = {
             "Ireland, Wales, and the British Islands. Embellished "
             "with several hundred handsome engravings ... Sixth "
             'thousand"',
-            "url": "https://www.flickr.com/photos/britishlibrary/11027979564",
+            "url": "https://www.flickr.com/photos/12403504@N02/11027979564",
         },
         {
             "date_posted": datetime.datetime(2013, 12, 1, 7, 27, 24),
@@ -284,7 +285,7 @@ GET_PHOTOS_IN_PHOTOSET = {
             '"History of the Hospital and School in Glasgow founded '
             "by George and Thomas Hutcheson, of Lambhill, A.D. "
             '1639-41, with notices of the founders, etc"',
-            "url": "https://www.flickr.com/photos/britishlibrary/11146804456",
+            "url": "https://www.flickr.com/photos/12403504@N02/11146804456",
         },
     ],
 }
@@ -292,6 +293,7 @@ GET_PHOTOS_IN_PHOTOSET = {
 
 GET_PUBLIC_PHOTOS_BY_PERSON = {
     "page_count": 73,
+    "total_photos": 364,
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 9, 16, 15, 35, 25),
@@ -329,7 +331,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
                 },
             ],
             "title": "The Heart Nebula in Cassiopeia (IC 1805)",
-            "url": "https://www.flickr.com/photos/blueminds/53191503745",
+            "url": "https://www.flickr.com/photos/47265398@N04/53191503745",
         },
         {
             "date_posted": datetime.datetime(2023, 8, 26, 15, 53, 2),
@@ -367,7 +369,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
                 },
             ],
             "title": "Jurassic Coast",
-            "url": "https://www.flickr.com/photos/blueminds/53142273497",
+            "url": "https://www.flickr.com/photos/47265398@N04/53142273497",
         },
         {
             "date_posted": datetime.datetime(2023, 8, 5, 15, 33, 10),
@@ -405,7 +407,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
                 },
             ],
             "title": "Tajinastes",
-            "url": "https://www.flickr.com/photos/blueminds/53095231181",
+            "url": "https://www.flickr.com/photos/47265398@N04/53095231181",
         },
         {
             "date_posted": datetime.datetime(2023, 7, 15, 13, 52, 17),
@@ -443,7 +445,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
                 },
             ],
             "title": "Golden Sunset over Tenerife",
-            "url": "https://www.flickr.com/photos/blueminds/53046789782",
+            "url": "https://www.flickr.com/photos/47265398@N04/53046789782",
         },
         {
             "date_posted": datetime.datetime(2023, 6, 24, 15, 20, 43),
@@ -481,7 +483,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
                 },
             ],
             "title": "the monster",
-            "url": "https://www.flickr.com/photos/blueminds/52998518188",
+            "url": "https://www.flickr.com/photos/47265398@N04/52998518188",
         },
     ],
 }
@@ -489,6 +491,7 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
 
 GET_PHOTOS_IN_GROUP_POOL = {
     "page_count": 8878,
+    "total_photos": 44388,
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 45),
@@ -533,7 +536,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
                 },
             ],
             "title": "Slowenien - Lipica Gestüt",
-            "url": "https://www.flickr.com/photos/nb-fotos/53230738516",
+            "url": "https://www.flickr.com/photos/11219094@N02/53230738516",
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 44),
@@ -578,7 +581,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
                 },
             ],
             "title": "Slowenien - Lipica Gestüt 360 Grad",
-            "url": "https://www.flickr.com/photos/nb-fotos/53230738771",
+            "url": "https://www.flickr.com/photos/11219094@N02/53230738771",
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 43),
@@ -623,7 +626,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
                 },
             ],
             "title": "Slowenien - Lipica Gestüt",
-            "url": "https://www.flickr.com/photos/nb-fotos/53231241115",
+            "url": "https://www.flickr.com/photos/11219094@N02/53231241115",
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 6, 52, 29),
@@ -661,7 +664,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
                 },
             ],
             "title": "Soboško jezero",
-            "url": "https://www.flickr.com/photos/vid_pogacnik/53231083274",
+            "url": "https://www.flickr.com/photos/37075433@N00/53231083274",
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 6, 52, 29),
@@ -699,7 +702,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
                 },
             ],
             "title": "On the Mura river banks",
-            "url": "https://www.flickr.com/photos/vid_pogacnik/53229832562",
+            "url": "https://www.flickr.com/photos/37075433@N00/53229832562",
         },
     ],
 }
@@ -707,6 +710,7 @@ GET_PHOTOS_IN_GROUP_POOL = {
 
 GET_PHOTOS_IN_GALLERY = {
     "page_count": 4,
+    "total_photos": 18,
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 9, 18, 12, 35, 43),
@@ -751,7 +755,7 @@ GET_PHOTOS_IN_GALLERY = {
                 },
             ],
             "title": 'BWP x Flickr and SmugMug: "Light in Motion"',
-            "url": "https://www.flickr.com/photos//53196060746",
+            "url": "https://www.flickr.com/photos/69658240@N06/53196060746",
         },
         {
             "date_posted": datetime.datetime(2023, 9, 16, 16, 27, 43),
@@ -796,7 +800,7 @@ GET_PHOTOS_IN_GALLERY = {
                 },
             ],
             "title": "Mirage by Ayesha Kazim",
-            "url": "https://www.flickr.com/photos/ayeshakazim/53191598695",
+            "url": "https://www.flickr.com/photos/191457016@N05/53191598695",
         },
         {
             "date_posted": datetime.datetime(2023, 9, 6, 17, 57, 40),
@@ -841,7 +845,7 @@ GET_PHOTOS_IN_GALLERY = {
                 },
             ],
             "title": "Magic Hands",
-            "url": "https://www.flickr.com/photos//53169036324",
+            "url": "https://www.flickr.com/photos/193410475@N04/53169036324",
         },
         {
             "date_posted": datetime.datetime(2023, 9, 19, 21, 16, 13),
@@ -886,7 +890,7 @@ GET_PHOTOS_IN_GALLERY = {
                 },
             ],
             "title": "Little Sun People (for 'Light In Motion')",
-            "url": "https://www.flickr.com/photos//53199189212",
+            "url": "https://www.flickr.com/photos/199181930@N04/53199189212",
         },
         {
             "date_posted": datetime.datetime(2023, 9, 7, 21, 13, 23),
@@ -931,7 +935,7 @@ GET_PHOTOS_IN_GALLERY = {
                 },
             ],
             "title": "lost. in. thought.",
-            "url": "https://www.flickr.com/photos//53171631074",
+            "url": "https://www.flickr.com/photos/199170075@N08/53171631074",
         },
     ],
 }
@@ -939,6 +943,7 @@ GET_PHOTOS_IN_GALLERY = {
 
 GET_PHOTOS_WITH_TAG = {
     "page_count": 207965,
+    "total_photos": 1039821,
     "photos": [
         {
             "date_posted": datetime.datetime(2017, 7, 2, 10, 47, 21),
@@ -983,7 +988,7 @@ GET_PHOTOS_WITH_TAG = {
                 },
             ],
             "title": "2017_Aegon_0450",
-            "url": "https://www.flickr.com/photos/sjm_1974/34858269343",
+            "url": "https://www.flickr.com/photos/62505753@N08/34858269343",
         },
         {
             "date_posted": datetime.datetime(2016, 6, 11, 17, 20, 7),
@@ -1028,7 +1033,7 @@ GET_PHOTOS_WITH_TAG = {
                 },
             ],
             "title": "Sorana Cirstea",
-            "url": "https://www.flickr.com/photos/jjtennis/26993403354",
+            "url": "https://www.flickr.com/photos/49077663@N03/26993403354",
         },
         {
             "date_posted": datetime.datetime(2016, 5, 11, 20, 45, 42),
@@ -1073,7 +1078,7 @@ GET_PHOTOS_WITH_TAG = {
                 },
             ],
             "title": "Jelena Ostapenko",
-            "url": "https://www.flickr.com/photos/jjtennis/26684886710",
+            "url": "https://www.flickr.com/photos/49077663@N03/26684886710",
         },
         {
             "date_posted": datetime.datetime(2015, 11, 15, 23, 54, 14),
@@ -1118,7 +1123,7 @@ GET_PHOTOS_WITH_TAG = {
                 },
             ],
             "title": "IMG_0045",
-            "url": "https://www.flickr.com/photos//23035076662",
+            "url": "https://www.flickr.com/photos/98192132@N02/23035076662",
         },
         {
             "date_posted": datetime.datetime(2015, 7, 11, 18, 54, 22),
@@ -1163,7 +1168,7 @@ GET_PHOTOS_WITH_TAG = {
                 },
             ],
             "title": "Eugenie Bouchard",
-            "url": "https://www.flickr.com/photos/jjtennis/19424174139",
+            "url": "https://www.flickr.com/photos/49077663@N03/19424174139",
         },
     ],
 }

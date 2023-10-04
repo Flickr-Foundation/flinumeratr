@@ -1,0 +1,27 @@
+{% set license = p.license | enrich_license %}
+
+<p class="license_text">
+  {% if license.url %}
+    <a href="{{ license.url }}">
+      {{ license.label | safe }}
+    </a>
+  {% else %}
+      {{ license.label | safe }}
+  {% endif %}
+</p>
+
+{% if license.icons %}
+  <div class="license_icons">
+  {% if license.url %}
+    <a href="{{ license.url }}">
+      {% for ic in license.icons %}
+        <img src="{{ ic }}">
+      {% endfor %}
+    </a>
+  {% else %}
+      {% for ic in license.icons %}
+        <img src="{{ ic }}">
+      {% endfor %}
+  {% endif %}
+  </div>
+{% endif %}
