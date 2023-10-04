@@ -65,10 +65,10 @@ def images():
     try:
         categorised_url = categorise_flickr_url(url)
     except UnrecognisedUrl:
-        flash(f"Unable to find any photos at <span class='user_input'>{url}</span>")
+        flash(f"There are no photos to show at <span class='user_input'>{url}</span>")
         return render_template("error.html", flickr_url=url)
     except NotAFlickrUrl:
-        flash(f"The URL <span class='user_input'>{url}</span> isn’t on Flickr.com")
+        flash(f"<span class='user_input'>{url}</span> doesn’t live on Flickr.com")
         return render_template("error.html", flickr_url=url)
 
     category_label = {
