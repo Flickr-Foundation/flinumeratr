@@ -201,13 +201,3 @@ def get_photo_data(api, *, categorised_url, page):
         return get_photos_with_tag(api, tag=categorised_url["tag"], page=page)
     else:
         return {}
-
-
-def flinumerate(api, *, url, page):
-    categorised_url = categorise_flickr_url(url)
-    photos = get_photo_data(api, categorised_url=categorised_url, page=page)
-
-    return {
-        **categorised_url,
-        **photos,
-    }

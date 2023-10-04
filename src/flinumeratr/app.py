@@ -6,8 +6,8 @@ import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
 
-from flinumeratr.enumerator import flinumerate
-from flinumeratr.flickr_api import FlickrApi, PhotoNotFound, PhotosetNotFound
+from flinumeratr.enumerator import categorise_flickr_url, get_photo_data
+from flinumeratr.flickr_api import FlickrApi, ResourceNotFound
 
 
 app = Flask(__name__)
@@ -57,19 +57,20 @@ def images():
     url = request.args["flickr_url"]
     page = int(request.args.get("page", "1"))
 
+    categorised_url = categorise_flickr_url(url)
+
     try:
-        data = flinumerate(api, url=url, page=page)
-    except PhotoNotFound as e:
-        flash(f"Unable to find a photo at <span class='user_input'>{url}</span>")
-        return render_template("error.html", flickr_url=url, error=e)
-    except PhotosetNotFound as e:
-        flash(f"Unable to find an album at <span class='user_input'>{url}</span>")
+        photos = get_photo_data(api, categorised_url=categorised_url, page=page)
+    except ResourceNotFound as e:
+        flash(
+            f"Unable to find a {categorised_url['type']} at <span class='user_input'>{url}</span>"
+        )
         return render_template("error.html", flickr_url=url, error=e)
     except Exception as e:
         flash(f"Boom! Something went wrong: {e}")
         return render_template("error.html", flickr_url=url, error=e)
     else:
-        return render_template("images.html", data=flinumerate(api, url=url, page=page))
+        return render_template("images.html", data={**categorised_url, **photos})
 
 
 def main():

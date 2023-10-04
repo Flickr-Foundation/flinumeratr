@@ -14,8 +14,7 @@ from flinumeratr.flickr_api import (
     lookup_license_code,
     lookup_group_nsid_from_url,
     lookup_user_nsid_from_url,
-    PhotoNotFound,
-    PhotosetNotFound,
+    ResourceNotFound,
 )
 from fixtures import (
     GET_PHOTOS_IN_GALLERY,
@@ -92,13 +91,30 @@ def test_get_single_photo_info(api):
     assert info == GET_SINGLE_PHOTO
 
 
-def test_get_single_photo_fails_with_photo_not_found(api):
-    photo_id = "123456789123456789"
-
-    with pytest.raises(PhotoNotFound) as exc:
-        get_single_photo_info(api, photo_id=photo_id)
-
-    assert exc.value.photo_id == photo_id
+@pytest.mark.parametrize(
+    ["method", "params"],
+    [
+        (get_single_photo_info, {"photo_id": "123456789123456789"}),
+        (
+            lookup_user_nsid_from_url,
+            {"user_url": "https://www.flickr.com/photos/doesnotexistnonono/"},
+        ),
+        (
+            lookup_group_nsid_from_url,
+            {"group_url": "https://www.flickr.com/groups/doesnotexist/pool/"},
+        ),
+        (
+            get_photos_in_photoset,
+            {"user_id": "12403504@N02", "photoset_id": "123456789123456789", "page": 1},
+        ),
+        (get_public_photos_by_person, {"user_nsid": "doesnotexist", "page": 1}),
+        (get_photos_in_group_pool, {"group_nsid": "doesnotexist", "page": 1}),
+        (get_photos_in_gallery, {"gallery_id": "doesnotexist", "page": 1}),
+    ],
+)
+def test_methods_fail_if_not_found(api, method, params):
+    with pytest.raises(ResourceNotFound) as exc:
+        method(api, **params)
 
 
 def test_lookup_user_nsid_from_url(api):
@@ -144,17 +160,6 @@ def test_get_photos_in_photoset_can_paginate(api):
     )
 
     assert individual_resp["photos"][0] == all_resp["photos"][4]
-
-
-def test_get_photos_in_photoset_fails_if_no_photoset(api):
-    user_id = "12403504@N02"
-    photoset_id = "123456789123456789"
-
-    with pytest.raises(PhotosetNotFound) as exc:
-        get_photos_in_photoset(api, user_id=user_id, photoset_id=photoset_id, page=1)
-
-    assert exc.value.user_id == user_id
-    assert exc.value.photoset_id == photoset_id
 
 
 def test_get_public_photos_by_person(api):

@@ -14,8 +14,19 @@ def api(request):
     This instance of the API will record its interactions as "cassettes"
     using vcr.py, which can be replayed offline (e.g. in CI tests).
     """
+    # By default we use the name of the test as the cassette name,
+    # but if it's a test parametrised with @pytest.mark.parametrize,
+    # we include the parameter name to distinguish cassettes.
+    #
+    # See https://stackoverflow.com/a/67056955/1558022 for more info
+    # on how this works.
+    try:
+        cassette_name = f"{request.function.__name__}.{request.node.callspec.id}.yml"
+    except AttributeError:
+        cassette_name = f"{request.function.__name__}.yml"
+
     with vcr.use_cassette(
-        request.function.__name__ + ".yml",
+        cassette_name,
         cassette_library_dir="tests/fixtures/cassettes",
         filter_query_parameters=["api_key"],
         record_mode="once",

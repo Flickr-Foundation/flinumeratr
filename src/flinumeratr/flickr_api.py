@@ -52,11 +52,16 @@ class FlickrApi:
         #
         # Different API endpoints have different codes, and so we just throw
         # and let calling functions decide how to handle it.
-        #
-        # TODO: Certain codes may be universal (e.g. 105 Service currently unavailable);
-        # if so we should consider handling them here.
         if xml.attrib["stat"] == "fail":
-            raise FlickrApiException(xml.find(".//err").attrib)
+            errors = xml.find(".//err").attrib
+
+            # Although I haven't found any explicit documentation of this,
+            # it seems like a pretty common convention that error code "1"
+            # means "not found".
+            if errors["code"] == "1":
+                raise ResourceNotFound(**params)
+            else:
+                raise FlickrApiException(errors)
 
         return xml
 
@@ -66,33 +71,17 @@ class FlickrApiException(Exception):
     Base class for all exceptions thrown from the Flickr API.
     """
 
-    @property
-    def code(self):
-        return self.args[0]["code"]
-
     pass
 
 
-class PhotoNotFound(FlickrApiException):
+class ResourceNotFound(FlickrApiException):
     """
-    Thrown when you try to look up a photo that doesn't exist.
-    """
-
-    def __init__(self, *, photo_id):
-        self.photo_id = photo_id
-        super().__init__(f"Unable to find photo with ID {photo_id}")
-
-
-class PhotosetNotFound(FlickrApiException):
-    """
-    Thrown when you try to look up a photoset that doesn't exist.
+    Thrown when you try to look up a resource that doesn't exist.
     """
 
-    def __init__(self, *, user_id, photoset_id):
-        self.user_id = user_id
-        self.photoset_id = photoset_id
+    def __init__(self, method, **params):
         super().__init__(
-            f"Unable to find photoset with ID {photoset_id} from user ID {user_id}"
+            f"Unable to find resource at {method} with properties {params}"
         )
 
 
@@ -151,14 +140,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     """
     Look up the information for a single photo.
     """
-    try:
-        info_resp = api.call("flickr.photos.getInfo", photo_id=photo_id)
-    except FlickrApiException as exc:
-        if exc.code == "1":
-            raise PhotoNotFound(photo_id=photo_id)
-        else:
-            raise
-
+    info_resp = api.call("flickr.photos.getInfo", photo_id=photo_id)
     sizes_resp = api.call("flickr.photos.getSizes", photo_id=photo_id)
 
     # The getInfo response is a blob of XML of the form:
@@ -371,22 +353,16 @@ def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):
     """
     Given a photoset (album) on Flickr, return a list of photos in the album.
     """
-    try:
-        return _call_get_photos_api(
-            api,
-            "flickr.photosets.getPhotos",
-            # The response is wrapped in <photoset> … </photoset>
-            wrapper_element="photoset",
-            user_id=user_id,
-            photoset_id=photoset_id,
-            page=page,
-            per_page=per_page,
-        )
-    except FlickrApiException as exc:
-        if exc.code == "1":
-            raise PhotosetNotFound(user_id=user_id, photoset_id=photoset_id)
-        else:
-            raise
+    return _call_get_photos_api(
+        api,
+        "flickr.photosets.getPhotos",
+        # The response is wrapped in <photoset> … </photoset>
+        wrapper_element="photoset",
+        user_id=user_id,
+        photoset_id=photoset_id,
+        page=page,
+        per_page=per_page,
+    )
 
 
 def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):
