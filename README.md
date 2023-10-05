@@ -9,8 +9,7 @@ This includes:
 
 ## Usage
 
-The tool is still in a very early stage and not deployed anywhere yet.
-Watch this space!
+You can use flinumeratr by visiting <https://flinumeratr.glitch.me>
 
 ## Development
 
@@ -39,6 +38,13 @@ If you want to run tests, install the dev dependencies and run py.test:
 $ source env/bin/activate
 $ pip install -r dev_requirements.txt
 $ pytest
+```
+
+To deploy a new version of flinumeratr, log in to the Glitch app and run the following commands in the Glitch terminal:
+
+```console
+$ git pull gh main
+$ refresh
 ```
 
 [key]: https://www.flickr.com/services/api/misc.api_keys.html
