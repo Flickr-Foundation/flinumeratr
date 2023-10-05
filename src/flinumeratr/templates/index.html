@@ -8,13 +8,13 @@
   </h2>
 
   <p>
-    This is a toy to help you pull images out of Flickr.
+    This is a toy to help you pull photos out of Flickr.
   </p>
 </div>
 
 {% include "_form.html" %}
 
-<p>Here are examples of the kind of URLs that’ll give you images:</p>
+<p>Here are examples of the kind of URLs that’ll give you photos:</p>
 
 <ul>
   <li>A single image:
@@ -29,7 +29,7 @@
       {{ "https://www.flickr.com/photos/spike_yun/albums/72157677773252346" | example_url | safe }}
     </ul>
   </li>
-  <li>A person’s photos:
+  <li>A member’s photostream:
     <ul>
       {{ "https://www.flickr.com/people/blueminds/" | example_url | safe }}
       {{ "https://www.flickr.com/photos/obamawhitehouse/" | example_url | safe }}
