@@ -4,7 +4,7 @@ import argparse
 def main():
     parser = argparse.ArgumentParser(
         prog="flinumeratr",
-        description="Run a local version of flinumeratr, a toy to help you pull images out of Flickr.",
+        description="Run a local version of flinumeratr, a toy to help you pull photos out of Flickr.",
     )
 
     parser.add_argument("--port", help="the port to bind to", type=int, default=5000)
