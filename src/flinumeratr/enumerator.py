@@ -26,8 +26,8 @@ from flinumeratr.flickr_api import (
     get_public_photos_by_person,
     get_single_photo_info,
     get_user_info,
-    lookup_group_nsid_from_url,
-    lookup_user_nsid_from_url,
+    lookup_group_id_from_url,
+    lookup_user_id_from_url,
 )
 
 
@@ -241,7 +241,7 @@ def get_photo_data(api, *, categorised_url, page):
             "photos": [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
         }
     elif categorised_url["type"] == "photoset":
-        user_id = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
+        user_id = lookup_user_id_from_url(api, user_url=categorised_url["user_url"])
 
         user_info = get_user_info(api, user_id=user_id)
 
@@ -263,11 +263,11 @@ def get_photo_data(api, *, categorised_url, page):
             ),
         }
     elif categorised_url["type"] == "people":
-        user_nsid = lookup_user_nsid_from_url(api, user_url=categorised_url["user_url"])
+        user_id = lookup_user_id_from_url(api, user_url=categorised_url["user_url"])
 
         return {
-            "user_info": get_user_info(api, user_id=user_nsid),
-            **get_public_photos_by_person(api, user_nsid=user_nsid, page=page),
+            "user_info": get_user_info(api, user_id=user_id),
+            **get_public_photos_by_person(api, user_id=user_id, page=page),
         }
     elif categorised_url["type"] == "galleries":
         gallery_resp = api.call(
@@ -283,16 +283,14 @@ def get_photo_data(api, *, categorised_url, page):
             ),
         }
     elif categorised_url["type"] == "group":
-        group_nsid = lookup_group_nsid_from_url(
-            api, group_url=categorised_url["group_url"]
-        )
+        group_id = lookup_group_id_from_url(api, group_url=categorised_url["group_url"])
 
-        group_resp = api.call("flickr.groups.getInfo", group_id=group_nsid)
+        group_resp = api.call("flickr.groups.getInfo", group_id=group_id)
         group_name = group_resp.find(".//name").text
 
         return {
             "group_name": group_name,
-            **get_photos_in_group_pool(api, group_nsid=group_nsid, page=page),
+            **get_photos_in_group_pool(api, group_id=group_id, page=page),
         }
     elif categorised_url["type"] == "tags":
         return get_photos_with_tag(api, tag=categorised_url["tag"], page=page)

@@ -13,8 +13,8 @@ from flinumeratr.flickr_api import (
     get_single_photo_info,
     get_user_info,
     lookup_license_code,
-    lookup_group_nsid_from_url,
-    lookup_user_nsid_from_url,
+    lookup_group_id_from_url,
+    lookup_user_id_from_url,
     ResourceNotFound,
 )
 from fixtures import (
@@ -97,19 +97,19 @@ def test_get_single_photo_info(api):
     [
         (get_single_photo_info, {"photo_id": "123456789123456789"}),
         (
-            lookup_user_nsid_from_url,
+            lookup_user_id_from_url,
             {"user_url": "https://www.flickr.com/photos/doesnotexistnonono/"},
         ),
         (
-            lookup_group_nsid_from_url,
+            lookup_group_id_from_url,
             {"group_url": "https://www.flickr.com/groups/doesnotexist/pool/"},
         ),
         (
             get_photos_in_photoset,
             {"user_id": "12403504@N02", "photoset_id": "123456789123456789", "page": 1},
         ),
-        (get_public_photos_by_person, {"user_nsid": "doesnotexist", "page": 1}),
-        (get_photos_in_group_pool, {"group_nsid": "doesnotexist", "page": 1}),
+        (get_public_photos_by_person, {"user_id": "doesnotexist", "page": 1}),
+        (get_photos_in_group_pool, {"group_id": "doesnotexist", "page": 1}),
         (get_photos_in_gallery, {"gallery_id": "doesnotexist", "page": 1}),
     ],
 )
@@ -118,20 +118,20 @@ def test_methods_fail_if_not_found(api, method, params):
         method(api, **params)
 
 
-def test_lookup_user_nsid_from_url(api):
-    nsid = lookup_user_nsid_from_url(
+def test_lookup_user_id_from_url(api):
+    id = lookup_user_id_from_url(
         api, user_url="https://www.flickr.com/photos/britishlibrary/"
     )
 
-    assert nsid == "12403504@N02"
+    assert id == "12403504@N02"
 
 
-def test_lookup_group_nsid_from_url(api):
-    nsid = lookup_group_nsid_from_url(
+def test_lookup_group_id_from_url(api):
+    id = lookup_group_id_from_url(
         api, group_url="https://www.flickr.com/groups/slovenia/pool/"
     )
 
-    assert nsid == "31849566@N00"
+    assert id == "31849566@N00"
 
 
 def test_get_photos_in_photoset(api):
@@ -166,7 +166,7 @@ def test_get_photos_in_photoset_can_paginate(api):
 def test_get_public_photos_by_person(api):
     resp = get_public_photos_by_person(
         api,
-        user_nsid="47265398@N04",
+        user_id="47265398@N04",
         page=1,
         per_page=5,
     )
@@ -177,7 +177,7 @@ def test_get_public_photos_by_person(api):
 def test_get_public_photos_by_person_can_paginate(api):
     all_resp = get_public_photos_by_person(
         api,
-        user_nsid="47265398@N04",
+        user_id="47265398@N04",
         page=1,
         per_page=5,
     )
@@ -185,7 +185,7 @@ def test_get_public_photos_by_person_can_paginate(api):
     # Getting the 5th page with a page size of 1 means getting the 5th image
     individual_resp = get_public_photos_by_person(
         api,
-        user_nsid="47265398@N04",
+        user_id="47265398@N04",
         page=5,
         per_page=1,
     )
@@ -194,7 +194,7 @@ def test_get_public_photos_by_person_can_paginate(api):
 
 
 def test_get_photos_in_group_pool(api):
-    resp = get_photos_in_group_pool(api, group_nsid="31849566@N00", page=1, per_page=5)
+    resp = get_photos_in_group_pool(api, group_id="31849566@N00", page=1, per_page=5)
 
     assert resp == GET_PHOTOS_IN_GROUP_POOL
 
