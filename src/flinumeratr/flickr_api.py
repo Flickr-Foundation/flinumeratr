@@ -225,7 +225,7 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     }
 
 
-def lookup_user_nsid_from_url(api, *, user_url):
+def lookup_user_id_from_url(api, *, user_url):
     """
     Given the link to a user's photos or profile, return their NSID.
     """
@@ -243,7 +243,7 @@ def lookup_user_nsid_from_url(api, *, user_url):
     return resp.find(".//user").attrib["id"]
 
 
-def lookup_group_nsid_from_url(api, *, group_url):
+def lookup_group_id_from_url(api, *, group_url):
     """
     Given the link to a group's photos or profile, return their NSID.
     """
@@ -374,7 +374,7 @@ def get_photos_in_photoset(api, *, user_id, photoset_id, page, per_page=10):
     )
 
 
-def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):
+def get_public_photos_by_person(api, *, user_id, page, per_page=10):
     """
     Given a person (user) on Flickr, return a list of their public photos.
     """
@@ -383,13 +383,13 @@ def get_public_photos_by_person(api, *, user_nsid, page, per_page=10):
         "flickr.people.getPublicPhotos",
         # The response is wrapped in <photos> … </photos>
         wrapper_element="photos",
-        user_id=user_nsid,
+        user_id=user_id,
         page=page,
         per_page=per_page,
     )
 
 
-def get_photos_in_group_pool(api, *, group_nsid, page, per_page=10):
+def get_photos_in_group_pool(api, *, group_id, page, per_page=10):
     """
     Given a group on Flickr, return a list of photos in the group's pool.
     """
@@ -398,7 +398,7 @@ def get_photos_in_group_pool(api, *, group_nsid, page, per_page=10):
         "flickr.groups.pools.getPhotos",
         # The response is wrapped in <photos> … </photos>
         wrapper_element="photos",
-        group_id=group_nsid,
+        group_id=group_id,
         page=page,
         per_page=per_page,
     )
