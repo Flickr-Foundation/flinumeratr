@@ -22,9 +22,9 @@ SOURCE = local_file("src")
 
 setuptools.setup(
     name="flinumeratr",
-    version="0.0.1",
+    version="1.0.0",
     author="Flickr Foundation",
-    author_email="alex@flickr.org",
+    author_email="hello@flickr.org",
     packages=setuptools.find_packages(SOURCE),
     package_data={"flinumeratr": static_files("static") + static_files("templates")},
     package_dir={"": SOURCE},
