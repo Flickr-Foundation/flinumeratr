@@ -22,8 +22,8 @@ You can set up a local development environment by cloning the repo and installin
 ```console
 $ git clone https://github.com/Flickr-Foundation/flinumeratr.git
 $ cd flinumeratr
-$ python3 -m venv env
-$ source env/bin/activate
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 $ pip install -e .
 ```
 
