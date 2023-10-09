@@ -31,7 +31,6 @@ def test_it_rejects_a_url_which_isnt_flickr(url):
 def test_it_can_categorise_urls_even_if_the_host_is_a_bit_unusual(url):
     assert categorise_flickr_url(url) == {
         "type": "single_photo",
-        "url": url,
         "photo_id": "32812033543",
     }
 
@@ -53,7 +52,6 @@ def test_it_can_categorise_urls_even_if_the_host_is_a_bit_unusual(url):
 def test_it_categorises_a_single_photo(url, photo_id):
     assert categorise_flickr_url(url) == {
         "type": "single_photo",
-        "url": url,
         "photo_id": photo_id,
     }
 
@@ -63,7 +61,6 @@ def test_it_categories_an_album():
 
     assert categorise_flickr_url(url) == {
         "type": "photoset",
-        "url": url,
         "user_url": "https://www.flickr.com/photos/cat_tac",
         "photoset_id": "72157666833379009",
     }
@@ -81,7 +78,6 @@ def test_it_categories_an_album():
 def test_it_categorises_a_person(url):
     assert categorise_flickr_url(url) == {
         "type": "people",
-        "url": url,
         "user_url": "https://www.flickr.com/photos/blueminds",
     }
 
@@ -97,7 +93,6 @@ def test_it_categorises_a_person(url):
 def test_it_categorises_a_group(url):
     assert categorise_flickr_url(url) == {
         "type": "group",
-        "url": url,
         "group_url": "https://www.flickr.com/groups/slovenia",
     }
 
@@ -112,7 +107,6 @@ def test_it_categorises_a_group(url):
 def test_it_categorises_a_gallery(url):
     assert categorise_flickr_url(url) == {
         "type": "galleries",
-        "url": url,
         "gallery_id": "72157722096057728",
     }
 
@@ -127,6 +121,5 @@ def test_it_categorises_a_gallery(url):
 def test_it_categories_a_tag(url):
     assert categorise_flickr_url(url) == {
         "type": "tags",
-        "url": url,
         "tag": "fluorspar",
     }
