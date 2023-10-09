@@ -131,3 +131,10 @@ def test_it_categories_a_tag(url):
         "type": "tags",
         "tag": "fluorspar",
     }
+
+
+def test_it_categorises_a_short_flickr_url():
+    assert categorise_flickr_url(url="https://flic.kr/p/2p4QbKN") == {
+        "type": "single_photo",
+        "photo_id": "53208249252",
+    }
