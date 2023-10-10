@@ -223,7 +223,16 @@ def test_get_photos_with_tag(api):
                 "user_id": "35591378@N03",
                 "username": "Obama White House Archived",
             },
-        )
+        ),
+        (
+            "47265398@N04",
+            {
+                "realname": "Alexander Lauterbach",
+                "user_id": "47265398@N04",
+                "username": "Alexander Lauterbach Photography",
+            },
+        ),
+        
     ],
 )
 def test_get_user_info(api, user_id, user_info):
