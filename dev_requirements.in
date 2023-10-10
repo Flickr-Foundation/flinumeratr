@@ -1,6 +1,5 @@
 -r requirements.txt
 
-coverage
 pytest
 pytest-cov
 
@@ -9,6 +8,7 @@ pytest-cov
 #
 # See https://github.com/Flickr-Foundation/flinumeratr/issues/23
 black<23.7.0
+coverage<7.3.0
 flake8<6
 vcrpy<5
 
