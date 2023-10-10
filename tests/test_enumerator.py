@@ -1,6 +1,6 @@
 import pytest
 
-from flinumeratr.enumerator import categorise_flickr_url, NotAFlickrUrl
+from flinumeratr.enumerator import categorise_flickr_url, NotAFlickrUrl, UnrecognisedUrl
 
 
 @pytest.mark.parametrize(
@@ -14,6 +14,14 @@ from flinumeratr.enumerator import categorise_flickr_url, NotAFlickrUrl
 )
 def test_it_rejects_a_url_which_isnt_flickr(url):
     with pytest.raises(NotAFlickrUrl):
+        categorise_flickr_url(url)
+
+
+@pytest.mark.parametrize(
+    "url", ["https://www.flickr.com", "https://www.flickr.com/account/email"]
+)
+def test_it_rejects_a_flickr_url_which_does_have_photos(url):
+    with pytest.raises(UnrecognisedUrl):
         categorise_flickr_url(url)
 
 
