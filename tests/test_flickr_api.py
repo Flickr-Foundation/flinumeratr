@@ -15,6 +15,7 @@ from flinumeratr.flickr_api import (
     lookup_license_code,
     lookup_group_id_from_url,
     lookup_user_id_from_url,
+    FlickrApiException,
     ResourceNotFound,
 )
 from fixtures import (
@@ -31,6 +32,17 @@ class DatetimeEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, datetime.datetime):
             return obj.isoformat()
+
+
+def test_it_throws_a_flickr_api_exception_for_errors(api):
+    # This test was run with an empty string as the API key
+    with pytest.raises(FlickrApiException) as exc:
+        api.call("flickr.people.getInfo", user_id="12037949754@N01")
+
+    assert exc.value.args[0] == {
+        "code": "100",
+        "msg": "Invalid API Key (Key has invalid format)",
+    }
 
 
 def test_get_licenses(api):
@@ -223,7 +235,15 @@ def test_get_photos_with_tag(api):
                 "user_id": "35591378@N03",
                 "username": "Obama White House Archived",
             },
-        )
+        ),
+        (
+            "47265398@N04",
+            {
+                "realname": "Alexander Lauterbach",
+                "user_id": "47265398@N04",
+                "username": "Alexander Lauterbach Photography",
+            },
+        ),
     ],
 )
 def test_get_user_info(api, user_id, user_info):

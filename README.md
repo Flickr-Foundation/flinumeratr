@@ -39,9 +39,10 @@ You can run `flinumeratr --help` to see a few other options.
 If you want to run tests, install the dev dependencies and run py.test:
 
 ```console
-$ source env/bin/activate
+$ source .venv/bin/activate
 $ pip install -r dev_requirements.txt
-$ pytest
+$ coverage run -m pytest tests
+$ coverage report
 ```
 
 To deploy a new version of flinumeratr, log in to the Glitch app and run the following commands in the Glitch terminal:
