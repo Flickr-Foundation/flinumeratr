@@ -64,9 +64,14 @@ def test_it_categorises_a_single_photo(url, photo_id):
     }
 
 
-def test_it_categories_an_album():
-    url = "https://www.flickr.com/photos/cat_tac/albums/72157666833379009"
-
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://www.flickr.com/photos/cat_tac/albums/72157666833379009",
+        "https://www.flickr.com/photos/cat_tac/sets/72157666833379009",
+    ],
+)
+def test_it_categories_an_album(url):
     assert categorise_flickr_url(url) == {
         "type": "photoset",
         "user_url": "https://www.flickr.com/photos/cat_tac",
