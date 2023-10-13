@@ -131,8 +131,6 @@ def _parse_date_posted(p):
 def _parse_date_taken(p):
     # See https://www.flickr.com/services/api/misc.dates.html
     # e.g. '2017-02-17 00:00:00'
-    #
-    # TODO: Implement proper support for granularity in this function.
     return datetime.datetime.strptime(p, "%Y-%m-%d %H:%M:%S")
 
 
@@ -171,9 +169,15 @@ def get_single_photo_info(api: FlickrApi, *, photo_id: str):
     title = info_resp.find(".//photo/title").text
     owner = info_resp.find(".//photo/owner").attrib["realname"]
 
-    date_posted = _parse_date_posted(info_resp.find(".//photo/dates").attrib["posted"])
+    dates = info_resp.find(".//photo/dates").attrib
 
-    date_taken = _parse_date_taken(info_resp.find(".//photo/dates").attrib["taken"])
+    date_posted = _parse_date_posted(dates["posted"])
+
+    date_taken = {
+        "value": _parse_date_taken(dates["taken"]),
+        "granularity": dates["takengranularity"],
+        "unknown": dates["takenunknown"] == "1",
+    }
 
     photo_page_url = info_resp.find('.//photo/urls/url[@type="photopage"]').text
 
@@ -348,7 +352,11 @@ def _call_get_photos_api(api, api_method, *, wrapper_element, owner=None, **kwar
                 "license": lookup_license_code(api, license_code=p.attrib["license"]),
                 "owner": p.attrib["ownername"],
                 "date_posted": _parse_date_posted(p.attrib["dateupload"]),
-                "date_taken": _parse_date_taken(p.attrib["datetaken"]),
+                "date_taken": {
+                    "value": _parse_date_taken(p.attrib["datetaken"]),
+                    "granularity": p.attrib["datetakengranularity"],
+                    "unknown": p.attrib["datetakenunknown"] == "1",
+                },
                 "url": f"https://www.flickr.com/photos/{owner or p.attrib['owner']}/{p.attrib['id']}",
                 "sizes": sizes,
             }

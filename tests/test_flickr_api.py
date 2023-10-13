@@ -104,6 +104,12 @@ def test_get_single_photo_info(api):
     assert info == GET_SINGLE_PHOTO
 
 
+def test_get_single_photo_info_with_unknown_date_taken(api):
+    info = get_single_photo_info(api, photo_id="25868667441")
+
+    assert info["date_taken"]["unknown"]
+
+
 @pytest.mark.parametrize(
     ["method", "params"],
     [
