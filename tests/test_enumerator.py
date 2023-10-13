@@ -152,6 +152,24 @@ def test_it_categorises_a_gallery(url):
 
 
 @pytest.mark.parametrize(
+    "url", ["https://flic.kr/y/2Xry4Jt", "http://flic.kr/y/2Xry4Jt"]
+)
+def test_it_categories_a_short_gallery(vcr_cassette, url):
+    assert categorise_flickr_url(url) == {
+        "type": "galleries",
+        "gallery_id": "72157690638331410",
+    }
+
+
+@pytest.mark.parametrize(
+    "url", ["https://flic.kr/y/222222222222", "http://flic.kr/y/!!!"]
+)
+def test_it_doesnt_categorise_bad_short_gallery_urls(vcr_cassette, url):
+    with pytest.raises(UnrecognisedUrl):
+        categorise_flickr_url(url)
+
+
+@pytest.mark.parametrize(
     "url",
     [
         "https://flickr.com/photos/tags/fluorspar/",

@@ -54,7 +54,7 @@ def is_page(path_component):
     return re.match(r"^page\d+$", path_component)
 
 
-def categorise_flickr_url(url):
+def categorise_flickr_url(url: str):
     """
     Categorises a Flickr URL, e.g. whether it's a single photo, an album,
     a user.
@@ -71,20 +71,6 @@ def categorise_flickr_url(url):
     # but it's a rare enough edge case that this is fine.
     except hyperlink.URLParseError:
         raise NotAFlickrUrl(url)
-
-    # This is for short URLs that point to photosets,
-    # e.g. http://flic.kr/s/aHsjybZ5ZD
-    #
-    # Although we can base58 decode the album ID, that doesn't tell
-    # us the user URL -- it goes to an intermediary "short URL" service,
-    # and there's no obvious way in the API to go album ID -> user.
-    if url.startswith(("https://flic.kr/s/", "http://flic.kr/s/")):
-        try:
-            url = str(httpx.get(url, follow_redirects=True).url)
-            return categorise_flickr_url(url)
-        except Exception as e:
-            print(e)
-            pass
 
     # Handle URLs without a scheme, e.g.
     #
@@ -113,6 +99,27 @@ def categorise_flickr_url(url):
 
     if not is_long_url and not is_short_url:
         raise NotAFlickrUrl(url)
+
+    # This is for short URLs that point to:
+    #
+    #     - photosets, e.g. http://flic.kr/s/aHsjybZ5ZD
+    #     - galleries, e.g. https://flic.kr/y/2Xry4Jt
+    #
+    # Although we can base58 decode the album ID, that doesn't tell
+    # us the user URL -- it goes to an intermediary "short URL" service,
+    # and there's no obvious way in the API to go album ID -> user.
+    if (
+        is_short_url
+        and len(u.path) == 2
+        and u.path[0] in {"s", "y"}
+        and is_base58(u.path[1])
+    ):
+        try:
+            url = str(httpx.get(url, follow_redirects=True).url)
+            return categorise_flickr_url(url)
+        except Exception as e:
+            print(e)
+            pass
 
     # The URL for a single photo, e.g.
     # https://www.flickr.com/photos/coast_guard/32812033543/
