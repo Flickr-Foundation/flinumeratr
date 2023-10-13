@@ -14,12 +14,15 @@ from flinumeratr.enumerator import (
     NotAFlickrUrl,
     UnrecognisedUrl,
 )
+from flinumeratr.filters import render_date_taken
 from flinumeratr.flickr_api import FlickrApi, ResourceNotFound
 
 
 app = Flask(__name__)
 
 app.config["SECRET_KEY"] = secrets.token_hex()
+
+app.add_template_filter(render_date_taken)
 
 try:
     api_key = os.environ["FLICKR_API_KEY"]

@@ -14,7 +14,11 @@ GET_SINGLE_PHOTO = {
     "title": "Puppy Kisses",
     "owner": "Coast Guard",
     "date_posted": datetime.datetime(2017, 3, 24, 17, 27, 52),
-    "date_taken": datetime.datetime(2017, 2, 17, 0, 0),
+    "date_taken": {
+        "value": datetime.datetime(2017, 2, 17, 0, 0),
+        "granularity": "0",
+        "unknown": False,
+    },
     "sizes": [
         {
             "height": 75,
@@ -135,7 +139,11 @@ GET_PHOTOS_IN_PHOTOSET = {
     "photos": [
         {
             "date_posted": datetime.datetime(2013, 12, 5, 18, 55, 30),
-            "date_taken": datetime.datetime(2013, 12, 5, 18, 55, 30),
+            "date_taken": {
+                "value": datetime.datetime(2013, 12, 5, 18, 55, 30),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {
                 "name": "No known copyright restrictions",
                 "url": "https://www.flickr.com/commons/usage/",
@@ -186,7 +194,11 @@ GET_PHOTOS_IN_PHOTOSET = {
         },
         {
             "date_posted": datetime.datetime(2013, 11, 24, 13, 39, 48),
-            "date_taken": datetime.datetime(2013, 11, 24, 13, 39, 48),
+            "date_taken": {
+                "value": datetime.datetime(2013, 11, 24, 13, 39, 48),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {
                 "name": "No known copyright restrictions",
                 "url": "https://www.flickr.com/commons/usage/",
@@ -238,7 +250,11 @@ GET_PHOTOS_IN_PHOTOSET = {
         },
         {
             "date_posted": datetime.datetime(2013, 12, 1, 7, 27, 24),
-            "date_taken": datetime.datetime(2013, 12, 1, 7, 27, 24),
+            "date_taken": {
+                "value": datetime.datetime(2013, 12, 1, 7, 27, 24),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {
                 "name": "No known copyright restrictions",
                 "url": "https://www.flickr.com/commons/usage/",
@@ -297,7 +313,11 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 9, 16, 15, 35, 25),
-            "date_taken": datetime.datetime(2023, 9, 16, 17, 33, 41),
+            "date_taken": {
+                "value": datetime.datetime(2023, 9, 16, 17, 33, 41),
+                "granularity": "0",
+                "unknown": True,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Alexander Lauterbach Photography",
             "sizes": [
@@ -335,7 +355,11 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
         },
         {
             "date_posted": datetime.datetime(2023, 8, 26, 15, 53, 2),
-            "date_taken": datetime.datetime(2023, 6, 13, 8, 7, 52),
+            "date_taken": {
+                "value": datetime.datetime(2023, 6, 13, 8, 7, 52),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Alexander Lauterbach Photography",
             "sizes": [
@@ -373,7 +397,11 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
         },
         {
             "date_posted": datetime.datetime(2023, 8, 5, 15, 33, 10),
-            "date_taken": datetime.datetime(2023, 6, 8, 22, 3, 23),
+            "date_taken": {
+                "value": datetime.datetime(2023, 6, 8, 22, 3, 23),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Alexander Lauterbach Photography",
             "sizes": [
@@ -411,7 +439,11 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
         },
         {
             "date_posted": datetime.datetime(2023, 7, 15, 13, 52, 17),
-            "date_taken": datetime.datetime(2023, 6, 7, 21, 46, 23),
+            "date_taken": {
+                "value": datetime.datetime(2023, 6, 7, 21, 46, 23),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Alexander Lauterbach Photography",
             "sizes": [
@@ -449,7 +481,11 @@ GET_PUBLIC_PHOTOS_BY_PERSON = {
         },
         {
             "date_posted": datetime.datetime(2023, 6, 24, 15, 20, 43),
-            "date_taken": datetime.datetime(2023, 6, 22, 16, 1, 17),
+            "date_taken": {
+                "value": datetime.datetime(2023, 6, 22, 16, 1, 17),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Alexander Lauterbach Photography",
             "sizes": [
@@ -495,7 +531,11 @@ GET_PHOTOS_IN_GROUP_POOL = {
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 45),
-            "date_taken": datetime.datetime(2022, 9, 29, 13, 45, 46),
+            "date_taken": {
+                "value": datetime.datetime(2022, 9, 29, 13, 45, 46),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "www.nbfotos.de",
             "sizes": [
@@ -540,7 +580,11 @@ GET_PHOTOS_IN_GROUP_POOL = {
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 44),
-            "date_taken": datetime.datetime(2022, 9, 29, 13, 43, 25),
+            "date_taken": {
+                "value": datetime.datetime(2022, 9, 29, 13, 43, 25),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "www.nbfotos.de",
             "sizes": [
@@ -585,7 +629,11 @@ GET_PHOTOS_IN_GROUP_POOL = {
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 7, 24, 43),
-            "date_taken": datetime.datetime(2022, 9, 29, 12, 35, 49),
+            "date_taken": {
+                "value": datetime.datetime(2022, 9, 29, 12, 35, 49),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "www.nbfotos.de",
             "sizes": [
@@ -630,7 +678,11 @@ GET_PHOTOS_IN_GROUP_POOL = {
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 6, 52, 29),
-            "date_taken": datetime.datetime(2023, 9, 30, 15, 33, 9),
+            "date_taken": {
+                "value": datetime.datetime(2023, 9, 30, 15, 33, 9),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Vid Pogacnik",
             "sizes": [
@@ -668,7 +720,11 @@ GET_PHOTOS_IN_GROUP_POOL = {
         },
         {
             "date_posted": datetime.datetime(2023, 10, 3, 6, 52, 29),
-            "date_taken": datetime.datetime(2023, 9, 30, 17, 21, 38),
+            "date_taken": {
+                "value": datetime.datetime(2023, 9, 30, 17, 21, 38),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Vid Pogacnik",
             "sizes": [
@@ -714,7 +770,11 @@ GET_PHOTOS_IN_GALLERY = {
     "photos": [
         {
             "date_posted": datetime.datetime(2023, 9, 18, 12, 35, 43),
-            "date_taken": datetime.datetime(2022, 11, 9, 2, 23, 38),
+            "date_taken": {
+                "value": datetime.datetime(2022, 11, 9, 2, 23, 38),
+                "granularity": "0",
+                "unknown": True,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "mimiezinne",
             "sizes": [
@@ -759,7 +819,11 @@ GET_PHOTOS_IN_GALLERY = {
         },
         {
             "date_posted": datetime.datetime(2023, 9, 16, 16, 27, 43),
-            "date_taken": datetime.datetime(2019, 12, 17, 7, 10, 34),
+            "date_taken": {
+                "value": datetime.datetime(2019, 12, 17, 7, 10, 34),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "ayeshakazim",
             "sizes": [
@@ -804,7 +868,11 @@ GET_PHOTOS_IN_GALLERY = {
         },
         {
             "date_posted": datetime.datetime(2023, 9, 6, 17, 57, 40),
-            "date_taken": datetime.datetime(2023, 9, 6, 8, 51, 52),
+            "date_taken": {
+                "value": datetime.datetime(2023, 9, 6, 8, 51, 52),
+                "granularity": "0",
+                "unknown": True,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "crosscapturesphotography",
             "sizes": [
@@ -849,7 +917,11 @@ GET_PHOTOS_IN_GALLERY = {
         },
         {
             "date_posted": datetime.datetime(2023, 9, 19, 21, 16, 13),
-            "date_taken": datetime.datetime(2017, 9, 10, 18, 5, 14),
+            "date_taken": {
+                "value": datetime.datetime(2017, 9, 10, 18, 5, 14),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "dbenson927",
             "sizes": [
@@ -894,7 +966,11 @@ GET_PHOTOS_IN_GALLERY = {
         },
         {
             "date_posted": datetime.datetime(2023, 9, 7, 21, 13, 23),
-            "date_taken": datetime.datetime(2022, 1, 24, 17, 39, 4),
+            "date_taken": {
+                "value": datetime.datetime(2022, 1, 24, 17, 39, 4),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "kamerinchambers",
             "sizes": [
@@ -947,7 +1023,11 @@ GET_PHOTOS_WITH_TAG = {
     "photos": [
         {
             "date_posted": datetime.datetime(2017, 7, 2, 10, 47, 21),
-            "date_taken": datetime.datetime(2017, 6, 19, 18, 28, 50),
+            "date_taken": {
+                "value": datetime.datetime(2017, 6, 19, 18, 28, 50),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "SJM_1974",
             "sizes": [
@@ -992,7 +1072,11 @@ GET_PHOTOS_WITH_TAG = {
         },
         {
             "date_posted": datetime.datetime(2016, 6, 11, 17, 20, 7),
-            "date_taken": datetime.datetime(2016, 5, 17, 14, 13, 47),
+            "date_taken": {
+                "value": datetime.datetime(2016, 5, 17, 14, 13, 47),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Jimmie48 Tennis Photography",
             "sizes": [
@@ -1037,7 +1121,11 @@ GET_PHOTOS_WITH_TAG = {
         },
         {
             "date_posted": datetime.datetime(2016, 5, 11, 20, 45, 42),
-            "date_taken": datetime.datetime(2016, 5, 5, 14, 20, 44),
+            "date_taken": {
+                "value": datetime.datetime(2016, 5, 5, 14, 20, 44),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Jimmie48 Tennis Photography",
             "sizes": [
@@ -1082,7 +1170,11 @@ GET_PHOTOS_WITH_TAG = {
         },
         {
             "date_posted": datetime.datetime(2015, 11, 15, 23, 54, 14),
-            "date_taken": datetime.datetime(2014, 6, 12, 13, 36, 13),
+            "date_taken": {
+                "value": datetime.datetime(2014, 6, 12, 13, 36, 13),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "stevez10is",
             "sizes": [
@@ -1127,7 +1219,11 @@ GET_PHOTOS_WITH_TAG = {
         },
         {
             "date_posted": datetime.datetime(2015, 7, 11, 18, 54, 22),
-            "date_taken": datetime.datetime(2015, 6, 24, 14, 9, 53),
+            "date_taken": {
+                "value": datetime.datetime(2015, 6, 24, 14, 9, 53),
+                "granularity": "0",
+                "unknown": False,
+            },
             "license": {"name": "All Rights Reserved", "url": ""},
             "owner": "Jimmie48 Tennis Photography",
             "sizes": [
