@@ -82,6 +82,33 @@ def test_it_categories_an_album(url):
 @pytest.mark.parametrize(
     "url",
     [
+        "http://flic.kr/s/aHsjybZ5ZD",
+        "https://flic.kr/s/aHsjybZ5ZD",
+    ],
+)
+def test_it_categories_a_short_album_url(vcr_cassette, url):
+    assert categorise_flickr_url(url) == {
+        "type": "photoset",
+        "user_url": "https://www.flickr.com/photos/64527945@N07",
+        "photoset_id": "72157628959784871",
+    }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "http://flic.kr/s/---",
+        "https://flic.kr/s/aaaaaaaaaaaaa",
+    ],
+)
+def test_it_doesnt_categorise_bad_short_album_urls(vcr_cassette, url):
+    with pytest.raises(UnrecognisedUrl):
+        categorise_flickr_url(url)
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
         "https://www.flickr.com/photos/blueminds/",
         "https://www.flickr.com/people/blueminds/",
         "https://www.flickr.com/photos/blueminds/albums",

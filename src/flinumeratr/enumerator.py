@@ -16,6 +16,7 @@ The process of flinumeration is split into two steps:
 
 import re
 
+import httpx
 import hyperlink
 
 from flinumeratr.base58 import is_base58, base58_decode
@@ -70,6 +71,20 @@ def categorise_flickr_url(url):
     # but it's a rare enough edge case that this is fine.
     except hyperlink.URLParseError:
         raise NotAFlickrUrl(url)
+
+    # This is for short URLs that point to photosets,
+    # e.g. http://flic.kr/s/aHsjybZ5ZD
+    #
+    # Although we can base58 decode the album ID, that doesn't tell
+    # us the user URL -- it goes to an intermediary "short URL" service,
+    # and there's no obvious way in the API to go album ID -> user.
+    if url.startswith(("https://flic.kr/s/", "http://flic.kr/s/")):
+        try:
+            url = str(httpx.get(url, follow_redirects=True).url)
+            return categorise_flickr_url(url)
+        except Exception as e:
+            print(e)
+            pass
 
     # Handle URLs without a scheme, e.g.
     #
