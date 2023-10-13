@@ -137,7 +137,7 @@
         {% if not p.date_taken.unknown %}
         taken {{ p.date_taken | render_date_taken }}<br/>
         {% endif %}
-        uploaded {{ p.date_posted.strftime("%-d %B %Y") }}
+        uploaded on {{ p.date_posted.strftime("%B %-d, %Y") }}
       </p>
 			<div class="license">
         {% include "_license.html" %}
