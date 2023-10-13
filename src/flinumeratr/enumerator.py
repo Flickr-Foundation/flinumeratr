@@ -104,6 +104,7 @@ def categorise_flickr_url(url: str):
     #
     #     - photosets, e.g. http://flic.kr/s/aHsjybZ5ZD
     #     - galleries, e.g. https://flic.kr/y/2Xry4Jt
+    #     - people/users, e.g. https://flic.kr/ps/ZVcni
     #
     # Although we can base58 decode the album ID, that doesn't tell
     # us the user URL -- it goes to an intermediary "short URL" service,
@@ -111,12 +112,13 @@ def categorise_flickr_url(url: str):
     if (
         is_short_url
         and len(u.path) == 2
-        and u.path[0] in {"s", "y"}
+        and u.path[0] in {"s", "y", "ps"}
         and is_base58(u.path[1])
     ):
         try:
-            url = str(httpx.get(url, follow_redirects=True).url)
-            return categorise_flickr_url(url)
+            redirected_url = str(httpx.get(url, follow_redirects=True).url)
+            assert redirected_url != url
+            return categorise_flickr_url(redirected_url)
         except Exception as e:
             print(e)
             pass

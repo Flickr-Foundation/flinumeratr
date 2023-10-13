@@ -122,6 +122,26 @@ def test_it_categorises_a_person(url):
     }
 
 
+def test_it_categorises_a_short_person_url(vcr_cassette):
+    assert categorise_flickr_url("https://flic.kr/ps/ZVcni") == {
+        "type": "people",
+        "user_url": "https://www.flickr.com/photos/astrosamantha",
+    }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://flic.kr/ps",
+        "https://flic.kr/ps/ZVcni/extra-bits",
+        "https://flic.kr/ps/ZZZZZZZZZ",
+    ],
+)
+def test_it_doesnt_categorise_bad_short_person_urls(vcr_cassette, url):
+    with pytest.raises(UnrecognisedUrl):
+        categorise_flickr_url(url)
+
+
 @pytest.mark.parametrize(
     "url",
     [
