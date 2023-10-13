@@ -64,14 +64,46 @@ def test_it_categorises_a_single_photo(url, photo_id):
     }
 
 
-def test_it_categories_an_album():
-    url = "https://www.flickr.com/photos/cat_tac/albums/72157666833379009"
-
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://www.flickr.com/photos/cat_tac/albums/72157666833379009",
+        "https://www.flickr.com/photos/cat_tac/sets/72157666833379009",
+    ],
+)
+def test_it_categories_an_album(url):
     assert categorise_flickr_url(url) == {
         "type": "photoset",
         "user_url": "https://www.flickr.com/photos/cat_tac",
         "photoset_id": "72157666833379009",
     }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "http://flic.kr/s/aHsjybZ5ZD",
+        "https://flic.kr/s/aHsjybZ5ZD",
+    ],
+)
+def test_it_categories_a_short_album_url(vcr_cassette, url):
+    assert categorise_flickr_url(url) == {
+        "type": "photoset",
+        "user_url": "https://www.flickr.com/photos/64527945@N07",
+        "photoset_id": "72157628959784871",
+    }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "http://flic.kr/s/---",
+        "https://flic.kr/s/aaaaaaaaaaaaa",
+    ],
+)
+def test_it_doesnt_categorise_bad_short_album_urls(vcr_cassette, url):
+    with pytest.raises(UnrecognisedUrl):
+        categorise_flickr_url(url)
 
 
 @pytest.mark.parametrize(
@@ -88,6 +120,26 @@ def test_it_categorises_a_person(url):
         "type": "people",
         "user_url": "https://www.flickr.com/photos/blueminds",
     }
+
+
+def test_it_categorises_a_short_person_url(vcr_cassette):
+    assert categorise_flickr_url("https://flic.kr/ps/ZVcni") == {
+        "type": "people",
+        "user_url": "https://www.flickr.com/photos/astrosamantha",
+    }
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://flic.kr/ps",
+        "https://flic.kr/ps/ZVcni/extra-bits",
+        "https://flic.kr/ps/ZZZZZZZZZ",
+    ],
+)
+def test_it_doesnt_categorise_bad_short_person_urls(vcr_cassette, url):
+    with pytest.raises(UnrecognisedUrl):
+        categorise_flickr_url(url)
 
 
 @pytest.mark.parametrize(
@@ -120,6 +172,24 @@ def test_it_categorises_a_gallery(url):
 
 
 @pytest.mark.parametrize(
+    "url", ["https://flic.kr/y/2Xry4Jt", "http://flic.kr/y/2Xry4Jt"]
+)
+def test_it_categories_a_short_gallery(vcr_cassette, url):
+    assert categorise_flickr_url(url) == {
+        "type": "galleries",
+        "gallery_id": "72157690638331410",
+    }
+
+
+@pytest.mark.parametrize(
+    "url", ["https://flic.kr/y/222222222222", "http://flic.kr/y/!!!"]
+)
+def test_it_doesnt_categorise_bad_short_gallery_urls(vcr_cassette, url):
+    with pytest.raises(UnrecognisedUrl):
+        categorise_flickr_url(url)
+
+
+@pytest.mark.parametrize(
     "url",
     [
         "https://flickr.com/photos/tags/fluorspar/",
@@ -130,4 +200,11 @@ def test_it_categories_a_tag(url):
     assert categorise_flickr_url(url) == {
         "type": "tags",
         "tag": "fluorspar",
+    }
+
+
+def test_it_categorises_a_short_flickr_url():
+    assert categorise_flickr_url(url="https://flic.kr/p/2p4QbKN") == {
+        "type": "single_photo",
+        "photo_id": "53208249252",
     }
