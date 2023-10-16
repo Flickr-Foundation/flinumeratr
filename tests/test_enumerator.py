@@ -55,6 +55,14 @@ def test_it_can_categorise_urls_even_if_the_host_is_a_bit_unusual(url):
             "https://www.flickr.com/photos/britishlibrary/13874001214/in/album-72157644007437024/",
             "13874001214",
         ),
+        ("https://www.Flickr.com/photos/techiedog/44257407", "44257407"),
+        ("www.Flickr.com/photos/techiedog/44257407", "44257407"),
+        (
+            "https://www.flickr.com/photos/tanaka_juuyoh/1866762301/sizes/o/in/set-72157602201101937",
+            "1866762301",
+        ),
+        ("https://www.flickr.com/photos/11588490@n02/2174280796/sizes/l", "2174280796"),
+        ("https://www.flickr.com/photos/nrcs_south_dakota/8023844010/in", "8023844010"),
     ],
 )
 def test_it_categorises_a_single_photo(url, photo_id):

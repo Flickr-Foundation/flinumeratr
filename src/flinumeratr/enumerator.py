@@ -85,7 +85,7 @@ def categorise_flickr_url(url: str):
     #
     # which allows the rest of the logic in the function to do
     # the "right thing" with this URL.
-    if not url.startswith("http") and u.path[0] in {
+    if not url.startswith("http") and u.path[0].lower() in {
         "www.flickr.com",
         "flickr.com",
         "flic.kr",
@@ -94,7 +94,7 @@ def categorise_flickr_url(url: str):
 
     # If this URL doesn't come from Flickr.com, then we can't possibly classify
     # it as a Flickr URL!
-    is_long_url = u.host in {"www.flickr.com", "flickr.com"}
+    is_long_url = u.host.lower() in {"www.flickr.com", "flickr.com"}
     is_short_url = u.host == "flic.kr"
 
     if not is_long_url and not is_short_url:
@@ -127,27 +127,21 @@ def categorise_flickr_url(url: str):
     # https://www.flickr.com/photos/coast_guard/32812033543/
     if (
         is_long_url
-        and len(u.path) == 3
+        and len(u.path) >= 3
         and u.path[0] == "photos"
         and u.path[2].isnumeric()
     ):
-        return {
-            "type": "single_photo",
-            "photo_id": u.path[2],
-        }
+        if len(u.path) == 3:
+            return {
+                "type": "single_photo",
+                "photo_id": u.path[2],
+            }
 
-    if (
-        is_long_url
-        and len(u.path) == 5
-        and u.path[0] == "photos"
-        and u.path[2].isnumeric()
-        and u.path[3] == "in"
-        and u.path[4].startswith(("album-", "photolist-"))
-    ):
-        return {
-            "type": "single_photo",
-            "photo_id": u.path[2],
-        }
+        if len(u.path) > 3 and u.path[3] in {"in", "sizes"}:
+            return {
+                "type": "single_photo",
+                "photo_id": u.path[2],
+            }
 
     # The URL for a single photo, e.g.
     #
