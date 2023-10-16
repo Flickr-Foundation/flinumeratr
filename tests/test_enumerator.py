@@ -63,6 +63,14 @@ def test_it_can_categorise_urls_even_if_the_host_is_a_bit_unusual(url):
         ),
         ("https://www.flickr.com/photos/11588490@n02/2174280796/sizes/l", "2174280796"),
         ("https://www.flickr.com/photos/nrcs_south_dakota/8023844010/in", "8023844010"),
+        (
+            "https://www.flickr.com/photos/ahampton-matthews/5595741367/lightbox",
+            "5595741367",
+        ),
+        (
+            "https://www.flickr.com/photos/140066625@N05/25614155155/?xajax=1",
+            "25614155155",
+        ),
     ],
 )
 def test_it_categorises_a_single_photo(url, photo_id):
