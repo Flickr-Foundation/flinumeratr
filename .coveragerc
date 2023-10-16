@@ -1,7 +1,8 @@
 [run]
 branch = True
-source = flinumeratr
-# TODO: Capture coverage data for the 'tests' directory
+source =
+  flinumeratr
+  tests
 
 [report]
 show_missing = true
