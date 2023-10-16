@@ -1,6 +1,3 @@
-import datetime
-import json
-
 import pytest
 
 from flinumeratr.flickr_api import (
@@ -26,12 +23,6 @@ from fixtures import (
     GET_PHOTOS_WITH_TAG,
     GET_SINGLE_PHOTO,
 )
-
-
-class DatetimeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, datetime.datetime):
-            return obj.isoformat()
 
 
 def test_it_throws_a_flickr_api_exception_for_errors(api):
