@@ -1,7 +1,7 @@
 # flinumeratr
 
 This is a toy to help you pull photos out of Flickr.
-You enter a Flickr URL, and it shows you a list of photos that can be viewed at that URL:
+You enter a Flickr URL, and it shows you a list of photos that can be viewed at that URL.
 This includes:
 
 *   A single photo, such as [/photos/schlesinger_library/13270291833](https://flinumeratr.glitch.me/see_photos?flickr_url=https://www.flickr.com/photos/schlesinger_library/13270291833)
