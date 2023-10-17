@@ -62,7 +62,7 @@ def categorise_flickr_url(url: str):
     This is the first step of flinumeration.
     """
     try:
-        u = hyperlink.URL.from_text(url.rstrip("/"))
+        u = hyperlink.URL.from_text(url)
 
     # This is for anything which any string can't be parsed as a URL,
     # e.g. `https://https://`
@@ -90,7 +90,15 @@ def categorise_flickr_url(url: str):
         "flickr.com",
         "flic.kr",
     }:
-        u = hyperlink.URL.from_text("https://" + url.rstrip("/"))
+        u = hyperlink.URL.from_text("https://" + url)
+
+    # A lot of Flickr URLs end with a trailing slash, but that isn't
+    # significant for our purposes -- if the last path component is
+    # empty, we can ignore it.
+    if u.path and u.path[-1] == "":
+        path = u.path[:-1]
+    else:
+        path = u.path
 
     # If this URL doesn't come from Flickr.com, then we can't possibly classify
     # it as a Flickr URL!
@@ -111,9 +119,9 @@ def categorise_flickr_url(url: str):
     # and there's no obvious way in the API to go album ID -> user.
     if (
         is_short_url
-        and len(u.path) == 2
-        and u.path[0] in {"s", "y", "ps"}
-        and is_base58(u.path[1])
+        and len(path) == 2
+        and path[0] in {"s", "y", "ps"}
+        and is_base58(path[1])
     ):
         try:
             redirected_url = str(httpx.get(url, follow_redirects=True).url)
@@ -125,22 +133,17 @@ def categorise_flickr_url(url: str):
 
     # The URL for a single photo, e.g.
     # https://www.flickr.com/photos/coast_guard/32812033543/
-    if (
-        is_long_url
-        and len(u.path) >= 3
-        and u.path[0] == "photos"
-        and u.path[2].isnumeric()
-    ):
-        if len(u.path) == 3:
+    if is_long_url and len(path) >= 3 and path[0] == "photos" and path[2].isnumeric():
+        if len(path) == 3:
             return {
                 "type": "single_photo",
-                "photo_id": u.path[2],
+                "photo_id": path[2],
             }
 
-        if len(u.path) > 3 and u.path[3] in {"in", "sizes"}:
+        if len(path) > 3 and path[3] in {"in", "sizes", "lightbox"}:
             return {
                 "type": "single_photo",
-                "photo_id": u.path[2],
+                "photo_id": path[2],
             }
 
     # The URL for a single photo, e.g.
@@ -149,8 +152,8 @@ def categorise_flickr_url(url: str):
     #
     # Here the photo ID is a base-58 conversion of the photo ID.
     # See https://www.flickr.com/groups/51035612836@N01/discuss/72157616713786392/
-    if is_short_url and len(u.path) == 2 and u.path[0] == "p" and is_base58(u.path[1]):
-        return {"type": "single_photo", "photo_id": base58_decode(u.path[1])}
+    if is_short_url and len(path) == 2 and path[0] == "p" and is_base58(path[1]):
+        return {"type": "single_photo", "photo_id": base58_decode(path[1])}
 
     # The URL for an album, e.g.
     #
@@ -159,15 +162,15 @@ def categorise_flickr_url(url: str):
     #
     if (
         is_long_url
-        and len(u.path) == 4
-        and u.path[0] == "photos"
-        and u.path[2] in {"albums", "sets"}
-        and u.path[3].isnumeric()
+        and len(path) == 4
+        and path[0] == "photos"
+        and path[2] in {"albums", "sets"}
+        and path[3].isnumeric()
     ):
         return {
             "type": "photoset",
-            "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
-            "photoset_id": u.path[3],
+            "user_url": f"https://www.flickr.com/photos/{path[1]}",
+            "photoset_id": path[3],
         }
 
     # The URL for a user, e.g.
@@ -177,32 +180,22 @@ def categorise_flickr_url(url: str):
     #     https://www.flickr.com/photos/blueminds/albums
     #     https://www.flickr.com/people/blueminds/page3
     #
-    if is_long_url and len(u.path) == 2 and u.path[0] in ("photos", "people"):
+    if is_long_url and len(path) == 2 and path[0] in ("photos", "people"):
         return {
             "type": "people",
-            "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
+            "user_url": f"https://www.flickr.com/photos/{path[1]}",
         }
 
-    if (
-        is_long_url
-        and len(u.path) == 3
-        and u.path[0] == "photos"
-        and u.path[2] == "albums"
-    ):
+    if is_long_url and len(path) == 3 and path[0] == "photos" and path[2] == "albums":
         return {
             "type": "people",
-            "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
+            "user_url": f"https://www.flickr.com/photos/{path[1]}",
         }
 
-    if (
-        is_long_url
-        and len(u.path) == 3
-        and u.path[0] == "photos"
-        and is_page(u.path[2])
-    ):
+    if is_long_url and len(path) == 3 and path[0] == "photos" and is_page(path[2]):
         return {
             "type": "people",
-            "user_url": f"https://www.flickr.com/photos/{u.path[1]}",
+            "user_url": f"https://www.flickr.com/photos/{path[1]}",
         }
 
     # URLs for a group, e.g.
@@ -211,33 +204,28 @@ def categorise_flickr_url(url: str):
     #     https://www.flickr.com/groups/slovenia
     #     https://www.flickr.com/groups/slovenia/pool/page16
     #
-    if is_long_url and len(u.path) == 2 and u.path[0] == "groups":
+    if is_long_url and len(path) == 2 and path[0] == "groups":
         return {
             "type": "group",
-            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+            "group_url": f"https://www.flickr.com/groups/{path[1]}",
+        }
+
+    if is_long_url and len(path) == 3 and path[0] == "groups" and path[2] == "pool":
+        return {
+            "type": "group",
+            "group_url": f"https://www.flickr.com/groups/{path[1]}",
         }
 
     if (
         is_long_url
-        and len(u.path) == 3
-        and u.path[0] == "groups"
-        and u.path[2] == "pool"
+        and len(path) == 4
+        and path[0] == "groups"
+        and path[2] == "pool"
+        and is_page(path[3])
     ):
         return {
             "type": "group",
-            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
-        }
-
-    if (
-        is_long_url
-        and len(u.path) == 4
-        and u.path[0] == "groups"
-        and u.path[2] == "pool"
-        and is_page(u.path[3])
-    ):
-        return {
-            "type": "group",
-            "group_url": f"https://www.flickr.com/groups/{u.path[1]}",
+            "group_url": f"https://www.flickr.com/groups/{path[1]}",
         }
 
     # URLs for a gallery, e.g.
@@ -247,44 +235,39 @@ def categorise_flickr_url(url: str):
     #
     if (
         is_long_url
-        and len(u.path) == 4
-        and u.path[0] == "photos"
-        and u.path[2] == "galleries"
-        and u.path[3].isnumeric()
+        and len(path) == 4
+        and path[0] == "photos"
+        and path[2] == "galleries"
+        and path[3].isnumeric()
     ):
-        return {"type": "galleries", "gallery_id": u.path[3]}
+        return {"type": "galleries", "gallery_id": path[3]}
 
     if (
         is_long_url
-        and len(u.path) == 5
-        and u.path[0] == "photos"
-        and u.path[2] == "galleries"
-        and u.path[3].isnumeric()
-        and is_page(u.path[4])
+        and len(path) == 5
+        and path[0] == "photos"
+        and path[2] == "galleries"
+        and path[3].isnumeric()
+        and is_page(path[4])
     ):
-        return {"type": "galleries", "gallery_id": u.path[3]}
+        return {"type": "galleries", "gallery_id": path[3]}
 
     # URL for a tag, e.g.
     #
     #     https://flickr.com/photos/tags/tennis/
     #     https://flickr.com/photos/tags/fluorspar/page1
     #
-    if (
-        is_long_url
-        and len(u.path) == 3
-        and u.path[0] == "photos"
-        and u.path[1] == "tags"
-    ):
-        return {"type": "tags", "tag": u.path[2]}
+    if is_long_url and len(path) == 3 and path[0] == "photos" and path[1] == "tags":
+        return {"type": "tags", "tag": path[2]}
 
     if (
         is_long_url
-        and len(u.path) == 4
-        and u.path[0] == "photos"
-        and u.path[1] == "tags"
-        and is_page(u.path[3])
+        and len(path) == 4
+        and path[0] == "photos"
+        and path[1] == "tags"
+        and is_page(path[3])
     ):
-        return {"type": "tags", "tag": u.path[2]}
+        return {"type": "tags", "tag": path[2]}
 
     raise UnrecognisedUrl(f"Unrecognised URL: {url}")
 
