@@ -5,15 +5,15 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-import humanize
-import hyperlink
-
-from flinumeratr.enumerator import (
-    categorise_flickr_url,
-    get_photo_data,
+from flickr_url_parser import (
+    parse_flickr_url,
     NotAFlickrUrl,
     UnrecognisedUrl,
 )
+import humanize
+import hyperlink
+
+from flinumeratr.enumerator import get_photo_data
 from flinumeratr.filters import render_date_taken
 from flinumeratr.flickr_api import FlickrApi, ResourceNotFound
 
@@ -138,7 +138,7 @@ def see_photos():
     page = int(request.args.get("page", "1"))
 
     try:
-        categorised_url = categorise_flickr_url(flickr_url)
+        categorised_url = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
         flash(
             f"There are no photos to show at <span class='user_input'>{flickr_url}</span>"
