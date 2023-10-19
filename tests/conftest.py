@@ -22,22 +22,6 @@ def cassette_name(request):
 
 
 @pytest.fixture(scope="function")
-def vcr_cassette(cassette_name):
-    """
-    Creates a VCR cassette for use in tests.
-
-    Anything using httpx in this test will record its HTTP interactions
-    as "cassettes" using vcr.py, which can be replayed offline
-    (e.g. in CI tests).
-    """
-    with vcr.use_cassette(
-        cassette_name,
-        cassette_library_dir="tests/fixtures/cassettes",
-    ):
-        yield
-
-
-@pytest.fixture(scope="function")
 def api(cassette_name):
     """
     Creates an instance of the FlickrApi class for use in tests.
