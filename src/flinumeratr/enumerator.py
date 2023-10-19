@@ -14,12 +14,6 @@ The process of flinumeration is split into two steps:
 
 """
 
-import re
-
-import httpx
-import hyperlink
-from flickr_url_parser import parse_flickr_url
-
 from flinumeratr.flickr_api import (
     get_photos_in_gallery,
     get_photos_in_group_pool,
