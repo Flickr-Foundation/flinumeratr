@@ -1,0 +1,403 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.24.1
+    method: GET
+    uri: https://api.flickr.com/services/rest/?method=flickr.urls.lookupGroup&url=https%3A%2F%2Fwww.flickr.com%2Fgroups%2Fbirdguide
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<group
+      id=\"42637302@N00\">\n\t<groupname>Field Guide: Birds of the World</groupname>\n</group>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '148'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 24 Oct 2023 11:07:38 GMT
+      Via:
+      - 1.1 30ef06f785f68fc7da8b2baef8948156.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - xQVpMfYMJrUXO54gcVpilgmwaQX_ylwwJjP27PcoNFN0N7zfU4NRqQ==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 23-Nov-2023 11:07:38 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.24.1
+    method: GET
+    uri: https://api.flickr.com/services/rest/?group_id=42637302%40N00&method=flickr.groups.getInfo
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<group
+      id=\"42637302@N00\" nsid=\"42637302@N00\" path_alias=\"birdguide\" iconserver=\"7332\"
+      iconfarm=\"8\" lang=\"\" ispoolmoderated=\"0\" photo_limit_opt_out=\"0\" eighteenplus=\"0\"
+      invitation_only=\"0\">\n\t<name>Field Guide: Birds of the World</name>\n\t<description>&lt;i&gt;This
+      is not just another group for people to post random photos of birds, but it
+      is an attempt to build an online &lt;b&gt;Identification Guide&lt;/b&gt; of
+      the birds of the world. The &lt;b&gt;features&lt;/b&gt; of the bird must be
+      clearly visible in your photo and the bird must be &lt;b&gt;positively identified&lt;/b&gt;
+      and &lt;b&gt;&lt;u&gt;tagged&lt;/u&gt; with its &lt;u&gt;scientific (Latin)
+      name&lt;/u&gt;&lt;/b&gt; (see below).&lt;/i&gt;\n\nBEFORE POSTING A PHOTO TO
+      THE POOL, PLEASE REFER TO THE RULES AND GUIDELINES, BELOW (scroll down)!\n\n&lt;i&gt;&lt;a
+      href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157594496099937/&quot;&gt;Para
+      ler as regras em &lt;b&gt;portugu\xEAs&lt;/b&gt;, por favor, &lt;b&gt;carreque
+      aqui&lt;/b&gt;&lt;/a&gt;\n&lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157623615933049/&quot;&gt;Para
+      leer las reglas en &lt;b&gt;espa\xF1ol&lt;/b&gt;, por favor, &lt;b&gt;seleccione
+      aqu\xED&lt;/b&gt;&lt;/a&gt;\n&lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157626606983886/&quot;&gt;Per
+      leggere le regole in &lt;b&gt;italiano&lt;/b&gt;, per favore, &lt;b&gt;clicca
+      qui&lt;/b&gt;&lt;/a&gt;\n&lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157627474634705/&quot;&gt;Pour
+      lire les r\xE8gles en &lt;b&gt;fran\xE7ais&lt;/b&gt;, s&#039;il vous pla\xEEt
+      &lt;b&gt;cliquez ici&lt;/b&gt;&lt;/a&gt;&lt;/i&gt;\n\nThis group is a resource
+      containing photos of &lt;b&gt;over 8000 species of birds&lt;/b&gt;.  You can
+      view all the photos of any particular species by using our &lt;b&gt;hyperlink
+      indexes&lt;/b&gt;. These are alphabetical lists of bird names and by clicking
+      on the name you will see all the photos we hold of that species. They are arranged
+      alphabetically, either by common name, scientific name or group name. Click
+      below to go straight to an index:\n&lt;b&gt;&lt;a href=&quot;https://www.flickr.com/groups/birdguide/discuss/72157659836615634/&quot;&gt;Common
+      name index&lt;/a&gt;&lt;/b&gt; : : : &lt;b&gt;&lt;a href=&quot;https://www.flickr.com/groups/birdguide/discuss/72157661595859350/&quot;&gt;Scientific
+      (Latin) name index&lt;/a&gt;&lt;/b&gt;\n\n&lt;i&gt;Remember, please follow the
+      rules and guidelines below.  Failure to do so may result in your photos being
+      removed from the pool without notice or explanation.&lt;/i&gt;\n&lt;b&gt;Blocking
+      an administrator or moderator of the group will result in you being banned.&lt;/b&gt;\n\nIT
+      SHOULD BE ASSUMED THAT ALL PHOTOGRAPHS IN THIS POOL HAVE ALL RIGHTS RESERVED
+      AND CANNOT BE USED WITHOUT THE EXPRESS PERMISSION OF THE PHOTOGRAPHER.\n\nThere
+      are a number of things YOU can do to help this group.  If you notice someone
+      else has posted a photo to the pool without tagging it, please add the tags
+      yourself; any member can add tags to photos in the pool - you don&#039;t have
+      to be an admin.  Also if you notice that a photo involves a species which does
+      not appear in the hyperlink index, tag the photo FBW:newbird.  This will ensure
+      that the species is added to the index.\n\nWe hope you enjoy, and use, this
+      resource!\n\n&lt;i&gt;&lt;b&gt;GROUP ICON&lt;/b&gt;&lt;/i&gt; - &lt;b&gt;Banded
+      Pitta&lt;/b&gt; &lt;i&gt;Pitta guajana&lt;/i&gt;, by &lt;a href=&quot;http://www.flickr.com/photos/somchai2008/&quot;&gt;somchai@2008&lt;/a&gt;
+      - Khlong thom, Krabi, Thailand.\n&lt;a href=&quot;http://www.flickr.com/photos/somchai2008/3403292257/&quot;&gt;&lt;img
+      src=&quot;http://farm4.static.flickr.com/3633/3403292257_98e14dcc6e_m.jpg&quot;
+      width=&quot;240&quot; height=&quot;240&quot; alt=&quot;Banded Pitta&quot; /&gt;&lt;/a&gt;\n\n&lt;i&gt;======================================================================\nADMIN
+      USE ONLY\nAdmin notes site: &lt;a href=&quot;https://www.flickr.com/groups/1551955@N23/&quot;&gt;www.flickr.com/groups/1551955@N23/&lt;/a&gt;\nOld
+      Admin notes: &lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72057594120386406/page3&quot;&gt;www.flickr.com/groups/birdguide/discuss/72057594120386406...&lt;/a&gt;\nIn
+      order to maintain a true on-line &lt;i&gt;Field Guide: Birds of the World&lt;/i&gt;
+      it is necessary to tag your photos with the correct scientific/latin name per
+      &lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157594382295215/&quot;&gt;Clements
+      5th edition&lt;/a&gt;. Tags make this pool work. Your assistance in tagging
+      your photos is greatly appreciated.  Untagged photos may be removed from the
+      pool.\n======================================================================\n&lt;/i&gt;</description>\n\t<rules>&lt;i&gt;&lt;a
+      href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157594496099937/&quot;&gt;Para
+      ler as regras em &lt;b&gt;portugu\xEAs&lt;/b&gt;, por favor, &lt;b&gt;carreque
+      aqui&lt;/b&gt;&lt;/a&gt;\n&lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157623615933049/&quot;&gt;Para
+      leer las reglas en &lt;b&gt;espa\xF1ol&lt;/b&gt;, por favor, &lt;b&gt;seleccione
+      aqu\xED&lt;/b&gt;&lt;/a&gt;\n&lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157626606983886/&quot;&gt;Per
+      leggere le regole in &lt;b&gt;italiano&lt;/b&gt;, per favore, &lt;b&gt;clicca
+      qui&lt;/b&gt;&lt;/a&gt;\n&lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157627474634705/&quot;&gt;Pour
+      lire les r\xE8gles en &lt;b&gt;fran\xE7ais&lt;/b&gt;, s&#039;il vous pla\xEEt
+      &lt;b&gt;cliquez ici&lt;/b&gt;&lt;/a&gt;&lt;/i&gt;\n\n&lt;i&gt;This is NOT just
+      another group for people to post random photos of birds: the Field Guide is
+      a &lt;b&gt;specialist&lt;/b&gt; group, and participating in it correctly takes
+      &lt;b&gt;time and care&lt;/b&gt; on the part of its members. It is an ongoing
+      project to build an online and indexed &lt;b&gt;identification guide&lt;/b&gt;
+      of the birds of the world. The &lt;b&gt;features&lt;/b&gt; of the bird must
+      be clearly visible in your photo and the bird must be &lt;b&gt;positively identified&lt;/b&gt;
+      and &lt;b&gt;&lt;u&gt;tagged&lt;/u&gt; with its &lt;u&gt;scientific (Latin)
+      name&lt;/u&gt;&lt;/b&gt;.&lt;/i&gt;\n\n\n&lt;b&gt;==========================================================\n
+      RULES AND GUIDELINES FOR POSTING PHOTOS TO THE POOL\n==========================================================&lt;/b&gt;\n\n&lt;u&gt;&lt;b&gt;&lt;i&gt;IDENTIFICATION&lt;/i&gt;&lt;/b&gt;&lt;/u&gt;\n\nIf
+      you don\u2019t know what species your photo shows, &lt;b&gt;do NOT post it yet&lt;/b&gt;
+      - first find out what it is!  You can do so by asking for help in our &lt;a
+      href=&quot;http://www.flickr.com/groups/birdguide/discuss/36682/page41/&quot;&gt;&lt;b&gt;Bird
+      ID Help Line&lt;/b&gt;&lt;/a&gt; thread, or by joining and posting to the &lt;a
+      href=&quot;https://www.flickr.com/groups/bird_id_group/pool/&quot;&gt;&lt;b&gt;Bird
+      Identification Help Group&lt;/b&gt;&lt;/a&gt;. \n\n\n&lt;u&gt;&lt;b&gt;&lt;i&gt;TAGGING&lt;/i&gt;&lt;/b&gt;&lt;/u&gt;\n\nIt
+      is &lt;b&gt;ESSENTIAL&lt;/b&gt; that every photo submitted is &lt;b&gt;tagged
+      with its scientific (Latin) name&lt;/b&gt;.  Failure to do so will mean the
+      photo will not be found when using the &lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157594382295215/&quot;&gt;Hyperlink
+      index&lt;/a&gt; and may result in the photo being removed from the pool. Admins
+      do not have time to tag every photo themselves: YOU must tag your own photos!
+      - this is an essential part of your role as a group-member.\n\nIf you&#039;re
+      not familiar with tagging, see &lt;a href=&quot;https://help.flickr.com/en_us/tag-keywords-in-flickr-BJUJpQoyX&quot;
+      rel=&quot;nofollow&quot;&gt;help.flickr.com/en_us/tag-keywords-in-flickr-BJUJpQoyX&lt;/a&gt;
+      for an explanation of how to do it. \n&lt;i&gt;Note: when tagging bird names,
+      use &lt;b&gt;&amp;quot; &amp;quot;&lt;/b&gt; marks either side of the bird name
+      to ensure that the &lt;b&gt;whole name appears as one tag&lt;/b&gt; - thus with
+      a space (not an underscore or hyphen) between the two words. For example, in
+      the tag-box type &lt;b&gt;&amp;quot;Junco hyemalis&amp;quot;&lt;/b&gt;, NOT
+      &lt;b&gt;Junco hyemalis&lt;/b&gt; or &lt;b&gt;Junco_hyemalis&lt;/b&gt; or &lt;b&gt;Junco-hyemalis&lt;/b&gt;.&lt;/i&gt;\n\nSpecies&#039;
+      scientific names are (sadly) not fixed. This group uses as its standard the
+      list by Clements 2015.  You can check this list at &lt;a href=&quot;http://avibase.bsc-eoc.org/checklist.jsp?list=clements&amp;amp;lang=EN&quot;
+      rel=&quot;nofollow&quot;&gt;Avibase&lt;/a&gt;.\n\nIf you know what the species
+      is but don\u2019t know its scientific name, you can check it at &lt;a href=&quot;http://flickr-fbw.co.uk/search.php&quot;
+      rel=&quot;nofollow&quot;&gt;this site&lt;/a&gt; (along with a variety of useful
+      pool information), or if the species is already in the pool you can check it
+      against our &lt;a href=&quot;http://www.flickr.com/groups/birdguide/discuss/72157594382295215/&quot;&gt;Hyperlink
+      index&lt;/a&gt;.\n\nPlease also ensure that your photos are tagged with the
+      &lt;b&gt;common name&lt;/b&gt; as this is easier for most people to recognise,
+      and there may sometimes be a need to search for photos by common-name tag. \n\n\n&lt;u&gt;&lt;b&gt;&lt;i&gt;LOCATION&lt;/i&gt;&lt;/b&gt;&lt;/u&gt;\n\nPlease
+      always give the location, including a) country and b) region (e.g. state, province)
+      within the country. Do not abbreviate the region/state.\nEven if your photo
+      is placed on the flickr map, it is best to give all this location information
+      in the photo&#039;s caption.\n\n\n&lt;u&gt;&lt;b&gt;&lt;i&gt;WHAT TO POST (and
+      what not to post)&lt;/i&gt;&lt;/b&gt;&lt;/u&gt;\n\nThe idea of this group is
+      that photos should be &lt;b&gt;useful for identification&lt;/b&gt;.  Ideally
+      therefore the photo should be a good close-up of a single bird, showing the
+      whole of the bird. Photos showing only part of the bird are acceptable if the
+      part of the bird they show is helpful for identification.  Also photos of more
+      than one bird are acceptable provided sufficient detail is visible \u2013 large
+      flocks are unlikely to qualify. If you have a large series of wonderful photographs,
+      try to choose the best 2 or maybe 3 which illustrate field characteristics.
+      \ Do not be offended if part of a large series posted to the pool are deleted
+      by administration.\n\nBirds should not be distant, hidden or silhouetted and
+      the markings should be clear. Artistic shots, black &amp;amp; white photos,
+      close-up portraits, etc are not what this group is about.  Be your own judge,
+      but be stricter for common species that are already well-represented in the
+      pool. Photos of more than one bird are acceptable providing at least one of
+      them meets the criteria, but flocks should generally be avoided.  Submitted
+      photos should be  accurate, life-like representations of the bird, so avoid,
+      for example, cloning obscuring vegetation from in front of the bird or excessive
+      colour saturation or other techniques that alter the field appearance.\n\n&lt;b&gt;Wild
+      birds&lt;/b&gt; are preferred to &lt;b&gt;captive&lt;/b&gt; ones. Captive birds
+      are acceptable if we don\u2019t have wild ones in the pool already, but only
+      if they look like wild examples of the species. If you do include a captive
+      bird, please add the &lt;b&gt;tag &#039;captive&#039;&lt;/b&gt; to the photo.\n\nAlthough
+      we do accept &lt;b&gt;domestic&lt;/b&gt; breeds so long as they are in the wild,
+      these are already well-represented so new photos will add little value. We do
+      not accept domestic breeds in captivity.  They should not be tagged with the
+      scientific name to avoid confusion with their wild ancestors \u2013 tag them
+      Domestic and then the species name (e.g. \u201CDomestic Mallard\u201D, \u201CDomestic
+      Greylag Goose\u201D, etc.).\n\nThe Field Guide discourages the photography of
+      &lt;b&gt;breeding birds at the nest&lt;/b&gt; and does not allow such photos
+      - nor photos of &lt;b&gt;nests with eggs&lt;/b&gt; nor of &lt;b&gt;nestlings&lt;/b&gt;.\n\n\n&lt;u&gt;&lt;b&gt;&lt;i&gt;OTHER
+      REQUIREMENTS&lt;/i&gt;&lt;/b&gt;&lt;/u&gt;\n\nWhere known, it is useful if you
+      state the subspecies, gender, age, plumage, morph etc. and tag these.  Tagging
+      the genus is helpful as it allows broader searches.  When tagging &lt;b&gt;subspecies&lt;/b&gt;
+      please tag the full three-part Latin name (e.g. \u201CMotacilla flava flavissima\u201D)
+      but don\u2019t forget to tag just the species name (\u201CMotacilla flava\u201D)
+      as well.\n\n\nThank you for joining, and we look forward to your contributions.</rules>\n\t<members>26133</members>\n\t<pool_count>211406</pool_count>\n\t<topic_count>418</topic_count>\n\t<privacy>3</privacy>\n\t<roles
+      member=\"Member\" moderator=\"Moderator\" admin=\"Admin\" />\n\t<datecreate>2005-05-16
+      08:51:45</datecreate>\n\t<dateactivity>1698142728</dateactivity>\n\t<blast date_blast_added=\"1458407448\"
+      user_id=\"1745985\">In this  &lt;i&gt;Field Guide&lt;/i&gt;, photos &lt;b&gt;MUST&lt;/b&gt;
+      be &lt;b&gt;TAGGED&lt;/b&gt; with the scientific name (Clements 2015 edition).
+      If you don&#039;t know the bird&#039;s identity please ask in the &lt;a href=&quot;https://www.flickr.com/groups/birdguide/discuss/36682/&quot;&gt;Bird
+      ID Help Line&lt;/a&gt; before posting to the pool. To find the scientific name,
+      use &lt;a href=&quot;http://flickr-fbw.co.uk/search1.php&quot; rel=&quot;nofollow&quot;&gt;flickr-fbw.co.uk/search1.php&lt;/a&gt;.
+      &lt;b&gt;Location is also required. UNTAGGED PHOTOS WILL BE DELETED.&lt;/b&gt;</blast>\n\t<throttle
+      count=\"5\" mode=\"day\" />\n\t<restrictions photos_ok=\"1\" videos_ok=\"0\"
+      images_ok=\"1\" screens_ok=\"0\" art_ok=\"0\" virtual_ok=\"0\" safe_ok=\"1\"
+      moderate_ok=\"0\" restricted_ok=\"0\" has_geo=\"0\" />\n</group>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '4738'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 24 Oct 2023 11:07:39 GMT
+      Via:
+      - 1.1 30ef06f785f68fc7da8b2baef8948156.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - yuq1qU6M_BRH2v48rE-tTpngEbFofOCqpGEiKZ2fH-whOwceQjSZCw==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 23-Nov-2023 11:07:39 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - python-httpx/0.24.1
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Cpath_alias%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o&group_id=42637302%40N00&method=flickr.groups.pools.getPhotos&page=1&per_page=10
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
+      page=\"1\" pages=\"21146\" perpage=\"10\" total=\"211457\">\n\t<photo id=\"53262429080\"
+      owner=\"150942226@N07\" secret=\"d1d4ef0046\" server=\"65535\" farm=\"66\" title=\"Taiwan
+      Scimitar-babbler\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"longanjiang\"
+      dateadded=\"1698142727\" license=\"0\" dateupload=\"1697449717\" datetaken=\"2023-10-08
+      08:34:14\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53262429080_d1d4ef0046_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53262429080_d1d4ef0046_t.jpg\"
+      height_t=\"80\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53262429080_d1d4ef0046_m.jpg\"
+      height_s=\"192\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53262429080_d1d4ef0046.jpg\"
+      height_m=\"400\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53262429080_1e3d8bb57e_o.jpg\"
+      height_o=\"2397\" width_o=\"2996\" pathalias=\"\" />\n\t<photo id=\"53241120905\"
+      owner=\"114700825@N07\" secret=\"3d97d77bb4\" server=\"65535\" farm=\"66\" title=\"294.3
+      Alk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"dirkvanmourik\"
+      dateadded=\"1698131890\" license=\"0\" dateupload=\"1696691252\" datetaken=\"2023-10-01
+      16:05:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53241120905_3d97d77bb4_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53241120905_3d97d77bb4_t.jpg\"
+      height_t=\"56\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53241120905_3d97d77bb4_m.jpg\"
+      height_s=\"135\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53241120905_3d97d77bb4.jpg\"
+      height_m=\"281\" width_m=\"500\" pathalias=\"dirks_birds\" />\n\t<photo id=\"53281743328\"
+      owner=\"14191740@N08\" secret=\"dbba8c8454\" server=\"65535\" farm=\"66\" title=\"Song
+      Thrush (Turdus philomelos), Blackwaterfoot, Arran\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" ownername=\"Terathopius\" dateadded=\"1698126553\" license=\"0\"
+      dateupload=\"1698125666\" datetaken=\"2023-05-19 15:27:01\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53281743328_dbba8c8454_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53281743328_dbba8c8454_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53281743328_dbba8c8454_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53281743328_dbba8c8454.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53281743328_0605136ac5_o.jpg\"
+      height_o=\"2712\" width_o=\"4068\" pathalias=\"nvoaden\" />\n\t<photo id=\"53280569032\"
+      owner=\"14191740@N08\" secret=\"de80db7bf5\" server=\"65535\" farm=\"66\" title=\"Eurasian
+      Skylark (Alauda arvensis), Lockshaw Moss, Fife\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" ownername=\"Terathopius\" dateadded=\"1698126316\" license=\"0\"
+      dateupload=\"1698125666\" datetaken=\"2023-05-13 07:58:00\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53280569032_de80db7bf5_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53280569032_de80db7bf5_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53280569032_de80db7bf5_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53280569032_de80db7bf5.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53280569032_6f62afab0f_o.jpg\"
+      height_o=\"1887\" width_o=\"2831\" pathalias=\"nvoaden\" />\n\t<photo id=\"6804380106\"
+      owner=\"77012150@N08\" secret=\"340b31036d\" server=\"7186\" farm=\"8\" title=\"Juvenile
+      Antarctic Tern DSC_0760\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Mary
+      Bomford\" dateadded=\"1698123525\" license=\"0\" dateupload=\"1330820420\" datetaken=\"2010-03-06
+      22:14:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7186/6804380106_340b31036d_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7186/6804380106_340b31036d_t.jpg\"
+      height_t=\"59\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7186/6804380106_340b31036d_m.jpg\"
+      height_s=\"142\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7186/6804380106_340b31036d.jpg\"
+      height_m=\"295\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7186/6804380106_cc821ba26a_o.jpg\"
+      height_o=\"1794\" width_o=\"3036\" pathalias=\"marybom\" />\n\t<photo id=\"53214672254\"
+      owner=\"22594349@N08\" secret=\"22b679bbdf\" server=\"65535\" farm=\"66\" title=\"White-winged
+      Tern  (Chlidonias leucopterus)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      ownername=\"Ian N. White\" dateadded=\"1698120949\" license=\"0\" dateupload=\"1695703861\"
+      datetaken=\"2023-09-24 07:26:05\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53214672254_22b679bbdf_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53214672254_22b679bbdf_t.jpg\"
+      height_t=\"72\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53214672254_22b679bbdf_m.jpg\"
+      height_s=\"173\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53214672254_22b679bbdf.jpg\"
+      height_m=\"361\" width_m=\"500\" pathalias=\"ian_white\" />\n\t<photo id=\"53229897350\"
+      owner=\"127058286@N04\" secret=\"2c83709f5b\" server=\"65535\" farm=\"66\" title=\"Buse
+      variable - Common Buzzard (Buteo buteo) - Colombier-Saugnieu - Ferrati\xE8re
+      de Planaise (Rh\xF4ne) France, le 2 octobre 2023\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" ownername=\"Lo\xEFc Le Comte\" dateadded=\"1698116386\" license=\"0\"
+      dateupload=\"1696270512\" datetaken=\"2023-10-02 15:11:59\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53229897350_2c83709f5b_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53229897350_2c83709f5b_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53229897350_2c83709f5b_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53229897350_2c83709f5b.jpg\"
+      height_m=\"333\" width_m=\"500\" pathalias=\"\" />\n\t<photo id=\"53281184843\"
+      owner=\"134815842@N03\" secret=\"36280b93e3\" server=\"65535\" farm=\"66\" title=\"Silver-throated
+      Tanager (Tangara icterocephala) Dagua, Colombia 2023-AO5A5477\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" ownername=\"Ricardo Bitran\" dateadded=\"1698104172\"
+      license=\"0\" dateupload=\"1698103280\" datetaken=\"2023-08-30 10:20:06\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53281184843_36280b93e3_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53281184843_36280b93e3_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53281184843_36280b93e3_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53281184843_36280b93e3.jpg\"
+      height_m=\"333\" width_m=\"500\" pathalias=\"bitranbirdsoftheworld\" />\n\t<photo
+      id=\"53280525311\" owner=\"145466593@N08\" secret=\"03ef9e7802\" server=\"65535\"
+      farm=\"66\" title=\"Red-tailed Hawk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      ownername=\"barbmerrill2\" dateadded=\"1698091797\" license=\"0\" dateupload=\"1698091293\"
+      datetaken=\"2023-10-19 22:06:21\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53280525311_03ef9e7802_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53280525311_03ef9e7802_t.jpg\"
+      height_t=\"97\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53280525311_03ef9e7802_m.jpg\"
+      height_s=\"233\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53280525311_03ef9e7802.jpg\"
+      height_m=\"486\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53280525311_cb84843fe4_o.jpg\"
+      height_o=\"2841\" width_o=\"2924\" pathalias=\"\" />\n\t<photo id=\"53275243530\"
+      owner=\"78941013@N00\" secret=\"1e57646dc9\" server=\"65535\" farm=\"66\" title=\"Great
+      Skua (Stercorarius skua) Grote jager\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      ownername=\"Ron Winkler nature\" dateadded=\"1698086489\" license=\"0\" dateupload=\"1697915679\"
+      datetaken=\"2022-08-06 18:31:24\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53275243530_1e57646dc9_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53275243530_1e57646dc9_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53275243530_1e57646dc9_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53275243530_1e57646dc9.jpg\"
+      height_m=\"333\" width_m=\"500\" pathalias=\"\" />\n</photos>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1820'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 24 Oct 2023 11:07:39 GMT
+      Via:
+      - 1.1 30ef06f785f68fc7da8b2baef8948156.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - V5zDvFLQ9BwUQ3-c4F5dk6wAi8dTecgw8gsS3ZqMIz1xEPCksaUPJA==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Thu, 23-Nov-2023 11:07:39 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

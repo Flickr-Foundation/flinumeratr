@@ -78,29 +78,27 @@
   .infobox {}
 </style>
 
-{% if data.type == "people" %}
+{% if data.type == "user" %}
   <p id="infobox">
     This URL shows the photos taken by
     <a href="https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>,
     who has posted {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "photoset" %}
+{% elif data.type == "album" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.photoset_title }}</a> album,
-    which was created by <a href="/see_photos?flickr_url=https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.photoset_title }}</a> album, which was created by <a href="/see_photos?flickr_url=https://www.flickr.com/photos/{{ data.user_info.user_id }}">{{ data.user_info.realname or data.user_info.username }}</a>.
     It contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif data.type == "group" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.group_name }}</a> group pool,
-    which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.group_name }}</a> group pool, which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "galleries" %}
+{% elif data.type == "gallery" %}
   <p id="infobox">
     This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.gallery_title }}</a> gallery,
     which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "tags" %}
+{% elif data.type == "tag" %}
   <p id="infobox">
     This URL shows photos tagged with <a href="{{ flickr_url }}">{{ data.tag }}</a>.
     
