@@ -35,3 +35,18 @@ def api(cassette_name):
         filter_query_parameters=["api_key"],
     ):
         yield FlickrApi(api_key=os.environ.get("FLICKR_API_KEY", "<REDACTED>"))
+
+
+@pytest.fixture()
+def client():
+    """
+    Creates an instance of the app for use in testing.
+
+    See https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures
+    """
+    from flinumeratr.app import app
+
+    app.config["TESTING"] = True
+
+    with app.test_client() as client:
+        yield client
