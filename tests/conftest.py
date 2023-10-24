@@ -6,6 +6,11 @@ import vcr
 from flinumeratr.flickr_api import FlickrApi
 
 
+@pytest.fixture
+def api_key():
+    os.environ.update({"FLICKR_API_KEY": "testing"})
+
+
 @pytest.fixture(scope="function")
 def cassette_name(request):
     # By default we use the name of the test as the cassette name,
@@ -38,7 +43,7 @@ def api(cassette_name):
 
 
 @pytest.fixture()
-def client():
+def client(api_key):
     """
     Creates an instance of the app for use in testing.
 
