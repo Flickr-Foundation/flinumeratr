@@ -5,7 +5,7 @@ def test_no_flickr_url_redirects_you_to_homepage(client):
     resp = client.get("/see_photos")
 
     assert resp.status_code == 302
-    assert resp.headers['location'] == '/'
+    assert resp.headers["location"] == "/"
 
 
 @pytest.mark.parametrize(
@@ -51,12 +51,9 @@ def test_no_flickr_url_redirects_you_to_homepage(client):
             ],
         ),
         (
-        "https://flickr.com/photos/tags/thatch/",
-        [
-            b"This URL shows photos tagged with",
-            b"thatch"
-        ]
-        )
+            "https://flickr.com/photos/tags/thatch/",
+            [b"This URL shows photos tagged with", b"thatch"],
+        ),
     ],
 )
 def test_results_page_shows_info_box(client, api, flickr_url, expected_text):
