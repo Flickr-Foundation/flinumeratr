@@ -22,6 +22,9 @@ class FlickrApi:
         self.client = httpx.Client(
             base_url="https://api.flickr.com/services/rest/",
             params={"api_key": api_key},
+            headers={
+                "User-Agent": "Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)"
+            },
         )
 
     # TODO: I would really like 'method' to be a positional-only arg,
