@@ -11,11 +11,12 @@ def test_no_flickr_url_redirects_you_to_homepage(client):
 @pytest.mark.parametrize(
     ["flickr_url", "expected_text"],
     [
-        (
+        pytest.param(
             "https://www.flickr.com/photos/sdasmarchives/50567413447",
             [b"This URL is", b"a single photo"],
+            id="single_photo",
         ),
-        (
+        pytest.param(
             "https://www.flickr.com/photos/aljazeeraenglish/albums/72157626164453131",
             [
                 b"This URL shows the photos in the",
@@ -24,35 +25,40 @@ def test_no_flickr_url_redirects_you_to_homepage(client):
                 b"Al Jazeera English",
                 b"It contains 22 photos",
             ],
+            id="album",
         ),
-        (
+        pytest.param(
             "https://www.flickr.com/groups/birdguide/",
             [
                 b"This URL shows the photos in the",
                 b"Field Guide: Birds of the World",
-                b"group pool, which contains 211,457 photos",
+                b"group pool, which contains 211,621 photos",
             ],
+            id="group",
         ),
-        (
+        pytest.param(
             "https://www.flickr.com/people/blueminds/",
             [
                 b"This URL shows the photos taken by",
                 b"Alexander Lauterbach",
                 b"who has posted 365 photos",
             ],
+            id="user",
         ),
-        (
+        pytest.param(
             "https://www.flickr.com/photos/george/galleries/72157621848008117/",
             [
                 b"This URL shows the photos in the",
                 b"Photographs I Like of People I Don't Know",
                 b"gallery",
-                b"which contains 13 photos",
+                b"which contains 12 photos",
             ],
+            id="gallery",
         ),
-        (
+        pytest.param(
             "https://flickr.com/photos/tags/thatch/",
             [b"This URL shows photos tagged with", b"thatch"],
+            id="tag",
         ),
     ],
 )
