@@ -1,11 +1,33 @@
+from flask.testing import FlaskClient
+from flickr_photos_api import FlickrPhotosApi
 import pytest
 
 
-def test_no_flickr_url_redirects_you_to_homepage(client):
+def test_can_load_homepage(client: FlaskClient, api: FlickrPhotosApi) -> None:
+    resp = client.get("/")
+
+    assert resp.status_code == 200
+
+
+def test_no_flickr_url_redirects_you_to_homepage(client: FlaskClient) -> None:
     resp = client.get("/see_photos")
 
     assert resp.status_code == 302
     assert resp.headers["location"] == "/"
+
+
+def test_no_photos_to_show_is_error(client: FlaskClient) -> None:
+    resp = client.get("/see_photos?flickr_url=https://www.flickr.com/help")
+
+    assert resp.status_code == 200
+    assert b"There are no photos to show" in resp.data
+
+
+def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
+    resp = client.get("/see_photos?flickr_url=https://www.example.net")
+
+    assert resp.status_code == 200
+    assert "doesn’t live on Flickr.com" in resp.data.decode("utf8")
 
 
 @pytest.mark.parametrize(
@@ -62,10 +84,21 @@ def test_no_flickr_url_redirects_you_to_homepage(client):
         ),
     ],
 )
-def test_results_page_shows_info_box(client, api, flickr_url, expected_text):
+def test_results_page_shows_info_box(
+    client: FlaskClient, api: FlickrPhotosApi, flickr_url: str, expected_text: str
+) -> None:
     resp = client.get(f"/see_photos?flickr_url={flickr_url}")
 
     assert resp.status_code == 200
 
     for text in expected_text:
         assert text in resp.data.replace(b"&nbsp;", b" ").replace(b"&#39;", b"'")
+
+
+def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrPhotosApi) -> None:
+    resp = client.get(
+        "/see_photos?flickr_url=https://www.flickr.com/photos/doesnotexist/12345678901234567890"
+    )
+
+    assert resp.status_code == 200
+    assert b"Unable to find" in resp.data

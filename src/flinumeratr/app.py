@@ -3,8 +3,10 @@
 import os
 import secrets
 import sys
+from typing import List
 
 from flask import Flask, flash, redirect, render_template, request, url_for
+from flickr_photos_api import FlickrPhotosApi, ResourceNotFound, Size as PhotoSize
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -14,8 +16,7 @@ import humanize
 
 from flinumeratr.enumerator import get_photo_data
 from flinumeratr.filters import render_date_taken
-from flickr_photos_api import FlickrPhotosApi
-from flickr_photos_api.exceptions import ResourceNotFound
+from ._types import ViewResponse
 
 
 app = Flask(__name__)
@@ -26,7 +27,7 @@ app.add_template_filter(render_date_taken)
 
 try:
     api_key = os.environ["FLICKR_API_KEY"]
-except KeyError:
+except KeyError:  # pragma: no cover
     sys.exit(
         "Could not find Flickr API key! "
         "Please set the FLICKR_API_KEY environment variable and run again."
@@ -39,21 +40,32 @@ else:
 
 
 @app.template_filter()
-def image_at(sizes, desired_size):
+def image_at(sizes: List[PhotoSize], desired_size: str) -> str:
     """
-    Given a list of image sizes from the Flickr API, return the source URL of
+    Given a list of sizes of Flickr photo, return the source of
     the desired size.
     """
-    # TODO: Make more rigorous.  This function is very basic, and will throw
-    # a StopIteration exception if the size isn't found.
+    sizes_by_label = {s["label"]: s for s in sizes}
+
+    # Flickr has a published list of possible sizes here:
+    # https://www.flickr.com/services/api/misc.urls.html
     #
-    # It would be better if it had an awareness of the sizes that the Flickr API
-    # might return, so it could
-    return next(s["source"] for s in sizes if s["label"] == desired_size)
+    # If the desired size isn't available, that means one of two things:
+    #
+    #   1.  The owner of this photo has done something to restrict downloads
+    #       of their photo beyond a certain size.  But CC-licensed photos
+    #       are always available to download, so that's not an issue for us.
+    #   2.  This photo is smaller than the size we've asked for, in which
+    #       case we fall back to Original as the largest possible size.
+    #
+    try:
+        return sizes_by_label[desired_size]["source"]
+    except KeyError:  # pragma: no cover
+        return sizes_by_label["Original"]["source"]
 
 
 @app.template_filter()
-def example_url(url):
+def example_url(url: str) -> str:
     display_url = url.replace("https://www.flickr.com", "").replace(
         "https://flickr.com", ""
     )
@@ -61,67 +73,17 @@ def example_url(url):
 
 
 @app.template_filter()
-def enrich_license(license):
-    """
-    Add extra information to licenses, in particular display labels and
-    a list of icons.
-    """
-    # TODO: Write tests for this function.
-    try:
-        extra_info = {
-            "All Rights Reserved": {"label": "&copy; All Rights Reserved"},
-            "Attribution-NonCommercial-ShareAlike License": {
-                "label": "CC BY-NC-SA 2.0",
-                "icon_names": ["cc", "by", "nc", "sa"],
-            },
-            "Attribution-NonCommercial License": {
-                "label": "CC BY-NC 2.0",
-                "icon_names": ["cc", "by", "nc"],
-            },
-            "Attribution-NonCommercial-NoDerivs License": {
-                "label": "CC BY-NC-ND 2.0",
-                "icon_names": ["cc", "by", "nc", "nd"],
-            },
-            "Attribution License": {"label": "CC BY 2.0", "icon_names": ["cc", "by"]},
-            "Attribution-ShareAlike License": {
-                "label": "CC BY-SA 2.0",
-                "icon_names": ["cc", "by", "sa"],
-            },
-            "Attribution-NoDerivs License": {
-                "label": "CC BY-ND 2.0",
-                "icon_names": ["cc", "by", "nd"],
-            },
-            "Public Domain Dedication (CC0)": {
-                "label": "Public Domain",
-                "icon_names": ["zero"],
-            },
-            "Public Domain Mark": {"label": "Public Domain", "icon_names": ["zero"]},
-        }[license["name"]]
-    except KeyError:
-        extra_info = {}
-
-    return {
-        **license,
-        "label": extra_info.get("label", license["name"]),
-        "icons": [
-            url_for("static", filename=f"icons/{name}.svg")
-            for name in extra_info.get("icon_names", [])
-        ],
-    }
-
-
-@app.template_filter()
-def intcomma(n):
+def intcomma(n: int) -> str:
     return humanize.intcomma(n)
 
 
 @app.route("/")
-def index():
+def index() -> ViewResponse:
     return render_template("index.html")
 
 
 @app.route("/see_photos")
-def see_photos():
+def see_photos() -> ViewResponse:
     try:
         flickr_url = request.args["flickr_url"]
     except KeyError:
@@ -130,7 +92,7 @@ def see_photos():
     page = int(request.args.get("page", "1"))
 
     try:
-        parsed_url = parse_flickr_url(flickr_url)
+        parse_result = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
         flash(
             f"There are no photos to show at <span class='user_input'>{flickr_url}</span>"
@@ -149,23 +111,23 @@ def see_photos():
         "group": "a group",
         "galleries": "a gallery",
         "tags": "a tag",
-    }.get(parsed_url["type"], "a " + parsed_url["type"])
+    }.get(parse_result["type"], "a " + parse_result["type"])
 
     try:
-        photos = get_photo_data(api, parsed_url=parsed_url, page=page)
+        photos = get_photo_data(api, parse_result=parse_result, page=page)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
         )
         return render_template("error.html", flickr_url=flickr_url)
-    # except Exception as e:
-    #     flash(f"Boom! Something went wrong: {e}")
-    #     return render_template("error.html", flickr_url=flickr_url, error=e)
+    except Exception as e:  # pragma: no cover
+        flash(f"Boom! Something went wrong: {e}")
+        return render_template("error.html", flickr_url=flickr_url, error=e)
     else:
         return render_template(
             "see_photos.html",
             page=page,
             flickr_url=flickr_url,
-            data={**parsed_url, **photos},
+            data={**parse_result, **photos},
             label=category_label,
         )
