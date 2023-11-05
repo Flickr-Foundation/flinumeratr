@@ -7,12 +7,12 @@ hyperlink
 #
 # See https://github.com/Flickr-Foundation/flinumeratr/issues/23
 flask<2.3.0
-httpx<0.25.0
 humanize<4.7.0
 
 # Version pins for 3.7 for things we don't depend on directly, but are
 # dependencies of libraries we actually use.
 anyio<4.0.0
+httpx<0.25.0
 importlib-metadata<4.3
 werkzeug<2.3.0
 zipp<3.16.0
