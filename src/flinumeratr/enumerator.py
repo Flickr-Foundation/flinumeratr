@@ -14,83 +14,31 @@ The process of flinumeration is split into two steps:
 
 """
 
-from flinumeratr.flickr_api import (
-    get_photos_in_gallery,
-    get_photos_in_group_pool,
-    get_photos_in_photoset,
-    get_photos_with_tag,
-    get_public_photos_by_person,
-    get_single_photo_info,
-    get_user_info,
-    lookup_group_id_from_url,
-    lookup_user_id_from_url,
-)
 
-
-def get_photo_data(api, *, categorised_url, page):
+def get_photo_data(api, *, parsed_url, page):
     """
     Given some data about a categorised URL, actually fetch a list of photos
     from Flickr.
 
     This is the second step of flinumeration.
     """
-    if categorised_url["type"] == "single_photo":
-        return {
-            "photos": [get_single_photo_info(api, photo_id=categorised_url["photo_id"])]
-        }
-    elif categorised_url["type"] == "album":
-        user_id = lookup_user_id_from_url(api, user_url=categorised_url["user_url"])
+    if parsed_url["type"] == "single_photo":
+        photo = api.get_single_photo(photo_id=parsed_url["photo_id"])
 
-        user_info = get_user_info(api, user_id=user_id)
-
-        photoset_resp = api.call(
-            "flickr.photosets.getInfo",
-            user_id=user_id,
-            photoset_id=categorised_url["album_id"],
+        return {"photos": [photo]}
+    elif parsed_url["type"] == "album":
+        return api.get_photos_in_album(
+            user_url=parsed_url["user_url"], album_id=parsed_url["album_id"], page=page
         )
-        photoset_title = photoset_resp.find(".//title").text
-
-        return {
-            "user_info": user_info,
-            "photoset_title": photoset_title,
-            **get_photos_in_photoset(
-                api,
-                user_id=user_id,
-                photoset_id=categorised_url["album_id"],
-                page=page,
-            ),
-        }
-    elif categorised_url["type"] == "user":
-        user_id = lookup_user_id_from_url(api, user_url=categorised_url["user_url"])
-
-        return {
-            "user_info": get_user_info(api, user_id=user_id),
-            **get_public_photos_by_person(api, user_id=user_id, page=page),
-        }
-    elif categorised_url["type"] == "gallery":
-        gallery_resp = api.call(
-            "flickr.galleries.getInfo", gallery_id=categorised_url["gallery_id"]
+    elif parsed_url["type"] == "user":
+        return api.get_public_photos_by_user(user_url=parsed_url["user_url"], page=page)
+    elif parsed_url["type"] == "gallery":
+        return api.get_photos_in_gallery(gallery_id=parsed_url["gallery_id"], page=page)
+    elif parsed_url["type"] == "group":
+        return api.get_photos_in_group_pool(
+            group_url=parsed_url["group_url"], page=page
         )
-
-        gallery_title = gallery_resp.find(".//title").text
-
-        return {
-            "gallery_title": gallery_title,
-            **get_photos_in_gallery(
-                api, gallery_id=categorised_url["gallery_id"], page=page
-            ),
-        }
-    elif categorised_url["type"] == "group":
-        group_id = lookup_group_id_from_url(api, group_url=categorised_url["group_url"])
-
-        group_resp = api.call("flickr.groups.getInfo", group_id=group_id)
-        group_name = group_resp.find(".//name").text
-
-        return {
-            "group_name": group_name,
-            **get_photos_in_group_pool(api, group_id=group_id, page=page),
-        }
-    elif categorised_url["type"] == "tag":
-        return get_photos_with_tag(api, tag=categorised_url["tag"], page=page)
+    elif parsed_url["type"] == "tag":
+        return api.get_photos_with_tag(tag=parsed_url["tag"], page=page)
     else:
         return {}
