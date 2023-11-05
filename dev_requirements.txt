@@ -86,8 +86,12 @@ mccabe==0.7.0
     # via flake8
 multidict==6.0.4
     # via yarl
+mypy==1.4.1
+    # via -r dev_requirements.in
 mypy-extensions==1.0.0
-    # via black
+    # via
+    #   black
+    #   mypy
 packaging==23.2
     # via
     #   black
@@ -124,11 +128,13 @@ tomli==2.0.1
     # via
     #   black
     #   coverage
+    #   mypy
     #   pytest
 typing-extensions==4.7.1
     # via
     #   -r dev_requirements.in
     #   black
+    #   mypy
 urllib3==1.26.18
     # via vcrpy
 vcrpy==4.4.0
