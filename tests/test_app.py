@@ -1,11 +1,31 @@
 import pytest
 
 
+def test_can_load_homepage(client, api):
+    resp = client.get("/")
+
+    assert resp.status_code == 200
+
+
 def test_no_flickr_url_redirects_you_to_homepage(client):
     resp = client.get("/see_photos")
 
     assert resp.status_code == 302
     assert resp.headers["location"] == "/"
+
+
+def test_no_photos_to_show_is_error(client):
+    resp = client.get("/see_photos?flickr_url=https://www.flickr.com/help")
+
+    assert resp.status_code == 200
+    assert b"There are no photos to show" in resp.data
+
+
+def test_not_a_flickr_url_is_error(client):
+    resp = client.get("/see_photos?flickr_url=https://www.example.net")
+
+    assert resp.status_code == 200
+    assert "doesn’t live on Flickr.com" in resp.data.decode("utf8")
 
 
 @pytest.mark.parametrize(
@@ -69,3 +89,12 @@ def test_results_page_shows_info_box(client, api, flickr_url, expected_text):
 
     for text in expected_text:
         assert text in resp.data.replace(b"&nbsp;", b" ").replace(b"&#39;", b"'")
+
+
+def test_cant_find_resource_is_error(client, api):
+    resp = client.get(
+        "/see_photos?flickr_url=https://www.flickr.com/photos/doesnotexist/12345678901234567890"
+    )
+
+    assert resp.status_code == 200
+    assert b"Unable to find" in resp.data

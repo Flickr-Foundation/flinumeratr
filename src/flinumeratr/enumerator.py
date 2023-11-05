@@ -40,5 +40,5 @@ def get_photo_data(api, *, parsed_url, page):
         )
     elif parsed_url["type"] == "tag":
         return api.get_photos_with_tag(tag=parsed_url["tag"], page=page)
-    else:
-        return {}
+    else:  # pragma: no cover
+        raise ValueError(f"Unrecognised URL type: {parsed_url['type']}")

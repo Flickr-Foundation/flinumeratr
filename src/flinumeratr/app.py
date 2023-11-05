@@ -26,7 +26,7 @@ app.add_template_filter(render_date_taken)
 
 try:
     api_key = os.environ["FLICKR_API_KEY"]
-except KeyError:
+except KeyError:  # pragma: no cover
     sys.exit(
         "Could not find Flickr API key! "
         "Please set the FLICKR_API_KEY environment variable and run again."
@@ -41,15 +41,26 @@ else:
 @app.template_filter()
 def image_at(sizes, desired_size):
     """
-    Given a list of image sizes from the Flickr API, return the source URL of
+    Given a list of sizes of Flickr photo, return the source of
     the desired size.
     """
-    # TODO: Make more rigorous.  This function is very basic, and will throw
-    # a StopIteration exception if the size isn't found.
+    sizes_by_label = {s["label"]: s for s in sizes}
+
+    # Flickr has a published list of possible sizes here:
+    # https://www.flickr.com/services/api/misc.urls.html
     #
-    # It would be better if it had an awareness of the sizes that the Flickr API
-    # might return, so it could
-    return next(s["source"] for s in sizes if s["label"] == desired_size)
+    # If the desired size isn't available, that means one of two things:
+    #
+    #   1.  The owner of this photo has done something to restrict downloads
+    #       of their photo beyond a certain size.  But CC-licensed photos
+    #       are always available to download, so that's not an issue for us.
+    #   2.  This photo is smaller than the size we've asked for, in which
+    #       case we fall back to Original as the largest possible size.
+    #
+    try:
+        return sizes_by_label[desired_size]["source"]
+    except KeyError:  # pragma: no cover
+        return sizes_by_label["Original"]["source"]
 
 
 @app.template_filter()
@@ -58,56 +69,6 @@ def example_url(url):
         "https://flickr.com", ""
     )
     return f'<li><a href="/see_photos?flickr_url={url}">{display_url}</a></li>'
-
-
-@app.template_filter()
-def enrich_license(license):
-    """
-    Add extra information to licenses, in particular display labels and
-    a list of icons.
-    """
-    # TODO: Write tests for this function.
-    try:
-        extra_info = {
-            "All Rights Reserved": {"label": "&copy; All Rights Reserved"},
-            "Attribution-NonCommercial-ShareAlike License": {
-                "label": "CC BY-NC-SA 2.0",
-                "icon_names": ["cc", "by", "nc", "sa"],
-            },
-            "Attribution-NonCommercial License": {
-                "label": "CC BY-NC 2.0",
-                "icon_names": ["cc", "by", "nc"],
-            },
-            "Attribution-NonCommercial-NoDerivs License": {
-                "label": "CC BY-NC-ND 2.0",
-                "icon_names": ["cc", "by", "nc", "nd"],
-            },
-            "Attribution License": {"label": "CC BY 2.0", "icon_names": ["cc", "by"]},
-            "Attribution-ShareAlike License": {
-                "label": "CC BY-SA 2.0",
-                "icon_names": ["cc", "by", "sa"],
-            },
-            "Attribution-NoDerivs License": {
-                "label": "CC BY-ND 2.0",
-                "icon_names": ["cc", "by", "nd"],
-            },
-            "Public Domain Dedication (CC0)": {
-                "label": "Public Domain",
-                "icon_names": ["zero"],
-            },
-            "Public Domain Mark": {"label": "Public Domain", "icon_names": ["zero"]},
-        }[license["name"]]
-    except KeyError:
-        extra_info = {}
-
-    return {
-        **license,
-        "label": extra_info.get("label", license["name"]),
-        "icons": [
-            url_for("static", filename=f"icons/{name}.svg")
-            for name in extra_info.get("icon_names", [])
-        ],
-    }
 
 
 @app.template_filter()
@@ -158,9 +119,9 @@ def see_photos():
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
         )
         return render_template("error.html", flickr_url=flickr_url)
-    # except Exception as e:
-    #     flash(f"Boom! Something went wrong: {e}")
-    #     return render_template("error.html", flickr_url=flickr_url, error=e)
+    except Exception as e:  # pragma: no cover
+        flash(f"Boom! Something went wrong: {e}")
+        return render_template("error.html", flickr_url=flickr_url, error=e)
     else:
         return render_template(
             "see_photos.html",
