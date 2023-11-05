@@ -1,6 +1,7 @@
 import os
 from typing import Generator
 
+from flask.testing import FlaskClient
 import pytest
 from pytest import FixtureRequest
 import vcr
@@ -63,7 +64,7 @@ def api(cassette_name: str, user_agent: str) -> Generator[FlickrPhotosApi, None,
 
 
 @pytest.fixture()
-def client():
+def client() -> Generator[FlaskClient, None, None]:
     """
     Creates an instance of the app for use in testing.
 

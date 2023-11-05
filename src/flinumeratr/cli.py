@@ -1,7 +1,7 @@
 import argparse  # pragma: no cover
 
 
-def main():  # pragma: no cover
+def main() -> None:  # pragma: no cover
     parser = argparse.ArgumentParser(
         prog="flinumeratr",
         description="Run a local version of flinumeratr, a toy to help you pull photos out of Flickr.",

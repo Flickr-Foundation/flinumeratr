@@ -3,8 +3,10 @@
 import os
 import secrets
 import sys
+from typing import List
 
 from flask import Flask, flash, redirect, render_template, request, url_for
+from flickr_photos_api import (FlickrPhotosApi, ResourceNotFound, Size as PhotoSize)
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -14,8 +16,7 @@ import humanize
 
 from flinumeratr.enumerator import get_photo_data
 from flinumeratr.filters import render_date_taken
-from flickr_photos_api import FlickrPhotosApi
-from flickr_photos_api.exceptions import ResourceNotFound
+from ._types import ViewResponse
 
 
 app = Flask(__name__)
@@ -39,7 +40,7 @@ else:
 
 
 @app.template_filter()
-def image_at(sizes, desired_size):
+def image_at(sizes: List[PhotoSize], desired_size: str) -> str:
     """
     Given a list of sizes of Flickr photo, return the source of
     the desired size.
@@ -64,7 +65,7 @@ def image_at(sizes, desired_size):
 
 
 @app.template_filter()
-def example_url(url):
+def example_url(url: str) -> str:
     display_url = url.replace("https://www.flickr.com", "").replace(
         "https://flickr.com", ""
     )
@@ -72,17 +73,17 @@ def example_url(url):
 
 
 @app.template_filter()
-def intcomma(n):
+def intcomma(n: int) -> str:
     return humanize.intcomma(n)
 
 
 @app.route("/")
-def index():
+def index() -> ViewResponse:
     return render_template("index.html")
 
 
 @app.route("/see_photos")
-def see_photos():
+def see_photos() -> ViewResponse:
     try:
         flickr_url = request.args["flickr_url"]
     except KeyError:
@@ -91,7 +92,7 @@ def see_photos():
     page = int(request.args.get("page", "1"))
 
     try:
-        parsed_url = parse_flickr_url(flickr_url)
+        parse_result = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
         flash(
             f"There are no photos to show at <span class='user_input'>{flickr_url}</span>"
@@ -110,10 +111,10 @@ def see_photos():
         "group": "a group",
         "galleries": "a gallery",
         "tags": "a tag",
-    }.get(parsed_url["type"], "a " + parsed_url["type"])
+    }.get(parse_result["type"], "a " + parse_result["type"])
 
     try:
-        photos = get_photo_data(api, parsed_url=parsed_url, page=page)
+        photos = get_photo_data(api, parse_result=parse_result, page=page)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
@@ -127,6 +128,6 @@ def see_photos():
             "see_photos.html",
             page=page,
             flickr_url=flickr_url,
-            data={**parsed_url, **photos},
+            data={**parse_result, **photos},
             label=category_label,
         )

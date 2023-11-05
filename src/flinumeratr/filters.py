@@ -1,6 +1,11 @@
-def render_date_taken(date_taken):
+from typing import Optional
+
+from flickr_photos_api import DateTaken
+
+
+def render_date_taken(date_taken: DateTaken) -> Optional[str]:
     if date_taken["unknown"]:
-        return
+        return None
     elif date_taken["granularity"] == "second":
         return f"on {date_taken['value'].strftime('%B %-d, %Y')}"
     elif date_taken["granularity"] == "month":
