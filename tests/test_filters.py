@@ -11,7 +11,7 @@ from flinumeratr.filters import render_date_taken
         # Based on https://www.flickr.com/photos/184374196@N07/53069446440
         (
             {
-                "granularity": "0",
+                "granularity": "second",
                 "value": datetime.datetime(2023, 2, 20, 23, 31, 31),
                 "unknown": False,
             },
@@ -20,7 +20,7 @@ from flinumeratr.filters import render_date_taken
         # Based on https://www.flickr.com/photos/schlesinger_library/13270291833/
         (
             {
-                "granularity": "0",
+                "granularity": "second",
                 "value": datetime.datetime(2014, 3, 7, 11, 44, 16),
                 "unknown": False,
             },
@@ -29,7 +29,7 @@ from flinumeratr.filters import render_date_taken
         # Based on https://www.flickr.com/photos/normko/361850789
         (
             {
-                "granularity": "4",
+                "granularity": "month",
                 "value": datetime.datetime(1970, 3, 1, 0, 0, 0),
                 "unknown": False,
             },
@@ -38,7 +38,7 @@ from flinumeratr.filters import render_date_taken
         # Based on https://www.flickr.com/photos/nationalarchives/5240741057
         (
             {
-                "granularity": "6",
+                "granularity": "year",
                 "value": datetime.datetime(1950, 1, 1, 0, 0, 0),
                 "unknown": False,
             },
@@ -47,7 +47,7 @@ from flinumeratr.filters import render_date_taken
         # Based on https://www.flickr.com/photos/nlireland/6975991819
         (
             {
-                "granularity": "8",
+                "granularity": "circa",
                 "value": datetime.datetime(1910, 1, 1, 0, 0, 0),
                 "unknown": False,
             },
@@ -56,8 +56,6 @@ from flinumeratr.filters import render_date_taken
         # Based on https://www.flickr.com/photos/140375060@N02/25868667441/
         (
             {
-                "granularity": "0",
-                "value": datetime.datetime(2016, 3, 21, 16, 15, 39),
                 "unknown": True,
             },
             None,

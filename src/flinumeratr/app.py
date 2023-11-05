@@ -11,11 +11,11 @@ from flickr_url_parser import (
     UnrecognisedUrl,
 )
 import humanize
-import hyperlink
 
 from flinumeratr.enumerator import get_photo_data
 from flinumeratr.filters import render_date_taken
-from flinumeratr.flickr_api import FlickrApi, ResourceNotFound
+from flickr_photos_api import FlickrPhotosApi
+from flickr_photos_api.exceptions import ResourceNotFound
 
 
 app = Flask(__name__)
@@ -32,7 +32,10 @@ except KeyError:
         "Please set the FLICKR_API_KEY environment variable and run again."
     )
 else:
-    api = FlickrApi(api_key=api_key)
+    api = FlickrPhotosApi(
+        api_key=api_key,
+        user_agent="Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)",
+    )
 
 
 @app.template_filter()
@@ -108,17 +111,6 @@ def enrich_license(license):
 
 
 @app.template_filter()
-def owner_url(photo_url):
-    """
-    Given the URL of a photo, return the author's URL.
-    """
-    u = hyperlink.URL.from_text(photo_url)
-    owner_id = u.path[1]
-
-    return f"https://www.flickr.com/photos/{owner_id}"
-
-
-@app.template_filter()
 def intcomma(n):
     return humanize.intcomma(n)
 
@@ -138,7 +130,7 @@ def see_photos():
     page = int(request.args.get("page", "1"))
 
     try:
-        categorised_url = parse_flickr_url(flickr_url)
+        parsed_url = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
         flash(
             f"There are no photos to show at <span class='user_input'>{flickr_url}</span>"
@@ -157,23 +149,23 @@ def see_photos():
         "group": "a group",
         "galleries": "a gallery",
         "tags": "a tag",
-    }.get(categorised_url["type"], "a " + categorised_url["type"])
+    }.get(parsed_url["type"], "a " + parsed_url["type"])
 
     try:
-        photos = get_photo_data(api, categorised_url=categorised_url, page=page)
+        photos = get_photo_data(api, parsed_url=parsed_url, page=page)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
         )
         return render_template("error.html", flickr_url=flickr_url)
-    except Exception as e:
-        flash(f"Boom! Something went wrong: {e}")
-        return render_template("error.html", flickr_url=flickr_url, error=e)
+    # except Exception as e:
+    #     flash(f"Boom! Something went wrong: {e}")
+    #     return render_template("error.html", flickr_url=flickr_url, error=e)
     else:
         return render_template(
             "see_photos.html",
             page=page,
             flickr_url=flickr_url,
-            data={**categorised_url, **photos},
+            data={**parsed_url, **photos},
             label=category_label,
         )

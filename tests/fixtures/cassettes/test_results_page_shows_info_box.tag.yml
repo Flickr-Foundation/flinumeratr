@@ -1,0 +1,220 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photos.search&page=1&per_page=10&sort=interestingness-desc&tags=thatch
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
+      page=\"1\" pages=\"3345\" perpage=\"10\" total=\"33448\">\n\t<photo id=\"52312186930\"
+      owner=\"114111770@N03\" secret=\"ba282fe74a\" server=\"65535\" farm=\"66\" title=\"What
+      lies hidden?\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1661501259\" datetaken=\"2022-05-14 17:53:22\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"jpotto\" originalsecret=\"74e846ea7e\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/52312186930_74e846ea7e_o.jpg\"
+      height_o=\"3456\" width_o=\"5184\" url_q=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Famed for its azaleas and
+      rhododendrons, Stody Lodge is only open a few times a year for people to amaze
+      at the colourful spectacle. It didn&#039;t disappoint. \n\nStody Estate was
+      originally part of Blickling Estate. Between  1895 - 1926 it was leased from
+      the Maquis of Lothian to Mr Robert Ernest Horsfall, who was a keen gardener.
+      Over the next 25 years the Azalea Water Gardens took shape. By 1933 Lord Rothmere
+      had taken over. The original house had burnt down, and he commissioned a new
+      one. In 1941, Lord Rothermere sold the Stody Estate to George Knight of G.C.
+      and F.C. Knight and Co. He lived here until his death in 1963, when his stepson,
+      Ian MacNicol took over. Since then a wider variety of species have been planted,
+      but the azaleas and rhododendrons remain the star.  \n\nThese flowers are in
+      the garden surrounding the lodge. </description>\n\t</photo>\n\t<photo id=\"51135945502\"
+      owner=\"187113622@N05\" secret=\"b942bc354e\" server=\"65535\" farm=\"66\" title=\"RR
+      Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1619322969\"
+      datetaken=\"2021-04-24 20:56:09\" datetakengranularity=\"0\" datetakenunknown=\"1\"
+      ownername=\"william_stone\" realname=\"William Stone\" originalsecret=\"4595dddc52\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_t.jpg\"
+      height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_m.jpg\"
+      height_s=\"240\" width_s=\"180\" url_m=\"https://live.staticflickr.com/65535/51135945502_b942bc354e.jpg\"
+      height_m=\"500\" width_m=\"375\" url_o=\"https://live.staticflickr.com/65535/51135945502_4595dddc52_o.jpg\"
+      height_o=\"720\" width_o=\"540\" url_q=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>The luxury of being yourself.</description>\n\t</photo>\n\t<photo
+      id=\"47857099162\" owner=\"41622708@N00\" secret=\"609bc5d85c\" server=\"65535\"
+      farm=\"66\" title=\"Senufo fetish house whose roof gets a new layer every year,
+      Savanes district, Niofoin, Ivory Coast\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1558540195\" datetaken=\"2019-05-03
+      11:06:25\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Eric
+      Lafforgue\" realname=\"Eric Lafforgue\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_t.jpg\"
+      height_t=\"71\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_m.jpg\"
+      height_s=\"170\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c.jpg\"
+      height_m=\"353\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_b.jpg\"
+      height_l=\"724\" width_l=\"1024\">\n\t\t<description>\xA9 Eric Lafforgue\n&lt;a
+      href=&quot;http://www.ericlafforgue.com&quot; rel=&quot;noreferrer nofollow&quot;&gt;www.ericlafforgue.com&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"30194923077\" owner=\"96378267@N04\" secret=\"6841192ff4\" server=\"1951\"
+      farm=\"2\" title=\"The Cuckoo Inn Hamptworth Wiltshire UK\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1538824909\" datetaken=\"2018-10-02
+      14:50:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"davidseall\"
+      realname=\"David Seall\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/1951/30194923077_6841192ff4.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"33114209750\" owner=\"147467413@N04\" secret=\"821376a6c0\" server=\"3764\"
+      farm=\"4\" title=\"Gold Hill\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1489784444\" datetaken=\"2012-10-06
+      15:36:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"carolephillips1\"
+      realname=\"Carole Phillips\" originalsecret=\"14bd742b22\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3764/33114209750_821376a6c0_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3764/33114209750_821376a6c0_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3764/33114209750_821376a6c0_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3764/33114209750_821376a6c0.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3764/33114209750_14bd742b22_o.jpg\"
+      height_o=\"2448\" width_o=\"3264\" url_q=\"https://live.staticflickr.com/3764/33114209750_821376a6c0_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3764/33114209750_821376a6c0_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description>Shaftsbury</description>\n\t</photo>\n\t<photo
+      id=\"32370577170\" owner=\"39462456@N02\" secret=\"aa077700ff\" server=\"559\"
+      farm=\"1\" title=\"Pamphill\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1486409210\" datetaken=\"1982-04-13 00:00:12\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"brightondj\" originalsecret=\"b32676baf2\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/559/32370577170_aa077700ff_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/559/32370577170_aa077700ff_t.jpg\"
+      height_t=\"71\" width_t=\"100\" url_s=\"https://live.staticflickr.com/559/32370577170_aa077700ff_m.jpg\"
+      height_s=\"170\" width_s=\"240\" url_m=\"https://live.staticflickr.com/559/32370577170_aa077700ff.jpg\"
+      height_m=\"354\" width_m=\"500\" url_o=\"https://live.staticflickr.com/559/32370577170_b32676baf2_o.jpg\"
+      height_o=\"2381\" width_o=\"3365\" url_q=\"https://live.staticflickr.com/559/32370577170_aa077700ff_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/559/32370577170_aa077700ff_b.jpg\"
+      height_l=\"725\" width_l=\"1024\">\n\t\t<description>Near Wimborne, April 1982\n2011
+      streetview &lt;a href=&quot;https://www.google.co.uk/maps/@50.8000808,-2.0190477,3a,75y,43.9h,86.19t/data=!3m6!1e1!3m4!1s_UaxLsow46IX73_FHGV61g!2e0!7i13312!8i6656&quot;
+      rel=&quot;nofollow&quot;&gt;www.google.co.uk/maps/@50.8000808,-2.0190477,3a,75y,43.9h...&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo
+      id=\"18089007151\" owner=\"47391132@N00\" secret=\"4111330a40\" server=\"65535\"
+      farm=\"66\" title=\"25-080\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1432573852\" datetaken=\"1972-01-01 00:00:00\"
+      datetakengranularity=\"6\" datetakenunknown=\"0\" ownername=\"ndpa / s. lundeen,
+      archivist\" realname=\"nick dewolf photo archive\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/18089007151_4111330a40_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/18089007151_4111330a40_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/18089007151_4111330a40_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/18089007151_4111330a40.jpg\"
+      height_m=\"334\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/18089007151_4111330a40_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>bali, indonesia\n1972\n\ntemple
+      grounds / thatch-roof buildings\n\npart of an archival project, featuring the
+      photographs of nick dewolf\n\n&lt;b&gt;\xA9 the Nick DeWolf Foundation\nImage-use
+      requests are welcome via flickrmail or nickdewolfphotoarchive [at] gmail [dot]
+      com&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"16442381274\" owner=\"66339121@N00\"
+      secret=\"b7f88c4df5\" server=\"7623\" farm=\"8\" title=\"Howhill\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1428399623\"
+      datetaken=\"2015-04-04 16:56:21\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Al Glenton - Norfolk images\" realname=\"Al Glenton\" originalsecret=\"38750f9a10\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7623/16442381274_38750f9a10_o.jpg\"
+      height_o=\"3840\" width_o=\"5760\" url_q=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Please don&#039;t use this
+      image on websites, blogs or other media without my explicit permission. \xA9
+      All rights reserved &lt;a href=&quot;http://www.norfolkimages.uk&quot; rel=&quot;nofollow&quot;&gt;www.norfolkimages.uk&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"16485504939\" owner=\"114111770@N03\" secret=\"ebda69ee2b\" server=\"8624\"
+      farm=\"9\" title=\"Stembridge windmill\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1425132410\" datetaken=\"2015-02-28
+      13:51:21\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"jpotto\"
+      originalsecret=\"a915047c58\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b_t.jpg\"
+      height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b_m.jpg\"
+      height_s=\"240\" width_s=\"160\" url_m=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b.jpg\"
+      height_m=\"500\" width_m=\"333\" url_o=\"https://live.staticflickr.com/8624/16485504939_a915047c58_o.jpg\"
+      height_o=\"5184\" width_o=\"3456\" url_q=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b_b.jpg\"
+      height_l=\"1024\" width_l=\"683\">\n\t\t<description>Britain&#039;s only surviving
+      thatched windmill, Feb 2015</description>\n\t</photo>\n\t<photo id=\"16289110077\"
+      owner=\"10211834@N07\" secret=\"68da316d88\" server=\"7419\" farm=\"8\" title=\"The
+      Windmill - Willowstone Modular Project\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1423421232\" datetaken=\"2015-02-08
+      12:55:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"jgg3210\"
+      realname=\"Jeremy Green\" originalsecret=\"a70165de54\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7419/16289110077_68da316d88_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7419/16289110077_68da316d88_t.jpg\"
+      height_t=\"100\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7419/16289110077_68da316d88_m.jpg\"
+      height_s=\"240\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7419/16289110077_68da316d88.jpg\"
+      height_m=\"500\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7419/16289110077_a70165de54_o.jpg\"
+      height_o=\"3456\" width_o=\"3456\" url_q=\"https://live.staticflickr.com/7419/16289110077_68da316d88_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7419/16289110077_68da316d88_b.jpg\"
+      height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Here&#039;s my official
+      return to castle!\n\nAmong all of my recent MOC-ing, I have been devoting a
+      measure of my time to working on a side project that has been important to me
+      for a very long while. Over the past few months I have been revitalizing and
+      renovating my medieval collection. It&#039;s been a slow and costly process,
+      but I am starting to see some very pleasing results. \n\nMy goal with this project
+      is to create a set of interlocking 1&#039; x 1&#039; base plates that represent
+      different scenes and locations from Willowstone, my medieval fantasy kingdom.
+      (Because these plates are supposed to be interlocking, you will notice that
+      they look rough around the edges.) A series of small dirt paths will link all
+      of the locations together. In some cases, these paths are made to link up in
+      a series of different combinations that will allow me to experiment with different
+      display configurations. Ultimately my plan is to create quite a few of these
+      over the next year or so, and aside from displaying them I will use them as
+      set pieces to tell small stories from the Kingdom of Willowstone. \n\nThis first
+      little scene is merely a generic little pastoral scene. The wind mill is mostly
+      the official design from set 7189. I have a variety of original structures that
+      will be displayed in future MOCs; however, I also plan to revamp existing sets
+      as well. On the windmill, I added a few of my own &amp;quot;fixes&amp;quot;
+      most notably the thatched roof. I am also very happy with the design of my medieval
+      scarecrow. The tree design is a favorite of mine as well, and I have incorporated
+      it into other medieval scenes recently. \n\nThis is a big project, and I hope
+      you will all enjoy watching it grow as much as I&#039;ve enjoyed building it.
+      :D\n\nComments and advice are always welcome!\n</description>\n\t</photo>\n</photos>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '3978'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Sun, 05 Nov 2023 16:37:44 GMT
+      Via:
+      - 1.1 f3d587359f8c9909f005910fc81a0b36.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - opoeD2hM4pT-ebwJhd-nTOMWPYjLjzwE8RFeInjfwJ6tuYQb9H4weQ==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 16:37:43 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
