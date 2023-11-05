@@ -24,7 +24,14 @@ if sys.version_info >= (3, 8):
 else:
     from typing_extensions import TypedDict
 
-from flickr_photos_api import FlickrPhotosApi, SinglePhoto, PhotosInAlbum, CollectionOfPhotos, PhotosInGallery, PhotosInGroup
+from flickr_photos_api import (
+    FlickrPhotosApi,
+    SinglePhoto,
+    PhotosInAlbum,
+    CollectionOfPhotos,
+    PhotosInGallery,
+    PhotosInGroup,
+)
 from flickr_url_parser import ParseResult
 
 
@@ -32,10 +39,14 @@ class SinglePhotoData(TypedDict):
     photos: List[SinglePhoto]
 
 
-PhotoData = Union[SinglePhotoData, PhotosInAlbum, CollectionOfPhotos, PhotosInGallery, PhotosInGroup]
+PhotoData = Union[
+    SinglePhotoData, PhotosInAlbum, CollectionOfPhotos, PhotosInGallery, PhotosInGroup
+]
 
 
-def get_photo_data(api: FlickrPhotosApi, *, parse_result: ParseResult, page: int) -> PhotoData:
+def get_photo_data(
+    api: FlickrPhotosApi, *, parse_result: ParseResult, page: int
+) -> PhotoData:
     """
     Given some data about a categorised URL, actually fetch a list of photos
     from Flickr.

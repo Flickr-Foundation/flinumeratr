@@ -6,7 +6,7 @@ import sys
 from typing import List
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-from flickr_photos_api import (FlickrPhotosApi, ResourceNotFound, Size as PhotoSize)
+from flickr_photos_api import FlickrPhotosApi, ResourceNotFound, Size as PhotoSize
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
