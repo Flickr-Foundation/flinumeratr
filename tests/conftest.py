@@ -70,6 +70,8 @@ def client() -> Generator[FlaskClient, None, None]:
 
     See https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures
     """
+    os.environ.setdefault("FLICKR_API_KEY", "<testing>")
+
     from flinumeratr.app import app
 
     app.config["TESTING"] = True
