@@ -33,7 +33,7 @@ flake8==5.0.4
     # via -r dev_requirements.in
 flask==2.2.5
     # via -r requirements.txt
-flickr-photos-api==1.0.2
+flickr-photos-api==1.0.3
     # via -r requirements.txt
 flickr-url-parser==1.2.4
     # via -r requirements.txt
