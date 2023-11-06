@@ -19,29 +19,17 @@ def cassette_name(request: FixtureRequest) -> str:
     """
     Returns the name of a cassette for vcr.py.
 
-    The name is made up of two parts:
+    The name can be made up of (up to) three parts:
 
+    -   the name of the test class
     -   the name of the test function
     -   the ID of the test case in @pytest.mark.parametrize
 
     """
-    name_parts = []
-
-    # Add the name of the test function.
-    #
-    # See https://stackoverflow.com/a/67056955/1558022 for more info
-    # on how this works.
-    function_name = request.function.__name__
-    name_parts.append(function_name)
-
-    # Finally, add the name of the test case in @pytest.mark.parametrize,
-    # if there is one.
-    try:
-        name_parts.append(request.node.callspec.id)
-    except AttributeError:  # not in a parametrised test
-        pass
-
-    return ".".join(name_parts) + ".yml"
+    if request.cls is not None:
+        return f"{request.cls.__name__}.{request.node.name}.yml"
+    else:
+        return f"{request.node.name}.yml"
 
 
 @pytest.fixture(scope="function")
