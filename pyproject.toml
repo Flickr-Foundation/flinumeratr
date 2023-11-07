@@ -52,6 +52,18 @@ exclude_also = [
 [tool.pytest.ini_options]
 filterwarnings = [
   "error",
+
+  # This hides a deprecation warnings in werkzeug on Python 3.12:
+  #
+  #     DeprecationWarning: ast.Str is deprecated and will be removed
+  #     in Python 3.14; use ast.Constant instead
+  #
+  # There's a fix for this in werkzeug, but it's a version we aren't using:
+  # https://github.com/pallets/werkzeug/issues/2704
+  #
+  # When we upgrade to a version of werkzeug that includes this fix (≥2.3.5),
+  # we can remove this filter.
+  "ignore::DeprecationWarning:werkzeug*:",
 ]
 
 [tool.mypy]
