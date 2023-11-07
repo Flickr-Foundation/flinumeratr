@@ -7,6 +7,6 @@ set -o nounset
 
 pip3 install -r requirements.txt
 pip3 install gunicorn
-pip3 install -e .
+pip3 install .
 
 gunicorn flinumeratr.app:app -w 4 --log-file -
