@@ -30,7 +30,7 @@ version = {attr = "flinumeratr.__version__"}
 where = ["src"]
 
 [tool.setuptools.package-data]
-flinumeratr = ["static", "templates"]
+flinumeratr = ["static/*", "templates/*"]
 
 [tool.coverage.run]
 branch = true
