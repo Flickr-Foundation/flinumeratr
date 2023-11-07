@@ -5,6 +5,7 @@
 set -o errexit
 set -o nounset
 
+pip3 install --upgrade pip
 pip3 install -r requirements.txt
 pip3 install gunicorn
 pip3 install .
