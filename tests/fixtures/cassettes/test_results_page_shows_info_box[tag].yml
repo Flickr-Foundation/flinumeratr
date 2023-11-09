@@ -15,10 +15,10 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photos.search&page=1&per_page=10&sort=interestingness-desc&tags=thatch
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=thatch
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
-      page=\"1\" pages=\"3345\" perpage=\"10\" total=\"33448\">\n\t<photo id=\"52312186930\"
+      page=\"1\" pages=\"321\" perpage=\"100\" total=\"32055\">\n\t<photo id=\"52312186930\"
       owner=\"114111770@N03\" secret=\"ba282fe74a\" server=\"65535\" farm=\"66\" title=\"What
       lies hidden?\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
       dateupload=\"1661501259\" datetaken=\"2022-05-14 17:53:22\" datetakengranularity=\"0\"
@@ -41,26 +41,13 @@ interactions:
       and F.C. Knight and Co. He lived here until his death in 1963, when his stepson,
       Ian MacNicol took over. Since then a wider variety of species have been planted,
       but the azaleas and rhododendrons remain the star.  \n\nThese flowers are in
-      the garden surrounding the lodge. </description>\n\t</photo>\n\t<photo id=\"51135945502\"
-      owner=\"187113622@N05\" secret=\"b942bc354e\" server=\"65535\" farm=\"66\" title=\"RR
-      Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1619322969\"
-      datetaken=\"2021-04-24 20:56:09\" datetakengranularity=\"0\" datetakenunknown=\"1\"
-      ownername=\"william_stone\" realname=\"William Stone\" originalsecret=\"4595dddc52\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_s.jpg\"
-      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_t.jpg\"
-      height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_m.jpg\"
-      height_s=\"240\" width_s=\"180\" url_m=\"https://live.staticflickr.com/65535/51135945502_b942bc354e.jpg\"
-      height_m=\"500\" width_m=\"375\" url_o=\"https://live.staticflickr.com/65535/51135945502_4595dddc52_o.jpg\"
-      height_o=\"720\" width_o=\"540\" url_q=\"https://live.staticflickr.com/65535/51135945502_b942bc354e_q.jpg\"
-      height_q=\"150\" width_q=\"150\">\n\t\t<description>The luxury of being yourself.</description>\n\t</photo>\n\t<photo
-      id=\"47857099162\" owner=\"41622708@N00\" secret=\"609bc5d85c\" server=\"65535\"
-      farm=\"66\" title=\"Senufo fetish house whose roof gets a new layer every year,
-      Savanes district, Niofoin, Ivory Coast\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1558540195\" datetaken=\"2019-05-03
-      11:06:25\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Eric
-      Lafforgue\" realname=\"Eric Lafforgue\" media=\"photo\" media_status=\"ready\"
-      url_sq=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_s.jpg\"
+      the garden surrounding the lodge. </description>\n\t</photo>\n\t<photo id=\"47857099162\"
+      owner=\"41622708@N00\" secret=\"609bc5d85c\" server=\"65535\" farm=\"66\" title=\"Senufo
+      fetish house whose roof gets a new layer every year, Savanes district, Niofoin,
+      Ivory Coast\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1558540195\" datetaken=\"2019-05-03 11:06:25\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Eric Lafforgue\" realname=\"Eric Lafforgue\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_t.jpg\"
       height_t=\"71\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_m.jpg\"
       height_s=\"170\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c.jpg\"
@@ -184,20 +171,1647 @@ interactions:
       scarecrow. The tree design is a favorite of mine as well, and I have incorporated
       it into other medieval scenes recently. \n\nThis is a big project, and I hope
       you will all enjoy watching it grow as much as I&#039;ve enjoyed building it.
-      :D\n\nComments and advice are always welcome!\n</description>\n\t</photo>\n</photos>\n</rsp>\n"
+      :D\n\nComments and advice are always welcome!\n</description>\n\t</photo>\n\t<photo
+      id=\"16179483538\" owner=\"53354512@N00\" secret=\"d8f74f20df\" server=\"7408\"
+      farm=\"8\" title=\"Hangman&#039;s Cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"1\" safety_level=\"0\" dateupload=\"1422223754\" datetaken=\"2008-06-08
+      13:21:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"tudedude\"
+      realname=\"Tudor Barker\" originalsecret=\"ab09ec4e48\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7408/16179483538_ab09ec4e48_o.jpg\"
+      height_o=\"1707\" width_o=\"2560\" url_q=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Dorchester Dorset</description>\n\t</photo>\n\t<photo
+      id=\"15923822236\" owner=\"22293873@N08\" secret=\"f21426818d\" server=\"7561\"
+      farm=\"8\" title=\"Thatched ridge detail\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1417750938\" datetaken=\"2014-12-01
+      12:41:34\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"fstop186\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7561/15923822236_f21426818d_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7561/15923822236_f21426818d_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7561/15923822236_f21426818d_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7561/15923822236_f21426818d.jpg\"
+      height_m=\"375\" width_m=\"500\" url_q=\"https://live.staticflickr.com/7561/15923822236_f21426818d_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>Decorative ridge detail
+      from a new thatched roof \n\nClassic details from old and historic cottages
+      in Hampshire\n\nA chocolate box collection of cottages in Hampshire featuring
+      traditional building materials of slate, clay roof tiles, flint walling, red
+      bricks, cedar boarding, thatch and classic oak timber frame.</description>\n\t</photo>\n\t<photo
+      id=\"14847837270\" owner=\"8176740@N05\" secret=\"227e46b682\" server=\"3873\"
+      farm=\"4\" title=\"Thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"4\"
+      safety_level=\"0\" dateupload=\"1408991372\" datetaken=\"2014-07-14 18:03:13\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"garryknight\"
+      realname=\"Garry Knight\" originalsecret=\"f2898bd7fa\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3873/14847837270_227e46b682_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3873/14847837270_227e46b682_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3873/14847837270_227e46b682_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3873/14847837270_227e46b682.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3873/14847837270_f2898bd7fa_o.jpg\"
+      height_o=\"3456\" width_o=\"4608\" url_q=\"https://live.staticflickr.com/3873/14847837270_227e46b682_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3873/14847837270_227e46b682_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description>One of the thatched cottages
+      in Shanklin old village.</description>\n\t</photo>\n\t<photo id=\"14500898908\"
+      owner=\"32907326@N00\" secret=\"0b329590ee\" server=\"3874\" farm=\"4\" title=\"IMG_2287_fix\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      dateupload=\"1405732030\" datetaken=\"2014-07-15 14:21:41\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"goatling\" originalsecret=\"8366511732\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3874/14500898908_0b329590ee_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3874/14500898908_0b329590ee_t.jpg\"
+      height_t=\"100\" width_t=\"84\" url_s=\"https://live.staticflickr.com/3874/14500898908_0b329590ee_m.jpg\"
+      height_s=\"240\" width_s=\"201\" url_m=\"https://live.staticflickr.com/3874/14500898908_0b329590ee.jpg\"
+      height_m=\"500\" width_m=\"419\" url_o=\"https://live.staticflickr.com/3874/14500898908_8366511732_o.jpg\"
+      height_o=\"2193\" width_o=\"1836\" url_q=\"https://live.staticflickr.com/3874/14500898908_0b329590ee_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3874/14500898908_0b329590ee_b.jpg\"
+      height_l=\"1024\" width_l=\"857\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"14524137413\" owner=\"40799650@N00\" secret=\"9597a5e96a\" server=\"2903\"
+      farm=\"3\" title=\"Big Bad Wolf and the Little Pig\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1403691605\" datetaken=\"2010-08-30
+      22:39:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"JanBran\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_t.jpg\"
+      height_t=\"63\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_m.jpg\"
+      height_s=\"152\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a.jpg\"
+      height_m=\"316\" width_m=\"500\" url_q=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_b.jpg\"
+      height_l=\"647\" width_l=\"1024\">\n\t\t<description>Thatched roof with Big
+      Bad Wolf and the Little Pig</description>\n\t</photo>\n\t<photo id=\"14277870590\"
+      owner=\"41568633@N05\" secret=\"d7db1ef67b\" server=\"5596\" farm=\"6\" title=\"Warwickshire
+      Thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1403253485\" datetaken=\"2014-06-01 16:03:31\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Smartin69\" realname=\"Sue Martin\" originalsecret=\"aa11122b89\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/5596/14277870590_aa11122b89_o.jpg\"
+      height_o=\"683\" width_o=\"1024\" url_q=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Pretty thatched cottage
+      in Warwickshire</description>\n\t</photo>\n\t<photo id=\"13348551345\" owner=\"74849357@N00\"
+      secret=\"71443fe9ff\" server=\"7435\" farm=\"8\" title=\"Thatches\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"1\" safety_level=\"0\" dateupload=\"1395567038\"
+      datetaken=\"2014-03-17 10:19:38\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"touring_fishman\" realname=\"David Sugden\" originalsecret=\"78e6d7a4a3\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff_t.jpg\"
+      height_t=\"72\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff_m.jpg\"
+      height_s=\"172\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff.jpg\"
+      height_m=\"359\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7435/13348551345_78e6d7a4a3_o.jpg\"
+      height_o=\"2778\" width_o=\"3873\" url_q=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff_b.jpg\"
+      height_l=\"734\" width_l=\"1024\">\n\t\t<description>Details can be found in
+      TAGS</description>\n\t</photo>\n\t<photo id=\"9638188795\" owner=\"100245614@N07\"
+      secret=\"b12066278b\" server=\"2877\" farm=\"3\" title=\"Durdle Door\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1377991217\"
+      datetaken=\"2013-08-31 09:32:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Cissa Rego\" realname=\"Cissa Rego\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/2877/9638188795_b12066278b_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/2877/9638188795_b12066278b_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2877/9638188795_b12066278b_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2877/9638188795_b12066278b.jpg\"
+      height_m=\"332\" width_m=\"500\" url_q=\"https://live.staticflickr.com/2877/9638188795_b12066278b_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/2877/9638188795_b12066278b_b.jpg\"
+      height_l=\"681\" width_l=\"1024\">\n\t\t<description>West Lulworth, Dorset,
+      UK</description>\n\t</photo>\n\t<photo id=\"8400953105\" owner=\"11468468@N00\"
+      secret=\"e6b0a6ce7c\" server=\"8056\" farm=\"9\" title=\"When icicles hang by
+      the wall\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"2\" safety_level=\"0\"
+      dateupload=\"1358768865\" datetaken=\"2013-01-21 12:32:16\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"zoer\" originalsecret=\"f80848bbc7\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c_t.jpg\"
+      height_t=\"100\" width_t=\"94\" url_s=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c_m.jpg\"
+      height_s=\"240\" width_s=\"225\" url_m=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c.jpg\"
+      height_m=\"500\" width_m=\"468\" url_o=\"https://live.staticflickr.com/8056/8400953105_f80848bbc7_o.jpg\"
+      height_o=\"2071\" width_o=\"2211\" url_q=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c_b.jpg\"
+      height_l=\"1024\" width_l=\"959\">\n\t\t<description>Icicles hanging from the
+      thatch                               </description>\n\t</photo>\n\t<photo id=\"8378019995\"
+      owner=\"53720700@N04\" secret=\"e7052aae1a\" server=\"8212\" farm=\"9\" title=\"End
+      of the Harvesting Day Blue Truck Shan State Burma Myanmar\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1358129048\" datetaken=\"2012-11-06
+      15:30:38\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
+      Memoriam Ngaire Hart\" originalsecret=\"80bcc04981\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/8212/8378019995_80bcc04981_o.jpg\"
+      height_o=\"683\" width_o=\"1024\" url_q=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"8169360589\" owner=\"89631716@N07\" secret=\"2214e6650f\" server=\"7106\"
+      farm=\"8\" title=\"Irish Cottages.- County Tyrone in Northern Ireland.\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1678001401\"
+      datetaken=\"2012-11-09 05:59:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"mrvisk\" originalsecret=\"0ea3d28d37\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7106/8169360589_2214e6650f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7106/8169360589_2214e6650f_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7106/8169360589_2214e6650f_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7106/8169360589_2214e6650f.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7106/8169360589_0ea3d28d37_o.jpg\"
+      height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/7106/8169360589_2214e6650f_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>- family home in Omagh Area
+      in Ulster - 3 -</description>\n\t</photo>\n\t<photo id=\"8164130912\" owner=\"12195117@N07\"
+      secret=\"417b51b2d1\" server=\"7272\" farm=\"8\" title=\"Ty Unnos\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1352301186\"
+      datetaken=\"2012-10-30 09:32:58\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Ruth, London\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_t.jpg\"
+      height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_m.jpg\"
+      height_s=\"240\" width_s=\"160\" url_m=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1.jpg\"
+      height_m=\"500\" width_m=\"333\" url_q=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_b.jpg\"
+      height_l=\"1024\" width_l=\"683\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"6908329880\" owner=\"39450859@N07\" secret=\"e907189258\" server=\"5462\"
+      farm=\"6\" title=\"Thomas Hardy&#039;s Birthplace, Higher Bockhampton, Dorset\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1333826154\" datetaken=\"2007-06-07 05:44:39\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"teresue\" realname=\"Tere Sue Gidlof\" originalsecret=\"18388d83ec\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5462/6908329880_e907189258_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5462/6908329880_e907189258_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5462/6908329880_e907189258_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5462/6908329880_e907189258.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/5462/6908329880_18388d83ec_o.jpg\"
+      height_o=\"1791\" width_o=\"2686\" url_q=\"https://live.staticflickr.com/5462/6908329880_e907189258_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5462/6908329880_e907189258_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"6768464479\" owner=\"29382029@N03\" secret=\"7bb2d23bdd\" server=\"7167\"
+      farm=\"8\" title=\"Ailigandi 183\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"2\" safety_level=\"0\" dateupload=\"1327627193\" datetaken=\"2011-07-07
+      13:08:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"- Adam
+      Reeder -\" realname=\"- Adam Reeder -\" originalsecret=\"2356ed005e\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd_m.jpg\"
+      height_s=\"159\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd.jpg\"
+      height_m=\"332\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7167/6768464479_2356ed005e_o.jpg\"
+      height_o=\"2848\" width_o=\"4288\" url_q=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd_b.jpg\"
+      height_l=\"680\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"6692021117\" owner=\"29382029@N03\" secret=\"51968f3fc6\" server=\"7152\"
+      farm=\"8\" title=\"Isla Taboga 39\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"2\" safety_level=\"0\" dateupload=\"1326495859\" datetaken=\"2011-07-03
+      09:26:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"- Adam
+      Reeder -\" realname=\"- Adam Reeder -\" originalsecret=\"fbacac15c5\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6_m.jpg\"
+      height_s=\"159\" width_s=\"240\" url_m=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6.jpg\"
+      height_m=\"332\" width_m=\"500\" url_o=\"https://live.staticflickr.com/7152/6692021117_fbacac15c5_o.jpg\"
+      height_o=\"2848\" width_o=\"4288\" url_q=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6_b.jpg\"
+      height_l=\"680\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"6596813261\" owner=\"26584939@N06\" secret=\"40874e5b4e\" server=\"7149\"
+      farm=\"8\" title=\"Violet sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1325199612\" datetaken=\"2011-01-15
+      16:56:46\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Serghei
+      Zadorojnai\" realname=\"Serghei Zadorojnai\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e_t.jpg\"
+      height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e_m.jpg\"
+      height_s=\"240\" width_s=\"181\" url_m=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e.jpg\"
+      height_m=\"500\" width_m=\"376\" url_q=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e_b.jpg\"
+      height_l=\"1024\" width_l=\"770\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5993134951\" owner=\"40777644@N03\" secret=\"214774291e\" server=\"6027\"
+      farm=\"7\" title=\"Chocolate Box pretty\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1312110832\" datetaken=\"2011-07-30
+      16:46:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
+      Sal2009\" realname=\"Sally\" originalsecret=\"26d9caac72\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/6027/5993134951_214774291e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/6027/5993134951_214774291e_t.jpg\"
+      height_t=\"72\" width_t=\"100\" url_s=\"https://live.staticflickr.com/6027/5993134951_214774291e_m.jpg\"
+      height_s=\"174\" width_s=\"240\" url_m=\"https://live.staticflickr.com/6027/5993134951_214774291e.jpg\"
+      height_m=\"362\" width_m=\"500\" url_o=\"https://live.staticflickr.com/6027/5993134951_26d9caac72_o.jpg\"
+      height_o=\"2538\" width_o=\"3508\" url_q=\"https://live.staticflickr.com/6027/5993134951_214774291e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/6027/5993134951_214774291e_b.jpg\"
+      height_l=\"741\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5939622621\" owner=\"50282301@N07\" secret=\"fbd3947472\" server=\"6007\"
+      farm=\"7\" title=\"Cosmeston Medieval Village 31\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"2\" safety_level=\"0\" dateupload=\"1310738121\" datetaken=\"2011-07-14
+      12:21:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Janice
+      Staines\" originalsecret=\"6172cbe58f\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/6007/5939622621_fbd3947472_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/6007/5939622621_fbd3947472_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/6007/5939622621_fbd3947472_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/6007/5939622621_fbd3947472.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/6007/5939622621_6172cbe58f_o.jpg\"
+      height_o=\"3000\" width_o=\"4000\" url_q=\"https://live.staticflickr.com/6007/5939622621_fbd3947472_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/6007/5939622621_fbd3947472_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5865573902\" owner=\"53720700@N04\" secret=\"9b9e708b00\" server=\"5063\"
+      farm=\"6\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1308886123\" datetaken=\"2010-11-22
+      14:41:32\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
+      Memoriam Ngaire Hart\" originalsecret=\"9e19113a18\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/5063/5865573902_9e19113a18_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Tethered cattle on the
+      roadside. Omo Valley. Ethiopia</description>\n\t</photo>\n\t<photo id=\"5865021185\"
+      owner=\"53720700@N04\" secret=\"ac1cef3576\" server=\"2717\" farm=\"3\" title=\"Ethiopia
+      Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1308886076\" datetaken=\"2010-11-22 13:57:31\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"In Memoriam Ngaire Hart\" originalsecret=\"f7124619a6\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/2717/5865021185_f7124619a6_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5865013549\" owner=\"53720700@N04\" secret=\"926a5100d2\" server=\"3294\"
+      farm=\"4\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1308885877\" datetaken=\"2010-11-22
+      13:48:29\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
+      Memoriam Ngaire Hart\" originalsecret=\"f68a081c9b\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3294/5865013549_926a5100d2_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3294/5865013549_926a5100d2_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3294/5865013549_926a5100d2_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3294/5865013549_926a5100d2.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3294/5865013549_f68a081c9b_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/3294/5865013549_926a5100d2_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3294/5865013549_926a5100d2_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5865008585\" owner=\"53720700@N04\" secret=\"9bc0e04f21\" server=\"3075\"
+      farm=\"4\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1308885746\" datetaken=\"2010-11-22
+      13:43:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
+      Memoriam Ngaire Hart\" originalsecret=\"cc345ce6e3\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3075/5865008585_cc345ce6e3_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5865003587\" owner=\"53720700@N04\" secret=\"d72f4fff18\" server=\"2741\"
+      farm=\"3\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1308885616\" datetaken=\"2010-11-22
+      13:39:19\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
+      Memoriam Ngaire Hart\" originalsecret=\"02c8a23d56\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/2741/5865003587_02c8a23d56_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5865001887\" owner=\"53720700@N04\" secret=\"b0df63be3e\" server=\"3115\"
+      farm=\"4\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1308885569\" datetaken=\"2010-11-22
+      13:35:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
+      Memoriam Ngaire Hart\" originalsecret=\"df8f05dfce\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3115/5865001887_df8f05dfce_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5865540998\" owner=\"53720700@N04\" secret=\"c22129876b\" server=\"5061\"
+      farm=\"6\" title=\"Ethiopia Dorze Tribe Omo Valley Ethiopia\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1308885272\"
+      datetaken=\"2010-11-22 13:11:47\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"In Memoriam Ngaire Hart\" originalsecret=\"8869a4e3fa\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5061/5865540998_c22129876b_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5061/5865540998_c22129876b_t.jpg\"
+      height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/5061/5865540998_c22129876b_m.jpg\"
+      height_s=\"240\" width_s=\"160\" url_m=\"https://live.staticflickr.com/5061/5865540998_c22129876b.jpg\"
+      height_m=\"500\" width_m=\"333\" url_o=\"https://live.staticflickr.com/5061/5865540998_8869a4e3fa_o.jpg\"
+      height_o=\"3054\" width_o=\"2036\" url_q=\"https://live.staticflickr.com/5061/5865540998_c22129876b_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5061/5865540998_c22129876b_b.jpg\"
+      height_l=\"1024\" width_l=\"683\">\n\t\t<description>Whats&#039; on the other
+      side???? The curiosity of a young child. \nThe Dorze tribe are renowned for
+      a rich weaving tradition, be it cotton, bamboo and other natural fibres and
+      materials.  The village is located in the highlands above the small town of
+      Arba Minch. Ethiopia.</description>\n\t</photo>\n\t<photo id=\"5801598061\"
+      owner=\"88664052@N00\" secret=\"b760d5af26\" server=\"5149\" farm=\"6\" title=\"Cherry
+      blossom view\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\" safety_level=\"0\"
+      dateupload=\"1307314323\" datetaken=\"2010-05-10 10:16:23\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Molly Des Jardin\" realname=\"Molly Des Jardin\"
+      originalsecret=\"acfbf6c764\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/5149/5801598061_b760d5af26_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/5149/5801598061_b760d5af26_t.jpg\"
+      height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/5149/5801598061_b760d5af26_m.jpg\"
+      height_s=\"240\" width_s=\"180\" url_m=\"https://live.staticflickr.com/5149/5801598061_b760d5af26.jpg\"
+      height_m=\"500\" width_m=\"375\" url_o=\"https://live.staticflickr.com/5149/5801598061_acfbf6c764_o.jpg\"
+      height_o=\"2048\" width_o=\"1536\" url_q=\"https://live.staticflickr.com/5149/5801598061_b760d5af26_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5149/5801598061_b760d5af26_b.jpg\"
+      height_l=\"1024\" width_l=\"768\">\n\t\t<description>Cherry blossoms, flowering
+      trees, and the mountains at Takedera.</description>\n\t</photo>\n\t<photo id=\"5730786779\"
+      owner=\"22119527@N05\" secret=\"87d4bc7ea5\" server=\"2262\" farm=\"3\" title=\"Stunning
+      thatched house on seafront\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\"
+      safety_level=\"0\" dateupload=\"1305660652\" datetaken=\"2011-05-12 05:51:24\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"amcgore\" realname=\"Alan
+      Gore\" originalsecret=\"bc6cc52867\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/2262/5730786779_bc6cc52867_o.jpg\"
+      height_o=\"2736\" width_o=\"3648\" url_q=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"5664078868\" owner=\"53720700@N04\" secret=\"1e5d7db95f\" server=\"5270\"
+      farm=\"6\" title=\"Thatched Dwellings Highland Village Simien Mountains National
+      Park Ethiopia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1303983186\" datetaken=\"2010-11-10 11:37:50\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"In Memoriam Ngaire Hart\" originalsecret=\"069ab4224b\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/5270/5664078868_069ab4224b_o.jpg\"
+      height_o=\"2036\" width_o=\"3054\" url_q=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Geech Village. From Sankaber
+      Camp the path to Geech Camp stretches approximately 10 kms involving six to
+      seven hours walking along the Northern escarpment.  UNESCO World Heritage-listed
+      Simien Mountains National Park, Ethiopia.</description>\n\t</photo>\n\t<photo
+      id=\"5096371844\" owner=\"54543756@N06\" secret=\"981b386dec\" server=\"4108\"
+      farm=\"5\" title=\"Church Street\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1287478905\" datetaken=\"2009-02-05
+      11:32:39\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"autumngold2\"
+      realname=\"Mark.  Now over 500,000 Flickr visitors\" originalsecret=\"c8119d4aa3\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4108/5096371844_981b386dec_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4108/5096371844_981b386dec_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4108/5096371844_981b386dec_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/4108/5096371844_981b386dec.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/4108/5096371844_c8119d4aa3_o.jpg\"
+      height_o=\"1704\" width_o=\"2272\" url_q=\"https://live.staticflickr.com/4108/5096371844_981b386dec_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/4108/5096371844_981b386dec_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"4753800123\" owner=\"45475783@N07\" secret=\"bfd0c42311\" server=\"4120\"
+      farm=\"5\" title=\"Thatcher at Work, Askett, Buckinghamshire\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"1\" safety_level=\"0\" dateupload=\"1278054652\"
+      datetaken=\"2010-07-02 08:10:52\" datetakengranularity=\"0\" datetakenunknown=\"1\"
+      ownername=\"Snapshooter46\" originalsecret=\"f90383fc7f\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4120/4753800123_bfd0c42311_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4120/4753800123_bfd0c42311_t.jpg\"
+      height_t=\"78\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4120/4753800123_bfd0c42311_m.jpg\"
+      height_s=\"188\" width_s=\"240\" url_m=\"https://live.staticflickr.com/4120/4753800123_bfd0c42311.jpg\"
+      height_m=\"391\" width_m=\"500\" url_o=\"https://live.staticflickr.com/4120/4753800123_f90383fc7f_o.jpg\"
+      height_o=\"626\" width_o=\"800\" url_q=\"https://live.staticflickr.com/4120/4753800123_bfd0c42311_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"4674432792\" owner=\"27428149@N02\" secret=\"14726ec366\" server=\"4011\"
+      farm=\"5\" title=\"Thatched cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1275818056\" datetaken=\"2010-05-20
+      12:53:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"kaeryn\"
+      originalsecret=\"cd8b5343db\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/4011/4674432792_14726ec366_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/4011/4674432792_14726ec366_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4011/4674432792_14726ec366_m.jpg\"
+      height_s=\"161\" width_s=\"240\" url_m=\"https://live.staticflickr.com/4011/4674432792_14726ec366.jpg\"
+      height_m=\"335\" width_m=\"500\" url_o=\"https://live.staticflickr.com/4011/4674432792_cd8b5343db_o.jpg\"
+      height_o=\"2592\" width_o=\"3872\" url_q=\"https://live.staticflickr.com/4011/4674432792_14726ec366_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/4011/4674432792_14726ec366_b.jpg\"
+      height_l=\"685\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"4463692307\" owner=\"88664052@N00\" secret=\"8f89bc3b41\" server=\"4042\"
+      farm=\"5\" title=\"\u4FE1\u6FC3\u79CB\u5C71\u306E\u6C11\u5BB6 - Shinano Akiyama
+      house\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"2\" safety_level=\"0\"
+      dateupload=\"1269589874\" datetaken=\"2008-06-17 11:43:45\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Molly Des Jardin\" realname=\"Molly Des Jardin\"
+      originalsecret=\"595c5090b2\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/4042/4463692307_8f89bc3b41_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/4042/4463692307_8f89bc3b41_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4042/4463692307_8f89bc3b41_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/4042/4463692307_8f89bc3b41.jpg\"
+      height_m=\"375\" width_m=\"500\" url_o=\"https://live.staticflickr.com/4042/4463692307_595c5090b2_o.jpg\"
+      height_o=\"1536\" width_o=\"2048\" url_q=\"https://live.staticflickr.com/4042/4463692307_8f89bc3b41_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/4042/4463692307_8f89bc3b41_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description>This house is from central
+      Japan in Shinano, now Nagano prefecture. Note the thatch to protect the house
+      from rain and snow, typical of houses on the Japan Sea side of Japan, and the
+      straw mats on the interior of the house. It was built in the mid-18th century.
+      The house was moved to the museum in 1961 and designated an important cultural
+      property in 1964.\n\nFrom the museum&#039;s web site:\n\n\u5168\u56FD\u3067\u552F\u4E00\u5F53\u535A\u7269\u9928\u3060\u3051\u3067\u4FDD\u5B58\u3055\u308C\u3066\u3044\u308B\u3001\u8305\u58C1\uFF08\u304B\u3084\u304B\u3079
+      - thatched walls)\u3000\u306E\u6C11\u5BB6\u3002\u8305\u58C1\u306F\u3001\u590F\u306F\u8584\u304F\u3001\u51AC\u306F\u539A\u304F\u847A\u304F\u3002\u65E5\u672C\u6D77\u5074\u306E\u8C6A\u96EA\u5730\u5E2F\u306E\u6C11\u5BB6\u7279\u6709\u306E\u4E2D\u9580\u9020\u308A\u306E\u5F62\u6210\u3067\u3001\u5185\u90E8\u306F\u5E8A\u677F\u3092\u5F35\u3089\u305A\u306B\u571F\u9593\u3092\u8305\u3001\u7B75\u3092\u6577\u304D\u8A70\u3081\u305F\u571F\u5EA7\u4F4F\u307E\u3044\u3067\u3001\u53E4\u5F0F\u3092\u4F1D\u3048\u308B\u5800\u7ACB\u67F1\u3082\uFF12\u672C\u4F7F\u308F\u308C\u3066\u3044\u308B\u3002\u63A8\u5B9A\u5EFA\u7BC9\u5E74\u4EE3\u306F\u6C5F\u6238\u4E2D\u671F\uFF08\uFF11\uFF18\u4E16\u7D00\u4E2D\u9803\uFF09\u3002</description>\n\t</photo>\n\t<photo
+      id=\"4285229980\" owner=\"36812550@N00\" secret=\"b3e1da3ecc\" server=\"2684\"
+      farm=\"3\" title=\"Ivy Cottage in the snow\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1263827980\" datetaken=\"2010-01-13
+      10:49:29\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"whitmarsh\"
+      realname=\"James Whitmarsh\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc.jpg\"
+      height_m=\"375\" width_m=\"500\" url_q=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description>brrr</description>\n\t</photo>\n\t<photo
+      id=\"2932326016\" owner=\"31974909@N00\" secret=\"87e5d57b06\" server=\"3189\"
+      farm=\"4\" title=\"The home of THAT cockerel !\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1223749643\" datetaken=\"2008-09-08
+      14:25:28\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"egefan
+      - Suzan Almond\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>In the foreground is one
+      of the smaller dwellings at the Anglo-Saxon village of West Stow, with a replica
+      cooking area at the side.\nThe buildings are all slightly different in their
+      construction because, although this is where the original village stood, the
+      only information about the houses came from excavation and the archeologists
+      then experimented when constructing the replicas.\nA large amount of artefacts
+      were unearthed, enabling a comprehensive reconstrution of the way of life.\n\nAnother
+      view - &lt;a href=&quot;http://www.bbc.co.uk/suffolk/360/views/anglo_saxon_village.shtml&quot;&gt;www.bbc.co.uk/suffolk/360/views/anglo_saxon_village.shtml&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo
+      id=\"2518410245\" owner=\"88869625@N00\" secret=\"3100dec096\" server=\"65535\"
+      farm=\"66\" title=\"In Conference\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1211653218\" datetaken=\"2008-04-07
+      10:49:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Peter
+      Juerges\" realname=\"Peter Juerges\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/2518410245_3100dec096_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/2518410245_3100dec096_t.jpg\"
+      height_t=\"85\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/2518410245_3100dec096_m.jpg\"
+      height_s=\"205\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/2518410245_3100dec096.jpg\"
+      height_m=\"427\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/2518410245_3100dec096_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/2518410245_3100dec096_b.jpg\"
+      height_l=\"874\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"2354370266\" owner=\"8795519@N08\" secret=\"16f1a18ec7\" server=\"3145\"
+      farm=\"4\" title=\"Thatched cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1206266714\" datetaken=\"2008-03-23
+      09:52:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Maycot2\"
+      originalsecret=\"29acc05a47\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7_s.jpg\" height_sq=\"75\"
+      width_sq=\"75\" url_t=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7_m.jpg\"
+      height_s=\"161\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7.jpg\"
+      height_m=\"334\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3145/2354370266_29acc05a47_o.jpg\"
+      height_o=\"685\" width_o=\"1024\" url_q=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7_b.jpg\"
+      height_l=\"685\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53318608536\" owner=\"160644704@N05\" secret=\"d8cf4e3c40\" server=\"65535\"
+      farm=\"66\" title=\"Preston Candover\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1699467072\" datetaken=\"2020-06-14
+      12:07:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Beardy
+      Vulcan II\" realname=\"Adrian Pink\" originalsecret=\"4a7afc127f\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40_t.jpg\"
+      height_t=\"69\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40_m.jpg\"
+      height_s=\"166\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40.jpg\"
+      height_m=\"346\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53318608536_4a7afc127f_o.jpg\"
+      height_o=\"4000\" width_o=\"5774\" url_q=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40_b.jpg\"
+      height_l=\"709\" width_l=\"1024\">\n\t\t<description>Preston Candover is a village
+      and large civil parish in Hampshire, England. It has a history dating back to
+      the Saxon times, when it was known as Prestecandavere, meaning the Candover
+      belonging to the Priests. The name Candover refers to the clear waters of the
+      stream that runs along the valley. The village has two churches, a primary school,
+      and a village hall. Preston Candover is also home to Preston House, a Grade
+      II Georgian house that was built in the mid 18th century by William Guidott,
+      a former MP for Andover. The house has been owned by several notable people,
+      including Colonel Miles Courage, Sir Peter Cadbury, and Lord Sainsbury, who
+      have made various improvements to the landscape and gardens of the estate.\n\nPreston
+      Candover has two churches, only one of which is still in use. The steeple of
+      newer St. Mary the Virgin, can be seen in the distance. The village&#039;s nearest
+      town is Basingstoke, approximately 7.2 km away. It covers an area of 13.99 km2,
+      which lies on comparatively low ground, south of the high country round the
+      surrounding villages of Farleigh Wallop and Nutley, and north-west of that which
+      rises to Wield and beyond to Bentworth. The village itself lies on the lowest
+      ground towards the west of the parish on the road which comes northeast from
+      Northington and the two other Candovers, and runs across the parish to enter
+      Nutley at Axford and continues uphill to Farleigh Wallop and then to Basingstoke.\n\nThe
+      village was home to the late Lord Sainsbury of Preston Candover and his wife
+      Anya Linden, of the supermarket Sainsbury family. \n\nThe Alresford Road which
+      runs through the village is part of the B3046 road which is a minor road that
+      connects Basingstoke with New Cheriton. It runs for about 28.5 km through scenic
+      countryside and historic towns. The road starts at a junction with the A339
+      near the M3 motorway and passes through Cliddesden, Preston Candover, Old Alresford
+      and New Alresford, where it crosses the A31 bypass and meets the B3047. The
+      road then continues through Cheriton, where it ends at a junction with the A272.
+      The B3046 road is part of the National Cycle Network route 23.\n\n&lt;a href=&quot;https://en.wikipedia.org/wiki/Preston_Candover&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;en.wikipedia.org/wiki/Preston_Candover&lt;/a&gt;\n\n&lt;a
+      href=&quot;https://www.sabre-roads.org.uk/wiki/index.php?title=B3046&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;www.sabre-roads.org.uk/wiki/index.php?title=B3046&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53304383892\" owner=\"187113622@N05\" secret=\"9ab9271fe6\" server=\"65535\"
+      farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1698948821\" datetaken=\"2023-11-02 11:13:41\" datetakengranularity=\"0\"
+      datetakenunknown=\"1\" ownername=\"william_stone\" realname=\"William Stone\"
+      originalsecret=\"956290e1fa\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53304383892_9ab9271fe6_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53304383892_9ab9271fe6_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53304383892_9ab9271fe6_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53304383892_9ab9271fe6.jpg\"
+      height_m=\"334\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53304383892_956290e1fa_o.jpg\"
+      height_o=\"900\" width_o=\"1347\" url_q=\"https://live.staticflickr.com/65535/53304383892_9ab9271fe6_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53304383892_9ab9271fe6_b.jpg\"
+      height_l=\"684\" width_l=\"1024\">\n\t\t<description>The Art of Investment:
+      William Stone Images &amp;amp; Beyond\n\nIn the heart of the contemporary art
+      realm lies a unique space, imbued with sophistication and a touch of the avant-garde
+      \u2013 enter the ethereal world of William Stone Images. Reflecting the style
+      of an article from The New York Times, this space isn&#039;t merely about the
+      aesthetic, but it&#039;s about transforming monetary support into something
+      that goes beyond the visual.\n\nDiscovering Beauty and Empowerment\n\nWhether
+      you&#039;re an art connoisseur or someone new to the world of fine art prints,
+      William Stone Images &lt;a href=&quot;https://wsimages.com/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;wsimages.com/&lt;/a&gt; presents a delightful gallery of fine
+      art photography prints and opulent wall art. Each piece, exclusive in nature,
+      invites viewers to explore depths beyond the canvas and the lens, provoking
+      thoughts of beauty, vision, and perhaps, financial acumen.\n\nYet, William Stone
+      Images isn&#039;t merely about capturing moments or showcasing beauty. It&#039;s
+      about creating an impact in the real world, making tangible differences in the
+      lives of budding entrepreneurs and burgeoning Small and Medium-sized Enterprises
+      (SMEs). Investing in art here is, intriguingly, an investment in the future
+      of innovation.\n\nThe Act of Investing: More Than Money\n\nThe act of contributing
+      or donating towards WSImages is emblematic of a grander vision. By directing
+      your investment to RR MEDIA LIMITED, you become part of an ambitious project.
+      This is not just about international payments being processed, but about fuelling
+      the trajectory of SMEs, ushering in an era where they aren\u2019t just surviving,
+      but thriving.\n\nEven a modest contribution via this link &lt;a href=&quot;https://buy.stripe.com/28o8zHgmf0dO8dW5ko&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;buy.stripe.com/28o8zHgmf0dO8dW5ko&lt;/a&gt;
+      can set powerful wheels in motion. Such gestures, minute or grand, infuse life
+      into enterprises, granting them the stability and assurance they need to innovate,
+      hire, and prosper.\n\nWhy Join This Artistic Revolution?\n\nIn the intricate
+      dance between art and commerce, William Stone Images strikes a harmonious chord.
+      From the stunning visual tales on Flickr to the glimpses of events immortalised
+      at randrphotographs.com - &lt;a href=&quot;https://randrphotographs.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;randrphotographs.com/&lt;/a&gt; , there&#039;s
+      an unceasing pulse of creativity here.\n\nMoreover, the allure of discounted
+      luxury art beckons at this clearance section - &lt;a href=&quot;https://www.wsimages.com/clearance/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/clearance/&lt;/a&gt;,
+      ensuring that beauty is accessible to many. Each dispatched piece carries with
+      it the William Stone promise: of impeccable quality, enduring allure, and a
+      lifetime of pride.\n\nFor those curious about the tools and techniques making
+      these masterpieces possible, the equipment section - &lt;a href=&quot;https://www.wsimages.com/about/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/about/&lt;/a&gt; at
+      wsimages reveals secrets. It&#039;s not just about having the best camera or
+      lens. It&#039;s about understanding the myriad ways in which light interacts
+      with these tools, producing breathtaking results.\n\nAdditionally, in a world
+      increasingly moving towards digitisation, their services extend beyond the lens.
+      Dive into their web offerings at cloudstands.com - &lt;a href=&quot;https://cloudstands.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;cloudstands.com/&lt;/a&gt;, and you&#039;ll
+      find another testament to their versatility.\n\nIn Conclusion\n\nWilliam Stone
+      Images is more than a gallery or a photographic service; it&#039;s a movement.
+      As art and entrepreneurship blend seamlessly here, your investment becomes a
+      bridge between vision and reality. Every penny, every gesture, doesn\u2019t
+      just purchase beauty, but fosters growth.\n\nIntrigued? Ready for the next chapter?
+      The world of William Stone awaits. Join us, and let\u2019s redefine what it
+      means to invest in art, beauty, and progress.\n\n\nWS-306-131478853-182404194-3107980-2112023181339</description>\n\t</photo>\n\t<photo
+      id=\"53294301917\" owner=\"196052921@N02\" secret=\"ffce7b6742\" server=\"65535\"
+      farm=\"66\" title=\"Landewednack - Church Cove\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1698603759\" datetaken=\"2023-10-22
+      15:26:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Dr_Scott\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53278690325\" owner=\"187113622@N05\" secret=\"b0c42d7966\" server=\"65535\"
+      farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1698019420\" datetaken=\"2018-12-18 21:12:18\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"william_stone\" realname=\"William Stone\"
+      originalsecret=\"d15f4dcb48\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53278690325_b0c42d7966_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53278690325_b0c42d7966_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53278690325_b0c42d7966_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53278690325_b0c42d7966.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53278690325_d15f4dcb48_o.jpg\"
+      height_o=\"500\" width_o=\"750\" url_q=\"https://live.staticflickr.com/65535/53278690325_b0c42d7966_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>The Art of Investment: William
+      Stone Images &amp;amp; Beyond\n\nIn the heart of the contemporary art realm
+      lies a unique space, imbued with sophistication and a touch of the avant-garde
+      \u2013 enter the ethereal world of William Stone Images. Reflecting the style
+      of an article from The New York Times, this space isn&#039;t merely about the
+      aesthetic, but it&#039;s about transforming monetary support into something
+      that goes beyond the visual.\n\nDiscovering Beauty and Empowerment\n\nWhether
+      you&#039;re an art connoisseur or someone new to the world of fine art prints,
+      William Stone Images &lt;a href=&quot;https://wsimages.com/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;wsimages.com/&lt;/a&gt; presents a delightful gallery of fine
+      art photography prints and opulent wall art. Each piece, exclusive in nature,
+      invites viewers to explore depths beyond the canvas and the lens, provoking
+      thoughts of beauty, vision, and perhaps, financial acumen.\n\nYet, William Stone
+      Images isn&#039;t merely about capturing moments or showcasing beauty. It&#039;s
+      about creating an impact in the real world, making tangible differences in the
+      lives of budding entrepreneurs and burgeoning Small and Medium-sized Enterprises
+      (SMEs). Investing in art here is, intriguingly, an investment in the future
+      of innovation.\n\nThe Act of Investing: More Than Money\n\nThe act of contributing
+      or donating towards WSImages is emblematic of a grander vision. By directing
+      your investment to RR MEDIA LIMITED, you become part of an ambitious project.
+      This is not just about international payments being processed, but about fuelling
+      the trajectory of SMEs, ushering in an era where they aren\u2019t just surviving,
+      but thriving.\n\nEven a modest contribution via this link &lt;a href=&quot;https://buy.stripe.com/28o8zHgmf0dO8dW5ko&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;buy.stripe.com/28o8zHgmf0dO8dW5ko&lt;/a&gt;
+      can set powerful wheels in motion. Such gestures, minute or grand, infuse life
+      into enterprises, granting them the stability and assurance they need to innovate,
+      hire, and prosper.\n\nWhy Join This Artistic Revolution?\n\nIn the intricate
+      dance between art and commerce, William Stone Images strikes a harmonious chord.
+      From the stunning visual tales on Flickr to the glimpses of events immortalised
+      at randrphotographs.com - &lt;a href=&quot;https://randrphotographs.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;randrphotographs.com/&lt;/a&gt; , there&#039;s
+      an unceasing pulse of creativity here.\n\nMoreover, the allure of discounted
+      luxury art beckons at this clearance section - &lt;a href=&quot;https://www.wsimages.com/clearance/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/clearance/&lt;/a&gt;,
+      ensuring that beauty is accessible to many. Each dispatched piece carries with
+      it the William Stone promise: of impeccable quality, enduring allure, and a
+      lifetime of pride.\n\nFor those curious about the tools and techniques making
+      these masterpieces possible, the equipment section - &lt;a href=&quot;https://www.wsimages.com/about/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/about/&lt;/a&gt; at
+      wsimages reveals secrets. It&#039;s not just about having the best camera or
+      lens. It&#039;s about understanding the myriad ways in which light interacts
+      with these tools, producing breathtaking results.\n\nAdditionally, in a world
+      increasingly moving towards digitisation, their services extend beyond the lens.
+      Dive into their web offerings at cloudstands.com - &lt;a href=&quot;https://cloudstands.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;cloudstands.com/&lt;/a&gt;, and you&#039;ll
+      find another testament to their versatility.\n\nIn Conclusion\n\nWilliam Stone
+      Images is more than a gallery or a photographic service; it&#039;s a movement.
+      As art and entrepreneurship blend seamlessly here, your investment becomes a
+      bridge between vision and reality. Every penny, every gesture, doesn\u2019t
+      just purchase beauty, but fosters growth.\n\nIntrigued? Ready for the next chapter?
+      The world of William Stone awaits. Join us, and let\u2019s redefine what it
+      means to invest in art, beauty, and progress.\n\n\nWS-296-3575999-01478148-0572771-23102023000339</description>\n\t</photo>\n\t<photo
+      id=\"53273409602\" owner=\"29663856@N03\" secret=\"9e92d84f59\" server=\"65535\"
+      farm=\"66\" title=\"New Thatched Roofs (42/52)\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697901492\" datetaken=\"2023-10-21
+      12:11:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Stu.G\"
+      realname=\"\" originalsecret=\"02e192a778\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53273409602_02e192a778_o.jpg\"
+      height_o=\"1200\" width_o=\"1800\" url_q=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>New Thatched Roofs (42/52)\n\nRed
+      Rose Cottage\nShambles\nNo.28\nSoutham Road, Dunchurch, Warwickshire\n\nPlease,
+      if you have some extra browsing time have a look at the rest of my &#039;Project
+      52 2023&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72177720305238552&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72177720305238552&lt;/a&gt;\n\nPlease,
+      if you have even more time, have a browse at my previous years projects:-\n&#039;Project
+      52 2013&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157632445195620&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157632445195620&lt;/a&gt;\n&#039;Project
+      52 2014&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157639407666594&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157639407666594&lt;/a&gt;\n&#039;Project
+      52 2015&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157650090374041&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157650090374041&lt;/a&gt;\n&#039;Project
+      52 2016&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157660757070783&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157660757070783&lt;/a&gt;\n&#039;Project
+      52 2017&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157677419784130&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157677419784130&lt;/a&gt;\n&#039;Project
+      52 2018&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157689104924052&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157689104924052&lt;/a&gt;\n&#039;Project
+      52 2019&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157702107071042&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157702107071042&lt;/a&gt;\n&#039;Project
+      52 2020&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157712523161043&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157712523161043&lt;/a&gt;\n&#039;Project
+      52 2021&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72157717690744777&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72157717690744777&lt;/a&gt;\n&#039;Project
+      52 2022&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72177720295823113&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72177720295823113&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53273202865\" owner=\"99786858@N05\" secret=\"8386da90a8\" server=\"65535\"
+      farm=\"66\" title=\"Le &quot;Tilleul&quot; de G\xE9rouville (1259-1877)\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697833564\"
+      datetaken=\"2023-05-29 14:47:22\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"godran25\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_t.jpg\"
+      height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_m.jpg\"
+      height_s=\"240\" width_s=\"180\" url_m=\"https://live.staticflickr.com/65535/53273202865_8386da90a8.jpg\"
+      height_m=\"500\" width_m=\"375\" url_q=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_b.jpg\"
+      height_l=\"1024\" width_l=\"768\">\n\t\t<description>Il s&#039;est mis \xE0
+      voyager apr\xE8s sa mort, mais il est finalement revenu au pays de sa naissance
+      !\n&lt;a href=&quot;https://www.sitytrail.com/fr/poi/10822025-meixxdevantxvirton--tilleul-de-gerouville/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.sitytrail.com/fr/poi/10822025-meixxdevantxvirton--til...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53272625035\" owner=\"163363024@N04\" secret=\"0eb3176e1a\" server=\"65535\"
+      farm=\"66\" title=\"Just part of the Disneyesque Manor House, Sibford Gower,
+      Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1697816251\" datetaken=\"2023-10-15 14:13:34\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"7eb4316444\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53272625035_0eb3176e1a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53272625035_0eb3176e1a_t.jpg\"
+      height_t=\"70\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53272625035_0eb3176e1a_m.jpg\"
+      height_s=\"169\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53272625035_0eb3176e1a.jpg\"
+      height_m=\"351\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53272625035_7eb4316444_o.jpg\"
+      height_o=\"4000\" width_o=\"5691\" url_q=\"https://live.staticflickr.com/65535/53272625035_0eb3176e1a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53272625035_0eb3176e1a_b.jpg\"
+      height_l=\"720\" width_l=\"1024\">\n\t\t<description>Inspired by the Arts and
+      Crafts movement, this extraordinary building was created from some humble cottages
+      and barns in 1910-15. Its creator was Frank Lascelles, known as the Pageant
+      Master. Pageants were a form of theatre, massively popular at the time, and
+      involving productions that often required thousands of enthusiastic amateurs,
+      usually depicting heroic and patriotic scenes. Frank Lascelles entertained many
+      of the theatrical celebrities of the day here, including Ivor Novello (who must
+      have thought he was in the back of the beyond, far from the salons of fashionable
+      London or Paris.) Perhaps inspired by this idealised picture of England, Novello
+      wrote &#039;Keep the Home Fires Burning\u2019 here in 1914, one of the greatest
+      patriotic songs of the First World War. Sadly, Lascelles died in poverty in
+      rented rooms in Brighton, his glory days of entertaining behind him. &lt;a href=&quot;https://en.wikipedia.org/wiki/Frank_Lascelles_&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;en.wikipedia.org/wiki/Frank_Lascelles_&lt;/a&gt;(pageant_master)</description>\n\t</photo>\n\t<photo
+      id=\"53272363468\" owner=\"163363024@N04\" secret=\"05aaaa872d\" server=\"65535\"
+      farm=\"66\" title=\"The village of Sibford Gower in autumn, Oxfordshire\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697814354\"
+      datetaken=\"2023-10-15 14:01:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\" originalsecret=\"b61a45816b\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d_m.jpg\"
+      height_s=\"158\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d.jpg\"
+      height_m=\"330\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53272363468_b61a45816b_o.jpg\"
+      height_o=\"3640\" width_o=\"5516\" url_q=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d_b.jpg\"
+      height_l=\"676\" width_l=\"1024\">\n\t\t<description>Pond Cottage at the end
+      of the quiet main street that is now a dead end. \nThe village stands in deeply
+      rural countryside where the ironstone to the east meets the Cotswold stone to
+      the west, and the houses and cottages of the village reflect this, and are often
+      constructed of a mixture of the two. Cotswold stone slates can be seen on some
+      of the older properties, but the local stone was not suitable for roofing so
+      the village has a good number of fine thatched roofs.</description>\n\t</photo>\n\t<photo
+      id=\"53259637038\" owner=\"10758958@N05\" secret=\"59f7af08cd\" server=\"65535\"
+      farm=\"66\" title=\"North Lopham, Kings Head (2023)\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697370517\" datetaken=\"2023-10-14
+      10:18:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Dayoff171\"
+      realname=\"\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Photo from 2013 &lt;a href=&quot;https://flic.kr/p/nDWmnu&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;flic.kr/p/nDWmnu&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53257384665\" owner=\"28121598@N03\" secret=\"7fae01678d\" server=\"65535\"
+      farm=\"66\" title=\"Cadgwith\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"3\" safety_level=\"0\" dateupload=\"1697280616\" datetaken=\"2023-09-21
+      12:40:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"R~P~M\"
+      originalsecret=\"c1dd586c5f\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53257384665_7fae01678d_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53257384665_7fae01678d_t.jpg\"
+      height_t=\"72\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53257384665_7fae01678d_m.jpg\"
+      height_s=\"173\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53257384665_7fae01678d.jpg\"
+      height_m=\"361\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53257384665_c1dd586c5f_o.jpg\"
+      height_o=\"3066\" width_o=\"4250\" url_q=\"https://live.staticflickr.com/65535/53257384665_7fae01678d_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53257384665_7fae01678d_b.jpg\"
+      height_l=\"739\" width_l=\"1024\">\n\t\t<description>Cadgwith, Cornwall. 21st
+      September 2023.</description>\n\t</photo>\n\t<photo id=\"53253915590\" owner=\"58418425@N00\"
+      secret=\"1cb47b940a\" server=\"65535\" farm=\"66\" title=\"Castell Henllys Iron
+      Age Village, Pembrokeshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1697135107\" datetaken=\"2023-10-04 10:48:02\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"archidave\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53252536617\" owner=\"58418425@N00\" secret=\"33ccb537d6\" server=\"65535\"
+      farm=\"66\" title=\"Castell Henllys Iron Age Village, Pembrokeshire\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697135109\"
+      datetaken=\"2023-10-04 11:03:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"archidave\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53245961316\" owner=\"163363024@N04\" secret=\"c5e7f0d025\" server=\"65535\"
+      farm=\"66\" title=\"A corner of the quiet small village of Letcombe Basset,
+      Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1696867150\" datetaken=\"2023-07-13 15:21:22\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"4fb5276bb8\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53245961316_c5e7f0d025_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53245961316_c5e7f0d025_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53245961316_c5e7f0d025_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53245961316_c5e7f0d025.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53245961316_4fb5276bb8_o.jpg\"
+      height_o=\"3973\" width_o=\"5960\" url_q=\"https://live.staticflickr.com/65535/53245961316_c5e7f0d025_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53245961316_c5e7f0d025_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>This small village lies
+      off the beaten track in the lower folds of the Berkshire Downs. Looking towards
+      the tiny parish church that stands in those trees on the edge of the village.</description>\n\t</photo>\n\t<photo
+      id=\"53239031533\" owner=\"163363024@N04\" secret=\"df867ed19e\" server=\"65535\"
+      farm=\"66\" title=\"A rare survivor. A medieval (and later) wooden barn, Letcombe
+      Bassett, Oxfordshire.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1696612073\" datetaken=\"2023-07-13 15:11:05\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Banburyshire Photos\"
+      realname=\"Andrew S Brown\" originalsecret=\"0771deb140\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53239031533_df867ed19e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53239031533_df867ed19e_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53239031533_df867ed19e_m.jpg\"
+      height_s=\"158\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53239031533_df867ed19e.jpg\"
+      height_m=\"330\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53239031533_0771deb140_o.jpg\"
+      height_o=\"4000\" width_o=\"6064\" url_q=\"https://live.staticflickr.com/65535/53239031533_df867ed19e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53239031533_df867ed19e_b.jpg\"
+      height_l=\"675\" width_l=\"1024\">\n\t\t<description>Descending the remote Smiths
+      Hill lane from the Berkshire Downs and the Ridgeway I wasn&#039;t expecting
+      this to be the first bit of civilisation I came across in the lovely downland
+      village of Letcombe Bassett.\n\nThe exterior is mainly 17th century, but with
+      original 18th century plank doors and hinges. However the interior is largely
+      of 14th century wooden construction.\nGrade ll* listed.</description>\n\t</photo>\n\t<photo
+      id=\"53214858417\" owner=\"98844125@N04\" secret=\"55c93996ca\" server=\"65535\"
+      farm=\"66\" title=\"Thatched cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1695755549\" datetaken=\"2023-07-01
+      07:06:23\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Tim
+      Ravenscroft\" realname=\"Tim Ravenscroft\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53214858417_55c93996ca_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53214858417_55c93996ca_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53214858417_55c93996ca_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53214858417_55c93996ca.jpg\"
+      height_m=\"375\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53214858417_55c93996ca_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53214858417_55c93996ca_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description>Old thatched cottage and
+      garden.  Odense, Denmark. Hasselblad X2D.</description>\n\t</photo>\n\t<photo
+      id=\"53213679494\" owner=\"28121598@N03\" secret=\"f77a62488f\" server=\"65535\"
+      farm=\"66\" title=\"Blue Anchor\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"3\" safety_level=\"0\" dateupload=\"1695668586\" datetaken=\"2023-09-25
+      15:15:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"R~P~M\"
+      originalsecret=\"53d19c72e6\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53213679494_f77a62488f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53213679494_f77a62488f_t.jpg\"
+      height_t=\"77\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53213679494_f77a62488f_m.jpg\"
+      height_s=\"184\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53213679494_f77a62488f.jpg\"
+      height_m=\"383\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53213679494_53d19c72e6_o.jpg\"
+      height_o=\"3172\" width_o=\"4146\" url_q=\"https://live.staticflickr.com/65535/53213679494_f77a62488f_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53213679494_f77a62488f_b.jpg\"
+      height_l=\"783\" width_l=\"1024\">\n\t\t<description>The Blue Anchor, Helston,
+      Cornwall. 25th September 2023.</description>\n\t</photo>\n\t<photo id=\"53210774369\"
+      owner=\"133275046@N07\" secret=\"43e2cfdd93\" server=\"65535\" farm=\"66\" title=\"Cobertizo\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1695577010\" datetaken=\"2017-08-26 09:59:09\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Jos\xE9 Antonio Domingo RODR\xCDGUEZ RODR\xCDGUEZ\"
+      originalsecret=\"42773abb10\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53210774369_43e2cfdd93_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53210774369_43e2cfdd93_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53210774369_43e2cfdd93_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53210774369_43e2cfdd93.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53210774369_42773abb10_o.jpg\"
+      height_o=\"4342\" width_o=\"6513\" url_q=\"https://live.staticflickr.com/65535/53210774369_43e2cfdd93_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53210774369_43e2cfdd93_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53203733761\" owner=\"41701047@N08\" secret=\"3f3f366085\" server=\"65535\"
+      farm=\"66\" title=\"A Devon scene, circa 1912\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1695318417\" datetaken=\"1912-01-01
+      00:00:00\" datetakengranularity=\"8\" datetakenunknown=\"0\" ownername=\"geoff7918\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_t.jpg\"
+      height_t=\"81\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_m.jpg\"
+      height_s=\"194\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53203733761_3f3f366085.jpg\"
+      height_m=\"404\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_b.jpg\"
+      height_l=\"827\" width_l=\"1024\">\n\t\t<description>This glass plate was chosen
+      because it has a sign post in it, turn left for Exmouth and Withycombe. I have
+      dated it entirely by the dress of the girl standing in the road, she suggests
+      just pre WWI.\nAt first glance this seemed to be one of the many glass plates
+      of &amp;quot;Pretty Devon Scenes&amp;quot; but now having seen it scanned and
+      larger it is not quite as rural as I thought. There is a gas lamp blocking a
+      little of the finger post and looking to the right the houses look Edwardian,
+      the half timbering is decoration rather than timber framing, the chimneys are
+      sharp brick and decorated suggesting the house is far from a cottage, the furthest
+      house also looks post 1900.\nEven the thatched cottages do not look very old
+      unless they were older properties that have been modernised.\nAs to the location,
+      it obviously has a town gas supply and I wonder if the dip protected by the
+      railings is Withycombe Brook which flows down to Exmouth in the direction of
+      the sign.  \nI am aware of Withycombe in Somerset but surely it is too far away
+      to have Exmouth sign posted?\nSuggestions would be welcome. I can then add detail
+      to the negative bag,\nCopyright Geoff Dowling plate Circa 1912 (Salvaged)</description>\n\t</photo>\n\t<photo
+      id=\"53198962277\" owner=\"16021433@N07\" secret=\"e09c6b1b0e\" server=\"65535\"
+      farm=\"66\" title=\"The Fuller\u2019s Mill Alresford\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1695152195\" datetaken=\"2023-09-19
+      15:44:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Englepip\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e.jpg\"
+      height_m=\"375\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_b.jpg\"
+      height_l=\"769\" width_l=\"1024\">\n\t\t<description>&lt;a href=&quot;https://alresfordmemories.wordpress.com/2013/01/19/history-of-the-fulling-mill/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;alresfordmemories.wordpress.com/2013/01/19/history-of-the...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53189418016\" owner=\"163363024@N04\" secret=\"971fa0fee4\" server=\"65535\"
+      farm=\"66\" title=\"A white witch&#039;s house (perhaps), Botolph Claydon, Buckinghamshire\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1694798993\" datetaken=\"2023-05-20 15:08:23\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"6ec49f05c2\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53189418016_971fa0fee4_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53189418016_971fa0fee4_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53189418016_971fa0fee4_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53189418016_971fa0fee4.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53189418016_6ec49f05c2_o.jpg\"
+      height_o=\"4000\" width_o=\"6000\" url_q=\"https://live.staticflickr.com/65535/53189418016_971fa0fee4_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53189418016_971fa0fee4_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Is that a zinc bucket nailed
+      to the side wall? And is that a gnome living in it?</description>\n\t</photo>\n\t<photo
+      id=\"53189744338\" owner=\"163363024@N04\" secret=\"5b359974a0\" server=\"65535\"
+      farm=\"66\" title=\"Summer on the way in East Claydon, Buckinghamshire, England\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1694797775\" datetaken=\"2023-05-20 14:56:51\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"3aabaa2082\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53189744338_5b359974a0_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53189744338_5b359974a0_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53189744338_5b359974a0_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53189744338_5b359974a0.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53189744338_3aabaa2082_o.jpg\"
+      height_o=\"4000\" width_o=\"6000\" url_q=\"https://live.staticflickr.com/65535/53189744338_5b359974a0_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53189744338_5b359974a0_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>One of four Claydon villages
+      that are grouped together in the Vale of Aylesbury. The villages are, Middle
+      Claydon, Steeple Claydon, East Claydon and Botolph Claydon. </description>\n\t</photo>\n\t<photo
+      id=\"53185228289\" owner=\"160644704@N05\" secret=\"7c19b21892\" server=\"65535\"
+      farm=\"66\" title=\"Attractive thatched cottage by Manor Farm at Mapledurwell\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1694625085\" datetaken=\"2008-05-03 10:26:58\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Beardy Vulcan II\" realname=\"Adrian Pink\"
+      originalsecret=\"4805e5bdea\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53185228289_7c19b21892_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53185228289_7c19b21892_t.jpg\"
+      height_t=\"60\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53185228289_7c19b21892_m.jpg\"
+      height_s=\"144\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53185228289_7c19b21892.jpg\"
+      height_m=\"300\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53185228289_4805e5bdea_o.jpg\"
+      height_o=\"1454\" width_o=\"2427\" url_q=\"https://live.staticflickr.com/65535/53185228289_7c19b21892_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53185228289_7c19b21892_b.jpg\"
+      height_l=\"613\" width_l=\"1024\">\n\t\t<description>This attractive thatched
+      cottage by Manor Farm at Mapledurwell, is Ivy House, in Tunworth Road and is
+      a freehold detached 17 century house. It is a two-storeyed timber-framed house
+      with later additions and irregular fenestration. The thatched roof is hipped
+      with low eaves at the south end. The atractive exposed timber frame on the first
+      floor is rendered and has painted brick panels, otherwise painted brick walls.\n\nMapledurwell
+      is a village and former civil parish, now in the parish of Mapledurwell and
+      Up Nately, in the Basingstoke and Deane district, in the county of Hampshire,
+      England. It is located south east of Basingstoke. In 1931 the parish had a population
+      of 182.\n\nThe name Mapledurwell means &#039;maple tree spring.&#039;. Recorded
+      in the Domesday Book, the land was held by Anschill for Edward the Confessor.
+      From 1086, it became the sole Hampshire estate of Hugh de Port, covering the
+      parishes of Newnham, Up Nately and Andwell. Forfeited by Adam de Port in 1172,
+      after the King gave the manor to Alan Basset, it was transferred to Hugh de
+      Despenser in 1306, who was hanged by Queen Isabel in 1326. Returned to the Despenser
+      family in 1337, it remained in their possession for two centuries. In 1528,
+      William Frost of Avington granted the manor to Corpus Christi College, Oxford,
+      which remained the major land owner until 1839. This later long period of ownership
+      resulted in the continuation of small tenant farm holdings, and hence the relatively
+      late enclosure of the farmlands, and retention of an open land setting and older
+      &amp;quot;twisty&amp;quot; road layout. The present area of allotment land was
+      awarded to the village under and Enclosure act of June 1863. The opening of
+      the Basingstoke Canal from 1778, which ran through the northern half of Up Nately,
+      and the expansion of the nearby brickworks brought many industrial jobs to the
+      area.\n\nThe village of Mapledurwell is part of the Basing ward of Basingstoke
+      and Deane Borough Council.[5] The borough council is a Non-metropolitan district
+      council of Hampshire County Council.\n\nOn 1 April 1932 the parish was abolished
+      to form &amp;quot;Mapledurwell &amp;amp; Up Nately&amp;quot;.\n\n&lt;a href=&quot;https://themovemarket.com/tools/propertyprices/ivy-house-tunworth-road-basingstoke-rg25-2lg&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;themovemarket.com/tools/propertyprices/ivy-house-tunworth...&lt;/a&gt;\n\n&lt;a
+      href=&quot;https://britishlistedbuildings.co.uk/101092949-ivy-house-mapledurwell-and-up-nately&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;britishlistedbuildings.co.uk/101092949-ivy-house-mapledur...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53182742511\" owner=\"163363024@N04\" secret=\"1652af06e3\" server=\"65535\"
+      farm=\"66\" title=\"A corner of Letcombe Regis, Oxfordshire\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1694534185\"
+      datetaken=\"2023-07-13 13:52:45\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\" originalsecret=\"a7e0f9f670\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53182742511_1652af06e3_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53182742511_1652af06e3_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53182742511_1652af06e3_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53182742511_1652af06e3.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53182742511_a7e0f9f670_o.jpg\"
+      height_o=\"3545\" width_o=\"5317\" url_q=\"https://live.staticflickr.com/65535/53182742511_1652af06e3_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53182742511_1652af06e3_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Early 17th century Dunstan
+      Lodge, with a brick extention on the left dated 1680 on the clay panel left
+      of the window. \nThe village sits prettily at the foot of the Berkshire Downs
+      on the southern edge of the Vale of the White Horse.\n\nRain clouds finally
+      moving away.</description>\n\t</photo>\n\t<photo id=\"53173570073\" owner=\"157485279@N08\"
+      secret=\"42fcbeccd7\" server=\"65535\" farm=\"66\" title=\"September - Late
+      afternoon sunlit impressions\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1694190742\" datetaken=\"2023-09-08
+      12:29:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Stan
+      S. Gallery\" realname=\"Stan S.\" originalsecret=\"fbae490ba8\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7_t.jpg\"
+      height_t=\"80\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7_m.jpg\"
+      height_s=\"192\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7.jpg\"
+      height_m=\"401\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53173570073_fbae490ba8_o.jpg\"
+      height_o=\"3018\" width_o=\"3767\" url_q=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7_b.jpg\"
+      height_l=\"820\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53161522801\" owner=\"163363024@N04\" secret=\"71c5d113b1\" server=\"65535\"
+      farm=\"66\" title=\"Thatched lodges, Little Milton, Oxfordshire\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1693761005\"
+      datetaken=\"2023-05-21 15:02:47\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\" originalsecret=\"63687a10e5\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53161522801_63687a10e5_o.jpg\"
+      height_o=\"3740\" width_o=\"5610\" url_q=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Picturesque early 19th
+      century lodges at the gates to the village manor house.</description>\n\t</photo>\n\t<photo
+      id=\"53156731739\" owner=\"49729935@N06\" secret=\"ee479631e7\" server=\"65535\"
+      farm=\"66\" title=\"White Swan, Whitchurch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1694188273\" datetaken=\"2023-08-31
+      13:06:04\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Jason
+      87030\" realname=\"Jason Rodhouse\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53156731739_ee479631e7_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53156731739_ee479631e7_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53156731739_ee479631e7_m.jpg\"
+      height_s=\"161\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53156731739_ee479631e7.jpg\"
+      height_m=\"335\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53156731739_ee479631e7_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>The White Swan, Whitchurch,
+      Buckinghamshire. 31st August 2023. </description>\n\t</photo>\n\t<photo id=\"53148172792\"
+      owner=\"196834238@N03\" secret=\"fa332a42f2\" server=\"65535\" farm=\"66\" title=\"Porlock
+      Weir\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1693257762\" datetaken=\"2023-06-26 12:12:30\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Rainbow Images (Back - but busy)\" originalsecret=\"79e8b09cb4\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2_t.jpg\"
+      height_t=\"55\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2_m.jpg\"
+      height_s=\"133\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2.jpg\"
+      height_m=\"277\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53148172792_79e8b09cb4_o.jpg\"
+      height_o=\"1384\" width_o=\"2500\" url_q=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2_b.jpg\"
+      height_l=\"567\" width_l=\"1024\">\n\t\t<description>A hearty &lt;b&gt;Thankyou&lt;/b&gt;
+      to all who visit, comment or award.</description>\n\t</photo>\n\t<photo id=\"53144787847\"
+      owner=\"160644704@N05\" secret=\"c22b748b61\" server=\"65535\" farm=\"66\" title=\"Heather
+      Cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1693155255\" datetaken=\"2021-02-23 13:23:00\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Beardy Vulcan II\" realname=\"Adrian Pink\"
+      originalsecret=\"6ac1b46a79\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53144787847_c22b748b61_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53144787847_c22b748b61_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53144787847_c22b748b61_m.jpg\"
+      height_s=\"158\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53144787847_c22b748b61.jpg\"
+      height_m=\"329\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53144787847_6ac1b46a79_o.jpg\"
+      height_o=\"3836\" width_o=\"5821\" url_q=\"https://live.staticflickr.com/65535/53144787847_c22b748b61_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53144787847_c22b748b61_b.jpg\"
+      height_l=\"675\" width_l=\"1024\">\n\t\t<description>Heather Cottage, in Micheldever,
+      was built around 1600, and is a thatched, timber framed cottage. The original
+      property was probably just 2 rooms, one up and one down. The bedroom still has
+      a wattle and daub wall made of dung and straw, and there is a doorway which
+      is only 150cm high.\n\nIt would appear to have been extended during the 17th
+      century, hence the irregular front timbers. There is a small window looking
+      down Church Street and it is rumoured that it was used as a look-out to warn
+      visitors if there was a press-gang coming up from the river. The well is still
+      inside the property and was still in use in 1964.\n\nThe property was covered
+      in rendering at some time, but the beams have now been exposed.\n\nMicheldever
+      is a village and civil parish in Hampshire, England, situated 10 km north of
+      Winchester. It lies upon the River Dever. \n\nThe river, and village, formerly
+      part of Stratton Park, lie on a Hampshire grass downland, underlain with chalk
+      and flint. Parts of the river now disappear in summer through lack of replenishment,
+      evaporation and, more specifically, the porous nature of the bedrock.\n\n&lt;a
+      href=&quot;https://www.micheldevervillages.org/buildings/heather-cottage&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.micheldevervillages.org/buildings/heather-cottage&lt;/a&gt;\n\n&lt;a
+      href=&quot;https://en.wikipedia.org/wiki/Micheldever&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;en.wikipedia.org/wiki/Micheldever&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53143294689\" owner=\"163363024@N04\" secret=\"a1a967f56c\" server=\"65535\"
+      farm=\"66\" title=\"Cottages in the remote hamlet of Little Haseley, Oxfordshire.\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1693072360\" datetaken=\"2023-05-21 15:24:10\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"f5694e5a17\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53143294689_a1a967f56c_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53143294689_a1a967f56c_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53143294689_a1a967f56c_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53143294689_a1a967f56c.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53143294689_f5694e5a17_o.jpg\"
+      height_o=\"3827\" width_o=\"5740\" url_q=\"https://live.staticflickr.com/65535/53143294689_a1a967f56c_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53143294689_a1a967f56c_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>This small hamlet lies
+      tucked away on a winding single-track lane south of Great Milton. A sprinkling
+      of cottages around a huge green and a cluster in the centre with fine gardens
+      and trees.  \n\nThe link below is to an album by UltraPanavision to truly spectacular
+      private garden of Haseley Court in the village. It also has a good text about
+      the history.\n&lt;a href=&quot;https://flic.kr/s/aHsjvLhRWj&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;flic.kr/s/aHsjvLhRWj&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53139381380\" owner=\"163363024@N04\" secret=\"8ac8b98d26\" server=\"65535\"
+      farm=\"66\" title=\"Bakery Lane, Letcombe Regis, Oxfordshire.\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1692899573\"
+      datetaken=\"2023-07-13 13:32:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\" originalsecret=\"66bdcf4812\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53139381380_66bdcf4812_o.jpg\"
+      height_o=\"3655\" width_o=\"5481\" url_q=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>The village lies just over
+      a mile west of the market town of Wantage and is linked by a pleasant paved
+      footpath. It lies at the foot of the Berkshire Downs and a path to the Iron
+      Age hill fort of Segsbury Camp.\nThe house on the right dated 1698 may be older
+      and its half-timbering is false, probably tacked on to the original underneath
+      (perhaps for insulation?)\nOn the left is a Porsche, a favoured mode of transport
+      for the humble peasantry of southern Oxfordshire villages.\n\nArrived in drizzle
+      and under overcast skies from Wantage, but spirits lifting as blue sky crept
+      forward! Annoyingly, by the time I got back to the village on my way to Wantage
+      and the bus, the clouds had closed in again, so I never managed a sunlit shot.</description>\n\t</photo>\n\t<photo
+      id=\"53134435953\" owner=\"167912693@N04\" secret=\"647d6c73cd\" server=\"65535\"
+      farm=\"66\" title=\"Yeat&#039;s Tower at Thoor Ballylee\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1692703227\" datetaken=\"2023-07-09
+      12:48:11\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Photographs
+      by Ged Hynes\" realname=\"Ged Hynes\" originalsecret=\"10fa59c2bd\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd_t.jpg\"
+      height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd_m.jpg\"
+      height_s=\"240\" width_s=\"180\" url_m=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd.jpg\"
+      height_m=\"500\" width_m=\"375\" url_o=\"https://live.staticflickr.com/65535/53134435953_10fa59c2bd_o.jpg\"
+      height_o=\"4608\" width_o=\"3456\" url_q=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd_b.jpg\"
+      height_l=\"1024\" width_l=\"768\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53130363348\" owner=\"163363024@N04\" secret=\"37c48cd1b8\" server=\"65535\"
+      farm=\"66\" title=\"The hamlet of Little Haseley, Oxfordshire, England\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1692554303\"
+      datetaken=\"2023-05-21 15:26:19\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\" originalsecret=\"366a6b6743\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53130363348_366a6b6743_o.jpg\"
+      height_o=\"3797\" width_o=\"5696\" url_q=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>I discovered this delectable
+      little hamlet by wandering the byways of Oxfordshire on Google &#039;Streetview&#039;.
+      I couldn&#039;t find much history about it, but it is tucked away down a winding
+      single track lane that loops south of Great Milton and consists of a huge green
+      with just a few houses dotted around and a small centre of perhaps six stunning
+      thatched cottages in lovely gardens shaded by fine trees.\nNot a sound except
+      bird-song.\nA magical, and I should imagine eye-wateringly expensive place.\n\nThe
+      link below is to an album by UltraPanavision to truly spectacular private garden
+      of Haseley Court in the village. It also has a good text about the history.\n&lt;a
+      href=&quot;https://flic.kr/s/aHsjvLhRWj&quot; rel=&quot;noreferrer nofollow&quot;&gt;flic.kr/s/aHsjvLhRWj&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53125604668\" owner=\"7663959@N02\" secret=\"958aa4bb83\" server=\"65535\"
+      farm=\"66\" title=\"Coverack cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1692375440\" datetaken=\"2023-08-10
+      11:33:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Boffin
+      PC\" originalsecret=\"cb20eda374\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83_t.jpg\"
+      height_t=\"95\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83_m.jpg\"
+      height_s=\"229\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83.jpg\"
+      height_m=\"477\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53125604668_cb20eda374_o.jpg\"
+      height_o=\"2753\" width_o=\"2886\" url_q=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83_b.jpg\"
+      height_l=\"977\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53125521185\" owner=\"7663959@N02\" secret=\"3ca0684347\" server=\"65535\"
+      farm=\"66\" title=\"Coverack cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1692375441\" datetaken=\"2023-08-10
+      13:19:21\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Boffin
+      PC\" originalsecret=\"b6a1fb680a\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53125521185_3ca0684347_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53125521185_3ca0684347_t.jpg\"
+      height_t=\"94\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53125521185_3ca0684347_m.jpg\"
+      height_s=\"226\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53125521185_3ca0684347.jpg\"
+      height_m=\"471\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53125521185_b6a1fb680a_o.jpg\"
+      height_o=\"2758\" width_o=\"2928\" url_q=\"https://live.staticflickr.com/65535/53125521185_3ca0684347_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53125521185_3ca0684347_b.jpg\"
+      height_l=\"965\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53125040823\" owner=\"10146155@N04\" secret=\"db5df42c73\" server=\"65535\"
+      farm=\"66\" title=\"Leanach Cottage #1\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1692355671\" datetaken=\"2023-07-22
+      12:06:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Clive1945\"
+      realname=\"Clive Stanley\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_t.jpg\"
+      height_t=\"65\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_m.jpg\"
+      height_s=\"156\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53125040823_db5df42c73.jpg\"
+      height_m=\"324\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_b.jpg\"
+      height_l=\"664\" width_l=\"1024\">\n\t\t<description>After falling into disrepair,
+      Leanach Cottage was rebuilt in the early 19th century. The cottage became a
+      symbol for the Culloden battlefield, and the people who lived there became the
+      site\u2019s first tour guides. The cottage\u2019s last resident, Mrs Annabelle
+      Cameron (n\xE9e Belle Macdonald) moved out in 1912 and the cottage stood empty.\n\n1745
+      Jacobite Rising, Culloden was the last pitched battle on British soil and, in
+      less than an hour, around 1,300 men were slain \u2013 about 1,250 of them Jacobites.</description>\n\t</photo>\n\t<photo
+      id=\"53118021197\" owner=\"136125963@N02\" secret=\"d865e2c840\" server=\"65535\"
+      farm=\"66\" title=\"Wareham\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1692122947\" datetaken=\"2023-08-13 13:41:33\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"clive_metcalfe\"
+      realname=\"Clive Metcalfe\" originalsecret=\"a1424c76f6\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53118021197_d865e2c840_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53118021197_d865e2c840_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53118021197_d865e2c840_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53118021197_d865e2c840.jpg\"
+      height_m=\"334\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53118021197_a1424c76f6_o.jpg\"
+      height_o=\"4602\" width_o=\"6896\" url_q=\"https://live.staticflickr.com/65535/53118021197_d865e2c840_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53118021197_d865e2c840_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Church Street, Wareham,
+      Dorset UK.</description>\n\t</photo>\n\t<photo id=\"53113603890\" owner=\"190477311@N05\"
+      secret=\"f6dc00c89d\" server=\"65535\" farm=\"66\" title=\"Winterborne Zelston,
+      Dorset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1691934862\" datetaken=\"2023-08-10 18:50:40\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Bournemouth Andy\" realname=\"Bournemouth
+      Andy\" originalsecret=\"b98a67a7d4\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53113603890_f6dc00c89d_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53113603890_f6dc00c89d_t.jpg\"
+      height_t=\"56\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53113603890_f6dc00c89d_m.jpg\"
+      height_s=\"135\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53113603890_f6dc00c89d.jpg\"
+      height_m=\"281\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53113603890_b98a67a7d4_o.jpg\"
+      height_o=\"1981\" width_o=\"3523\" url_q=\"https://live.staticflickr.com/65535/53113603890_f6dc00c89d_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53113603890_f6dc00c89d_b.jpg\"
+      height_l=\"576\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53111388070\" owner=\"163363024@N04\" secret=\"617712c31a\" server=\"65535\"
+      farm=\"66\" title=\"Fairleigh Cottage perched above the &#039;front brook&#039;,
+      Chalgrove, Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1691847930\" datetaken=\"2023-05-21 14:33:26\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Banburyshire Photos\"
+      realname=\"Andrew S Brown\" originalsecret=\"75022dfab2\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53111388070_617712c31a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53111388070_617712c31a_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53111388070_617712c31a_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53111388070_617712c31a.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53111388070_75022dfab2_o.jpg\"
+      height_o=\"4000\" width_o=\"6000\" url_q=\"https://live.staticflickr.com/65535/53111388070_617712c31a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53111388070_617712c31a_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>This small 17th century
+      cottage has a little footbridge over the brook that may be a challenge after
+      one too many in the nearby Red Lion. It is one of a number of picturesque cottages
+      that dot the High Street, but in the main the village has become very suburbanised
+      and is continuing to expand.\n</description>\n\t</photo>\n\t<photo id=\"53096718112\"
+      owner=\"187705435@N08\" secret=\"8f5e8ab45a\" server=\"65535\" farm=\"66\" title=\"The
+      Old Order and the New\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1691331272\" datetaken=\"2023-07-19 12:33:28\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"tim.munsey\" realname=\"Tim
+      Munsey\" originalsecret=\"7047e44259\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a.jpg\"
+      height_m=\"334\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53096718112_7047e44259_o.jpg\"
+      height_o=\"4032\" width_o=\"6040\" url_q=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a_b.jpg\"
+      height_l=\"684\" width_l=\"1024\">\n\t\t<description>After P.H. Emerson, the
+      photographer who between 1886 and 1895 assiduously documented the life and landscape
+      of the Norfolk Broads. In Emerson&#039;s photograph the &#039;new order&#039;
+      is steam replacing wind power as a means of draining the marshes in this wet
+      landscape. In my image, shot at Hickling Broad, the contrast is of materials:
+      \ old order is thatch, and the new GRP.</description>\n\t</photo>\n\t<photo
+      id=\"53095945448\" owner=\"163363024@N04\" secret=\"f4e4d94990\" server=\"65535\"
+      farm=\"66\" title=\"Nice old-fashioned cottages at Great Milton, Oxfordshire.\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1691256929\" datetaken=\"2023-05-21 15:54:52\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"32b98916dc\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53095945448_f4e4d94990_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53095945448_f4e4d94990_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53095945448_f4e4d94990_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53095945448_f4e4d94990.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53095945448_32b98916dc_o.jpg\"
+      height_o=\"3838\" width_o=\"5758\" url_q=\"https://live.staticflickr.com/65535/53095945448_f4e4d94990_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53095945448_f4e4d94990_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Church Road.\n\nToday the
+      village is perhaps most famous for the very exclusive Le Manoir aux Quat&#039;Saisons
+      hotel and restaurant owned by Raymond Blanc.</description>\n\t</photo>\n\t<photo
+      id=\"53087342643\" owner=\"54415393@N00\" secret=\"627c0b6289\" server=\"65535\"
+      farm=\"66\" title=\"Amser stori/ Story time\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1690913043\" datetaken=\"2023-06-04
+      14:14:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Rhisiart
+      Hincks\" realname=\"Rhisiart Hincks\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53087342643_627c0b6289_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53087342643_627c0b6289_t.jpg\"
+      height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53087342643_627c0b6289_m.jpg\"
+      height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53087342643_627c0b6289.jpg\"
+      height_m=\"375\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53087342643_627c0b6289_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53087342643_627c0b6289_b.jpg\"
+      height_l=\"768\" width_l=\"1024\">\n\t\t<description>Happisburgh, Norfolk</description>\n\t</photo>\n\t<photo
+      id=\"53087306133\" owner=\"14136614@N03\" secret=\"bc91705be0\" server=\"65535\"
+      farm=\"66\" title=\"Heid / Ant198 / Thatch / Micky / Frodrik\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"2\" safety_level=\"0\" dateupload=\"1690912663\"
+      datetaken=\"2023-06-05 12:34:23\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"wiredforlego\" originalsecret=\"fe971eecc0\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53087306133_bc91705be0_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53087306133_bc91705be0_t.jpg\"
+      height_t=\"100\" width_t=\"93\" url_s=\"https://live.staticflickr.com/65535/53087306133_bc91705be0_m.jpg\"
+      height_s=\"240\" width_s=\"223\" url_m=\"https://live.staticflickr.com/65535/53087306133_bc91705be0.jpg\"
+      height_m=\"500\" width_m=\"464\" url_o=\"https://live.staticflickr.com/65535/53087306133_fe971eecc0_o.jpg\"
+      height_o=\"3084\" width_o=\"2863\" url_q=\"https://live.staticflickr.com/65535/53087306133_bc91705be0_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53087306133_bc91705be0_b.jpg\"
+      height_l=\"1024\" width_l=\"951\">\n\t\t<description>&lt;a href=&quot;http://instagram.com/thatchsmob/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;instagram.com/thatchsmob/&lt;/a&gt;\n&lt;a
+      href=&quot;http://instagram.com/ohpandah/&quot; rel=&quot;noreferrer nofollow&quot;&gt;instagram.com/ohpandah/&lt;/a&gt;\n&lt;a
+      href=&quot;http://instagram.com/iamant1/&quot; rel=&quot;noreferrer nofollow&quot;&gt;instagram.com/iamant1/&lt;/a&gt;\n&lt;a
+      href=&quot;http://instagram.com/mmickyyywho/&quot; rel=&quot;noreferrer nofollow&quot;&gt;instagram.com/mmickyyywho/&lt;/a&gt;\n&lt;a
+      href=&quot;http://instagram.com/frodrik_/&quot; rel=&quot;noreferrer nofollow&quot;&gt;instagram.com/frodrik_/&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"53086463951\" owner=\"29380771@N06\" secret=\"5d8d817bc3\" server=\"65535\"
+      farm=\"66\" title=\"Woven Palm Tree Bark BW\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1690903585\" datetaken=\"2022-02-06
+      14:30:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Patti
+      Deters\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_t.jpg\"
+      height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_m.jpg\"
+      height_s=\"240\" width_s=\"160\" url_m=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3.jpg\"
+      height_m=\"500\" width_m=\"333\" url_q=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_b.jpg\"
+      height_l=\"1024\" width_l=\"683\">\n\t\t<description>&amp;quot;Woven Palm Tree
+      Bark BW&amp;quot; by Patti Deters. The bark on the trunk of this tropical Cabbage
+      Palm (Sabal palmetto) is latticed with a woven crosshatch texture and is one
+      of Florida&#039;s state trees. The palmetto palm tree grows up to 100 feet tall
+      and is hurricane resistant. The bark is always eye-catching because it is so
+      unique. Presented here as a vertical black and white, the geometric crisscross
+      of the bark looks a bit rough, but is actually smooth to the touch. Interesting
+      fact: The cabbage palm is one of the hosts for Monk Skipper caterpillars. If
+      you like outdoor nature photography, please see more plants, botanicals, and
+      other flora at &lt;a href=&quot;https://patti-deters.pixels.com/featured/woven-palm-tree-bark-bw-patti-deters.html&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;patti-deters.pixels.com/featured/woven-palm-tree-bark-bw-...&lt;/a&gt;.</description>\n\t</photo>\n\t<photo
+      id=\"53063269374\" owner=\"144491124@N05\" secret=\"fee3b11dbb\" server=\"65535\"
+      farm=\"66\" title=\"Fox and Hare thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1690025464\" datetaken=\"2023-07-20
+      15:33:17\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Nigel
+      L Baker\" realname=\"Nigel Baker\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_t.jpg\"
+      height_t=\"63\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_m.jpg\"
+      height_s=\"150\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb.jpg\"
+      height_m=\"313\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_b.jpg\"
+      height_l=\"641\" width_l=\"1024\">\n\t\t<description>Amberley, West Sussex,
+      England.</description>\n\t</photo>\n\t<photo id=\"53060906264\" owner=\"192794613@N03\"
+      secret=\"067c2ee447\" server=\"65535\" farm=\"66\" title=\"The Red Lion, Brightwell-cum-Sotwell\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1689924851\" datetaken=\"2023-07-20 10:44:40\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"ROK photography\" realname=\"Roger Osborn-King\"
+      originalsecret=\"f5eb6839be\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53060906264_067c2ee447_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53060906264_067c2ee447_t.jpg\"
+      height_t=\"63\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53060906264_067c2ee447_m.jpg\"
+      height_s=\"152\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53060906264_067c2ee447.jpg\"
+      height_m=\"317\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53060906264_f5eb6839be_o.jpg\"
+      height_o=\"3200\" width_o=\"5050\" url_q=\"https://live.staticflickr.com/65535/53060906264_067c2ee447_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53060906264_067c2ee447_b.jpg\"
+      height_l=\"649\" width_l=\"1024\">\n\t\t<description>The village&#039;s only
+      pub is very typical of many such old pubs in southern England. Look closely
+      at the ridge of the recently re-thatched roof, where the thatchers have built
+      their signature finials formed of wire mesh stuffed with reeds: a lion above
+      the Red Lion end, and a cricket bat, ball, and stumps at the far end (a separate
+      private house). I am not entirely sure, though, how appropriate their choice
+      of beer is if the umbrellas are to be believed ...</description>\n\t</photo>\n\t<photo
+      id=\"53059226074\" owner=\"163363024@N04\" secret=\"fc3499fe53\" server=\"65535\"
+      farm=\"66\" title=\"The centre of East Claydon, Buckinghamshire, England\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689859433\"
+      datetaken=\"2023-05-20 15:00:39\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\" originalsecret=\"4d0dbdfc3c\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53_t.jpg\"
+      height_t=\"64\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53_m.jpg\"
+      height_s=\"153\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53.jpg\"
+      height_m=\"319\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53059226074_4d0dbdfc3c_o.jpg\"
+      height_o=\"3832\" width_o=\"6000\" url_q=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53_b.jpg\"
+      height_l=\"654\" width_l=\"1024\">\n\t\t<description>One of four Claydon villages
+      that are grouped together in the Vale of Aylesbury. The villages are, Middle
+      Claydon, Steeple Claydon, East Claydon and Botolph Claydon. </description>\n\t</photo>\n\t<photo
+      id=\"53056090535\" owner=\"187113622@N05\" secret=\"964edb9bd5\" server=\"65535\"
+      farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1689717693\" datetaken=\"2023-07-18 15:01:33\" datetakengranularity=\"0\"
+      datetakenunknown=\"1\" ownername=\"william_stone\" realname=\"William Stone\"
+      originalsecret=\"506b980f3d\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53056090535_964edb9bd5_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53056090535_964edb9bd5_t.jpg\"
+      height_t=\"100\" width_t=\"80\" url_s=\"https://live.staticflickr.com/65535/53056090535_964edb9bd5_m.jpg\"
+      height_s=\"240\" width_s=\"192\" url_m=\"https://live.staticflickr.com/65535/53056090535_964edb9bd5.jpg\"
+      height_m=\"500\" width_m=\"401\" url_o=\"https://live.staticflickr.com/65535/53056090535_506b980f3d_o.jpg\"
+      height_o=\"936\" width_o=\"750\" url_q=\"https://live.staticflickr.com/65535/53056090535_964edb9bd5_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53056090535_964edb9bd5_b.jpg\"
+      height_l=\"936\" width_l=\"750\">\n\t\t<description>Discover the mesmerizing
+      realm of William Stone Images, your destination for Limited Edition Fine Art
+      Prints. Journey into our collection of Fine Art Photography Prints &amp;amp;
+      Luxury Wall Art at: &lt;a href=&quot;https://www.wsimages.com/fineart/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/fineart/&lt;/a&gt;\n\nStand
+      on the precipice of a transformative journey with WSImages. Seize this extraordinary
+      opportunity to fuel empowerment and growth by contributing a donation towards
+      our relentless support of Small and Medium-sized Enterprises (SMEs).\n\nInvest
+      in a brighter future. Your generosity fuels our trajectory, allowing us to create
+      an ecosystem in which SMEs can flourish. Your investment (international payments
+      processed) , transferred into account \n\nRR MEDIA LIMITED\nAccount number:
+      57178801\nSort code: 60-07-38\nIBAN: GB18NWBK60073857178801\nBIC: NWBKGB2L\n\n\nintegrates
+      you into our noble mission, sparking innovation, cultivating talent, and fanning
+      the flames of entrepreneurial spirit.\nAlso a small donation using this link
+      will go a long way too - &lt;a href=&quot;https://buy.stripe.com/28o8zHgmf0dO8dW5ko&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;buy.stripe.com/28o8zHgmf0dO8dW5ko&lt;/a&gt;\n\nTogether,
+      we hold the power to shape the world. Your donation is the spark that drives
+      the engines of change, bringing entrepreneurial dreams to life. With your steadfast
+      support, we can empower these enterprises, laying a solid foundation for sustainable
+      growth, job creation, and economic prosperity.\n\nBe a part of this revolution
+      in success. Every contribution, regardless of its size, is a building block
+      towards a thriving future for businesses and communities alike.\n\nJoin us.
+      Redefine boundaries, shatter growth ceilings, and become a change catalyst.
+      Act now, invest in our shared progress.\n\nFrom us to you, our sincere thanks
+      for being a vital force in our journey and an advocate for SMEs.\n\nVisit our
+      Flickr presence, showcasing our ever-evolving catalogue and our spirit of giving.
+      Our gallery is expansive, but we\u2019re always willing to grow further, driven
+      by the desires of our esteemed clientele. Check our current selection at &lt;a
+      href=&quot;https://wsimages.com/&quot; rel=&quot;noreferrer nofollow&quot;&gt;wsimages.com/&lt;/a&gt;\n\nOur
+      services extend to capture unforgettable moments through wedding photography
+      and videography. Visit: &lt;a href=&quot;https://randrphotographs.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;randrphotographs.com/&lt;/a&gt;\n\nWe
+      occasionally offer luxury fine art at discounted rates. Keep an eye on: &lt;a
+      href=&quot;https://www.wsimages.com/clearance/&quot; rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/clearance/&lt;/a&gt;\n\nRest
+      assured, every print dispatched from us passes through a stringent quality control
+      process. Our gallery-quality images come with a lifetime guarantee, delivered
+      to your doorstep in pristine condition.\n\nAlthough our Flickr images are lower
+      quality to protect copyright, our full-size 4096x pixel photos can be ordered
+      in museum-grade quality. Use the voucher WS-100 for a discount and reference
+      the unique code at the bottom of the photo description when contacting us: &lt;a
+      href=&quot;https://www.wsimages.com/contact/&quot; rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/contact/&lt;/a&gt;\n\nFollow
+      our past journeys and future plans at: &lt;a href=&quot;https://www.wsimages.com/news/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/news/&lt;/a&gt;\n\nExperience
+      the exquisite selection of fine art photography for sale in our galleries. Our
+      stunning photographic works of art, produced using only the finest materials
+      and archival methods, are available in limited and open editions.\n\nExplore
+      our equipment: &lt;a href=&quot;https://www.wsimages.com/about/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;www.wsimages.com/about/&lt;/a&gt;\n\nCheck out our latest
+      work at: &lt;a href=&quot;https://www.wsimages.com/newaddition/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;www.wsimages.com/newaddition/&lt;/a&gt;\n\nLight is at the
+      heart of our photographs. Understanding the nuances of light\u2019s interaction
+      with the camera is critical to our craft. The temperature, intensity, source
+      of light, ISO, aperture, speed, camera type, lens type, focal length, and filters\u2026
+      the combinations are myriad and multilayered, revealing the beauty in even the
+      darkest of scenes.\n\nWe do cloud/website development and hosting, explore our
+      services - &lt;a href=&quot;https://cloudstands.com/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;cloudstands.com/&lt;/a&gt;\n\nAt William Stone Images, three
+      passions drive us: the pursuit of beauty, the quest for the perfect picture,
+      and the thrill of new photographic styles and equipment.\n\n\nWS-199-1771292-221368187-1955908-1872023220132</description>\n\t</photo>\n\t<photo
+      id=\"53054966596\" owner=\"163363024@N04\" secret=\"272f7869f9\" server=\"65535\"
+      farm=\"66\" title=\"Pepperbox Cottage, Lasham, Hampshire\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689696260\" datetaken=\"2023-06-17
+      16:20:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Banburyshire
+      Photos\" realname=\"Andrew S Brown\" originalsecret=\"019e3742b6\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53054966596_272f7869f9_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53054966596_272f7869f9_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53054966596_272f7869f9_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53054966596_272f7869f9.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53054966596_019e3742b6_o.jpg\"
+      height_o=\"4000\" width_o=\"6000\" url_q=\"https://live.staticflickr.com/65535/53054966596_272f7869f9_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53054966596_272f7869f9_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>A grey, humid day of diffused
+      light that gave some weirdly glowing, over- saturated colours that I&#039;ve
+      been trying to tone down. Perhaps the absence of glare and the colour spectrum
+      was affected? I hope to return one day in perfect sunshine for the full-on Chocolate
+      Box experience!</description>\n\t</photo>\n\t<photo id=\"53054992713\" owner=\"124534459@N02\"
+      secret=\"801f2d76e0\" server=\"65535\" farm=\"66\" title=\"Summer Scene ...\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1689681677\" datetaken=\"2023-07-17 09:06:28\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Nikon Caz\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0_t.jpg\"
+      height_t=\"65\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0_m.jpg\"
+      height_s=\"156\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0.jpg\"
+      height_m=\"326\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0_b.jpg\"
+      height_l=\"668\" width_l=\"1024\">\n\t\t<description>... at Cadgwith in Cornwall
+      where most of the cottages are of thatched roof construction and look quite
+      wonderful.</description>\n\t</photo>\n\t<photo id=\"53054777058\" owner=\"163363024@N04\"
+      secret=\"13f199026e\" server=\"65535\" farm=\"66\" title=\"More Hampshire charm
+      at Lasham.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1689673099\" datetaken=\"2023-06-17 16:09:25\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"62861cbe58\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53054777058_13f199026e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53054777058_13f199026e_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53054777058_13f199026e_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53054777058_13f199026e.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53054777058_62861cbe58_o.jpg\"
+      height_o=\"4000\" width_o=\"6000\" url_q=\"https://live.staticflickr.com/65535/53054777058_13f199026e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53054777058_13f199026e_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Lasham has a good number
+      of idyllic thatched cottages dotted about its winding well-wooded lanes. A very
+      overcast day with few highlights or shadows.</description>\n\t</photo>\n\t<photo
+      id=\"53053706847\" owner=\"97749113@N08\" secret=\"e2a24f904e\" server=\"65535\"
+      farm=\"66\" title=\"Cadgwith Cottages.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1689672827\" datetaken=\"2023-07-17
+      10:12:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Go
+      placidly amidst the noise and haste...\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e_t.jpg\"
+      height_t=\"62\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e_m.jpg\"
+      height_s=\"149\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e.jpg\"
+      height_m=\"310\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e_b.jpg\"
+      height_l=\"635\" width_l=\"1024\">\n\t\t<description>A view of Cadgwith in Cornwall
+      where a lot of the old cottages are thatched rather than slated as, when the
+      cottages were built, it was far easier to source straw as a roof covering rather
+      than haul slate in from Delabole.\n\nThis is clearly a case of a shot which
+      might have benefitted from focus stacking, or maybe just focussing on the nearmost
+      cottage rather than the foliage, but I was set up on the narrow path which you
+      can see running away from me, the path which serves the village from the car
+      park, and people (curse them) were continually passing which meant I had to
+      move my tripod repeatedly so I fired off a couple when I could and moved on.
+      \n</description>\n\t</photo>\n\t<photo id=\"53050043273\" owner=\"164266966@N06\"
+      secret=\"135a9aa2da\" server=\"65535\" farm=\"66\" title=\"Lodge House.\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689513367\"
+      datetaken=\"2023-07-16 13:07:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      ownername=\"marlin.357\" realname=\"nick boreham\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da_t.jpg\"
+      height_t=\"68\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da_m.jpg\"
+      height_s=\"162\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da.jpg\"
+      height_m=\"339\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da_b.jpg\"
+      height_l=\"693\" width_l=\"1024\">\n\t\t<description>Oxfordshire. England.</description>\n\t</photo>\n\t<photo
+      id=\"53046862947\" owner=\"187113622@N05\" secret=\"bc4dd81f12\" server=\"65535\"
+      farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1689431325\" datetaken=\"2022-02-25 00:27:28\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"william_stone\" realname=\"William Stone\"
+      originalsecret=\"6dc88811f3\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53046862947_bc4dd81f12_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53046862947_bc4dd81f12_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53046862947_bc4dd81f12_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53046862947_bc4dd81f12.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53046862947_6dc88811f3_o.jpg\"
+      height_o=\"499\" width_o=\"750\" url_q=\"https://live.staticflickr.com/65535/53046862947_bc4dd81f12_q.jpg\"
+      height_q=\"150\" width_q=\"150\">\n\t\t<description>Discover the mesmerizing
+      realm of William Stone Images, your destination for Limited Edition Fine Art
+      Prints. Journey into our collection of Fine Art Photography Prints &amp;amp;
+      Luxury Wall Art at: &lt;a href=&quot;https://www.wsimages.com/fineart/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/fineart/&lt;/a&gt;\n\nStand
+      on the precipice of a transformative journey with WSImages. Seize this extraordinary
+      opportunity to fuel empowerment and growth by contributing a donation towards
+      our relentless support of Small and Medium-sized Enterprises (SMEs).\n\nInvest
+      in a brighter future. Your generosity fuels our trajectory, allowing us to create
+      an ecosystem in which SMEs can flourish. Your investment (international payments
+      processed) , transferred into account \n\nRR MEDIA LIMITED\nAccount number:
+      57178801\nSort code: 60-07-38\nIBAN: GB18NWBK60073857178801\nBIC: NWBKGB2L\n\n\nintegrates
+      you into our noble mission, sparking innovation, cultivating talent, and fanning
+      the flames of entrepreneurial spirit.\nAlso a small donation using this link
+      will go a long way too - &lt;a href=&quot;https://buy.stripe.com/28o8zHgmf0dO8dW5ko&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;buy.stripe.com/28o8zHgmf0dO8dW5ko&lt;/a&gt;\n\nTogether,
+      we hold the power to shape the world. Your donation is the spark that drives
+      the engines of change, bringing entrepreneurial dreams to life. With your steadfast
+      support, we can empower these enterprises, laying a solid foundation for sustainable
+      growth, job creation, and economic prosperity.\n\nBe a part of this revolution
+      in success. Every contribution, regardless of its size, is a building block
+      towards a thriving future for businesses and communities alike.\n\nJoin us.
+      Redefine boundaries, shatter growth ceilings, and become a change catalyst.
+      Act now, invest in our shared progress.\n\nFrom us to you, our sincere thanks
+      for being a vital force in our journey and an advocate for SMEs.\n\nVisit our
+      Flickr presence, showcasing our ever-evolving catalogue and our spirit of giving.
+      Our gallery is expansive, but we\u2019re always willing to grow further, driven
+      by the desires of our esteemed clientele. Check our current selection at &lt;a
+      href=&quot;https://wsimages.com/&quot; rel=&quot;noreferrer nofollow&quot;&gt;wsimages.com/&lt;/a&gt;\n\nOur
+      services extend to capture unforgettable moments through wedding photography
+      and videography. Visit: &lt;a href=&quot;https://randrphotographs.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;randrphotographs.com/&lt;/a&gt;\n\nWe
+      occasionally offer luxury fine art at discounted rates. Keep an eye on: &lt;a
+      href=&quot;https://www.wsimages.com/clearance/&quot; rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/clearance/&lt;/a&gt;\n\nRest
+      assured, every print dispatched from us passes through a stringent quality control
+      process. Our gallery-quality images come with a lifetime guarantee, delivered
+      to your doorstep in pristine condition.\n\nAlthough our Flickr images are lower
+      quality to protect copyright, our full-size 4096x pixel photos can be ordered
+      in museum-grade quality. Use the voucher WS-100 for a discount and reference
+      the unique code at the bottom of the photo description when contacting us: &lt;a
+      href=&quot;https://www.wsimages.com/contact/&quot; rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/contact/&lt;/a&gt;\n\nFollow
+      our past journeys and future plans at: &lt;a href=&quot;https://www.wsimages.com/news/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;www.wsimages.com/news/&lt;/a&gt;\n\nExperience
+      the exquisite selection of fine art photography for sale in our galleries. Our
+      stunning photographic works of art, produced using only the finest materials
+      and archival methods, are available in limited and open editions.\n\nExplore
+      our equipment: &lt;a href=&quot;https://www.wsimages.com/about/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;www.wsimages.com/about/&lt;/a&gt;\n\nCheck out our latest
+      work at: &lt;a href=&quot;https://www.wsimages.com/newaddition/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;www.wsimages.com/newaddition/&lt;/a&gt;\n\nLight is at the
+      heart of our photographs. Understanding the nuances of light\u2019s interaction
+      with the camera is critical to our craft. The temperature, intensity, source
+      of light, ISO, aperture, speed, camera type, lens type, focal length, and filters\u2026
+      the combinations are myriad and multilayered, revealing the beauty in even the
+      darkest of scenes.\n\nWe do cloud/website development and hosting, explore our
+      services - &lt;a href=&quot;https://cloudstands.com/&quot; rel=&quot;noreferrer
+      nofollow&quot;&gt;cloudstands.com/&lt;/a&gt;\n\nAt William Stone Images, three
+      passions drive us: the pursuit of beauty, the quest for the perfect picture,
+      and the thrill of new photographic styles and equipment.\n\n\nWS-196-281858598-14902865-5999992-1572023142844</description>\n\t</photo>\n\t<photo
+      id=\"53040629218\" owner=\"80309866@N07\" secret=\"2f681901e4\" server=\"65535\"
+      farm=\"66\" title=\"beamish313\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1689147240\" datetaken=\"2022-04-19
+      14:11:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"PeterJacksonToD\"
+      realname=\"Peter Jackson\" originalsecret=\"eeb6defbe9\" originalformat=\"jpg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53040629218_2f681901e4_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53040629218_2f681901e4_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53040629218_2f681901e4_m.jpg\"
+      height_s=\"161\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53040629218_2f681901e4.jpg\"
+      height_m=\"336\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53040629218_eeb6defbe9_o.jpg\"
+      height_o=\"3545\" width_o=\"5278\" url_q=\"https://live.staticflickr.com/65535/53040629218_2f681901e4_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53040629218_2f681901e4_b.jpg\"
+      height_l=\"688\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53039079605\" owner=\"163363024@N04\" secret=\"4bb7f49a89\" server=\"65535\"
+      farm=\"66\" title=\"Roses and thatch, Gracious Street, Selborne, Hampshire,
+      England\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1689091665\" datetaken=\"2023-06-17 12:26:17\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
+      Brown\" originalsecret=\"b56c9a7597\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53039079605_4bb7f49a89_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53039079605_4bb7f49a89_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53039079605_4bb7f49a89_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53039079605_4bb7f49a89.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53039079605_b56c9a7597_o.jpg\"
+      height_o=\"3909\" width_o=\"5863\" url_q=\"https://live.staticflickr.com/65535/53039079605_4bb7f49a89_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53039079605_4bb7f49a89_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>In the distance the tower
+      of St. Mary the Virgin Church can be just seen.\nA frustratingly hazy day with
+      a flat diffused light that gave few shadows or highlights.</description>\n\t</photo>\n</photos>\n</rsp>\n"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '3978'
+      - '30085'
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Sun, 05 Nov 2023 16:37:44 GMT
+      - Thu, 09 Nov 2023 16:47:57 GMT
       Via:
       - 1.1 f3d587359f8c9909f005910fc81a0b36.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - opoeD2hM4pT-ebwJhd-nTOMWPYjLjzwE8RFeInjfwJ6tuYQb9H4weQ==
+      - goORYJH3f0zw-8dVBiaH2okkMs7YwqP6egl2VXbtOqx9KpiUInalcg==
       X-Amz-Cf-Pop:
       - LHR50-P8
       X-Cache:
@@ -208,7 +1822,7 @@ interactions:
       - Apache/2.4.57 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Tue, 05-Dec-2023 16:37:43 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sat, 09-Dec-2023 16:47:56 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:

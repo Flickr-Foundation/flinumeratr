@@ -78,31 +78,31 @@
   .infobox {}
 </style>
 
-{% if data.type == "user" %}
-  {% set user = data.photos[0].owner %}
+{% if parsed_url.type == "user" %}
+  {% set user = photo_data.photos[0].owner %}
 
   <p id="infobox">
     This URL shows the photos taken by
     <a href="{{ user.profile_url }}">{{ user.realname or user.username }}</a>,
-    who has posted {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    who has posted {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "album" %}
+{% elif parsed_url.type == "album" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.album.title }}</a> album, which was created by <a href="/see_photos?flickr_url={{ data.album.owner.profile_url }}">{{ data.album.owner.realname or data.album.owner.username }}</a>.
-    It contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.album.title }}</a> album, which was created by <a href="/see_photos?flickr_url={{ photo_data.album.owner.profile_url }}">{{ photo_data.album.owner.realname or photo_data.album.owner.username }}</a>.
+    It contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "group" %}
+{% elif parsed_url.type == "group" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.group.name }}</a> group pool, which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.group.name }}</a> group pool, which contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "gallery" %}
+{% elif parsed_url.type == "gallery" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ data.gallery.title }}</a> gallery,
-    which contains {{ data.total_photos | intcomma }}&nbsp;photo{% if data.total_photos != 1 %}s{% endif %}</span>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.gallery.title }}</a> gallery,
+    which contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
   </p>
-{% elif data.type == "tag" %}
+{% elif parsed_url.type == "tag" %}
   <p id="infobox">
-    This URL shows photos tagged with <a href="{{ flickr_url }}">{{ data.tag }}</a>.
+    This URL shows photos tagged with <a href="{{ flickr_url }}">{{ parsed_url.tag }}</a>.
     
     {#
       We don't include the photo count on tags, because it's pretty inconsistent.
@@ -113,23 +113,29 @@
       Rather than include an obviously inconsistent count, we just omit it for tag pages.
     #}
   </p>
-{% elif data.type == "single_photo" %}
+{% elif parsed_url.type == "single_photo" %}
   <p id="infobox">
     This URL is <a href="{{ flickr_url }}">a single photo</a> on Flickr.
   </p>
 {% endif %}
 
 <ul id="photos">
+  
+{% if parsed_url.type == "single_photo" %}
+  {% set photos = [photo_data] %}
+{% else %}
+  {% set photos = photo_data.photos %}
+{% endif %}
 
-{% for p in data.photos %}
+{% for p in photos %}
 	<li>
 		<a class="photo" href="{{ p.url }}">
       <img src="{{ p.sizes | image_at("Medium") }}">
     </a>
 		<div class="metadata">
       <h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a></h4>
-<!-- TODO: data.type = user/album, not people/photoset -->
-      {% if data.type != "people" and data.type != "photoset" %}
+<!-- TODO: parsed_url.type = user/album, not people/photoset -->
+      {% if parsed_url.type != "people" and parsed_url.type != "photoset" %}
         <h5 class="owner">
           by <a href="/see_photos?flickr_url={{ p.owner.profile_url }}">{{ p.owner.realname or p.owner.username }}</a>
         </h5>
@@ -147,34 +153,6 @@
 	</li>
 {% endfor %}
 </ul>
-
-{% if data.page_count and data.page_count > 1 %}
-<p class="pagination">  
-  {% if page > 2 %}
-    <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=1) }}">⇤ start</a>
-    /
-  {% endif %}
-  
-  {% if page > 1 %}
-    <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=page - 1) }}">&larr; prev</a>
-    /
-  {% endif %}
-
-  {#
-    For the same reason we don't show a tag count on tag pages, we don't
-    show the page count -- see comment above.
-  #}
-  page {{ page }}
-  {% if data.type != "tags" %}
-    of {{ data.page_count | intcomma }}
-  {% endif %}
-
-  {% if page != data.page_count %}
-    /
-    <a href="{{ url_for('see_photos', flickr_url=flickr_url, page=page + 1) }}">next &rarr;</a>
-  {% endif %}
-</p>
-{% endif %}
 
 <p>
   <a href="{{ url_for('index') }}">Home</a>

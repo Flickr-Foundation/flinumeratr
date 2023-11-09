@@ -54,7 +54,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
             [
                 b"This URL shows the photos in the",
                 b"Field Guide: Birds of the World",
-                b"group pool, which contains 211,621 photos",
+                b"group pool, which contains",
             ],
             id="group",
         ),

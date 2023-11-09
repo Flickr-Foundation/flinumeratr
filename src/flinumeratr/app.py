@@ -14,7 +14,6 @@ from flickr_url_parser import (
 )
 import humanize
 
-from flinumeratr.enumerator import get_photo_data
 from flinumeratr.filters import render_date_taken
 from ._types import ViewResponse
 
@@ -89,10 +88,8 @@ def see_photos() -> ViewResponse:
     except KeyError:
         return redirect(url_for("index"))
 
-    page = int(request.args.get("page", "1"))
-
     try:
-        parse_result = parse_flickr_url(flickr_url)
+        parsed_url = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
         flash(
             f"There are no photos to show at <span class='user_input'>{flickr_url}</span>"
@@ -111,10 +108,10 @@ def see_photos() -> ViewResponse:
         "group": "a group",
         "galleries": "a gallery",
         "tags": "a tag",
-    }.get(parse_result["type"], "a " + parse_result["type"])
+    }.get(parsed_url["type"], "a " + parsed_url["type"])
 
     try:
-        photos = get_photo_data(api, parse_result=parse_result, page=page)
+        photo_data = api.get_photos_from_parsed_flickr_url(parsed_url=parsed_url)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
@@ -126,8 +123,8 @@ def see_photos() -> ViewResponse:
     else:
         return render_template(
             "see_photos.html",
-            page=page,
             flickr_url=flickr_url,
-            data={**parse_result, **photos},
+            parsed_url=parsed_url,
+            photo_data=photo_data,
             label=category_label,
         )
