@@ -15,10 +15,10 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname%2Cpath_alias&gallery_id=72157621848008117&get_gallery_info=1&method=flickr.galleries.getPhotos&page=1&per_page=10
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname%2Cpath_alias&gallery_id=72157621848008117&get_gallery_info=1&method=flickr.galleries.getPhotos&page=1&per_page=100
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
-      page=\"1\" pages=\"2\" perpage=\"10\" total=\"12\">\n\t<photo id=\"2456288552\"
+      page=\"1\" pages=\"1\" perpage=\"100\" total=\"12\">\n\t<photo id=\"2456288552\"
       owner=\"38851157@N00\" secret=\"3794a1ba27\" server=\"2407\" farm=\"3\" title=\"IMG_6834\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
       dateupload=\"1209617815\" datetaken=\"2008-04-17 17:35:45\" datetakengranularity=\"0\"
@@ -232,7 +232,38 @@ interactions:
       nofollow&quot;&gt;hdl.loc.gov/loc.pnp/pp.fsac&lt;/a&gt;\n\n&lt;b&gt;Higher resolution
       image is available (Persistent URL): &lt;/b&gt;  &lt;a href=&quot;http://hdl.loc.gov/loc.pnp/fsac.1a35119&quot;
       rel=&quot;noreferrer nofollow&quot;&gt;hdl.loc.gov/loc.pnp/fsac.1a35119&lt;/a&gt;\n\n&lt;b&gt;Call
-      Number: &lt;/b&gt; LC-USW36-989  \n\n</description>\n\t</photo>\n</photos>\n<gallery
+      Number: &lt;/b&gt; LC-USW36-989  \n\n</description>\n\t</photo>\n\t<photo id=\"3563389643\"
+      owner=\"7568189@N04\" secret=\"f7d15123b3\" server=\"3621\" farm=\"4\" title=\"Jokeys\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1243280529\" datetaken=\"2009-05-25 21:03:25\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" ownername=\"cyrille r\" realname=\"Cyrille R\" originalsecret=\"0a76a8fa5a\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_t.jpg\"
+      height_t=\"63\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_m.jpg\"
+      height_s=\"152\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3.jpg\"
+      height_m=\"316\" width_m=\"500\" url_o=\"https://live.staticflickr.com/3621/3563389643_0a76a8fa5a_o.jpg\"
+      height_o=\"405\" width_o=\"640\" url_q=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_q.jpg\"
+      height_q=\"150\" width_q=\"150\" pathalias=\"cyrillerabiller\" is_primary=\"0\"
+      has_comment=\"0\">\n\t\t<description>&lt;a href=&quot;https://cyrillephoto.wordpress.com/&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;cyrillephoto.wordpress.com/&lt;/a&gt;</description>\n\t</photo>\n\t<photo
+      id=\"347360201\" owner=\"83568246@N00\" secret=\"a6c0e5721f\" server=\"150\"
+      farm=\"1\" title=\"photobooth friday\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1168058062\" datetaken=\"2007-01-05
+      23:18:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"girlhula\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/150/347360201_a6c0e5721f_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/150/347360201_a6c0e5721f_t.jpg\"
+      height_t=\"100\" width_t=\"71\" url_s=\"https://live.staticflickr.com/150/347360201_a6c0e5721f_m.jpg\"
+      height_s=\"240\" width_s=\"170\" url_m=\"https://live.staticflickr.com/150/347360201_a6c0e5721f.jpg\"
+      height_m=\"480\" width_m=\"340\" url_q=\"https://live.staticflickr.com/150/347360201_a6c0e5721f_q.jpg\"
+      height_q=\"150\" width_q=\"150\" pathalias=\"girlhula\" is_primary=\"1\" has_comment=\"0\">\n\t\t<description>I
+      was opening a card from an old friend and all of the sudden, my lap was filled
+      with all these fantastic old photobooth snapshots. like manna from heaven. \n\nthank
+      you, photobooth angel. you know who you are and I love you for this gift.\n\nas
+      for this particular photobooth frame-- I am crazy about the stripes and the
+      plaids in the background. and that coat collar is bananas. I think her name
+      was something like a Judith. I bet she wanted to be a writer but ended up in
+      cosmetology school instead. \n\n(blogged &lt;a href=&quot;http://hulaseventy.blogspot.com/2007/01/photobooth-friday.html&quot;
+      rel=&quot;noreferrer nofollow&quot;&gt;here&lt;/a&gt;)</description>\n\t</photo>\n</photos>\n<gallery
       id=\"5704-72157621848008117\" gallery_id=\"72157621848008117\" url=\"https://www.flickr.com/photos/george/galleries/72157621848008117\"
       owner=\"34427469121@N01\" username=\"George\" iconserver=\"1\" iconfarm=\"1\"
       primary_photo_id=\"347360201\" date_create=\"1249665258\" date_update=\"1698334553\"
@@ -244,15 +275,15 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '5022'
+      - '5623'
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Sun, 05 Nov 2023 16:37:43 GMT
+      - Thu, 09 Nov 2023 16:48:12 GMT
       Via:
-      - 1.1 f3d587359f8c9909f005910fc81a0b36.cloudfront.net (CloudFront)
+      - 1.1 dd1211d51ecc66d1523e03934a660f3a.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - eF7Xx7B22D4cU_-Xcl3OBQH3akcrTh7-39x1kN13Na-YC9o0TgNcUA==
+      - y6nYUKcNUZmgkbDCRBjgft6bc2v5lo3C8g-hj6a3rjX3S85Hs_g5Og==
       X-Amz-Cf-Pop:
       - LHR50-P8
       X-Cache:
@@ -263,7 +294,7 @@ interactions:
       - Apache/2.4.57 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Tue, 05-Dec-2023 16:37:43 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sat, 09-Dec-2023 16:48:12 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:
