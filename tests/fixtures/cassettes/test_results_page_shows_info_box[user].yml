@@ -148,13 +148,13 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.people.getPublicPhotos&page=1&per_page=100&user_id=47265398%40N04
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.people.getPublicPhotos&page=1&per_page=100&user_id=47265398%40N04
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"4\" perpage=\"100\" total=\"365\">\n\t<photo id=\"53257787385\"
       owner=\"47265398@N04\" secret=\"ed782303af\" server=\"65535\" farm=\"66\" title=\"Magical
       morning at Orangerie Kassel\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1697296492\" datetaken=\"2023-09-28 06:55:29\"
+      dateupload=\"1697296492\" datetaken=\"2023-09-28 06:55:29\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53257787385_ed782303af_s.jpg\"
@@ -177,7 +177,7 @@ interactions:
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"53191503745\" owner=\"47265398@N04\"
       secret=\"17ab8888cf\" server=\"65535\" farm=\"66\" title=\"The Heart Nebula
       in Cassiopeia (IC 1805)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694878525\" datetaken=\"2023-09-16 17:33:41\"
+      dateupload=\"1694878525\" datetaken=\"2023-09-16 17:33:41\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53191503745_17ab8888cf_s.jpg\"
@@ -209,7 +209,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"53142273497\" owner=\"47265398@N04\"
       secret=\"5f1e1dc6b1\" server=\"65535\" farm=\"66\" title=\"Jurassic Coast\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1693065182\" datetaken=\"2023-06-13 08:07:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53142273497_5f1e1dc6b1_s.jpg\"
@@ -233,7 +233,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"53095231181\" owner=\"47265398@N04\"
       secret=\"c8289ca518\" server=\"65535\" farm=\"66\" title=\"Tajinastes\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1691249590\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1691249590\"
       datetaken=\"2023-06-08 22:03:23\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53095231181_c8289ca518_s.jpg\"
@@ -260,7 +260,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"53046789782\" owner=\"47265398@N04\"
       secret=\"681ab6ea0c\" server=\"65535\" farm=\"66\" title=\"Golden Sunset over
-      Tenerife\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Tenerife\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689429137\" datetaken=\"2023-06-07 21:46:23\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53046789782_681ab6ea0c_s.jpg\"
@@ -286,7 +286,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52998518188\" owner=\"47265398@N04\"
       secret=\"579c979859\" server=\"65535\" farm=\"66\" title=\"the monster\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1687620043\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1687620043\"
       datetaken=\"2023-06-22 16:01:17\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52998518188_579c979859_s.jpg\"
@@ -310,7 +310,7 @@ interactions:
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52912222845\" owner=\"47265398@N04\"
       secret=\"36fb00ec7b\" server=\"65535\" farm=\"66\" title=\"Elephant&#039;s Trunk
       Nebula (IC 1396)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1684597811\" datetaken=\"2023-05-01 00:00:00\"
+      dateupload=\"1684597811\" datetaken=\"2023-05-01 00:00:00\"
       datetakengranularity=\"4\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52912222845_36fb00ec7b_s.jpg\"
@@ -336,7 +336,7 @@ interactions:
       x 300s (2:45h) @ Gain 100, -10\xB0C\n20 x darks, flats, dark-flats\nBortle 4\n</description>\n\t</photo>\n\t<photo
       id=\"52872506511\" owner=\"47265398@N04\" secret=\"77535d5c15\" server=\"65535\"
       farm=\"66\" title=\"colorful spring morning\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1683301162\" datetaken=\"2023-04-22
+      isfamily=\"0\" license=\"0\" dateupload=\"1683301162\" datetaken=\"2023-04-22
       06:05:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52872506511_77535d5c15_s.jpg\"
@@ -360,7 +360,7 @@ interactions:
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52855453232\" owner=\"47265398@N04\"
       secret=\"1d46fa4b8e\" server=\"65535\" farm=\"66\" title=\"Lake Edersee dam
       overflow at sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1682783036\" datetaken=\"2023-04-19 19:54:32\"
+      dateupload=\"1682783036\" datetaken=\"2023-04-19 19:54:32\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52855453232_1d46fa4b8e_s.jpg\"
@@ -383,7 +383,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52819332309\" owner=\"47265398@N04\"
       secret=\"b327cf64ab\" server=\"65535\" farm=\"66\" title=\"Magical awakening\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681570769\" datetaken=\"2019-09-08 11:45:24\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52819332309_b327cf64ab_s.jpg\"
@@ -404,7 +404,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52769681632\" owner=\"47265398@N04\"
       secret=\"c3998c46ea\" server=\"65535\" farm=\"66\" title=\"High up on the Hill\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1679760432\" datetaken=\"2022-10-26 17:18:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52769681632_c3998c46ea_s.jpg\"
@@ -427,7 +427,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52725739570\" owner=\"47265398@N04\"
       secret=\"62b74c5655\" server=\"65535\" farm=\"66\" title=\"Golden sunrise over
-      Madeira\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Madeira\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1677944135\" datetaken=\"2019-09-07 08:47:33\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52725739570_62b74c5655_s.jpg\"
@@ -448,7 +448,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52682725050\" owner=\"47265398@N04\"
       secret=\"fcdd3c7132\" server=\"65535\" farm=\"66\" title=\"A Winter&#039;s Tale
-      From Above\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      From Above\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676132742\" datetaken=\"2020-10-16 11:17:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52682725050_fcdd3c7132_s.jpg\"
@@ -470,7 +470,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52612737491\" owner=\"47265398@N04\"
       secret=\"f70f33244e\" server=\"65535\" farm=\"66\" title=\"Winter morning at
-      the Temple\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      the Temple\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1673110043\" datetaken=\"2022-12-18 09:31:40\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52612737491_f70f33244e_s.jpg\"
@@ -493,7 +493,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52509963806\" owner=\"47265398@N04\"
       secret=\"8a799f8991\" server=\"65535\" farm=\"66\" title=\"Autumn evening at
-      Walchensee\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Walchensee\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1668871764\" datetaken=\"2022-10-16 17:46:48\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52509963806_8a799f8991_s.jpg\"
@@ -514,7 +514,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52346620542\" owner=\"47265398@N04\"
       secret=\"59413f5547\" server=\"65535\" farm=\"66\" title=\"Tree of Life\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1662824490\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1662824490\"
       datetaken=\"2022-08-14 07:06:40\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52346620542_59413f5547_s.jpg\"
@@ -536,7 +536,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52267115431\" owner=\"47265398@N04\"
       secret=\"7dc8033a5b\" server=\"65535\" farm=\"66\" title=\"swantastic sunset\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1659797263\" datetaken=\"2022-07-13 21:33:56\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52267115431_7dc8033a5b_s.jpg\"
@@ -557,7 +557,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52204680524\" owner=\"47265398@N04\"
       secret=\"f3f71fc803\" server=\"65535\" farm=\"66\" title=\"chamomile meadow\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1657379860\" datetaken=\"2022-06-28 21:44:05\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52204680524_f3f71fc803_s.jpg\"
@@ -580,7 +580,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52138902220\" owner=\"47265398@N04\"
       secret=\"6950170281\" server=\"65535\" farm=\"66\" title=\"colorful spring evening\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1654961719\" datetaken=\"2022-05-12 20:55:16\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52138902220_6950170281_s.jpg\"
@@ -602,7 +602,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52087841762\" owner=\"47265398@N04\"
       secret=\"5ac1858da6\" server=\"65535\" farm=\"66\" title=\"wild garlic paradise\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1653146721\" datetaken=\"2022-05-15 10:12:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52087841762_5ac1858da6_s.jpg\"
@@ -623,7 +623,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"52023960386\" owner=\"47265398@N04\"
       secret=\"7067918af8\" server=\"65535\" farm=\"66\" title=\"A touch of Japan\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1650722488\" datetaken=\"2022-03-26 07:49:08\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52023960386_7067918af8_s.jpg\"
@@ -644,7 +644,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51977350130\" owner=\"47265398@N04\"
       secret=\"dae9055b58\" server=\"65535\" farm=\"66\" title=\"mirrored, part II\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1648895786\" datetaken=\"2022-03-12 07:28:42\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51977350130_dae9055b58_s.jpg\"
@@ -667,7 +667,7 @@ interactions:
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51931921899\" owner=\"47265398@N04\"
       secret=\"569d51a0e7\" server=\"65535\" farm=\"66\" title=\"First winter days
       in the Dolomites\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1646998407\" datetaken=\"2020-10-17 17:47:50\"
+      dateupload=\"1646998407\" datetaken=\"2020-10-17 17:47:50\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/51931921899_569d51a0e7_s.jpg\"
@@ -690,7 +690,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51905327304\" owner=\"47265398@N04\"
       secret=\"0634b4a187\" server=\"65535\" farm=\"66\" title=\"hometown winter sunrise\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1645879035\" datetaken=\"2021-02-10 09:06:49\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51905327304_0634b4a187_s.jpg\"
@@ -709,7 +709,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51889408424\" owner=\"47265398@N04\"
       secret=\"5d44513bf5\" server=\"65535\" farm=\"66\" title=\"crimson morning\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1645196376\" datetaken=\"2020-10-18 07:37:18\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51889408424_5d44513bf5_s.jpg\"
@@ -728,7 +728,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51838490355\" owner=\"47265398@N04\"
       secret=\"3b62aab281\" server=\"65535\" farm=\"66\" title=\"shrouded in clouds\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1642939068\" datetaken=\"2020-10-18 17:16:53\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51838490355_3b62aab281_s.jpg\"
@@ -750,7 +750,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51807737811\" owner=\"47265398@N04\"
       secret=\"4d7a050255\" server=\"65535\" farm=\"66\" title=\"Winter Temple\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1641658796\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1641658796\"
       datetaken=\"2021-12-22 12:26:36\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51807737811_4d7a050255_s.jpg\"
@@ -772,7 +772,7 @@ interactions:
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51752839481\" owner=\"47265398@N04\"
       secret=\"c15ae982b6\" server=\"65535\" farm=\"66\" title=\"Golden sunset on
       top of Madeira\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1639758308\" datetaken=\"2019-09-10 21:18:08\"
+      dateupload=\"1639758308\" datetaken=\"2019-09-10 21:18:08\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/51752839481_c15ae982b6_s.jpg\"
@@ -792,7 +792,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51738787962\" owner=\"47265398@N04\"
       secret=\"56c1548592\" server=\"65535\" farm=\"66\" title=\"Castle in the Clouds\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1639243167\" datetaken=\"2021-11-11 17:13:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51738787962_56c1548592_s.jpg\"
@@ -814,7 +814,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51709017404\" owner=\"47265398@N04\"
       secret=\"88473249da\" server=\"65535\" farm=\"66\" title=\"the beauty of autumn\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1638030520\" datetaken=\"2021-10-28 08:14:29\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51709017404_88473249da_s.jpg\"
@@ -835,7 +835,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51659609114\" owner=\"47265398@N04\"
       secret=\"82726b78c1\" server=\"65535\" farm=\"66\" title=\"Berchtesgaden autumn
-      sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1636212317\" datetaken=\"2019-10-13 18:37:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51659609114_82726b78c1_s.jpg\"
@@ -857,7 +857,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51621082917\" owner=\"47265398@N04\"
       secret=\"d72831512d\" server=\"65535\" farm=\"66\" title=\"The Church of St
-      Primoz\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Primoz\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1635000707\" datetaken=\"2019-10-16 10:20:05\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51621082917_d72831512d_s.jpg\"
@@ -881,7 +881,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51596228709\" owner=\"47265398@N04\"
       secret=\"51978214b3\" server=\"65535\" farm=\"66\" title=\"Hintersee on Fire\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1634397455\" datetaken=\"2019-10-14 18:22:28\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51596228709_51978214b3_s.jpg\"
@@ -913,7 +913,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51490361710\" owner=\"47265398@N04\"
       secret=\"3edfe3b6a1\" server=\"65535\" farm=\"66\" title=\"Sveti Toma\u017E\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1631979402\" datetaken=\"2019-10-17 08:04:08\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51490361710_3edfe3b6a1_s.jpg\"
@@ -934,7 +934,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51447367934\" owner=\"47265398@N04\"
       secret=\"51b1c21e81\" server=\"65535\" farm=\"66\" title=\"skyfire\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1631374436\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1631374436\"
       datetaken=\"2021-07-06 21:36:14\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51447367934_51b1c21e81_s.jpg\"
@@ -960,7 +960,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51408051931\" owner=\"47265398@N04\"
       secret=\"224c67bbc2\" server=\"65535\" farm=\"66\" title=\"Sunrise at Lake Bled\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1630164473\" datetaken=\"2019-10-21 06:59:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51408051931_224c67bbc2_s.jpg\"
@@ -983,7 +983,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51392772573\" owner=\"47265398@N04\"
       secret=\"fd541c7727\" server=\"65535\" farm=\"66\" title=\"beautiful summer
-      evening\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      evening\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1629559390\" datetaken=\"2020-07-03 21:15:00\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51392772573_fd541c7727_s.jpg\"
@@ -1003,7 +1003,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51388812718\" owner=\"47265398@N04\"
       secret=\"cb24701dcc\" server=\"65535\" farm=\"66\" title=\"Crimson Thunder\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1629389919\" datetaken=\"2019-06-19 22:27:48\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51388812718_cb24701dcc_s.jpg\"
@@ -1023,7 +1023,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51362239362\" owner=\"47265398@N04\"
       secret=\"8099213326\" server=\"65535\" farm=\"66\" title=\"Godzilla\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1628353523\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1628353523\"
       datetaken=\"2020-10-18 18:01:16\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51362239362_8099213326_s.jpg\"
@@ -1046,7 +1046,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51241332362\" owner=\"47265398@N04\"
       secret=\"c83abb5283\" server=\"65535\" farm=\"66\" title=\"walking in the golden
-      field\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      field\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1623508185\" datetaken=\"2021-06-02 21:39:16\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51241332362_c83abb5283_s.jpg\"
@@ -1067,7 +1067,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51211510105\" owner=\"47265398@N04\"
       secret=\"074032e42a\" server=\"65535\" farm=\"66\" title=\"lonely tree in the
-      lake\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      lake\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1622294904\" datetaken=\"2021-05-08 06:19:48\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51211510105_074032e42a_s.jpg\"
@@ -1089,7 +1089,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51136488225\" owner=\"47265398@N04\"
       secret=\"365e02b5cf\" server=\"65535\" farm=\"66\" title=\"Last light over Madeira\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1619278299\" datetaken=\"2019-09-12 21:43:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51136488225_365e02b5cf_s.jpg\"
@@ -1112,7 +1112,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51076332786\" owner=\"47265398@N04\"
       secret=\"0b1f97d892\" server=\"65535\" farm=\"66\" title=\"yin and yang\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1616862909\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1616862909\"
       datetaken=\"2021-02-14 10:16:07\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51076332786_0b1f97d892_s.jpg\"
@@ -1134,7 +1134,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"51032050083\" owner=\"47265398@N04\"
       secret=\"e0429275a5\" server=\"65535\" farm=\"66\" title=\"Passo delle Erbe
-      winter sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      winter sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1615654042\" datetaken=\"2020-10-20 17:53:39\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/51032050083_e0429275a5_s.jpg\"
@@ -1157,7 +1157,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50962164208\" owner=\"47265398@N04\"
       secret=\"4dd2124d83\" server=\"65535\" farm=\"66\" title=\"Frozen Ghosts\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1613839173\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1613839173\"
       datetaken=\"2021-02-13 10:49:33\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50962164208_4dd2124d83_s.jpg\"
@@ -1182,7 +1182,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50894552151\" owner=\"47265398@N04\"
       secret=\"9c1570e296\" server=\"65535\" farm=\"66\" title=\"Autumn meets Winter\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1612106568\" datetaken=\"2020-10-18 09:44:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50894552151_9c1570e296_s.jpg\"
@@ -1204,7 +1204,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50859893371\" owner=\"47265398@N04\"
       secret=\"566d07750a\" server=\"65535\" farm=\"66\" title=\"between the seasons\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1611245110\" datetaken=\"2020-10-19 17:36:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50859893371_566d07750a_s.jpg\"
@@ -1225,7 +1225,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50838512931\" owner=\"47265398@N04\"
       secret=\"5b2023b10c\" server=\"65535\" farm=\"66\" title=\"cold but gold\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1610728106\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1610728106\"
       datetaken=\"2020-10-18 18:02:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50838512931_5b2023b10c_s.jpg\"
@@ -1247,7 +1247,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50817565161\" owner=\"47265398@N04\"
       secret=\"c2d1c9acf4\" server=\"65535\" farm=\"66\" title=\"Golden October in
-      Slovenia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Slovenia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1610206631\" datetaken=\"2019-10-18 07:35:32\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50817565161_c2d1c9acf4_s.jpg\"
@@ -1269,7 +1269,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -\n</description>\n\t</photo>\n\t<photo id=\"50814042126\" owner=\"47265398@N04\"
       secret=\"8b85f741a8\" server=\"65535\" farm=\"66\" title=\"old giants\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1610119695\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1610119695\"
       datetaken=\"2021-01-08 16:24:58\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50814042126_8b85f741a8_s.jpg\"
@@ -1292,7 +1292,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -\n</description>\n\t</photo>\n\t<photo id=\"50799443558\" owner=\"47265398@N04\"
       secret=\"0e010a98b6\" server=\"65535\" farm=\"66\" title=\"Sunset in Fanal Forest\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1609775523\" datetaken=\"2019-09-12 21:19:00\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50799443558_0e010a98b6_s.jpg\"
@@ -1314,7 +1314,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50791007483\" owner=\"47265398@N04\"
       secret=\"1db715f4e4\" server=\"65535\" farm=\"66\" title=\"Path into the Light\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1609605327\" datetaken=\"2019-09-10 21:42:57\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50791007483_1db715f4e4_s.jpg\"
@@ -1339,7 +1339,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50771218162\" owner=\"47265398@N04\"
       secret=\"47e3d2330c\" server=\"65535\" farm=\"66\" title=\"Crimson Dawn\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1609167248\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1609167248\"
       datetaken=\"2020-10-14 18:29:54\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50771218162_47e3d2330c_s.jpg\"
@@ -1362,7 +1362,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50740403641\" owner=\"47265398@N04\"
       secret=\"2f4ffed993\" server=\"65535\" farm=\"66\" title=\"Sunset in Paradise\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1608480890\" datetaken=\"2020-12-20 17:12:24\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50740403641_2f4ffed993_s.jpg\"
@@ -1386,7 +1386,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50733035358\" owner=\"47265398@N04\"
       secret=\"c8774be369\" server=\"65535\" farm=\"66\" title=\"Dolomite Dawn\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1608315107\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1608315107\"
       datetaken=\"2020-12-18 19:09:14\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander Lauterbach\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50733035358_c8774be369_s.jpg\"
@@ -1405,7 +1405,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"50722942718\" owner=\"47265398@N04\"
       secret=\"d183d22e94\" server=\"65535\" farm=\"66\" title=\"Thundery Dolomites\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1608056275\" datetaken=\"2020-12-15 19:16:00\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50722942718_d183d22e94_s.jpg\"
@@ -1428,7 +1428,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - -</description>\n\t</photo>\n\t<photo id=\"49404692552\" owner=\"47265398@N04\"
       secret=\"25cc1bc17e\" server=\"65535\" farm=\"66\" title=\"Island in the Clouds\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1579368184\" datetaken=\"2019-09-06 09:14:12\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49404692552_25cc1bc17e_s.jpg\"
@@ -1448,7 +1448,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49328393186\" owner=\"47265398@N04\" secret=\"f4f91f4600\" server=\"65535\"
       farm=\"66\" title=\"Sunrise at Lago di Carezza\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1578157569\" datetaken=\"2018-09-12
+      isfamily=\"0\" license=\"0\" dateupload=\"1578157569\" datetaken=\"2018-09-12
       07:39:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49328393186_f4f91f4600_s.jpg\"
@@ -1470,7 +1470,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49183288716\" owner=\"47265398@N04\" secret=\"ed3119bb31\" server=\"65535\"
       farm=\"66\" title=\"The perfect Moo-ment\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1575737435\" datetaken=\"2019-09-08
+      license=\"0\" dateupload=\"1575737435\" datetaken=\"2019-09-08
       11:22:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49183288716_ed3119bb31_s.jpg\"
@@ -1490,7 +1490,7 @@ interactions:
       a few seconds and the sun shone through. An absolutely wonderful and rare magical
       moo-ment :D</description>\n\t</photo>\n\t<photo id=\"49147152876\" owner=\"47265398@N04\"
       secret=\"02dd378a92\" server=\"65535\" farm=\"66\" title=\"Sunrise at Passo
-      di Giau\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      di Giau\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1575131639\" datetaken=\"2018-09-14 06:06:35\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49147152876_02dd378a92_s.jpg\"
@@ -1512,7 +1512,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49111238951\" owner=\"47265398@N04\" secret=\"6c1046e375\" server=\"65535\"
       farm=\"66\" title=\"Forge of Light\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1574531332\" datetaken=\"2018-09-17
+      license=\"0\" dateupload=\"1574531332\" datetaken=\"2018-09-17
       06:42:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49111238951_6c1046e375_s.jpg\"
@@ -1533,7 +1533,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49074722111\" owner=\"47265398@N04\" secret=\"5490623a27\" server=\"65535\"
       farm=\"66\" title=\"Tre Cime di Lavaredo\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1573927138\" datetaken=\"2018-09-17
+      license=\"0\" dateupload=\"1573927138\" datetaken=\"2018-09-17
       18:29:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49074722111_5490623a27_s.jpg\"
@@ -1555,7 +1555,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49038862742\" owner=\"47265398@N04\" secret=\"1b08c0efdb\" server=\"65535\"
       farm=\"66\" title=\"Cadini di Misurina Sunrise\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1573318618\" datetaken=\"2018-09-17
+      isfamily=\"0\" license=\"0\" dateupload=\"1573318618\" datetaken=\"2018-09-17
       06:13:15\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49038862742_1b08c0efdb_s.jpg\"
@@ -1574,7 +1574,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49007307281\" owner=\"47265398@N04\" secret=\"8b10bf3758\" server=\"65535\"
       farm=\"66\" title=\"Seceda\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1572798924\" datetaken=\"2018-09-10 13:29:35\"
+      dateupload=\"1572798924\" datetaken=\"2018-09-10 13:29:35\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49007307281_8b10bf3758_s.jpg\"
@@ -1593,7 +1593,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"49001072558\" owner=\"47265398@N04\" secret=\"61168fe5fc\" server=\"65535\"
       farm=\"66\" title=\"Lago di Limides\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1572712796\" datetaken=\"2018-09-15
+      license=\"0\" dateupload=\"1572712796\" datetaken=\"2018-09-15
       18:09:32\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/49001072558_61168fe5fc_s.jpg\"
@@ -1614,7 +1614,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"48847933222\" owner=\"47265398@N04\" secret=\"ce8b4b82c3\" server=\"65535\"
       farm=\"66\" title=\"Tre Cime di Lavaredo\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1570292141\" datetaken=\"2018-09-17
+      license=\"0\" dateupload=\"1570292141\" datetaken=\"2018-09-17
       17:26:53\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/48847933222_ce8b4b82c3_s.jpg\"
@@ -1638,7 +1638,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"48808528803\" owner=\"47265398@N04\" secret=\"dee07469d6\" server=\"65535\"
       farm=\"66\" title=\"St. Valentin Chapel\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1569684693\" datetaken=\"2018-09-09
+      license=\"0\" dateupload=\"1569684693\" datetaken=\"2018-09-09
       19:01:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/48808528803_dee07469d6_s.jpg\"
@@ -1659,7 +1659,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"48769897476\" owner=\"47265398@N04\" secret=\"1173df869e\" server=\"65535\"
       farm=\"66\" title=\"Sunset at Neuschwanstein Castle\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1569080059\" datetaken=\"2018-09-08
+      isfamily=\"0\" license=\"0\" dateupload=\"1569080059\" datetaken=\"2018-09-08
       18:36:20\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/48769897476_1173df869e_s.jpg\"
@@ -1679,7 +1679,7 @@ interactions:
       \u2606\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"40632493923\" owner=\"47265398@N04\" secret=\"4e81c8fe37\" server=\"7884\"
       farm=\"8\" title=\"Sunrise at Lago di Carezza\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1555158817\" datetaken=\"2018-09-12
+      isfamily=\"0\" license=\"0\" dateupload=\"1555158817\" datetaken=\"2018-09-12
       05:34:55\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/7884/40632493923_4e81c8fe37_s.jpg\" height_sq=\"75\"
@@ -1695,7 +1695,7 @@ interactions:
       shining in purple tones right before sunrise and illuminated the Latemar mountain
       in an gorgeous red/purple tone.</description>\n\t</photo>\n\t<photo id=\"32316147277\"
       owner=\"47265398@N04\" secret=\"1b1189b07a\" server=\"7837\" farm=\"8\" title=\"Alpe
-      di Siusi\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      di Siusi\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1551544654\" datetaken=\"2018-09-11 07:38:38\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7837/32316147277_1b1189b07a_s.jpg\"
@@ -1715,7 +1715,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"46463968484\" owner=\"47265398@N04\" secret=\"4e953fa1f4\" server=\"7902\"
       farm=\"8\" title=\"Val di Funes\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1550941112\" datetaken=\"2018-09-11
+      license=\"0\" dateupload=\"1550941112\" datetaken=\"2018-09-11
       18:30:55\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/7902/46463968484_4e953fa1f4_s.jpg\" height_sq=\"75\"
@@ -1739,7 +1739,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"45874952162\" owner=\"47265398@N04\" secret=\"e12424d204\" server=\"4838\"
       farm=\"5\" title=\"Alone in the Night\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1542473099\" datetaken=\"2018-11-17
+      license=\"0\" dateupload=\"1542473099\" datetaken=\"2018-11-17
       17:41:48\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/4838/45874952162_e12424d204_s.jpg\" height_sq=\"75\"
@@ -1762,7 +1762,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"45240060192\" owner=\"47265398@N04\" secret=\"38cbc3e8ae\" server=\"1943\"
       farm=\"2\" title=\"Apocowlypse\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1539435595\" datetaken=\"2018-06-11
+      license=\"0\" dateupload=\"1539435595\" datetaken=\"2018-06-11
       20:40:14\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1943/45240060192_38cbc3e8ae_s.jpg\" height_sq=\"75\"
@@ -1782,7 +1782,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"31116055738\" owner=\"47265398@N04\" secret=\"bda0d22d12\" server=\"1945\"
       farm=\"2\" title=\"happy sunset cow :-)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1538233951\" datetaken=\"2018-06-11
+      license=\"0\" dateupload=\"1538233951\" datetaken=\"2018-06-11
       20:39:43\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1945/31116055738_bda0d22d12_s.jpg\" height_sq=\"75\"
@@ -1804,7 +1804,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"29952834507\" owner=\"47265398@N04\" secret=\"6ca8b7c4e9\" server=\"1955\"
       farm=\"2\" title=\"Morning at lake Eibsee\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1537805275\" datetaken=\"2018-05-10
+      license=\"0\" dateupload=\"1537805275\" datetaken=\"2018-05-10
       07:47:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1955/29952834507_6ca8b7c4e9_s.jpg\" height_sq=\"75\"
@@ -1823,7 +1823,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"44793730482\" owner=\"47265398@N04\" secret=\"219c3891ab\" server=\"1859\"
       farm=\"2\" title=\"Sunrise at lake Geroldsee\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1537627024\" datetaken=\"2018-05-13
+      isfamily=\"0\" license=\"0\" dateupload=\"1537627024\" datetaken=\"2018-05-13
       05:59:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1859/44793730482_219c3891ab_s.jpg\" height_sq=\"75\"
@@ -1844,7 +1844,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - -</description>\n\t</photo>\n\t<photo
       id=\"42451750180\" owner=\"47265398@N04\" secret=\"4e12ac89fe\" server=\"1890\"
       farm=\"2\" title=\"moody morning in the alps\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1535211668\" datetaken=\"2018-05-13
+      isfamily=\"0\" license=\"0\" dateupload=\"1535211668\" datetaken=\"2018-05-13
       05:32:17\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1890/42451750180_4e12ac89fe_s.jpg\" height_sq=\"75\"
@@ -1859,7 +1859,7 @@ interactions:
       valley. A really beautiful moment.\n</description>\n\t</photo>\n\t<photo id=\"29955917828\"
       owner=\"47265398@N04\" secret=\"f59cb39bf3\" server=\"850\" farm=\"1\" title=\"Calm
       morning at lake Kochelsee\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1533312938\" datetaken=\"2018-05-12 04:56:47\"
+      dateupload=\"1533312938\" datetaken=\"2018-05-12 04:56:47\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/850/29955917828_f59cb39bf3_s.jpg\" height_sq=\"75\"
@@ -1875,7 +1875,7 @@ interactions:
       photo. Seems that the flickr system doesn&#039;t like me anymore... maybe this
       photo will change it?</description>\n\t</photo>\n\t<photo id=\"41761211820\"
       owner=\"47265398@N04\" secret=\"cf7a776989\" server=\"1785\" farm=\"2\" title=\"Sunset
-      at Wamberg\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      at Wamberg\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1532272616\" datetaken=\"2018-05-11 19:26:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1785/41761211820_cf7a776989_s.jpg\"
@@ -1897,7 +1897,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
       </description>\n\t</photo>\n\t<photo id=\"41596966360\" owner=\"47265398@N04\"
       secret=\"99082953b4\" server=\"1765\" farm=\"2\" title=\"Sunrise at Lake Eibsee\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1531583540\" datetaken=\"2018-05-10 05:18:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1765/41596966360_99082953b4_s.jpg\"
@@ -1921,7 +1921,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;
       </description>\n\t</photo>\n\t<photo id=\"29432826788\" owner=\"47265398@N04\"
       secret=\"2f29a16159\" server=\"1789\" farm=\"2\" title=\"Summer at Lermoos\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1531155252\" datetaken=\"2018-05-09 17:32:54\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1789/29432826788_2f29a16159_s.jpg\"
@@ -1942,7 +1942,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;
       </description>\n\t</photo>\n\t<photo id=\"28409321857\" owner=\"47265398@N04\"
       secret=\"dcc61737ed\" server=\"1804\" farm=\"2\" title=\"Castle Lichtenstein\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1531064463\" datetaken=\"2018-05-09 13:19:46\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1804/28409321857_dcc61737ed_s.jpg\"
@@ -1964,7 +1964,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;
       </description>\n\t</photo>\n\t<photo id=\"27966742147\" owner=\"47265398@N04\"
       secret=\"219272142a\" server=\"1769\" farm=\"2\" title=\"Sunset at castle Weidelsburg\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1529162054\" datetaken=\"2018-05-02 19:42:37\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1769/27966742147_219272142a_s.jpg\"
@@ -1988,7 +1988,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;
       </description>\n\t</photo>\n\t<photo id=\"41975240274\" owner=\"47265398@N04\"
       secret=\"9d60d10b1b\" server=\"1754\" farm=\"2\" title=\"cherry tree alley\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1528556586\" datetaken=\"2018-04-21 05:57:29\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1754/41975240274_9d60d10b1b_s.jpg\"
@@ -2009,7 +2009,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;
       </description>\n\t</photo>\n\t<photo id=\"27645389657\" owner=\"47265398@N04\"
       secret=\"75653d2c82\" server=\"1733\" farm=\"2\" title=\"golden canola field
-      sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1527951742\" datetaken=\"2018-04-29 19:40:20\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1733/27645389657_75653d2c82_s.jpg\"
@@ -2030,7 +2030,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo
       id=\"42316663062\" owner=\"47265398@N04\" secret=\"431d093d30\" server=\"1749\"
       farm=\"2\" title=\"Sunset at castle Wilhelmsthal\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1527344530\" datetaken=\"2018-04-11
+      isfamily=\"0\" license=\"0\" dateupload=\"1527344530\" datetaken=\"2018-04-11
       18:25:28\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1749/42316663062_431d093d30_s.jpg\" height_sq=\"75\"
@@ -2052,7 +2052,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo
       id=\"27340884927\" owner=\"47265398@N04\" secret=\"da66a057e9\" server=\"965\"
       farm=\"1\" title=\"watching the sunrise\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1526743299\" datetaken=\"2018-03-30
+      license=\"0\" dateupload=\"1526743299\" datetaken=\"2018-03-30
       05:53:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/965/27340884927_da66a057e9_s.jpg\" height_sq=\"75\"
@@ -2073,7 +2073,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo
       id=\"26892426537\" owner=\"47265398@N04\" secret=\"4974d37bd4\" server=\"870\"
       farm=\"1\" title=\"look up to the sky\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1524933670\" datetaken=\"2018-04-28
+      license=\"0\" dateupload=\"1524933670\" datetaken=\"2018-04-28
       18:38:40\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/870/26892426537_4974d37bd4_s.jpg\" height_sq=\"75\"
@@ -2096,7 +2096,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo
       id=\"26245021167\" owner=\"47265398@N04\" secret=\"912dbbf790\" server=\"786\"
       farm=\"1\" title=\"purple sunset over the herkules\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1522423509\" datetaken=\"2018-02-18
+      isfamily=\"0\" license=\"0\" dateupload=\"1522423509\" datetaken=\"2018-02-18
       18:56:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/786/26245021167_912dbbf790_s.jpg\" height_sq=\"75\"
@@ -2116,7 +2116,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo
       id=\"40279816994\" owner=\"47265398@N04\" secret=\"cc2326f297\" server=\"818\"
       farm=\"1\" title=\"purple winter morning\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1521908030\" datetaken=\"2018-02-17
+      license=\"0\" dateupload=\"1521908030\" datetaken=\"2018-02-17
       08:25:07\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander
       Lauterbach Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/818/40279816994_cc2326f297_s.jpg\" height_sq=\"75\"
@@ -2139,7 +2139,7 @@ interactions:
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"40820634502\"
       owner=\"47265398@N04\" secret=\"2076f98a3d\" server=\"810\" farm=\"1\" title=\"end
       of a beautiful winter day\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1521306010\" datetaken=\"2018-02-07 18:15:36\"
+      dateupload=\"1521306010\" datetaken=\"2018-02-07 18:15:36\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/810/40820634502_2076f98a3d_s.jpg\" height_sq=\"75\"
@@ -2162,7 +2162,7 @@ interactions:
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"38919825170\"
       owner=\"47265398@N04\" secret=\"5076b08f3e\" server=\"4796\" farm=\"5\" title=\"calm
       winter evening\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1520700728\" datetaken=\"2018-02-07 17:54:59\"
+      dateupload=\"1520700728\" datetaken=\"2018-02-07 17:54:59\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/4796/38919825170_5076b08f3e_s.jpg\" height_sq=\"75\"
@@ -2187,7 +2187,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"39699889315\"
       owner=\"47265398@N04\" secret=\"5067026535\" server=\"4625\" farm=\"5\" title=\"winter
-      wonderland\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      wonderland\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1520094951\" datetaken=\"2018-02-07 18:03:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4625/39699889315_5067026535_s.jpg\"
@@ -2210,7 +2210,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"26188479028\"
       owner=\"47265398@N04\" secret=\"68ca6660b6\" server=\"4717\" farm=\"5\" title=\"into
-      darkness\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      darkness\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1517675978\" datetaken=\"2015-10-13 14:16:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4717/26188479028_68ca6660b6_s.jpg\"
@@ -2230,7 +2230,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"26054467318\"
       owner=\"47265398@N04\" secret=\"11ed126a97\" server=\"4664\" farm=\"5\" title=\"Eystrahorn\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1517063297\" datetaken=\"2015-10-16 16:45:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4664/26054467318_11ed126a97_s.jpg\"
@@ -2251,7 +2251,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"39799083521\"
       owner=\"47265398@N04\" secret=\"02420a7b0d\" server=\"4748\" farm=\"5\" title=\"Waves\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1516466446\" datetaken=\"2015-10-15 18:46:35\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4748/39799083521_02420a7b0d_s.jpg\"
@@ -2271,7 +2271,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"38959741554\"
       owner=\"47265398@N04\" secret=\"1ac2365998\" server=\"4721\" farm=\"5\" title=\"Vatnaj\xF6kull
-      Sunrise\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Sunrise\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1515861164\" datetaken=\"2015-10-16 09:51:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4721/38959741554_1ac2365998_s.jpg\"
@@ -2293,7 +2293,7 @@ interactions:
       - - - - - - - - - - -&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"39537681681\"
       owner=\"47265398@N04\" secret=\"a107e67063\" server=\"4645\" farm=\"5\" title=\"golden
       sunset at stokksnes\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1515251247\" datetaken=\"2015-10-15 19:04:29\"
+      dateupload=\"1515251247\" datetaken=\"2015-10-15 19:04:29\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Alexander Lauterbach
       Photography\" realname=\"Alexander Lauterbach\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/4645/39537681681_a107e67063_s.jpg\" height_sq=\"75\"
@@ -2314,7 +2314,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;\n</description>\n\t</photo>\n\t<photo id=\"27594019139\"
       owner=\"47265398@N04\" secret=\"69a8caeed0\" server=\"4686\" farm=\"5\" title=\"waterfall
-      of the gods\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      of the gods\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1514561606\" datetaken=\"2015-10-19 19:29:15\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4686/27594019139_69a8caeed0_s.jpg\"
@@ -2339,7 +2339,7 @@ interactions:
       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       - - - - - - - - - - -&lt;/b&gt;\n\n</description>\n\t</photo>\n\t<photo id=\"24470751027\"
       owner=\"47265398@N04\" secret=\"296075b4f6\" server=\"4689\" farm=\"5\" title=\"Sunset
-      at Stokksnes\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      at Stokksnes\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1514393971\" datetaken=\"2015-10-15 19:57:04\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Alexander Lauterbach Photography\" realname=\"Alexander
       Lauterbach\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4689/24470751027_296075b4f6_s.jpg\"

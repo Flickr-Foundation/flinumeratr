@@ -11,9 +11,7 @@
         "value": "2015-05-18T16:11:59",
         "granularity": "second",
         "unknown": false
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -85,9 +83,7 @@
       "date_posted": "2015-07-22T08:52:55+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -161,9 +157,7 @@
         "value": "2015-07-22T19:48:40",
         "granularity": "second",
         "unknown": false
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -235,9 +229,7 @@
       "date_posted": "2015-08-16T08:38:15+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -309,9 +301,7 @@
       "date_posted": "2015-08-16T12:11:21+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -383,9 +373,7 @@
       "date_posted": "2015-08-18T13:29:04+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -457,9 +445,7 @@
       "date_posted": "2015-08-27T03:54:30+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -531,9 +517,7 @@
       "date_posted": "2015-08-28T21:30:15+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -605,9 +589,7 @@
       "date_posted": "2015-08-29T09:01:55+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -679,9 +661,7 @@
       "date_posted": "2015-09-01T03:00:45+00:00",
       "date_taken": {
         "unknown": true
-      },
-      "safety_level": "safe",
-      "license": {
+      },      "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null

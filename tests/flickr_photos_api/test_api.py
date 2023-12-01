@@ -232,10 +232,6 @@ class TestGetSinglePhoto:
         photo_without_title = api.get_single_photo(photo_id="20967567081")
         assert photo_without_title["title"] is None
 
-    def test_sets_human_readable_safety_level(self, api: FlickrPhotosApi) -> None:
-        photo = api.get_single_photo(photo_id="53248070597")
-        assert photo["safety_level"] == "safe"
-
 
 class TestCollectionsPhotoResponse:
     """

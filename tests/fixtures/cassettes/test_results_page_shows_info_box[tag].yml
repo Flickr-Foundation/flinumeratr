@@ -15,12 +15,12 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=thatch
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=thatch
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"321\" perpage=\"100\" total=\"32055\">\n\t<photo id=\"52312186930\"
       owner=\"114111770@N03\" secret=\"ba282fe74a\" server=\"65535\" farm=\"66\" title=\"What
-      lies hidden?\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      lies hidden?\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1661501259\" datetaken=\"2022-05-14 17:53:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"jpotto\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52312186930_ba282fe74a_s.jpg\"
@@ -44,7 +44,7 @@ interactions:
       the garden surrounding the lodge. </description>\n\t</photo>\n\t<photo id=\"47857099162\"
       owner=\"41622708@N00\" secret=\"609bc5d85c\" server=\"65535\" farm=\"66\" title=\"Senufo
       fetish house whose roof gets a new layer every year, Savanes district, Niofoin,
-      Ivory Coast\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Ivory Coast\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1558540195\" datetaken=\"2019-05-03 11:06:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Eric Lafforgue\" realname=\"Eric Lafforgue\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/47857099162_609bc5d85c_s.jpg\"
@@ -57,7 +57,7 @@ interactions:
       href=&quot;http://www.ericlafforgue.com&quot; rel=&quot;noreferrer nofollow&quot;&gt;www.ericlafforgue.com&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"30194923077\" owner=\"96378267@N04\" secret=\"6841192ff4\" server=\"1951\"
       farm=\"2\" title=\"The Cuckoo Inn Hamptworth Wiltshire UK\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1538824909\" datetaken=\"2018-10-02
+      isfamily=\"0\" license=\"0\" dateupload=\"1538824909\" datetaken=\"2018-10-02
       14:50:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"davidseall\"
       realname=\"David Seall\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1951/30194923077_6841192ff4_t.jpg\"
@@ -68,7 +68,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"33114209750\" owner=\"147467413@N04\" secret=\"821376a6c0\" server=\"3764\"
       farm=\"4\" title=\"Gold Hill\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1489784444\" datetaken=\"2012-10-06
+      license=\"0\" dateupload=\"1489784444\" datetaken=\"2012-10-06
       15:36:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"carolephillips1\"
       realname=\"Carole Phillips\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3764/33114209750_821376a6c0_s.jpg\"
@@ -81,7 +81,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>Shaftsbury</description>\n\t</photo>\n\t<photo
       id=\"32370577170\" owner=\"39462456@N02\" secret=\"aa077700ff\" server=\"559\"
       farm=\"1\" title=\"Pamphill\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1486409210\" datetaken=\"1982-04-13 00:00:12\"
+      dateupload=\"1486409210\" datetaken=\"1982-04-13 00:00:12\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"brightondj\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/559/32370577170_aa077700ff_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/559/32370577170_aa077700ff_t.jpg\"
@@ -95,7 +95,7 @@ interactions:
       rel=&quot;nofollow&quot;&gt;www.google.co.uk/maps/@50.8000808,-2.0190477,3a,75y,43.9h...&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo
       id=\"18089007151\" owner=\"47391132@N00\" secret=\"4111330a40\" server=\"65535\"
       farm=\"66\" title=\"25-080\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1432573852\" datetaken=\"1972-01-01 00:00:00\"
+      dateupload=\"1432573852\" datetaken=\"1972-01-01 00:00:00\"
       datetakengranularity=\"6\" datetakenunknown=\"0\" ownername=\"ndpa / s. lundeen,
       archivist\" realname=\"nick dewolf photo archive\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/18089007151_4111330a40_s.jpg\"
@@ -109,7 +109,7 @@ interactions:
       requests are welcome via flickrmail or nickdewolfphotoarchive [at] gmail [dot]
       com&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"16442381274\" owner=\"66339121@N00\"
       secret=\"b7f88c4df5\" server=\"7623\" farm=\"8\" title=\"Howhill\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1428399623\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1428399623\"
       datetaken=\"2015-04-04 16:56:21\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Al Glenton - Norfolk images\" realname=\"Al Glenton\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7623/16442381274_b7f88c4df5_s.jpg\"
@@ -124,7 +124,7 @@ interactions:
       All rights reserved &lt;a href=&quot;http://www.norfolkimages.uk&quot; rel=&quot;nofollow&quot;&gt;www.norfolkimages.uk&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"16485504939\" owner=\"114111770@N03\" secret=\"ebda69ee2b\" server=\"8624\"
       farm=\"9\" title=\"Stembridge windmill\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1425132410\" datetaken=\"2015-02-28
+      license=\"0\" dateupload=\"1425132410\" datetaken=\"2015-02-28
       13:51:21\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"jpotto\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/8624/16485504939_ebda69ee2b_s.jpg\" height_sq=\"75\"
@@ -138,7 +138,7 @@ interactions:
       thatched windmill, Feb 2015</description>\n\t</photo>\n\t<photo id=\"16289110077\"
       owner=\"10211834@N07\" secret=\"68da316d88\" server=\"7419\" farm=\"8\" title=\"The
       Windmill - Willowstone Modular Project\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1423421232\" datetaken=\"2015-02-08
+      license=\"0\" dateupload=\"1423421232\" datetaken=\"2015-02-08
       12:55:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"jgg3210\"
       realname=\"Jeremy Green\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7419/16289110077_68da316d88_s.jpg\"
@@ -174,7 +174,7 @@ interactions:
       :D\n\nComments and advice are always welcome!\n</description>\n\t</photo>\n\t<photo
       id=\"16179483538\" owner=\"53354512@N00\" secret=\"d8f74f20df\" server=\"7408\"
       farm=\"8\" title=\"Hangman&#039;s Cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"1\" safety_level=\"0\" dateupload=\"1422223754\" datetaken=\"2008-06-08
+      license=\"1\" dateupload=\"1422223754\" datetaken=\"2008-06-08
       13:21:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"tudedude\"
       realname=\"Tudor Barker\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7408/16179483538_d8f74f20df_s.jpg\"
@@ -187,7 +187,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Dorchester Dorset</description>\n\t</photo>\n\t<photo
       id=\"15923822236\" owner=\"22293873@N08\" secret=\"f21426818d\" server=\"7561\"
       farm=\"8\" title=\"Thatched ridge detail\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1417750938\" datetaken=\"2014-12-01
+      license=\"0\" dateupload=\"1417750938\" datetaken=\"2014-12-01
       12:41:34\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"fstop186\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7561/15923822236_f21426818d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7561/15923822236_f21426818d_t.jpg\"
@@ -201,7 +201,7 @@ interactions:
       bricks, cedar boarding, thatch and classic oak timber frame.</description>\n\t</photo>\n\t<photo
       id=\"14847837270\" owner=\"8176740@N05\" secret=\"227e46b682\" server=\"3873\"
       farm=\"4\" title=\"Thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"4\"
-      safety_level=\"0\" dateupload=\"1408991372\" datetaken=\"2014-07-14 18:03:13\"
+      dateupload=\"1408991372\" datetaken=\"2014-07-14 18:03:13\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"garryknight\"
       realname=\"Garry Knight\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3873/14847837270_227e46b682_s.jpg\"
@@ -214,7 +214,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>One of the thatched cottages
       in Shanklin old village.</description>\n\t</photo>\n\t<photo id=\"14500898908\"
       owner=\"32907326@N00\" secret=\"0b329590ee\" server=\"3874\" farm=\"4\" title=\"IMG_2287_fix\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1405732030\" datetaken=\"2014-07-15 14:21:41\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"goatling\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3874/14500898908_0b329590ee_s.jpg\"
@@ -227,7 +227,7 @@ interactions:
       height_l=\"1024\" width_l=\"857\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"14524137413\" owner=\"40799650@N00\" secret=\"9597a5e96a\" server=\"2903\"
       farm=\"3\" title=\"Big Bad Wolf and the Little Pig\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1403691605\" datetaken=\"2010-08-30
+      isfamily=\"0\" license=\"0\" dateupload=\"1403691605\" datetaken=\"2010-08-30
       22:39:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"JanBran\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2903/14524137413_9597a5e96a_t.jpg\"
@@ -238,7 +238,7 @@ interactions:
       height_l=\"647\" width_l=\"1024\">\n\t\t<description>Thatched roof with Big
       Bad Wolf and the Little Pig</description>\n\t</photo>\n\t<photo id=\"14277870590\"
       owner=\"41568633@N05\" secret=\"d7db1ef67b\" server=\"5596\" farm=\"6\" title=\"Warwickshire
-      Thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1403253485\" datetaken=\"2014-06-01 16:03:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Smartin69\" realname=\"Sue Martin\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5596/14277870590_d7db1ef67b_s.jpg\"
@@ -251,7 +251,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Pretty thatched cottage
       in Warwickshire</description>\n\t</photo>\n\t<photo id=\"13348551345\" owner=\"74849357@N00\"
       secret=\"71443fe9ff\" server=\"7435\" farm=\"8\" title=\"Thatches\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"1\" safety_level=\"0\" dateupload=\"1395567038\"
+      isfriend=\"0\" isfamily=\"0\" license=\"1\" dateupload=\"1395567038\"
       datetaken=\"2014-03-17 10:19:38\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"touring_fishman\" realname=\"David Sugden\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7435/13348551345_71443fe9ff_s.jpg\"
@@ -264,7 +264,7 @@ interactions:
       height_l=\"734\" width_l=\"1024\">\n\t\t<description>Details can be found in
       TAGS</description>\n\t</photo>\n\t<photo id=\"9638188795\" owner=\"100245614@N07\"
       secret=\"b12066278b\" server=\"2877\" farm=\"3\" title=\"Durdle Door\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1377991217\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1377991217\"
       datetaken=\"2013-08-31 09:32:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Cissa Rego\" realname=\"Cissa Rego\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/2877/9638188795_b12066278b_s.jpg\" height_sq=\"75\"
@@ -276,7 +276,7 @@ interactions:
       height_l=\"681\" width_l=\"1024\">\n\t\t<description>West Lulworth, Dorset,
       UK</description>\n\t</photo>\n\t<photo id=\"8400953105\" owner=\"11468468@N00\"
       secret=\"e6b0a6ce7c\" server=\"8056\" farm=\"9\" title=\"When icicles hang by
-      the wall\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"2\" safety_level=\"0\"
+      the wall\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"2\"
       dateupload=\"1358768865\" datetaken=\"2013-01-21 12:32:16\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"zoer\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8056/8400953105_e6b0a6ce7c_s.jpg\"
@@ -290,7 +290,7 @@ interactions:
       thatch                               </description>\n\t</photo>\n\t<photo id=\"8378019995\"
       owner=\"53720700@N04\" secret=\"e7052aae1a\" server=\"8212\" farm=\"9\" title=\"End
       of the Harvesting Day Blue Truck Shan State Burma Myanmar\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1358129048\" datetaken=\"2012-11-06
+      isfamily=\"0\" license=\"0\" dateupload=\"1358129048\" datetaken=\"2012-11-06
       15:30:38\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
       Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8212/8378019995_e7052aae1a_s.jpg\"
@@ -303,7 +303,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"8169360589\" owner=\"89631716@N07\" secret=\"2214e6650f\" server=\"7106\"
       farm=\"8\" title=\"Irish Cottages.- County Tyrone in Northern Ireland.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1678001401\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1678001401\"
       datetaken=\"2012-11-09 05:59:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"mrvisk\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7106/8169360589_2214e6650f_s.jpg\"
@@ -315,7 +315,7 @@ interactions:
       height_q=\"150\" width_q=\"150\">\n\t\t<description>- family home in Omagh Area
       in Ulster - 3 -</description>\n\t</photo>\n\t<photo id=\"8164130912\" owner=\"12195117@N07\"
       secret=\"417b51b2d1\" server=\"7272\" farm=\"8\" title=\"Ty Unnos\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1352301186\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1352301186\"
       datetaken=\"2012-10-30 09:32:58\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Ruth, London\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7272/8164130912_417b51b2d1_t.jpg\"
@@ -326,7 +326,7 @@ interactions:
       height_l=\"1024\" width_l=\"683\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"6908329880\" owner=\"39450859@N07\" secret=\"e907189258\" server=\"5462\"
       farm=\"6\" title=\"Thomas Hardy&#039;s Birthplace, Higher Bockhampton, Dorset\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1333826154\" datetaken=\"2007-06-07 05:44:39\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"teresue\" realname=\"Tere Sue Gidlof\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5462/6908329880_e907189258_s.jpg\"
@@ -339,7 +339,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"6768464479\" owner=\"29382029@N03\" secret=\"7bb2d23bdd\" server=\"7167\"
       farm=\"8\" title=\"Ailigandi 183\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"2\" safety_level=\"0\" dateupload=\"1327627193\" datetaken=\"2011-07-07
+      license=\"2\" dateupload=\"1327627193\" datetaken=\"2011-07-07
       13:08:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"- Adam
       Reeder -\" realname=\"- Adam Reeder -\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7167/6768464479_7bb2d23bdd_s.jpg\"
@@ -352,7 +352,7 @@ interactions:
       height_l=\"680\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"6692021117\" owner=\"29382029@N03\" secret=\"51968f3fc6\" server=\"7152\"
       farm=\"8\" title=\"Isla Taboga 39\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"2\" safety_level=\"0\" dateupload=\"1326495859\" datetaken=\"2011-07-03
+      license=\"2\" dateupload=\"1326495859\" datetaken=\"2011-07-03
       09:26:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"- Adam
       Reeder -\" realname=\"- Adam Reeder -\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7152/6692021117_51968f3fc6_s.jpg\"
@@ -365,7 +365,7 @@ interactions:
       height_l=\"680\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"6596813261\" owner=\"26584939@N06\" secret=\"40874e5b4e\" server=\"7149\"
       farm=\"8\" title=\"Violet sunset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1325199612\" datetaken=\"2011-01-15
+      license=\"0\" dateupload=\"1325199612\" datetaken=\"2011-01-15
       16:56:46\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Serghei
       Zadorojnai\" realname=\"Serghei Zadorojnai\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/7149/6596813261_40874e5b4e_s.jpg\" height_sq=\"75\"
@@ -377,7 +377,7 @@ interactions:
       height_l=\"1024\" width_l=\"770\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5993134951\" owner=\"40777644@N03\" secret=\"214774291e\" server=\"6027\"
       farm=\"7\" title=\"Chocolate Box pretty\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1312110832\" datetaken=\"2011-07-30
+      license=\"0\" dateupload=\"1312110832\" datetaken=\"2011-07-30
       16:46:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"The
       Sal2009\" realname=\"Sally\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/6027/5993134951_214774291e_s.jpg\"
@@ -390,7 +390,7 @@ interactions:
       height_l=\"741\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5939622621\" owner=\"50282301@N07\" secret=\"fbd3947472\" server=\"6007\"
       farm=\"7\" title=\"Cosmeston Medieval Village 31\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"2\" safety_level=\"0\" dateupload=\"1310738121\" datetaken=\"2011-07-14
+      isfamily=\"0\" license=\"2\" dateupload=\"1310738121\" datetaken=\"2011-07-14
       12:21:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Janice
       Staines\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/6007/5939622621_fbd3947472_s.jpg\"
@@ -403,7 +403,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5865573902\" owner=\"53720700@N04\" secret=\"9b9e708b00\" server=\"5063\"
       farm=\"6\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1308886123\" datetaken=\"2010-11-22
+      license=\"0\" dateupload=\"1308886123\" datetaken=\"2010-11-22
       14:41:32\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
       Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5063/5865573902_9b9e708b00_s.jpg\"
@@ -416,7 +416,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Tethered cattle on the
       roadside. Omo Valley. Ethiopia</description>\n\t</photo>\n\t<photo id=\"5865021185\"
       owner=\"53720700@N04\" secret=\"ac1cef3576\" server=\"2717\" farm=\"3\" title=\"Ethiopia
-      Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1308886076\" datetaken=\"2010-11-22 13:57:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"In Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2717/5865021185_ac1cef3576_s.jpg\"
@@ -429,7 +429,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5865013549\" owner=\"53720700@N04\" secret=\"926a5100d2\" server=\"3294\"
       farm=\"4\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1308885877\" datetaken=\"2010-11-22
+      license=\"0\" dateupload=\"1308885877\" datetaken=\"2010-11-22
       13:48:29\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
       Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3294/5865013549_926a5100d2_s.jpg\"
@@ -442,7 +442,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5865008585\" owner=\"53720700@N04\" secret=\"9bc0e04f21\" server=\"3075\"
       farm=\"4\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1308885746\" datetaken=\"2010-11-22
+      license=\"0\" dateupload=\"1308885746\" datetaken=\"2010-11-22
       13:43:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
       Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3075/5865008585_9bc0e04f21_s.jpg\"
@@ -455,7 +455,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5865003587\" owner=\"53720700@N04\" secret=\"d72f4fff18\" server=\"2741\"
       farm=\"3\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1308885616\" datetaken=\"2010-11-22
+      license=\"0\" dateupload=\"1308885616\" datetaken=\"2010-11-22
       13:39:19\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
       Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2741/5865003587_d72f4fff18_s.jpg\"
@@ -468,7 +468,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5865001887\" owner=\"53720700@N04\" secret=\"b0df63be3e\" server=\"3115\"
       farm=\"4\" title=\"Ethiopia Dorze Tribe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1308885569\" datetaken=\"2010-11-22
+      license=\"0\" dateupload=\"1308885569\" datetaken=\"2010-11-22
       13:35:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"In
       Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3115/5865001887_b0df63be3e_s.jpg\"
@@ -481,7 +481,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5865540998\" owner=\"53720700@N04\" secret=\"c22129876b\" server=\"5061\"
       farm=\"6\" title=\"Ethiopia Dorze Tribe Omo Valley Ethiopia\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1308885272\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1308885272\"
       datetaken=\"2010-11-22 13:11:47\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"In Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5061/5865540998_c22129876b_s.jpg\"
@@ -497,7 +497,7 @@ interactions:
       materials.  The village is located in the highlands above the small town of
       Arba Minch. Ethiopia.</description>\n\t</photo>\n\t<photo id=\"5801598061\"
       owner=\"88664052@N00\" secret=\"b760d5af26\" server=\"5149\" farm=\"6\" title=\"Cherry
-      blossom view\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\" safety_level=\"0\"
+      blossom view\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\"
       dateupload=\"1307314323\" datetaken=\"2010-05-10 10:16:23\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Molly Des Jardin\" realname=\"Molly Des Jardin\"
       media=\"photo\" media_status=\"ready\"
@@ -512,7 +512,7 @@ interactions:
       trees, and the mountains at Takedera.</description>\n\t</photo>\n\t<photo id=\"5730786779\"
       owner=\"22119527@N05\" secret=\"87d4bc7ea5\" server=\"2262\" farm=\"3\" title=\"Stunning
       thatched house on seafront\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\"
-      safety_level=\"0\" dateupload=\"1305660652\" datetaken=\"2011-05-12 05:51:24\"
+      dateupload=\"1305660652\" datetaken=\"2011-05-12 05:51:24\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"amcgore\" realname=\"Alan
       Gore\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2262/5730786779_87d4bc7ea5_s.jpg\"
@@ -525,7 +525,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5664078868\" owner=\"53720700@N04\" secret=\"1e5d7db95f\" server=\"5270\"
       farm=\"6\" title=\"Thatched Dwellings Highland Village Simien Mountains National
-      Park Ethiopia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Park Ethiopia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1303983186\" datetaken=\"2010-11-10 11:37:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"In Memoriam Ngaire Hart\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5270/5664078868_1e5d7db95f_s.jpg\"
@@ -541,7 +541,7 @@ interactions:
       Simien Mountains National Park, Ethiopia.</description>\n\t</photo>\n\t<photo
       id=\"5096371844\" owner=\"54543756@N06\" secret=\"981b386dec\" server=\"4108\"
       farm=\"5\" title=\"Church Street\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1287478905\" datetaken=\"2009-02-05
+      license=\"0\" dateupload=\"1287478905\" datetaken=\"2009-02-05
       11:32:39\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"autumngold2\"
       realname=\"Mark.  Now over 500,000 Flickr visitors\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4108/5096371844_981b386dec_s.jpg\"
@@ -554,7 +554,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"4753800123\" owner=\"45475783@N07\" secret=\"bfd0c42311\" server=\"4120\"
       farm=\"5\" title=\"Thatcher at Work, Askett, Buckinghamshire\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"1\" safety_level=\"0\" dateupload=\"1278054652\"
+      isfriend=\"0\" isfamily=\"0\" license=\"1\" dateupload=\"1278054652\"
       datetaken=\"2010-07-02 08:10:52\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       ownername=\"Snapshooter46\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4120/4753800123_bfd0c42311_s.jpg\"
@@ -566,7 +566,7 @@ interactions:
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"4674432792\" owner=\"27428149@N02\" secret=\"14726ec366\" server=\"4011\"
       farm=\"5\" title=\"Thatched cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1275818056\" datetaken=\"2010-05-20
+      license=\"0\" dateupload=\"1275818056\" datetaken=\"2010-05-20
       12:53:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"kaeryn\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/4011/4674432792_14726ec366_s.jpg\" height_sq=\"75\"
@@ -579,7 +579,7 @@ interactions:
       height_l=\"685\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"4463692307\" owner=\"88664052@N00\" secret=\"8f89bc3b41\" server=\"4042\"
       farm=\"5\" title=\"\u4FE1\u6FC3\u79CB\u5C71\u306E\u6C11\u5BB6 - Shinano Akiyama
-      house\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"2\" safety_level=\"0\"
+      house\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"2\"
       dateupload=\"1269589874\" datetaken=\"2008-06-17 11:43:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Molly Des Jardin\" realname=\"Molly Des Jardin\"
       media=\"photo\" media_status=\"ready\"
@@ -599,7 +599,7 @@ interactions:
       - thatched walls)\u3000\u306E\u6C11\u5BB6\u3002\u8305\u58C1\u306F\u3001\u590F\u306F\u8584\u304F\u3001\u51AC\u306F\u539A\u304F\u847A\u304F\u3002\u65E5\u672C\u6D77\u5074\u306E\u8C6A\u96EA\u5730\u5E2F\u306E\u6C11\u5BB6\u7279\u6709\u306E\u4E2D\u9580\u9020\u308A\u306E\u5F62\u6210\u3067\u3001\u5185\u90E8\u306F\u5E8A\u677F\u3092\u5F35\u3089\u305A\u306B\u571F\u9593\u3092\u8305\u3001\u7B75\u3092\u6577\u304D\u8A70\u3081\u305F\u571F\u5EA7\u4F4F\u307E\u3044\u3067\u3001\u53E4\u5F0F\u3092\u4F1D\u3048\u308B\u5800\u7ACB\u67F1\u3082\uFF12\u672C\u4F7F\u308F\u308C\u3066\u3044\u308B\u3002\u63A8\u5B9A\u5EFA\u7BC9\u5E74\u4EE3\u306F\u6C5F\u6238\u4E2D\u671F\uFF08\uFF11\uFF18\u4E16\u7D00\u4E2D\u9803\uFF09\u3002</description>\n\t</photo>\n\t<photo
       id=\"4285229980\" owner=\"36812550@N00\" secret=\"b3e1da3ecc\" server=\"2684\"
       farm=\"3\" title=\"Ivy Cottage in the snow\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1263827980\" datetaken=\"2010-01-13
+      license=\"0\" dateupload=\"1263827980\" datetaken=\"2010-01-13
       10:49:29\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"whitmarsh\"
       realname=\"James Whitmarsh\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2684/4285229980_b3e1da3ecc_t.jpg\"
@@ -610,7 +610,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>brrr</description>\n\t</photo>\n\t<photo
       id=\"2932326016\" owner=\"31974909@N00\" secret=\"87e5d57b06\" server=\"3189\"
       farm=\"4\" title=\"The home of THAT cockerel !\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1223749643\" datetaken=\"2008-09-08
+      isfamily=\"0\" license=\"0\" dateupload=\"1223749643\" datetaken=\"2008-09-08
       14:25:28\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"egefan
       - Suzan Almond\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3189/2932326016_87e5d57b06_t.jpg\"
@@ -627,7 +627,7 @@ interactions:
       view - &lt;a href=&quot;http://www.bbc.co.uk/suffolk/360/views/anglo_saxon_village.shtml&quot;&gt;www.bbc.co.uk/suffolk/360/views/anglo_saxon_village.shtml&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo
       id=\"2518410245\" owner=\"88869625@N00\" secret=\"3100dec096\" server=\"65535\"
       farm=\"66\" title=\"In Conference\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1211653218\" datetaken=\"2008-04-07
+      license=\"0\" dateupload=\"1211653218\" datetaken=\"2008-04-07
       10:49:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Peter
       Juerges\" realname=\"Peter Juerges\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/2518410245_3100dec096_s.jpg\" height_sq=\"75\"
@@ -639,7 +639,7 @@ interactions:
       height_l=\"874\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"2354370266\" owner=\"8795519@N08\" secret=\"16f1a18ec7\" server=\"3145\"
       farm=\"4\" title=\"Thatched cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1206266714\" datetaken=\"2008-03-23
+      license=\"0\" dateupload=\"1206266714\" datetaken=\"2008-03-23
       09:52:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Maycot2\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/3145/2354370266_16f1a18ec7_s.jpg\" height_sq=\"75\"
@@ -652,7 +652,7 @@ interactions:
       height_l=\"685\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53318608536\" owner=\"160644704@N05\" secret=\"d8cf4e3c40\" server=\"65535\"
       farm=\"66\" title=\"Preston Candover\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699467072\" datetaken=\"2020-06-14
+      license=\"0\" dateupload=\"1699467072\" datetaken=\"2020-06-14
       12:07:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Beardy
       Vulcan II\" realname=\"Adrian Pink\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318608536_d8cf4e3c40_s.jpg\"
@@ -695,7 +695,7 @@ interactions:
       nofollow&quot;&gt;www.sabre-roads.org.uk/wiki/index.php?title=B3046&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53304383892\" owner=\"187113622@N05\" secret=\"9ab9271fe6\" server=\"65535\"
       farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1698948821\" datetaken=\"2023-11-02 11:13:41\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"william_stone\" realname=\"William Stone\"
       media=\"photo\" media_status=\"ready\"
@@ -760,7 +760,7 @@ interactions:
       means to invest in art, beauty, and progress.\n\n\nWS-306-131478853-182404194-3107980-2112023181339</description>\n\t</photo>\n\t<photo
       id=\"53294301917\" owner=\"196052921@N02\" secret=\"ffce7b6742\" server=\"65535\"
       farm=\"66\" title=\"Landewednack - Church Cove\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1698603759\" datetaken=\"2023-10-22
+      isfamily=\"0\" license=\"0\" dateupload=\"1698603759\" datetaken=\"2023-10-22
       15:26:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Dr_Scott\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53294301917_ffce7b6742_t.jpg\"
@@ -771,7 +771,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53278690325\" owner=\"187113622@N05\" secret=\"b0c42d7966\" server=\"65535\"
       farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1698019420\" datetaken=\"2018-12-18 21:12:18\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"william_stone\" realname=\"William Stone\"
       media=\"photo\" media_status=\"ready\"
@@ -835,7 +835,7 @@ interactions:
       means to invest in art, beauty, and progress.\n\n\nWS-296-3575999-01478148-0572771-23102023000339</description>\n\t</photo>\n\t<photo
       id=\"53273409602\" owner=\"29663856@N03\" secret=\"9e92d84f59\" server=\"65535\"
       farm=\"66\" title=\"New Thatched Roofs (42/52)\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697901492\" datetaken=\"2023-10-21
+      isfamily=\"0\" license=\"0\" dateupload=\"1697901492\" datetaken=\"2023-10-21
       12:11:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Stu.G\"
       realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53273409602_9e92d84f59_s.jpg\"
@@ -862,7 +862,7 @@ interactions:
       52 2022&#039; photo set &lt;a href=&quot;https://www.flickr.com/photos/29663856@N03/albums/72177720295823113&quot;&gt;www.flickr.com/photos/29663856@N03/albums/72177720295823113&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53273202865\" owner=\"99786858@N05\" secret=\"8386da90a8\" server=\"65535\"
       farm=\"66\" title=\"Le &quot;Tilleul&quot; de G\xE9rouville (1259-1877)\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697833564\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1697833564\"
       datetaken=\"2023-05-29 14:47:22\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"godran25\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53273202865_8386da90a8_t.jpg\"
@@ -876,7 +876,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;www.sitytrail.com/fr/poi/10822025-meixxdevantxvirton--til...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53272625035\" owner=\"163363024@N04\" secret=\"0eb3176e1a\" server=\"65535\"
       farm=\"66\" title=\"Just part of the Disneyesque Manor House, Sibford Gower,
-      Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1697816251\" datetaken=\"2023-10-15 14:13:34\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -902,7 +902,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;en.wikipedia.org/wiki/Frank_Lascelles_&lt;/a&gt;(pageant_master)</description>\n\t</photo>\n\t<photo
       id=\"53272363468\" owner=\"163363024@N04\" secret=\"05aaaa872d\" server=\"65535\"
       farm=\"66\" title=\"The village of Sibford Gower in autumn, Oxfordshire\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697814354\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1697814354\"
       datetaken=\"2023-10-15 14:01:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53272363468_05aaaa872d_s.jpg\"
@@ -921,7 +921,7 @@ interactions:
       the village has a good number of fine thatched roofs.</description>\n\t</photo>\n\t<photo
       id=\"53259637038\" owner=\"10758958@N05\" secret=\"59f7af08cd\" server=\"65535\"
       farm=\"66\" title=\"North Lopham, Kings Head (2023)\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697370517\" datetaken=\"2023-10-14
+      isfamily=\"0\" license=\"0\" dateupload=\"1697370517\" datetaken=\"2023-10-14
       10:18:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Dayoff171\"
       realname=\"\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53259637038_59f7af08cd_t.jpg\"
@@ -933,7 +933,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;flic.kr/p/nDWmnu&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53257384665\" owner=\"28121598@N03\" secret=\"7fae01678d\" server=\"65535\"
       farm=\"66\" title=\"Cadgwith\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"3\" safety_level=\"0\" dateupload=\"1697280616\" datetaken=\"2023-09-21
+      license=\"3\" dateupload=\"1697280616\" datetaken=\"2023-09-21
       12:40:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"R~P~M\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53257384665_7fae01678d_s.jpg\"
@@ -947,7 +947,7 @@ interactions:
       September 2023.</description>\n\t</photo>\n\t<photo id=\"53253915590\" owner=\"58418425@N00\"
       secret=\"1cb47b940a\" server=\"65535\" farm=\"66\" title=\"Castell Henllys Iron
       Age Village, Pembrokeshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1697135107\" datetaken=\"2023-10-04 10:48:02\"
+      dateupload=\"1697135107\" datetaken=\"2023-10-04 10:48:02\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"archidave\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53253915590_1cb47b940a_t.jpg\"
@@ -958,7 +958,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53252536617\" owner=\"58418425@N00\" secret=\"33ccb537d6\" server=\"65535\"
       farm=\"66\" title=\"Castell Henllys Iron Age Village, Pembrokeshire\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1697135109\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1697135109\"
       datetaken=\"2023-10-04 11:03:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"archidave\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53252536617_33ccb537d6_t.jpg\"
@@ -969,7 +969,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53245961316\" owner=\"163363024@N04\" secret=\"c5e7f0d025\" server=\"65535\"
       farm=\"66\" title=\"A corner of the quiet small village of Letcombe Basset,
-      Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1696867150\" datetaken=\"2023-07-13 15:21:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -986,7 +986,7 @@ interactions:
       id=\"53239031533\" owner=\"163363024@N04\" secret=\"df867ed19e\" server=\"65535\"
       farm=\"66\" title=\"A rare survivor. A medieval (and later) wooden barn, Letcombe
       Bassett, Oxfordshire.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1696612073\" datetaken=\"2023-07-13 15:11:05\"
+      dateupload=\"1696612073\" datetaken=\"2023-07-13 15:11:05\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Banburyshire Photos\"
       realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53239031533_df867ed19e_s.jpg\"
@@ -1004,7 +1004,7 @@ interactions:
       of 14th century wooden construction.\nGrade ll* listed.</description>\n\t</photo>\n\t<photo
       id=\"53214858417\" owner=\"98844125@N04\" secret=\"55c93996ca\" server=\"65535\"
       farm=\"66\" title=\"Thatched cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1695755549\" datetaken=\"2023-07-01
+      license=\"0\" dateupload=\"1695755549\" datetaken=\"2023-07-01
       07:06:23\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Tim
       Ravenscroft\" realname=\"Tim Ravenscroft\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53214858417_55c93996ca_s.jpg\"
@@ -1017,7 +1017,7 @@ interactions:
       garden.  Odense, Denmark. Hasselblad X2D.</description>\n\t</photo>\n\t<photo
       id=\"53213679494\" owner=\"28121598@N03\" secret=\"f77a62488f\" server=\"65535\"
       farm=\"66\" title=\"Blue Anchor\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"3\" safety_level=\"0\" dateupload=\"1695668586\" datetaken=\"2023-09-25
+      license=\"3\" dateupload=\"1695668586\" datetaken=\"2023-09-25
       15:15:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"R~P~M\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53213679494_f77a62488f_s.jpg\"
@@ -1030,7 +1030,7 @@ interactions:
       height_l=\"783\" width_l=\"1024\">\n\t\t<description>The Blue Anchor, Helston,
       Cornwall. 25th September 2023.</description>\n\t</photo>\n\t<photo id=\"53210774369\"
       owner=\"133275046@N07\" secret=\"43e2cfdd93\" server=\"65535\" farm=\"66\" title=\"Cobertizo\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1695577010\" datetaken=\"2017-08-26 09:59:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Jos\xE9 Antonio Domingo RODR\xCDGUEZ RODR\xCDGUEZ\"
       media=\"photo\" media_status=\"ready\"
@@ -1044,7 +1044,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53203733761\" owner=\"41701047@N08\" secret=\"3f3f366085\" server=\"65535\"
       farm=\"66\" title=\"A Devon scene, circa 1912\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1695318417\" datetaken=\"1912-01-01
+      isfamily=\"0\" license=\"0\" dateupload=\"1695318417\" datetaken=\"1912-01-01
       00:00:00\" datetakengranularity=\"8\" datetakenunknown=\"0\" ownername=\"geoff7918\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53203733761_3f3f366085_t.jpg\"
@@ -1070,7 +1070,7 @@ interactions:
       to the negative bag,\nCopyright Geoff Dowling plate Circa 1912 (Salvaged)</description>\n\t</photo>\n\t<photo
       id=\"53198962277\" owner=\"16021433@N07\" secret=\"e09c6b1b0e\" server=\"65535\"
       farm=\"66\" title=\"The Fuller\u2019s Mill Alresford\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1695152195\" datetaken=\"2023-09-19
+      isfamily=\"0\" license=\"0\" dateupload=\"1695152195\" datetaken=\"2023-09-19
       15:44:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Englepip\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53198962277_e09c6b1b0e_t.jpg\"
@@ -1082,7 +1082,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;alresfordmemories.wordpress.com/2013/01/19/history-of-the...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53189418016\" owner=\"163363024@N04\" secret=\"971fa0fee4\" server=\"65535\"
       farm=\"66\" title=\"A white witch&#039;s house (perhaps), Botolph Claydon, Buckinghamshire\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1694798993\" datetaken=\"2023-05-20 15:08:23\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -1097,7 +1097,7 @@ interactions:
       to the side wall? And is that a gnome living in it?</description>\n\t</photo>\n\t<photo
       id=\"53189744338\" owner=\"163363024@N04\" secret=\"5b359974a0\" server=\"65535\"
       farm=\"66\" title=\"Summer on the way in East Claydon, Buckinghamshire, England\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1694797775\" datetaken=\"2023-05-20 14:56:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -1113,7 +1113,7 @@ interactions:
       Claydon, Steeple Claydon, East Claydon and Botolph Claydon. </description>\n\t</photo>\n\t<photo
       id=\"53185228289\" owner=\"160644704@N05\" secret=\"7c19b21892\" server=\"65535\"
       farm=\"66\" title=\"Attractive thatched cottage by Manor Farm at Mapledurwell\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1694625085\" datetaken=\"2008-05-03 10:26:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Beardy Vulcan II\" realname=\"Adrian Pink\"
       media=\"photo\" media_status=\"ready\"
@@ -1157,7 +1157,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;britishlistedbuildings.co.uk/101092949-ivy-house-mapledur...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53182742511\" owner=\"163363024@N04\" secret=\"1652af06e3\" server=\"65535\"
       farm=\"66\" title=\"A corner of Letcombe Regis, Oxfordshire\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1694534185\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1694534185\"
       datetaken=\"2023-07-13 13:52:45\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53182742511_1652af06e3_s.jpg\"
@@ -1174,7 +1174,7 @@ interactions:
       moving away.</description>\n\t</photo>\n\t<photo id=\"53173570073\" owner=\"157485279@N08\"
       secret=\"42fcbeccd7\" server=\"65535\" farm=\"66\" title=\"September - Late
       afternoon sunlit impressions\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694190742\" datetaken=\"2023-09-08
+      license=\"0\" dateupload=\"1694190742\" datetaken=\"2023-09-08
       12:29:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Stan
       S. Gallery\" realname=\"Stan S.\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53173570073_42fcbeccd7_s.jpg\"
@@ -1187,7 +1187,7 @@ interactions:
       height_l=\"820\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53161522801\" owner=\"163363024@N04\" secret=\"71c5d113b1\" server=\"65535\"
       farm=\"66\" title=\"Thatched lodges, Little Milton, Oxfordshire\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1693761005\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1693761005\"
       datetaken=\"2023-05-21 15:02:47\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53161522801_71c5d113b1_s.jpg\"
@@ -1201,7 +1201,7 @@ interactions:
       century lodges at the gates to the village manor house.</description>\n\t</photo>\n\t<photo
       id=\"53156731739\" owner=\"49729935@N06\" secret=\"ee479631e7\" server=\"65535\"
       farm=\"66\" title=\"White Swan, Whitchurch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694188273\" datetaken=\"2023-08-31
+      license=\"0\" dateupload=\"1694188273\" datetaken=\"2023-08-31
       13:06:04\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Jason
       87030\" realname=\"Jason Rodhouse\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53156731739_ee479631e7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53156731739_ee479631e7_t.jpg\"
@@ -1211,7 +1211,7 @@ interactions:
       height_q=\"150\" width_q=\"150\">\n\t\t<description>The White Swan, Whitchurch,
       Buckinghamshire. 31st August 2023. </description>\n\t</photo>\n\t<photo id=\"53148172792\"
       owner=\"196834238@N03\" secret=\"fa332a42f2\" server=\"65535\" farm=\"66\" title=\"Porlock
-      Weir\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Weir\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1693257762\" datetaken=\"2023-06-26 12:12:30\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Rainbow Images (Back - but busy)\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53148172792_fa332a42f2_s.jpg\"
@@ -1224,7 +1224,7 @@ interactions:
       height_l=\"567\" width_l=\"1024\">\n\t\t<description>A hearty &lt;b&gt;Thankyou&lt;/b&gt;
       to all who visit, comment or award.</description>\n\t</photo>\n\t<photo id=\"53144787847\"
       owner=\"160644704@N05\" secret=\"c22b748b61\" server=\"65535\" farm=\"66\" title=\"Heather
-      Cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1693155255\" datetaken=\"2021-02-23 13:23:00\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Beardy Vulcan II\" realname=\"Adrian Pink\"
       media=\"photo\" media_status=\"ready\"
@@ -1256,7 +1256,7 @@ interactions:
       nofollow&quot;&gt;en.wikipedia.org/wiki/Micheldever&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53143294689\" owner=\"163363024@N04\" secret=\"a1a967f56c\" server=\"65535\"
       farm=\"66\" title=\"Cottages in the remote hamlet of Little Haseley, Oxfordshire.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1693072360\" datetaken=\"2023-05-21 15:24:10\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -1276,7 +1276,7 @@ interactions:
       nofollow&quot;&gt;flic.kr/s/aHsjvLhRWj&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53139381380\" owner=\"163363024@N04\" secret=\"8ac8b98d26\" server=\"65535\"
       farm=\"66\" title=\"Bakery Lane, Letcombe Regis, Oxfordshire.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1692899573\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1692899573\"
       datetaken=\"2023-07-13 13:32:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53139381380_8ac8b98d26_s.jpg\"
@@ -1298,7 +1298,7 @@ interactions:
       and the bus, the clouds had closed in again, so I never managed a sunlit shot.</description>\n\t</photo>\n\t<photo
       id=\"53134435953\" owner=\"167912693@N04\" secret=\"647d6c73cd\" server=\"65535\"
       farm=\"66\" title=\"Yeat&#039;s Tower at Thoor Ballylee\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1692703227\" datetaken=\"2023-07-09
+      isfamily=\"0\" license=\"0\" dateupload=\"1692703227\" datetaken=\"2023-07-09
       12:48:11\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Photographs
       by Ged Hynes\" realname=\"Ged Hynes\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53134435953_647d6c73cd_s.jpg\"
@@ -1311,7 +1311,7 @@ interactions:
       height_l=\"1024\" width_l=\"768\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53130363348\" owner=\"163363024@N04\" secret=\"37c48cd1b8\" server=\"65535\"
       farm=\"66\" title=\"The hamlet of Little Haseley, Oxfordshire, England\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1692554303\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1692554303\"
       datetaken=\"2023-05-21 15:26:19\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53130363348_37c48cd1b8_s.jpg\"
@@ -1333,7 +1333,7 @@ interactions:
       href=&quot;https://flic.kr/s/aHsjvLhRWj&quot; rel=&quot;noreferrer nofollow&quot;&gt;flic.kr/s/aHsjvLhRWj&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53125604668\" owner=\"7663959@N02\" secret=\"958aa4bb83\" server=\"65535\"
       farm=\"66\" title=\"Coverack cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692375440\" datetaken=\"2023-08-10
+      license=\"0\" dateupload=\"1692375440\" datetaken=\"2023-08-10
       11:33:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Boffin
       PC\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53125604668_958aa4bb83_s.jpg\"
@@ -1346,7 +1346,7 @@ interactions:
       height_l=\"977\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53125521185\" owner=\"7663959@N02\" secret=\"3ca0684347\" server=\"65535\"
       farm=\"66\" title=\"Coverack cottage\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692375441\" datetaken=\"2023-08-10
+      license=\"0\" dateupload=\"1692375441\" datetaken=\"2023-08-10
       13:19:21\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Boffin
       PC\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53125521185_3ca0684347_s.jpg\"
@@ -1359,7 +1359,7 @@ interactions:
       height_l=\"965\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53125040823\" owner=\"10146155@N04\" secret=\"db5df42c73\" server=\"65535\"
       farm=\"66\" title=\"Leanach Cottage #1\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692355671\" datetaken=\"2023-07-22
+      license=\"0\" dateupload=\"1692355671\" datetaken=\"2023-07-22
       12:06:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Clive1945\"
       realname=\"Clive Stanley\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53125040823_db5df42c73_t.jpg\"
@@ -1376,7 +1376,7 @@ interactions:
       less than an hour, around 1,300 men were slain \u2013 about 1,250 of them Jacobites.</description>\n\t</photo>\n\t<photo
       id=\"53118021197\" owner=\"136125963@N02\" secret=\"d865e2c840\" server=\"65535\"
       farm=\"66\" title=\"Wareham\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1692122947\" datetaken=\"2023-08-13 13:41:33\"
+      dateupload=\"1692122947\" datetaken=\"2023-08-13 13:41:33\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"clive_metcalfe\"
       realname=\"Clive Metcalfe\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53118021197_d865e2c840_s.jpg\"
@@ -1389,7 +1389,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Church Street, Wareham,
       Dorset UK.</description>\n\t</photo>\n\t<photo id=\"53113603890\" owner=\"190477311@N05\"
       secret=\"f6dc00c89d\" server=\"65535\" farm=\"66\" title=\"Winterborne Zelston,
-      Dorset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Dorset\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1691934862\" datetaken=\"2023-08-10 18:50:40\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Bournemouth Andy\" realname=\"Bournemouth
       Andy\" media=\"photo\"
@@ -1404,7 +1404,7 @@ interactions:
       id=\"53111388070\" owner=\"163363024@N04\" secret=\"617712c31a\" server=\"65535\"
       farm=\"66\" title=\"Fairleigh Cottage perched above the &#039;front brook&#039;,
       Chalgrove, Oxfordshire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691847930\" datetaken=\"2023-05-21 14:33:26\"
+      dateupload=\"1691847930\" datetaken=\"2023-05-21 14:33:26\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Banburyshire Photos\"
       realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53111388070_617712c31a_s.jpg\"
@@ -1421,7 +1421,7 @@ interactions:
       and is continuing to expand.\n</description>\n\t</photo>\n\t<photo id=\"53096718112\"
       owner=\"187705435@N08\" secret=\"8f5e8ab45a\" server=\"65535\" farm=\"66\" title=\"The
       Old Order and the New\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691331272\" datetaken=\"2023-07-19 12:33:28\"
+      dateupload=\"1691331272\" datetaken=\"2023-07-19 12:33:28\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"tim.munsey\" realname=\"Tim
       Munsey\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53096718112_8f5e8ab45a_s.jpg\"
@@ -1439,7 +1439,7 @@ interactions:
       \ old order is thatch, and the new GRP.</description>\n\t</photo>\n\t<photo
       id=\"53095945448\" owner=\"163363024@N04\" secret=\"f4e4d94990\" server=\"65535\"
       farm=\"66\" title=\"Nice old-fashioned cottages at Great Milton, Oxfordshire.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1691256929\" datetaken=\"2023-05-21 15:54:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -1455,7 +1455,7 @@ interactions:
       hotel and restaurant owned by Raymond Blanc.</description>\n\t</photo>\n\t<photo
       id=\"53087342643\" owner=\"54415393@N00\" secret=\"627c0b6289\" server=\"65535\"
       farm=\"66\" title=\"Amser stori/ Story time\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1690913043\" datetaken=\"2023-06-04
+      isfamily=\"0\" license=\"0\" dateupload=\"1690913043\" datetaken=\"2023-06-04
       14:14:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Rhisiart
       Hincks\" realname=\"Rhisiart Hincks\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53087342643_627c0b6289_s.jpg\"
@@ -1467,7 +1467,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>Happisburgh, Norfolk</description>\n\t</photo>\n\t<photo
       id=\"53087306133\" owner=\"14136614@N03\" secret=\"bc91705be0\" server=\"65535\"
       farm=\"66\" title=\"Heid / Ant198 / Thatch / Micky / Frodrik\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"2\" safety_level=\"0\" dateupload=\"1690912663\"
+      isfriend=\"0\" isfamily=\"0\" license=\"2\" dateupload=\"1690912663\"
       datetaken=\"2023-06-05 12:34:23\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"wiredforlego\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53087306133_bc91705be0_s.jpg\"
@@ -1485,7 +1485,7 @@ interactions:
       href=&quot;http://instagram.com/frodrik_/&quot; rel=&quot;noreferrer nofollow&quot;&gt;instagram.com/frodrik_/&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53086463951\" owner=\"29380771@N06\" secret=\"5d8d817bc3\" server=\"65535\"
       farm=\"66\" title=\"Woven Palm Tree Bark BW\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1690903585\" datetaken=\"2022-02-06
+      isfamily=\"0\" license=\"0\" dateupload=\"1690903585\" datetaken=\"2022-02-06
       14:30:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Patti
       Deters\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53086463951_5d8d817bc3_t.jpg\"
@@ -1506,7 +1506,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;patti-deters.pixels.com/featured/woven-palm-tree-bark-bw-...&lt;/a&gt;.</description>\n\t</photo>\n\t<photo
       id=\"53063269374\" owner=\"144491124@N05\" secret=\"fee3b11dbb\" server=\"65535\"
       farm=\"66\" title=\"Fox and Hare thatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690025464\" datetaken=\"2023-07-20
+      license=\"0\" dateupload=\"1690025464\" datetaken=\"2023-07-20
       15:33:17\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Nigel
       L Baker\" realname=\"Nigel Baker\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53063269374_fee3b11dbb_t.jpg\"
@@ -1517,7 +1517,7 @@ interactions:
       height_l=\"641\" width_l=\"1024\">\n\t\t<description>Amberley, West Sussex,
       England.</description>\n\t</photo>\n\t<photo id=\"53060906264\" owner=\"192794613@N03\"
       secret=\"067c2ee447\" server=\"65535\" farm=\"66\" title=\"The Red Lion, Brightwell-cum-Sotwell\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689924851\" datetaken=\"2023-07-20 10:44:40\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"ROK photography\" realname=\"Roger Osborn-King\"
       media=\"photo\" media_status=\"ready\"
@@ -1537,7 +1537,7 @@ interactions:
       of beer is if the umbrellas are to be believed ...</description>\n\t</photo>\n\t<photo
       id=\"53059226074\" owner=\"163363024@N04\" secret=\"fc3499fe53\" server=\"65535\"
       farm=\"66\" title=\"The centre of East Claydon, Buckinghamshire, England\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689859433\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1689859433\"
       datetaken=\"2023-05-20 15:00:39\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Banburyshire Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53059226074_fc3499fe53_s.jpg\"
@@ -1552,7 +1552,7 @@ interactions:
       Claydon, Steeple Claydon, East Claydon and Botolph Claydon. </description>\n\t</photo>\n\t<photo
       id=\"53056090535\" owner=\"187113622@N05\" secret=\"964edb9bd5\" server=\"65535\"
       farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689717693\" datetaken=\"2023-07-18 15:01:33\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"william_stone\" realname=\"William Stone\"
       media=\"photo\" media_status=\"ready\"
@@ -1624,7 +1624,7 @@ interactions:
       and the thrill of new photographic styles and equipment.\n\n\nWS-199-1771292-221368187-1955908-1872023220132</description>\n\t</photo>\n\t<photo
       id=\"53054966596\" owner=\"163363024@N04\" secret=\"272f7869f9\" server=\"65535\"
       farm=\"66\" title=\"Pepperbox Cottage, Lasham, Hampshire\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689696260\" datetaken=\"2023-06-17
+      isfamily=\"0\" license=\"0\" dateupload=\"1689696260\" datetaken=\"2023-06-17
       16:20:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Banburyshire
       Photos\" realname=\"Andrew S Brown\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53054966596_272f7869f9_s.jpg\"
@@ -1640,7 +1640,7 @@ interactions:
       was affected? I hope to return one day in perfect sunshine for the full-on Chocolate
       Box experience!</description>\n\t</photo>\n\t<photo id=\"53054992713\" owner=\"124534459@N02\"
       secret=\"801f2d76e0\" server=\"65535\" farm=\"66\" title=\"Summer Scene ...\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689681677\" datetaken=\"2023-07-17 09:06:28\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Nikon Caz\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53054992713_801f2d76e0_s.jpg\"
@@ -1653,7 +1653,7 @@ interactions:
       where most of the cottages are of thatched roof construction and look quite
       wonderful.</description>\n\t</photo>\n\t<photo id=\"53054777058\" owner=\"163363024@N04\"
       secret=\"13f199026e\" server=\"65535\" farm=\"66\" title=\"More Hampshire charm
-      at Lasham.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      at Lasham.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689673099\" datetaken=\"2023-06-17 16:09:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"
@@ -1669,7 +1669,7 @@ interactions:
       overcast day with few highlights or shadows.</description>\n\t</photo>\n\t<photo
       id=\"53053706847\" owner=\"97749113@N08\" secret=\"e2a24f904e\" server=\"65535\"
       farm=\"66\" title=\"Cadgwith Cottages.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1689672827\" datetaken=\"2023-07-17
+      license=\"0\" dateupload=\"1689672827\" datetaken=\"2023-07-17
       10:12:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Go
       placidly amidst the noise and haste...\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53053706847_e2a24f904e_s.jpg\"
@@ -1689,7 +1689,7 @@ interactions:
       move my tripod repeatedly so I fired off a couple when I could and moved on.
       \n</description>\n\t</photo>\n\t<photo id=\"53050043273\" owner=\"164266966@N06\"
       secret=\"135a9aa2da\" server=\"65535\" farm=\"66\" title=\"Lodge House.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689513367\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1689513367\"
       datetaken=\"2023-07-16 13:07:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"marlin.357\" realname=\"nick boreham\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53050043273_135a9aa2da_s.jpg\"
@@ -1701,7 +1701,7 @@ interactions:
       height_l=\"693\" width_l=\"1024\">\n\t\t<description>Oxfordshire. England.</description>\n\t</photo>\n\t<photo
       id=\"53046862947\" owner=\"187113622@N05\" secret=\"bc4dd81f12\" server=\"65535\"
       farm=\"66\" title=\"RR Media  E: rrphotomedia@gmail.com  W: https://www.wsimages.com\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689431325\" datetaken=\"2022-02-25 00:27:28\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"william_stone\" realname=\"William Stone\"
       media=\"photo\" media_status=\"ready\"
@@ -1772,7 +1772,7 @@ interactions:
       and the thrill of new photographic styles and equipment.\n\n\nWS-196-281858598-14902865-5999992-1572023142844</description>\n\t</photo>\n\t<photo
       id=\"53040629218\" owner=\"80309866@N07\" secret=\"2f681901e4\" server=\"65535\"
       farm=\"66\" title=\"beamish313\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1689147240\" datetaken=\"2022-04-19
+      license=\"0\" dateupload=\"1689147240\" datetaken=\"2022-04-19
       14:11:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"PeterJacksonToD\"
       realname=\"Peter Jackson\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53040629218_2f681901e4_s.jpg\"
@@ -1785,7 +1785,7 @@ interactions:
       height_l=\"688\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53039079605\" owner=\"163363024@N04\" secret=\"4bb7f49a89\" server=\"65535\"
       farm=\"66\" title=\"Roses and thatch, Gracious Street, Selborne, Hampshire,
-      England\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      England\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689091665\" datetaken=\"2023-06-17 12:26:17\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Banburyshire Photos\" realname=\"Andrew S
       Brown\" media=\"photo\"

@@ -18,7 +18,7 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"53248070597\" secret=\"91aed2326c\" server=\"65535\" farm=\"66\" dateuploaded=\"1696963680\"
-      isfavorite=\"0\" license=\"0\" safety_level=\"0\" rotation=\"0\" views=\"1386\"
+      isfavorite=\"0\" license=\"0\" rotation=\"0\" views=\"1386\"
       media=\"photo\">\n\t<owner nsid=\"73422502@N08\" username=\"Zeeyolq Photography\"
       realname=\"Yoann JEZEQUEL\" location=\"Paris, France\" iconserver=\"7384\" iconfarm=\"8\"
       path_alias=\"zeeyolqpictures\">\n\t\t<gift gift_eligible=\"1\" new_flow=\"1\">\n\t\t\t<eligible_durations

@@ -132,14 +132,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157626164453131&user_id=32834977%40N03
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157626164453131&user_id=32834977%40N03
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157626164453131\" primary=\"5536044022\" owner=\"32834977@N03\" ownername=\"Al
       Jazeera English\" page=\"1\" per_page=\"10\" perpage=\"10\" pages=\"3\" title=\"Faces
       from the Libyan front\" total=\"22\">\n\t<photo id=\"5536044022\" secret=\"7e6f0df667\"
       server=\"5137\" farm=\"6\" title=\"IMG_1348\" isprimary=\"1\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\" dateupload=\"1300402940\"
+      isfriend=\"0\" isfamily=\"0\" license=\"5\" dateupload=\"1300402940\"
       datetaken=\"2011-03-04 15:44:00\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Al Jazeera English\" realname=\"Al Jazeera English\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667_s.jpg\"
@@ -150,7 +150,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5536043704\" secret=\"4e7448742d\" server=\"5251\" farm=\"6\" title=\"IMG_1318\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402931\" datetaken=\"2011-03-04 15:24:30\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -162,7 +162,7 @@ interactions:
       height_o=\"900\" width_o=\"600\" url_q=\"https://live.staticflickr.com/5251/5536043704_4e7448742d_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5535465571\" secret=\"855f26dd4a\" server=\"5173\" farm=\"6\" title=\"IMG_1298\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402926\" datetaken=\"2011-03-04 13:57:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -174,7 +174,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5173/5535465571_855f26dd4a_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5535465397\" secret=\"646ddea350\" server=\"5299\" farm=\"6\" title=\"IMG_1295\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402920\" datetaken=\"2011-03-04 13:57:18\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -186,7 +186,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5299/5535465397_646ddea350_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5535465269\" secret=\"5e3d78d1e3\" server=\"5094\" farm=\"6\" title=\"IMG_1293\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402916\" datetaken=\"2011-03-04 13:57:10\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -198,7 +198,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5094/5535465269_5e3d78d1e3_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5536043030\" secret=\"56f3c4d5c3\" server=\"5134\" farm=\"6\" title=\"IMG_1292\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402909\" datetaken=\"2011-03-04 13:57:05\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -210,7 +210,7 @@ interactions:
       height_o=\"533\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5134/5536043030_56f3c4d5c3_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5536042908\" secret=\"4dba574cb2\" server=\"5018\" farm=\"6\" title=\"IMG_1242\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402905\" datetaken=\"2011-03-04 12:02:56\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -222,7 +222,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5018/5536042908_4dba574cb2_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5536042662\" secret=\"028306e89d\" server=\"5214\" farm=\"6\" title=\"IMG_1212\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402898\" datetaken=\"2011-03-04 11:35:33\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -234,7 +234,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5214/5536042662_028306e89d_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5535464551\" secret=\"2bf01ec987\" server=\"5177\" farm=\"6\" title=\"IMG_1208\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402892\" datetaken=\"2011-03-04 11:34:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -246,7 +246,7 @@ interactions:
       height_o=\"600\" width_o=\"800\" url_q=\"https://live.staticflickr.com/5177/5535464551_2bf01ec987_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"5536042294\" secret=\"55a97b5696\" server=\"5213\" farm=\"6\" title=\"IMG_1207\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\"
       dateupload=\"1300402885\" datetaken=\"2011-03-04 11:34:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
       English\" media=\"photo\"
@@ -576,14 +576,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157631707062493&user_id=73422502%40N08
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157631707062493&user_id=73422502%40N08
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157631707062493\" primary=\"14836665849\" owner=\"73422502@N08\" ownername=\"Zeeyolq
       Photography\" page=\"1\" per_page=\"10\" perpage=\"10\" pages=\"62\" title=\"Paris\"
       total=\"620\">\n\t<photo id=\"15009172391\" secret=\"e111d03999\" server=\"3868\"
       farm=\"4\" title=\"Paris\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1408826747\" datetaken=\"2014-08-18
+      license=\"0\" dateupload=\"1408826747\" datetaken=\"2014-08-18
       16:14:17\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Zeeyolq
       Photography\" realname=\"Yoann JEZEQUEL\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/3868/15009172391_e111d03999_s.jpg\" height_sq=\"75\"
@@ -594,7 +594,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3868/15009172391_e111d03999_b.jpg\"
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Paris</description>\n\t</photo>\n\t<photo
       id=\"8060542717\" secret=\"09cc8e16dd\" server=\"8459\" farm=\"9\" title=\"Paris\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1349556271\" datetaken=\"2011-09-20 19:14:34\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8459/8060542717_09cc8e16dd_s.jpg\"
@@ -604,7 +604,7 @@ interactions:
       height_m=\"500\" width_m=\"333\" url_q=\"https://live.staticflickr.com/8459/8060542717_09cc8e16dd_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description>Paris, Eiffel tower</description>\n\t</photo>\n\t<photo
       id=\"19193457202\" secret=\"9330cdcc53\" server=\"529\" farm=\"1\" title=\"Paris\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1435398278\" datetaken=\"2015-03-17 16:04:24\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/529/19193457202_9330cdcc53_s.jpg\"
@@ -615,7 +615,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/529/19193457202_9330cdcc53_b.jpg\"
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Paris life</description>\n\t</photo>\n\t<photo
       id=\"10327993254\" secret=\"5516c231bb\" server=\"3830\" farm=\"4\" title=\"Paris\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1382016693\" datetaken=\"2012-02-26 14:47:57\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3830/10327993254_5516c231bb_s.jpg\"
@@ -625,7 +625,7 @@ interactions:
       height_m=\"500\" width_m=\"500\" url_q=\"https://live.staticflickr.com/3830/10327993254_5516c231bb_q.jpg\"
       height_q=\"150\" width_q=\"150\">\n\t\t<description>Paris</description>\n\t</photo>\n\t<photo
       id=\"15285801968\" secret=\"f1335a0c56\" server=\"3947\" farm=\"4\" title=\"Paris\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1412715808\" datetaken=\"2014-08-18 21:14:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3947/15285801968_f1335a0c56_s.jpg\"
@@ -636,7 +636,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/3947/15285801968_f1335a0c56_b.jpg\"
       height_l=\"341\" width_l=\"1024\">\n\t\t<description>Paris night</description>\n\t</photo>\n\t<photo
       id=\"22916738670\" secret=\"f7d6420918\" server=\"597\" farm=\"1\" title=\"Paris\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1448208807\" datetaken=\"2012-06-26 12:05:03\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/597/22916738670_f7d6420918_s.jpg\"
@@ -647,7 +647,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/597/22916738670_f7d6420918_b.jpg\"
       height_l=\"341\" width_l=\"1024\">\n\t\t<description>Paris panorama</description>\n\t</photo>\n\t<photo
       id=\"16137518100\" secret=\"378b568a60\" server=\"7520\" farm=\"8\" title=\"France\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1421752292\" datetaken=\"2014-08-18 18:37:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7520/16137518100_378b568a60_s.jpg\"
@@ -658,7 +658,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/7520/16137518100_378b568a60_b.jpg\"
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>France</description>\n\t</photo>\n\t<photo
       id=\"17073505756\" secret=\"0745f0c20e\" server=\"8794\" farm=\"9\" title=\"Paris\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1428679860\" datetaken=\"2015-03-16 11:39:03\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8794/17073505756_0745f0c20e_s.jpg\"
@@ -669,7 +669,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/8794/17073505756_0745f0c20e_b.jpg\"
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Paris</description>\n\t</photo>\n\t<photo
       id=\"16100848377\" secret=\"d31a517008\" server=\"8643\" farm=\"9\" title=\"Metro\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1421336118\" datetaken=\"2015-01-13 11:23:47\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8643/16100848377_d31a517008_s.jpg\"
@@ -681,7 +681,7 @@ interactions:
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Metro Paris</description>\n\t</photo>\n\t<photo
       id=\"15209104660\" secret=\"451b873ca1\" server=\"3870\" farm=\"4\" title=\"View
       of the Eiffel tower of Paris from the trocadero place\" isprimary=\"0\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1412027245\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1412027245\"
       datetaken=\"2014-08-18 17:36:33\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Zeeyolq Photography\" realname=\"Yoann JEZEQUEL\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3870/15209104660_451b873ca1_s.jpg\"

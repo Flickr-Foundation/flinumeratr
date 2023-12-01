@@ -127,14 +127,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157677773252346&user_id=132051449%40N06
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157677773252346&user_id=132051449%40N06
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157677773252346\" primary=\"22905488190\" owner=\"132051449@N06\" ownername=\"Jeong
       Vin, Yoon\" page=\"1\" per_page=\"10\" perpage=\"10\" pages=\"9\" title=\"\uD3EC\uD2B8\uD3F4\uB9AC\uC624
       \uC81C\uC791\uC6A9\" total=\"84\">\n\t<photo id=\"18250964001\" secret=\"df26421e40\"
       server=\"7738\" farm=\"8\" title=\"Seoul\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1474870380\" datetaken=\"2015-05-18
+      isfamily=\"0\" license=\"0\" dateupload=\"1474870380\" datetaken=\"2015-05-18
       16:11:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Jeong
       Vin, Yoon\" realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7738/18250964001_df26421e40_s.jpg\"
@@ -147,7 +147,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"19722996319\" secret=\"d19a7b9291\" server=\"331\" farm=\"1\" title=\"Jiri
       mountain\" isprimary=\"1\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1437555175\" datetaken=\"2015-07-22 01:52:55\"
+      dateupload=\"1437555175\" datetaken=\"2015-07-22 01:52:55\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\"
       realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/331/19722996319_d19a7b9291_s.jpg\"
@@ -160,7 +160,7 @@ interactions:
       height_l=\"678\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"19777368608\" secret=\"0bca88747b\" server=\"513\" farm=\"1\" title=\"Jiri
       Mountain\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1437731374\" datetaken=\"2015-07-22 19:48:40\"
+      dateupload=\"1437731374\" datetaken=\"2015-07-22 19:48:40\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Jeong Vin, Yoon\"
       realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/513/19777368608_0bca88747b_s.jpg\"
@@ -172,7 +172,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/513/19777368608_0bca88747b_b.jpg\"
       height_l=\"1024\" width_l=\"678\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"19995531304\" secret=\"613af003d9\" server=\"650\" farm=\"1\" title=\"Sunblock\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1439714295\" datetaken=\"2015-08-16 01:38:15\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\" realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\"
@@ -185,7 +185,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/650/19995531304_613af003d9_b.jpg\"
       height_l=\"1024\" width_l=\"683\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"20434367760\" secret=\"1196dbfc73\" server=\"630\" farm=\"1\" title=\"Beside\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1439727081\" datetaken=\"2015-08-16 05:11:21\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\" realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\"
@@ -199,7 +199,7 @@ interactions:
       height_l=\"1024\" width_l=\"683\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"20671286152\" secret=\"705894de24\" server=\"707\" farm=\"1\" title=\"Lazy
       (blue)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1439904544\" datetaken=\"2015-08-18 06:29:04\"
+      dateupload=\"1439904544\" datetaken=\"2015-08-18 06:29:04\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\"
       realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/707/20671286152_705894de24_s.jpg\"
@@ -212,7 +212,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"20889037076\" secret=\"79f7303c15\" server=\"5617\" farm=\"6\" title=\"With
       bus\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1440647670\" datetaken=\"2015-08-26 20:54:30\"
+      dateupload=\"1440647670\" datetaken=\"2015-08-26 20:54:30\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\"
       realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5617/20889037076_79f7303c15_s.jpg\"
@@ -224,7 +224,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/5617/20889037076_79f7303c15_b.jpg\"
       height_l=\"1024\" width_l=\"678\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"20967567081\" secret=\"59dc6d67f2\" server=\"685\" farm=\"1\" title=\"\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1440797415\" datetaken=\"2015-08-28 14:30:15\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\" realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\"
@@ -238,7 +238,7 @@ interactions:
       height_l=\"1024\" width_l=\"678\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"20351005903\" secret=\"3d53183ff8\" server=\"568\" farm=\"1\" title=\"Namsan
       , seoul\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1440838915\" datetaken=\"2015-08-29 02:01:55\"
+      dateupload=\"1440838915\" datetaken=\"2015-08-29 02:01:55\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\"
       realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/568/20351005903_3d53183ff8_s.jpg\"
@@ -250,7 +250,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/568/20351005903_3d53183ff8_b.jpg\"
       height_l=\"678\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"20428374183\" secret=\"76c77aaf6b\" server=\"5717\" farm=\"6\" title=\"Hapjeong\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1441076445\" datetaken=\"2015-08-31 20:00:45\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"Jeong Vin, Yoon\" realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\"
@@ -546,14 +546,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=5&per_page=1&photoset_id=72157677773252346&user_id=132051449%40N06
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photosets.getPhotos&page=5&per_page=1&photoset_id=72157677773252346&user_id=132051449%40N06
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157677773252346\" primary=\"22905488190\" owner=\"132051449@N06\" ownername=\"Jeong
       Vin, Yoon\" page=\"5\" per_page=\"1\" perpage=\"1\" pages=\"84\" title=\"\uD3EC\uD2B8\uD3F4\uB9AC\uC624
       \uC81C\uC791\uC6A9\" total=\"84\">\n\t<photo id=\"20434367760\" secret=\"1196dbfc73\"
       server=\"630\" farm=\"1\" title=\"Beside\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1439727081\" datetaken=\"2015-08-16
+      isfamily=\"0\" license=\"0\" dateupload=\"1439727081\" datetaken=\"2015-08-16
       05:11:21\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Jeong
       Vin, Yoon\" realname=\"Jeong Vin Yoon\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/630/20434367760_1196dbfc73_s.jpg\"

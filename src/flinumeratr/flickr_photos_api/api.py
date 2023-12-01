@@ -12,7 +12,6 @@ from .utils import (
     parse_date_posted,
     parse_date_taken,
     parse_date_taken_granularity,
-    parse_safety_level,
     parse_sizes,
 )
 from ._types import (
@@ -299,8 +298,6 @@ class FlickrPhotosApi(BaseApi):
 
         license = self.lookup_license_by_id(id=photo_elem.attrib["license"])
 
-        safety_level = parse_safety_level(photo_elem.attrib["safety_level"])
-
         # The getSizes response is a blob of XML of the form:
         #
         #       <?xml version="1.0" encoding="utf-8" ?>
@@ -348,7 +345,6 @@ class FlickrPhotosApi(BaseApi):
             "owner": owner,
             "date_posted": date_posted,
             "date_taken": date_taken,
-            "safety_level": safety_level,
             "license": license,
             "url": photo_page_url,
             "sizes": sizes,
@@ -373,7 +369,6 @@ class FlickrPhotosApi(BaseApi):
         "url_q",  # Large Square
         "url_l",  # Large
         "description",
-        "safety_level",
         "realname",
     ]
 
@@ -432,9 +427,6 @@ class FlickrPhotosApi(BaseApi):
                         id=photo_elem.attrib["license"]
                     ),
                     "sizes": parse_sizes(photo_elem),
-                    "safety_level": parse_safety_level(
-                        photo_elem.attrib["safety_level"]
-                    ),
                     "owner": owner,
                     "url": url,
                 }

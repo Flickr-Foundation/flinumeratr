@@ -135,13 +135,13 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.people.getPublicPhotos&page=1&per_page=10&user_id=34427469121%40N01
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.people.getPublicPhotos&page=1&per_page=10&user_id=34427469121%40N01
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"782\" perpage=\"10\" total=\"7812\">\n\t<photo id=\"53310991033\"
       owner=\"34427469121@N01\" secret=\"05bb562937\" server=\"65535\" farm=\"66\"
       title=\"Canary Wharf dusk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699188836\" datetaken=\"2023-11-04 16:21:45\"
+      dateupload=\"1699188836\" datetaken=\"2023-11-04 16:21:45\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"George\" realname=\"George
       Oates\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310991033_05bb562937_s.jpg\"
@@ -155,7 +155,7 @@ interactions:
       across the Thames yesterday.</description>\n\t</photo>\n\t<photo id=\"53282436419\"
       owner=\"34427469121@N01\" secret=\"363c6cf811\" server=\"65535\" farm=\"66\"
       title=\"Tower Bridge alla noche\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"9\" safety_level=\"0\" dateupload=\"1698152248\" datetaken=\"2023-10-19
+      license=\"9\" dateupload=\"1698152248\" datetaken=\"2023-10-19
       19:20:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53282436419_363c6cf811_s.jpg\"
@@ -168,7 +168,7 @@ interactions:
       height_l=\"1024\" width_l=\"768\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53237018379\" owner=\"34427469121@N01\" secret=\"ab0a485064\" server=\"65535\"
       farm=\"66\" title=\"Borough before a shower\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"4\" safety_level=\"0\" dateupload=\"1696528696\" datetaken=\"2023-10-03
+      isfamily=\"0\" license=\"4\" dateupload=\"1696528696\" datetaken=\"2023-10-03
       13:16:01\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53237018379_ab0a485064_s.jpg\"
@@ -181,7 +181,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53100996733\" owner=\"34427469121@N01\" secret=\"99ffbffac7\" server=\"65535\"
       farm=\"66\" title=\"The City of London appears to be generating weather\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"1\" safety_level=\"0\" dateupload=\"1691435739\"
+      isfriend=\"0\" isfamily=\"0\" license=\"1\" dateupload=\"1691435739\"
       datetaken=\"2023-08-06 17:08:01\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"George\" realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53100996733_99ffbffac7_s.jpg\"
@@ -194,7 +194,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>View from good pub spot
       on the river.</description>\n\t</photo>\n\t<photo id=\"52957366694\" owner=\"34427469121@N01\"
       secret=\"1b9d7de1cc\" server=\"65535\" farm=\"66\" title=\"A few weeks after
-      the fire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"4\" safety_level=\"0\"
+      the fire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"4\"
       dateupload=\"1686135300\" datetaken=\"2023-06-07 03:50:50\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"George\" realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52957366694_1b9d7de1cc_s.jpg\"
@@ -207,7 +207,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>The grass was renewed.</description>\n\t</photo>\n\t<photo
       id=\"52957605480\" owner=\"34427469121@N01\" secret=\"3576c93a42\" server=\"65535\"
       farm=\"66\" title=\"A few weeks after the fire\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"4\" safety_level=\"0\" dateupload=\"1686135299\" datetaken=\"2023-06-07
+      isfamily=\"0\" license=\"4\" dateupload=\"1686135299\" datetaken=\"2023-06-07
       03:50:50\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52957605480_3576c93a42_s.jpg\"
@@ -222,7 +222,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;commons.wikimedia.org/wiki/File:A_few_weeks_after_the_fir...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52956623732\" owner=\"34427469121@N01\" secret=\"85231f55f3\" server=\"65535\"
       farm=\"66\" title=\"A few weeks after the fire\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1686135299\" datetaken=\"2023-06-07
+      isfamily=\"0\" license=\"0\" dateupload=\"1686135299\" datetaken=\"2023-06-07
       03:50:50\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52956623732_85231f55f3_s.jpg\"
@@ -235,7 +235,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description>The grass was renewed.</description>\n\t</photo>\n\t<photo
       id=\"52957602825\" owner=\"34427469121@N01\" secret=\"581fdf3211\" server=\"65535\"
       farm=\"66\" title=\"Culture Burn, Adelaide\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1686135298\" datetaken=\"2023-06-07
+      license=\"4\" dateupload=\"1686135298\" datetaken=\"2023-06-07
       03:47:51\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52957602825_581fdf3211_s.jpg\"
@@ -249,7 +249,7 @@ interactions:
       burning grass gently and precisely. </description>\n\t</photo>\n\t<photo id=\"52956620847\"
       owner=\"34427469121@N01\" secret=\"dc15721c73\" server=\"65535\" farm=\"66\"
       title=\"Culture Burn, Adelaide\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1686135298\" datetaken=\"2023-06-07
+      license=\"4\" dateupload=\"1686135298\" datetaken=\"2023-06-07
       03:47:51\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52956620847_dc15721c73_s.jpg\"
@@ -263,7 +263,7 @@ interactions:
       burning grass gently and precisely. </description>\n\t</photo>\n\t<photo id=\"52957218821\"
       owner=\"34427469121@N01\" secret=\"3aaa92f320\" server=\"65535\" farm=\"66\"
       title=\"Culture Burn, Adelaide\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1686135297\" datetaken=\"2023-06-07
+      license=\"4\" dateupload=\"1686135297\" datetaken=\"2023-06-07
       03:47:52\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"George\"
       realname=\"George Oates\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52957218821_3aaa92f320_s.jpg\"
