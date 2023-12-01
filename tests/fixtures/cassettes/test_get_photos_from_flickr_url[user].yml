@@ -5,14 +5,13 @@ interactions:
       accept:
       - '*/*'
       accept-encoding:
-      - gzip, deflate
+      - gzip, deflate, br
       connection:
       - keep-alive
       host:
       - api.flickr.com
       user-agent:
-      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
-        hello@flickr.org)
+      - flinumeratr/dev (https://github.com/Flickr-Foundation/flinumeratr; hello@flickr.org)
     method: GET
     uri: https://api.flickr.com/services/rest/?method=flickr.urls.lookupUser&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fspike_yun
   response:
@@ -26,11 +25,11 @@ interactions:
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Thu, 09 Nov 2023 15:51:13 GMT
+      - Fri, 01 Dec 2023 15:07:14 GMT
       Via:
-      - 1.1 dc5ba6653148afa9504262089bb395dc.cloudfront.net (CloudFront)
+      - 1.1 597c788e23cf83427002ab097f30f484.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - PyjfusYaC-_CzkrWY8F3G73Wroc05vfywa2b0pLhX7WVLrPvhK7PLg==
+      - OA9TjV4IXbaFvWuacM85tdiUb-PXnH4ic13wDOtAT8xYm0PDD9AL7w==
       X-Amz-Cf-Pop:
       - LHR50-P8
       X-Cache:
@@ -38,12 +37,12 @@ interactions:
       content-encoding:
       - gzip
       server:
-      - Apache/2.4.57 (Ubuntu)
+      - Apache/2.4.58 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A0%7D%7D%7D;
-        expires=Sat, 09-Dec-2023 15:51:13 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 31-Dec-2023 15:07:14 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Sat, 09-Dec-2023 15:51:13 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 31-Dec-2023 15:07:14 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:
@@ -58,7 +57,7 @@ interactions:
       accept:
       - '*/*'
       accept-encoding:
-      - gzip, deflate
+      - gzip, deflate, br
       connection:
       - keep-alive
       cookie:
@@ -66,8 +65,7 @@ interactions:
       host:
       - api.flickr.com
       user-agent:
-      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
-        hello@flickr.org)
+      - flinumeratr/dev (https://github.com/Flickr-Foundation/flinumeratr; hello@flickr.org)
     method: GET
     uri: https://api.flickr.com/services/rest/?method=flickr.people.getInfo&user_id=132051449%40N06
   response:
@@ -86,11 +84,11 @@ interactions:
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Thu, 09 Nov 2023 15:51:13 GMT
+      - Fri, 01 Dec 2023 15:07:14 GMT
       Via:
-      - 1.1 dc5ba6653148afa9504262089bb395dc.cloudfront.net (CloudFront)
+      - 1.1 597c788e23cf83427002ab097f30f484.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - o_e97o8I0Y5hcuZkVNv6Ek3w5hew6_yJ36CagzueJvzNyooWPvi0pw==
+      - XgzWvi3valK0MsdQkN-Fnc4QRCINbqtbol7-DaRI-UlIK2soKKySJw==
       X-Amz-Cf-Pop:
       - LHR50-P8
       X-Cache:
@@ -98,10 +96,10 @@ interactions:
       content-encoding:
       - gzip
       server:
-      - Apache/2.4.57 (Ubuntu)
+      - Apache/2.4.58 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Sat, 09-Dec-2023 15:51:13 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 31-Dec-2023 15:07:14 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:
@@ -116,7 +114,7 @@ interactions:
       accept:
       - '*/*'
       accept-encoding:
-      - gzip, deflate
+      - gzip, deflate, br
       connection:
       - keep-alive
       cookie:
@@ -124,8 +122,7 @@ interactions:
       host:
       - api.flickr.com
       user-agent:
-      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
-        hello@flickr.org)
+      - flinumeratr/dev (https://github.com/Flickr-Foundation/flinumeratr; hello@flickr.org)
     method: GET
     uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.people.getPublicPhotos&page=1&per_page=100&user_id=132051449%40N06
   response:
@@ -1439,11 +1436,11 @@ interactions:
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Thu, 09 Nov 2023 15:51:14 GMT
+      - Fri, 01 Dec 2023 15:07:14 GMT
       Via:
-      - 1.1 dc5ba6653148afa9504262089bb395dc.cloudfront.net (CloudFront)
+      - 1.1 597c788e23cf83427002ab097f30f484.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - A5iwGJi1vJeVA-qFO6ivFE-hsdciAu3LKnNd63R60RNjBKFZ9gvN4g==
+      - 36EuuqIXOZfai05AIH0UYmYcV02xEAkRz_MVKbnTR8SsQNUBZwVycw==
       X-Amz-Cf-Pop:
       - LHR50-P8
       X-Cache:
@@ -1451,10 +1448,10 @@ interactions:
       content-encoding:
       - gzip
       server:
-      - Apache/2.4.57 (Ubuntu)
+      - Apache/2.4.58 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Sat, 09-Dec-2023 15:51:13 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 31-Dec-2023 15:07:14 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:
@@ -1469,7 +1466,7 @@ interactions:
       accept:
       - '*/*'
       accept-encoding:
-      - gzip, deflate
+      - gzip, deflate, br
       connection:
       - keep-alive
       cookie:
@@ -1477,8 +1474,7 @@ interactions:
       host:
       - api.flickr.com
       user-agent:
-      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
-        hello@flickr.org)
+      - flinumeratr/dev (https://github.com/Flickr-Foundation/flinumeratr; hello@flickr.org)
     method: GET
     uri: https://api.flickr.com/services/rest/?method=flickr.photos.licenses.getInfo
   response:
@@ -1492,8 +1488,6 @@ interactions:
       />\n\t<license id=\"1\" name=\"Attribution-NonCommercial-ShareAlike License\"
       url=\"https://creativecommons.org/licenses/by-nc-sa/2.0/\" />\n\t<license id=\"5\"
       name=\"Attribution-ShareAlike License\" url=\"https://creativecommons.org/licenses/by-sa/2.0/\"
-      />\n\t<license id=\"7\" name=\"No known copyright restrictions\" url=\"https://www.flickr.com/commons/usage/\"
-      />\n\t<license id=\"8\" name=\"United States Government Work\" url=\"http://www.usa.gov/copyright.shtml\"
       />\n\t<license id=\"9\" name=\"Public Domain Dedication (CC0)\" url=\"https://creativecommons.org/publicdomain/zero/1.0/\"
       />\n\t<license id=\"10\" name=\"Public Domain Mark\" url=\"https://creativecommons.org/publicdomain/mark/1.0/\"
       />\n</licenses>\n</rsp>\n"
@@ -1501,15 +1495,15 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '395'
+      - '308'
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Thu, 09 Nov 2023 15:51:14 GMT
+      - Fri, 01 Dec 2023 15:07:15 GMT
       Via:
-      - 1.1 dc5ba6653148afa9504262089bb395dc.cloudfront.net (CloudFront)
+      - 1.1 597c788e23cf83427002ab097f30f484.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - TfwAakq39tuKMeVtDwLefTRF7QWxzoMP2yhHCNJNL6Ntypa-K-Irmg==
+      - MOk2azLWY3Zr0jDSpyAyI94L_PeW6Jhf84tmaSZFEXIPSR4k0n51aw==
       X-Amz-Cf-Pop:
       - LHR50-P8
       X-Cache:
@@ -1517,10 +1511,10 @@ interactions:
       content-encoding:
       - gzip
       server:
-      - Apache/2.4.57 (Ubuntu)
+      - Apache/2.4.58 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Sat, 09-Dec-2023 15:51:14 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 31-Dec-2023 15:07:15 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:

@@ -436,22 +436,37 @@ def test_get_collection_methods_are_paginated(
 @pytest.mark.parametrize(
     ["url", "filename"],
     [
-        ("https://www.flickr.com/photos/coast_guard/32812033543", "32812033543.json"),
-        (
+        pytest.param(
+            "https://www.flickr.com/photos/coast_guard/32812033543",
+            "32812033543.json",
+            id="single_photo",
+        ),
+        pytest.param(
             "https://www.flickr.com/photos/joshuatreenp/albums/72157640898611483",
             "album-72157640898611483.json",
+            id="album",
         ),
-        (
+        pytest.param(
             "https://www.flickr.com/photos/joshuatreenp/albums/72157640898611483/page2",
             "album-72157640898611483-page2.json",
+            id="album-page2",
         ),
-        ("https://www.flickr.com/photos/spike_yun/", "user-spike_yun.json"),
-        (
+        pytest.param(
+            "https://www.flickr.com/photos/spike_yun/", "user-spike_yun.json", id="user"
+        ),
+        pytest.param(
             "https://www.flickr.com/photos/meldaniel/galleries/72157716953066942/",
             "gallery-72157716953066942.json",
+            id="gallery",
         ),
-        ("https://www.flickr.com/groups/geologists/", "group-geologists.json"),
-        ("https://www.flickr.com/photos/tags/botany", "tag-botany.json"),
+        pytest.param(
+            "https://www.flickr.com/groups/geologists/",
+            "group-geologists.json",
+            id="group",
+        ),
+        pytest.param(
+            "https://www.flickr.com/photos/tags/botany", "tag-botany.json", id="tag"
+        ),
     ],
 )
 def test_get_photos_from_flickr_url(
@@ -465,11 +480,17 @@ def test_get_photos_from_flickr_url(
 @pytest.mark.parametrize(
     "url",
     [
-        "https://www.flickr.com/photos/joshuatreenp/albums/72157640898611483",
-        "https://www.flickr.com/photos/spike_yun",
-        "https://www.flickr.com/photos/meldaniel/galleries/72157716953066942",
-        "https://www.flickr.com/groups/geologists/pool",
-        "https://www.flickr.com/photos/tags/botany",
+        pytest.param(
+            "https://www.flickr.com/photos/joshuatreenp/albums/72157640898611483",
+            id="album",
+        ),
+        pytest.param("https://www.flickr.com/photos/spike_yun", id="user"),
+        pytest.param(
+            "https://www.flickr.com/photos/meldaniel/galleries/72157716953066942",
+            id="gallery",
+        ),
+        pytest.param("https://www.flickr.com/groups/geologists/pool", id="group"),
+        pytest.param("https://www.flickr.com/photos/tags/botany", id="tag"),
     ],
 )
 def test_get_photos_from_flickr_url_is_paginated(
