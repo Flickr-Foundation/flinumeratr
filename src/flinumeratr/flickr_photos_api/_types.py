@@ -60,7 +60,6 @@ class SinglePhoto(TypedDict):
     license: License
     url: str
     sizes: list[Size]
-    original_format: str | None
 
 
 class CollectionOfPhotos(TypedDict):
