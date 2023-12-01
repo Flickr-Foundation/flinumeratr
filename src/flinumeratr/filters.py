@@ -1,9 +1,7 @@
-from typing import Optional
-
 from flickr_photos_api import DateTaken
 
 
-def render_date_taken(date_taken: DateTaken) -> Optional[str]:
+def render_date_taken(date_taken: DateTaken) -> str | None:
     if date_taken["unknown"]:
         return None
     elif date_taken["granularity"] == "second":
