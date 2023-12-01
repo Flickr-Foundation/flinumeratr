@@ -1,4 +1,4 @@
-from flickr_photos_api import DateTaken
+from .flickr_photos_api import DateTaken
 
 
 def render_date_taken(date_taken: DateTaken) -> str | None:

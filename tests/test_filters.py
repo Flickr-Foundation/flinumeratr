@@ -1,9 +1,9 @@
 import datetime
 
-from flickr_photos_api import DateTaken
 import pytest
 
 from flinumeratr.filters import render_date_taken
+from flinumeratr.flickr_photos_api import DateTaken
 
 
 @pytest.mark.parametrize(
