@@ -11,8 +11,7 @@
   "date_posted": "2017-03-24T17:27:52+00:00",
   "date_taken": {
     "value": "2017-02-17T00:00:00",
-    "granularity": "second",
-    "unknown": false
+    "granularity": "second"
   },  "license": {
     "id": "usgov",
     "label": "United States Government Work",

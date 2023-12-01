@@ -22,17 +22,9 @@ class User(TypedDict):
 TakenGranularity = Literal["second", "month", "year", "circa"]
 
 
-class KnownDateTaken(TypedDict):
+class DateTaken(TypedDict):
     value: datetime.datetime
     granularity: TakenGranularity
-    unknown: Literal[False]
-
-
-class UnknownDateTaken(TypedDict):
-    unknown: Literal[True]
-
-
-DateTaken = KnownDateTaken | UnknownDateTaken
 
 
 class Size(TypedDict):
@@ -49,7 +41,7 @@ class SinglePhoto(TypedDict):
     description: str | None
     owner: User
     date_posted: datetime.datetime
-    date_taken: DateTaken
+    date_taken: DateTaken | None
     license: License
     url: str
     sizes: list[Size]

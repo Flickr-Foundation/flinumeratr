@@ -14,7 +14,6 @@ from flinumeratr.flickr_photos_api import DateTaken
             {
                 "granularity": "second",
                 "value": datetime.datetime(2023, 2, 20, 23, 31, 31),
-                "unknown": False,
             },
             "on February 20, 2023",
         ),
@@ -23,7 +22,6 @@ from flinumeratr.flickr_photos_api import DateTaken
             {
                 "granularity": "second",
                 "value": datetime.datetime(2014, 3, 7, 11, 44, 16),
-                "unknown": False,
             },
             "on March 7, 2014",
         ),
@@ -32,7 +30,6 @@ from flinumeratr.flickr_photos_api import DateTaken
             {
                 "granularity": "month",
                 "value": datetime.datetime(1970, 3, 1, 0, 0, 0),
-                "unknown": False,
             },
             "in March 1970",
         ),
@@ -41,7 +38,6 @@ from flinumeratr.flickr_photos_api import DateTaken
             {
                 "granularity": "year",
                 "value": datetime.datetime(1950, 1, 1, 0, 0, 0),
-                "unknown": False,
             },
             "sometime in 1950",
         ),
@@ -50,20 +46,14 @@ from flinumeratr.flickr_photos_api import DateTaken
             {
                 "granularity": "circa",
                 "value": datetime.datetime(1910, 1, 1, 0, 0, 0),
-                "unknown": False,
             },
             "circa 1910",
         ),
         # Based on https://www.flickr.com/photos/140375060@N02/25868667441/
-        (
-            {
-                "unknown": True,
-            },
-            None,
-        ),
+        (None, None),
     ],
 )
-def test_render_date_taken(date_taken: DateTaken, expected_output: str) -> None:
+def test_render_date_taken(date_taken: DateTaken | None, expected_output: str) -> None:
     assert render_date_taken(date_taken) == expected_output
 
 

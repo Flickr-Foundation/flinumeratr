@@ -7,8 +7,7 @@
       "date_posted": "2022-09-24T16:14:04+00:00",
       "date_taken": {
         "value": "2022-09-24T17:50:41",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -74,8 +73,7 @@
       "date_posted": "2022-09-29T00:00:52+00:00",
       "date_taken": {
         "value": "2021-08-25T19:27:42",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -148,8 +146,7 @@
       "date_posted": "2022-09-19T21:32:53+00:00",
       "date_taken": {
         "value": "2022-07-25T19:56:03",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -215,8 +212,7 @@
       "date_posted": "2022-09-29T15:19:00+00:00",
       "date_taken": {
         "value": "2022-09-27T19:59:28",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -289,8 +285,7 @@
       "date_posted": "2022-10-06T08:03:00+00:00",
       "date_taken": {
         "value": "2022-08-30T19:44:00",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -363,8 +358,7 @@
       "date_posted": "2022-09-22T13:12:54+00:00",
       "date_taken": {
         "value": "2010-06-19T19:57:41",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -430,8 +424,7 @@
       "date_posted": "2022-10-01T23:52:15+00:00",
       "date_taken": {
         "value": "2021-09-25T17:56:34",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -497,8 +490,7 @@
       "date_posted": "2022-09-30T11:06:23+00:00",
       "date_taken": {
         "value": "2022-09-27T18:16:02",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -564,8 +556,7 @@
       "date_posted": "2022-10-08T17:12:02+00:00",
       "date_taken": {
         "value": "2022-04-30T06:56:09",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -631,8 +622,7 @@
       "date_posted": "2022-10-08T07:38:14+00:00",
       "date_taken": {
         "value": "2018-08-16T20:19:04",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",

@@ -1,10 +1,11 @@
 from .flickr_photos_api import DateTaken
 
 
-def render_date_taken(date_taken: DateTaken) -> str | None:
-    if date_taken["unknown"]:
+def render_date_taken(date_taken: DateTaken | None) -> str | None:
+    if date_taken is None:
         return None
-    elif date_taken["granularity"] == "second":
+
+    if date_taken["granularity"] == "second":
         return f"on {date_taken['value'].strftime('%B %-d, %Y')}"
     elif date_taken["granularity"] == "month":
         return f"in {date_taken['value'].strftime('%B %Y')}"

@@ -5,7 +5,6 @@
       "date_posted": "2018-07-22T00:25:22+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-07-16T16:53:51"
       },
       "description": null,
@@ -79,7 +78,6 @@
       "date_posted": "2018-07-22T00:25:12+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-07-16T16:17:22"
       },
       "description": null,
@@ -153,7 +151,6 @@
       "date_posted": "2018-07-22T00:24:37+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-07-20T14:01:40"
       },
       "description": null,
@@ -225,9 +222,7 @@
     },
     {
       "date_posted": "2018-07-13T03:23:11+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": "Processed with VSCO with a6 preset",
       "id": "29504825658",
       "license": {
@@ -292,7 +287,6 @@
       "date_posted": "2018-06-01T04:41:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-30T14:49:18"
       },
       "description": null,
@@ -366,7 +360,6 @@
       "date_posted": "2018-04-27T07:07:23+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-04-20T09:10:54"
       },
       "description": null,
@@ -440,7 +433,6 @@
       "date_posted": "2018-04-06T12:38:40+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-03-23T21:46:48"
       },
       "description": null,
@@ -514,7 +506,6 @@
       "date_posted": "2018-03-15T06:45:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-02-26T20:22:06"
       },
       "description": null,
@@ -586,9 +577,7 @@
     },
     {
       "date_posted": "2018-02-11T05:26:49+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26324652908",
       "license": {
@@ -660,7 +649,6 @@
       "date_posted": "2017-11-21T16:17:03+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-11-10T17:06:56"
       },
       "description": null,
@@ -734,7 +722,6 @@
       "date_posted": "2017-10-04T09:04:50+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-10-03T03:23:38"
       },
       "description": null,
@@ -808,7 +795,6 @@
       "date_posted": "2017-09-10T03:13:50+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-08-02T15:10:49"
       },
       "description": null,
@@ -882,7 +868,6 @@
       "date_posted": "2017-08-13T11:00:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-07-02T15:04:59"
       },
       "description": null,
@@ -956,7 +941,6 @@
       "date_posted": "2017-06-26T12:50:16+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-06-25T14:21:10"
       },
       "description": null,
@@ -1030,7 +1014,6 @@
       "date_posted": "2017-06-12T12:36:56+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-05-19T00:33:18"
       },
       "description": null,
@@ -1104,7 +1087,6 @@
       "date_posted": "2017-05-09T10:15:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-04-17T16:48:52"
       },
       "description": null,
@@ -1178,7 +1160,6 @@
       "date_posted": "2017-04-14T13:12:56+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T08:30:50"
       },
       "description": null,
@@ -1252,7 +1233,6 @@
       "date_posted": "2017-03-11T13:45:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-07T12:20:58"
       },
       "description": null,
@@ -1326,7 +1306,6 @@
       "date_posted": "2017-02-26T12:08:55+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-12T10:27:15"
       },
       "description": null,
@@ -1400,7 +1379,6 @@
       "date_posted": "2017-02-13T05:17:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-10T11:31:37"
       },
       "description": null,
@@ -1474,7 +1452,6 @@
       "date_posted": "2017-02-09T08:09:21+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-01-21T14:03:10"
       },
       "description": null,
@@ -1548,7 +1525,6 @@
       "date_posted": "2017-02-06T03:54:25+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-06T12:10:39"
       },
       "description": null,
@@ -1622,7 +1598,6 @@
       "date_posted": "2017-01-30T15:11:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-02T09:31:01"
       },
       "description": null,
@@ -1696,7 +1671,6 @@
       "date_posted": "2017-01-12T07:31:29+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-20T18:35:52"
       },
       "description": null,
@@ -1770,7 +1744,6 @@
       "date_posted": "2016-12-20T13:05:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-06T13:28:13"
       },
       "description": null,
@@ -1844,7 +1817,6 @@
       "date_posted": "2016-12-17T11:24:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-07T09:55:26"
       },
       "description": null,
@@ -1918,7 +1890,6 @@
       "date_posted": "2016-12-12T16:36:12+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-06T13:16:46"
       },
       "description": null,
@@ -1992,7 +1963,6 @@
       "date_posted": "2016-12-08T06:40:38+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-11T19:40:39"
       },
       "description": null,
@@ -2066,7 +2036,6 @@
       "date_posted": "2016-12-02T04:54:28+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-17T16:10:51"
       },
       "description": null,
@@ -2140,7 +2109,6 @@
       "date_posted": "2016-11-25T14:30:23+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-21T15:17:46"
       },
       "description": null,
@@ -2214,7 +2182,6 @@
       "date_posted": "2016-11-24T20:01:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-10-24T17:06:43"
       },
       "description": null,
@@ -2288,7 +2255,6 @@
       "date_posted": "2016-11-17T14:46:50+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-15T08:39:44"
       },
       "description": null,
@@ -2362,7 +2328,6 @@
       "date_posted": "2016-11-11T15:25:37+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-05T13:43:00"
       },
       "description": null,
@@ -2436,7 +2401,6 @@
       "date_posted": "2016-10-30T01:49:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-10T18:33:59"
       },
       "description": null,
@@ -2510,7 +2474,6 @@
       "date_posted": "2016-10-26T13:06:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-27T15:11:55"
       },
       "description": null,
@@ -2584,7 +2547,6 @@
       "date_posted": "2016-10-21T12:57:03+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-10-01T18:17:40"
       },
       "description": null,
@@ -2658,7 +2620,6 @@
       "date_posted": "2016-10-19T17:40:31+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-04-12T13:09:41"
       },
       "description": null,
@@ -2732,7 +2693,6 @@
       "date_posted": "2016-10-15T00:36:06+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-04-21T08:55:11"
       },
       "description": null,
@@ -2806,7 +2766,6 @@
       "date_posted": "2016-10-05T01:00:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-10-01T17:39:44"
       },
       "description": null,
@@ -2880,7 +2839,6 @@
       "date_posted": "2016-10-02T21:27:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-14T19:53:06"
       },
       "description": null,
@@ -2954,7 +2912,6 @@
       "date_posted": "2016-09-30T03:48:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-02T09:29:24"
       },
       "description": null,
@@ -3028,7 +2985,6 @@
       "date_posted": "2016-09-28T09:36:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-07T18:50:21"
       },
       "description": null,
@@ -3102,7 +3058,6 @@
       "date_posted": "2016-09-26T06:13:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-05-18T16:11:59"
       },
       "description": null,
@@ -3176,7 +3131,6 @@
       "date_posted": "2016-09-25T01:33:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-01T16:44:40"
       },
       "description": null,
@@ -3250,7 +3204,6 @@
       "date_posted": "2016-09-22T14:28:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-07T20:55:41"
       },
       "description": null,
@@ -3324,7 +3277,6 @@
       "date_posted": "2016-09-20T02:02:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-16T17:28:21"
       },
       "description": null,
@@ -3398,7 +3350,6 @@
       "date_posted": "2016-09-17T10:49:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-19T12:44:27"
       },
       "description": null,
@@ -3472,7 +3423,6 @@
       "date_posted": "2016-09-05T02:51:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-27T00:00:00"
       },
       "description": null,
@@ -3546,7 +3496,6 @@
       "date_posted": "2016-09-03T10:00:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-03T04:38:32"
       },
       "description": null,
@@ -3620,7 +3569,6 @@
       "date_posted": "2016-09-02T08:09:08+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-27T18:50:52"
       },
       "description": null,
@@ -3694,7 +3642,6 @@
       "date_posted": "2016-08-27T13:00:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-12-20T12:12:00"
       },
       "description": null,
@@ -3768,7 +3715,6 @@
       "date_posted": "2016-08-24T05:35:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-12-18T10:40:40"
       },
       "description": null,
@@ -3842,7 +3788,6 @@
       "date_posted": "2016-08-22T14:17:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-19T17:08:40"
       },
       "description": null,
@@ -3916,7 +3861,6 @@
       "date_posted": "2016-08-13T06:36:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-19T16:41:12"
       },
       "description": null,
@@ -3990,7 +3934,6 @@
       "date_posted": "2016-08-11T04:38:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-11T08:40:56"
       },
       "description": null,
@@ -4064,7 +4007,6 @@
       "date_posted": "2016-08-09T11:36:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-11T16:33:09"
       },
       "description": null,
@@ -4138,7 +4080,6 @@
       "date_posted": "2016-08-07T12:14:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-25T20:48:32"
       },
       "description": null,
@@ -4212,7 +4153,6 @@
       "date_posted": "2016-07-29T17:33:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-07-11T18:23:34"
       },
       "description": null,
@@ -4286,7 +4226,6 @@
       "date_posted": "2016-07-21T16:48:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-29T08:44:55"
       },
       "description": null,
@@ -4360,7 +4299,6 @@
       "date_posted": "2016-07-20T16:31:53+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-28T17:11:08"
       },
       "description": null,
@@ -4434,7 +4372,6 @@
       "date_posted": "2016-07-09T12:44:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-01T19:28:09"
       },
       "description": null,
@@ -4508,7 +4445,6 @@
       "date_posted": "2016-07-07T13:40:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-06T20:32:32"
       },
       "description": null,
@@ -4582,7 +4518,6 @@
       "date_posted": "2016-07-06T12:32:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-31T12:19:12"
       },
       "description": null,
@@ -4656,7 +4591,6 @@
       "date_posted": "2016-06-30T11:41:42+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-06T21:09:37"
       },
       "description": null,
@@ -4730,7 +4664,6 @@
       "date_posted": "2016-06-27T12:47:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-18T10:26:57"
       },
       "description": null,
@@ -4804,7 +4737,6 @@
       "date_posted": "2016-06-26T15:14:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-01T18:59:45"
       },
       "description": null,
@@ -4878,7 +4810,6 @@
       "date_posted": "2016-06-25T10:32:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-01T12:26:44"
       },
       "description": null,
@@ -4952,7 +4883,6 @@
       "date_posted": "2016-06-22T10:31:57+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-01T11:54:06"
       },
       "description": null,
@@ -5026,7 +4956,6 @@
       "date_posted": "2016-06-18T05:11:30+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-27T18:37:26"
       },
       "description": null,
@@ -5100,7 +5029,6 @@
       "date_posted": "2016-06-16T09:27:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-06-01T11:56:29"
       },
       "description": null,
@@ -5174,7 +5102,6 @@
       "date_posted": "2016-06-13T15:27:42+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-29T08:08:57"
       },
       "description": null,
@@ -5248,7 +5175,6 @@
       "date_posted": "2016-06-12T14:05:59+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-30T20:42:13"
       },
       "description": null,
@@ -5322,7 +5248,6 @@
       "date_posted": "2016-06-11T12:10:10+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-30T21:40:45"
       },
       "description": null,
@@ -5396,7 +5321,6 @@
       "date_posted": "2016-06-09T18:13:14+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-29T08:43:12"
       },
       "description": null,
@@ -5468,9 +5392,7 @@
     },
     {
       "date_posted": "2016-06-07T01:56:07+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26904502223",
       "license": {
@@ -5540,9 +5462,7 @@
     },
     {
       "date_posted": "2016-06-04T11:04:16+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "27381362431",
       "license": {
@@ -5612,9 +5532,7 @@
     },
     {
       "date_posted": "2016-06-02T06:13:15+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26802355554",
       "license": {
@@ -5684,9 +5602,7 @@
     },
     {
       "date_posted": "2016-05-29T17:01:19+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "27297648756",
       "license": {
@@ -5758,7 +5674,6 @@
       "date_posted": "2016-05-27T06:50:54+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-18T10:58:12"
       },
       "description": null,
@@ -5832,7 +5747,6 @@
       "date_posted": "2016-05-24T13:22:14+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-08T18:29:09"
       },
       "description": null,
@@ -5906,7 +5820,6 @@
       "date_posted": "2016-05-10T06:25:25+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-05-01T19:22:59"
       },
       "description": null,
@@ -5978,9 +5891,7 @@
     },
     {
       "date_posted": "2016-05-06T11:33:15+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26244647173",
       "license": {
@@ -6050,9 +5961,7 @@
     },
     {
       "date_posted": "2016-05-04T06:24:28+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26201626284",
       "license": {
@@ -6122,9 +6031,7 @@
     },
     {
       "date_posted": "2016-04-29T14:33:38+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26619210042",
       "license": {
@@ -6194,9 +6101,7 @@
     },
     {
       "date_posted": "2016-04-28T13:39:24+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26667270356",
       "license": {
@@ -6266,9 +6171,7 @@
     },
     {
       "date_posted": "2016-04-28T01:30:41+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26659073406",
       "license": {
@@ -6338,9 +6241,7 @@
     },
     {
       "date_posted": "2016-04-26T23:55:38+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26666607855",
       "license": {
@@ -6410,9 +6311,7 @@
     },
     {
       "date_posted": "2016-04-26T04:01:16+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26046664843",
       "license": {
@@ -6482,9 +6381,7 @@
     },
     {
       "date_posted": "2016-04-25T14:46:35+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26573015011",
       "license": {
@@ -6554,9 +6451,7 @@
     },
     {
       "date_posted": "2016-04-24T13:52:26+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26589057906",
       "license": {
@@ -6626,9 +6521,7 @@
     },
     {
       "date_posted": "2016-04-22T09:53:34+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25970533723",
       "license": {
@@ -6698,9 +6591,7 @@
     },
     {
       "date_posted": "2016-04-16T14:41:39+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26189109980",
       "license": {
@@ -6770,9 +6661,7 @@
     },
     {
       "date_posted": "2016-04-12T15:44:17+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "26118240480",
       "license": {
@@ -6842,9 +6731,7 @@
     },
     {
       "date_posted": "2016-03-22T12:14:43+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25983685815",
       "license": {
@@ -6914,9 +6801,7 @@
     },
     {
       "date_posted": "2016-03-12T19:49:12+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25107224203",
       "license": {
@@ -6986,9 +6871,7 @@
     },
     {
       "date_posted": "2016-03-11T19:01:17+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25405437990",
       "license": {
@@ -7058,9 +6941,7 @@
     },
     {
       "date_posted": "2016-03-05T11:47:04+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25523348695",
       "license": {
@@ -7130,9 +7011,7 @@
     },
     {
       "date_posted": "2016-03-03T16:05:09+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25355271842",
       "license": {
@@ -7202,9 +7081,7 @@
     },
     {
       "date_posted": "2016-03-01T20:44:25+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "25392224626",
       "license": {
@@ -7274,9 +7151,7 @@
     },
     {
       "date_posted": "2016-02-29T08:27:46+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "description": null,
       "id": "24742680143",
       "license": {

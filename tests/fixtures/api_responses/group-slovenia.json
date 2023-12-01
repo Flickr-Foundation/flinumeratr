@@ -7,8 +7,7 @@
       "date_posted": "2023-11-05T14:45:35+00:00",
       "date_taken": {
         "value": "2019-07-03T13:32:26",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -81,8 +80,7 @@
       "date_posted": "2023-11-05T09:19:56+00:00",
       "date_taken": {
         "value": "2023-10-05T14:52:24",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -148,8 +146,7 @@
       "date_posted": "2023-11-04T06:34:59+00:00",
       "date_taken": {
         "value": "2022-06-19T05:18:33",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -215,8 +212,7 @@
       "date_posted": "2023-11-03T22:49:58+00:00",
       "date_taken": {
         "value": "2021-10-19T09:59:06",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -280,9 +276,7 @@
       "title": "Kungoski parkli  (Photo Edi)",
       "description": "Cette année, pour la troisième fois, vous êtes cordialement invités au festival Parkl dans le cadre du festival Happy Décembre à Zgornja Kungota, où vous recevrez la visite du Parkl de Kungo avec ses amis Schmirnberg Teifln, les Diables du Feu et le bon homme Saint Nicolas. .\n\nTo leto že tretjič vljudno vabljeni na Parkl fest v sklopu festivala Veseli december v Zgornjo Kungoto, kjer vas bodo obiskali Kungoški parkli s prijatelji Schmirnberg Teifln, Fire Devils in dober mož Sveti Miklavž.",
       "date_posted": "2023-11-01T20:37:04+00:00",
-      "date_taken": {
-        "unknown": true
-      },
+      "date_taken": null,
       "license": {
         "id": "in-copyright",
         "label": "All Rights Reserved",
@@ -347,8 +341,7 @@
       "date_posted": "2023-11-01T09:51:42+00:00",
       "date_taken": {
         "value": "2020-05-30T13:37:23",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -414,8 +407,7 @@
       "date_posted": "2023-10-31T19:49:10+00:00",
       "date_taken": {
         "value": "2023-08-31T07:01:59",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -488,8 +480,7 @@
       "date_posted": "2023-07-22T05:29:15+00:00",
       "date_taken": {
         "value": "2023-07-06T16:09:44",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -562,8 +553,7 @@
       "date_posted": "2023-10-31T08:46:43+00:00",
       "date_taken": {
         "value": "2019-10-31T21:16:15",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",
@@ -629,8 +619,7 @@
       "date_posted": "2023-10-21T08:46:56+00:00",
       "date_taken": {
         "value": "2023-10-12T09:02:03",
-        "granularity": "second",
-        "unknown": false
+        "granularity": "second"
       },
       "license": {
         "id": "in-copyright",

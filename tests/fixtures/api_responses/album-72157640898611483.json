@@ -15,7 +15,6 @@
       "date_posted": "2019-11-06T00:55:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T16:59:38"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt Text: An owl with closed eyes near the top of a palm tree.",
@@ -89,7 +88,6 @@
       "date_posted": "2019-11-06T00:55:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T16:51:32"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt Text: An owl near the top of a palm tree.",
@@ -163,7 +161,6 @@
       "date_posted": "2019-11-06T00:55:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T16:47:41"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt Text: An owl near the top of a palm tree.",
@@ -237,7 +234,6 @@
       "date_posted": "2019-11-06T00:55:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T16:36:08"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt Text: An owl near the top of a palm tree.",
@@ -311,7 +307,6 @@
       "date_posted": "2019-11-06T00:55:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T16:31:56"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt Text: An owl with closed eyes near the top of a palm tree.",
@@ -385,7 +380,6 @@
       "date_posted": "2019-10-31T18:55:19+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T15:09:01"
       },
       "description": "NPS / Alessandra Puig-Santana\n\nAlt text: A barn owl (Tyto alba) with his head looking back near the top of a palm tree.",
@@ -459,7 +453,6 @@
       "date_posted": "2019-10-31T18:55:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-10-29T15:01:19"
       },
       "description": "NPS / Alessandra Puig-Santana\n\nAlt text: An owl with closed eyes near the top of a palm tree.",
@@ -533,7 +526,6 @@
       "date_posted": "2019-04-25T23:46:53+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-04-16T16:28:22"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: Small baby birds nestle in a round nest made of twigs within a spiky cholla cactus.",
@@ -607,7 +599,6 @@
       "date_posted": "2019-04-25T23:46:54+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-04-16T16:28:16"
       },
       "description": "NPS / Renata Harrison",
@@ -681,7 +672,6 @@
       "date_posted": "2019-04-25T23:46:54+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-04-08T19:28:49"
       },
       "description": "NPS / Renata Harrison",
@@ -755,7 +745,6 @@
       "date_posted": "2019-04-25T23:46:55+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-04-08T19:28:33"
       },
       "description": "NPS / Renata Harrison",
@@ -829,7 +818,6 @@
       "date_posted": "2019-03-20T23:44:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-03-15T09:58:11"
       },
       "description": "NPS/ Shay Spatz",
@@ -903,7 +891,6 @@
       "date_posted": "2019-03-20T23:35:29+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-03-15T09:28:34"
       },
       "description": "NPS/ Shay Spatz",
@@ -970,7 +957,6 @@
       "date_posted": "2019-04-27T21:27:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-03-07T11:36:02"
       },
       "description": "NPS / Renata Harrison",
@@ -1044,7 +1030,6 @@
       "date_posted": "2019-04-27T21:35:22+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-03-04T13:32:04"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A roadrunner perches on a branch holding a lizard with its beak.",
@@ -1118,7 +1103,6 @@
       "date_posted": "2019-04-27T21:31:37+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-03-02T18:14:10"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A hummingbird sits in her nest among a tangle of green branches.",
@@ -1192,7 +1176,6 @@
       "date_posted": "2019-04-16T23:40:23+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-21T08:48:44"
       },
       "description": "NPS / Glauco Puig-Santana\n\nIt's important to drive slowly in the park, especially at night when wildlife are active but difficult to see.",
@@ -1266,7 +1249,6 @@
       "date_posted": "2019-04-16T23:40:22+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-21T08:47:48"
       },
       "description": "NPS / Glauco Puig-Santana\nIt's important to drive slowly in the park, especially at night when wildlife are active but difficult to see.",
@@ -1340,7 +1322,6 @@
       "date_posted": "2019-04-16T23:40:22+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-21T08:47:28"
       },
       "description": "NPS / Glauco Puig-Santana\nIt's important to drive slowly in the park, especially at night when wildlife are active but difficult to see.",
@@ -1414,7 +1395,6 @@
       "date_posted": "2019-04-16T23:40:21+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-21T08:45:01"
       },
       "description": "NPS / Glauco Puig-Santana",
@@ -1488,7 +1468,6 @@
       "date_posted": "2019-04-16T23:40:20+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-21T08:44:12"
       },
       "description": "NPS / Glauco Puig-Santana",
@@ -1562,7 +1541,6 @@
       "date_posted": "2019-04-16T23:40:19+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-21T08:43:25"
       },
       "description": "NPS / Glauco Puig-Santana",
@@ -1636,7 +1614,6 @@
       "date_posted": "2019-04-27T21:27:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-17T09:13:31"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A quail perches on a branch surrounded by green desert vegetation.",
@@ -1710,7 +1687,6 @@
       "date_posted": "2019-04-27T21:33:42+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-17T09:04:25"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: Two northern flickers sit in palm fronds over a cluster of palm fruit.",
@@ -1784,7 +1760,6 @@
       "date_posted": "2019-04-27T21:36:36+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-17T09:01:48"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A white-crowned sparrow happily hops with a small round object in its mouth.",
@@ -1858,7 +1833,6 @@
       "date_posted": "2019-04-27T21:22:37+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-17T08:47:07"
       },
       "description": "NPS / Renata Harrison",
@@ -1932,7 +1906,6 @@
       "date_posted": "2019-04-27T21:22:37+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-17T08:47:07"
       },
       "description": "NPS / Renata Harrison",
@@ -2006,7 +1979,6 @@
       "date_posted": "2019-04-27T21:22:36+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-17T08:46:43"
       },
       "description": "NPS / Renata Harrison",
@@ -2080,7 +2052,6 @@
       "date_posted": "2019-04-27T21:24:59+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-10T08:40:44"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: a hawk with brown and white feathers perches on a branch of a fan palm tree.",
@@ -2154,7 +2125,6 @@
       "date_posted": "2019-04-27T21:25:00+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-10T08:38:37"
       },
       "description": "NPS / Renata Harrison",
@@ -2228,7 +2198,6 @@
       "date_posted": "2019-04-27T21:25:01+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-10T08:38:36"
       },
       "description": "NPS / Renata Harrison",
@@ -2302,7 +2271,6 @@
       "date_posted": "2019-04-27T21:29:26+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-02-02T17:49:07"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A white great egret stands among creosote on a rainy day.",
@@ -2376,7 +2344,6 @@
       "date_posted": "2019-04-27T21:31:38+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-12-16T12:53:53"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A Costa's hummingbird hovers above wildflowers and drinks nectar.",
@@ -2450,7 +2417,6 @@
       "date_posted": "2019-04-27T21:27:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-12-15T16:25:15"
       },
       "description": "NPS / Renata Harrison",
@@ -2524,7 +2490,6 @@
       "date_posted": "2019-04-27T21:27:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-12-15T15:16:34"
       },
       "description": "NPS / Renata Harrison",
@@ -2598,7 +2563,6 @@
       "date_posted": "2019-04-27T21:27:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-12-15T14:28:02"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A quail, mid-stride and suspended in mid-air, runs across a paved path.\n",
@@ -2672,7 +2636,6 @@
       "date_posted": "2019-04-27T21:31:38+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-11-19T15:41:45"
       },
       "description": "NPS / Renata Harrison\n\nAlt text: A tiny Costa's hummingbird sits on a far-off branch against a vast gray sky.",
@@ -2746,7 +2709,6 @@
       "date_posted": "2018-10-25T23:19:28+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-09T19:16:28"
       },
       "description": "NPS / Hannah Schwalbe\n\n",
@@ -2820,7 +2782,6 @@
       "date_posted": "2018-10-25T23:19:28+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-09T19:15:23"
       },
       "description": "NPS / Hannah Schwalbe\n\n",
@@ -2894,7 +2855,6 @@
       "date_posted": "2018-10-25T23:19:27+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-09T19:15:04"
       },
       "description": "NPS / Hannah Schwalbe\n\n",
@@ -2968,7 +2928,6 @@
       "date_posted": "2018-10-25T23:19:27+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-09T18:47:06"
       },
       "description": "NPS / Hannah Schwalbe\n\nThe Greater Yellowleg is a rare sight in the park. This one was likely migrating through in the late spring and stopped at Barker Dam for food and a drink.  \n\nAlt text: A white and brown speckled shorebird with yellow legs walks through shallow water. ",
@@ -3042,7 +3001,6 @@
       "date_posted": "2018-10-25T23:19:26+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-09T18:47:03"
       },
       "description": "NPS / Hannah Schwalbe\n\nThe Greater Yellowleg is a rare sight in the park. This one was likely migrating through in the late spring and stopped at Barker Dam for food and a drink.  \n\nAlt text: A brown and white speckled shorebird with a long bill and long yellow legs dips its bill into shallow water, looking for food.",
@@ -3116,7 +3074,6 @@
       "date_posted": "2018-10-25T23:19:26+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2018-05-09T18:47:00"
       },
       "description": "NPS / Hannah Schwalbe\n\nThe Greater Yellowleg is a rare sight in the park. This one was likely migrating through in the late spring and stopped at Barker Dam for food and a drink.  ",
@@ -3190,7 +3147,6 @@
       "date_posted": "2017-10-31T17:43:44+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-10-30T17:28:31"
       },
       "description": "NPS / Glauco Puig-Santana\n\nAlt text: A tiny green costa's hummingbird with a purple head sits atop a small twig.",
@@ -3264,7 +3220,6 @@
       "date_posted": "2017-08-19T22:45:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-05-04T15:15:21"
       },
       "description": "Perched just outside the park's West Boundary. Owls are some of the harder to spot park inhabitants. \n\nNPS/Hannah Schwalbe",
@@ -3338,7 +3293,6 @@
       "date_posted": "2017-08-28T20:14:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-04-27T18:22:53"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt text: a bird with brown feathers perches on top of green spikes from a Joshua tree.",
@@ -3412,7 +3366,6 @@
       "date_posted": "2017-08-28T20:14:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-04-27T18:22:50"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -3486,7 +3439,6 @@
       "date_posted": "2017-08-28T20:14:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-04-27T18:21:12"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt text: a bird with disorganized brown feathers perches on top of green spikes from a Joshua tree.",
@@ -3560,7 +3512,6 @@
       "date_posted": "2017-04-10T21:07:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-23T18:09:14"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -3634,7 +3585,6 @@
       "date_posted": "2017-03-31T22:25:14+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:36:42"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -3708,7 +3658,6 @@
       "date_posted": "2017-03-31T22:25:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:35:53"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -3782,7 +3731,6 @@
       "date_posted": "2017-03-31T22:25:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:35:41"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -3856,7 +3804,6 @@
       "date_posted": "2017-03-31T22:25:10+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:35:35"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -3930,7 +3877,6 @@
       "date_posted": "2017-03-31T22:25:12+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:35:25"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -4004,7 +3950,6 @@
       "date_posted": "2017-03-31T22:25:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:34:31"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -4078,7 +4023,6 @@
       "date_posted": "2017-03-31T22:25:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:29:58"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -4152,7 +4096,6 @@
       "date_posted": "2017-03-31T22:25:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:29:55"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -4226,7 +4169,6 @@
       "date_posted": "2017-03-31T22:25:10+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-22T09:10:51"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -4300,7 +4242,6 @@
       "date_posted": "2017-03-17T20:32:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-15T11:56:05"
       },
       "description": "NPS/Brad Sutton",
@@ -4374,7 +4315,6 @@
       "date_posted": "2017-03-17T20:32:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-15T11:52:10"
       },
       "description": "NPS/Brad Sutton",
@@ -4448,7 +4388,6 @@
       "date_posted": "2017-03-16T19:11:19+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T17:38:04"
       },
       "description": "NPS/Brad Sutton",
@@ -4522,7 +4461,6 @@
       "date_posted": "2017-03-16T19:11:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T17:37:48"
       },
       "description": "NPS/Brad Sutton",
@@ -4596,7 +4534,6 @@
       "date_posted": "2017-03-16T19:11:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T17:36:52"
       },
       "description": "NPS/Brad Sutton",
@@ -4670,7 +4607,6 @@
       "date_posted": "2017-03-16T19:11:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T17:36:38"
       },
       "description": "NPS/Brad Sutton",
@@ -4744,7 +4680,6 @@
       "date_posted": "2017-03-16T19:11:16+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T16:54:36"
       },
       "description": "NPS/Brad Sutton",
@@ -4818,7 +4753,6 @@
       "date_posted": "2017-03-16T19:11:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T16:49:49"
       },
       "description": "NPS/Brad Sutton",
@@ -4892,7 +4826,6 @@
       "date_posted": "2017-03-16T19:11:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T16:46:14"
       },
       "description": "NPS/Brad Sutton",
@@ -4966,7 +4899,6 @@
       "date_posted": "2017-03-16T19:11:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T16:42:17"
       },
       "description": "NPS/Brad Sutton",
@@ -5040,7 +4972,6 @@
       "date_posted": "2017-03-16T19:11:19+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-03-08T16:42:06"
       },
       "description": "NPS/Brad Sutton",
@@ -5114,7 +5045,6 @@
       "date_posted": "2017-02-18T22:04:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2017-02-03T15:29:00"
       },
       "description": "NPS / Brad Sutton",
@@ -5188,7 +5118,6 @@
       "date_posted": "2016-12-07T21:01:12+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-06T15:01:27"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5262,7 +5191,6 @@
       "date_posted": "2016-12-07T21:01:12+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-06T15:01:07"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5336,7 +5264,6 @@
       "date_posted": "2016-12-07T21:01:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-06T13:08:35"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5410,7 +5337,6 @@
       "date_posted": "2016-12-07T21:01:09+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-06T12:01:07"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5484,7 +5410,6 @@
       "date_posted": "2016-12-07T21:01:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-06T09:57:28"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5558,7 +5483,6 @@
       "date_posted": "2016-12-07T21:01:16+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-06T09:57:18"
       },
       "description": "NPS/Hannah Schwalbe\n\nAlt text: A hawk sitting on top of a large boulder against a blue sky.",
@@ -5632,7 +5556,6 @@
       "date_posted": "2016-12-07T21:01:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-04T13:40:15"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5706,7 +5629,6 @@
       "date_posted": "2016-12-07T21:01:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-04T13:38:37"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5780,7 +5702,6 @@
       "date_posted": "2016-12-07T21:01:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-04T13:34:45"
       },
       "description": "NPS / Hannah Schwalbe\n\nAlt text: A greater roadrunner (Geococcyx californianus) stands on sandy ground as its tailfeathers are illuminated shades of blue and green by the sun.\n\nRoadrunner tail feathers typically look black, but in just the right light multiple colors can be seen. ",
@@ -5854,7 +5775,6 @@
       "date_posted": "2016-12-07T21:01:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-04T12:23:12"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -5928,7 +5848,6 @@
       "date_posted": "2016-12-07T21:01:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-12-04T11:26:40"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -6002,7 +5921,6 @@
       "date_posted": "2016-12-01T23:53:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-29T15:17:16"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -6076,7 +5994,6 @@
       "date_posted": "2016-12-01T23:53:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-29T15:04:57"
       },
       "description": "Many animals eat the fruit of the desert palm tree including this white-crowned sparrow. \n\nNPS/Hannah Schwalbe",
@@ -6150,7 +6067,6 @@
       "date_posted": "2016-12-01T23:53:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-29T15:04:56"
       },
       "description": "Many animals eat the fruit of the desert palm tree including this juvenile white-crowned sparrow. \n\nNPS / Hannah Schwalbe",
@@ -6224,7 +6140,6 @@
       "date_posted": "2016-12-01T23:53:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-11-29T15:02:13"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -6298,7 +6213,6 @@
       "date_posted": "2016-10-18T17:14:39+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-10-12T17:03:45"
       },
       "description": "NPS/Brad Sutton",
@@ -6372,7 +6286,6 @@
       "date_posted": "2016-09-21T19:15:28+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-02-25T17:56:20"
       },
       "description": "NPS/Brad Sutton",
@@ -6446,7 +6359,6 @@
       "date_posted": "2016-09-21T21:50:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-02-25T17:54:49"
       },
       "description": "NPS/Brad Sutton",
@@ -6520,7 +6432,6 @@
       "date_posted": "2016-02-08T01:15:37+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2016-02-02T17:29:00"
       },
       "description": "NPS/ Hannah Schwalbe",
@@ -6594,7 +6505,6 @@
       "date_posted": "2015-10-07T15:43:26+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:57:35"
       },
       "description": "NPS/Brad Sutton",
@@ -6668,7 +6578,6 @@
       "date_posted": "2015-10-07T15:43:26+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:56:53"
       },
       "description": "NPS/Brad Sutton",
@@ -6742,7 +6651,6 @@
       "date_posted": "2015-10-07T15:43:25+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:55:39"
       },
       "description": "NPS/Brad Sutton",
@@ -6816,7 +6724,6 @@
       "date_posted": "2015-10-07T15:43:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:55:14"
       },
       "description": "NPS/Brad Sutton",
@@ -6890,7 +6797,6 @@
       "date_posted": "2015-10-07T15:43:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:53:19"
       },
       "description": "NPS/Brad Sutton",
@@ -6964,7 +6870,6 @@
       "date_posted": "2015-10-07T15:43:33+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:51:34"
       },
       "description": "NPS/Brad Sutton",
@@ -7038,7 +6943,6 @@
       "date_posted": "2015-10-07T15:43:33+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:51:04"
       },
       "description": "NPS/Brad Sutton",
@@ -7112,7 +7016,6 @@
       "date_posted": "2015-10-07T15:43:32+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:50:56"
       },
       "description": "NPS/Brad Sutton",
@@ -7186,7 +7089,6 @@
       "date_posted": "2015-10-07T15:43:31+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:49:58"
       },
       "description": "NPS/Brad Sutton",
@@ -7260,7 +7162,6 @@
       "date_posted": "2015-10-07T15:43:31+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:48:50"
       },
       "description": "NPS/Brad Sutton",
@@ -7334,7 +7235,6 @@
       "date_posted": "2015-10-07T15:43:30+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:48:19"
       },
       "description": "NPS/Brad Sutton",

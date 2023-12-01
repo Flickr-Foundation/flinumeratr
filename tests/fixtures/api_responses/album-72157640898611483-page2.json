@@ -15,7 +15,6 @@
       "date_posted": "2015-10-07T15:43:29+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:47:24"
       },
       "description": "NPS/Brad Sutton",
@@ -89,7 +88,6 @@
       "date_posted": "2015-10-07T15:43:28+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:47:09"
       },
       "description": "NPS/Brad Sutton",
@@ -163,7 +161,6 @@
       "date_posted": "2015-10-07T15:43:27+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-10-06T17:45:54"
       },
       "description": "NPS/Brad Sutton",
@@ -237,7 +234,6 @@
       "date_posted": "2016-12-07T21:01:08+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-09-17T09:06:44"
       },
       "description": "NPS/Hannah Schwalbe",
@@ -311,7 +307,6 @@
       "date_posted": "2015-12-18T18:28:25+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-09-15T12:18:35"
       },
       "description": "[NPS/Hannah Schwalbe]",
@@ -385,7 +380,6 @@
       "date_posted": "2015-10-02T19:25:57+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-09-11T09:28:13"
       },
       "description": "NPS/Brad Sutton",
@@ -459,7 +453,6 @@
       "date_posted": "2015-05-12T22:05:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-05-09T13:58:49"
       },
       "description": "NPS/Brad Sutton",
@@ -533,7 +526,6 @@
       "date_posted": "2015-05-12T22:05:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-05-09T13:58:02"
       },
       "description": "NPS/Brad Sutton\n\nAlt text: A cactus wren clings to the spiky outer layer of a Joshua tree and looks inquisitively at the trunk.",
@@ -607,7 +599,6 @@
       "date_posted": "2015-04-28T19:50:57+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-31T11:16:55"
       },
       "description": "NPS/Kurt Moses",
@@ -681,7 +672,6 @@
       "date_posted": "2015-04-28T19:50:55+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-31T09:09:30"
       },
       "description": "NPS/Kurt Moses",
@@ -755,7 +745,6 @@
       "date_posted": "2015-04-06T19:12:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-23T00:12:45"
       },
       "description": "NPS/Lian Law",
@@ -829,7 +818,6 @@
       "date_posted": "2015-03-26T18:55:09+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-18T02:55:24"
       },
       "description": "NPS / Brad Sutton\n\nAlt text: A bird with a beige breast, striking dark throat, and bright white stripes on its face perches on a yucca plant.",
@@ -903,7 +891,6 @@
       "date_posted": "2015-03-26T18:55:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-18T02:02:38"
       },
       "description": "NPS/Brad Sutton",
@@ -977,7 +964,6 @@
       "date_posted": "2015-03-16T22:42:44+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-10T05:08:57"
       },
       "description": "NPS/Brad Sutton",
@@ -1051,7 +1037,6 @@
       "date_posted": "2015-03-16T22:42:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-10T05:08:57"
       },
       "description": "NPS/Brad Sutton",
@@ -1125,7 +1110,6 @@
       "date_posted": "2015-03-16T22:42:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-03-10T04:49:36"
       },
       "description": "NPS/Brad Sutton",
@@ -1199,7 +1183,6 @@
       "date_posted": "2015-02-19T20:16:29+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2015-02-18T14:39:59"
       },
       "description": "NPS/Brad Sutton",
@@ -1273,7 +1256,6 @@
       "date_posted": "2015-01-17T23:24:24+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-12-31T07:47:26"
       },
       "description": "NPS/Brad Sutton",
@@ -1347,7 +1329,6 @@
       "date_posted": "2015-03-26T18:55:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-12-07T13:54:14"
       },
       "description": "NPS/Brad Sutton",
@@ -1421,7 +1402,6 @@
       "date_posted": "2017-10-25T17:06:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-11-04T11:34:47"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A beige cedar waxwing, with distinctive black mask, tall crest, and yellow tail tip, perches on a thorny branch.",
@@ -1495,7 +1475,6 @@
       "date_posted": "2014-08-22T21:40:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-08-06T09:12:00"
       },
       "description": "NPS / Cathy Bell\n\nAlt text: A black-throated sparrow with black feathers on its throat and gray and white feathers on its body sits in a catclaw bush.",
@@ -1569,7 +1548,6 @@
       "date_posted": "2014-11-08T00:54:41+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-06-26T14:05:15"
       },
       "description": "NPS/Brad Sutton",
@@ -1643,7 +1621,6 @@
       "date_posted": "2014-11-08T00:54:41+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-06-26T14:04:32"
       },
       "description": "NPS/Brad Sutton",
@@ -1717,7 +1694,6 @@
       "date_posted": "2015-08-20T19:39:10+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-05-12T09:59:08"
       },
       "description": "NPS/Brad Sutton",
@@ -1791,7 +1767,6 @@
       "date_posted": "2015-09-10T18:43:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-05-12T09:55:19"
       },
       "description": "NPS/Brad Sutton",
@@ -1865,7 +1840,6 @@
       "date_posted": "2015-09-10T18:43:14+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-05-12T08:51:34"
       },
       "description": "NPS/Brad Sutton",
@@ -1939,7 +1913,6 @@
       "date_posted": "2014-05-20T20:04:03+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-05-01T14:08:27"
       },
       "description": "NPS/Andrew Eberly",
@@ -2013,7 +1986,6 @@
       "date_posted": "2014-05-20T20:03:42+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-04-06T09:54:50"
       },
       "description": "NPS / Brad Sutton\n\nAlt text: A brown, furry, dead tarantula spider is skewered on a spine of a Mojave yucca plant.",
@@ -2087,7 +2059,6 @@
       "date_posted": "2015-08-20T20:07:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-11T03:29:34"
       },
       "description": "NPS/Brad Sutton",
@@ -2161,7 +2132,6 @@
       "date_posted": "2015-08-20T19:39:08+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-05T16:59:15"
       },
       "description": "NPS / Brad Sutton\n\nAlt text: A ladder-backed woodpecker (Picoides scalaris) with black and white striped feathers clings to the trunk of a Joshua tree.",
@@ -2235,7 +2205,6 @@
       "date_posted": "2015-08-20T19:39:09+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:53:34"
       },
       "description": "NPS / Brad Sutton\n\nAlt text: A cactus wren (Campylorhynchus brunneicapillus) with brown and white spotted feathers clings to the spiky top of a teddybear cholla.",
@@ -2309,7 +2278,6 @@
       "date_posted": "2014-03-05T00:01:19+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:52:12"
       },
       "description": "NPS Photo",
@@ -2383,7 +2351,6 @@
       "date_posted": "2015-08-20T19:39:09+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:48:45"
       },
       "description": "NPS/Brad Sutton",
@@ -2457,7 +2424,6 @@
       "date_posted": "2014-03-05T00:01:18+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:44:35"
       },
       "description": "NPS Photo",
@@ -2531,7 +2497,6 @@
       "date_posted": "2014-03-05T00:01:17+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:39:53"
       },
       "description": "NPS Photo",
@@ -2605,7 +2570,6 @@
       "date_posted": "2014-03-05T00:01:16+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:39:43"
       },
       "description": "NPS Photo",
@@ -2679,7 +2643,6 @@
       "date_posted": "2014-03-05T00:01:15+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:35:25"
       },
       "description": "NPS Photo",
@@ -2753,7 +2716,6 @@
       "date_posted": "2014-03-05T00:01:14+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:34:52"
       },
       "description": "NPS Photo",
@@ -2827,7 +2789,6 @@
       "date_posted": "2014-03-05T00:01:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:34:51"
       },
       "description": "NPS Photo",
@@ -2901,7 +2862,6 @@
       "date_posted": "2014-03-05T00:01:13+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:30:29"
       },
       "description": "NPS Photo",
@@ -2975,7 +2935,6 @@
       "date_posted": "2014-03-05T00:01:12+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T12:30:18"
       },
       "description": "NPS Photo",
@@ -3049,7 +3008,6 @@
       "date_posted": "2014-03-05T00:01:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T11:12:04"
       },
       "description": "NPS Photo",
@@ -3123,7 +3081,6 @@
       "date_posted": "2014-03-05T00:01:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-03-03T11:11:43"
       },
       "description": "NPS Photo",
@@ -3197,7 +3154,6 @@
       "date_posted": "2014-03-05T00:01:11+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-28T15:31:53"
       },
       "description": "NPS Photo",
@@ -3271,7 +3227,6 @@
       "date_posted": "2014-03-05T00:01:10+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-28T15:31:50"
       },
       "description": "NPS Photo",
@@ -3345,7 +3300,6 @@
       "date_posted": "2014-03-05T00:01:09+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-28T15:31:23"
       },
       "description": "NPS Photo",
@@ -3419,7 +3373,6 @@
       "date_posted": "2014-03-05T00:01:08+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-26T16:12:44"
       },
       "description": "NPS Photo",
@@ -3493,7 +3446,6 @@
       "date_posted": "2014-03-05T00:01:08+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-26T16:11:49"
       },
       "description": "NPS Photo",
@@ -3567,7 +3519,6 @@
       "date_posted": "2014-03-05T00:01:07+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-26T16:10:59"
       },
       "description": "NPS Photo",
@@ -3641,7 +3592,6 @@
       "date_posted": "2014-02-14T20:27:02+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-13T16:51:04"
       },
       "description": "NPS/Brad Sutton",
@@ -3715,7 +3665,6 @@
       "date_posted": "2014-02-14T20:27:02+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-13T16:50:17"
       },
       "description": "NPS/Brad Sutton",
@@ -3789,7 +3738,6 @@
       "date_posted": "2014-02-14T20:27:01+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-13T16:49:50"
       },
       "description": "NPS/Brad Sutton",
@@ -3863,7 +3811,6 @@
       "date_posted": "2015-08-20T19:39:09+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-07T09:42:43"
       },
       "description": "NPS/Brad Sutton",
@@ -3937,7 +3884,6 @@
       "date_posted": "2015-08-19T19:30:50+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-02-05T10:47:32"
       },
       "description": "NPS/Brad Sutton",
@@ -4011,7 +3957,6 @@
       "date_posted": "2014-03-05T00:01:06+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:54:18"
       },
       "description": "NPS Photo",
@@ -4085,7 +4030,6 @@
       "date_posted": "2014-03-05T00:01:05+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:54:10"
       },
       "description": "NPS Photo",
@@ -4159,7 +4103,6 @@
       "date_posted": "2014-03-05T00:01:05+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:53:09"
       },
       "description": "NPS Photo",
@@ -4233,7 +4176,6 @@
       "date_posted": "2015-08-20T19:39:08+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:52:49"
       },
       "description": "NPS/Brad Sutton",
@@ -4307,7 +4249,6 @@
       "date_posted": "2014-03-05T00:01:05+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:52:49"
       },
       "description": "NPS Photo",
@@ -4381,7 +4322,6 @@
       "date_posted": "2016-02-23T18:52:21+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:52:39"
       },
       "description": "NPS / Brad Sutton\n\nAlt text: A large roadrunner, with brown and beige streaked feathers, hints of green, and a prominent tail, stands on a rock.",
@@ -4455,7 +4395,6 @@
       "date_posted": "2017-10-25T17:06:50+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:49:51"
       },
       "description": "NPS / Robb Hannawacker",
@@ -4529,7 +4468,6 @@
       "date_posted": "2014-03-05T00:01:04+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:46:58"
       },
       "description": "NPS Photo",
@@ -4603,7 +4541,6 @@
       "date_posted": "2016-09-21T19:15:26+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-28T15:46:15"
       },
       "description": "NPS/Brad Sutton",
@@ -4677,7 +4614,6 @@
       "date_posted": "2014-03-05T00:01:21+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-20T14:57:24"
       },
       "description": "NPS Photo",
@@ -4751,7 +4687,6 @@
       "date_posted": "2017-10-25T17:06:49+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-14T11:23:13"
       },
       "description": "NPS / Robb Hannawacker",
@@ -4825,7 +4760,6 @@
       "date_posted": "2017-10-25T17:06:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-13T08:50:49"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A brown and red-hued house finch (Haemorhous mexicanus) is bathed in golden light as it sits atop a nest of twigs",
@@ -4899,7 +4833,6 @@
       "date_posted": "2017-10-25T17:06:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-02T16:14:29"
       },
       "description": "NPS / Robb Hannawacker",
@@ -4973,7 +4906,6 @@
       "date_posted": "2017-10-25T17:06:52+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-02T14:30:58"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A white-crowned sparrow (Zonotrichia leucophrys) with brown and gray coloration stands atop a branch.",
@@ -5047,7 +4979,6 @@
       "date_posted": "2017-10-25T17:06:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-02T13:45:43"
       },
       "description": "NPS / Robb Hannawacker",
@@ -5121,7 +5052,6 @@
       "date_posted": "2017-10-25T17:06:47+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-02T13:42:21"
       },
       "description": "NPS / Robb Hannawacker",
@@ -5195,7 +5125,6 @@
       "date_posted": "2017-10-25T17:06:48+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2014-01-02T12:57:59"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A brown and gray mourning dove (Zenaida macroura) sits on a small branch.",
@@ -5269,7 +5198,6 @@
       "date_posted": "2017-10-25T17:06:51+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2013-12-05T12:25:56"
       },
       "description": "NPS / Robb Hannawacker",
@@ -5343,7 +5271,6 @@
       "date_posted": "2017-10-25T17:06:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2011-01-23T17:44:15"
       },
       "description": "NPS / Robb Hannawacker",
@@ -5417,7 +5344,6 @@
       "date_posted": "2014-02-12T23:33:32+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2011-01-23T17:37:16"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: Two California thrashers (Toxostoma redivivum) stand alertly on a bed of desert sand, grass, and fallen petals. ",
@@ -5491,7 +5417,6 @@
       "date_posted": "2017-10-25T17:06:52+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2011-01-23T17:35:39"
       },
       "description": "NPS / Robb Hannawacker",
@@ -5565,7 +5490,6 @@
       "date_posted": "2014-02-12T23:33:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2011-01-23T17:35:39"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A scrub jay (Aphelocoma californica) sits atop the brown, dry branch of a plant.",
@@ -5639,7 +5563,6 @@
       "date_posted": "2017-10-25T17:06:51+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-12-06T17:05:02"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A blue and white scrub jay (Aphelocoma californica) clings to the top of a Joshua tree.",
@@ -5713,7 +5636,6 @@
       "date_posted": "2014-02-12T23:33:36+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-10-24T15:18:48"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A dark-colored phainopepla (Phainopepla nitens) sits among the spindly dried branches of a tree with a rock formation in the background.",
@@ -5787,7 +5709,6 @@
       "date_posted": "2014-02-12T23:33:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-10-24T07:28:31"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A dark brown Cooper's hawk (Accipiter cooperii) sits atop the thin branches of a tree as it looks off into the distance.",
@@ -5861,7 +5782,6 @@
       "date_posted": "2014-02-12T23:33:33+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-10-24T06:56:29"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A cactus wren (Campylorhynchus brunneicapillus) sits atop the spky green branches of a Joshua tree.",
@@ -5935,7 +5855,6 @@
       "date_posted": "2014-03-05T00:01:20+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-05-10T18:03:11"
       },
       "description": "NPS/Stacy Manson",
@@ -6009,7 +5928,6 @@
       "date_posted": "2014-03-05T00:01:19+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-05-10T18:02:54"
       },
       "description": "NPS/Stacy Manson\n\nalt text: Two Great Horned Owls (Bubo virginianus) perched on a Joshua tree branch.",
@@ -6083,7 +6001,6 @@
       "date_posted": "2014-02-12T23:33:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2010-02-04T18:22:49"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A loggerhead shrike (Lanius ludovicianus) sits atop the spiky green branches of a Joshua tree against a blue sky.",
@@ -6157,7 +6074,6 @@
       "date_posted": "2017-10-25T16:41:57+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2008-12-07T16:23:45"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: An empty nest made of twigs and leaves sits in the fragile branches of a small bush.",
@@ -6231,7 +6147,6 @@
       "date_posted": "2014-02-12T23:33:34+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2008-03-29T14:46:53"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: A raven (Covus corax) looks off into the distance from atop a spiky green flowering Joshua tree.",
@@ -6305,7 +6220,6 @@
       "date_posted": "2014-02-12T23:33:36+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2007-09-21T17:23:50"
       },
       "description": "NPS / Robb Hannawacker\n\nAlt text: Turkey vultures (Cathartes aura) fly above the California fan palms in the Oasis of Mara with mountains and cloudy skies in the background.",
@@ -6379,7 +6293,6 @@
       "date_posted": "2020-11-05T05:44:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:40:21"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) sits atop a rocky mountainside.",
@@ -6453,7 +6366,6 @@
       "date_posted": "2020-11-05T05:44:35+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:40:47"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) sits atop a rocky mountainside as it grooms itself.",
@@ -6527,7 +6439,6 @@
       "date_posted": "2020-11-05T05:44:36+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:40:05"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) spreads its wings as it soars high in the sky.",
@@ -6601,7 +6512,6 @@
       "date_posted": "2020-11-05T05:44:36+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:40:05"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) beats its wings as it soars high in the sky.",
@@ -6675,7 +6585,6 @@
       "date_posted": "2020-11-05T05:44:38+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:39:25"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) spreads its wings as it soars high in the sky.",
@@ -6749,7 +6658,6 @@
       "date_posted": "2020-11-05T05:44:39+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:29:52"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A group of turkey vultures (Cathartes aura) sit atop a mountainside framed by California palm trees.",
@@ -6823,7 +6731,6 @@
       "date_posted": "2020-11-05T05:44:39+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-09-15T08:39:44"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A far-away turkey vulture (Cathartes aura) flies behind bare tree branches.",
@@ -6897,7 +6804,6 @@
       "date_posted": "2020-11-08T22:26:33+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-11-02T17:07:27"
       },
       "description": "NPS / Peri Sasnett\n\nAlt text: a small beige and olive green bird perches on a branch with green leaves, with a fan palm tree in the background.",
@@ -6971,7 +6877,6 @@
       "date_posted": "2020-11-14T23:50:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-11-24T09:51:54"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A black-throated sparrow (Amphispiza bilineata) hops among cheatgrass on the desert floor.",
@@ -7045,7 +6950,6 @@
       "date_posted": "2020-11-14T23:50:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-11-24T09:57:45"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A verdin (Auriparus flaviceps) sits in the branches of a creosote bush.",
@@ -7119,7 +7023,6 @@
       "date_posted": "2020-11-14T23:50:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2019-11-24T09:50:10"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A black-throated sparrow (Amphispiza bilineata) looks for food on the desert soil.",
@@ -7193,7 +7096,6 @@
       "date_posted": "2020-11-15T19:55:16+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-03-12T14:07:48"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A black raven (Corvus corax) flaps its wings against a blue sky.",
@@ -7267,7 +7169,6 @@
       "date_posted": "2020-11-15T22:26:45+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-03-12T14:07:08"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A raven (Corvus corax) spreads its wings to land atop the golden fronds of a California fan palm (Washingtonia filifera).",
@@ -7341,7 +7242,6 @@
       "date_posted": "2020-11-15T22:26:46+00:00",
       "date_taken": {
         "granularity": "second",
-        "unknown": false,
         "value": "2020-03-12T14:07:02"
       },
       "description": "NPS / Emily Hassell\n\nAlt text: A cactus wren (Campylorhynchus brunneicapillus) sits atop a branch in the golden morning light.",
