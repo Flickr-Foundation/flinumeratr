@@ -88,7 +88,7 @@
   </p>
 {% elif parsed_url.type == "album" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.album.title }}</a> album, which was created by <a href="/see_photos?flickr_url={{ photo_data.album.owner.profile_url }}">{{ photo_data.album.owner.realname or photo_data.album.owner.username }}</a>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.album.title }}</a> album, which was created by <a href="{{ url_for('see_photos', flickr_url=photo_data.album.owner.profile_url) }}">{{ photo_data.album.owner.realname or photo_data.album.owner.username }}</a>.
     It contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif parsed_url.type == "group" %}
@@ -137,7 +137,7 @@
 <!-- TODO: parsed_url.type = user/album, not people/photoset -->
       {% if parsed_url.type != "people" and parsed_url.type != "photoset" %}
         <h5 class="owner">
-          by <a href="/see_photos?flickr_url={{ p.owner.profile_url }}">{{ p.owner.realname or p.owner.username }}</a>
+          by <a href="{{ url_for('see_photos', flickr_url=p.owner.profile_url) }}">{{ p.owner.realname or p.owner.username }}</a>
         </h5>
       {% endif %}
       <p>
