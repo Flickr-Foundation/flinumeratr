@@ -132,7 +132,7 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157626164453131&user_id=32834977%40N03
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157626164453131&user_id=32834977%40N03
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157626164453131\" primary=\"5536044022\" owner=\"32834977@N03\" ownername=\"Al
@@ -141,8 +141,8 @@ interactions:
       server=\"5137\" farm=\"6\" title=\"IMG_1348\" isprimary=\"1\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\" dateupload=\"1300402940\"
       datetaken=\"2011-03-04 15:44:00\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Al Jazeera English\" realname=\"Al Jazeera English\" originalsecret=\"44d052df5a\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667_s.jpg\"
+      ownername=\"Al Jazeera English\" realname=\"Al Jazeera English\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667_m.jpg\"
       height_s=\"180\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5137/5536044022_7e6f0df667.jpg\"
@@ -153,7 +153,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402931\" datetaken=\"2011-03-04 15:24:30\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"243949114e\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5251/5536043704_4e7448742d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5251/5536043704_4e7448742d_t.jpg\"
       height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/5251/5536043704_4e7448742d_m.jpg\"
@@ -165,7 +165,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402926\" datetaken=\"2011-03-04 13:57:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"30f3d956a3\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5173/5535465571_855f26dd4a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5173/5535465571_855f26dd4a_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5173/5535465571_855f26dd4a_m.jpg\"
@@ -177,7 +177,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402920\" datetaken=\"2011-03-04 13:57:18\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"d401418c42\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5299/5535465397_646ddea350_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5299/5535465397_646ddea350_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5299/5535465397_646ddea350_m.jpg\"
@@ -189,7 +189,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402916\" datetaken=\"2011-03-04 13:57:10\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"9ef34d2c3b\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5094/5535465269_5e3d78d1e3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5094/5535465269_5e3d78d1e3_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5094/5535465269_5e3d78d1e3_m.jpg\"
@@ -201,7 +201,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402909\" datetaken=\"2011-03-04 13:57:05\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"db0bb10d20\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5134/5536043030_56f3c4d5c3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5134/5536043030_56f3c4d5c3_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5134/5536043030_56f3c4d5c3_m.jpg\"
@@ -213,7 +213,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402905\" datetaken=\"2011-03-04 12:02:56\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"587059bb78\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5018/5536042908_4dba574cb2_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5018/5536042908_4dba574cb2_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5018/5536042908_4dba574cb2_m.jpg\"
@@ -225,7 +225,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402898\" datetaken=\"2011-03-04 11:35:33\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"eb7cb4f6ea\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5214/5536042662_028306e89d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5214/5536042662_028306e89d_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5214/5536042662_028306e89d_m.jpg\"
@@ -237,7 +237,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402892\" datetaken=\"2011-03-04 11:34:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"b93874ac0f\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5177/5535464551_2bf01ec987_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5177/5535464551_2bf01ec987_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5177/5535464551_2bf01ec987_m.jpg\"
@@ -249,7 +249,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"5\" safety_level=\"0\"
       dateupload=\"1300402885\" datetaken=\"2011-03-04 11:34:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Al Jazeera English\" realname=\"Al Jazeera
-      English\" originalsecret=\"fc8941cdf0\" originalformat=\"jpg\" media=\"photo\"
+      English\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5213/5536042294_55a97b5696_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5213/5536042294_55a97b5696_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5213/5536042294_55a97b5696_m.jpg\"
@@ -576,7 +576,7 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157631707062493&user_id=73422502%40N08
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157631707062493&user_id=73422502%40N08
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157631707062493\" primary=\"14836665849\" owner=\"73422502@N08\" ownername=\"Zeeyolq

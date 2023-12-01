@@ -17,8 +17,8 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"50567413447\" secret=\"3ee6d810e8\" server=\"65535\" farm=\"66\" dateuploaded=\"1604519117\"
-      isfavorite=\"0\" license=\"7\" safety_level=\"0\" rotation=\"0\" originalsecret=\"afec74ef45\"
-      originalformat=\"jpg\" views=\"2144\" media=\"photo\">\n\t<owner nsid=\"49487266@N07\"
+      isfavorite=\"0\" license=\"7\" safety_level=\"0\" rotation=\"0\"
+      views=\"2144\" media=\"photo\">\n\t<owner nsid=\"49487266@N07\"
       username=\"San Diego Air &amp; Space Museum Archives\" realname=\"SDASM Archives\"
       location=\"\" iconserver=\"4070\" iconfarm=\"5\" path_alias=\"sdasmarchives\">\n\t\t<gift
       gift_eligible=\"\" new_flow=\"1\" />\n\t</owner>\n\t<title>KSC-98PC-1602_2</title>\n\t<description>A

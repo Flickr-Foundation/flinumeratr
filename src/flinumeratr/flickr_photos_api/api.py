@@ -301,17 +301,6 @@ class FlickrPhotosApi(BaseApi):
 
         safety_level = parse_safety_level(photo_elem.attrib["safety_level"])
 
-        # The originalformat parameter will only be returned if the user
-        # allows downloads of the photo.
-        #
-        # We only need this parameter for photos that can be uploaded to
-        # Wikimedia Commons.  All CC-licensed photos allow downloads, so
-        # we'll always get this parameter for those photos.
-        #
-        # See https://www.flickr.com/help/forum/32218/
-        # See https://www.flickrhelp.com/hc/en-us/articles/4404079715220-Download-permissions
-        original_format = photo_elem.get("originalformat")
-
         # The getSizes response is a blob of XML of the form:
         #
         #       <?xml version="1.0" encoding="utf-8" ?>
@@ -363,7 +352,6 @@ class FlickrPhotosApi(BaseApi):
             "license": license,
             "url": photo_page_url,
             "sizes": sizes,
-            "original_format": original_format,
         }
 
     # There are a bunch of similar flickr.XXX.getPhotos methods;
@@ -374,7 +362,6 @@ class FlickrPhotosApi(BaseApi):
         "date_upload",
         "date_taken",
         "media",
-        "original_format",
         "owner_name",
         "url_sq",
         "url_t",
@@ -445,7 +432,6 @@ class FlickrPhotosApi(BaseApi):
                         id=photo_elem.attrib["license"]
                     ),
                     "sizes": parse_sizes(photo_elem),
-                    "original_format": photo_elem.attrib.get("originalformat"),
                     "safety_level": parse_safety_level(
                         photo_elem.attrib["safety_level"]
                     ),

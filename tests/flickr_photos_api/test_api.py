@@ -232,21 +232,6 @@ class TestGetSinglePhoto:
         photo_without_title = api.get_single_photo(photo_id="20967567081")
         assert photo_without_title["title"] is None
 
-    @pytest.mark.parametrize(
-        ["photo_id", "original_format"],
-        [
-            ("53248070597", None),
-            ("32812033543", "jpg"),
-            ("12533665685", "png"),
-            ("4079570071", "gif"),
-        ],
-    )
-    def test_gets_original_format(
-        self, api: FlickrPhotosApi, photo_id: str, original_format: str
-    ) -> None:
-        photo = api.get_single_photo(photo_id=photo_id)
-        assert photo["original_format"] == original_format
-
     def test_sets_human_readable_safety_level(self, api: FlickrPhotosApi) -> None:
         photo = api.get_single_photo(photo_id="53248070597")
         assert photo["safety_level"] == "safe"
@@ -304,19 +289,6 @@ class TestCollectionsPhotoResponse:
         assert not any(
             size for size in resp["photos"][0]["sizes"] if size["label"] == "Original"
         )
-
-    def test_sets_originalformat_to_none_if_no_downloads(
-        self, api: FlickrPhotosApi
-    ) -> None:
-        # This user doesn't allow downloading of their original photos,
-        # so when we try to look up an album of their photos in the API,
-        # we shouldn't get an Original size.
-        resp = api.get_photos_in_album(
-            user_url="https://www.flickr.com/photos/mary_faith/",
-            album_id="72157711742505183",
-        )
-
-        assert all(photo["original_format"] is None for photo in resp["photos"])
 
 
 class TestGetAlbum:

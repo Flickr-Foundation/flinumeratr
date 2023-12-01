@@ -18,8 +18,8 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"31073485032\" secret=\"80177ec831\" server=\"5589\" farm=\"6\" dateuploaded=\"1480008723\"
-      isfavorite=\"0\" license=\"8\" safety_level=\"0\" rotation=\"0\" originalsecret=\"35ef2dc28e\"
-      originalformat=\"jpg\" views=\"345437\" media=\"photo\">\n\t<owner nsid=\"35591378@N03\"
+      isfavorite=\"0\" license=\"8\" safety_level=\"0\" rotation=\"0\"
+      views=\"345437\" media=\"photo\">\n\t<owner nsid=\"35591378@N03\"
       username=\"Obama White House Archived\" realname=\"\" location=\"Washington,
       DC\" iconserver=\"475\" iconfarm=\"1\" path_alias=\"obamawhitehouse\">\n\t\t<gift
       gift_eligible=\"\" new_flow=\"1\" />\n\t</owner>\n\t<title>P112416PS-0059</title>\n\t<description>President

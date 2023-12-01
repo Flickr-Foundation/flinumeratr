@@ -18,8 +18,8 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"20428374183\" secret=\"76c77aaf6b\" server=\"5717\" farm=\"6\" dateuploaded=\"1441076445\"
-      isfavorite=\"0\" license=\"0\" safety_level=\"0\" rotation=\"0\" originalsecret=\"bfe445fb11\"
-      originalformat=\"jpg\" views=\"388\" media=\"photo\">\n\t<owner nsid=\"132051449@N06\"
+      isfavorite=\"0\" license=\"0\" safety_level=\"0\" rotation=\"0\"
+      views=\"388\" media=\"photo\">\n\t<owner nsid=\"132051449@N06\"
       username=\"Jeong Vin, Yoon\" realname=\"Jeong Vin Yoon\" location=\"\" iconserver=\"8752\"
       iconfarm=\"9\" path_alias=\"spike_yun\">\n\t\t<gift gift_eligible=\"1\" new_flow=\"1\">\n\t\t\t<eligible_durations
       />\n\t\t\t<eligible_durations />\n\t\t\t<eligible_durations />\n\t\t</gift>\n\t</owner>\n\t<title>Hapjeong</title>\n\t<description
