@@ -1,5 +1,6 @@
 flickr-photos-api
 flickr-url-parser
+gunicorn
 hyperlink
 
 # These version pins are all to maintain Python 3.7 support, even though
