@@ -69,7 +69,7 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&group_id=66832458%40N00&method=flickr.groups.pools.getPhotos&page=1&per_page=100
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&group_id=66832458%40N00&method=flickr.groups.pools.getPhotos&page=1&per_page=100
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"144\" perpage=\"100\" total=\"14336\">\n\t<photo id=\"53319292481\"
@@ -77,7 +77,7 @@ interactions:
       Geology of Terra-Cotta, Part 13: Detail of the Lower Facade, Reebie Storage
       Warehouse, Lincoln Park Neighborhood, Chicago, Illinois, USA (1922)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1699492708\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699489689\" datetaken=\"2021-04-10
+      license=\"0\" dateupload=\"1699489689\" datetaken=\"2021-04-10
       09:33:11\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53319292481_3ba9db3d5c_s.jpg\"
@@ -120,7 +120,7 @@ interactions:
       album&lt;/a&gt;.&lt;/b&gt; \n \n\n\n</description>\n\t</photo>\n\t<photo id=\"53317770887\"
       owner=\"56837663@N03\" secret=\"24d0321a8f\" server=\"65535\" farm=\"66\" title=\"Beryl
       (Variety Emerald)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Stan
-      Celestian\" dateadded=\"1699468283\" license=\"0\" safety_level=\"0\" dateupload=\"1699467992\"
+      Celestian\" dateadded=\"1699468283\" license=\"0\" dateupload=\"1699467992\"
       datetaken=\"2023-11-08 10:57:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Stan Celestian\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53317770887_24d0321a8f_s.jpg\"
@@ -138,7 +138,7 @@ interactions:
       farm=\"66\" title=\"The Bounty of Bell Smith Springs, Part 6: Terms of Separation,
       and Essential Connections; Bell Smith Springs, Shawnee National Forest, Illinois,
       USA\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1699403562\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699401147\" datetaken=\"2007-04-15
+      license=\"0\" dateupload=\"1699401147\" datetaken=\"2007-04-15
       11:36:11\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53317049926_850c906435_s.jpg\"
@@ -174,7 +174,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Southwestern Wisconsin, Part 12:
       A View from the Porch, Green County Courthouse, Monroe, Wisconsin, USA (1891)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1699320434\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699314994\" datetaken=\"2019-05-31
+      license=\"0\" dateupload=\"1699314994\" datetaken=\"2019-05-31
       12:27:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314994733_8d7c12b2b1_s.jpg\"
@@ -217,7 +217,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Paestum, Part 1: First Temple of
       Hera; Magna Graecia, Campania, Italy (ca. 550 BC)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1699232825\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699229583\" datetaken=\"1975-06-01 00:00:00\"
+      dateupload=\"1699229583\" datetaken=\"1975-06-01 00:00:00\"
       datetakengranularity=\"4\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53312512568_b5348ecdd5_s.jpg\"
@@ -248,7 +248,7 @@ interactions:
       </description>\n\t</photo>\n\t<photo id=\"53309412534\" owner=\"9746040@N08\"
       secret=\"9c96557444\" server=\"65535\" farm=\"66\" title=\"Rock feature east
       of Prineville, Oregon\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Wayne~Chadwick\"
-      dateadded=\"1699117430\" license=\"0\" safety_level=\"0\" dateupload=\"1699117342\"
+      dateadded=\"1699117430\" license=\"0\" dateupload=\"1699117342\"
       datetaken=\"2023-10-21 15:21:18\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Wayne Chadwick\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53309412534_9c96557444_s.jpg\"
@@ -263,7 +263,7 @@ interactions:
       owner=\"88572252@N06\" secret=\"c79ae94e5e\" server=\"65535\" farm=\"66\" title=\"1
       November 2023 - Zoomed view of rocky outcrop at Serpentine Falls, Serpentine,
       Western Australia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"aussiejeff\"
-      dateadded=\"1699078505\" license=\"0\" safety_level=\"0\" dateupload=\"1698991329\"
+      dateadded=\"1699078505\" license=\"0\" dateupload=\"1698991329\"
       datetaken=\"2023-11-01 12:08:45\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53305412092_c79ae94e5e_s.jpg\"
@@ -285,7 +285,7 @@ interactions:
       secret=\"ae575ebee4\" server=\"65535\" farm=\"66\" title=\"The Brownstone Chronicles,
       Part 22: Detail of Old City Hall, Marquette, Upper Peninsula of Michigan, USA
       (1894)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1699057233\" license=\"0\" safety_level=\"0\" dateupload=\"1699053878\"
+      dateadded=\"1699057233\" license=\"0\" dateupload=\"1699053878\"
       datetaken=\"2007-09-09 07:59:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53308046833_ae575ebee4_s.jpg\"
@@ -327,7 +327,7 @@ interactions:
       Brownstone Chronicles&lt;/i&gt; album&lt;/a&gt;. &lt;/b&gt;\n\n\n  \n\n  </description>\n\t</photo>\n\t<photo
       id=\"53305252827\" owner=\"114641806@N08\" secret=\"86d8dabc85\" server=\"65535\"
       farm=\"66\" title=\"Steaming Fumerole\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698986065\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698986065\" license=\"4\"
       dateupload=\"1698985693\" datetaken=\"2020-12-17 06:23:54\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53305252827_86d8dabc85_s.jpg\"
@@ -341,7 +341,7 @@ interactions:
       id=\"53301663756\" owner=\"88123769@N02\" secret=\"66920daffa\" server=\"65535\"
       farm=\"66\" title=\"Folded Limestone. Kaikoura NZ\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Bernard Spragg\" dateadded=\"1698819864\" license=\"10\"
-      safety_level=\"0\" dateupload=\"1698817604\" datetaken=\"2017-05-15 14:09:47\"
+      dateupload=\"1698817604\" datetaken=\"2017-05-15 14:09:47\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Bernard Spragg.
       NZ\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53301663756_66920daffa_s.jpg\"
@@ -357,7 +357,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 10: One More
       Look at a Fascinating Species, Big Bend National Park, Texas, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1698796182\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1698794011\" datetaken=\"2002-03-11
+      license=\"0\" dateupload=\"1698794011\" datetaken=\"2002-03-11
       11:35:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53301344368_709067322c_s.jpg\"
@@ -391,7 +391,7 @@ interactions:
       album&lt;/a&gt;.&lt;/b&gt;\n</description>\n\t</photo>\n\t<photo id=\"53299913910\"
       owner=\"188808032@N05\" secret=\"6129035fb4\" server=\"65535\" farm=\"66\" title=\"SRs-1800
       &quot;Dolores&quot;, Kleczew\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"sadebudy\" dateadded=\"1698741482\" license=\"0\" safety_level=\"0\"
+      ownername=\"sadebudy\" dateadded=\"1698741482\" license=\"0\"
       dateupload=\"1698740604\" datetaken=\"2023-10-25 08:10:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Marcin Stepien\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53299913910_6129035fb4_s.jpg\"
@@ -406,7 +406,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Mycenae, Part 24: Entrance to the
       &quot;Treasury of Atreus,&quot; Peloponnese, Greece\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1698710480\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1698706907\" datetaken=\"1976-03-05 02:01:03\"
+      dateupload=\"1698706907\" datetaken=\"1976-03-05 02:01:03\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53297798697_9d5038db22_s.jpg\"
@@ -443,7 +443,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 8: Transfiguration
       of the Saviour Church (early 11th century AD, with subsequent changes)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1698536439\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1698534420\" datetaken=\"1978-02-23
+      license=\"0\" dateupload=\"1698534420\" datetaken=\"1978-02-23
       01:35:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53293393949_2a009484cd_s.jpg\"
@@ -474,7 +474,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 15: Detail of the William
       M. Hoyt Monument, Graceland Cemetery, Uptown Neighborhood (1883)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1698362170\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1698359273\" datetaken=\"2021-06-12
+      license=\"0\" dateupload=\"1698359273\" datetaken=\"2021-06-12
       08:48:34\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53288576060_6d97fe5d37_s.jpg\"
@@ -508,7 +508,7 @@ interactions:
       Science&lt;/i&gt;&lt;/b&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n</description>\n\t</photo>\n\t<photo
       id=\"53286195151\" owner=\"114641806@N08\" secret=\"ab03ca5f86\" server=\"65535\"
       farm=\"66\" title=\"What Fumes Just Beyond\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294703\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294703\" license=\"4\"
       dateupload=\"1698294102\" datetaken=\"2016-12-20 19:24:57\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286195151_ab03ca5f86_s.jpg\"
@@ -522,7 +522,7 @@ interactions:
       id=\"53286194936\" owner=\"114641806@N08\" secret=\"592f426f9c\" server=\"65535\"
       farm=\"66\" title=\"She Would To Drink The Sea\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"incidencematrix\" dateadded=\"1698294358\" license=\"4\"
-      safety_level=\"0\" dateupload=\"1698294104\" datetaken=\"2016-12-20 19:49:42\"
+      dateupload=\"1698294104\" datetaken=\"2016-12-20 19:49:42\"
       datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286194936_592f426f9c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53286194936_592f426f9c_t.jpg\"
@@ -534,7 +534,7 @@ interactions:
       height_l=\"607\" width_l=\"1024\">\n\t\t<description>Kilauea Eruption, Hawai&#039;i</description>\n\t</photo>\n\t<photo
       id=\"53286564679\" owner=\"114641806@N08\" secret=\"f10bf46e0f\" server=\"65535\"
       farm=\"66\" title=\"Plume\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"incidencematrix\"
-      dateadded=\"1698294124\" license=\"4\" safety_level=\"0\" dateupload=\"1698294102\"
+      dateadded=\"1698294124\" license=\"4\" dateupload=\"1698294102\"
       datetaken=\"2016-12-20 19:31:24\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53286564679_f10bf46e0f_s.jpg\"
@@ -547,7 +547,7 @@ interactions:
       height_l=\"717\" width_l=\"1024\">\n\t\t<description>Kilauea Eruption, Hawai&#039;i</description>\n\t</photo>\n\t<photo
       id=\"53286564844\" owner=\"114641806@N08\" secret=\"636479a6bd\" server=\"65535\"
       farm=\"66\" title=\"As Earth Once Was\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294123\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294123\" license=\"4\"
       dateupload=\"1698294101\" datetaken=\"2016-12-20 18:27:42\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286564844_636479a6bd_s.jpg\"
@@ -560,7 +560,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53285302377\" owner=\"114641806@N08\" secret=\"35c061b712\" server=\"65535\"
       farm=\"66\" title=\"Breathe at Own Risk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294123\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294123\" license=\"4\"
       dateupload=\"1698294101\" datetaken=\"2016-12-20 18:23:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53285302377_35c061b712_s.jpg\"
@@ -573,7 +573,7 @@ interactions:
       height_l=\"900\" width_l=\"1024\">\n\t\t<description>Kilauea Eruption, Hawai&#039;i</description>\n\t</photo>\n\t<photo
       id=\"53285302477\" owner=\"114641806@N08\" secret=\"b82bb770eb\" server=\"65535\"
       farm=\"66\" title=\"Sulfur Dioxide\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294122\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294122\" license=\"4\"
       dateupload=\"1698294100\" datetaken=\"2016-12-20 18:20:59\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53285302477_b82bb770eb_s.jpg\"
@@ -586,7 +586,7 @@ interactions:
       height_l=\"682\" width_l=\"1024\">\n\t\t<description>Kilauea Eruption, Hawai&#039;i</description>\n\t</photo>\n\t<photo
       id=\"53286195406\" owner=\"114641806@N08\" secret=\"7460d3ef22\" server=\"65535\"
       farm=\"66\" title=\"Volcanic Glass\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294121\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294121\" license=\"4\"
       dateupload=\"1698294099\" datetaken=\"2016-12-20 17:30:29\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286195406_7460d3ef22_s.jpg\"
@@ -599,7 +599,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53286564369\" owner=\"114641806@N08\" secret=\"78c6e48b67\" server=\"65535\"
       farm=\"66\" title=\"Last Look Back\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294120\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294120\" license=\"4\"
       dateupload=\"1698294084\" datetaken=\"2016-12-20 20:22:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286564369_78c6e48b67_s.jpg\"
@@ -612,7 +612,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Kilauea Eruption, Hawai&#039;i</description>\n\t</photo>\n\t<photo
       id=\"53286657005\" owner=\"114641806@N08\" secret=\"8ce0f16e7b\" server=\"65535\"
       farm=\"66\" title=\"Unquenchable Thirst\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698294119\" license=\"4\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698294119\" license=\"4\"
       dateupload=\"1698294082\" datetaken=\"2016-12-20 19:57:47\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286657005_8ce0f16e7b_s.jpg\"
@@ -628,7 +628,7 @@ interactions:
       the whole ocean....</description>\n\t</photo>\n\t<photo id=\"53286657155\" owner=\"114641806@N08\"
       secret=\"07a69f08cd\" server=\"65535\" farm=\"66\" title=\"The Angry Furnaces\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"incidencematrix\" dateadded=\"1698294118\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1698294080\" datetaken=\"2016-12-20
+      license=\"4\" dateupload=\"1698294080\" datetaken=\"2016-12-20
       19:57:29\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53286657155_07a69f08cd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53286657155_07a69f08cd_t.jpg\"
@@ -641,7 +641,7 @@ interactions:
       id=\"53284905642\" owner=\"196253572@N05\" secret=\"28034390bd\" server=\"65535\"
       farm=\"66\" title=\"In and About Tuff Canyon, Part 7: A Rock of Rocks, Big Bend
       National Park, Texas, USA\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1698278026\" license=\"0\" safety_level=\"0\" dateupload=\"1698274569\"
+      dateadded=\"1698278026\" license=\"0\" dateupload=\"1698274569\"
       datetaken=\"2002-03-14 04:10:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53284905642_28034390bd_s.jpg\"
@@ -680,7 +680,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"5bb057ff1b\" server=\"65535\" farm=\"66\" title=\"Geobrickology,
       Part 12: Yipes! Stripes! at the Frederick C. Robie House, Hyde Park Neighborhood,
       Chicago, Illinois, USA (1909)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1698191478\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1698191478\" license=\"0\"
       dateupload=\"1698187094\" datetaken=\"2020-09-20 09:42:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53283379996_5bb057ff1b_s.jpg\"
@@ -725,7 +725,7 @@ interactions:
       &lt;i&gt;Geobrickology&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n</description>\n\t</photo>\n\t<photo
       id=\"53281370801\" owner=\"114641806@N08\" secret=\"729dc190d2\" server=\"65535\"
       farm=\"66\" title=\"Lassen and Sulfur\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698186837\" license=\"5\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698186837\" license=\"5\"
       dateupload=\"1698122916\" datetaken=\"2023-07-19 16:20:19\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53281370801_729dc190d2_s.jpg\"
@@ -738,7 +738,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53281839315\" owner=\"114641806@N08\" secret=\"85750e9f7f\" server=\"65535\"
       farm=\"66\" title=\"Boiling Mud in Lassen\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698186805\" license=\"5\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698186805\" license=\"5\"
       dateupload=\"1698122919\" datetaken=\"2023-07-19 16:22:57\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53281839315_85750e9f7f_s.jpg\"
@@ -751,7 +751,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Bubbling Mud</description>\n\t</photo>\n\t<photo
       id=\"53281837945\" owner=\"114641806@N08\" secret=\"ed1c95d715\" server=\"65535\"
       farm=\"66\" title=\"Volcanic Hillside\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"incidencematrix\" dateadded=\"1698186761\" license=\"5\" safety_level=\"0\"
+      ownername=\"incidencematrix\" dateadded=\"1698186761\" license=\"5\"
       dateupload=\"1698122924\" datetaken=\"2023-07-19 16:25:27\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53281837945_ed1c95d715_s.jpg\"
@@ -766,7 +766,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 23: San Juan
       de los Caballeros Church (late 11th Century AD)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1698108025\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1698104516\" datetaken=\"1978-04-13 00:40:50\"
+      dateupload=\"1698104516\" datetaken=\"1978-04-13 00:40:50\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53281283364_461b7fd491_s.jpg\"
@@ -807,7 +807,7 @@ interactions:
       id=\"53226069018\" owner=\"43164076@N06\" secret=\"10dea3f4ed\" server=\"65535\"
       farm=\"66\" title=\"In Pound Gap\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       ownername=\"David Hoffman &#039;41\" dateadded=\"1698064048\" license=\"1\"
-      safety_level=\"0\" dateupload=\"1696679602\" datetaken=\"2018-10-27 10:17:25\"
+      dateupload=\"1696679602\" datetaken=\"2018-10-27 10:17:25\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"David Hoffman\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53226069018_10dea3f4ed_s.jpg\"
@@ -828,7 +828,7 @@ interactions:
       of Fieldstone &amp; Cobblestone Buildings, Part 16: One More Close-up of the
       Edward Dodge House, Port Washington, Wisconsin, USA (1848)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1697931851\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1697928783\" datetaken=\"2019-04-09
+      license=\"0\" dateupload=\"1697928783\" datetaken=\"2019-04-09
       13:11:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53275648005_0ef49f2b6f_s.jpg\"
@@ -863,7 +863,7 @@ interactions:
       secret=\"0c4c1089a0\" server=\"65535\" farm=\"66\" title=\"The Geology of Terra-Cotta,
       Part 12: Still Closing in on the Reebie Storage Warehouse, Lincoln Park Neighborhood,
       Chicago, Illinois, USA (1922)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1697842444\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1697842444\" license=\"0\"
       dateupload=\"1697837540\" datetaken=\"2021-04-10 09:32:35\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53272885351_0c4c1089a0_s.jpg\"
@@ -914,7 +914,7 @@ interactions:
       id=\"53272515055\" owner=\"9746040@N08\" secret=\"71d67e7c13\" server=\"65535\"
       farm=\"66\" title=\"Panorama of typical terrain\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Wayne~Chadwick\" dateadded=\"1697813500\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1697813340\" datetaken=\"2023-09-27 05:44:45\"
+      dateupload=\"1697813340\" datetaken=\"2023-09-27 05:44:45\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Wayne Chadwick\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53272515055_71d67e7c13_s.jpg\"
@@ -929,7 +929,7 @@ interactions:
       farm=\"66\" title=\"The Bounty of Bell Smith Springs, Part 5: High-Anxiety Time
       Atop the Natural Bridge, Bell Smith Springs, Shawnee National Forest, Illinois,
       USA\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1697757572\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1697753560\" datetaken=\"2007-04-15
+      license=\"0\" dateupload=\"1697753560\" datetaken=\"2007-04-15
       11:35:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53271012034_be0536d33e_s.jpg\"
@@ -967,7 +967,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Southwestern Wisconsin, Part 11:
       A Closer Look at the Green County Courthouse, Monroe, Wisconsin, USA (1891)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1697669992\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1697666253\" datetaken=\"2019-05-31
+      license=\"0\" dateupload=\"1697666253\" datetaken=\"2019-05-31
       12:26:14\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53267563072_6d2da4aca6_s.jpg\"
@@ -1002,7 +1002,7 @@ interactions:
       Geology: Southwestern Wisconsin&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n</description>\n\t</photo>\n\t<photo
       id=\"53267108158\" owner=\"188808032@N05\" secret=\"2f71e1ec92\" server=\"65535\"
       farm=\"66\" title=\"\u0141aba // Elbe\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"sadebudy\" dateadded=\"1697614473\" license=\"0\" safety_level=\"0\"
+      ownername=\"sadebudy\" dateadded=\"1697614473\" license=\"0\"
       dateupload=\"1697614137\" datetaken=\"2023-07-21 17:19:01\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Marcin Stepien\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53267108158_2f71e1ec92_s.jpg\"
@@ -1017,7 +1017,7 @@ interactions:
       farm=\"66\" title=\"A Marvel of Masonry, Part 6: The Palace of the Porphyrogenitus
       (late 13th Century) and the Blachernae Walls (different sections in different
       centuries), Istanbul, Turkey\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1697585125\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1697585125\" license=\"0\"
       dateupload=\"1697581386\" datetaken=\"1976-11-05 05:45:20\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53266595260_15255fc587_s.jpg\"
@@ -1062,7 +1062,7 @@ interactions:
       id=\"53264776014\" owner=\"37075433@N00\" secret=\"658b5bf722\" server=\"65535\"
       farm=\"66\" title=\"More flysch at Dragonja\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Vid Pogacnik\" dateadded=\"1697529752\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1697529721\" datetaken=\"2013-04-14 00:00:09\"
+      dateupload=\"1697529721\" datetaken=\"2013-04-14 00:00:09\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Vid Pogacnik\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53264776014_658b5bf722_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53264776014_658b5bf722_t.jpg\"
@@ -1076,7 +1076,7 @@ interactions:
       farm=\"66\" title=\"The Glory of Regional Silurian Dolostone, Part 28: Detail
       of St. Sava Serbian Orthodox Cathedral, Lyons Park Neighborhood, Milwaukee,
       Wisconsin, USA (1958)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1697499945\" license=\"0\" safety_level=\"0\" dateupload=\"1697497920\"
+      dateadded=\"1697499945\" license=\"0\" dateupload=\"1697497920\"
       datetaken=\"2020-02-14 13:05:57\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53263600006_9bfe848f89_s.jpg\"
@@ -1107,7 +1107,7 @@ interactions:
       &lt;i&gt;Glory of Silurian Dolostone&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n</description>\n\t</photo>\n\t<photo
       id=\"53262610065\" owner=\"37075433@N00\" secret=\"8fcb504321\" server=\"65535\"
       farm=\"66\" title=\"Dragonja river\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Vid Pogacnik\" dateadded=\"1697456366\" license=\"0\" safety_level=\"0\"
+      ownername=\"Vid Pogacnik\" dateadded=\"1697456366\" license=\"0\"
       dateupload=\"1697456358\" datetaken=\"2013-04-14 00:00:05\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Vid Pogacnik\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53262610065_8fcb504321_s.jpg\"
@@ -1121,7 +1121,7 @@ interactions:
       Here is a nice example of eocene flysch above its left banks.</description>\n\t</photo>\n\t<photo
       id=\"53253776390\" owner=\"31154073@N05\" secret=\"9cd472775d\" server=\"65535\"
       farm=\"66\" title=\"The Bad Lands\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Dah Professor\" dateadded=\"1697296144\" license=\"0\" safety_level=\"0\"
+      ownername=\"Dah Professor\" dateadded=\"1697296144\" license=\"0\"
       dateupload=\"1697130533\" datetaken=\"2023-05-22 17:58:46\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53253776390_9cd472775d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53253776390_9cd472775d_t.jpg\"
@@ -1138,7 +1138,7 @@ interactions:
       id=\"53256398103\" owner=\"196253572@N05\" secret=\"4dccf67c7d\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Mycenae, Part 23: Long-distance
       Tomb-gazing; Peloponnese, Greece\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1697241655\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1697241655\" license=\"0\"
       dateupload=\"1697240419\" datetaken=\"1976-03-05 00:31:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53256398103_4dccf67c7d_s.jpg\"
@@ -1170,7 +1170,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 7: Incorporeal
       Angels Church (late 11th century AD, with subsequent rebuilding and restoration)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1697149816\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1697145283\" datetaken=\"1978-02-23
+      license=\"0\" dateupload=\"1697145283\" datetaken=\"1978-02-23
       01:24:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53254060408_13f4486696_s.jpg\"
@@ -1204,7 +1204,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 14: William M. Hoyt Monument,
       Graceland Cemetery, Uptown Neighborhood (1883)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1697067307\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1697060097\" datetaken=\"2021-06-12 08:46:51\"
+      dateupload=\"1697060097\" datetaken=\"2021-06-12 08:46:51\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53250733547_5e4f1be5ef_s.jpg\"
@@ -1258,7 +1258,7 @@ interactions:
       farm=\"66\" title=\"In and About Tuff Canyon, Part 6: My Morbid Fascination
       with Flying Boulders, Big Bend National Park, Texas, USA\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1696980641\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1696977917\" datetaken=\"2002-03-14 03:11:42\"
+      dateupload=\"1696977917\" datetaken=\"2002-03-14 03:11:42\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53249755023_a71d19cb5f_s.jpg\"
@@ -1304,7 +1304,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"151d0986c2\" server=\"65535\" farm=\"66\" title=\"Geobrickology,
       Part 11: Close-up of the Frederick C. Robie House, Hyde Park Neighborhood, Chicago,
       Illinois, USA (1909)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1696895432\" license=\"0\" safety_level=\"0\" dateupload=\"1696891934\"
+      dateadded=\"1696895432\" license=\"0\" dateupload=\"1696891934\"
       datetaken=\"2020-09-20 09:41:30\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53247185858_151d0986c2_s.jpg\"
@@ -1359,7 +1359,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 22: San Juan
       de los Caballeros Church (late 11th Century AD)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1696890809\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1696889094\" datetaken=\"1978-04-13 00:16:44\"
+      dateupload=\"1696889094\" datetaken=\"1978-04-13 00:16:44\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53245930917_9f924d39db_s.jpg\"
@@ -1387,7 +1387,7 @@ interactions:
       Geology: Spain&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;   \n\n</description>\n\t</photo>\n\t<photo
       id=\"53242900910\" owner=\"37075433@N00\" secret=\"1b1962bf38\" server=\"65535\"
       farm=\"66\" title=\"Slatinski vrelec\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Vid Pogacnik\" dateadded=\"1696750634\" license=\"0\" safety_level=\"0\"
+      ownername=\"Vid Pogacnik\" dateadded=\"1696750634\" license=\"0\"
       dateupload=\"1696750629\" datetaken=\"2023-10-01 13:02:38\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Vid Pogacnik\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53242900910_1b1962bf38_s.jpg\"
@@ -1405,7 +1405,7 @@ interactions:
       secret=\"5fb4981884\" server=\"65535\" farm=\"66\" title=\"Milwaukee in Stone
       and Clay: A Guide to the Cream City&#039;s Architectural Geology (NIU Imprint
       of Cornell University Press)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1696716992\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1696716992\" license=\"0\"
       dateupload=\"1696714439\" datetaken=\"2023-10-07 00:00:00\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53241541841_5fb4981884_s.jpg\"
@@ -1434,7 +1434,7 @@ interactions:
       farm=\"66\" title=\"Geology of Fieldstone &amp; Cobblestone Buildings, Part
       15: Close-up of the Edward Dodge House, Port Washington, Wisconsin, USA (1848)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1696632384\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1696628343\" datetaken=\"2019-04-09
+      license=\"0\" dateupload=\"1696628343\" datetaken=\"2019-04-09
       13:11:23\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53239745750_d9cb083dff_s.jpg\"
@@ -1479,7 +1479,7 @@ interactions:
       secret=\"ee72c7238e\" server=\"65535\" farm=\"66\" title=\"The Geology of Terra-Cotta,
       Part 11: Closing in on the Reebie Storage Warehouse, Lincoln Park Neighborhood,
       Chicago, Illinois, USA (1922)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1696548219\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1696548219\" license=\"0\"
       dateupload=\"1696544813\" datetaken=\"2021-04-10 09:31:39\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53237534859_ee72c7238e_s.jpg\"
@@ -1518,7 +1518,7 @@ interactions:
       farm=\"66\" title=\"The Bounty of Bell Smith Springs, Part 4: Detail of the
       Upper Surface of the Natural Bridge, Bell Smith Springs, Shawnee National Forest,
       Illinois, USA\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1696544089\" license=\"0\" safety_level=\"0\" dateupload=\"1696538760\"
+      dateadded=\"1696544089\" license=\"0\" dateupload=\"1696538760\"
       datetaken=\"1997-04-01 00:00:00\" datetakengranularity=\"4\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53237492035_e9936a2852_s.jpg\"
@@ -1560,7 +1560,7 @@ interactions:
       id=\"53234046374\" owner=\"128501237@N03\" secret=\"e7ea847193\" server=\"65535\"
       farm=\"66\" title=\"2023-08-17-20h30m08s221B\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"thomasedward63\" dateadded=\"1696446554\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1696423878\" datetaken=\"2023-10-04 06:32:53\"
+      dateupload=\"1696423878\" datetaken=\"2023-10-04 06:32:53\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Thomas Williamson\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53234046374_e7ea847193_s.jpg\"
@@ -1575,7 +1575,7 @@ interactions:
       id=\"53234196195\" owner=\"128501237@N03\" secret=\"b95e1e8d6c\" server=\"65535\"
       farm=\"66\" title=\"2023-08-17-20h34m03s113\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"thomasedward63\" dateadded=\"1696423885\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1696423880\" datetaken=\"2023-10-04 06:47:51\"
+      dateupload=\"1696423880\" datetaken=\"2023-10-04 06:47:51\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Thomas Williamson\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53234196195_b95e1e8d6c_s.jpg\"
@@ -1590,7 +1590,7 @@ interactions:
       id=\"53233073025\" owner=\"39398829@N02\" secret=\"1119837ca8\" server=\"65535\"
       farm=\"66\" title=\"Natural tapestry: Chinle stripes detail\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Chief Bwana\" dateadded=\"1696374477\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1696374476\" datetaken=\"2021-04-23
+      license=\"0\" dateupload=\"1696374476\" datetaken=\"2021-04-23
       18:53:17\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Dave
       Coppedge\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53233073025_1119837ca8_s.jpg\"
@@ -1609,7 +1609,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Southwestern Wisconsin, Part 10:
       Detail of the Green County Courthouse, Monroe, Wisconsin, USA (1891)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1695679305\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1695677303\" datetaken=\"2019-05-31
+      license=\"0\" dateupload=\"1695677303\" datetaken=\"2019-05-31
       12:37:56\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53212741652_45d1433361_s.jpg\"
@@ -1642,7 +1642,7 @@ interactions:
       Geology: Southwestern Wisconsin&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n  </description>\n\t</photo>\n\t<photo
       id=\"53208562441\" owner=\"34457823@N04\" secret=\"7d9075050a\" server=\"65535\"
       farm=\"66\" title=\"Thor&#039;s Well\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"KPortin\" dateadded=\"1695512306\" license=\"0\" safety_level=\"0\"
+      ownername=\"KPortin\" dateadded=\"1695512306\" license=\"0\"
       dateupload=\"1695512300\" datetaken=\"2023-09-22 18:22:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Karen  Portin\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53208562441_7d9075050a_s.jpg\"
@@ -1663,7 +1663,7 @@ interactions:
       Part 5: The Palace of the Porphyrogenitus (late 13th Century) and the Blachernae
       Walls (different sections in different centuries), Istanbul, Turkey\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1695510905\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1695509146\" datetaken=\"1976-11-05
+      license=\"0\" dateupload=\"1695509146\" datetaken=\"1976-11-05
       06:05:25\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53209055865_7e76900805_s.jpg\"
@@ -1690,7 +1690,7 @@ interactions:
       id=\"53206992501\" owner=\"44273756@N08\" secret=\"ffc04e5fab\" server=\"65535\"
       farm=\"66\" title=\"Shake hole NW of Glyntawe Sept 2023\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"mikek666\" dateadded=\"1695454305\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1695454072\" datetaken=\"2023-09-22 13:54:20\"
+      dateupload=\"1695454072\" datetaken=\"2023-09-22 13:54:20\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53206992501_ffc04e5fab_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53206992501_ffc04e5fab_t.jpg\"
@@ -1701,7 +1701,7 @@ interactions:
       id=\"53205525427\" owner=\"196253572@N05\" secret=\"ea00e93810\" server=\"65535\"
       farm=\"66\" title=\"The Brownstone Chronicles, Part 21: Old City Hall, Marquette,
       Upper Peninsula of Michigan, USA (1894)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1695428335\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1695428335\" license=\"0\"
       dateupload=\"1695424864\" datetaken=\"2007-09-09 07:58:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53205525427_ea00e93810_s.jpg\"
@@ -1743,7 +1743,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 8: Reaching
       Road&#039;s End and the River At Last, Big Bend National Park, Texas, USA\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1695253870\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1695252120\" datetaken=\"2002-03-11
+      license=\"0\" dateupload=\"1695252120\" datetaken=\"2002-03-11
       03:08:52\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53202518625_92705c4d19_s.jpg\"
@@ -1773,7 +1773,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"a306fc89a9\" server=\"65535\" farm=\"66\" title=\"Architectural
       Geology of Mycenae, Part 22: Fuori le Mura, or, in the Vulgar, That Which Lies
       Beyond the Citadel; Peloponnese, Greece\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1695168557\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1695168557\" license=\"0\"
       dateupload=\"1695166531\" datetaken=\"1976-03-05 01:41:59\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53200208410_a306fc89a9_s.jpg\"
@@ -1802,7 +1802,7 @@ interactions:
       id=\"53196825815\" owner=\"93408882@N03\" secret=\"56d0667d49\" server=\"65535\"
       farm=\"66\" title=\"Palouse Falls Palouse Falls State Park, Washington\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Freshairphotography by Janis Morrison\"
-      dateadded=\"1695055467\" license=\"0\" safety_level=\"0\" dateupload=\"1695055450\"
+      dateadded=\"1695055467\" license=\"0\" dateupload=\"1695055450\"
       datetaken=\"2023-09-18 09:37:40\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Janis Morrison\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53196825815_56d0667d49_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53196825815_56d0667d49_t.jpg\"
@@ -1825,7 +1825,7 @@ interactions:
       3, 1951.</description>\n\t</photo>\n\t<photo id=\"53195466740\" owner=\"29409244@N03\"
       secret=\"e56e80b89a\" server=\"65535\" farm=\"66\" title=\"Fossile de dent de
       requin Megalodon\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Lilian
-      Alizert\" dateadded=\"1695007579\" license=\"0\" safety_level=\"0\" dateupload=\"1695007576\"
+      Alizert\" dateadded=\"1695007579\" license=\"0\" dateupload=\"1695007576\"
       datetaken=\"2023-09-18 13:25:27\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Lilian Alizert\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53195466740_e56e80b89a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53195466740_e56e80b89a_t.jpg\"
@@ -1839,7 +1839,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 6: Holy
       Trinity Church (early 11th century AD, with a major renovation and rebuilding
       in the 19th century)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1694992817\" license=\"0\" safety_level=\"0\" dateupload=\"1694989059\"
+      dateadded=\"1694992817\" license=\"0\" dateupload=\"1694989059\"
       datetaken=\"1978-02-23 01:03:27\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53194508679_73509a6125_s.jpg\"
@@ -1881,7 +1881,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 13: Detail of the Entrance
       Gate, Rosehill Cemetery, Edgewater Neighborhood (1864)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694906579\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694903172\" datetaken=\"2019-02-05 11:52:01\"
+      dateupload=\"1694903172\" datetaken=\"2019-02-05 11:52:01\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53192457283_42bd51fce1_s.jpg\"
@@ -1923,7 +1923,7 @@ interactions:
       farm=\"66\" title=\"Painted Hills, John Day Fossil Beds National Monument A
       closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Freshairphotography by Janis Morrison\"
-      dateadded=\"1694889331\" license=\"0\" safety_level=\"0\" dateupload=\"1694889323\"
+      dateadded=\"1694889331\" license=\"0\" dateupload=\"1694889323\"
       datetaken=\"2023-09-16 11:25:25\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Janis Morrison\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53191825160_1c3ecbd6cb_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53191825160_1c3ecbd6cb_t.jpg\"
@@ -1951,7 +1951,7 @@ interactions:
       Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the
       hills Wheeler County, Oregon\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       ownername=\"Freshairphotography by Janis Morrison\" dateadded=\"1694889331\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694889323\" datetaken=\"2023-09-16
+      license=\"0\" dateupload=\"1694889323\" datetaken=\"2023-09-16
       11:25:43\" datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Janis
       Morrison\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53191170072_ea3f984dbc_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53191170072_ea3f984dbc_t.jpg\"
@@ -1979,7 +1979,7 @@ interactions:
       Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the
       hills Wheeler County, Oregon\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       ownername=\"Freshairphotography by Janis Morrison\" dateadded=\"1694889330\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694889322\" datetaken=\"2023-09-16
+      license=\"0\" dateupload=\"1694889322\" datetaken=\"2023-09-16
       11:24:55\" datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Janis
       Morrison\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53191431509_0278d3d1a2_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53191431509_0278d3d1a2_t.jpg\"
@@ -2006,7 +2006,7 @@ interactions:
       secret=\"f7696784ca\" server=\"65535\" farm=\"66\" title=\"Painted Cove Trail
       \ John Day Fossil Beds National Monument Wheeler County, Oregon\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Freshairphotography by Janis Morrison\"
-      dateadded=\"1694840738\" license=\"0\" safety_level=\"0\" dateupload=\"1694840732\"
+      dateadded=\"1694840738\" license=\"0\" dateupload=\"1694840732\"
       datetaken=\"2023-09-15 22:03:33\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Janis Morrison\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53190651270_f7696784ca_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53190651270_f7696784ca_t.jpg\"
@@ -2024,7 +2024,7 @@ interactions:
       farm=\"66\" title=\"Geobrickology, Part 9: The Frederick C. Robie House, Hyde
       Park Neighborhood, Chicago, Illinois, USA (1909)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694820004\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694815332\" datetaken=\"2019-01-09 13:38:51\"
+      dateupload=\"1694815332\" datetaken=\"2019-01-09 13:38:51\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53189462917_4433a72757_s.jpg\"
@@ -2061,7 +2061,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 21: San Juan
       de los Caballeros Church (late 11th Century AD)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694734712\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694731283\" datetaken=\"1978-04-13 00:02:22\"
+      dateupload=\"1694731283\" datetaken=\"1978-04-13 00:02:22\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53187912844_157daf5049_s.jpg\"
@@ -2103,7 +2103,7 @@ interactions:
       Geology: Spain&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt; \n\n </description>\n\t</photo>\n\t<photo
       id=\"53185186275\" owner=\"74486811@N00\" secret=\"0cfa692568\" server=\"65535\"
       farm=\"66\" title=\"crater\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"eb78\"
-      dateadded=\"1694711464\" license=\"0\" safety_level=\"0\" dateupload=\"1694620958\"
+      dateadded=\"1694711464\" license=\"0\" dateupload=\"1694620958\"
       datetaken=\"2021-05-16 07:08:46\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Eric\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53185186275_0cfa692568_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53185186275_0cfa692568_t.jpg\"
@@ -2115,7 +2115,7 @@ interactions:
       id=\"53184710710\" owner=\"75916004@N00\" secret=\"0b315a6f88\" server=\"65535\"
       farm=\"66\" title=\"MAREMMA TOSCANA - LA SELVA DEL SASSOFORTE 3228\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"opaxir\" dateadded=\"1694601318\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694600856\" datetaken=\"2023-09-04
+      license=\"0\" dateupload=\"1694600856\" datetaken=\"2023-09-04
       16:28:25\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"paolo
       alias opaxir\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53184710710_0b315a6f88_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53184710710_0b315a6f88_t.jpg\"
@@ -2127,7 +2127,7 @@ interactions:
       id=\"53183796992\" owner=\"75916004@N00\" secret=\"1e0816e046\" server=\"65535\"
       farm=\"66\" title=\"MAREMMA TOSCANA - LA SELVA DEL SASSOFORTE 3242\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"opaxir\" dateadded=\"1694601318\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694600856\" datetaken=\"2023-09-04
+      license=\"0\" dateupload=\"1694600856\" datetaken=\"2023-09-04
       17:23:07\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"paolo
       alias opaxir\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53183796992_1e0816e046_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53183796992_1e0816e046_t.jpg\"
@@ -2139,7 +2139,7 @@ interactions:
       id=\"53184879493\" owner=\"75916004@N00\" secret=\"a70e765e0c\" server=\"65535\"
       farm=\"66\" title=\"MAREMMA TOSCANA - LA SELVA DEL SASSOFORTE 3244\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"opaxir\" dateadded=\"1694601317\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694600855\" datetaken=\"2023-09-04
+      license=\"0\" dateupload=\"1694600855\" datetaken=\"2023-09-04
       17:27:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"paolo
       alias opaxir\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53184879493_a70e765e0c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53184879493_a70e765e0c_t.jpg\"
@@ -2152,7 +2152,7 @@ interactions:
       farm=\"66\" title=\"Geology of Fieldstone &amp; Cobblestone Buildings, Part
       14: The Edward Dodge House, Port Washington, Wisconsin, USA (1848)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694557651\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694555150\" datetaken=\"2019-04-09
+      license=\"0\" dateupload=\"1694555150\" datetaken=\"2019-04-09
       13:23:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53183776200_d2148cc559_s.jpg\"
@@ -2185,7 +2185,7 @@ interactions:
       secret=\"135a7e643f\" server=\"65535\" farm=\"66\" title=\"The Geology of Terra-Cotta,
       Part 10: The Reebie Storage Warehouse, Lincoln Park Neighborhood, Chicago, Illinois,
       USA (1922)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1694475720\" license=\"0\" safety_level=\"0\" dateupload=\"1694472813\"
+      dateadded=\"1694475720\" license=\"0\" dateupload=\"1694472813\"
       datetaken=\"2021-04-10 09:32:10\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53181735133_135a7e643f_s.jpg\"
@@ -2224,7 +2224,7 @@ interactions:
       Bounty of Bell Smith Springs, Part 3: Close-Up of the Cliff Wall behind the
       Natural Bridge, Bell Smith Springs, Shawnee National Forest, Illinois, USA\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694471884\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694469105\" datetaken=\"1997-04-01
+      license=\"0\" dateupload=\"1694469105\" datetaken=\"1997-04-01
       00:00:00\" datetakengranularity=\"4\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53181572895_9177229528_s.jpg\"
@@ -2253,7 +2253,7 @@ interactions:
       id=\"52561295192\" owner=\"196253572@N05\" secret=\"e2c7e37609\" server=\"65535\"
       farm=\"66\" title=\"Colosseum Geology 101, Part 5: The Flavian Amphitheater,
       Rome, Italy (AD 80)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1694438694\" license=\"0\" safety_level=\"0\" dateupload=\"1670966005\"
+      dateadded=\"1694438694\" license=\"0\" dateupload=\"1670966005\"
       datetaken=\"1975-07-01 00:00:00\" datetakengranularity=\"4\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52561295192_e2c7e37609_s.jpg\"
@@ -2283,7 +2283,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Southwestern Wisconsin, Part 9:
       Green County Courthouse, Monroe, Wisconsin, USA (1891)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694387605\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694380904\" datetaken=\"2019-05-31 12:37:10\"
+      dateupload=\"1694380904\" datetaken=\"2019-05-31 12:37:10\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53178381291_bbfde1e3a1_s.jpg\"
@@ -2334,7 +2334,7 @@ interactions:
       Part 4: The Palace of the Porphyrogenitus (late 13th Century) and the Blachernae
       Walls (different sections in different centuries), Istanbul, Turkey\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694298282\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694295122\" datetaken=\"1976-11-05
+      license=\"0\" dateupload=\"1694295122\" datetaken=\"1976-11-05
       05:22:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53175199817_3ded77afd6_s.jpg\"
@@ -2365,7 +2365,7 @@ interactions:
       Geology: Turkey&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt; \n\n</description>\n\t</photo>\n\t<photo
       id=\"53041855087\" owner=\"15029120@N00\" secret=\"700e0b24b5\" server=\"65535\"
       farm=\"66\" title=\"Sharm el Sheikh\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"michael_jeddah\" dateadded=\"1694243145\" license=\"0\" safety_level=\"0\"
+      ownername=\"michael_jeddah\" dateadded=\"1694243145\" license=\"0\"
       dateupload=\"1689231959\" datetaken=\"2023-07-01 11:17:33\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53041855087_700e0b24b5_s.jpg\"
@@ -2380,7 +2380,7 @@ interactions:
       farm=\"66\" title=\"The Glory of Regional Silurian Dolostone, Part 27: St. Sava
       Serbian Orthodox Cathedral, Lyons Park Neighborhood, Milwaukee, Wisconsin, USA
       (1958)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1694214597\" license=\"0\" safety_level=\"0\" dateupload=\"1694211444\"
+      dateadded=\"1694214597\" license=\"0\" dateupload=\"1694211444\"
       datetaken=\"2020-02-14 13:12:54\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53174146605_77bc81d5d3_s.jpg\"
@@ -2417,7 +2417,7 @@ interactions:
       secret=\"a71fbd8439\" server=\"65535\" farm=\"66\" title=\"From Persimmon Gap
       to Boquillas Canyon, Part 7: As the Shadows Fall, Big Bend National Park, Texas,
       USA\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694131225\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694128432\" datetaken=\"2002-03-11
+      license=\"0\" dateupload=\"1694128432\" datetaken=\"2002-03-11
       04:30:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53171036752_a71fbd8439_s.jpg\"
@@ -2452,7 +2452,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"6f3e82e74f\" server=\"65535\" farm=\"66\" title=\"Architectural
       Geology of Mycenae, Part 21: Close-Up of Limestone Masonry, Grave Circle A,
       Peloponnese, Greece\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1694127189\" license=\"0\" safety_level=\"0\" dateupload=\"1694122092\"
+      dateadded=\"1694127189\" license=\"0\" dateupload=\"1694122092\"
       datetaken=\"1976-03-05 00:02:29\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53171453716_6f3e82e74f_s.jpg\"
@@ -2484,7 +2484,7 @@ interactions:
       id=\"53170887847\" owner=\"9746040@N08\" secret=\"4b94fd2149\" server=\"65535\"
       farm=\"66\" title=\"Rocks and trees and skies (no seas)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Wayne~Chadwick\" dateadded=\"1694123230\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694122838\" datetaken=\"2023-08-11 13:38:25\"
+      dateupload=\"1694122838\" datetaken=\"2023-08-11 13:38:25\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Wayne Chadwick\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53170887847_4b94fd2149_s.jpg\"
@@ -2498,7 +2498,7 @@ interactions:
       id=\"53171803383\" owner=\"34457823@N04\" secret=\"9a36bd3df0\" server=\"65535\"
       farm=\"66\" title=\"Hoodoos Below Vermilion Cliffs\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"KPortin\" dateadded=\"1694119086\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1694119075\" datetaken=\"2023-03-12 12:05:35\"
+      dateupload=\"1694119075\" datetaken=\"2023-03-12 12:05:35\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Karen  Portin\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53171803383_9a36bd3df0_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53171803383_9a36bd3df0_t.jpg\"
@@ -2512,7 +2512,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 5: Pardon
       Our Dust at Sts. Theodores Church (ca. mid-11th century AD)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1694031942\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1694028850\" datetaken=\"1978-02-23
+      license=\"0\" dateupload=\"1694028850\" datetaken=\"1978-02-23
       03:55:50\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53168957021_69f45df45f_s.jpg\"
@@ -2543,7 +2543,7 @@ interactions:
       id=\"53168153703\" owner=\"7665648@N04\" secret=\"4282403718\" server=\"65535\"
       farm=\"66\" title=\"3669 Metamorphic rock flow patterns Eagle Co CO\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\" dateadded=\"1694024276\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693975511\" datetaken=\"2023-09-05
+      license=\"0\" dateupload=\"1693975511\" datetaken=\"2023-09-05
       23:44:31\" datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Steve\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53168153703_4282403718_s.jpg\"
@@ -2558,7 +2558,7 @@ interactions:
       id=\"53167670223\" owner=\"7665648@N04\" secret=\"768b200000\" server=\"65535\"
       farm=\"66\" title=\"3336 Chinle Fm outcrop on Squaw Creek trail Eagle Co CO\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\" dateadded=\"1693975365\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693954892\" datetaken=\"2023-09-05
+      license=\"0\" dateupload=\"1693954892\" datetaken=\"2023-09-05
       17:59:24\" datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Steve\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53167670223_768b200000_s.jpg\"
@@ -2572,7 +2572,7 @@ interactions:
       id=\"53166622932\" owner=\"7665648@N04\" secret=\"e0c61e7206\" server=\"65535\"
       farm=\"66\" title=\"3638 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693975156\" license=\"0\" safety_level=\"0\" dateupload=\"1693955714\"
+      dateadded=\"1693975156\" license=\"0\" dateupload=\"1693955714\"
       datetaken=\"2023-09-05 18:14:23\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53166622932_e0c61e7206_s.jpg\"
@@ -2587,7 +2587,7 @@ interactions:
       id=\"53167646080\" owner=\"7665648@N04\" secret=\"69975742c2\" server=\"65535\"
       farm=\"66\" title=\"3637 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk-2\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693975134\" license=\"0\" safety_level=\"0\" dateupload=\"1693955713\"
+      dateadded=\"1693975134\" license=\"0\" dateupload=\"1693955713\"
       datetaken=\"2023-09-05 18:14:18\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167646080_69975742c2_s.jpg\"
@@ -2601,7 +2601,7 @@ interactions:
       id=\"53167413449\" owner=\"7665648@N04\" secret=\"5b9174382a\" server=\"65535\"
       farm=\"66\" title=\"3637 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693975098\" license=\"0\" safety_level=\"0\" dateupload=\"1693955713\"
+      dateadded=\"1693975098\" license=\"0\" dateupload=\"1693955713\"
       datetaken=\"2023-09-05 18:14:26\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167413449_5b9174382a_s.jpg\"
@@ -2615,7 +2615,7 @@ interactions:
       id=\"53167695508\" owner=\"7665648@N04\" secret=\"6c69a0a132\" server=\"65535\"
       farm=\"66\" title=\"3636 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693975072\" license=\"0\" safety_level=\"0\" dateupload=\"1693955712\"
+      dateadded=\"1693975072\" license=\"0\" dateupload=\"1693955712\"
       datetaken=\"2023-09-05 18:14:25\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167695508_6c69a0a132_s.jpg\"
@@ -2629,7 +2629,7 @@ interactions:
       id=\"53167695558\" owner=\"7665648@N04\" secret=\"5a278f81ac\" server=\"65535\"
       farm=\"66\" title=\"3635 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693975040\" license=\"0\" safety_level=\"0\" dateupload=\"1693955711\"
+      dateadded=\"1693975040\" license=\"0\" dateupload=\"1693955711\"
       datetaken=\"2023-09-05 18:14:26\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167695558_5a278f81ac_s.jpg\"
@@ -2643,7 +2643,7 @@ interactions:
       id=\"53167413444\" owner=\"7665648@N04\" secret=\"ebdb565b1c\" server=\"65535\"
       farm=\"66\" title=\"3634 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693975011\" license=\"0\" safety_level=\"0\" dateupload=\"1693955711\"
+      dateadded=\"1693975011\" license=\"0\" dateupload=\"1693955711\"
       datetaken=\"2023-09-05 18:14:26\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167413444_ebdb565b1c_s.jpg\"
@@ -2657,7 +2657,7 @@ interactions:
       id=\"53167646265\" owner=\"7665648@N04\" secret=\"e690b6993c\" server=\"65535\"
       farm=\"66\" title=\"3633 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk-2 Eagle Co Colorado\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693974211\" license=\"0\" safety_level=\"0\" dateupload=\"1693955710\"
+      dateadded=\"1693974211\" license=\"0\" dateupload=\"1693955710\"
       datetaken=\"2023-09-05 18:14:25\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167646265_e690b6993c_s.jpg\"
@@ -2837,14 +2837,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&group_id=66832458%40N00&method=flickr.groups.pools.getPhotos&page=2&per_page=100
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&group_id=66832458%40N00&method=flickr.groups.pools.getPhotos&page=2&per_page=100
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"2\" pages=\"144\" perpage=\"100\" total=\"14336\">\n\t<photo id=\"53167695768\"
       owner=\"7665648@N04\" secret=\"9598468eda\" server=\"65535\" farm=\"66\" title=\"3633
       Tilted rocks ripple marks Forest Rd 400 Sylvan Lake St Pk\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Singingstone48\" dateadded=\"1693955957\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1693955709\" datetaken=\"2023-09-05 18:14:33\"
+      dateupload=\"1693955709\" datetaken=\"2023-09-05 18:14:33\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Steve\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167695768_9598468eda_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53167695768_9598468eda_t.jpg\"
@@ -2857,7 +2857,7 @@ interactions:
       id=\"53167646560\" owner=\"7665648@N04\" secret=\"b90da11cb8\" server=\"65535\"
       farm=\"66\" title=\"3632 Tilted rocks ripple marks Forest Rd 400 Sylvan Lake
       St Pk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Singingstone48\"
-      dateadded=\"1693955899\" license=\"0\" safety_level=\"0\" dateupload=\"1693955709\"
+      dateadded=\"1693955899\" license=\"0\" dateupload=\"1693955709\"
       datetaken=\"2023-09-05 18:14:35\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Steve\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167646560_b90da11cb8_s.jpg\"
@@ -2872,7 +2872,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 12: Close-up of the Frances
       Pearce Monument, Rosehill Cemetery, Edgewater Neighborhood (1856; moved here
       in 1861)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693954625\" license=\"0\" safety_level=\"0\" dateupload=\"1693950212\"
+      dateadded=\"1693954625\" license=\"0\" dateupload=\"1693950212\"
       datetaken=\"2021-04-10 09:07:48\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167081921_6eb9408ce9_s.jpg\"
@@ -2922,7 +2922,7 @@ interactions:
       farm=\"66\" title=\"Geobrickology, Part 7: Detail of the Eastern-Wing Exterior;
       Headquarters, Water Tower, &amp; Barracks, Fort Sheridan, Illinois, USA (1891)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693948514\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693944138\" datetaken=\"2019-11-13
+      license=\"0\" dateupload=\"1693944138\" datetaken=\"2019-11-13
       15:17:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53167357793_4bd242be73_s.jpg\"
@@ -2954,7 +2954,7 @@ interactions:
       id=\"53164880394\" owner=\"196253572@N05\" secret=\"cc60beb664\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 20: San Sebasti\xE1n
       Church (12th or 13th Century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1693869501\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1693869501\" license=\"0\"
       dateupload=\"1693863174\" datetaken=\"1978-04-13 00:00:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53164880394_cc60beb664_s.jpg\"
@@ -2997,7 +2997,7 @@ interactions:
       farm=\"66\" title=\"Botany of the Carolinas Coastal Plain, Part 10: The Salt
       Marsh&#039;s Dynamic Duo, Croatan National Forest, North Carolina USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693780896\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693776778\" datetaken=\"2003-07-28
+      license=\"0\" dateupload=\"1693776778\" datetaken=\"2003-07-28
       12:22:20\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53162329569_dfde581113_s.jpg\"
@@ -3037,7 +3037,7 @@ interactions:
       farm=\"66\" title=\"Geology of Fieldstone &amp; Cobblestone Buildings, Part
       13: The Edward Dodge House, Port Washington, Wisconsin, USA (1848)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693772074\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693768099\" datetaken=\"2019-04-09
+      license=\"0\" dateupload=\"1693768099\" datetaken=\"2019-04-09
       13:10:06\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53162290218_cfaa676c97_s.jpg\"
@@ -3078,7 +3078,7 @@ interactions:
       secret=\"d735ae1635\" server=\"65535\" farm=\"66\" title=\"The Geology of Terra-Cotta,
       Part 9: Close-Up of the George Watts &amp; Son Building, Juneautown Neighborhood,
       Milwaukee, Wisconsin, USA (1925)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1693697543\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1693697543\" license=\"0\"
       dateupload=\"1693695156\" datetaken=\"2019-06-26 10:40:23\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53159860896_d735ae1635_s.jpg\"
@@ -3116,7 +3116,7 @@ interactions:
       Bounty of Bell Smith Springs, Part 2: Detail of the Natural Bridge and Cliff
       Wall, Bell Smith Springs, Shawnee National Forest, Illinois, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693692410\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693687787\" datetaken=\"2005-04-10
+      license=\"0\" dateupload=\"1693687787\" datetaken=\"2005-04-10
       11:08:36\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53159635961_3ea946ce7e_s.jpg\"
@@ -3160,7 +3160,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Southwestern Wisconsin, Part 8:
       Tafoniaceous Textures at the First United Methodist Church, Mineral Point, Wisconsin,
       USA (1871)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693612674\" license=\"0\" safety_level=\"0\" dateupload=\"1693609607\"
+      dateadded=\"1693612674\" license=\"0\" dateupload=\"1693609607\"
       datetaken=\"2019-03-21 09:39:57\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53158198185_6d0f960654_s.jpg\"
@@ -3196,7 +3196,7 @@ interactions:
       farm=\"66\" title=\"A Marvel of Masonry, Part 3: The Palace of the Porphyrogenitus
       (late 13th Century) and the Blachernae Walls (different sections in different
       centuries), Istanbul, Turkey\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1693608797\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1693608797\" license=\"0\"
       dateupload=\"1693601816\" datetaken=\"1976-11-05 09:07:35\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53158000485_b7cf99b83e_s.jpg\"
@@ -3244,7 +3244,7 @@ interactions:
       farm=\"66\" title=\"The Brownstone Chronicles, Part 20: Detail of the Northwestern
       Turret, St. Paul&#039;s Episcopal Church, Yankee Hill Neighborhood, Milwaukee,
       Wisconsin, USA (1893)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693518176\" license=\"0\" safety_level=\"0\" dateupload=\"1693515468\"
+      dateadded=\"1693518176\" license=\"0\" dateupload=\"1693515468\"
       datetaken=\"2021-12-14 13:06:09\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53154892332_0bb5eab04a_s.jpg\"
@@ -3286,7 +3286,7 @@ interactions:
       id=\"53155210794\" owner=\"44273756@N08\" secret=\"7d0790a872\" server=\"65535\"
       farm=\"66\" title=\"landscape near village of ena 6 aug 2023\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"mikek666\" dateadded=\"1693500493\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693500390\" datetaken=\"2023-08-31
+      license=\"0\" dateupload=\"1693500390\" datetaken=\"2023-08-31
       12:36:15\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53155210794_7d0790a872_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53155210794_7d0790a872_t.jpg\"
@@ -3299,7 +3299,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 6: Nature&#039;s
       Answer to the Mohawk Haircut, Big Bend National Park, Texas, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693437453\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693432390\" datetaken=\"2002-03-11
+      license=\"0\" dateupload=\"1693432390\" datetaken=\"2002-03-11
       02:38:15\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53152838457_9e51197315_s.jpg\"
@@ -3341,7 +3341,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"f44bc24839\" server=\"65535\" farm=\"66\" title=\"Architectural
       Geology of Mycenae, Part 20: Another Section of Grave Circle A, Peloponnese,
       Greece\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693345966\" license=\"0\" safety_level=\"0\" dateupload=\"1693343770\"
+      dateadded=\"1693345966\" license=\"0\" dateupload=\"1693343770\"
       datetaken=\"1976-03-05 02:17:33\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53151677243_f44bc24839_s.jpg\"
@@ -3366,7 +3366,7 @@ interactions:
       id=\"53150296542\" owner=\"196253572@N05\" secret=\"ca45ab91b8\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 4: Sts.
       Theodores Church (ca. mid-11th century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1693339254\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1693339254\" license=\"0\"
       dateupload=\"1693334831\" datetaken=\"1978-02-23 00:00:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53150296542_ca45ab91b8_s.jpg\"
@@ -3397,7 +3397,7 @@ interactions:
       and Late Roman Worlds&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n</description>\n\t</photo>\n\t<photo
       id=\"52978763404\" owner=\"15029120@N00\" secret=\"ef13250dd2\" server=\"65535\"
       farm=\"66\" title=\"Schorfheide\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"michael_jeddah\" dateadded=\"1693300789\" license=\"0\" safety_level=\"0\"
+      ownername=\"michael_jeddah\" dateadded=\"1693300789\" license=\"0\"
       dateupload=\"1686923666\" datetaken=\"2023-06-11 17:11:55\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52978763404_ef13250dd2_s.jpg\"
@@ -3411,7 +3411,7 @@ interactions:
       id=\"53149701454\" owner=\"154000018@N08\" secret=\"673a43fe77\" server=\"65535\"
       farm=\"66\" title=\"Kiel Canal / Nord-Ostsee-Kanal\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"peterkaroblis\" dateadded=\"1693286245\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1693285644\" datetaken=\"2023-08-25 18:16:26\"
+      dateupload=\"1693285644\" datetaken=\"2023-08-25 18:16:26\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Peter Karoblis\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53149701454_673a43fe77_s.jpg\"
@@ -3425,7 +3425,7 @@ interactions:
       nm</description>\n\t</photo>\n\t<photo id=\"53149927313\" owner=\"34457823@N04\"
       secret=\"b775f33694\" server=\"65535\" farm=\"66\" title=\"Joshua Tree\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"KPortin\" dateadded=\"1693283794\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693283785\" datetaken=\"2023-02-06
+      license=\"0\" dateupload=\"1693283785\" datetaken=\"2023-02-06
       23:30:37\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Karen
       \ Portin\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53149927313_b775f33694_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53149927313_b775f33694_t.jpg\"
@@ -3441,7 +3441,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 11: Detail of the Frances
       Pearce Monument, Rosehill Cemetery, Edgewater Neighborhood (1856; moved here
       in 1861)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693250732\" license=\"0\" safety_level=\"0\" dateupload=\"1693247181\"
+      dateadded=\"1693250732\" license=\"0\" dateupload=\"1693247181\"
       datetaken=\"2021-04-10 09:09:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53147726757_7de13d7767_s.jpg\"
@@ -3486,7 +3486,7 @@ interactions:
       farm=\"66\" title=\"Geobrickology, Part 6: Detail of the Exterior; Headquarters,
       Water Tower, &amp; Barracks, Fort Sheridan, Illinois, USA (1891)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693177109\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693171777\" datetaken=\"2019-11-13
+      license=\"0\" dateupload=\"1693171777\" datetaken=\"2019-11-13
       15:15:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53146442425_7078d32879_s.jpg\"
@@ -3527,7 +3527,7 @@ interactions:
       id=\"53146380333\" owner=\"196253572@N05\" secret=\"a5d45ca5ec\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 19: San Mart\xEDn
       Church (12th Century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693170342\" license=\"0\" safety_level=\"0\" dateupload=\"1693168469\"
+      dateadded=\"1693170342\" license=\"0\" dateupload=\"1693168469\"
       datetaken=\"1978-04-13 00:43:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53146380333_a5d45ca5ec_s.jpg\"
@@ -3555,7 +3555,7 @@ interactions:
       farm=\"66\" title=\"The Glory of Regional Silurian Dolostone, Part 26: Close-Up
       of University Hall, Northwestern University, Evanston, Illinois, USA (1869)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693086418\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693081781\" datetaken=\"2019-03-06
+      license=\"0\" dateupload=\"1693081781\" datetaken=\"2019-03-06
       12:35:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53143381611_e672b10e56_s.jpg\"
@@ -3601,7 +3601,7 @@ interactions:
       farm=\"66\" title=\"Geology of Fieldstone &amp; Cobblestone Buildings, Part
       11: The Columbus Wallace House, Crystal Lake, Illinois, USA (ca. 1850)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1693007293\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1693004725\" datetaken=\"2019-11-25
+      license=\"0\" dateupload=\"1693004725\" datetaken=\"2019-11-25
       12:01:11\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53141585556_3cb24948e9_s.jpg\"
@@ -3636,7 +3636,7 @@ interactions:
       secret=\"64ed1daf12\" server=\"65535\" farm=\"66\" title=\"The Geology of Terra-Cotta,
       Part 7: The George Watts &amp; Son Building, Juneautown Neighborhood, Milwaukee,
       Wisconsin, USA (1925)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1693003977\" license=\"0\" safety_level=\"0\" dateupload=\"1693001962\"
+      dateadded=\"1693003977\" license=\"0\" dateupload=\"1693001962\"
       datetaken=\"2019-06-26 10:38:55\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53141734844_64ed1daf12_s.jpg\"
@@ -3666,7 +3666,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"c05298bbcc\" server=\"65535\" farm=\"66\" title=\"The
       Glory of Regional Silurian Dolostone, Part 25: University Hall, Northwestern
       University, Evanston, Illinois, USA (1869)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1692915228\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1692915228\" license=\"0\"
       dateupload=\"1691871303\" datetaken=\"2019-03-06 12:34:27\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53111676686_c05298bbcc_s.jpg\"
@@ -3702,7 +3702,7 @@ interactions:
       of Southwestern Wisconsin, Part 7: Vermiculation Madness at the First United
       Methodist Church, Mineral Point, Wisconsin, USA (1871)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692914779\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1692912165\" datetaken=\"2019-03-21 00:00:00\"
+      dateupload=\"1692912165\" datetaken=\"2019-03-21 00:00:00\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53139808135_26de09e1af_s.jpg\"
@@ -3735,7 +3735,7 @@ interactions:
       farm=\"66\" title=\"A Marvel of Masonry, Part 2: The Palace of the Porphyrogenitus
       (late 13th Century) and the Blachernae Walls (different sections in different
       centuries), Istanbul, Turkey\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1692833451\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1692833451\" license=\"0\"
       dateupload=\"1692828443\" datetaken=\"1976-11-05 08:39:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53136759777_7c47bd9065_s.jpg\"
@@ -3768,7 +3768,7 @@ interactions:
       farm=\"66\" title=\"The Brownstone Chronicles, Part 19: Detail of the Western
       Elevation, St. Paul&#039;s Episcopal Church, Yankee Hill Neighborhood, Milwaukee,
       Wisconsin, USA (1893)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1692747059\" license=\"0\" safety_level=\"0\" dateupload=\"1692744567\"
+      dateadded=\"1692747059\" license=\"0\" dateupload=\"1692744567\"
       datetaken=\"2021-12-14 13:06:49\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53135730365_1095059f57_s.jpg\"
@@ -3811,7 +3811,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 5: Leading
       Actors of the Chihuahuan-Desert Cast, Big Bend National Park, Texas, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692653386\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692650126\" datetaken=\"2002-03-11
+      license=\"0\" dateupload=\"1692650126\" datetaken=\"2002-03-11
       02:26:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53133159650_057c4b4a05_s.jpg\"
@@ -3850,7 +3850,7 @@ interactions:
       album&lt;/a&gt;.&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"53131386160\"
       owner=\"99003655@N00\" secret=\"bb26a27096\" server=\"65535\" farm=\"66\" title=\"Power
       of an Oak Root\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"docentjoyce\"
-      dateadded=\"1692591511\" license=\"4\" safety_level=\"0\" dateupload=\"1692591508\"
+      dateadded=\"1692591511\" license=\"4\" dateupload=\"1692591508\"
       datetaken=\"2023-07-31 10:42:15\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53131386160_bb26a27096_s.jpg\"
@@ -3869,7 +3869,7 @@ interactions:
       secret=\"7e30c11767\" server=\"65535\" farm=\"66\" title=\"Architectural Geology
       of Mycenae, Part 19: One Section of Grave Circle A, Peloponnese, Greece\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692571926\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692568642\" datetaken=\"1976-03-05
+      license=\"0\" dateupload=\"1692568642\" datetaken=\"1976-03-05
       01:50:28\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53130817130_7e30c11767_s.jpg\"
@@ -3902,7 +3902,7 @@ interactions:
       Magic: Bronze-Age Stonework&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt; \n\n  </description>\n\t</photo>\n\t<photo
       id=\"53128813672\" owner=\"34457823@N04\" secret=\"60659971f4\" server=\"65535\"
       farm=\"66\" title=\"Recapture Pocket\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"KPortin\" dateadded=\"1692542414\" license=\"0\" safety_level=\"0\"
+      ownername=\"KPortin\" dateadded=\"1692542414\" license=\"0\"
       dateupload=\"1692542406\" datetaken=\"2023-03-25 11:49:14\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Karen  Portin\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53128813672_60659971f4_s.jpg\"
@@ -3917,7 +3917,7 @@ interactions:
       secret=\"210f113f40\" server=\"65535\" farm=\"66\" title=\"Architectural Geology
       of Byzantine Athens, Part 3: Holy Apostles Church, the Agora (ca. late 10th
       century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1692489183\" license=\"0\" safety_level=\"0\" dateupload=\"1692484293\"
+      dateadded=\"1692489183\" license=\"0\" dateupload=\"1692484293\"
       datetaken=\"1976-11-18 00:30:38\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53128047076_210f113f40_s.jpg\"
@@ -3947,7 +3947,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 10: The Frances Pearce
       Monument, Rosehill Cemetery, Edgewater Neighborhood (1856; moved here in 1861)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692480448\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692474314\" datetaken=\"2021-04-10
+      license=\"0\" dateupload=\"1692474314\" datetaken=\"2021-04-10
       09:06:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53128208018_b3362a6ce8_s.jpg\"
@@ -3997,7 +3997,7 @@ interactions:
       farm=\"66\" title=\"Geobrickology, Part 5: Detail of the Milwaukee Club, Juneautown
       Neighborhood, Milwaukee, Wisconsin, USA (1883)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692394938\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1692391728\" datetaken=\"2021-10-31 11:15:06\"
+      dateupload=\"1692391728\" datetaken=\"2021-10-31 11:15:06\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53125657561_15d357f762_s.jpg\"
@@ -4034,7 +4034,7 @@ interactions:
       id=\"53124846987\" owner=\"196253572@N05\" secret=\"b24b788155\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 18: San Mart\xEDn
       Church (12th Century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1692389982\" license=\"0\" safety_level=\"0\" dateupload=\"1692384804\"
+      dateadded=\"1692389982\" license=\"0\" dateupload=\"1692384804\"
       datetaken=\"1978-04-13 00:41:25\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53124846987_b24b788155_s.jpg\"
@@ -4071,7 +4071,7 @@ interactions:
       farm=\"66\" title=\"The Brownstone Chronicles, Part 16: This Is Getting Unhealthily
       Obsessive; Another Close-Up of an Old Copper-Mine Building, Quincy Mine Hoist
       Historic Site, Hancock, Michigan, USA\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1692310687\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1692310687\" license=\"0\"
       dateupload=\"1692305214\" datetaken=\"2007-09-09 13:24:26\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53123981053_f91eebbda2_s.jpg\"
@@ -4114,7 +4114,7 @@ interactions:
       id=\"52953382865\" owner=\"15029120@N00\" secret=\"ab05c24378\" server=\"65535\"
       farm=\"66\" title=\"Uckermark - Teufelsstein\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"michael_jeddah\" dateadded=\"1692261958\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1685983737\" datetaken=\"2023-05-28 14:10:50\"
+      dateupload=\"1685983737\" datetaken=\"2023-05-28 14:10:50\"
       datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52953382865_ab05c24378_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52953382865_ab05c24378_t.jpg\"
@@ -4129,7 +4129,7 @@ interactions:
       5: A Last Look at the Western Elevation, Epworth United Methodist Church, Edgewater
       Neighborhood, Chicago, Illinois, USA (1891; addition 1930)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692223822\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692221153\" datetaken=\"2019-04-19
+      license=\"0\" dateupload=\"1692221153\" datetaken=\"2019-04-19
       10:31:28\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53121351056_526122d2e8_s.jpg\"
@@ -4163,7 +4163,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"8b0aac9db9\" server=\"65535\" farm=\"66\" title=\"The
       Geology of Terra-Cotta, Part 5: The Facade, Krause Music Store, Ravenswood Neighborhood,
       Chicago, Illinois, USA (1922)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1692218797\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1692218797\" license=\"0\"
       dateupload=\"1692213886\" datetaken=\"2019-01-09 11:34:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53121584798_8b0aac9db9_s.jpg\"
@@ -4200,7 +4200,7 @@ interactions:
       album&lt;/a&gt;.&lt;/b&gt; </description>\n\t</photo>\n\t<photo id=\"53115119148\"
       owner=\"9563286@N03\" secret=\"63be4a0360\" server=\"65535\" farm=\"66\" title=\"Fossilized
       Pleistocene peccary bones, Number Two Cave\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Chuck Sutherland\" dateadded=\"1692197578\" license=\"0\" safety_level=\"0\"
+      ownername=\"Chuck Sutherland\" dateadded=\"1692197578\" license=\"0\"
       dateupload=\"1691976894\" datetaken=\"2023-08-12 11:38:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Chuck Sutherland\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53115119148_63be4a0360_s.jpg\"
@@ -4215,7 +4215,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Southwestern Wisconsin, Part 6:
       Close-Up of the First United Methodist Church, Mineral Point, Wisconsin, USA
       (1871)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1692134134\" license=\"0\" safety_level=\"0\" dateupload=\"1692130654\"
+      dateadded=\"1692134134\" license=\"0\" dateupload=\"1692130654\"
       datetaken=\"2019-03-21 09:37:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53119386893_7aee2362d8_s.jpg\"
@@ -4251,7 +4251,7 @@ interactions:
       farm=\"66\" title=\"A Marvel of Masonry, Part 1: The Palace of the Porphyrogenitus
       and the Blachernae Walls, Istanbul, Turkey (late 13th century AD)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1692054572\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692050487\" datetaken=\"1976-11-05
+      license=\"0\" dateupload=\"1692050487\" datetaken=\"1976-11-05
       08:58:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53116995519_2055cda65c_s.jpg\"
@@ -4296,7 +4296,7 @@ interactions:
       Geology: Turkey&lt;/i&gt; album&lt;/a&gt;. &lt;/b&gt;     </description>\n\t</photo>\n\t<photo
       id=\"53117280313\" owner=\"18478048@N00\" secret=\"22af7b4e2b\" server=\"65535\"
       farm=\"66\" title=\"IMG_1740\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"ChPfl\xFCgl\" dateadded=\"1692050799\" license=\"0\" safety_level=\"0\"
+      ownername=\"ChPfl\xFCgl\" dateadded=\"1692050799\" license=\"0\"
       dateupload=\"1692050782\" datetaken=\"2023-08-13 13:51:19\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53117280313_22af7b4e2b_s.jpg\"
@@ -4310,7 +4310,7 @@ interactions:
       2023</description>\n\t</photo>\n\t<photo id=\"53117280358\" owner=\"18478048@N00\"
       secret=\"a297b0104c\" server=\"65535\" farm=\"66\" title=\"IMG_1739\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"ChPfl\xFCgl\" dateadded=\"1692050798\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692050781\" datetaken=\"2023-08-13
+      license=\"0\" dateupload=\"1692050781\" datetaken=\"2023-08-13
       13:51:11\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53117280358_a297b0104c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53117280358_a297b0104c_t.jpg\"
@@ -4323,7 +4323,7 @@ interactions:
       2023</description>\n\t</photo>\n\t<photo id=\"53116788211\" owner=\"18478048@N00\"
       secret=\"bd3625df49\" server=\"65535\" farm=\"66\" title=\"IMG_1734\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"ChPfl\xFCgl\" dateadded=\"1692050798\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692050781\" datetaken=\"2023-08-13
+      license=\"0\" dateupload=\"1692050781\" datetaken=\"2023-08-13
       13:46:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53116788211_bd3625df49_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53116788211_bd3625df49_t.jpg\"
@@ -4336,7 +4336,7 @@ interactions:
       2023</description>\n\t</photo>\n\t<photo id=\"53117196075\" owner=\"18478048@N00\"
       secret=\"256d0ed01e\" server=\"65535\" farm=\"66\" title=\"IMG_1698\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"ChPfl\xFCgl\" dateadded=\"1692050797\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692050777\" datetaken=\"2023-08-13
+      license=\"0\" dateupload=\"1692050777\" datetaken=\"2023-08-13
       13:11:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53117196075_256d0ed01e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53117196075_256d0ed01e_t.jpg\"
@@ -4349,7 +4349,7 @@ interactions:
       2023</description>\n\t</photo>\n\t<photo id=\"53116989424\" owner=\"18478048@N00\"
       secret=\"fc09f4ce71\" server=\"65535\" farm=\"66\" title=\"IMG_1695\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"ChPfl\xFCgl\" dateadded=\"1692050797\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1692050776\" datetaken=\"2023-08-13
+      license=\"0\" dateupload=\"1692050776\" datetaken=\"2023-08-13
       13:06:40\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53116989424_fc09f4ce71_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53116989424_fc09f4ce71_t.jpg\"
@@ -4362,7 +4362,7 @@ interactions:
       2023</description>\n\t</photo>\n\t<photo id=\"53112035489\" owner=\"18478048@N00\"
       secret=\"31392c3e70\" server=\"65535\" farm=\"66\" title=\"IMG_1623\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"ChPfl\xFCgl\" dateadded=\"1691877475\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1691877456\" datetaken=\"2023-08-09
+      license=\"0\" dateupload=\"1691877456\" datetaken=\"2023-08-09
       13:33:19\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53112035489_31392c3e70_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53112035489_31392c3e70_t.jpg\"
@@ -4376,7 +4376,7 @@ interactions:
       farm=\"66\" title=\"Urban Street Trees, Part 21: Dawn Redwood (Metasequoia glyptostroboides),
       Elmhurst University Campus, Elmhurst, Illinois, USA\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691796157\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691792970\" datetaken=\"2007-09-27 09:21:58\"
+      dateupload=\"1691792970\" datetaken=\"2007-09-27 09:21:58\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53109979469_6cf55c6b4f_s.jpg\"
@@ -4409,7 +4409,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 4: Fall Down,
       Go Boom, Annotated; Big Bend National Park, Texas, USA\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691794086\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691783916\" datetaken=\"2002-03-11 02:21:08\"
+      dateupload=\"1691783916\" datetaken=\"2002-03-11 02:21:08\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53109489126_afa5fc9d29_s.jpg\"
@@ -4445,7 +4445,7 @@ interactions:
       album&lt;/a&gt;.&lt;/b&gt;\n\n\n</description>\n\t</photo>\n\t<photo id=\"53103647355\"
       owner=\"72582391@N02\" secret=\"2baaafff28\" server=\"65535\" farm=\"66\" title=\"Cat
       Ba Archipelago\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Perkins-Boyer
-      Photos\" dateadded=\"1691775777\" license=\"0\" safety_level=\"0\" dateupload=\"1691535465\"
+      Photos\" dateadded=\"1691775777\" license=\"0\" dateupload=\"1691535465\"
       datetaken=\"2016-04-05 22:35:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Rhoda Perkins-Boyer\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53103647355_2baaafff28_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53103647355_2baaafff28_t.jpg\"
@@ -4457,7 +4457,7 @@ interactions:
       id=\"53107790264\" owner=\"196253572@N05\" secret=\"ba1b11d99c\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Mycenae, Part 18: The Approach
       to Grave Circle A, Peloponnese, Greece\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1691709374\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1691709374\" license=\"0\"
       dateupload=\"1691706403\" datetaken=\"1976-03-05 00:22:32\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53107790264_ba1b11d99c_s.jpg\"
@@ -4484,7 +4484,7 @@ interactions:
       Magic: Bronze-Age Stonework&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt; \n\n\n</description>\n\t</photo>\n\t<photo
       id=\"52771013429\" owner=\"72582391@N02\" secret=\"f7004fe3b2\" server=\"65535\"
       farm=\"66\" title=\"Seven Pillars\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Perkins-Boyer Photos\" dateadded=\"1691707589\" license=\"0\" safety_level=\"0\"
+      ownername=\"Perkins-Boyer Photos\" dateadded=\"1691707589\" license=\"0\"
       dateupload=\"1679778521\" datetaken=\"2022-11-14 19:44:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Rhoda Perkins-Boyer\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52771013429_f7004fe3b2_s.jpg\"
@@ -4496,7 +4496,7 @@ interactions:
       height_l=\"682\" width_l=\"1024\">\n\t\t<description>Wadi Rum Jordan</description>\n\t</photo>\n\t<photo
       id=\"53103235081\" owner=\"72582391@N02\" secret=\"82cc810760\" server=\"65535\"
       farm=\"66\" title=\"Cat Ba Archipelago\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Perkins-Boyer Photos\" dateadded=\"1691706582\" license=\"0\" safety_level=\"0\"
+      ownername=\"Perkins-Boyer Photos\" dateadded=\"1691706582\" license=\"0\"
       dateupload=\"1691535465\" datetaken=\"2016-04-05 22:40:41\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Rhoda Perkins-Boyer\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53103235081_82cc810760_s.jpg\"
@@ -4510,7 +4510,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 2: Holy
       Apostles Church, the Agora (ca. late 10th century AD)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691702832\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691697550\" datetaken=\"1976-11-18 00:22:42\"
+      dateupload=\"1691697550\" datetaken=\"1976-11-18 00:22:42\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53107722000_e449c7435b_s.jpg\"
@@ -4546,7 +4546,7 @@ interactions:
       and Late Roman Worlds&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n\n</description>\n\t</photo>\n\t<photo
       id=\"53106602513\" owner=\"37075433@N00\" secret=\"c12cec0f96\" server=\"65535\"
       farm=\"66\" title=\"Campanili dei Lander\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Vid Pogacnik\" dateadded=\"1691652622\" license=\"0\" safety_level=\"0\"
+      ownername=\"Vid Pogacnik\" dateadded=\"1691652622\" license=\"0\"
       dateupload=\"1691652610\" datetaken=\"2023-08-01 10:32:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Vid Pogacnik\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53106602513_c12cec0f96_s.jpg\"
@@ -4560,7 +4560,7 @@ interactions:
       id=\"53106502830\" owner=\"44273756@N08\" secret=\"45d148797a\" server=\"65535\"
       farm=\"66\" title=\"punta alta de las blancas de lalarri center 95 aug 2023\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"mikek666\" dateadded=\"1691651593\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1691651336\" datetaken=\"2023-08-08
+      license=\"0\" dateupload=\"1691651336\" datetaken=\"2023-08-08
       11:29:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53106502830_45d148797a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53106502830_45d148797a_t.jpg\"
@@ -4572,7 +4572,7 @@ interactions:
       id=\"53106296109\" owner=\"44273756@N08\" secret=\"cc4a3c5f20\" server=\"65535\"
       farm=\"66\" title=\"rock punta es ibons 50 aug 2023\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"mikek666\" dateadded=\"1691651570\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691651340\" datetaken=\"2023-08-08 12:02:36\"
+      dateupload=\"1691651340\" datetaken=\"2023-08-08 12:02:36\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53106296109_cc4a3c5f20_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53106296109_cc4a3c5f20_t.jpg\"
@@ -4585,7 +4585,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 9: Rapakivi Revealed,
       The Sequel; The Chapel, Graceland Cemetery, Uptown Neighborhood (1888)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691622066\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1691618434\" datetaken=\"2019-06-19
+      license=\"0\" dateupload=\"1691618434\" datetaken=\"2019-06-19
       11:14:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53105624239_4a50f70c3a_s.jpg\"
@@ -4618,7 +4618,7 @@ interactions:
       Science&lt;/i&gt;&lt;/b&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n</description>\n\t</photo>\n\t<photo
       id=\"53103259072\" owner=\"37075433@N00\" secret=\"9386f4b012\" server=\"65535\"
       farm=\"66\" title=\"Campanili dei Lander\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Vid Pogacnik\" dateadded=\"1691563543\" license=\"0\" safety_level=\"0\"
+      ownername=\"Vid Pogacnik\" dateadded=\"1691563543\" license=\"0\"
       dateupload=\"1691563526\" datetaken=\"2023-08-01 10:25:26\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Vid Pogacnik\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53103259072_9386f4b012_s.jpg\"
@@ -4634,7 +4634,7 @@ interactions:
       Cucco) is already stabilised.</description>\n\t</photo>\n\t<photo id=\"53102669462\"
       owner=\"72582391@N02\" secret=\"ef10732903\" server=\"65535\" farm=\"66\" title=\"Cat
       Ba Archipelago\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Perkins-Boyer
-      Photos\" dateadded=\"1691538360\" license=\"0\" safety_level=\"0\" dateupload=\"1691535466\"
+      Photos\" dateadded=\"1691538360\" license=\"0\" dateupload=\"1691535466\"
       datetaken=\"2016-04-05 23:23:38\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Rhoda Perkins-Boyer\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53102669462_ef10732903_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53102669462_ef10732903_t.jpg\"
@@ -4647,7 +4647,7 @@ interactions:
       farm=\"66\" title=\"Geobrickology, Part 3: Close-Up of the Facade, Old St. Patrick&#039;s
       Catholic Church, Near West Side, Chicago, Illinois, USA (1856)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691533463\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1691529162\" datetaken=\"2020-10-06
+      license=\"0\" dateupload=\"1691529162\" datetaken=\"2020-10-06
       10:27:54\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53102477997_4422bda498_s.jpg\"
@@ -4695,7 +4695,7 @@ interactions:
       id=\"53101613409\" owner=\"154000018@N08\" secret=\"23ca8c948a\" server=\"65535\"
       farm=\"66\" title=\"Rh\xF6n - Steinwand Poppenhausen\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"peterkaroblis\" dateadded=\"1691470216\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691469531\" datetaken=\"2023-04-28 17:25:29\"
+      dateupload=\"1691469531\" datetaken=\"2023-04-28 17:25:29\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Peter Karoblis\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53101613409_23ca8c948a_s.jpg\"
@@ -4710,7 +4710,7 @@ interactions:
       id=\"53101255920\" owner=\"196253572@N05\" secret=\"3be0374ed4\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 17: San Mart\xEDn
       Church (12th Century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1691448901\" license=\"0\" safety_level=\"0\" dateupload=\"1691445189\"
+      dateadded=\"1691448901\" license=\"0\" dateupload=\"1691445189\"
       datetaken=\"1978-04-13 00:00:29\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53101255920_3be0374ed4_s.jpg\"
@@ -4740,7 +4740,7 @@ interactions:
       4: Close-Up of the Western Elevation, Epworth United Methodist Church, Edgewater
       Neighborhood, Chicago, Illinois, USA (1891; addition 1930)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691441471\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1691439234\" datetaken=\"2019-04-19
+      license=\"0\" dateupload=\"1691439234\" datetaken=\"2019-04-19
       10:31:56\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53100065302_f503f1e9bb_s.jpg\"
@@ -4773,7 +4773,7 @@ interactions:
       \ \n\n \n \n\n </description>\n\t</photo>\n\t<photo id=\"53099462868\" owner=\"154000018@N08\"
       secret=\"45517659d1\" server=\"65535\" farm=\"66\" title=\"Rh\xF6n - Steinwand
       Poppenhausen\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"peterkaroblis\"
-      dateadded=\"1691383553\" license=\"0\" safety_level=\"0\" dateupload=\"1691382791\"
+      dateadded=\"1691383553\" license=\"0\" dateupload=\"1691382791\"
       datetaken=\"2023-08-07 06:32:41\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       realname=\"Peter Karoblis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53099462868_45517659d1_s.jpg\"
@@ -4789,7 +4789,7 @@ interactions:
       farm=\"66\" title=\"The Geology of Terra-Cotta, Part 3: Close-Up of the Exterior
       of the Railway Exchange Building, the Loop, Chicago, Illinois, USA (1904)\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691362402\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1691358641\" datetaken=\"2019-05-03
+      license=\"0\" dateupload=\"1691358641\" datetaken=\"2019-05-03
       12:05:35\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53098478959_47c2e7bbe6_s.jpg\"
@@ -4830,7 +4830,7 @@ interactions:
       Natural Bridge What Ain&#039;t, Part 6: Nature&#039;s Own Birdbath, and Lookout
       Point; Natural Bridge State Resort Park, Kentucky\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691354047\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691350497\" datetaken=\"2003-07-25 09:11:16\"
+      dateupload=\"1691350497\" datetaken=\"2003-07-25 09:11:16\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53097999841_e8da01c861_s.jpg\"
@@ -4858,7 +4858,7 @@ interactions:
       id=\"53096632659\" owner=\"154000018@N08\" secret=\"b9151a687a\" server=\"65535\"
       farm=\"66\" title=\"Rh\xF6n - Gangolfsberg basalt prisms\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"peterkaroblis\" dateadded=\"1691296454\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691295716\" datetaken=\"2023-08-06 06:21:12\"
+      dateupload=\"1691295716\" datetaken=\"2023-08-06 06:21:12\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" realname=\"Peter Karoblis\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53096632659_b9151a687a_s.jpg\"
@@ -4873,7 +4873,7 @@ interactions:
       secret=\"037ac6cfd0\" server=\"65535\" farm=\"66\" title=\"Architectural Geology
       of Southwestern Wisconsin, Part 5: The First United Methodist Church, Mineral
       Point, Wisconsin, USA (1871)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1691277149\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1691277149\" license=\"0\"
       dateupload=\"1691274295\" datetaken=\"2019-03-21 09:41:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53096463678_037ac6cfd0_s.jpg\"
@@ -4906,7 +4906,7 @@ interactions:
       2: Detail of the Nave, Chora Church (Kariye or Ali Pasha Kenise Mosque), Istanbul,
       Turkey (11th century AD; significant additions &amp; renovations in the 12th
       &amp; 14th centuries)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1691266782\" license=\"0\" safety_level=\"0\" dateupload=\"1691259750\"
+      dateadded=\"1691266782\" license=\"0\" dateupload=\"1691259750\"
       datetaken=\"1976-11-05 06:47:04\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53095724689_e9a0cde619_s.jpg\"
@@ -4959,7 +4959,7 @@ interactions:
       farm=\"66\" title=\"The Brownstone Chronicles, Part 18: Detail of the Main Entrance,
       St. Paul&#039;s Episcopal Church, Yankee Hill Neighborhood, Milwaukee, Wisconsin,
       USA (1893)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1691189160\" license=\"0\" safety_level=\"0\" dateupload=\"1691186344\"
+      dateadded=\"1691189160\" license=\"0\" dateupload=\"1691186344\"
       datetaken=\"2019-02-14 12:06:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53093922696_f7d0303d19_s.jpg\"
@@ -4991,7 +4991,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 3: Fall Down,
       Go Boom; Big Bend National Park, Texas, USA\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691111927\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691102772\" datetaken=\"2002-03-11 01:01:53\"
+      dateupload=\"1691102772\" datetaken=\"2002-03-11 01:01:53\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53092410618_c2fc101634_s.jpg\"
@@ -5035,7 +5035,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"778543cec6\" server=\"65535\" farm=\"66\" title=\"Architectural
       Geology of Mycenae, Part 17: Finally Focusing on Grave Circle A, Peloponnese,
       Greece\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1691095962\" license=\"0\" safety_level=\"0\" dateupload=\"1691090494\"
+      dateadded=\"1691095962\" license=\"0\" dateupload=\"1691090494\"
       datetaken=\"1976-03-05 01:58:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53092083273_778543cec6_s.jpg\"
@@ -5072,7 +5072,7 @@ interactions:
       farm=\"66\" title=\"Architectural Geology of Byzantine Athens, Part 1: Holy
       Apostles Church, the Agora (ca. late 10th century AD)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1691024374\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1691013367\" datetaken=\"1976-11-18 00:36:17\"
+      dateupload=\"1691013367\" datetaken=\"1976-11-18 00:36:17\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53090184813_a61c5714f4_s.jpg\"
@@ -5123,7 +5123,7 @@ interactions:
       and Late Roman Worlds&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;\n\n\n.</description>\n\t</photo>\n\t<photo
       id=\"53090235245\" owner=\"26021670@N00\" secret=\"1eeeb05a5b\" server=\"65535\"
       farm=\"66\" title=\"Viechtacher Pfahl\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Claude@Munich\" dateadded=\"1691020514\" license=\"0\" safety_level=\"0\"
+      ownername=\"Claude@Munich\" dateadded=\"1691020514\" license=\"0\"
       dateupload=\"1691018864\" datetaken=\"2023-08-01 18:41:35\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53090235245_1eeeb05a5b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53090235245_1eeeb05a5b_t.jpg\"
@@ -5150,7 +5150,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 8: Rapakivi Revealed;
       The Chapel, Graceland Cemetery, Uptown Neighborhood (1888)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690936598\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690930921\" datetaken=\"2019-06-19
+      license=\"0\" dateupload=\"1690930921\" datetaken=\"2019-06-19
       11:14:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53087844015_6ba97f45fd_s.jpg\"
@@ -5197,7 +5197,7 @@ interactions:
       farm=\"66\" title=\"Geobrickology, Part 2: Detail of Old St. Patrick&#039;s
       Catholic Church, Near West Side, Chicago, Illinois, USA (1856)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690929142\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690924659\" datetaken=\"2020-10-06
+      license=\"0\" dateupload=\"1690924659\" datetaken=\"2020-10-06
       10:28:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53087152566_5362a8b1da_s.jpg\"
@@ -5247,7 +5247,7 @@ interactions:
       id=\"52876686438\" owner=\"56837663@N03\" secret=\"8eb94b1536\" server=\"65535\"
       farm=\"66\" title=\"MEGA Conchoidal Fracture in Valley of Fire State Park, Nevada\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Stan Celestian\" dateadded=\"1690862323\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1683426072\" datetaken=\"2023-05-05
+      license=\"0\" dateupload=\"1683426072\" datetaken=\"2023-05-05
       13:13:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Stan
       Celestian\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52876686438_8eb94b1536_s.jpg\"
@@ -5262,7 +5262,7 @@ interactions:
       href=&quot;https://www.flickr.com/photos/usageology/52876399959/in/photostream/&quot;&gt;www.flickr.com/photos/usageology/52876399959/in/photostream/&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53085288136\" owner=\"126778763@N04\" secret=\"de75182d8c\" server=\"65535\"
       farm=\"66\" title=\"Rumbo al Pacifico\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"pbabygeol\" dateadded=\"1690853456\" license=\"0\" safety_level=\"0\"
+      ownername=\"pbabygeol\" dateadded=\"1690853456\" license=\"0\"
       dateupload=\"1690853368\" datetaken=\"2023-07-28 15:58:44\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Geological Travel\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53085288136_de75182d8c_s.jpg\"
@@ -5276,7 +5276,7 @@ interactions:
       id=\"53084937084\" owner=\"196253572@N05\" secret=\"9b513eb9af\" server=\"65535\"
       farm=\"66\" title=\"Architectural Geology of Segovia, Spain, Part 16: San Mart\xEDn
       Church (12th Century AD)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1690839986\" license=\"0\" safety_level=\"0\" dateupload=\"1690834431\"
+      dateadded=\"1690839986\" license=\"0\" dateupload=\"1690834431\"
       datetaken=\"1978-04-13 00:30:22\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53084937084_9b513eb9af_s.jpg\"
@@ -5311,7 +5311,7 @@ interactions:
       id=\"53083449163\" owner=\"44273756@N08\" secret=\"5bb76899c7\" server=\"65535\"
       farm=\"66\" title=\"pic blanc and punta del puerto viejo july 2032\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"mikek666\" dateadded=\"1690777879\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690777490\" datetaken=\"2023-07-30
+      license=\"0\" dateupload=\"1690777490\" datetaken=\"2023-07-30
       12:34:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53083449163_5bb76899c7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53083449163_5bb76899c7_t.jpg\"
@@ -5322,7 +5322,7 @@ interactions:
       height_l=\"666\" width_l=\"999\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53082808346\" owner=\"88123769@N02\" secret=\"668a4950dd\" server=\"65535\"
       farm=\"66\" title=\"The Moeraki Boulders.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Bernard Spragg\" dateadded=\"1690772139\" license=\"10\" safety_level=\"0\"
+      ownername=\"Bernard Spragg\" dateadded=\"1690772139\" license=\"10\"
       dateupload=\"1690771792\" datetaken=\"2016-04-10 09:44:49\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Bernard Spragg. NZ\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53082808346_668a4950dd_s.jpg\"
@@ -5342,7 +5342,7 @@ interactions:
       3: Detail of the Southern Elevation, Epworth United Methodist Church, Edgewater
       Neighborhood, Chicago, Illinois, USA (1891; addition 1930)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690753180\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690745898\" datetaken=\"2019-04-19
+      license=\"0\" dateupload=\"1690745898\" datetaken=\"2019-04-19
       10:31:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53082395805_154726089a_s.jpg\"
@@ -5388,7 +5388,7 @@ interactions:
       secret=\"05d48395fa\" server=\"65535\" farm=\"66\" title=\"The Geology of Terra-Cotta,
       Part 2: Detail of the Interior of the Railway Exchange Building, the Loop, Chicago,
       Illinois, USA (1904)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\"
-      dateadded=\"1690738804\" license=\"0\" safety_level=\"0\" dateupload=\"1690734981\"
+      dateadded=\"1690738804\" license=\"0\" dateupload=\"1690734981\"
       datetaken=\"2019-05-03 12:09:10\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53081020042_05d48395fa_s.jpg\"
@@ -5422,7 +5422,7 @@ interactions:
       Natural Bridge What Ain&#039;t, Part 5: The Upper Surface and Serious Pedigenic
       Abrasion, Natural Bridge State Resort Park, Kentucky\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690670039\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1690667424\" datetaken=\"2003-07-25 09:10:28\"
+      dateupload=\"1690667424\" datetaken=\"2003-07-25 09:10:28\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53079898376_7d71d29f32_s.jpg\"
@@ -5452,7 +5452,7 @@ interactions:
       History: Kentucky&lt;/i&gt; album&lt;/a&gt;.&lt;/b&gt;  </description>\n\t</photo>\n\t<photo
       id=\"53080148669\" owner=\"34457823@N04\" secret=\"53649fbbe6\" server=\"65535\"
       farm=\"66\" title=\"The Dancer\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"KPortin\" dateadded=\"1690669632\" license=\"0\" safety_level=\"0\"
+      ownername=\"KPortin\" dateadded=\"1690669632\" license=\"0\"
       dateupload=\"1690669630\" datetaken=\"2023-04-04 11:00:06\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Karen  Portin\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53080148669_53649fbbe6_s.jpg\"
@@ -5468,7 +5468,7 @@ interactions:
       of Southwestern Wisconsin, Part 3: Close-up of the Facade Ashlar, Rountree Hall,
       Platteville, Wisconsin, USA (1853; subsequent additions)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690664159\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1690660668\" datetaken=\"2019-04-03 09:57:26\"
+      dateupload=\"1690660668\" datetaken=\"2019-04-03 09:57:26\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53080203423_f7c26af109_s.jpg\"
@@ -5513,7 +5513,7 @@ interactions:
       id=\"53078180755\" owner=\"196253572@N05\" secret=\"f002d31642\" server=\"65535\"
       farm=\"66\" title=\"The Glory of Regional Silurian Dolostone, Part 23: The Holbrook
       Mill, Aurora, Illinois, USA (ca. 1840)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"rwgabbro1\" dateadded=\"1690580054\" license=\"0\" safety_level=\"0\"
+      ownername=\"rwgabbro1\" dateadded=\"1690580054\" license=\"0\"
       dateupload=\"1690576137\" datetaken=\"2019-11-06 13:59:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53078180755_f002d31642_s.jpg\"
@@ -5550,7 +5550,7 @@ interactions:
       farm=\"66\" title=\"From Persimmon Gap to Boquillas Canyon, Part 2: A Flopsy-Topsy
       Hill Annotated, Big Bend National Park, Texas, USA\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690501895\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1690492762\" datetaken=\"2002-03-11 00:00:00\"
+      dateupload=\"1690492762\" datetaken=\"2002-03-11 00:00:00\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53075964779_327908e9ea_s.jpg\"
@@ -5614,7 +5614,7 @@ interactions:
       album&lt;/a&gt;.&lt;/b&gt;</description>\n\t</photo>\n\t<photo id=\"53070443815\"
       owner=\"55640292@N04\" secret=\"ab27b1aa27\" server=\"65535\" farm=\"66\" title=\"20230616_115008\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"cloudspotter761\" dateadded=\"1690496442\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690280490\" datetaken=\"2023-06-16
+      license=\"0\" dateupload=\"1690280490\" datetaken=\"2023-06-16
       11:50:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"George\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53070443815_ab27b1aa27_s.jpg\"
@@ -5628,7 +5628,7 @@ interactions:
       face at Dimitra beach, Agios Fokas, on the Greek island of Kos.</description>\n\t</photo>\n\t<photo
       id=\"53070442975\" owner=\"55640292@N04\" secret=\"f1556a9ce8\" server=\"65535\"
       farm=\"66\" title=\"20230616_115033\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"cloudspotter761\" dateadded=\"1690496442\" license=\"0\" safety_level=\"0\"
+      ownername=\"cloudspotter761\" dateadded=\"1690496442\" license=\"0\"
       dateupload=\"1690280490\" datetaken=\"2023-06-16 11:50:34\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"George\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53070442975_f1556a9ce8_s.jpg\"
@@ -5642,7 +5642,7 @@ interactions:
       face at Dimitra beach, Agios Fokas, on the Greek island of Kos.</description>\n\t</photo>\n\t<photo
       id=\"53070400280\" owner=\"55640292@N04\" secret=\"81c7a900fc\" server=\"65535\"
       farm=\"66\" title=\"20230610_103242\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"cloudspotter761\" dateadded=\"1690496441\" license=\"0\" safety_level=\"0\"
+      ownername=\"cloudspotter761\" dateadded=\"1690496441\" license=\"0\"
       dateupload=\"1690277632\" datetaken=\"2023-06-10 10:32:44\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"George\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53070400280_81c7a900fc_s.jpg\"
@@ -5657,7 +5657,7 @@ interactions:
       of Kos.</description>\n\t</photo>\n\t<photo id=\"53070024256\" owner=\"55640292@N04\"
       secret=\"37e2dbecf3\" server=\"65535\" farm=\"66\" title=\"20230616_115557a\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"cloudspotter761\" dateadded=\"1690496441\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690278312\" datetaken=\"2023-06-16
+      license=\"0\" dateupload=\"1690278312\" datetaken=\"2023-06-16
       11:55:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"George\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53070024256_37e2dbecf3_s.jpg\"
@@ -5672,7 +5672,7 @@ interactions:
       owner=\"196253572@N05\" secret=\"a0472c9d92\" server=\"65535\" farm=\"66\" title=\"Architectural
       Geology of Mycenae, Part 16: A Civilization Sandwiched, Peloponnese, Greece\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690490998\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690485581\" datetaken=\"1976-03-05
+      license=\"0\" dateupload=\"1690485581\" datetaken=\"1976-03-05
       02:27:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond
       Wiggers\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53075538671_a0472c9d92_s.jpg\"
@@ -5715,7 +5715,7 @@ interactions:
       Part 8: A Final Look at the Temple of the Olympian Zeus, Athens, Greece (foundation,
       6th century BC; current superstructure, ca. AD 125)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690415928\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1690413108\" datetaken=\"1976-11-18 01:19:20\"
+      dateupload=\"1690413108\" datetaken=\"1976-11-18 01:19:20\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53074198005_14c33a6a90_s.jpg\"
@@ -5748,7 +5748,7 @@ interactions:
       farm=\"66\" title=\"Graveyard Geology of Chicago, Part 7: The Chapel&#039;s
       Facade, Graceland Cemetery, Uptown Neighborhood (1888)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"rwgabbro1\" dateadded=\"1690407703\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1690405298\" datetaken=\"2019-06-19 11:12:48\"
+      dateupload=\"1690405298\" datetaken=\"2019-06-19 11:12:48\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Raymond Wiggers\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53073948645_754229b586_s.jpg\"
@@ -5778,7 +5778,7 @@ interactions:
       id=\"53064964285\" owner=\"148096168@N02\" secret=\"670346e607\" server=\"65535\"
       farm=\"66\" title=\"Dead horse point state park black and white panoramic.\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Nikon2\u201312\" dateadded=\"1690383145\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690078807\" datetaken=\"2023-06-29
+      license=\"0\" dateupload=\"1690078807\" datetaken=\"2023-06-29
       17:43:37\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"JR Nikon810\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53064964285_670346e607_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53064964285_670346e607_t.jpg\"

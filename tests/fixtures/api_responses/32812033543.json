@@ -13,9 +13,7 @@
     "value": "2017-02-17T00:00:00",
     "granularity": "second",
     "unknown": false
-  },
-  "safety_level": "safe",
-  "license": {
+  },  "license": {
     "id": "usgov",
     "label": "United States Government Work",
     "url": "http://www.usa.gov/copyright.shtml"

@@ -7,7 +7,6 @@ from flinumeratr.flickr_photos_api.utils import (
     find_required_elem,
     find_required_text,
     parse_date_taken_granularity,
-    parse_safety_level,
 )
 
 
@@ -58,11 +57,6 @@ def test_find_required_text_throws_if_cannot_find_element() -> None:
 )
 def test_find_optional_text(path: str, expected: str | None) -> None:
     assert find_optional_text(XML, path=path) == expected
-
-
-def test_unrecognised_safety_level_is_error() -> None:
-    with pytest.raises(ValueError, match="Unrecognised safety level"):
-        parse_safety_level("-1")
 
 
 def test_unrecognised_date_granularity_is_error() -> None:

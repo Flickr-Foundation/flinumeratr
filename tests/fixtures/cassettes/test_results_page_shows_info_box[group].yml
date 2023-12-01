@@ -67,13 +67,13 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&group_id=42637302%40N00&method=flickr.groups.pools.getPhotos&page=1&per_page=100
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&group_id=42637302%40N00&method=flickr.groups.pools.getPhotos&page=1&per_page=100
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"2117\" perpage=\"100\" total=\"211664\">\n\t<photo id=\"53306979225\"
       owner=\"35437652@N02\" secret=\"40f491e722\" server=\"65535\" farm=\"66\" title=\"Male
       Waxwing\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Frode Falkenberg\"
-      dateadded=\"1699543693\" license=\"0\" safety_level=\"0\" dateupload=\"1699004437\"
+      dateadded=\"1699543693\" license=\"0\" dateupload=\"1699004437\"
       datetaken=\"2023-10-18 11:02:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Frode Falkenberg\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53306979225_40f491e722_s.jpg\"
@@ -88,7 +88,7 @@ interactions:
       id=\"53320682313\" owner=\"134815842@N03\" secret=\"aec26edc66\" server=\"65535\"
       farm=\"66\" title=\"Female Green Honeycreeper (Chlorophanes spiza) Dagua, Colombia
       2023\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Ricardo Bitran\"
-      dateadded=\"1699543446\" license=\"0\" safety_level=\"0\" dateupload=\"1699543303\"
+      dateadded=\"1699543446\" license=\"0\" dateupload=\"1699543303\"
       datetaken=\"2023-08-28 10:59:33\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Ricardo Bitran -Birds of the World\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53320682313_aec26edc66_s.jpg\"
@@ -101,7 +101,7 @@ interactions:
       id=\"53319457257\" owner=\"138285819@N04\" secret=\"dea4dba003\" server=\"65535\"
       farm=\"66\" title=\"Cormoran &quot;Corvus marinus&quot;\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"dadie92\" dateadded=\"1699540365\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699539416\" datetaken=\"2023-11-07 13:52:10\"
+      dateupload=\"1699539416\" datetaken=\"2023-11-07 13:52:10\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Daniel Danel\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53319457257_dea4dba003_s.jpg\"
@@ -115,7 +115,7 @@ interactions:
       \ novembre 2023.</description>\n\t</photo>\n\t<photo id=\"53320580263\" owner=\"88932760@N08\"
       secret=\"014061f276\" server=\"65535\" farm=\"66\" title=\"High Alert #1\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Ron Buening\" dateadded=\"1699540351\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699540286\" datetaken=\"2023-11-08
+      license=\"0\" dateupload=\"1699540286\" datetaken=\"2023-11-08
       08:13:46\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ron
       Buening\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53320580263_014061f276_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53320580263_014061f276_t.jpg\"
@@ -127,7 +127,7 @@ interactions:
       alert after some aggressive calls from a crow are heard nearby.</description>\n\t</photo>\n\t<photo
       id=\"53320343181\" owner=\"88932760@N08\" secret=\"b1260ff218\" server=\"65535\"
       farm=\"66\" title=\"High Alert #2\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Ron Buening\" dateadded=\"1699540351\" license=\"0\" safety_level=\"0\"
+      ownername=\"Ron Buening\" dateadded=\"1699540351\" license=\"0\"
       dateupload=\"1699540286\" datetaken=\"2023-11-08 08:31:20\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ron Buening\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53320343181_b1260ff218_s.jpg\"
@@ -140,7 +140,7 @@ interactions:
       on high alert after the appearance of a Red-tailed Hawk above.</description>\n\t</photo>\n\t<photo
       id=\"53320157051\" owner=\"24309230@N03\" secret=\"b31c82b189\" server=\"65535\"
       farm=\"66\" title=\"White-winged Black-tyrant\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" ownername=\"ik_kil\" dateadded=\"1699533365\" license=\"0\" safety_level=\"0\"
+      isfamily=\"0\" ownername=\"ik_kil\" dateadded=\"1699533365\" license=\"0\"
       dateupload=\"1699533356\" datetaken=\"2022-12-17 19:28:04\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ik_kil\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53320157051_b31c82b189_s.jpg\"
@@ -154,7 +154,7 @@ interactions:
       # 1.768\n\nLos Vilos\nRegi\xF3n de Coquimbo\nChile</description>\n\t</photo>\n\t<photo
       id=\"53320396303\" owner=\"24309230@N03\" secret=\"4d35bf7cf9\" server=\"65535\"
       farm=\"66\" title=\"White-winged Black-tyrant\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" ownername=\"ik_kil\" dateadded=\"1699533364\" license=\"0\" safety_level=\"0\"
+      isfamily=\"0\" ownername=\"ik_kil\" dateadded=\"1699533364\" license=\"0\"
       dateupload=\"1699533355\" datetaken=\"2022-12-17 19:27:01\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ik_kil\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53320396303_4d35bf7cf9_s.jpg\"
@@ -169,7 +169,7 @@ interactions:
       id=\"7007538991\" owner=\"77012150@N08\" secret=\"ae6a6e27a9\" server=\"7062\"
       farm=\"8\" title=\"Eastern rosella Platycercus eximius DSC_6741\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Mary Bomford\" dateadded=\"1699526892\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1332473688\" datetaken=\"2011-09-23
+      license=\"0\" dateupload=\"1332473688\" datetaken=\"2011-09-23
       10:22:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Mary
       Bomford\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7062/7007538991_ae6a6e27a9_s.jpg\"
@@ -183,7 +183,7 @@ interactions:
       eximius) in Canberra. </description>\n\t</photo>\n\t<photo id=\"7017244755\"
       owner=\"77012150@N08\" secret=\"c1e2c83900\" server=\"7061\" farm=\"8\" title=\"Sulphur-crested
       Cockatoo DSC_0399\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Mary
-      Bomford\" dateadded=\"1699526659\" license=\"0\" safety_level=\"0\" dateupload=\"1332759743\"
+      Bomford\" dateadded=\"1699526659\" license=\"0\" dateupload=\"1332759743\"
       datetaken=\"2012-03-26 09:52:12\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Mary Bomford\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7061/7017244755_c1e2c83900_s.jpg\"
@@ -197,7 +197,7 @@ interactions:
       (Cacatua galerita) in Canberra.</description>\n\t</photo>\n\t<photo id=\"53320392415\"
       owner=\"14191740@N08\" secret=\"bf8732ff0c\" server=\"65535\" farm=\"66\" title=\"Dunlin
       (Calidris alpina), Blackwaterfoot, Arran\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Terathopius\" dateadded=\"1699522114\" license=\"0\" safety_level=\"0\"
+      ownername=\"Terathopius\" dateadded=\"1699522114\" license=\"0\"
       dateupload=\"1699520963\" datetaken=\"2023-05-22 07:51:19\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Nigel Voaden\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53320392415_bf8732ff0c_s.jpg\"
@@ -211,7 +211,7 @@ interactions:
       id=\"53320310235\" owner=\"54059915@N07\" secret=\"f6047cd6a9\" server=\"65535\"
       farm=\"66\" title=\"Partially leucistic golden-crowned sparrow\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"piranhabros\" dateadded=\"1699515906\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699515612\" datetaken=\"2023-11-04
+      license=\"0\" dateupload=\"1699515612\" datetaken=\"2023-11-04
       13:36:27\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53320310235_f6047cd6a9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53320310235_f6047cd6a9_t.jpg\"
@@ -224,7 +224,7 @@ interactions:
       Zonotrichia atricapilla</description>\n\t</photo>\n\t<photo id=\"53318973627\"
       owner=\"54059915@N07\" secret=\"f70f8b35af\" server=\"65535\" farm=\"66\" title=\"Partially
       leucistic golden-crowned sparrow\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"piranhabros\" dateadded=\"1699515775\" license=\"0\" safety_level=\"0\"
+      ownername=\"piranhabros\" dateadded=\"1699515775\" license=\"0\"
       dateupload=\"1699515611\" datetaken=\"2023-11-04 13:35:44\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318973627_f70f8b35af_s.jpg\"
@@ -238,7 +238,7 @@ interactions:
       Zonotrichia atricapilla</description>\n\t</photo>\n\t<photo id=\"53319746861\"
       owner=\"7482089@N04\" secret=\"34b0e4ecf5\" server=\"65535\" farm=\"66\" title=\"Short-eared
       Owl, Asio flammeus\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Kevin
-      B Agar\" dateadded=\"1699511238\" license=\"0\" safety_level=\"0\" dateupload=\"1699511173\"
+      B Agar\" dateadded=\"1699511238\" license=\"0\" dateupload=\"1699511173\"
       datetaken=\"2023-11-07 16:36:23\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Kevin Agar\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53319746861_34b0e4ecf5_s.jpg\"
@@ -255,7 +255,7 @@ interactions:
       id=\"53319979363\" owner=\"37934762@N02\" secret=\"399e0a8272\" server=\"65535\"
       farm=\"66\" title=\"Australian King-Parrot - Alisterus scapularis\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Jono Dashper Wildlife\" dateadded=\"1699510911\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699510875\" datetaken=\"2023-07-22
+      license=\"0\" dateupload=\"1699510875\" datetaken=\"2023-07-22
       13:42:04\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Jono
       Dashper\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53319979363_399e0a8272_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53319979363_399e0a8272_t.jpg\"
@@ -268,7 +268,7 @@ interactions:
       use of this image.</description>\n\t</photo>\n\t<photo id=\"53319730909\" owner=\"145466593@N08\"
       secret=\"0b78f38d25\" server=\"65535\" farm=\"66\" title=\"Brant\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"barbmerrill2\" dateadded=\"1699494115\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699493420\" datetaken=\"2023-11-08
+      license=\"0\" dateupload=\"1699493420\" datetaken=\"2023-11-08
       01:23:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Barbara
       Merrill\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53319730909_0b78f38d25_s.jpg\"
@@ -285,7 +285,7 @@ interactions:
       \u0936\u0930\u0940\u092B\u0928, \u0928\u093F\u0924\u093E \u092E\u091B\u0930\u093E\u0932\u093E
       (Alcedo atthis)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"\u0906\u0936\u0941\u0924\u094B\u0937
       \u091D\u0941\u095C\u0947\u0932\u0947\" dateadded=\"1699472563\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699470267\" datetaken=\"2022-08-15 16:05:39\"
+      dateupload=\"1699470267\" datetaken=\"2022-08-15 16:05:39\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ashutosh Jhureley\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53319183410_1cb087c764_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53319183410_1cb087c764_t.jpg\"
@@ -334,7 +334,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;birds.rekabira.in/p/this-is-list-of-birds-i-clicked-since...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53319080905\" owner=\"44904157@N04\" secret=\"9995fce132\" server=\"65535\"
       farm=\"66\" title=\"Dark-eyed Junco\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Neal D\" dateadded=\"1699467346\" license=\"0\" safety_level=\"0\"
+      ownername=\"Neal D\" dateadded=\"1699467346\" license=\"0\"
       dateupload=\"1699467344\" datetaken=\"2023-11-07 10:18:32\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Neal\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53319080905_9995fce132_s.jpg\"
@@ -347,7 +347,7 @@ interactions:
       Reserve, Chilliwack, B.C.</description>\n\t</photo>\n\t<photo id=\"53318850199\"
       owner=\"31003918@N05\" secret=\"36c7551305\" server=\"65535\" farm=\"66\" title=\"Southern
       Red Bishop\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Allan
-      Drewitt\" dateadded=\"1699464016\" license=\"0\" safety_level=\"0\" dateupload=\"1699463988\"
+      Drewitt\" dateadded=\"1699464016\" license=\"0\" dateupload=\"1699463988\"
       datetaken=\"2017-11-07 10:01:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Allan Drewitt\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318850199_36c7551305_s.jpg\"
@@ -361,7 +361,7 @@ interactions:
       National Park, South Africa</description>\n\t</photo>\n\t<photo id=\"53318060966\"
       owner=\"54525206@N05\" secret=\"24799ed04e\" server=\"65535\" farm=\"66\" title=\"Cayenneralle\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Douglas Riverside-Movie-Pictures\"
-      dateadded=\"1699449705\" license=\"0\" safety_level=\"0\" dateupload=\"1699449662\"
+      dateadded=\"1699449705\" license=\"0\" dateupload=\"1699449662\"
       datetaken=\"2023-04-18 13:32:15\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Douglas\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318060966_24799ed04e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53318060966_24799ed04e_t.jpg\"
@@ -376,7 +376,7 @@ interactions:
       will be deleted.</description>\n\t</photo>\n\t<photo id=\"53318369979\" owner=\"24309230@N03\"
       secret=\"7de65a9832\" server=\"65535\" farm=\"66\" title=\"Belcher&#039;s Gull\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"ik_kil\" dateadded=\"1699448064\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699448060\" datetaken=\"2021-08-07
+      license=\"0\" dateupload=\"1699448060\" datetaken=\"2021-08-07
       19:31:44\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ik_kil\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318369979_7de65a9832_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53318369979_7de65a9832_t.jpg\"
@@ -388,7 +388,7 @@ interactions:
       Gull, &lt;i&gt; Larus belcheri.&lt;/i&gt;\n\nMejillones\nRegi\xF3n de Antofagasta\nChile</description>\n\t</photo>\n\t<photo
       id=\"53318485185\" owner=\"24309230@N03\" secret=\"8c4993a10a\" server=\"65535\"
       farm=\"66\" title=\"Franklin\xB4s Gull\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"ik_kil\" dateadded=\"1699448063\" license=\"0\" safety_level=\"0\"
+      ownername=\"ik_kil\" dateadded=\"1699448063\" license=\"0\"
       dateupload=\"1699448059\" datetaken=\"2022-03-27 11:25:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ik_kil\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53318485185_8c4993a10a_s.jpg\"
@@ -402,7 +402,7 @@ interactions:
       Antofagasta\nChile</description>\n\t</photo>\n\t<photo id=\"53318373990\" owner=\"34625967@N04\"
       secret=\"22e50013bb\" server=\"65535\" farm=\"66\" title=\"Common Buzzard (Buteo
       buteo) Ratonero\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"David
-      Dillon (Crotach)\" dateadded=\"1699444585\" license=\"0\" safety_level=\"0\"
+      Dillon (Crotach)\" dateadded=\"1699444585\" license=\"0\"
       dateupload=\"1699443741\" datetaken=\"2018-02-03 13:21:53\" datetakengranularity=\"0\"
       datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318373990_22e50013bb_s.jpg\"
@@ -419,7 +419,7 @@ interactions:
       id=\"53316911677\" owner=\"14191740@N08\" secret=\"a809b20f79\" server=\"65535\"
       farm=\"66\" title=\"Red Knot (Calidris canutus), Blackwaterfoot, Arran\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Terathopius\" dateadded=\"1699443792\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699437114\" datetaken=\"2023-05-22
+      license=\"0\" dateupload=\"1699437114\" datetaken=\"2023-05-22
       07:48:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Nigel
       Voaden\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316911677_a809b20f79_s.jpg\"
@@ -433,7 +433,7 @@ interactions:
       id=\"53316911822\" owner=\"14191740@N08\" secret=\"e5c1248be2\" server=\"65535\"
       farm=\"66\" title=\"European Herring Gull (Larus argentatus), Blackwaterfoot,
       Arran\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Terathopius\"
-      dateadded=\"1699443514\" license=\"0\" safety_level=\"0\" dateupload=\"1699437113\"
+      dateadded=\"1699443514\" license=\"0\" dateupload=\"1699437113\"
       datetaken=\"2023-05-22 06:43:24\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Nigel Voaden\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316911822_e5c1248be2_s.jpg\"
@@ -447,7 +447,7 @@ interactions:
       id=\"7260087982\" owner=\"77012150@N08\" secret=\"22f177b3d9\" server=\"7217\"
       farm=\"8\" title=\"Crimson Rosella - Platycercus elegans DSC_2105\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Mary Bomford\" dateadded=\"1699437526\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1337836804\" datetaken=\"2012-05-24
+      license=\"0\" dateupload=\"1337836804\" datetaken=\"2012-05-24
       10:25:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Mary
       Bomford\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7217/7260087982_22f177b3d9_s.jpg\"
@@ -462,7 +462,7 @@ interactions:
       id=\"53318016528\" owner=\"7482089@N04\" secret=\"fa49ebc9c8\" server=\"65535\"
       farm=\"66\" title=\"Short-eared Owl, Asio flammeus\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Kevin B Agar\" dateadded=\"1699437118\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699437054\" datetaken=\"2023-11-07 16:36:24\"
+      dateupload=\"1699437054\" datetaken=\"2023-11-07 16:36:24\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Kevin Agar\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318016528_fa49ebc9c8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53318016528_fa49ebc9c8_t.jpg\"
@@ -478,7 +478,7 @@ interactions:
       id=\"53318134689\" owner=\"7482089@N04\" secret=\"f6834515a4\" server=\"65535\"
       farm=\"66\" title=\"Short-eared Owl, Asio flammeus\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Kevin B Agar\" dateadded=\"1699437117\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699437053\" datetaken=\"2023-11-07 16:05:45\"
+      dateupload=\"1699437053\" datetaken=\"2023-11-07 16:05:45\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Kevin Agar\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53318134689_f6834515a4_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53318134689_f6834515a4_t.jpg\"
@@ -494,7 +494,7 @@ interactions:
       id=\"53316607206\" owner=\"27431055@N00\" secret=\"759728b61f\" server=\"65535\"
       farm=\"66\" title=\"Gray-fronted Quail-Dove\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Glen Tepke\" dateadded=\"1699422846\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699386042\" datetaken=\"2019-04-22 15:01:42\"
+      dateupload=\"1699386042\" datetaken=\"2019-04-22 15:01:42\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316607206_759728b61f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53316607206_759728b61f_t.jpg\"
@@ -513,7 +513,7 @@ interactions:
       id=\"53316840103\" owner=\"27431055@N00\" secret=\"2086ba2b8c\" server=\"65535\"
       farm=\"66\" title=\"Gray-fronted Quail-Dove\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Glen Tepke\" dateadded=\"1699422845\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699386041\" datetaken=\"2019-04-22 15:02:13\"
+      dateupload=\"1699386041\" datetaken=\"2019-04-22 15:02:13\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316840103_2086ba2b8c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53316840103_2086ba2b8c_t.jpg\"
@@ -532,7 +532,7 @@ interactions:
       id=\"53316837863\" owner=\"27431055@N00\" secret=\"532022e7bd\" server=\"65535\"
       farm=\"66\" title=\"Gray-fronted Quail-Dove\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Glen Tepke\" dateadded=\"1699422844\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699386040\" datetaken=\"2019-04-22 04:24:36\"
+      dateupload=\"1699386040\" datetaken=\"2019-04-22 04:24:36\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316837863_532022e7bd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53316837863_532022e7bd_t.jpg\"
@@ -551,7 +551,7 @@ interactions:
       id=\"53310725135\" owner=\"150942226@N07\" secret=\"ac2cf7b3bf\" server=\"65535\"
       farm=\"66\" title=\"Swinhoe\u2019s pheasant\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"longanjiang\" dateadded=\"1699421226\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699164410\" datetaken=\"2023-11-02 13:37:48\"
+      dateupload=\"1699164410\" datetaken=\"2023-11-02 13:37:48\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"longan Jiang\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53310725135_ac2cf7b3bf_s.jpg\"
@@ -565,7 +565,7 @@ interactions:
       id=\"53314265978\" owner=\"198981757@N08\" secret=\"19ecaafde4\" server=\"65535\"
       farm=\"66\" title=\"Sericornis magnirostra, Curtain Fig Tree NP, Queensland,
       Australia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\"
-      dateadded=\"1699418643\" license=\"4\" safety_level=\"0\" dateupload=\"1699295760\"
+      dateadded=\"1699418643\" license=\"4\" dateupload=\"1699295760\"
       datetaken=\"2023-08-07 14:24:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Donald Davesne\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314265978_19ecaafde4_s.jpg\"
@@ -580,7 +580,7 @@ interactions:
       id=\"53314265763\" owner=\"198981757@N08\" secret=\"91661c358c\" server=\"65535\"
       farm=\"66\" title=\"Alectura lathami, Curtain Fig Tree NP, Queensland, Australia\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699418636\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1699295760\" datetaken=\"2023-08-07
+      license=\"4\" dateupload=\"1699295760\" datetaken=\"2023-08-07
       14:17:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314265763_91661c358c_s.jpg\"
@@ -595,7 +595,7 @@ interactions:
       id=\"53310113932\" owner=\"198981757@N08\" secret=\"d2a1352937\" server=\"65535\"
       farm=\"66\" title=\"Turdus migratorius, Chicago, Illinois, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699418594\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1699195611\" datetaken=\"2023-11-03
+      license=\"4\" dateupload=\"1699195611\" datetaken=\"2023-11-03
       09:24:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310113932_d2a1352937_s.jpg\"
@@ -610,7 +610,7 @@ interactions:
       id=\"45178607052\" owner=\"14908898@N08\" secret=\"5444b3682a\" server=\"1909\"
       farm=\"2\" title=\"Lapland Longspur1 9-6-18\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Carol Riddell\" dateadded=\"1699410204\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1539192718\" datetaken=\"2018-09-06 15:42:23\"
+      dateupload=\"1539192718\" datetaken=\"2018-09-06 15:42:23\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Carol Riddell\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1909/45178607052_5444b3682a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1909/45178607052_5444b3682a_t.jpg\"
@@ -623,7 +623,7 @@ interactions:
       id=\"53317646180\" owner=\"98627816@N02\" secret=\"bc7224440f\" server=\"65535\"
       farm=\"66\" title=\"Altamira oriole (Icterus gularis)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"richardjack57\" dateadded=\"1699406992\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699406788\" datetaken=\"2022-11-29 06:28:59\"
+      dateupload=\"1699406788\" datetaken=\"2022-11-29 06:28:59\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Richard Jack\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53317646180_bc7224440f_s.jpg\"
@@ -639,7 +639,7 @@ interactions:
       OAX Mexico\n</description>\n\t</photo>\n\t<photo id=\"53317306180\" owner=\"9360144@N07\"
       secret=\"64f424947a\" server=\"65535\" farm=\"66\" title=\"Strong-billed Woodcreeper\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"V.C. Wald\" dateadded=\"1699400405\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699392691\" datetaken=\"2023-08-08
+      license=\"0\" dateupload=\"1699392691\" datetaken=\"2023-08-08
       06:30:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53317306180_64f424947a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53317306180_64f424947a_t.jpg\"
@@ -655,7 +655,7 @@ interactions:
       foods were also abundantly available in the area within and around the facility.\n\n\n</description>\n\t</photo>\n\t<photo
       id=\"53310898672\" owner=\"9360144@N07\" secret=\"15df8f0e08\" server=\"65535\"
       farm=\"66\" title=\"Red-headed Barbet\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"V.C. Wald\" dateadded=\"1699400405\" license=\"0\" safety_level=\"0\"
+      ownername=\"V.C. Wald\" dateadded=\"1699400405\" license=\"0\"
       dateupload=\"1699215292\" datetaken=\"2023-08-07 09:17:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310898672_15df8f0e08_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53310898672_15df8f0e08_t.jpg\"
@@ -673,7 +673,7 @@ interactions:
       id=\"53317214518\" owner=\"9360144@N07\" secret=\"cacd82ba0e\" server=\"65535\"
       farm=\"66\" title=\"White-throated Quail Dove\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"V.C. Wald\" dateadded=\"1699400405\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699398010\" datetaken=\"2023-08-05 08:10:53\"
+      dateupload=\"1699398010\" datetaken=\"2023-08-05 08:10:53\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53317214518_cacd82ba0e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53317214518_cacd82ba0e_t.jpg\"
@@ -691,7 +691,7 @@ interactions:
       available in the area within and around the facility.</description>\n\t</photo>\n\t<photo
       id=\"53312724702\" owner=\"9360144@N07\" secret=\"3df792c80d\" server=\"65535\"
       farm=\"66\" title=\"Yellow-throated Toucan\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"V.C. Wald\" dateadded=\"1699400405\" license=\"0\" safety_level=\"0\"
+      ownername=\"V.C. Wald\" dateadded=\"1699400405\" license=\"0\"
       dateupload=\"1699283700\" datetaken=\"2023-08-12 07:09:06\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53312724702_3df792c80d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53312724702_3df792c80d_t.jpg\"
@@ -709,7 +709,7 @@ interactions:
       id=\"53311494356\" owner=\"9360144@N07\" secret=\"504345cd4c\" server=\"65535\"
       farm=\"66\" title=\"Female Purple-Throated Woodstar\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"V.C. Wald\" dateadded=\"1699400405\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699208727\" datetaken=\"2023-08-09 09:32:23\"
+      dateupload=\"1699208727\" datetaken=\"2023-08-09 09:32:23\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53311494356_504345cd4c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53311494356_504345cd4c_t.jpg\"
@@ -727,7 +727,7 @@ interactions:
       owner=\"84151258@N00\" secret=\"4ab425fb44\" server=\"65535\" farm=\"66\" title=\"Irish
       (White-throated) Dipper/Gabha dubh (Cinclus c. hibernicus)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Mark Carmody\" dateadded=\"1699393928\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699393905\" datetaken=\"2023-10-12
+      license=\"0\" dateupload=\"1699393905\" datetaken=\"2023-10-12
       12:11:31\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Mark
       Carmody\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316844386_4ab425fb44_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53316844386_4ab425fb44_t.jpg\"
@@ -757,7 +757,7 @@ interactions:
       id=\"53317336500\" owner=\"27174440@N05\" secret=\"6056cc7d12\" server=\"65535\"
       farm=\"66\" title=\"Northern Royal Albatross (Diomedea sanfordi)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Duncan Wallace\" dateadded=\"1699393742\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699393642\" datetaken=\"2023-10-26
+      license=\"0\" dateupload=\"1699393642\" datetaken=\"2023-10-26
       04:07:01\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Duncan
       Wallace\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53317336500_6056cc7d12_s.jpg\"
@@ -777,7 +777,7 @@ interactions:
       id=\"53317067819\" owner=\"14908898@N08\" secret=\"8b4e5010b1\" server=\"65535\"
       farm=\"66\" title=\"Lapland Longspur 11-3-23\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Carol Riddell\" dateadded=\"1699388950\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699388627\" datetaken=\"2023-11-03 13:49:44\"
+      dateupload=\"1699388627\" datetaken=\"2023-11-03 13:49:44\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Carol Riddell\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53317067819_8b4e5010b1_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53317067819_8b4e5010b1_t.jpg\"
@@ -789,7 +789,7 @@ interactions:
       Skagit County, Washington, United States, November 3, 2023.</description>\n\t</photo>\n\t<photo
       id=\"53316896795\" owner=\"145466593@N08\" secret=\"4565f1253e\" server=\"65535\"
       farm=\"66\" title=\"Dickcissel\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"barbmerrill2\" dateadded=\"1699380810\" license=\"0\" safety_level=\"0\"
+      ownername=\"barbmerrill2\" dateadded=\"1699380810\" license=\"0\"
       dateupload=\"1699380413\" datetaken=\"2023-11-04 21:24:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Barbara Merrill\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53316896795_4565f1253e_s.jpg\"
@@ -803,7 +803,7 @@ interactions:
       id=\"53315448282\" owner=\"33237767@N02\" secret=\"b6470fcc3c\" server=\"65535\"
       farm=\"66\" title=\"Rebhuhn - Grey partridge - Kuropatwa zwyczajna - Perdix
       perdix\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Andreas Gruber\"
-      dateadded=\"1699377892\" license=\"0\" safety_level=\"0\" dateupload=\"1699377876\"
+      dateadded=\"1699377892\" license=\"0\" dateupload=\"1699377876\"
       datetaken=\"2023-05-14 18:22:33\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Andreas Gruber\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53315448282_b6470fcc3c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53315448282_b6470fcc3c_t.jpg\"
@@ -815,7 +815,7 @@ interactions:
       id=\"53315456072\" owner=\"33237767@N02\" secret=\"23a5e47817\" server=\"65535\"
       farm=\"66\" title=\"Kranich - Common crane - \u017Buraw zwyczajny - Grus grus\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Andreas Gruber\" dateadded=\"1699377892\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699377876\" datetaken=\"2023-05-15
+      license=\"0\" dateupload=\"1699377876\" datetaken=\"2023-05-15
       05:40:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Andreas
       Gruber\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53315456072_23a5e47817_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53315456072_23a5e47817_t.jpg\"
@@ -827,7 +827,7 @@ interactions:
       id=\"53315964656\" owner=\"76695351@N06\" secret=\"4b4bce5fa4\" server=\"65535\"
       farm=\"66\" title=\"Gestreepte helmspecht - Lineated Woodpecker\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Carolien114\" dateadded=\"1699372139\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699367745\" datetaken=\"2023-09-13
+      license=\"0\" dateupload=\"1699367745\" datetaken=\"2023-09-13
       09:58:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Carolien
       Hoek\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53315964656_4b4bce5fa4_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53315964656_4b4bce5fa4_t.jpg\"
@@ -838,7 +838,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53293233537\" owner=\"87078874@N07\" secret=\"a21ca113c2\" server=\"65535\"
       farm=\"66\" title=\"Shovelers\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"JakobPer\" dateadded=\"1699368527\" license=\"0\" safety_level=\"0\"
+      ownername=\"JakobPer\" dateadded=\"1699368527\" license=\"0\"
       dateupload=\"1698577177\" datetaken=\"2023-10-14 16:48:14\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53293233537_a21ca113c2_s.jpg\"
@@ -851,7 +851,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53315905466\" owner=\"24309230@N03\" secret=\"0a3fa5feae\" server=\"65535\"
       farm=\"66\" title=\"Aplomado Falcon\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"ik_kil\" dateadded=\"1699366208\" license=\"0\" safety_level=\"0\"
+      ownername=\"ik_kil\" dateadded=\"1699366208\" license=\"0\"
       dateupload=\"1699366205\" datetaken=\"2021-12-08 20:49:53\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ik_kil\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53315905466_0a3fa5feae_s.jpg\"
@@ -865,7 +865,7 @@ interactions:
       id=\"53314482372\" owner=\"37934762@N02\" secret=\"44b11057b3\" server=\"65535\"
       farm=\"66\" title=\"Rockwarbler - Origma solitaria\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Jono Dashper Wildlife\" dateadded=\"1699340052\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699340017\" datetaken=\"2023-05-20
+      license=\"0\" dateupload=\"1699340017\" datetaken=\"2023-05-20
       09:07:38\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Jono
       Dashper\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314482372_44b11057b3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53314482372_44b11057b3_t.jpg\"
@@ -878,7 +878,7 @@ interactions:
       id=\"53314413442\" owner=\"14191740@N08\" secret=\"62e1c3a6aa\" server=\"65535\"
       farm=\"66\" title=\"Sanderling (Calidris alba), Blackwaterfoot, Arran\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Terathopius\" dateadded=\"1699337321\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699336416\" datetaken=\"2023-05-22
+      license=\"0\" dateupload=\"1699336416\" datetaken=\"2023-05-22
       05:34:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Nigel
       Voaden\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314413442_62e1c3a6aa_s.jpg\"
@@ -892,7 +892,7 @@ interactions:
       id=\"53315281336\" owner=\"14191740@N08\" secret=\"171dd0130c\" server=\"65535\"
       farm=\"66\" title=\"Rock Pipit (Anthus petrosus), Blackwaterfoot, Arran\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Terathopius\" dateadded=\"1699337090\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699336415\" datetaken=\"2023-05-22
+      license=\"0\" dateupload=\"1699336415\" datetaken=\"2023-05-22
       05:10:06\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Nigel
       Voaden\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53315281336_171dd0130c_s.jpg\"
@@ -905,7 +905,7 @@ interactions:
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53314384747\" owner=\"27431055@N00\" secret=\"2b9fc1b02e\" server=\"65535\"
       farm=\"66\" title=\"White-naped Swift\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Glen Tepke\" dateadded=\"1699335687\" license=\"0\" safety_level=\"0\"
+      ownername=\"Glen Tepke\" dateadded=\"1699335687\" license=\"0\"
       dateupload=\"1699335679\" datetaken=\"2019-02-05 14:44:42\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314384747_2b9fc1b02e_s.jpg\"
@@ -922,7 +922,7 @@ interactions:
       Mexico\n\n5 February 2019\n</description>\n\t</photo>\n\t<photo id=\"53314384742\"
       owner=\"27431055@N00\" secret=\"daf43d289f\" server=\"65535\" farm=\"66\" title=\"White-naped
       Swift\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Glen Tepke\"
-      dateadded=\"1699335687\" license=\"0\" safety_level=\"0\" dateupload=\"1699335679\"
+      dateadded=\"1699335687\" license=\"0\" dateupload=\"1699335679\"
       datetaken=\"2019-02-05 14:44:41\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314384742_daf43d289f_s.jpg\"
@@ -939,7 +939,7 @@ interactions:
       Mexico\n\n5 February 2019\n</description>\n\t</photo>\n\t<photo id=\"53315724315\"
       owner=\"27431055@N00\" secret=\"e26981010f\" server=\"65535\" farm=\"66\" title=\"White-naped
       Swift\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Glen Tepke\"
-      dateadded=\"1699335686\" license=\"0\" safety_level=\"0\" dateupload=\"1699335678\"
+      dateadded=\"1699335686\" license=\"0\" dateupload=\"1699335678\"
       datetaken=\"2019-02-05 14:44:42\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53315724315_e26981010f_s.jpg\"
@@ -956,7 +956,7 @@ interactions:
       Mexico\n\n5 February 2019\n</description>\n\t</photo>\n\t<photo id=\"53254383461\"
       owner=\"22594349@N08\" secret=\"c204bbb53a\" server=\"65535\" farm=\"66\" title=\"Lesser
       Sand-Plover (Charadrius mongolus)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Ian N. White\" dateadded=\"1699331239\" license=\"0\" safety_level=\"0\"
+      ownername=\"Ian N. White\" dateadded=\"1699331239\" license=\"0\"
       dateupload=\"1697173000\" datetaken=\"2023-10-01 07:44:11\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ian White\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53254383461_c204bbb53a_s.jpg\"
@@ -969,7 +969,7 @@ interactions:
       id=\"53314856308\" owner=\"27174440@N05\" secret=\"7221a264f8\" server=\"65535\"
       farm=\"66\" title=\"Rifleman (Acanthisitta chloris)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Duncan Wallace\" dateadded=\"1699310184\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699310075\" datetaken=\"2023-10-08 05:27:23\"
+      dateupload=\"1699310075\" datetaken=\"2023-10-08 05:27:23\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Duncan Wallace\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53314856308_7221a264f8_s.jpg\"
@@ -989,7 +989,7 @@ interactions:
       open. Aoraki Mount Cook National Park, Hooker Valley Trail.</description>\n\t</photo>\n\t<photo
       id=\"53313222407\" owner=\"31003918@N05\" secret=\"36800b2181\" server=\"65535\"
       farm=\"66\" title=\"Crested Guineafowl\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Allan Drewitt\" dateadded=\"1699297149\" license=\"0\" safety_level=\"0\"
+      ownername=\"Allan Drewitt\" dateadded=\"1699297149\" license=\"0\"
       dateupload=\"1699297127\" datetaken=\"2017-11-11 13:29:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Allan Drewitt\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53313222407_36800b2181_s.jpg\"
@@ -1003,7 +1003,7 @@ interactions:
       Maria, Kruger National Park, South Africa</description>\n\t</photo>\n\t<photo
       id=\"53314052391\" owner=\"145466593@N08\" secret=\"8901ac031d\" server=\"65535\"
       farm=\"66\" title=\"Palm Warbler\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"barbmerrill2\" dateadded=\"1699295895\" license=\"0\" safety_level=\"0\"
+      ownername=\"barbmerrill2\" dateadded=\"1699295895\" license=\"0\"
       dateupload=\"1699295727\" datetaken=\"2023-11-04 21:52:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Barbara Merrill\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314052391_8901ac031d_s.jpg\"
@@ -1017,7 +1017,7 @@ interactions:
       id=\"53314265313\" owner=\"198981757@N08\" secret=\"f98aaa894c\" server=\"65535\"
       farm=\"66\" title=\"Eopsaltria australis, Yungaburra, Queensland, Australia\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699295769\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1699295760\" datetaken=\"2023-08-07
+      license=\"4\" dateupload=\"1699295760\" datetaken=\"2023-08-07
       13:15:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314265313_f98aaa894c_s.jpg\"
@@ -1032,7 +1032,7 @@ interactions:
       id=\"53313154787\" owner=\"198981757@N08\" secret=\"ddabffca6e\" server=\"65535\"
       farm=\"66\" title=\"Regulus satrapa, Chicago, Illinois, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699295769\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1699295760\" datetaken=\"2023-11-04
+      license=\"4\" dateupload=\"1699295760\" datetaken=\"2023-11-04
       14:01:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53313154787_ddabffca6e_s.jpg\"
@@ -1047,7 +1047,7 @@ interactions:
       id=\"53314261078\" owner=\"198981757@N08\" secret=\"a817f7e31d\" server=\"65535\"
       farm=\"66\" title=\"Sitta carolinensis, Chicago, Illinois, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699295767\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1699295758\" datetaken=\"2023-11-04
+      license=\"4\" dateupload=\"1699295758\" datetaken=\"2023-11-04
       12:06:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314261078_a817f7e31d_s.jpg\"
@@ -1062,7 +1062,7 @@ interactions:
       id=\"53314489025\" owner=\"198981757@N08\" secret=\"9a097b9b47\" server=\"65535\"
       farm=\"66\" title=\"Vireo solitarius, Indiana Dunes NP, Indiana, USA\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699295766\"
-      license=\"4\" safety_level=\"0\" dateupload=\"1699295757\" datetaken=\"2023-11-05
+      license=\"4\" dateupload=\"1699295757\" datetaken=\"2023-11-05
       14:32:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53314489025_9a097b9b47_s.jpg\"
@@ -1076,7 +1076,7 @@ interactions:
       Blue-headed vireo \nFR: Vir\xE9o \xE0 t\xEAte bleue</description>\n\t</photo>\n\t<photo
       id=\"53313691980\" owner=\"145466593@N08\" secret=\"8b1f213862\" server=\"65535\"
       farm=\"66\" title=\"Northern Pintail\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"barbmerrill2\" dateadded=\"1699271956\" license=\"0\" safety_level=\"0\"
+      ownername=\"barbmerrill2\" dateadded=\"1699271956\" license=\"0\"
       dateupload=\"1699271614\" datetaken=\"2023-11-02 22:54:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Barbara Merrill\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53313691980_8b1f213862_s.jpg\"
@@ -1090,7 +1090,7 @@ interactions:
       id=\"53252454373\" owner=\"22594349@N08\" secret=\"6bd8123dfd\" server=\"65535\"
       farm=\"66\" title=\"Wattled Starling (Creatophora cinerea)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Ian N. White\" dateadded=\"1699246793\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1697086060\" datetaken=\"2023-09-30
+      license=\"0\" dateupload=\"1697086060\" datetaken=\"2023-09-30
       17:36:44\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ian
       White\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53252454373_6bd8123dfd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53252454373_6bd8123dfd_t.jpg\"
@@ -1102,7 +1102,7 @@ interactions:
       id=\"53312925255\" owner=\"37934762@N02\" secret=\"fc36c34509\" server=\"65535\"
       farm=\"66\" title=\"Australian Raven - Corvus coronoides\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Jono Dashper Wildlife\" dateadded=\"1699236970\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1699236930\" datetaken=\"2023-05-13
+      license=\"0\" dateupload=\"1699236930\" datetaken=\"2023-05-13
       08:29:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Jono
       Dashper\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53312925255_fc36c34509_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53312925255_fc36c34509_t.jpg\"
@@ -1115,7 +1115,7 @@ interactions:
       id=\"53311188942\" owner=\"29494346@N03\" secret=\"b6165f640b\" server=\"65535\"
       farm=\"66\" title=\"Cape May Warbler (Setophaga tigrina)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Ilya Povalyaev\" dateadded=\"1699227962\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699227951\" datetaken=\"2019-01-05 11:32:27\"
+      dateupload=\"1699227951\" datetaken=\"2019-01-05 11:32:27\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ilya Povalyaev\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53311188942_b6165f640b_s.jpg\"
@@ -1129,7 +1129,7 @@ interactions:
       Abbotsford, British Columbia, Canada</description>\n\t</photo>\n\t<photo id=\"53311160312\"
       owner=\"145466593@N08\" secret=\"63ace62e0f\" server=\"65535\" farm=\"66\" title=\"Red-throated
       Loon\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"barbmerrill2\"
-      dateadded=\"1699222447\" license=\"0\" safety_level=\"0\" dateupload=\"1699222105\"
+      dateadded=\"1699222447\" license=\"0\" dateupload=\"1699222105\"
       datetaken=\"2023-11-02 22:32:56\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Barbara Merrill\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53311160312_63ace62e0f_s.jpg\"
@@ -1143,7 +1143,7 @@ interactions:
       id=\"53312012308\" owner=\"14908898@N08\" secret=\"579b0ee14d\" server=\"65535\"
       farm=\"66\" title=\"White-tailed Tropicbird 9-26-23\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Carol Riddell\" dateadded=\"1699216699\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699215272\" datetaken=\"2023-09-26 14:44:41\"
+      dateupload=\"1699215272\" datetaken=\"2023-09-26 14:44:41\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Carol Riddell\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53312012308_579b0ee14d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53312012308_579b0ee14d_t.jpg\"
@@ -1156,7 +1156,7 @@ interactions:
       id=\"53311401804\" owner=\"31003918@N05\" secret=\"fb3024e089\" server=\"65535\"
       farm=\"66\" title=\"Emerald-spotted Wood-dove\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Allan Drewitt\" dateadded=\"1699197477\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699197454\" datetaken=\"2023-07-24 11:07:56\"
+      dateupload=\"1699197454\" datetaken=\"2023-07-24 11:07:56\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Allan Drewitt\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53311401804_fb3024e089_s.jpg\"
@@ -1170,7 +1170,7 @@ interactions:
       Mountains, Tanzania</description>\n\t</photo>\n\t<photo id=\"53310008612\" owner=\"54525206@N05\"
       secret=\"cc5df523f9\" server=\"65535\" farm=\"66\" title=\"Baltimoretrupial\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Douglas Riverside-Movie-Pictures\"
-      dateadded=\"1699193151\" license=\"0\" safety_level=\"0\" dateupload=\"1699193113\"
+      dateadded=\"1699193151\" license=\"0\" dateupload=\"1699193113\"
       datetaken=\"2023-04-16 10:38:01\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Douglas\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310008612_cc5df523f9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53310008612_cc5df523f9_t.jpg\"
@@ -1185,7 +1185,7 @@ interactions:
       will be deleted.</description>\n\t</photo>\n\t<photo id=\"53311233090\" owner=\"77012150@N08\"
       secret=\"9d604b50f9\" server=\"65535\" farm=\"66\" title=\"Buller&#039;s Albatross
       (Thalassarche bulleri) 0271\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Mary
-      Bomford\" dateadded=\"1699190403\" license=\"0\" safety_level=\"0\" dateupload=\"1699190254\"
+      Bomford\" dateadded=\"1699190403\" license=\"0\" dateupload=\"1699190254\"
       datetaken=\"2011-01-01 12:02:55\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Mary Bomford\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53311233090_9d604b50f9_s.jpg\"
@@ -1200,7 +1200,7 @@ interactions:
       Mollymawk. Breeds on islands around New Zealand.</description>\n\t</photo>\n\t<photo
       id=\"53310948694\" owner=\"145466593@N08\" secret=\"7707a8b27e\" server=\"65535\"
       farm=\"66\" title=\"Red-tailed Hawk\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"barbmerrill2\" dateadded=\"1699183589\" license=\"0\" safety_level=\"0\"
+      ownername=\"barbmerrill2\" dateadded=\"1699183589\" license=\"0\"
       dateupload=\"1699183048\" datetaken=\"2023-11-02 23:25:34\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Barbara Merrill\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310948694_7707a8b27e_s.jpg\"
@@ -1214,7 +1214,7 @@ interactions:
       id=\"53249899946\" owner=\"22594349@N08\" secret=\"a69bc92467\" server=\"65535\"
       farm=\"66\" title=\"South African Shelduck  (Tadorna cana)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Ian N. White\" dateadded=\"1699175205\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1696997368\" datetaken=\"2023-10-03
+      license=\"0\" dateupload=\"1696997368\" datetaken=\"2023-10-03
       06:35:19\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ian
       White\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53249899946_a69bc92467_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53249899946_a69bc92467_t.jpg\"
@@ -1226,7 +1226,7 @@ interactions:
       id=\"53106541886\" owner=\"198981757@N08\" secret=\"429f465da9\" server=\"65535\"
       farm=\"66\" title=\"Merops ornatus, Cairns (QLD), Australia\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699162710\"
-      license=\"3\" safety_level=\"0\" dateupload=\"1691673335\" datetaken=\"2023-07-25
+      license=\"3\" dateupload=\"1691673335\" datetaken=\"2023-07-25
       08:57:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald
       Davesne\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53106541886_429f465da9_s.jpg\"
@@ -1240,7 +1240,7 @@ interactions:
       \nFR: Gu\xEApier arc-en-ciel</description>\n\t</photo>\n\t<photo id=\"53170042373\"
       owner=\"198981757@N08\" secret=\"787654c92b\" server=\"65535\" farm=\"66\" title=\"Haliastur
       indus, Ko Phi Phi Don, Thailand\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"donald.davesne\" dateadded=\"1699162693\" license=\"3\" safety_level=\"0\"
+      ownername=\"donald.davesne\" dateadded=\"1699162693\" license=\"3\"
       dateupload=\"1694047871\" datetaken=\"2022-11-13 15:32:34\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Donald Davesne\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53170042373_787654c92b_s.jpg\"
@@ -1255,7 +1255,7 @@ interactions:
       id=\"53148682141\" owner=\"198981757@N08\" secret=\"204c4feff7\" server=\"65535\"
       farm=\"66\" title=\"Vanellus miles, Cairns, Australia\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"donald.davesne\" dateadded=\"1699162588\" license=\"3\"
-      safety_level=\"0\" dateupload=\"1693255746\" datetaken=\"2023-07-26 12:06:11\"
+      dateupload=\"1693255746\" datetaken=\"2023-07-26 12:06:11\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Donald Davesne\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53148682141_204c4feff7_s.jpg\"
@@ -1269,7 +1269,7 @@ interactions:
       Vanneau masqu\xE9</description>\n\t</photo>\n\t<photo id=\"53149117925\" owner=\"198981757@N08\"
       secret=\"c7a299a9de\" server=\"65535\" farm=\"66\" title=\"Esacus magnirostris,
       Cairns, Australia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"donald.davesne\"
-      dateadded=\"1699162503\" license=\"3\" safety_level=\"0\" dateupload=\"1693255748\"
+      dateadded=\"1699162503\" license=\"3\" dateupload=\"1693255748\"
       datetaken=\"2023-07-26 12:31:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Donald Davesne\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53149117925_c7a299a9de_s.jpg\"
@@ -1283,7 +1283,7 @@ interactions:
       \u0152dicn\xE8me des r\xE9cifs</description>\n\t</photo>\n\t<photo id=\"53220666248\"
       owner=\"198981757@N08\" secret=\"27400266eb\" server=\"65535\" farm=\"66\" title=\"Gallinula
       galeata, Les Trois-\xCElets, Martinique\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"donald.davesne\" dateadded=\"1699162485\" license=\"3\" safety_level=\"0\"
+      ownername=\"donald.davesne\" dateadded=\"1699162485\" license=\"3\"
       dateupload=\"1695936382\" datetaken=\"2022-05-14 12:41:43\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Donald Davesne\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53220666248_27400266eb_s.jpg\"
@@ -1297,7 +1297,7 @@ interactions:
       Gallinule d&#039;Am\xE9rique</description>\n\t</photo>\n\t<photo id=\"53306145356\"
       owner=\"29494346@N03\" secret=\"c8288cc72e\" server=\"65535\" farm=\"66\" title=\"Green
       Peafowl (Pavo muticus)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Ilya
-      Povalyaev\" dateadded=\"1699146159\" license=\"0\" safety_level=\"0\" dateupload=\"1698985232\"
+      Povalyaev\" dateadded=\"1699146159\" license=\"0\" dateupload=\"1698985232\"
       datetaken=\"2019-12-11 17:43:24\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Ilya Povalyaev\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53306145356_c8288cc72e_s.jpg\"
@@ -1311,7 +1311,7 @@ interactions:
       Non-hunting Area, Lamphun, Thailand</description>\n\t</photo>\n\t<photo id=\"53306387778\"
       owner=\"29494346@N03\" secret=\"626f48e675\" server=\"65535\" farm=\"66\" title=\"Green
       Peafowl (Pavo muticus)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Ilya
-      Povalyaev\" dateadded=\"1699146137\" license=\"0\" safety_level=\"0\" dateupload=\"1698985232\"
+      Povalyaev\" dateadded=\"1699146137\" license=\"0\" dateupload=\"1698985232\"
       datetaken=\"2019-12-11 17:51:49\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Ilya Povalyaev\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53306387778_626f48e675_s.jpg\"
@@ -1325,7 +1325,7 @@ interactions:
       Non-hunting Area, Lamphun, Thailand</description>\n\t</photo>\n\t<photo id=\"53307480771\"
       owner=\"9360144@N07\" secret=\"a0b0444d82\" server=\"65535\" farm=\"66\" title=\"Female
       Wire-crested Thorntail\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"V.C.
-      Wald\" dateadded=\"1699137219\" license=\"0\" safety_level=\"0\" dateupload=\"1699040733\"
+      Wald\" dateadded=\"1699137219\" license=\"0\" dateupload=\"1699040733\"
       datetaken=\"2023-08-12 08:46:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53307480771_a0b0444d82_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53307480771_a0b0444d82_t.jpg\"
@@ -1345,7 +1345,7 @@ interactions:
       area within and around the facility. </description>\n\t</photo>\n\t<photo id=\"53307722843\"
       owner=\"9360144@N07\" secret=\"c671ca6e8e\" server=\"65535\" farm=\"66\" title=\"Wire-crested
       Thorntail\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"V.C. Wald\"
-      dateadded=\"1699137219\" license=\"0\" safety_level=\"0\" dateupload=\"1699040731\"
+      dateadded=\"1699137219\" license=\"0\" dateupload=\"1699040731\"
       datetaken=\"2023-08-12 08:45:45\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53307722843_c671ca6e8e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53307722843_c671ca6e8e_t.jpg\"
@@ -1365,7 +1365,7 @@ interactions:
       area within and around the facility. </description>\n\t</photo>\n\t<photo id=\"53309595936\"
       owner=\"9360144@N07\" secret=\"d62b8597b0\" server=\"65535\" farm=\"66\" title=\"Female
       Orange-bellied Euphonia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"V.C.
-      Wald\" dateadded=\"1699137203\" license=\"0\" safety_level=\"0\" dateupload=\"1699136268\"
+      Wald\" dateadded=\"1699137203\" license=\"0\" dateupload=\"1699136268\"
       datetaken=\"2023-08-05 08:59:58\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53309595936_d62b8597b0_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53309595936_d62b8597b0_t.jpg\"
@@ -1382,7 +1382,7 @@ interactions:
       id=\"53310077645\" owner=\"9360144@N07\" secret=\"62673d0f82\" server=\"65535\"
       farm=\"66\" title=\"Orange-bellied Euphonia\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"V.C. Wald\" dateadded=\"1699137203\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699136271\" datetaken=\"2023-08-13 14:51:39\"
+      dateupload=\"1699136271\" datetaken=\"2023-08-13 14:51:39\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53310077645_62673d0f82_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53310077645_62673d0f82_t.jpg\"
@@ -1399,7 +1399,7 @@ interactions:
       id=\"53301292718\" owner=\"62501256@N05\" secret=\"4c35432d41\" server=\"65535\"
       farm=\"66\" title=\"Sardinian Warbler (Curruca melanocephala), male\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"piazzi1969\" dateadded=\"1699136151\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1698792128\" datetaken=\"2023-10-29
+      license=\"0\" dateupload=\"1698792128\" datetaken=\"2023-10-29
       11:12:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Mark
       Piazzi\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53301292718_4c35432d41_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53301292718_4c35432d41_t.jpg\"
@@ -1411,7 +1411,7 @@ interactions:
       common bird in Mallorca.</description>\n\t</photo>\n\t<photo id=\"53309060166\"
       owner=\"33237767@N02\" secret=\"1c661d5733\" server=\"65535\" farm=\"66\" title=\"Kleiber
       - Eurasian Nuthatch - Sitta europaea\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Andreas Gruber\" dateadded=\"1699117756\" license=\"0\" safety_level=\"0\"
+      ownername=\"Andreas Gruber\" dateadded=\"1699117756\" license=\"0\"
       dateupload=\"1699117742\" datetaken=\"2023-11-01 10:08:28\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Andreas Gruber\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53309060166_1c661d5733_s.jpg\"
@@ -1424,7 +1424,7 @@ interactions:
       id=\"53309536510\" owner=\"33237767@N02\" secret=\"34d49217ed\" server=\"65535\"
       farm=\"66\" title=\"Kohlmeise - Great Tit - Parus major\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Andreas Gruber\" dateadded=\"1699117755\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699117741\" datetaken=\"2023-11-04 09:42:37\"
+      dateupload=\"1699117741\" datetaken=\"2023-11-04 09:42:37\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Andreas Gruber\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53309536510_34d49217ed_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53309536510_34d49217ed_t.jpg\"
@@ -1435,7 +1435,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53308998966\" owner=\"31003918@N05\" secret=\"24c6dac118\" server=\"65535\"
       farm=\"66\" title=\"Rufous-naped Lark\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Allan Drewitt\" dateadded=\"1699116006\" license=\"0\" safety_level=\"0\"
+      ownername=\"Allan Drewitt\" dateadded=\"1699116006\" license=\"0\"
       dateupload=\"1699115678\" datetaken=\"2017-11-16 10:25:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Allan Drewitt\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53308998966_24c6dac118_s.jpg\"
@@ -1449,7 +1449,7 @@ interactions:
       Game Reserve, South Africa</description>\n\t</photo>\n\t<photo id=\"53309385345\"
       owner=\"145466593@N08\" secret=\"51eaab846f\" server=\"65535\" farm=\"66\" title=\"Red-breasted
       Meganser\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"barbmerrill2\"
-      dateadded=\"1699112586\" license=\"0\" safety_level=\"0\" dateupload=\"1699112384\"
+      dateadded=\"1699112586\" license=\"0\" dateupload=\"1699112384\"
       datetaken=\"2023-11-02 22:31:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Barbara Merrill\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53309385345_51eaab846f_s.jpg\"
@@ -1462,7 +1462,7 @@ interactions:
       height_l=\"725\" width_l=\"1024\">\n\t\t<description>Rowley,  MA</description>\n\t</photo>\n\t<photo
       id=\"53281353542\" owner=\"79097894@N04\" secret=\"911c5e61a7\" server=\"65535\"
       farm=\"66\" title=\"Red-breasted Nuthatch\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Ceredig Roberts\" dateadded=\"1699106324\" license=\"0\" safety_level=\"0\"
+      ownername=\"Ceredig Roberts\" dateadded=\"1699106324\" license=\"0\"
       dateupload=\"1698157261\" datetaken=\"2023-10-12 09:57:17\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ceredig Roberts\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53281353542_911c5e61a7_s.jpg\"
@@ -1476,7 +1476,7 @@ interactions:
       id=\"53301021146\" owner=\"62501256@N05\" secret=\"e1caf958b6\" server=\"65535\"
       farm=\"66\" title=\"Red Kite (Milvus milvus)\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"piazzi1969\" dateadded=\"1699105492\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1698791150\" datetaken=\"2023-10-28 13:57:32\"
+      dateupload=\"1698791150\" datetaken=\"2023-10-28 13:57:32\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Mark Piazzi\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53301021146_e1caf958b6_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53301021146_e1caf958b6_t.jpg\"
@@ -1489,7 +1489,7 @@ interactions:
       id=\"53307825581\" owner=\"14908898@N08\" secret=\"569b4cdb85\" server=\"65535\"
       farm=\"66\" title=\"Wedge-tailed Shearwater 9-25-23\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Carol Riddell\" dateadded=\"1699076396\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699055043\" datetaken=\"2023-09-25 08:07:19\"
+      dateupload=\"1699055043\" datetaken=\"2023-09-25 08:07:19\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Carol Riddell\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53307825581_569b4cdb85_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53307825581_569b4cdb85_t.jpg\"
@@ -1502,7 +1502,7 @@ interactions:
       id=\"53247724199\" owner=\"22594349@N08\" secret=\"20b69c17d7\" server=\"65535\"
       farm=\"66\" title=\"Namaqua Sandgrouse (Pterocles namaqua) \u2642\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" ownername=\"Ian N. White\" dateadded=\"1699071800\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1696910786\" datetaken=\"2023-10-03
+      license=\"0\" dateupload=\"1696910786\" datetaken=\"2023-10-03
       08:26:41\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Ian
       White\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53247724199_20b69c17d7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53247724199_20b69c17d7_t.jpg\"
@@ -1513,7 +1513,7 @@ interactions:
       height_l=\"679\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53305954372\" owner=\"88932760@N08\" secret=\"d5d2ab0866\" server=\"65535\"
       farm=\"66\" title=\"Catcalled\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      ownername=\"Ron Buening\" dateadded=\"1699018422\" license=\"0\" safety_level=\"0\"
+      ownername=\"Ron Buening\" dateadded=\"1699018422\" license=\"0\"
       dateupload=\"1699018346\" datetaken=\"2023-11-02 17:26:46\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" realname=\"Ron Buening\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53305954372_d5d2ab0866_s.jpg\"
@@ -1527,7 +1527,7 @@ interactions:
       id=\"6843310144\" owner=\"77012150@N08\" secret=\"ac2f1710c0\" server=\"7048\"
       farm=\"8\" title=\"Yellow-eyed Penguin DSC_0596\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Mary Bomford\" dateadded=\"1699016868\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1331979244\" datetaken=\"2010-12-12 13:12:27\"
+      dateupload=\"1331979244\" datetaken=\"2010-12-12 13:12:27\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Mary Bomford\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/7048/6843310144_ac2f1710c0_s.jpg\" height_sq=\"75\"
@@ -1542,7 +1542,7 @@ interactions:
       id=\"53307063870\" owner=\"31003918@N05\" secret=\"541c04d10c\" server=\"65535\"
       farm=\"66\" title=\"Bare-faced go-away-birds\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Allan Drewitt\" dateadded=\"1699008804\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699008781\" datetaken=\"2022-06-30 16:17:02\"
+      dateupload=\"1699008781\" datetaken=\"2022-06-30 16:17:02\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Allan Drewitt\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53307063870_541c04d10c_s.jpg\"
@@ -1556,7 +1556,7 @@ interactions:
       Lake Mburo National Park, Uganda</description>\n\t</photo>\n\t<photo id=\"53305637552\"
       owner=\"7482089@N04\" secret=\"87f9215a6f\" server=\"65535\" farm=\"66\" title=\"Mandarin
       Duck, Aix galericulata\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Kevin
-      B Agar\" dateadded=\"1699004207\" license=\"0\" safety_level=\"0\" dateupload=\"1699004148\"
+      B Agar\" dateadded=\"1699004207\" license=\"0\" dateupload=\"1699004148\"
       datetaken=\"2023-10-25 13:09:28\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       realname=\"Kevin Agar\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53305637552_87f9215a6f_s.jpg\"
@@ -1573,7 +1573,7 @@ interactions:
       id=\"53306862734\" owner=\"7482089@N04\" secret=\"ab4839a2d9\" server=\"65535\"
       farm=\"66\" title=\"Little Grebe, Tachybaptus ruficollis\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" ownername=\"Kevin B Agar\" dateadded=\"1699004206\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1699004147\" datetaken=\"2023-10-25 13:02:29\"
+      dateupload=\"1699004147\" datetaken=\"2023-10-25 13:02:29\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Kevin Agar\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53306862734_ab4839a2d9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53306862734_ab4839a2d9_t.jpg\"

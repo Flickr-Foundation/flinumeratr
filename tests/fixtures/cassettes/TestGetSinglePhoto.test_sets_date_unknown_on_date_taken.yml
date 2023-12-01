@@ -18,7 +18,7 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"25868667441\" secret=\"55b0c0138a\" server=\"1702\" farm=\"2\" dateuploaded=\"1458576973\"
-      isfavorite=\"0\" license=\"0\" safety_level=\"0\" rotation=\"0\"
+      isfavorite=\"0\" license=\"0\" rotation=\"0\"
       views=\"217\" media=\"photo\">\n\t<owner nsid=\"140375060@N02\"
       username=\"CD PIX\" realname=\"Colin\" location=\"Northern Ireland\" iconserver=\"1523\"
       iconfarm=\"2\" path_alias=\"\">\n\t\t<gift gift_eligible=\"1\" new_flow=\"1\">\n\t\t\t<eligible_durations

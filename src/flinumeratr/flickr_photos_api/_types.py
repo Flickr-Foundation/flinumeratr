@@ -43,12 +43,6 @@ class Size(TypedDict):
     source: str
 
 
-# Represents the safety level of a photo on Flickr.
-#
-# https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters#h_01HBRRKK6F4ZAW6FTWV8BPA2G7
-SafetyLevel = Literal["safe", "moderate", "restricted"]
-
-
 class SinglePhoto(TypedDict):
     id: str
     title: str | None
@@ -56,7 +50,6 @@ class SinglePhoto(TypedDict):
     owner: User
     date_posted: datetime.datetime
     date_taken: DateTaken
-    safety_level: SafetyLevel
     license: License
     url: str
     sizes: list[Size]

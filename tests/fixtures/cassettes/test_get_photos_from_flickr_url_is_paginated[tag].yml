@@ -14,12 +14,12 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=botany
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=botany
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"4048\" perpage=\"100\" total=\"404762\">\n\t<photo id=\"53085621278\"
       owner=\"187931411@N08\" secret=\"8c116017a4\" server=\"65535\" farm=\"66\" title=\"Daisy
-      Eyes\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Eyes\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1690846695\" datetaken=\"2023-07-25 13:24:30\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"ranmen44\" realname=\"Randy Mendelsohn\"
       media=\"photo\" media_status=\"ready\"
@@ -33,7 +33,7 @@ interactions:
       height_l=\"956\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53084020901\" owner=\"144882911@N08\" secret=\"e142044d05\" server=\"65535\"
       farm=\"66\" title=\"IMG_1441\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690815875\" datetaken=\"2013-07-12
+      license=\"0\" dateupload=\"1690815875\" datetaken=\"2013-07-12
       07:38:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Paul_Paradis\"
       realname=\"Paul Paradis\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53084020901_e142044d05_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53084020901_e142044d05_t.jpg\"
@@ -46,7 +46,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;commons.wikimedia.org/wiki/File:Hemerocalle1441.pp.jpg&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"53076217676\" owner=\"187931411@N08\" secret=\"961dbcc394\" server=\"65535\"
       farm=\"66\" title=\"The Three of Us\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690512268\" datetaken=\"2023-07-21
+      license=\"0\" dateupload=\"1690512268\" datetaken=\"2023-07-21
       13:42:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ranmen44\"
       realname=\"Randy Mendelsohn\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53076217676_961dbcc394_s.jpg\"
@@ -59,7 +59,7 @@ interactions:
       height_l=\"852\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53076214816\" owner=\"187931411@N08\" secret=\"b7ba48ff0d\" server=\"65535\"
       farm=\"66\" title=\"Daisy Field\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1690512134\" datetaken=\"2023-07-25
+      license=\"0\" dateupload=\"1690512134\" datetaken=\"2023-07-25
       13:26:23\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ranmen44\"
       realname=\"Randy Mendelsohn\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53076214816_b7ba48ff0d_s.jpg\"
@@ -72,7 +72,7 @@ interactions:
       height_l=\"544\" width_l=\"1024\">\n\t\t<description>Field of Daisies in Central
       Park located in New York City</description>\n\t</photo>\n\t<photo id=\"53076050710\"
       owner=\"133480378@N04\" secret=\"11bf70b745\" server=\"65535\" farm=\"66\" title=\"Angelonia.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1690488773\" datetaken=\"2023-07-17 10:11:38\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53076050710_11bf70b745_s.jpg\"
@@ -85,7 +85,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"53070634124\" owner=\"162684392@N05\"
       secret=\"2c6af80ec3\" server=\"65535\" farm=\"66\" title=\"Temptation\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1690293970\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1690293970\"
       datetaken=\"2023-06-19 13:06:01\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53070634124_2c6af80ec3_s.jpg\"
@@ -98,7 +98,7 @@ interactions:
       height_l=\"819\" width_l=\"1024\">\n\t\t<description>Woodland strawberry (Fragaria
       vesca)\n\nMakroFlora_23</description>\n\t</photo>\n\t<photo id=\"53068919716\"
       owner=\"133480378@N04\" secret=\"38a9a9d46f\" server=\"65535\" farm=\"66\" title=\"Bachelor
-      Buttons.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Buttons.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1690231215\" datetaken=\"2023-06-15 16:59:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53068919716_38a9a9d46f_s.jpg\"
@@ -111,7 +111,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. \n</description>\n\t</photo>\n\t<photo id=\"53067131719\" owner=\"187931411@N08\"
       secret=\"826aecc9ce\" server=\"65535\" farm=\"66\" title=\"Neighbors in the
-      Garden\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Garden\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1690162418\" datetaken=\"2023-07-21 13:39:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"ranmen44\" realname=\"Randy Mendelsohn\"
       media=\"photo\" media_status=\"ready\"
@@ -125,7 +125,7 @@ interactions:
       height_l=\"1024\" width_l=\"713\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53062006861\" owner=\"49793991@N04\" secret=\"8602e28f0a\" server=\"65535\"
       farm=\"66\" title=\"Color Garden\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"5\" safety_level=\"0\" dateupload=\"1689972864\" datetaken=\"2021-03-30
+      license=\"5\" dateupload=\"1689972864\" datetaken=\"2021-03-30
       20:58:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"jazzmoon12\"
       media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53062006861_8602e28f0a_s.jpg\"
@@ -138,7 +138,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53059100807\" owner=\"133480378@N04\" secret=\"ee28a75919\" server=\"65535\"
       farm=\"66\" title=\"Zinnia.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1689880264\" datetaken=\"2023-06-15 16:57:33\"
+      dateupload=\"1689880264\" datetaken=\"2023-06-15 16:57:33\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob
       Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53059100807_ee28a75919_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53059100807_ee28a75919_t.jpg\"
@@ -150,7 +150,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. \n</description>\n\t</photo>\n\t<photo id=\"53058153535\" owner=\"133480378@N04\"
       secret=\"d91a219385\" server=\"65535\" farm=\"66\" title=\"Iceland Poppy.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689799278\" datetaken=\"2023-06-15 16:56:39\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53058153535_d91a219385_s.jpg\"
@@ -164,7 +164,7 @@ interactions:
       day. </description>\n\t</photo>\n\t<photo id=\"53056098016\" owner=\"121626365@N06\"
       secret=\"175223ba33\" server=\"65535\" farm=\"66\" title=\"(Australia) Bare
       Island, Sydney\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1689751738\" datetaken=\"2023-06-23 20:46:34\"
+      dateupload=\"1689751738\" datetaken=\"2023-06-23 20:46:34\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"JG Martin\" realname=\"Justin
       Martin\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53056098016_175223ba33_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53056098016_175223ba33_t.jpg\"
@@ -176,7 +176,7 @@ interactions:
       islet located in the Eastern Suburbs of Sydney.\n</description>\n\t</photo>\n\t<photo
       id=\"53049332730\" owner=\"45359289@N05\" secret=\"28cc217a0c\" server=\"65535\"
       farm=\"66\" title=\"Summer Explosion\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1689490142\" datetaken=\"2023-07-09
+      license=\"0\" dateupload=\"1689490142\" datetaken=\"2023-07-09
       00:00:00\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Christina&#039;s
       World : off &amp; on\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53049332730_28cc217a0c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53049332730_28cc217a0c_t.jpg\"
@@ -189,7 +189,7 @@ interactions:
       Steinbeck, The Winter of Our Discontent, 1961</description>\n\t</photo>\n\t<photo
       id=\"53046094944\" owner=\"133480378@N04\" secret=\"cf23a92fed\" server=\"65535\"
       farm=\"66\" title=\"Delphinium.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1689366331\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1689366331\" datetaken=\"2023-04-16
       10:25:38\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53046094944_cf23a92fed_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53046094944_cf23a92fed_t.jpg\"
@@ -201,7 +201,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"53043979194\" owner=\"133480378@N04\"
       secret=\"484528847d\" server=\"65535\" farm=\"66\" title=\"Scarlet Spiralflag.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689281107\" datetaken=\"2023-04-16 10:24:55\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53043979194_484528847d_s.jpg\"
@@ -214,7 +214,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"53038575007\" owner=\"133480378@N04\"
       secret=\"033c3ec58b\" server=\"65535\" farm=\"66\" title=\"Golden Shrimp Plant.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1689105492\" datetaken=\"2023-04-16 10:22:01\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53038575007_033c3ec58b_s.jpg\"
@@ -227,7 +227,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"53038212565\" owner=\"95388056@N02\"
       secret=\"5cc8063769\" server=\"65535\" farm=\"66\" title=\"Lady in Red\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1689058802\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1689058802\"
       datetaken=\"2023-05-22 10:12:29\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"SkyeWeasel\" realname=\"\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53038212565_5cc8063769_s.jpg\"
@@ -241,7 +241,7 @@ interactions:
       - shot with a Raynox DCR-250 mounted on my macro lens.\n\nExplored July 11,
       2023.</description>\n\t</photo>\n\t<photo id=\"53027859996\" owner=\"140454096@N02\"
       secret=\"9dfee5eb8e\" server=\"65535\" farm=\"66\" title=\"Curiosity\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1688733982\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1688733982\"
       datetaken=\"2011-05-14 11:54:56\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"vicch7\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53027859996_9dfee5eb8e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53027859996_9dfee5eb8e_t.jpg\"
@@ -252,7 +252,7 @@ interactions:
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"53026271952\" owner=\"162684392@N05\" secret=\"e768d2a439\" server=\"65535\"
       farm=\"66\" title=\"Floribunda\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1688650179\" datetaken=\"2021-06-20
+      license=\"0\" dateupload=\"1688650179\" datetaken=\"2021-06-20
       13:49:07\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"NiBe60\"
       realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53026271952_e768d2a439_s.jpg\"
@@ -265,7 +265,7 @@ interactions:
       height_l=\"791\" width_l=\"1024\">\n\t\t<description>Rose (Rosa) in pink orange\n\nMakro_022</description>\n\t</photo>\n\t<photo
       id=\"53020649705\" owner=\"78590035@N06\" secret=\"123a195502\" server=\"65535\"
       farm=\"66\" title=\"Springtime Fern (08). April 2023 [in explore] (Flickr Explore)\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1688409828\" datetaken=\"2023-04-04 18:57:00\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Simon W. Photography\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/53020649705_123a195502_s.jpg\"
@@ -285,7 +285,7 @@ interactions:
       Group Awards/Banners, thanks &lt;/b&gt;</description>\n\t</photo>\n\t<photo
       id=\"53006757580\" owner=\"133480378@N04\" secret=\"1d92d40377\" server=\"65535\"
       farm=\"66\" title=\"Morning Glory.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1687897999\" datetaken=\"2023-06-27
+      license=\"0\" dateupload=\"1687897999\" datetaken=\"2023-06-27
       11:43:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53006757580_1d92d40377_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53006757580_1d92d40377_t.jpg\"
@@ -297,7 +297,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. </description>\n\t</photo>\n\t<photo id=\"52994960973\" owner=\"187931411@N08\"
       secret=\"d1cb632332\" server=\"65535\" farm=\"66\" title=\"Flower Beauty\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1687478937\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1687478937\"
       datetaken=\"2016-10-29 22:25:10\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"ranmen44\" realname=\"Randy Mendelsohn\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52994960973_d1cb632332_s.jpg\"
@@ -310,7 +310,7 @@ interactions:
       height_l=\"851\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52993721495\" owner=\"140249051@N03\" secret=\"ff81a1fac4\" server=\"65535\"
       farm=\"66\" title=\"Ant On Amsinckia\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1687443702\" datetaken=\"2023-04-06
+      license=\"0\" dateupload=\"1687443702\" datetaken=\"2023-04-06
       17:47:25\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"parmrussrap\"
       realname=\"Russ Parman\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52993721495_ff81a1fac4_s.jpg\"
@@ -323,7 +323,7 @@ interactions:
       height_l=\"980\" width_l=\"1024\">\n\t\t<description>At the San Louis National
       Wildlife Refuge.</description>\n\t</photo>\n\t<photo id=\"52990696542\" owner=\"99230652@N04\"
       secret=\"46c47c7a12\" server=\"65535\" farm=\"66\" title=\"Niritella rhellicani\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1687364367\" datetaken=\"2023-06-19 20:14:20\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"ab.130722jvkz\" realname=\"Giuliano Da Zanche\"
       media=\"photo\" media_status=\"ready\"
@@ -353,7 +353,7 @@ interactions:
       be seen as difficult to satisfactorily describe.\n\nSource: Orchids of Britain
       and Europe.</description>\n\t</photo>\n\t<photo id=\"52982829466\" owner=\"95388056@N02\"
       secret=\"990e60b5d4\" server=\"65535\" farm=\"66\" title=\"A Stigma and Her
-      Anthers\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Anthers\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1687086853\" datetaken=\"2023-06-16 11:57:27\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"SkyeWeasel\" realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52982829466_990e60b5d4_s.jpg\"
@@ -367,7 +367,7 @@ interactions:
       DCR-250 mounted on my macro lens.\n\nFor Macro Mondays theme &#039;Odd&#039;.</description>\n\t</photo>\n\t<photo
       id=\"52979403744\" owner=\"133480378@N04\" secret=\"2cd50494a9\" server=\"65535\"
       farm=\"66\" title=\"Easter Lily.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1686943975\" datetaken=\"2023-06-15
+      license=\"0\" dateupload=\"1686943975\" datetaken=\"2023-06-15
       17:00:35\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52979403744_2cd50494a9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52979403744_2cd50494a9_t.jpg\"
@@ -379,7 +379,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52977625128\" owner=\"133480378@N04\"
       secret=\"16b340971c\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow &amp;
-      Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686859387\" datetaken=\"2023-04-16 09:57:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52977625128_16b340971c_s.jpg\"
@@ -392,7 +392,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52973056133\" owner=\"133480378@N04\"
       secret=\"5f5c1898a7\" server=\"65535\" farm=\"66\" title=\"Orchid Purple.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686689484\" datetaken=\"2023-04-16 09:52:26\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52973056133_5f5c1898a7_s.jpg\"
@@ -405,7 +405,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52970599233\" owner=\"133480378@N04\"
       secret=\"2abc4cc881\" server=\"65535\" farm=\"66\" title=\"Orchid White Purple
-      &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686605253\" datetaken=\"2023-04-16 09:51:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52970599233_2abc4cc881_s.jpg\"
@@ -418,7 +418,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52968071225\" owner=\"133480378@N04\"
       secret=\"9ecba242b1\" server=\"65535\" farm=\"66\" title=\"Red Roses.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1686530659\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1686530659\"
       datetaken=\"2023-06-02 11:48:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52968071225_9ecba242b1_s.jpg\"
@@ -431,7 +431,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. \n</description>\n\t</photo>\n\t<photo id=\"52964647941\" owner=\"133480378@N04\"
       secret=\"842ee5a1c9\" server=\"65535\" farm=\"66\" title=\"Zinnia Yellow.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686426487\" datetaken=\"2023-06-02 11:48:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52964647941_842ee5a1c9_s.jpg\"
@@ -444,7 +444,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. \n</description>\n\t</photo>\n\t<photo id=\"52961345508\" owner=\"133480378@N04\"
       secret=\"c541a94133\" server=\"65535\" farm=\"66\" title=\"Rose Red &amp; White.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686268106\" datetaken=\"2023-06-02 11:44:53\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52961345508_c541a94133_s.jpg\"
@@ -457,7 +457,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. \n</description>\n\t</photo>\n\t<photo id=\"52957753005\" owner=\"99230652@N04\"
       secret=\"35af69545d\" server=\"65535\" farm=\"66\" title=\"Ranunculus alpestris\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686143215\" datetaken=\"2023-06-06 11:04:49\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"ab.130722jvkz\" realname=\"Giuliano Da Zanche\"
       media=\"photo\" media_status=\"ready\"
@@ -476,7 +476,7 @@ interactions:
       maximum of 12 cm high, with a prostrate habit and ascending glabrous stems.</description>\n\t</photo>\n\t<photo
       id=\"52956487778\" owner=\"81035653@N00\" secret=\"e32dacb6c0\" server=\"65535\"
       farm=\"66\" title=\"Ficus albipila is better known as The Giant Bee Tree by
-      the locals\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      the locals\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1686323580\" datetaken=\"2022-07-16 05:46:53\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"B\u212En\" realname=\"Ben The Man\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52956487778_e32dacb6c0_s.jpg\"
@@ -538,7 +538,7 @@ interactions:
       Bee tree ligt aan de Wa rivier in Wiang Sa District, Nan Province.</description>\n\t</photo>\n\t<photo
       id=\"52952908537\" owner=\"81035653@N00\" secret=\"868980257e\" server=\"65535\"
       farm=\"66\" title=\"Thumbs up for the Giant Bee Tree\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1686235080\" datetaken=\"2022-07-16
+      isfamily=\"0\" license=\"0\" dateupload=\"1686235080\" datetaken=\"2022-07-16
       05:42:54\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"B\u212En\"
       realname=\"Ben The Man\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52952908537_868980257e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52952908537_868980257e_t.jpg\"
@@ -601,7 +601,7 @@ interactions:
       Samantha, BieJee en Casper in deze Giant Bee Tree. </description>\n\t</photo>\n\t<photo
       id=\"52950805039\" owner=\"133480378@N04\" secret=\"64a802f14a\" server=\"65535\"
       farm=\"66\" title=\"Orchid White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1685909488\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1685909488\" datetaken=\"2023-04-16
       09:51:35\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52950805039_64a802f14a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52950805039_64a802f14a_t.jpg\"
@@ -613,7 +613,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52945257707\" owner=\"133480378@N04\"
       secret=\"1d7ff5fc3f\" server=\"65535\" farm=\"66\" title=\"Orchid White Purple
-      &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1685734484\" datetaken=\"2023-04-16 09:50:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52945257707_1d7ff5fc3f_s.jpg\"
@@ -626,7 +626,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52943351150\" owner=\"33823434@N06\"
       secret=\"83ca4d0324\" server=\"65535\" farm=\"66\" title=\"WHITE PEONIES (EN-PLEIN-AIR
-      SKETCH)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      SKETCH)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1685637125\" datetaken=\"2023-06-01 18:32:13\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"CrimeanArtist\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52943351150_83ca4d0324_s.jpg\"
@@ -644,7 +644,7 @@ interactions:
       nofollow&quot;&gt;www.deviantart.com/deviation/965163317&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52941081054\" owner=\"133480378@N04\" secret=\"6d109e18c6\" server=\"65535\"
       farm=\"66\" title=\"Brompton Stock.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1685561544\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1685561544\" datetaken=\"2023-04-16
       09:46:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52941081054_6d109e18c6_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52941081054_6d109e18c6_t.jpg\"
@@ -656,7 +656,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52937856112\" owner=\"133480378@N04\"
       secret=\"a766336750\" server=\"65535\" farm=\"66\" title=\"Foxglove.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1685478664\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1685478664\"
       datetaken=\"2023-04-16 09:45:56\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52937856112_a766336750_s.jpg\"
@@ -669,7 +669,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52936967889\" owner=\"197634383@N07\"
       secret=\"2138ba7f7e\" server=\"65535\" farm=\"66\" title=\"Battlefield of Beauty
-      - Botany Bay\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      - Botany Bay\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1685433604\" datetaken=\"2023-04-12 07:43:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Steve\uF8FFRich\" realname=\"Steve Rich\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52936967889_2138ba7f7e_s.jpg\"
@@ -700,7 +700,7 @@ interactions:
       and grateful for the opportunity to witness it firsthand.</description>\n\t</photo>\n\t<photo
       id=\"52930376167\" owner=\"47881347@N00\" secret=\"bd41edd108\" server=\"65535\"
       farm=\"66\" title=\"Garden of Fire\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1685246793\" datetaken=\"2023-05-24
+      license=\"0\" dateupload=\"1685246793\" datetaken=\"2023-05-24
       17:53:29\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"D&#039;ArcyG\"
       realname=\"D&#039;Arcy Guerin Gue\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52930376167_bd41edd108_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52930376167_bd41edd108_t.jpg\"
@@ -711,7 +711,7 @@ interactions:
       height_l=\"985\" width_l=\"1024\">\n\t\t<description>Mexican Bird of Paradise,
       Sedona, Arizona</description>\n\t</photo>\n\t<photo id=\"52927534187\" owner=\"133480378@N04\"
       secret=\"6e78582926\" server=\"65535\" farm=\"66\" title=\"Marguerite.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1685137417\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1685137417\"
       datetaken=\"2023-04-16 09:40:24\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52927534187_6e78582926_s.jpg\"
@@ -724,7 +724,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52926130228\" owner=\"133480378@N04\"
       secret=\"e7aafc7076\" server=\"65535\" farm=\"66\" title=\"Tree Gloxinia.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1685046238\" datetaken=\"2023-04-16 09:37:48\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52926130228_e7aafc7076_s.jpg\"
@@ -737,7 +737,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52922473664\" owner=\"144882911@N08\"
       secret=\"fed91e6b45\" server=\"65535\" farm=\"66\" title=\"Dahlia IMG_0572\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1684942199\" datetaken=\"2022-08-03 11:39:01\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paul_Paradis\" realname=\"Paul Paradis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52922473664_fed91e6b45_s.jpg\"
@@ -749,7 +749,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Dahlia</description>\n\t</photo>\n\t<photo
       id=\"52920555936\" owner=\"133480378@N04\" secret=\"193eda61a7\" server=\"65535\"
       farm=\"66\" title=\"Flamingo Flower.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1684874855\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1684874855\" datetaken=\"2023-04-16
       09:29:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52920555936_193eda61a7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52920555936_193eda61a7_t.jpg\"
@@ -761,7 +761,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52914365662\" owner=\"133480378@N04\"
       secret=\"a98fe4b0cc\" server=\"65535\" farm=\"66\" title=\"Big-leaf Hydrangia.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1684699312\" datetaken=\"2023-04-16 09:26:14\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52914365662_a98fe4b0cc_s.jpg\"
@@ -774,7 +774,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52913143802\" owner=\"149789252@N05\"
       secret=\"82578e46f1\" server=\"65535\" farm=\"66\" title=\"Send me dead flowers...\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"3\"
       dateupload=\"1684665369\" datetaken=\"2023-05-20 19:59:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paakkonen Photo\" realname=\"Gary Paakkonen\"
       media=\"photo\" media_status=\"ready\"
@@ -793,7 +793,7 @@ interactions:
       top grill and let the ice melt from them. This is the result.</description>\n\t</photo>\n\t<photo
       id=\"52911135721\" owner=\"99230652@N04\" secret=\"c810e2dcf1\" server=\"65535\"
       farm=\"66\" title=\"Neotinea ustulata\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1684569537\" datetaken=\"2023-05-19
+      license=\"0\" dateupload=\"1684569537\" datetaken=\"2023-05-19
       17:13:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ab.130722jvkz\"
       realname=\"Giuliano Da Zanche\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52911135721_c810e2dcf1_s.jpg\"
@@ -813,7 +813,7 @@ interactions:
       soils, usually short grass and alpine pastures.</description>\n\t</photo>\n\t<photo
       id=\"52909348916\" owner=\"140249051@N03\" secret=\"8d8283a451\" server=\"65535\"
       farm=\"66\" title=\"Two Elegant Brodiaea And A Fly\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1684505758\" datetaken=\"2023-04-06
+      isfamily=\"0\" license=\"0\" dateupload=\"1684505758\" datetaken=\"2023-04-06
       17:56:34\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"parmrussrap\"
       realname=\"Russ Parman\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52909348916_8d8283a451_s.jpg\"
@@ -826,7 +826,7 @@ interactions:
       height_l=\"678\" width_l=\"1024\">\n\t\t<description>San Louis National Wildlife
       Refuge.</description>\n\t</photo>\n\t<photo id=\"52907799364\" owner=\"133480378@N04\"
       secret=\"e568333ddb\" server=\"65535\" farm=\"66\" title=\"Tulips Red &amp;
-      Yellow 3 B.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Yellow 3 B.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1684437635\" datetaken=\"2023-04-16 11:31:08\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52907799364_e568333ddb_s.jpg\"
@@ -839,7 +839,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52903613285\" owner=\"133480378@N04\"
       secret=\"6b317849ff\" server=\"65535\" farm=\"66\" title=\"Daffodils.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1684268350\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1684268350\"
       datetaken=\"2023-04-16 11:29:45\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52903613285_6b317849ff_s.jpg\"
@@ -853,7 +853,7 @@ interactions:
       the day. \n\n</description>\n\t</photo>\n\t<photo id=\"52889840387\" owner=\"41111966@N04\"
       secret=\"74a648c0d9\" server=\"65535\" farm=\"66\" title=\"Haworthia cooperi
       var. pilifera (Baker) M.B.Bayer at home.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"1\" safety_level=\"0\" dateupload=\"1682948088\" datetaken=\"2023-05-01
+      license=\"1\" dateupload=\"1682948088\" datetaken=\"2023-05-01
       10:34:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ER&#039;s
       Eyes - Our planet is beautiful.\" realname=\"Elias Rovielo\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52889840387_74a648c0d9_s.jpg\"
@@ -878,7 +878,7 @@ interactions:
       Haworthia species, particularly Haworthia cymbiformis and Haworthia decipiens.</description>\n\t</photo>\n\t<photo
       id=\"52887790178\" owner=\"133480378@N04\" secret=\"23b33120c9\" server=\"65535\"
       farm=\"66\" title=\"Daffodil &amp; Purple Tulip.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1683751924\" datetaken=\"2023-04-16
+      isfamily=\"0\" license=\"0\" dateupload=\"1683751924\" datetaken=\"2023-04-16
       11:13:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52887790178_23b33120c9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52887790178_23b33120c9_t.jpg\"
@@ -890,7 +890,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52886507229\" owner=\"162684392@N05\"
       secret=\"e0eb3c9c3f\" server=\"65535\" farm=\"66\" title=\"Fringed\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1683726081\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1683726081\"
       datetaken=\"2021-06-20 12:32:38\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52886507229_e0eb3c9c3f_s.jpg\"
@@ -903,7 +903,7 @@ interactions:
       height_l=\"731\" width_l=\"1024\">\n\t\t<description>Sand pink (Dianthus Arenarius)\n\nMakro_017</description>\n\t</photo>\n\t<photo
       id=\"52884764134\" owner=\"133480378@N04\" secret=\"2559118082\" server=\"65535\"
       farm=\"66\" title=\"Tulip White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1683663540\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1683663540\" datetaken=\"2023-04-16
       11:11:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52884764134_2559118082_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52884764134_2559118082_t.jpg\"
@@ -915,7 +915,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52878540734\" owner=\"133480378@N04\"
       secret=\"c7bd7db708\" server=\"65535\" farm=\"66\" title=\"Tulip Pink &amp;
-      White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1683488226\" datetaken=\"2023-04-16 11:10:16\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52878540734_c7bd7db708_s.jpg\"
@@ -928,7 +928,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52874317006\" owner=\"162684392@N05\"
       secret=\"e3d2b9e0cd\" server=\"65535\" farm=\"66\" title=\"Meeting\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1683365925\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1683365925\"
       datetaken=\"2023-05-03 11:45:14\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52874317006_e3d2b9e0cd_s.jpg\"
@@ -941,7 +941,7 @@ interactions:
       height_l=\"791\" width_l=\"1024\">\n\t\t<description>Common fern (Polypodiopsida)\n\nMakroFlora_10</description>\n\t</photo>\n\t<photo
       id=\"52872503787\" owner=\"133480378@N04\" secret=\"faf27e6a5b\" server=\"65535\"
       farm=\"66\" title=\"Tulip Pink &amp; White.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1683318182\" datetaken=\"2023-04-16
+      isfamily=\"0\" license=\"0\" dateupload=\"1683318182\" datetaken=\"2023-04-16
       11:08:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52872503787_faf27e6a5b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52872503787_faf27e6a5b_t.jpg\"
@@ -954,7 +954,7 @@ interactions:
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52871291202\" owner=\"99230652@N04\"
       secret=\"c47bd50da1\" server=\"65535\" farm=\"66\" title=\"Ophrys oestrifera
       subsp montis-gargani\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1683280661\" datetaken=\"2023-04-25 13:09:00\"
+      dateupload=\"1683280661\" datetaken=\"2023-04-25 13:09:00\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ab.130722jvkz\"
       realname=\"Giuliano Da Zanche\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52871291202_c47bd50da1_s.jpg\"
@@ -982,7 +982,7 @@ interactions:
       threatened by habitat loss due to deforestation.\n\nSource: John and Gerry&#039;s
       \ - Orchids of Britain and Europe.</description>\n\t</photo>\n\t<photo id=\"52868538490\"
       owner=\"133480378@N04\" secret=\"f4cfc2d051\" server=\"65535\" farm=\"66\" title=\"Tulips
-      Yellow Pink.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Yellow Pink.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1683145342\" datetaken=\"2023-04-16 11:06:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52868538490_f4cfc2d051_s.jpg\"
@@ -995,7 +995,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52864867772\" owner=\"133480378@N04\"
       secret=\"aa6dc9c7f1\" server=\"65535\" farm=\"66\" title=\"Tulip Pink &amp;
-      White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1683057139\" datetaken=\"2023-04-16 11:05:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52864867772_aa6dc9c7f1_s.jpg\"
@@ -1009,7 +1009,7 @@ interactions:
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52859494486\" owner=\"197634383@N07\"
       secret=\"cce4f36d5c\" server=\"65535\" farm=\"66\" title=\"Peaceful Escape into
       Nature - Botany Bay\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1682887167\" datetaken=\"2023-04-12 07:46:15\"
+      dateupload=\"1682887167\" datetaken=\"2023-04-12 07:46:15\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Steve\uF8FFRich\"
       realname=\"Steve Rich\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52859494486_cce4f36d5c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52859494486_cce4f36d5c_t.jpg\"
@@ -1039,7 +1039,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;Botany Bay Collection&lt;/a&gt;\n\n</description>\n\t</photo>\n\t<photo
       id=\"52858708522\" owner=\"133480378@N04\" secret=\"e28f03f542\" server=\"65535\"
       farm=\"66\" title=\"Tulips Yellow Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1682882342\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1682882342\" datetaken=\"2023-04-16
       11:04:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52858708522_e28f03f542_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52858708522_e28f03f542_t.jpg\"
@@ -1051,7 +1051,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52855966466\" owner=\"108601026@N06\"
       secret=\"6717ddeacc\" server=\"65535\" farm=\"66\" title=\"macro e colore\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1682780868\" datetaken=\"2023-04-28 18:51:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"mauri11755\" realname=\"Maurizio Della Siega\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52855966466_6717ddeacc_s.jpg\"
@@ -1063,7 +1063,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52848991989\" owner=\"133480378@N04\" secret=\"25be2df4c3\" server=\"65535\"
       farm=\"66\" title=\"Tulip Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1682537833\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1682537833\" datetaken=\"2023-04-16
       10:56:14\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52848991989_25be2df4c3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52848991989_25be2df4c3_t.jpg\"
@@ -1075,7 +1075,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52848947134\" owner=\"144882911@N08\"
       secret=\"caf825e51f\" server=\"65535\" farm=\"66\" title=\"Pivoine IMG_1950\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1682536678\" datetaken=\"2021-06-17 15:37:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paul_Paradis\" realname=\"Paul Paradis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52848947134_caf825e51f_s.jpg\"
@@ -1087,7 +1087,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Pivoine</description>\n\t</photo>\n\t<photo
       id=\"52843681024\" owner=\"133480378@N04\" secret=\"712813cfe9\" server=\"65535\"
       farm=\"66\" title=\"Tulips Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1682367867\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1682367867\" datetaken=\"2023-04-16
       10:51:28\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52843681024_712813cfe9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52843681024_712813cfe9_t.jpg\"
@@ -1099,7 +1099,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52842493888\" owner=\"44288006@N03\"
       secret=\"0857409211\" server=\"65535\" farm=\"66\" title=\"A Macro on Monday\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1682334262\" datetaken=\"2023-04-22 12:52:44\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Frank Fullard\" realname=\"Frank Fullard\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52842493888_0857409211_s.jpg\"
@@ -1111,7 +1111,7 @@ interactions:
       height_l=\"1024\" width_l=\"769\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52839905282\" owner=\"133480378@N04\" secret=\"47579af1e8\" server=\"65535\"
       farm=\"66\" title=\"Orchids Pink &amp; Red.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1682282464\" datetaken=\"2023-04-16
+      isfamily=\"0\" license=\"0\" dateupload=\"1682282464\" datetaken=\"2023-04-16
       09:17:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52839905282_47579af1e8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52839905282_47579af1e8_t.jpg\"
@@ -1123,7 +1123,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52837314721\" owner=\"187587141@N04\"
       secret=\"175e28bb2d\" server=\"65535\" farm=\"66\" title=\"Walk Around Lake
-      Tuettensee\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Tuettensee\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1682187473\" datetaken=\"2023-01-07 14:55:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"P-B Foto\" realname=\"P-B Foto\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52837314721_175e28bb2d_s.jpg\"
@@ -1138,7 +1138,7 @@ interactions:
       group awards. These will be deleted. Thanks</description>\n\t</photo>\n\t<photo
       id=\"52834656014\" owner=\"162684392@N05\" secret=\"eca41efff8\" server=\"65535\"
       farm=\"66\" title=\"Blood tulip\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1682086096\" datetaken=\"2022-04-13
+      license=\"0\" dateupload=\"1682086096\" datetaken=\"2022-04-13
       12:54:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"NiBe60\"
       realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52834656014_eca41efff8_s.jpg\"
@@ -1151,7 +1151,7 @@ interactions:
       height_l=\"731\" width_l=\"1024\">\n\t\t<description>Tulip (tulipa), red\n\nMakro-Flora_37</description>\n\t</photo>\n\t<photo
       id=\"52834844425\" owner=\"140249051@N03\" secret=\"de4fae30f8\" server=\"65535\"
       farm=\"66\" title=\"California Black Mustard\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1682085463\" datetaken=\"2023-04-09
+      isfamily=\"0\" license=\"0\" dateupload=\"1682085463\" datetaken=\"2023-04-09
       13:40:00\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"parmrussrap\"
       realname=\"Russ Parman\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52834844425_de4fae30f8_s.jpg\"
@@ -1165,7 +1165,7 @@ interactions:
       Refuge</description>\n\t</photo>\n\t<photo id=\"52833844712\" owner=\"129194286@N08\"
       secret=\"7cf484d7b4\" server=\"65535\" farm=\"66\" title=\"&quot;Say What You
       See.&quot; on Explore! \u2B50 April 21, 2023\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1682084554\" datetaken=\"2023-04-20
+      isfamily=\"0\" license=\"0\" dateupload=\"1682084554\" datetaken=\"2023-04-20
       11:17:44\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Kev
       Walker \xA6 Away in early September\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52833844712_7cf484d7b4_s.jpg\"
@@ -1178,7 +1178,7 @@ interactions:
       through the woods in Cleckheaton, Yorkshire.\n\nHint!!!! I added the eye........</description>\n\t</photo>\n\t<photo
       id=\"52832336597\" owner=\"133480378@N04\" secret=\"22f8574813\" server=\"65535\"
       farm=\"66\" title=\"Tulip Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1682023325\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1682023325\" datetaken=\"2023-04-16
       10:47:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52832336597_22f8574813_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52832336597_22f8574813_t.jpg\"
@@ -1191,7 +1191,7 @@ interactions:
       the day. </description>\n\t</photo>\n\t<photo id=\"52828917567\" owner=\"22154713@N04\"
       secret=\"bd0b08deff\" server=\"65535\" farm=\"66\" title=\"TheTryst  (Explored
       20 April 2023, #146)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1681910429\" datetaken=\"2023-04-14 08:38:32\"
+      dateupload=\"1681910429\" datetaken=\"2023-04-14 08:38:32\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"clabudak\" realname=\"Cathy
       Labudak\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52828917567_bd0b08deff_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52828917567_bd0b08deff_t.jpg\"
@@ -1203,7 +1203,7 @@ interactions:
       3 photos using Photoshop, Flood 2, and Topaz Studio.\n\nHE&amp;gt;i\nNOTW</description>\n\t</photo>\n\t<photo
       id=\"52828403178\" owner=\"133480378@N04\" secret=\"74b2da4ecd\" server=\"65535\"
       farm=\"66\" title=\"Pansy Tree.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1681849499\" datetaken=\"2023-04-16
+      license=\"0\" dateupload=\"1681849499\" datetaken=\"2023-04-16
       10:57:12\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52828403178_74b2da4ecd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52828403178_74b2da4ecd_t.jpg\"
@@ -1215,7 +1215,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52826664066\" owner=\"149762673@N02\"
       secret=\"98c94bf5ec\" server=\"65535\" farm=\"66\" title=\"messengers of spring\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681807542\" datetaken=\"2023-04-17 15:47:32\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Sl\xE1vka K\" realname=\"Slavka K\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52826664066_98c94bf5ec_s.jpg\"
@@ -1227,7 +1227,7 @@ interactions:
       height_l=\"1024\" width_l=\"768\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52825635471\" owner=\"133480378@N04\" secret=\"4276d51863\" server=\"65535\"
       farm=\"66\" title=\"Great Blue Heron.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1681769485\" datetaken=\"2023-03-31
+      license=\"0\" dateupload=\"1681769485\" datetaken=\"2023-03-31
       07:45:23\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52825635471_4276d51863_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52825635471_4276d51863_t.jpg\"
@@ -1239,7 +1239,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52819836204\" owner=\"133480378@N04\"
       secret=\"c499983840\" server=\"65535\" farm=\"66\" title=\"Tulip Yellow &amp;
-      Red.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Red.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681586655\" datetaken=\"2023-04-14 10:07:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52819836204_c499983840_s.jpg\"
@@ -1252,7 +1252,7 @@ interactions:
       to all who take the time to view, comment and  favoring my images. Enjoy the
       day. \n</description>\n\t</photo>\n\t<photo id=\"52815329086\" owner=\"133480378@N04\"
       secret=\"78e71a3aa6\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow White
-      &amp; Brown.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      &amp; Brown.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681418444\" datetaken=\"2023-02-09 11:59:01\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52815329086_78e71a3aa6_s.jpg\"
@@ -1265,7 +1265,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52814679015\" owner=\"162684392@N05\"
       secret=\"c4126f3b9e\" server=\"65535\" farm=\"66\" title=\"Grapes of spring\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681387630\" datetaken=\"2022-03-28 14:16:06\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -1279,7 +1279,7 @@ interactions:
       height_l=\"791\" width_l=\"1024\">\n\t\t<description>Grape hyacinth (Muscari)\n\nMakro-Flora_36</description>\n\t</photo>\n\t<photo
       id=\"52813005044\" owner=\"133480378@N04\" secret=\"4c0846f7c4\" server=\"65535\"
       farm=\"66\" title=\"Orchid Purple Yellow Pink.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1681331190\" datetaken=\"2023-02-09
+      isfamily=\"0\" license=\"0\" dateupload=\"1681331190\" datetaken=\"2023-02-09
       11:58:42\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52813005044_4c0846f7c4_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52813005044_4c0846f7c4_t.jpg\"
@@ -1291,7 +1291,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52812765975\" owner=\"187587141@N04\"
       secret=\"a65cc0ab04\" server=\"65535\" farm=\"66\" title=\"Pier At Lake Tuettensee\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681319337\" datetaken=\"2023-01-07 14:51:33\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"P-B Foto\" realname=\"P-B Foto\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52812765975_a65cc0ab04_s.jpg\"
@@ -1306,7 +1306,7 @@ interactions:
       group awards. These will be deleted. Thanks</description>\n\t</photo>\n\t<photo
       id=\"52810838934\" owner=\"150922460@N03\" secret=\"91b2f422d3\" server=\"65535\"
       farm=\"66\" title=\"beauty\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1681254386\" datetaken=\"2023-04-07 17:59:13\"
+      dateupload=\"1681254386\" datetaken=\"2023-04-07 17:59:13\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Kens images\"
       realname=\"Kenneth Dagenais\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52810838934_91b2f422d3_s.jpg\"
@@ -1319,7 +1319,7 @@ interactions:
       height_l=\"1024\" width_l=\"683\">\n\t\t<description>A delight...\n</description>\n\t</photo>\n\t<photo
       id=\"52810405039\" owner=\"99230652@N04\" secret=\"7d5b404834\" server=\"65535\"
       farm=\"66\" title=\"Emerus major\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1681240544\" datetaken=\"2023-04-11
+      license=\"0\" dateupload=\"1681240544\" datetaken=\"2023-04-11
       11:02:31\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ab.130722jvkz\"
       realname=\"Giuliano Da Zanche\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52810405039_7d5b404834_s.jpg\"
@@ -1341,7 +1341,7 @@ interactions:
       April through July. </description>\n\t</photo>\n\t<photo id=\"52810310744\"
       owner=\"130738538@N08\" secret=\"a9e9a07b86\" server=\"65535\" farm=\"66\" title=\"Fiore
       di campo - Aglio selvatico - Triquetro\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1681237751\" datetaken=\"2023-04-10
+      license=\"0\" dateupload=\"1681237751\" datetaken=\"2023-04-10
       14:40:55\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Andrea
       D&#039;Angiolo\" realname=\"Andrea D&#039;Angiolo\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52810310744_a9e9a07b86_s.jpg\"
@@ -1353,7 +1353,7 @@ interactions:
       height_l=\"1024\" width_l=\"818\">\n\t\t<description>Fiore di campo - Aglio
       selvatico - Triquetro</description>\n\t</photo>\n\t<photo id=\"52807550497\"
       owner=\"133480378@N04\" secret=\"3b47683880\" server=\"65535\" farm=\"66\" title=\"Orchid
-      Yellow White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Yellow White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1681166485\" datetaken=\"2023-02-09 11:56:20\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52807550497_3b47683880_s.jpg\"
@@ -1366,7 +1366,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52804895179\" owner=\"44288006@N03\"
       secret=\"4dac0abeb8\" server=\"65535\" farm=\"66\" title=\"Happy Easter\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1681061665\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1681061665\"
       datetaken=\"2023-04-08 13:01:23\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Frank Fullard\" realname=\"Frank Fullard\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52804895179_4dac0abeb8_s.jpg\"
@@ -1378,7 +1378,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52802499873\" owner=\"148376495@N04\" secret=\"f95acf9c36\" server=\"65535\"
       farm=\"66\" title=\"Snake-Head\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1680968165\" datetaken=\"2023-04-08
+      license=\"0\" dateupload=\"1680968165\" datetaken=\"2023-04-08
       15:19:40\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"FireDevilPhoto\"
       realname=\"Chris Johnson\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52802499873_f95acf9c36_s.jpg\"
@@ -1391,7 +1391,7 @@ interactions:
       height_l=\"768\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52800787145\" owner=\"133480378@N04\" secret=\"73b3470e7b\" server=\"65535\"
       farm=\"66\" title=\"Orchid Yellow Brown White &amp; Purple.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1680894417\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1680894417\"
       datetaken=\"2023-02-09 11:55:20\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52800787145_73b3470e7b_s.jpg\"
@@ -1404,7 +1404,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52798760305\" owner=\"133480378@N04\"
       secret=\"4a7b017f9b\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow Brown
-      &amp; Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      &amp; Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1680812334\" datetaken=\"2023-02-09 11:54:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52798760305_4a7b017f9b_s.jpg\"
@@ -1417,7 +1417,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52796285414\" owner=\"133480378@N04\"
       secret=\"71bea5a759\" server=\"65535\" farm=\"66\" title=\"Orchid Red.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1680726362\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1680726362\"
       datetaken=\"2023-02-09 11:54:46\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52796285414_71bea5a759_s.jpg\"
@@ -1430,7 +1430,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52795912328\" owner=\"144882911@N08\"
       secret=\"b6a3680731\" server=\"65535\" farm=\"66\" title=\"Crocus IMG_1984\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1680709859\" datetaken=\"2022-05-01 11:14:07\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paul_Paradis\" realname=\"Paul Paradis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52795912328_b6a3680731_s.jpg\"
@@ -1442,7 +1442,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Crocus\n</description>\n\t</photo>\n\t<photo
       id=\"52795384104\" owner=\"196687251@N03\" secret=\"6c15b82db0\" server=\"65535\"
       farm=\"66\" title=\"The Jungle Heligan\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1680700690\" datetaken=\"2023-02-01
+      license=\"0\" dateupload=\"1680700690\" datetaken=\"2023-02-01
       13:00:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"andydurnin\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52795384104_6c15b82db0_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52795384104_6c15b82db0_t.jpg\"
@@ -1454,7 +1454,7 @@ interactions:
       Gardens of Heligan, Cornwall</description>\n\t</photo>\n\t<photo id=\"52793916184\"
       owner=\"133480378@N04\" secret=\"98f5d3a557\" server=\"65535\" farm=\"66\" title=\"Tulip
       Red &amp; White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1680639777\" datetaken=\"2023-04-03 15:23:14\"
+      dateupload=\"1680639777\" datetaken=\"2023-04-03 15:23:14\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob
       Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52793916184_98f5d3a557_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52793916184_98f5d3a557_t.jpg\"
@@ -1466,7 +1466,7 @@ interactions:
       of the year!\n\nMany thanks to all who take the time to view, comment and  favoring
       my images. Enjoy the day. </description>\n\t</photo>\n\t<photo id=\"52793229910\"
       owner=\"162684392@N05\" secret=\"87e7844e92\" server=\"65535\" farm=\"66\" title=\"Farn
-      residents\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      residents\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1680617038\" datetaken=\"2022-10-27 13:36:57\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -1480,7 +1480,7 @@ interactions:
       height_l=\"819\" width_l=\"1024\">\n\t\t<description>Yellow stagshorn (Calocera
       Viscosa)\n\nMakro-Funga_21</description>\n\t</photo>\n\t<photo id=\"52792194579\"
       owner=\"151941966@N06\" secret=\"bb4bd166df\" server=\"65535\" farm=\"66\" title=\"&quot;Adirondacks
-      [V1]&quot;\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      [V1]&quot;\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1680579931\" datetaken=\"2023-01-01 00:00:00\" datetakengranularity=\"8\"
       datetakenunknown=\"0\" ownername=\"S. Taillifer [John T Allen]\" realname=\"A
       Virtual Memory / Permian Designs\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52792194579_bb4bd166df_s.jpg\"
@@ -1500,7 +1500,7 @@ interactions:
       the assistance of any form of AI technology in any fashion whatsoever. </description>\n\t</photo>\n\t<photo
       id=\"52789951495\" owner=\"197634383@N07\" secret=\"4515199011\" server=\"65535\"
       farm=\"66\" title=\"Botany Bay South Carolina - Crystal Clear\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1680503858\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1680503858\"
       datetaken=\"2023-03-29 07:50:11\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Steve\uF8FFRich\" realname=\"Steve Rich\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52789951495_4515199011_s.jpg\"
@@ -1522,7 +1522,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;Botany Bay Collection&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo
       id=\"52912266347\" owner=\"67962424@N00\" secret=\"6e7a08d5c1\" server=\"65535\"
       farm=\"66\" title=\"Backlit\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1684629277\" datetaken=\"2021-10-14 09:08:12\"
+      dateupload=\"1684629277\" datetaken=\"2021-10-14 09:08:12\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"shacker\" realname=\"Scot
       Hacker\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52912266347_6e7a08d5c1_s.jpg\"
@@ -1650,12 +1650,12 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photos.search&page=2&per_page=100&sort=interestingness-desc&tags=botany
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photos.search&page=2&per_page=100&sort=interestingness-desc&tags=botany
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"2\" pages=\"3936\" perpage=\"100\" total=\"393599\">\n\t<photo id=\"52775133298\"
       owner=\"162684392@N05\" secret=\"5674632fe6\" server=\"65535\" farm=\"66\" title=\"Easter
-      bouquet\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      bouquet\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1679924503\" datetaken=\"2020-04-19 12:08:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -1669,7 +1669,7 @@ interactions:
       height_l=\"640\" width_l=\"1024\">\n\t\t<description>Tulips (tulipa), red\n\nTerrassen&amp;amp;Garten_51</description>\n\t</photo>\n\t<photo
       id=\"52773782881\" owner=\"54387411@N05\" secret=\"5e378fc85f\" server=\"65535\"
       farm=\"66\" title=\"Fountains at Botanic Gardens 1 (Explored March 28, 2023)\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1679890444\" datetaken=\"2022-04-29 05:30:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Autophocus\" realname=\"Autophocus\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52773782881_5e378fc85f_s.jpg\"
@@ -1682,7 +1682,7 @@ interactions:
       height_l=\"670\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52772419332\" owner=\"133480378@N04\" secret=\"3bbc9f71ef\" server=\"65535\"
       farm=\"66\" title=\"Orchid Red &amp; Orange.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1679860760\" datetaken=\"2023-02-09
+      isfamily=\"0\" license=\"0\" dateupload=\"1679860760\" datetaken=\"2023-02-09
       11:53:20\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52772419332_3bbc9f71ef_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52772419332_3bbc9f71ef_t.jpg\"
@@ -1694,7 +1694,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52770831034\" owner=\"133480378@N04\"
       secret=\"841fef3584\" server=\"65535\" farm=\"66\" title=\"Orchid White &amp;
-      Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1679772533\" datetaken=\"2023-02-09 11:52:52\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52770831034_841fef3584_s.jpg\"
@@ -1707,7 +1707,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52767155451\" owner=\"112623317@N03\"
       secret=\"c0265e6736\" server=\"65535\" farm=\"66\" title=\"Tiny Tradescantia\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1679620732\" datetaken=\"2020-12-24 10:34:58\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"WinRuWorld\" realname=\"Ruth\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52767155451_c0265e6736_s.jpg\"
@@ -1728,7 +1728,7 @@ interactions:
       greenish sepals and six small yellow stamens. \n\n\n</description>\n\t</photo>\n\t<photo
       id=\"52764226462\" owner=\"133480378@N04\" secret=\"5a9586ec86\" server=\"65535\"
       farm=\"66\" title=\"Orchid Yellow White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1679517400\" datetaken=\"2023-02-09
+      license=\"0\" dateupload=\"1679517400\" datetaken=\"2023-02-09
       11:52:20\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52764226462_5a9586ec86_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52764226462_5a9586ec86_t.jpg\"
@@ -1740,7 +1740,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52763063125\" owner=\"133480378@N04\"
       secret=\"54f58afd68\" server=\"65535\" farm=\"66\" title=\"Tiger Lily.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1679429698\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1679429698\"
       datetaken=\"2023-02-09 11:49:29\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52763063125_54f58afd68_s.jpg\"
@@ -1753,7 +1753,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52756024793\" owner=\"162684392@N05\"
       secret=\"4e2ebf8720\" server=\"65535\" farm=\"66\" title=\"Easter greetings\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1679165613\" datetaken=\"2021-03-25 10:13:03\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -1768,7 +1768,7 @@ interactions:
       yellow\n\nTerassen&amp;amp;Garten-1_18</description>\n\t</photo>\n\t<photo id=\"52754937177\"
       owner=\"182987382@N07\" secret=\"247c0c4a00\" server=\"65535\" farm=\"66\" title=\"Gerbera,
       intensidad natural / Gerbera, natural intensity (Explore 19-03-2023)\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1679164273\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1679164273\"
       datetaken=\"2021-05-17 12:59:37\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Claudio Andr\xE9s Garc\xEDa\" realname=\"Claudio Garcia\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52754937177_247c0c4a00_s.jpg\"
@@ -1782,7 +1782,7 @@ interactions:
       17, 2021 with a Nikon D3500 camera</description>\n\t</photo>\n\t<photo id=\"52749718386\"
       owner=\"133480378@N04\" secret=\"f73ef77403\" server=\"65535\" farm=\"66\" title=\"Spurges
       scarlet Plume.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1678910133\" datetaken=\"2023-02-09 11:35:42\"
+      dateupload=\"1678910133\" datetaken=\"2023-02-09 11:35:42\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob
       Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52749718386_f73ef77403_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52749718386_f73ef77403_t.jpg\"
@@ -1794,7 +1794,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52747914139\" owner=\"133480378@N04\"
       secret=\"86fb62b7f9\" server=\"65535\" farm=\"66\" title=\"Amaryllis Striped
-      Barbados.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Barbados.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1678822922\" datetaken=\"2023-02-09 11:34:44\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52747914139_86fb62b7f9_s.jpg\"
@@ -1807,7 +1807,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52743681708\" owner=\"133480378@N04\"
       secret=\"0fd6a0be45\" server=\"65535\" farm=\"66\" title=\"Amaryllis.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1678653018\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1678653018\"
       datetaken=\"2023-02-09 11:32:25\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52743681708_0fd6a0be45_s.jpg\"
@@ -1820,7 +1820,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52739353175\" owner=\"133480378@N04\"
       secret=\"008530cf6c\" server=\"65535\" farm=\"66\" title=\"Bird-of-Paradise
-      Flower.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Flower.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1678483303\" datetaken=\"2023-02-09 11:31:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52739353175_008530cf6c_s.jpg\"
@@ -1833,7 +1833,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52734440749\" owner=\"162684392@N05\"
       secret=\"f78a473b66\" server=\"65535\" farm=\"66\" title=\"Early bloomer\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1678289856\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1678289856\"
       datetaken=\"2020-04-01 11:39:59\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52734440749_f78a473b66_s.jpg\"
@@ -1846,7 +1846,7 @@ interactions:
       height_l=\"791\" width_l=\"1024\">\n\t\t<description>Cowslip (Primula Veris),
       violet\n\nTerrassen&amp;amp;Garten_35</description>\n\t</photo>\n\t<photo id=\"52732325442\"
       owner=\"18023272@N00\" secret=\"b9962d497f\" server=\"65535\" farm=\"66\" title=\"Hydrangeas\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1678227434\" datetaken=\"2022-04-07 13:36:36\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"fesign\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52732325442_b9962d497f_s.jpg\"
@@ -1860,7 +1860,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt; H O M E P A G E &lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52731431557\" owner=\"144882911@N08\" secret=\"2848040492\" server=\"65535\"
       farm=\"66\" title=\"Tulipe IMG_1686\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1678198155\" datetaken=\"2015-05-18
+      license=\"0\" dateupload=\"1678198155\" datetaken=\"2015-05-18
       16:38:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Paul_Paradis\"
       realname=\"Paul Paradis\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52731431557_2848040492_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52731431557_2848040492_t.jpg\"
@@ -1871,7 +1871,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Tulipe</description>\n\t</photo>\n\t<photo
       id=\"52727939675\" owner=\"18023272@N00\" secret=\"67ebb55756\" server=\"65535\"
       farm=\"66\" title=\"Spider Lily (Crinum hybrid)\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1678032376\" datetaken=\"2022-04-07
+      isfamily=\"0\" license=\"0\" dateupload=\"1678032376\" datetaken=\"2022-04-07
       13:35:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"fesign\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52727939675_67ebb55756_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52727939675_67ebb55756_t.jpg\"
@@ -1884,7 +1884,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt; H O M E P A G E &lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52723379962\" owner=\"18023272@N00\" secret=\"f9a651b14d\" server=\"65535\"
       farm=\"66\" title=\"The Purple Hibiscus\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1677874744\" datetaken=\"2022-04-07
+      license=\"0\" dateupload=\"1677874744\" datetaken=\"2022-04-07
       13:06:14\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"fesign\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52723379962_f9a651b14d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52723379962_f9a651b14d_t.jpg\"
@@ -1897,7 +1897,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt; H O M E P A G E &lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52722866848\" owner=\"18023272@N00\" secret=\"a156d9e03f\" server=\"65535\"
       farm=\"66\" title=\"\u02BB\u014Dhi\u02BBa lehua (Metrosideros polymorpha)\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1677807237\" datetaken=\"2022-04-07 13:04:01\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"fesign\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52722866848_a156d9e03f_s.jpg\"
@@ -1921,7 +1921,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt; H O M E P A G E &lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52719861027\" owner=\"18023272@N00\" secret=\"1e22ea47c4\" server=\"65535\"
       farm=\"66\" title=\"Hyacinths of Spring\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1677719304\" datetaken=\"2022-04-07
+      license=\"0\" dateupload=\"1677719304\" datetaken=\"2022-04-07
       13:37:35\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"fesign\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52719861027_1e22ea47c4_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52719861027_1e22ea47c4_t.jpg\"
@@ -1934,7 +1934,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt; H O M E P A G E &lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52720423210\" owner=\"133480378@N04\" secret=\"39007ac89b\" server=\"65535\"
       farm=\"66\" title=\"Trumpet Lily B.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1677703439\" datetaken=\"2022-12-14
+      license=\"0\" dateupload=\"1677703439\" datetaken=\"2022-12-14
       16:38:12\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52720423210_39007ac89b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52720423210_39007ac89b_t.jpg\"
@@ -1946,7 +1946,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52713141354\" owner=\"149762673@N02\"
       secret=\"b6c319dca1\" server=\"65535\" farm=\"66\" title=\"snowdrops\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1677436304\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1677436304\"
       datetaken=\"2023-02-26 17:54:25\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Sl\xE1vka K\" realname=\"Slavka K\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52713141354_b6c319dca1_s.jpg\"
@@ -1958,7 +1958,7 @@ interactions:
       height_l=\"1024\" width_l=\"917\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52707599389\" owner=\"112623317@N03\" secret=\"e2abe6939e\" server=\"65535\"
       farm=\"66\" title=\"[Explored] All things bright and beautiful\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1677201988\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1677201988\"
       datetaken=\"2022-11-27 13:58:27\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"WinRuWorld\" realname=\"Ruth\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52707599389_e2abe6939e_s.jpg\"
@@ -1979,7 +1979,7 @@ interactions:
       or to soothe stings. \n\n</description>\n\t</photo>\n\t<photo id=\"52702497042\"
       owner=\"130738538@N08\" secret=\"bdc5b97108\" server=\"65535\" farm=\"66\" title=\"Cinque
       fiori di campo - Croco nel verde\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1677008746\" datetaken=\"2023-02-21
+      license=\"0\" dateupload=\"1677008746\" datetaken=\"2023-02-21
       16:05:35\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Andrea
       D&#039;Angiolo\" realname=\"Andrea D&#039;Angiolo\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52702497042_bdc5b97108_s.jpg\"
@@ -1991,7 +1991,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Cinque fiori di campo -
       Croco nel verde</description>\n\t</photo>\n\t<photo id=\"52701315489\" owner=\"133480378@N04\"
       secret=\"12178a2560\" server=\"65535\" farm=\"66\" title=\"Orchid Brown White
-      &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676927261\" datetaken=\"2022-12-14 16:26:37\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52701315489_12178a2560_s.jpg\"
@@ -2004,7 +2004,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52695364788\" owner=\"133480378@N04\"
       secret=\"47fa407e3c\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow &amp;
-      Red.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Red.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676666724\" datetaken=\"2022-12-14 16:25:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52695364788_47fa407e3c_s.jpg\"
@@ -2017,7 +2017,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52692533224\" owner=\"44288006@N03\"
       secret=\"bef744d556\" server=\"65535\" farm=\"66\" title=\"The Magic of Moss\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676550779\" datetaken=\"2023-02-15 14:26:11\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Frank Fullard\" realname=\"Frank Fullard\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52692533224_bef744d556_s.jpg\"
@@ -2029,7 +2029,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52690752952\" owner=\"133480378@N04\" secret=\"09b2d13eb8\" server=\"65535\"
       farm=\"66\" title=\"Cattleya Orchid.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1676496479\" datetaken=\"2022-12-14
+      license=\"0\" dateupload=\"1676496479\" datetaken=\"2022-12-14
       16:25:01\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52690752952_09b2d13eb8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52690752952_09b2d13eb8_t.jpg\"
@@ -2041,7 +2041,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52690105022\" owner=\"144882911@N08\"
       secret=\"a3aa3ce255\" server=\"65535\" farm=\"66\" title=\"Lys IMG_1964\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1676473783\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1676473783\"
       datetaken=\"2021-08-02 11:59:45\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Paul_Paradis\" realname=\"Paul Paradis\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52690105022_a3aa3ce255_s.jpg\"
@@ -2053,7 +2053,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Lys</description>\n\t</photo>\n\t<photo
       id=\"52685442465\" owner=\"133480378@N04\" secret=\"059bd8e677\" server=\"65535\"
       farm=\"66\" title=\"Orchid Brown &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1676235010\" datetaken=\"2022-12-14
+      isfamily=\"0\" license=\"0\" dateupload=\"1676235010\" datetaken=\"2022-12-14
       16:24:06\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52685442465_059bd8e677_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52685442465_059bd8e677_t.jpg\"
@@ -2065,7 +2065,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52684451162\" owner=\"130738538@N08\"
       secret=\"97567d9306\" server=\"65535\" farm=\"66\" title=\"Due fiori di croco
-      nel campo\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      nel campo\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676233623\" datetaken=\"2023-02-12 17:44:22\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Andrea D&#039;Angiolo\" realname=\"Andrea
       D&#039;Angiolo\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52684451162_97567d9306_s.jpg\"
@@ -2077,7 +2077,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Due fiori di croco nel
       campo</description>\n\t</photo>\n\t<photo id=\"52683209410\" owner=\"133480378@N04\"
       secret=\"feb54322b8\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow &amp;
-      Green.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Green.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676149649\" datetaken=\"2022-12-14 16:23:08\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52683209410_feb54322b8_s.jpg\"
@@ -2090,7 +2090,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52681580203\" owner=\"133480378@N04\"
       secret=\"a76c09ee0f\" server=\"65535\" farm=\"66\" title=\"Orchid Purple Yellow.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1676066810\" datetaken=\"2022-12-14 16:22:44\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52681580203_a76c09ee0f_s.jpg\"
@@ -2103,7 +2103,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52679577360\" owner=\"133480378@N04\"
       secret=\"f2c562bfa0\" server=\"65535\" farm=\"66\" title=\"Orchid Brown &amp;
-      Green.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Green.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1675975873\" datetaken=\"2022-12-14 16:21:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52679577360_f2c562bfa0_s.jpg\"
@@ -2116,7 +2116,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52676029303\" owner=\"133480378@N04\"
       secret=\"dfd60b968a\" server=\"65535\" farm=\"66\" title=\"Orchid White &amp;
-      Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1675808135\" datetaken=\"2022-12-14 16:21:07\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52676029303_dfd60b968a_s.jpg\"
@@ -2129,7 +2129,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52671350955\" owner=\"96160086@N04\"
       secret=\"64be595a4f\" server=\"65535\" farm=\"66\" title=\"Botanique \xE9clectique\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1675659093\" datetaken=\"2023-02-05 13:55:35\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"*arantza\" realname=\"Ar\xE1nzazu\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52671350955_64be595a4f_s.jpg\"
@@ -2143,7 +2143,7 @@ interactions:
       day and the eyes of children.&amp;quot;\n- Dante Alighieri\n\n\n(Explored)</description>\n\t</photo>\n\t<photo
       id=\"52669060831\" owner=\"133480378@N04\" secret=\"02d4f71b72\" server=\"65535\"
       farm=\"66\" title=\"orchid Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1675549834\" datetaken=\"2022-12-14
+      license=\"0\" dateupload=\"1675549834\" datetaken=\"2022-12-14
       16:17:52\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52669060831_02d4f71b72_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52669060831_02d4f71b72_t.jpg\"
@@ -2155,7 +2155,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52667173805\" owner=\"133480378@N04\"
       secret=\"b0c75ca4aa\" server=\"65535\" farm=\"66\" title=\"Common Winterberry.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1675440928\" datetaken=\"2022-12-14 16:17:19\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52667173805_b0c75ca4aa_s.jpg\"
@@ -2168,7 +2168,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52666727928\" owner=\"151941966@N06\"
       secret=\"cd4e882527\" server=\"65535\" farm=\"66\" title=\"[Pg. 09 + 10]\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1675416701\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1675416701\"
       datetaken=\"2023-01-01 00:00:00\" datetakengranularity=\"8\" datetakenunknown=\"0\"
       ownername=\"S. Taillifer [John T Allen]\" realname=\"A Virtual Memory / Permian
       Designs\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52666727928_cd4e882527_s.jpg\"
@@ -2191,7 +2191,7 @@ interactions:
       any form of AI technology in any fashion whatsoever. </description>\n\t</photo>\n\t<photo
       id=\"52662821029\" owner=\"148376495@N04\" secret=\"4e5599a292\" server=\"65535\"
       farm=\"66\" title=\"Flower Power\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1675254991\" datetaken=\"2020-04-13
+      license=\"0\" dateupload=\"1675254991\" datetaken=\"2020-04-13
       14:53:47\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"FireDevilPhoto\"
       realname=\"Chris Johnson\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52662821029_4e5599a292_s.jpg\"
@@ -2204,7 +2204,7 @@ interactions:
       height_l=\"1024\" width_l=\"683\">\n\t\t<description>Tulip</description>\n\t</photo>\n\t<photo
       id=\"52661707199\" owner=\"133480378@N04\" secret=\"cea02fbecc\" server=\"65535\"
       farm=\"66\" title=\"Orchid Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1675200531\" datetaken=\"2022-12-14
+      license=\"0\" dateupload=\"1675200531\" datetaken=\"2022-12-14
       15:38:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52661707199_cea02fbecc_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52661707199_cea02fbecc_t.jpg\"
@@ -2216,7 +2216,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52659848430\" owner=\"133480378@N04\"
       secret=\"c794e094db\" server=\"65535\" farm=\"66\" title=\"Orchid Display.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1675116248\" datetaken=\"2022-12-14 15:31:57\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52659848430_c794e094db_s.jpg\"
@@ -2229,7 +2229,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52656450253\" owner=\"188657544@N02\"
       secret=\"8b6b59e463\" server=\"65535\" farm=\"66\" title=\"Wasserlilie\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1674996394\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1674996394\"
       datetaken=\"2022-05-22 13:43:52\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"thiesandreas\" realname=\"Andreas Thies\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52656450253_8b6b59e463_s.jpg\"
@@ -2242,7 +2242,7 @@ interactions:
       height_l=\"771\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52653072299\" owner=\"133480378@N04\" secret=\"240f2188ae\" server=\"65535\"
       farm=\"66\" title=\"Egyptian Starcluster.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1674851976\" datetaken=\"2022-10-15
+      license=\"0\" dateupload=\"1674851976\" datetaken=\"2022-10-15
       11:29:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52653072299_240f2188ae_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52653072299_240f2188ae_t.jpg\"
@@ -2254,7 +2254,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52652738825\" owner=\"40510080@N04\"
       secret=\"df2f106fd1\" server=\"65535\" farm=\"66\" title=\"House Plant, Window
-      Light\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Light\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674835258\" datetaken=\"2023-01-27 10:10:38\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Chancy Rendezvous\" realname=\"Dave Lawler\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52652738825_df2f106fd1_s.jpg\"
@@ -2267,7 +2267,7 @@ interactions:
       due to crappy weather and seasonal ennui, but will catch up a bit tonight. I
       hope all are having a fine week.</description>\n\t</photo>\n\t<photo id=\"52651241765\"
       owner=\"133480378@N04\" secret=\"4ea8c56857\" server=\"65535\" farm=\"66\" title=\"Egyptian
-      Starcluster.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Starcluster.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674766943\" datetaken=\"2022-10-15 11:28:38\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52651241765_4ea8c56857_s.jpg\"
@@ -2280,7 +2280,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52648790220\" owner=\"162684392@N05\"
       secret=\"a9c1187a77\" server=\"65535\" farm=\"66\" title=\"At the wood reef\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674658842\" datetaken=\"2021-10-08 14:03:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -2294,7 +2294,7 @@ interactions:
       height_l=\"731\" width_l=\"1024\">\n\t\t<description>Salmon coral (Ramaria Formosa)\n\nMakro_041</description>\n\t</photo>\n\t<photo
       id=\"52646554917\" owner=\"133480378@N04\" secret=\"70b50c9d66\" server=\"65535\"
       farm=\"66\" title=\"Lipstick Plant.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1674594637\" datetaken=\"2022-10-15
+      license=\"0\" dateupload=\"1674594637\" datetaken=\"2022-10-15
       11:26:06\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52646554917_70b50c9d66_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52646554917_70b50c9d66_t.jpg\"
@@ -2306,7 +2306,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52645002846\" owner=\"133480378@N04\"
       secret=\"6d475d1c5b\" server=\"65535\" farm=\"66\" title=\"Chrysanthemum Hardy
-      Garden Mums.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Garden Mums.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674507247\" datetaken=\"2022-10-15 11:24:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52645002846_6d475d1c5b_s.jpg\"
@@ -2319,7 +2319,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52643214090\" owner=\"133480378@N04\"
       secret=\"3104a0fdf7\" server=\"65535\" farm=\"66\" title=\"Chrysanthemum Purple
-      B.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      B.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674420984\" datetaken=\"2022-10-15 11:24:02\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52643214090_3104a0fdf7_s.jpg\"
@@ -2332,7 +2332,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52637724973\" owner=\"133480378@N04\"
       secret=\"46bd1b171c\" server=\"65535\" farm=\"66\" title=\"Chrysanthemum Cascade
-      Anemone.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Anemone.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674162367\" datetaken=\"2022-10-15 11:22:55\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52637724973_46bd1b171c_s.jpg\"
@@ -2345,7 +2345,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52635708644\" owner=\"133480378@N04\"
       secret=\"2a03f9b321\" server=\"65535\" farm=\"66\" title=\"Orchid Pink &amp;
-      Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1674075385\" datetaken=\"2022-10-15 11:19:47\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52635708644_2a03f9b321_s.jpg\"
@@ -2358,7 +2358,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52634022363\" owner=\"133480378@N04\"
       secret=\"5088a8028e\" server=\"65535\" farm=\"66\" title=\"Orchid Orange Red.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1673989979\" datetaken=\"2022-10-15 11:19:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52634022363_5088a8028e_s.jpg\"
@@ -2370,7 +2370,7 @@ interactions:
       height_l=\"774\" width_l=\"1024\">\n\t\t<description>Longwood Gardens Pa.</description>\n\t</photo>\n\t<photo
       id=\"52632932457\" owner=\"14865557@N04\" secret=\"d0963c41e8\" server=\"65535\"
       farm=\"66\" title=\"Fern_2911-20-mono copy\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1673987223\" datetaken=\"2023-01-17
+      license=\"0\" dateupload=\"1673987223\" datetaken=\"2023-01-17
       20:22:52\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"Peter
       Warne-Epping Forest\" realname=\"Peter Warne\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52632932457_d0963c41e8_s.jpg\"
@@ -2383,7 +2383,7 @@ interactions:
       height_l=\"915\" width_l=\"1024\">\n\t\t<description>Today&#039;s frost on a
       garden fern - obviously a hardy fern.</description>\n\t</photo>\n\t<photo id=\"52632932491\"
       owner=\"144882911@N08\" secret=\"20261e1713\" server=\"65535\" farm=\"66\" title=\"Crocus
-      IMG_1981\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      IMG_1981\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1673970710\" datetaken=\"2022-05-01 11:11:05\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paul_Paradis\" realname=\"Paul Paradis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52632932491_20261e1713_s.jpg\"
@@ -2395,7 +2395,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Crocus</description>\n\t</photo>\n\t<photo
       id=\"52627601103\" owner=\"133480378@N04\" secret=\"defe6b0199\" server=\"65535\"
       farm=\"66\" title=\"Orchids White &amp; Yellow.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1673730999\" datetaken=\"2022-10-15
+      isfamily=\"0\" license=\"0\" dateupload=\"1673730999\" datetaken=\"2022-10-15
       11:19:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52627601103_defe6b0199_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52627601103_defe6b0199_t.jpg\"
@@ -2407,7 +2407,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52620426497\" owner=\"162684392@N05\"
       secret=\"fa5865117a\" server=\"65535\" farm=\"66\" title=\"Early bloomer\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1673447601\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1673447601\"
       datetaken=\"2022-03-21 14:50:49\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52620426497_fa5865117a_s.jpg\"
@@ -2421,7 +2421,7 @@ interactions:
       yellow\n\nMakro-Flora_25</description>\n\t</photo>\n\t<photo id=\"52611682585\"
       owner=\"133480378@N04\" secret=\"eaa9e8e58c\" server=\"65535\" farm=\"66\" title=\"Orchid
       Yellow Pink Red B.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1673039402\" datetaken=\"2022-10-15 11:16:49\"
+      dateupload=\"1673039402\" datetaken=\"2022-10-15 11:16:49\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob
       Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52611682585_eaa9e8e58c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52611682585_eaa9e8e58c_t.jpg\"
@@ -2433,7 +2433,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52609776288\" owner=\"133480378@N04\"
       secret=\"9d72ccbfb1\" server=\"65535\" farm=\"66\" title=\"Orchid Orange Yellow.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1672954535\" datetaken=\"2022-10-15 11:16:32\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52609776288_9d72ccbfb1_s.jpg\"
@@ -2446,7 +2446,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52605656515\" owner=\"133480378@N04\"
       secret=\"67b593216a\" server=\"65535\" farm=\"66\" title=\"Orchid White Purple.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1672778951\" datetaken=\"2022-10-15 11:15:59\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52605656515_67b593216a_s.jpg\"
@@ -2459,7 +2459,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52603360019\" owner=\"133480378@N04\"
       secret=\"de36648504\" server=\"65535\" farm=\"66\" title=\"Orchid Pink.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1672694762\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1672694762\"
       datetaken=\"2022-10-15 11:15:36\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52603360019_de36648504_s.jpg\"
@@ -2472,7 +2472,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. \n</description>\n\t</photo>\n\t<photo id=\"52599965172\" owner=\"152877605@N05\"
       secret=\"b4c9206b63\" server=\"65535\" farm=\"66\" title=\"marsh violet; Viola
-      palustris\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      palustris\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1672599811\" datetaken=\"2011-04-17 11:44:34\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"onnowildschut\" realname=\"onno wildschut\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52599965172_b4c9206b63_s.jpg\"
@@ -2485,7 +2485,7 @@ interactions:
       reserve &#039;t Hol in the Eastern Vechtplassen. Netherlands</description>\n\t</photo>\n\t<photo
       id=\"52590488424\" owner=\"41111966@N04\" secret=\"3731f1dc6b\" server=\"65535\"
       farm=\"66\" title=\"Aeonium haworthii &#039;Dream Color&#039; at home.\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"1\" safety_level=\"0\" dateupload=\"1672145091\"
+      isfriend=\"0\" isfamily=\"0\" license=\"1\" dateupload=\"1672145091\"
       datetaken=\"2022-12-27 10:44:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"ER&#039;s Eyes - Our planet is beautiful.\" realname=\"Elias Rovielo\"
       media=\"photo\" media_status=\"ready\"
@@ -2503,7 +2503,7 @@ interactions:
       \n\nOver time, it grows tall, bare stems, but it takes well to pruning and replanting
       to keep it compact.</description>\n\t</photo>\n\t<photo id=\"52590196956\" owner=\"133480378@N04\"
       secret=\"b3af44e997\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow  Purple
-      White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      White.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1672182872\" datetaken=\"2022-10-15 11:14:15\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52590196956_b3af44e997_s.jpg\"
@@ -2516,7 +2516,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52588006254\" owner=\"133480378@N04\"
       secret=\"f3d54c7761\" server=\"65535\" farm=\"66\" title=\"Orchid White Purple.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1672087437\" datetaken=\"2022-10-15 11:13:50\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52588006254_f3d54c7761_s.jpg\"
@@ -2529,7 +2529,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52578982907\" owner=\"162684392@N05\"
       secret=\"6c17874bc2\" server=\"65535\" farm=\"66\" title=\"One male is in the
-      forest\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      forest\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671717282\" datetaken=\"2021-09-19 14:18:31\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -2543,7 +2543,7 @@ interactions:
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Shaggy ink cap (Coprinus
       Comatus)\n\nMakro_036</description>\n\t</photo>\n\t<photo id=\"52578106066\"
       owner=\"133480378@N04\" secret=\"c2e97154c4\" server=\"65535\" farm=\"66\" title=\"Cattleya
-      Orchid.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Orchid.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671658018\" datetaken=\"2022-10-15 11:12:55\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52578106066_c2e97154c4_s.jpg\"
@@ -2556,7 +2556,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52576043221\" owner=\"133480378@N04\"
       secret=\"87c672ccd5\" server=\"65535\" farm=\"66\" title=\"Orchid Green Yellow.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671571560\" datetaken=\"2022-10-15 11:12:42\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52576043221_87c672ccd5_s.jpg\"
@@ -2569,7 +2569,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52575048092\" owner=\"144882911@N08\"
       secret=\"6170e0071c\" server=\"65535\" farm=\"66\" title=\"H\xE9m\xE9rocalle
-      \ IMG_1048\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      \ IMG_1048\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671553284\" datetaken=\"2012-07-10 10:54:14\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paul_Paradis\" realname=\"Paul Paradis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52575048092_6170e0071c_s.jpg\"
@@ -2581,7 +2581,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>H\xE9m\xE9rocalle </description>\n\t</photo>\n\t<photo
       id=\"52569172363\" owner=\"44288006@N03\" secret=\"64863d7313\" server=\"65535\"
       farm=\"66\" title=\"A frosty morning\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1671278140\" datetaken=\"2022-12-09
+      license=\"0\" dateupload=\"1671278140\" datetaken=\"2022-12-09
       11:24:07\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Frank
       Fullard\" realname=\"Frank Fullard\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52569172363_64863d7313_s.jpg\"
@@ -2593,7 +2593,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>At the Irish National Botanic
       Gardens in Sublin</description>\n\t</photo>\n\t<photo id=\"52566862924\" owner=\"26181971@N07\"
       secret=\"c8d5d98577\" server=\"65535\" farm=\"66\" title=\"2022-12-09 Orchid
-      - BG Teplice\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      - BG Teplice\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671181611\" datetaken=\"2022-12-09 12:39:13\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"beranekp\" realname=\"Petr Ber\xE1nek\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52566862924_c8d5d98577_s.jpg\"
@@ -2606,7 +2606,7 @@ interactions:
       height_l=\"932\" width_l=\"1024\">\n\t\t<description>Czech Republic - Orchid
       in Botanic Garden Teplice          </description>\n\t</photo>\n\t<photo id=\"52564451794\"
       owner=\"133480378@N04\" secret=\"7a367e7420\" server=\"65535\" farm=\"66\" title=\"Orchid
-      Green Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Green Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671068857\" datetaken=\"2022-10-15 11:12:32\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52564451794_7a367e7420_s.jpg\"
@@ -2619,7 +2619,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52564035025\" owner=\"39474263@N03\"
       secret=\"4c0fc0056e\" server=\"65535\" farm=\"66\" title=\"Frosttropfen -4\xB0C
-      (2)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      (2)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1671045098\" datetaken=\"2022-12-14 15:13:41\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Ellenore56\" realname=\"Ellen : thank\xB4s
       \u2665 for visit \u2665\u2665\u2665\" media=\"photo\" media_status=\"ready\"
@@ -2633,7 +2633,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;www.youtube.com/watch?v=dvgZkm1xWPE&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52559533891\" owner=\"133480378@N04\" secret=\"e6bae390bf\" server=\"65535\"
       farm=\"66\" title=\"Orchid Purple.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1670876250\" datetaken=\"2022-10-15
+      license=\"0\" dateupload=\"1670876250\" datetaken=\"2022-10-15
       11:11:22\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52559533891_e6bae390bf_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52559533891_e6bae390bf_t.jpg\"
@@ -2646,7 +2646,7 @@ interactions:
       the day. </description>\n\t</photo>\n\t<photo id=\"52556311070\" owner=\"26181971@N07\"
       secret=\"7155843cd4\" server=\"65535\" farm=\"66\" title=\"2016-06-05 Phyteuma
       sieberi - BG Teplice\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1670746107\" datetaken=\"2016-06-05 10:33:53\"
+      dateupload=\"1670746107\" datetaken=\"2016-06-05 10:33:53\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"beranekp\" realname=\"Petr
       Ber\xE1nek\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52556311070_7155843cd4_s.jpg\"
@@ -2660,7 +2660,7 @@ interactions:
       sieberi - in Botanic Garden Teplice     </description>\n\t</photo>\n\t<photo
       id=\"52547758308\" owner=\"14865557@N04\" secret=\"57b00934e1\" server=\"65535\"
       farm=\"66\" title=\"Chain-ferns_6523\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1670356821\" datetaken=\"2022-11-14
+      license=\"0\" dateupload=\"1670356821\" datetaken=\"2022-11-14
       14:19:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Peter
       Warne-Epping Forest\" realname=\"Peter Warne\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52547758308_57b00934e1_s.jpg\"
@@ -2674,7 +2674,7 @@ interactions:
       laurel forest on La Gomera in the Canary Islands. Each frond is about 4 feet
       long.</description>\n\t</photo>\n\t<photo id=\"52538807045\" owner=\"133480378@N04\"
       secret=\"c90b55f0ff\" server=\"65535\" farm=\"66\" title=\"Orchid Pink &amp;
-      Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Yellow.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1670013193\" datetaken=\"2022-10-15 11:09:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52538807045_c90b55f0ff_s.jpg\"
@@ -2687,7 +2687,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52533264397\" owner=\"144882911@N08\"
       secret=\"b6953d7abe\" server=\"65535\" farm=\"66\" title=\"Tulipe IMG_1719\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1669823208\" datetaken=\"2016-05-23 17:40:51\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Paul_Paradis\" realname=\"Paul Paradis\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52533264397_b6953d7abe_s.jpg\"
@@ -2699,7 +2699,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>Tulipe</description>\n\t</photo>\n\t<photo
       id=\"52532789508\" owner=\"133480378@N04\" secret=\"d2f52dbc9b\" server=\"65535\"
       farm=\"66\" title=\"Orchid Pink &amp; Purple.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1669757202\" datetaken=\"2022-10-15
+      isfamily=\"0\" license=\"0\" dateupload=\"1669757202\" datetaken=\"2022-10-15
       11:08:48\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52532789508_d2f52dbc9b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52532789508_d2f52dbc9b_t.jpg\"
@@ -2712,7 +2712,7 @@ interactions:
       the day. </description>\n\t</photo>\n\t<photo id=\"52531212414\" owner=\"26181971@N07\"
       secret=\"83086c1a7b\" server=\"65535\" farm=\"66\" title=\"2012-03-25 Nototriche
       rugosa - Chile\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1669709276\" datetaken=\"2012-03-25 19:05:31\"
+      dateupload=\"1669709276\" datetaken=\"2012-03-25 19:05:31\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"beranekp\" realname=\"Petr
       Ber\xE1nek\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52531212414_83086c1a7b_s.jpg\"
@@ -2726,7 +2726,7 @@ interactions:
       (My Friend\xB4s Ji\u0159\xED R.H. Photo)</description>\n\t</photo>\n\t<photo
       id=\"52528215928\" owner=\"133480378@N04\" secret=\"a8f8894e41\" server=\"65535\"
       farm=\"66\" title=\"Orchid Pink &amp; White.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1669587238\" datetaken=\"2022-10-15
+      isfamily=\"0\" license=\"0\" dateupload=\"1669587238\" datetaken=\"2022-10-15
       11:08:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52528215928_a8f8894e41_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52528215928_a8f8894e41_t.jpg\"
@@ -2738,7 +2738,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52521143534\" owner=\"133480378@N04\"
       secret=\"b83ccf4d75\" server=\"65535\" farm=\"66\" title=\"Orchid Purple White
-      &amp; Red.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      &amp; Red.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1669306946\" datetaken=\"2022-10-15 11:07:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52521143534_b83ccf4d75_s.jpg\"
@@ -2752,7 +2752,7 @@ interactions:
       the day. </description>\n\t</photo>\n\t<photo id=\"52519823972\" owner=\"32512570@N06\"
       secret=\"bc1b38bf06\" server=\"65535\" farm=\"66\" title=\"Close Up Of Orange
       Bird Of Paradise Flower\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1669281304\" datetaken=\"2022-11-23 18:15:45\"
+      dateupload=\"1669281304\" datetaken=\"2022-11-23 18:15:45\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Kris Olin\" realname=\"Kris
       Olin\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52519823972_bc1b38bf06_s.jpg\"
@@ -2768,7 +2768,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;www.alamy.com/close-up-of-orange-bird-of-paradise-flower-...&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"52515817478\" owner=\"133480378@N04\" secret=\"14eb81c4c9\" server=\"65535\"
       farm=\"66\" title=\"Orchid Yellow &amp; Red.\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1669066385\" datetaken=\"2022-10-15
+      isfamily=\"0\" license=\"0\" dateupload=\"1669066385\" datetaken=\"2022-10-15
       11:06:33\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"rumerbob\"
       realname=\"Bob Rumer.\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52515817478_14eb81c4c9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52515817478_14eb81c4c9_t.jpg\"
@@ -2780,7 +2780,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52512962836\" owner=\"133480378@N04\"
       secret=\"00a039c1d3\" server=\"65535\" farm=\"66\" title=\"Orchid Yellow  Purple
-      White 2 B\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      White 2 B\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1668983183\" datetaken=\"2022-10-15 11:06:18\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52512962836_00a039c1d3_s.jpg\"
@@ -2794,7 +2794,7 @@ interactions:
       the day. </description>\n\t</photo>\n\t<photo id=\"52495177016\" owner=\"41111966@N04\"
       secret=\"b0fc9e8261\" server=\"65535\" farm=\"66\" title=\"Haworthia cooperi
       var. dielsiana at home.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"1\"
-      safety_level=\"0\" dateupload=\"1668269247\" datetaken=\"2022-11-12 14:07:27\"
+      dateupload=\"1668269247\" datetaken=\"2022-11-12 14:07:27\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"ER&#039;s Eyes
       - Our planet is beautiful.\" realname=\"Elias Rovielo\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52495177016_b0fc9e8261_s.jpg\"
@@ -2822,7 +2822,7 @@ interactions:
       new leaves, which make the bouquet become more and more full and expand sideways.\n\n\n***\n\n\nRanked
       #1 on Explore on November 13, 2022.\n</description>\n\t</photo>\n\t<photo id=\"52493073931\"
       owner=\"133480378@N04\" secret=\"b994e0ce0d\" server=\"65535\" farm=\"66\" title=\"Semi-double
-      Mum.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Mum.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1668199991\" datetaken=\"2022-10-15 11:00:21\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52493073931_b994e0ce0d_s.jpg\"
@@ -2835,7 +2835,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52491419715\" owner=\"133480378@N04\"
       secret=\"481fe15fa8\" server=\"65535\" farm=\"66\" title=\"Chrysanthemum.\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1668112438\" datetaken=\"2022-10-15 10:59:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52491419715_481fe15fa8_s.jpg\"
@@ -2848,7 +2848,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52490663774\" owner=\"162684392@N05\"
       secret=\"15ecd28007\" server=\"65535\" farm=\"66\" title=\"At the forest reef\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1668092619\" datetaken=\"2022-10-27 13:09:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\"
@@ -2862,7 +2862,7 @@ interactions:
       height_l=\"1024\" width_l=\"1024\">\n\t\t<description>Yellow stagshorn (Calocera
       viscosa)\n\nMakro-Funga_19</description>\n\t</photo>\n\t<photo id=\"52467748692\"
       owner=\"133480378@N04\" secret=\"a4ea363fea\" server=\"65535\" farm=\"66\" title=\"Reflex
-      Mum. B\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Mum. B\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1667246161\" datetaken=\"2022-10-15 10:49:26\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52467748692_a4ea363fea_s.jpg\"
@@ -2875,7 +2875,7 @@ interactions:
       thanks to all who take the time to view, comment and  favoring my images. Enjoy
       the day. </description>\n\t</photo>\n\t<photo id=\"52462474284\" owner=\"162684392@N05\"
       secret=\"a21043dbf2\" server=\"65535\" farm=\"66\" title=\"Overgrown\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1667045302\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1667045302\"
       datetaken=\"2022-07-13 11:07:03\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"NiBe60\" realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52462474284_a21043dbf2_s.jpg\"
@@ -2888,7 +2888,7 @@ interactions:
       height_l=\"576\" width_l=\"1024\">\n\t\t<description>Water lily (nuphar), yellow\n\nSeerosen_07</description>\n\t</photo>\n\t<photo
       id=\"52451038184\" owner=\"162684392@N05\" secret=\"49ec2f879b\" server=\"65535\"
       farm=\"66\" title=\"Wrong flowers\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1666621830\" datetaken=\"2022-08-02
+      license=\"0\" dateupload=\"1666621830\" datetaken=\"2022-08-02
       16:11:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"NiBe60\"
       realname=\"Bernhard Niedermeier\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52451038184_49ec2f879b_s.jpg\"
@@ -2902,7 +2902,7 @@ interactions:
       of heaven (Hydrangea Serrata) in blue\n\nMakro-Flora_51</description>\n\t</photo>\n\t<photo
       id=\"52447360703\" owner=\"112623317@N03\" secret=\"c4f572ff37\" server=\"65535\"
       farm=\"66\" title=\"Australian floral fireworks\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1666489483\" datetaken=\"2022-07-27
+      isfamily=\"0\" license=\"0\" dateupload=\"1666489483\" datetaken=\"2022-07-27
       10:31:11\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"WinRuWorld\"
       realname=\"Ruth\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52447360703_c4f572ff37_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52447360703_c4f572ff37_t.jpg\"
@@ -2925,7 +2925,7 @@ interactions:
       of field: \n\n&lt;a href=&quot;https://www.flickr.com/photos/112623317@N03/52016957329/in/album-72157714472800213/&quot;&gt;www.flickr.com/photos/112623317@N03/52016957329/in/album-...&lt;/a&gt;\n\n\n</description>\n\t</photo>\n\t<photo
       id=\"52441553908\" owner=\"31066444@N05\" secret=\"2880821bf2\" server=\"65535\"
       farm=\"66\" title=\"cold fungi\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1666257370\" datetaken=\"2019-11-10
+      license=\"0\" dateupload=\"1666257370\" datetaken=\"2019-11-10
       11:12:22\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"holland
       fotograaf\" realname=\"holland fotograaf\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52441553908_2880821bf2_s.jpg\"
@@ -2952,7 +2952,7 @@ interactions:
       The spore print is white. It has a pleasant nutty smell. When sliced, the white
       flesh may turn a pale pink.\n</description>\n\t</photo>\n\t<photo id=\"52436017428\"
       owner=\"133480378@N04\" secret=\"e5177ba078\" server=\"65535\" farm=\"66\" title=\"Hardy
-      Garden Mum.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      Garden Mum.\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1666042005\" datetaken=\"2022-10-15 10:10:09\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"rumerbob\" realname=\"Bob Rumer.\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52436017428_e5177ba078_s.jpg\"
@@ -2966,7 +2966,7 @@ interactions:
       the day. </description>\n\t</photo>\n\t<photo id=\"52431548326\" owner=\"76548353@N07\"
       secret=\"f2954d9754\" server=\"65535\" farm=\"66\" title=\"Jill - deep in the
       botany Part III\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1665925673\" datetaken=\"2019-09-03 15:27:54\"
+      dateupload=\"1665925673\" datetaken=\"2019-09-03 15:27:54\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"@hubert_nowak_photography\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52431548326_f2954d9754_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52431548326_f2954d9754_t.jpg\"
@@ -2978,7 +2978,7 @@ interactions:
       It was a wonderful shooting with the lovely Jill.</description>\n\t</photo>\n\t<photo
       id=\"52428607273\" owner=\"63719948@N06\" secret=\"42529bca7a\" server=\"65535\"
       farm=\"66\" title=\"Ponder The Path\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1665794858\" datetaken=\"2022-10-07
+      license=\"0\" dateupload=\"1665794858\" datetaken=\"2022-10-07
       09:55:16\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"MBates
       Foto\" realname=\"Mark Bates\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52428607273_42529bca7a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/52428607273_42529bca7a_t.jpg\"
@@ -2991,7 +2991,7 @@ interactions:
       before you.\n26 Give careful thought to the paths for your feet\n    and be
       steadfast in all your ways.\n</description>\n\t</photo>\n\t<photo id=\"52427848236\"
       owner=\"140454096@N02\" secret=\"5793cc011a\" server=\"65535\" farm=\"66\" title=\"Paradise\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1665841112\" datetaken=\"2013-07-07 15:25:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"vicch7\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/65535/52427848236_5793cc011a_s.jpg\"
@@ -3003,7 +3003,7 @@ interactions:
       height_l=\"576\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
       id=\"52425947547\" owner=\"26181971@N07\" secret=\"e15fce7cc6\" server=\"65535\"
       farm=\"66\" title=\"2022-10-13 Cyclamen rohlfsianum - BG Teplice\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1665728869\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1665728869\"
       datetaken=\"2022-10-13 12:50:37\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"beranekp\" realname=\"Petr Ber\xE1nek\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52425947547_e15fce7cc6_s.jpg\"
@@ -3017,7 +3017,7 @@ interactions:
       rohlfsianum - in Botanic Garden Teplice</description>\n\t</photo>\n\t<photo
       id=\"52673188846\" owner=\"130738538@N08\" secret=\"6ea1e3f5bf\" server=\"65535\"
       farm=\"66\" title=\"Close up di un fiore di croco a febbraio\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1675712384\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1675712384\"
       datetaken=\"2023-02-05 15:47:19\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"Andrea D&#039;Angiolo\" realname=\"Andrea D&#039;Angiolo\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/52673188846_6ea1e3f5bf_s.jpg\"

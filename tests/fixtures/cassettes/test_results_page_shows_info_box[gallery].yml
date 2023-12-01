@@ -15,12 +15,12 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname%2Cpath_alias&gallery_id=72157621848008117&get_gallery_info=1&method=flickr.galleries.getPhotos&page=1&per_page=100
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname%2Cpath_alias&gallery_id=72157621848008117&get_gallery_info=1&method=flickr.galleries.getPhotos&page=1&per_page=100
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"1\" perpage=\"100\" total=\"12\">\n\t<photo id=\"2456288552\"
       owner=\"38851157@N00\" secret=\"3794a1ba27\" server=\"2407\" farm=\"3\" title=\"IMG_6834\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1209617815\" datetaken=\"2008-04-17 17:35:45\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"locaburg\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2407/2456288552_3794a1ba27_s.jpg\"
@@ -34,7 +34,7 @@ interactions:
       href=&quot;http://markalor.com/#WORK,DETAIL,2456288552,3794a1ba27&quot; rel=&quot;noreferrer
       nofollow&quot;&gt;Joe&lt;/a&gt;</description>\n\t</photo>\n\t<photo id=\"2178297354\"
       owner=\"19797316@N00\" secret=\"a6f6084173\" server=\"2387\" farm=\"3\" title=\"286\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1199804940\" datetaken=\"2008-01-08 16:05:33\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"jan postma\" realname=\"jan postma\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2387/2178297354_a6f6084173_s.jpg\"
@@ -49,7 +49,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;.&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"2830287785\" owner=\"49432667@N00\" secret=\"320f69f56b\" server=\"3208\"
       farm=\"4\" title=\".\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
-      safety_level=\"0\" dateupload=\"1220633191\" datetaken=\"2008-09-05 09:47:49\"
+      dateupload=\"1220633191\" datetaken=\"2008-09-05 09:47:49\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"snjezana.\" realname=\"snjezana
       josipovic\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3208/2830287785_320f69f56b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3208/2830287785_320f69f56b_t.jpg\"
@@ -59,7 +59,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" pathalias=\"snjezanaj\" is_primary=\"0\" has_comment=\"0\">\n\t\t<description
       />\n\t</photo>\n\t<photo id=\"3234578780\" owner=\"35034346209@N01\" secret=\"96dbacdc38\"
       server=\"3264\" farm=\"4\" title=\"\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1233162889\" datetaken=\"2009-01-27
+      license=\"0\" dateupload=\"1233162889\" datetaken=\"2009-01-27
       19:48:00\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Roy\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3264/3234578780_96dbacdc38_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3264/3234578780_96dbacdc38_t.jpg\"
@@ -69,7 +69,7 @@ interactions:
       height_q=\"150\" width_q=\"150\" pathalias=\"r6\" is_primary=\"0\" has_comment=\"0\">\n\t\t<description
       />\n\t</photo>\n\t<photo id=\"474277734\" owner=\"42637519@N00\" secret=\"fe4f8375b5\"
       server=\"209\" farm=\"1\" title=\"Leena the hat lady\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1177657206\" datetaken=\"2007-04-26
+      isfamily=\"0\" license=\"0\" dateupload=\"1177657206\" datetaken=\"2007-04-26
       16:45:46\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Teppo\"
       realname=\"Teppo Moisio\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/209/474277734_fe4f8375b5_s.jpg\"
@@ -109,7 +109,7 @@ interactions:
       &amp;quot;It&#039;s good to have friends&amp;quot;, she said.\n\n#379 @ Explore
       070428</description>\n\t</photo>\n\t<photo id=\"3577982363\" owner=\"51035603587@N01\"
       secret=\"60a6e94548\" server=\"3398\" farm=\"4\" title=\"27190019\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1243693818\"
+      isfriend=\"0\" isfamily=\"0\" license=\"0\" dateupload=\"1243693818\"
       datetaken=\"2009-05-28 00:51:41\" datetakengranularity=\"0\" datetakenunknown=\"0\"
       ownername=\"youngna\" realname=\"youngna\" media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/3398/3577982363_60a6e94548_s.jpg\" height_sq=\"75\"
@@ -121,7 +121,7 @@ interactions:
       />\n\t</photo>\n\t<photo id=\"2179909780\" owner=\"8623220@N02\" secret=\"c263ed2455\"
       server=\"2243\" farm=\"3\" title=\"Dr. Schreiber of San Augustine giving a typhoid
       innoculation at a rural school, San Augustine County, Texas  (LOC)\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\" dateupload=\"1199852465\"
+      isfriend=\"0\" isfamily=\"0\" license=\"7\" dateupload=\"1199852465\"
       datetaken=\"1939-01-01 00:00:00\" datetakengranularity=\"8\" datetakenunknown=\"0\"
       ownername=\"The Library of Congress\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2243/2179909780_c263ed2455_s.jpg\"
@@ -153,7 +153,7 @@ interactions:
       nofollow&quot;&gt;hdl.loc.gov/loc.pnp/cph.3d02191&lt;/a&gt;\n\n&lt;b&gt;Call
       Number: &lt;/b&gt; LC-USW36-828  \n\n</description>\n\t</photo>\n\t<photo id=\"2870337431\"
       owner=\"7167652@N06\" secret=\"5a7a77004a\" server=\"3280\" farm=\"4\" title=\"Jiu-Jitsu
-      for Women\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
+      for Women\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       dateupload=\"1221855093\" datetaken=\"2008-09-19 16:11:33\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"George Eastman Museum\" realname=\"George
       Eastman Museum\" media=\"photo\"
@@ -177,7 +177,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;www.eastmanhouse.org/flickr/index.php?pid=1977:0144:0050MP&lt;/a&gt;.</description>\n\t</photo>\n\t<photo
       id=\"2048201177\" owner=\"8458540@N06\" secret=\"f85295f2d0\" server=\"2367\"
       farm=\"3\" title=\"Strong man, c.1910\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1195522604\" datetaken=\"2007-11-20
+      license=\"0\" dateupload=\"1195522604\" datetaken=\"2007-11-20
       14:36:44\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"National
       Library of New Zealand\" realname=\"National Library of New Zealand\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2367/2048201177_f85295f2d0_s.jpg\"
@@ -205,7 +205,7 @@ interactions:
       id=\"2179093359\" owner=\"8623220@N02\" secret=\"64607d2383\" server=\"2312\"
       farm=\"3\" title=\"Marine lieutenant, glider pilot in training at Page Field,
       Parris Island, S.C.  (LOC)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
-      safety_level=\"0\" dateupload=\"1199851624\" datetaken=\"1939-01-01 00:00:00\"
+      dateupload=\"1199851624\" datetaken=\"1939-01-01 00:00:00\"
       datetakengranularity=\"8\" datetakenunknown=\"0\" ownername=\"The Library of
       Congress\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2312/2179093359_64607d2383_s.jpg\"
@@ -234,7 +234,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;hdl.loc.gov/loc.pnp/fsac.1a35119&lt;/a&gt;\n\n&lt;b&gt;Call
       Number: &lt;/b&gt; LC-USW36-989  \n\n</description>\n\t</photo>\n\t<photo id=\"3563389643\"
       owner=\"7568189@N04\" secret=\"f7d15123b3\" server=\"3621\" farm=\"4\" title=\"Jokeys\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\"
       dateupload=\"1243280529\" datetaken=\"2009-05-25 21:03:25\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"cyrille r\" realname=\"Cyrille R\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_s.jpg\"
@@ -248,7 +248,7 @@ interactions:
       rel=&quot;noreferrer nofollow&quot;&gt;cyrillephoto.wordpress.com/&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"347360201\" owner=\"83568246@N00\" secret=\"a6c0e5721f\" server=\"150\"
       farm=\"1\" title=\"photobooth friday\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"0\" safety_level=\"0\" dateupload=\"1168058062\" datetaken=\"2007-01-05
+      license=\"0\" dateupload=\"1168058062\" datetaken=\"2007-01-05
       23:18:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"girlhula\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/150/347360201_a6c0e5721f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/150/347360201_a6c0e5721f_t.jpg\"

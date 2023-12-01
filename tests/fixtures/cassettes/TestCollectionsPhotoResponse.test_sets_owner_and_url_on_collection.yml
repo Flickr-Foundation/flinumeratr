@@ -134,14 +134,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157640898611483&user_id=115357548%40N08
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157640898611483&user_id=115357548%40N08
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157640898611483\" primary=\"40750084443\" owner=\"115357548@N08\" ownername=\"Joshua
       Tree National Park\" page=\"1\" per_page=\"10\" perpage=\"10\" pages=\"36\"
       title=\"Birds\" total=\"355\">\n\t<photo id=\"49021434741\" secret=\"1f8bf237c2\"
       server=\"65535\" farm=\"66\" title=\"Sleepy Barn Owl (Tyto alba)\" isprimary=\"0\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       dateupload=\"1573001718\" datetaken=\"2019-10-29 16:59:38\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49021434741_1f8bf237c2_s.jpg\"
@@ -155,7 +155,7 @@ interactions:
       Text: An owl with closed eyes near the top of a palm tree.</description>\n\t</photo>\n\t<photo
       id=\"49020912923\" secret=\"e2c2305913\" server=\"65535\" farm=\"66\" title=\"Sleepy
       Barn Owl\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
-      safety_level=\"0\" dateupload=\"1573001718\" datetaken=\"2019-10-29 16:51:32\"
+      dateupload=\"1573001718\" datetaken=\"2019-10-29 16:51:32\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
       Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49020912923_e2c2305913_s.jpg\"
@@ -169,7 +169,7 @@ interactions:
       Text: An owl near the top of a palm tree.</description>\n\t</photo>\n\t<photo
       id=\"49021639582\" secret=\"f567a31b86\" server=\"65535\" farm=\"66\" title=\"Juvenile
       Barn Owl\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
-      safety_level=\"0\" dateupload=\"1573001717\" datetaken=\"2019-10-29 16:47:41\"
+      dateupload=\"1573001717\" datetaken=\"2019-10-29 16:47:41\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
       Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49021639582_f567a31b86_s.jpg\"
@@ -183,7 +183,7 @@ interactions:
       Text: An owl near the top of a palm tree.</description>\n\t</photo>\n\t<photo
       id=\"49021436591\" secret=\"afd3cf75d3\" server=\"65535\" farm=\"66\" title=\"Juvenile
       Barn Owl\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
-      safety_level=\"0\" dateupload=\"1573001717\" datetaken=\"2019-10-29 16:36:08\"
+      dateupload=\"1573001717\" datetaken=\"2019-10-29 16:36:08\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
       Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49021436591_afd3cf75d3_s.jpg\"
@@ -197,7 +197,7 @@ interactions:
       Text: An owl near the top of a palm tree.</description>\n\t</photo>\n\t<photo
       id=\"49020914453\" secret=\"d155dfcc7b\" server=\"65535\" farm=\"66\" title=\"Sleepy
       Barn Owl\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
-      safety_level=\"0\" dateupload=\"1573001717\" datetaken=\"2019-10-29 16:31:56\"
+      dateupload=\"1573001717\" datetaken=\"2019-10-29 16:31:56\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
       Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/49020914453_d155dfcc7b_s.jpg\"
@@ -211,7 +211,7 @@ interactions:
       Text: An owl with closed eyes near the top of a palm tree.</description>\n\t</photo>\n\t<photo
       id=\"48992137491\" secret=\"29648ce09d\" server=\"65535\" farm=\"66\" title=\"Juvenile
       barn owl (Tyto alba)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"10\" safety_level=\"0\" dateupload=\"1572548119\" datetaken=\"2019-10-29
+      license=\"10\" dateupload=\"1572548119\" datetaken=\"2019-10-29
       15:09:01\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
       Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/48992137491_29648ce09d_s.jpg\"
@@ -225,7 +225,7 @@ interactions:
       text: A barn owl (Tyto alba) with his head looking back near the top of a palm
       tree.</description>\n\t</photo>\n\t<photo id=\"48992335797\" secret=\"28950db2bb\"
       server=\"65535\" farm=\"66\" title=\"Juvenile barn owl (Tyto alba)\" isprimary=\"0\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       dateupload=\"1572548118\" datetaken=\"2019-10-29 15:01:19\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/48992335797_28950db2bb_s.jpg\"
@@ -239,7 +239,7 @@ interactions:
       text: An owl with closed eyes near the top of a palm tree.</description>\n\t</photo>\n\t<photo
       id=\"40733986283\" secret=\"35169f18e5\" server=\"65535\" farm=\"66\" title=\"Sparrow
       nestlings in cholla nest\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"10\" safety_level=\"0\" dateupload=\"1556236013\" datetaken=\"2019-04-16
+      license=\"10\" dateupload=\"1556236013\" datetaken=\"2019-04-16
       16:28:22\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
       Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/40733986283_35169f18e5_s.jpg\"
@@ -253,7 +253,7 @@ interactions:
       text: Small baby birds nestle in a round nest made of twigs within a spiky cholla
       cactus.</description>\n\t</photo>\n\t<photo id=\"32757107117\" secret=\"b8c41702ff\"
       server=\"65535\" farm=\"66\" title=\"Sparrow nestlings in cholla nest\" isprimary=\"0\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       dateupload=\"1556236014\" datetaken=\"2019-04-16 16:28:16\" datetakengranularity=\"0\"
       datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/32757107117_b8c41702ff_s.jpg\"
@@ -266,7 +266,7 @@ interactions:
       height_l=\"683\" width_l=\"1024\">\n\t\t<description>NPS / Renata Harrison</description>\n\t</photo>\n\t<photo
       id=\"47647261722\" secret=\"57f7d82c7a\" server=\"65535\" farm=\"66\" title=\"Sparrow
       nestlings in cholla nest\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"10\" safety_level=\"0\" dateupload=\"1556236014\" datetaken=\"2019-04-08
+      license=\"10\" dateupload=\"1556236014\" datetaken=\"2019-04-08
       19:28:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
       Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/47647261722_57f7d82c7a_s.jpg\"

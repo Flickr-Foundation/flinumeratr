@@ -18,7 +18,7 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"32812033543\" secret=\"c1b3784192\" server=\"2903\" farm=\"3\" dateuploaded=\"1490376472\"
-      isfavorite=\"0\" license=\"8\" safety_level=\"0\" rotation=\"0\"
+      isfavorite=\"0\" license=\"8\" rotation=\"0\"
       views=\"18100\" media=\"photo\">\n\t<owner nsid=\"30884892@N08\"
       username=\"U.S. Coast Guard\" realname=\"Coast Guard\" location=\"\" iconserver=\"65535\"
       iconfarm=\"66\" path_alias=\"coast_guard\">\n\t\t<gift gift_eligible=\"1\" new_flow=\"1\">\n\t\t\t<eligible_durations

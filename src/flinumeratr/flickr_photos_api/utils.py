@@ -1,7 +1,7 @@
 import datetime
 import xml.etree.ElementTree as ET
 
-from ._types import SafetyLevel, Size, TakenGranularity
+from ._types import Size, TakenGranularity
 
 
 def find_required_elem(elem: ET.Element, *, path: str) -> ET.Element:
@@ -114,25 +114,6 @@ def parse_date_taken_granularity(g: str) -> TakenGranularity:
         return lookup_table[g]
     except KeyError:
         raise ValueError(f"Unrecognised date granularity: {g}")
-
-
-def parse_safety_level(s: str) -> SafetyLevel:
-    """
-    Converts a numeric safety level ID in the Flickr API into
-    a human-readable value.
-
-    See https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
-    """
-    lookup_table: dict[str, SafetyLevel] = {
-        "0": "safe",
-        "1": "moderate",
-        "2": "restricted",
-    }
-
-    try:
-        return lookup_table[s]
-    except KeyError:
-        raise ValueError(f"Unrecognised safety level: {s}")
 
 
 def parse_sizes(photo_elem: ET.Element) -> list[Size]:

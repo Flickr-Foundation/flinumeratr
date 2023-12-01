@@ -141,14 +141,14 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157664284840282&user_id=31575009%40N05
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157664284840282&user_id=31575009%40N05
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157664284840282\" primary=\"24284955104\" owner=\"31575009@N05\" ownername=\"The
       National Archives UK\" page=\"1\" per_page=\"10\" perpage=\"10\" pages=\"3\"
       title=\"The Mangrove Nine\" total=\"21\">\n\t<photo id=\"24819736071\" secret=\"e9c8f76b1d\"
       server=\"1577\" farm=\"2\" title=\"Demonstration/Political Statement\" isprimary=\"0\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       dateupload=\"1455012159\" datetaken=\"2016-02-09 10:01:59\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\"
@@ -170,7 +170,7 @@ interactions:
       &lt;a href=&quot;http://www.nationalarchives.gov.uk/imagelibrary&quot; rel=&quot;nofollow&quot;&gt;image
       library&lt;/a&gt;</description>\n\t</photo>\n\t<photo id=\"24284955174\" secret=\"16d849aaa4\"
       server=\"1545\" farm=\"2\" title=\"Black Panther movement newspaper\" isprimary=\"0\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       dateupload=\"1455012161\" datetaken=\"2016-02-09 10:01:58\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\"
@@ -193,7 +193,7 @@ interactions:
       rel=&quot;nofollow&quot;&gt;image library&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"24795146422\" secret=\"64a35fb440\" server=\"1703\" farm=\"2\" title=\"Black
       Power demonstration\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"7\" safety_level=\"0\" dateupload=\"1455012160\" datetaken=\"2016-02-09
+      license=\"7\" dateupload=\"1455012160\" datetaken=\"2016-02-09
       10:01:59\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The
       National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1703/24795146422_64a35fb440_s.jpg\"
@@ -214,7 +214,7 @@ interactions:
       rel=&quot;nofollow&quot;&gt;image library&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"24819735771\" secret=\"08d3270366\" server=\"1712\" farm=\"2\" title=\"Black
       Panther movement newspaper\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
-      license=\"7\" safety_level=\"0\" dateupload=\"1455012161\" datetaken=\"2016-02-09
+      license=\"7\" dateupload=\"1455012161\" datetaken=\"2016-02-09
       10:01:57\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The
       National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1712/24819735771_08d3270366_s.jpg\"
@@ -233,7 +233,7 @@ interactions:
       href=&quot;http://www.nationalarchives.gov.uk/imagelibrary&quot; rel=&quot;nofollow&quot;&gt;image
       library&lt;/a&gt;</description>\n\t</photo>\n\t<photo id=\"24284955104\" secret=\"a636db6774\"
       server=\"1462\" farm=\"2\" title=\"Protesters\" isprimary=\"1\" ispublic=\"1\"
-      isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\" dateupload=\"1455012162\"
+      isfriend=\"0\" isfamily=\"0\" license=\"7\" dateupload=\"1455012162\"
       datetaken=\"2016-02-09 10:01:58\" datetakengranularity=\"0\" datetakenunknown=\"1\"
       ownername=\"The National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1462/24284955104_a636db6774_s.jpg\"
@@ -253,7 +253,7 @@ interactions:
       href=&quot;http://www.nationalarchives.gov.uk/imagelibrary&quot; rel=&quot;nofollow&quot;&gt;image
       library&lt;/a&gt;</description>\n\t</photo>\n\t<photo id=\"24284955664\" secret=\"5a4305d862\"
       server=\"1688\" farm=\"2\" title=\"Summary &#039;Mangrove restaurant affair&#039;\"
-      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
+      isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       dateupload=\"1455012157\" datetaken=\"2016-02-09 10:02:01\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\"
@@ -273,7 +273,7 @@ interactions:
       rel=&quot;nofollow&quot;&gt;image library&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo
       id=\"24819736411\" secret=\"98e90be203\" server=\"1612\" farm=\"2\" title=\"Battle
       for Freedom at the Old Bailey poster\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
-      isfamily=\"0\" license=\"7\" safety_level=\"0\" dateupload=\"1455012157\" datetaken=\"2016-02-09
+      isfamily=\"0\" license=\"7\" dateupload=\"1455012157\" datetaken=\"2016-02-09
       10:02:01\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The
       National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1612/24819736411_98e90be203_s.jpg\"
@@ -293,7 +293,7 @@ interactions:
       rel=&quot;nofollow&quot;&gt;image library&lt;/a&gt;</description>\n\t</photo>\n\t<photo
       id=\"24819736331\" secret=\"b4cf6801c6\" server=\"1586\" farm=\"2\" title=\"Mangrove
       Nine flyer\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
-      safety_level=\"0\" dateupload=\"1455012158\" datetaken=\"2016-02-09 10:02:01\"
+      dateupload=\"1455012158\" datetaken=\"2016-02-09 10:02:01\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The National Archives
       UK\" realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1586/24819736331_b4cf6801c6_s.jpg\"
@@ -313,7 +313,7 @@ interactions:
       &lt;a href=&quot;http://www.nationalarchives.gov.uk/imagelibrary&quot; rel=&quot;nofollow&quot;&gt;image
       library&lt;/a&gt;</description>\n\t</photo>\n\t<photo id=\"24284955374\" secret=\"aab803081e\"
       server=\"1499\" farm=\"2\" title=\"Black Power Demonstration\" isprimary=\"0\"
-      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       dateupload=\"1455012160\" datetaken=\"2016-02-09 10:01:59\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\"
@@ -335,7 +335,7 @@ interactions:
       library&lt;/a&gt;\n</description>\n\t</photo>\n\t<photo id=\"24617611340\" secret=\"ff06736813\"
       server=\"1525\" farm=\"2\" title=\"Photographs of the march in West London,
       1970\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
-      safety_level=\"0\" dateupload=\"1455012162\" datetaken=\"2016-02-09 10:01:57\"
+      dateupload=\"1455012162\" datetaken=\"2016-02-09 10:01:57\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The National Archives
       UK\" realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1525/24617611340_ff06736813_s.jpg\"
