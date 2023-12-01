@@ -3,7 +3,6 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-from flickr_photos_api import FlickrPhotosApi, ResourceNotFound, Size as PhotoSize
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -11,7 +10,8 @@ from flickr_url_parser import (
 )
 import humanize
 
-from flinumeratr.filters import render_date_taken
+from .filters import render_date_taken
+from .flickr_photos_api import FlickrPhotosApi, ResourceNotFound, Size as PhotoSize
 from ._types import ViewResponse
 
 

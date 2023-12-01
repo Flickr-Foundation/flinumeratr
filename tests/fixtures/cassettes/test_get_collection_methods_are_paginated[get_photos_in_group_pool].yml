@@ -1,0 +1,439 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.flickr.com
+      user-agent:
+      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
+        hello@flickr.org)
+    method: GET
+    uri: https://api.flickr.com/services/rest/?method=flickr.urls.lookupGroup&url=https%3A%2F%2Fwww.flickr.com%2Fgroups%2Fslovenia%2Fpool%2F
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<group
+      id=\"31849566@N00\">\n\t<groupname>Slovenia</groupname>\n</group>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '128'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Sun, 05 Nov 2023 15:40:35 GMT
+      Via:
+      - 1.1 88e066f06ce21d9d589e0b7dba0cd180.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - vivA7gTnkt33DEnF5Oi-4Gpx9tCGWJpmYTzhG4Nmv8vMQDIKdJ3n2Q==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A0%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 15:40:35 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 15:40:35 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
+        hello@flickr.org)
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&group_id=31849566%40N00&method=flickr.groups.pools.getPhotos&page=1&per_page=10
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
+      page=\"1\" pages=\"4448\" perpage=\"10\" total=\"44474\">\n\t<photo id=\"53310980391\"
+      owner=\"144551122@N04\" secret=\"ba940b43f9\" server=\"65535\" farm=\"66\" title=\"SZ
+      541.013 pk + 541.105 vl., Hrastovlje 3. \u010Dervence 2019\" ispublic=\"1\"
+      isfriend=\"0\" isfamily=\"0\" ownername=\"Pavel \u0160turm\" dateadded=\"1699195622\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1699195535\" datetaken=\"2019-07-03
+      13:32:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Pavel
+      \u0160turm\" originalsecret=\"9a0d440875\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310980391_ba940b43f9_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53310980391_ba940b43f9_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53310980391_ba940b43f9_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53310980391_ba940b43f9.jpg\"
+      height_m=\"333\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53310980391_9a0d440875_o.jpg\"
+      height_o=\"1067\" width_o=\"1600\" url_q=\"https://live.staticflickr.com/65535/53310980391_ba940b43f9_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53310980391_ba940b43f9_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description>Jedna z m\xE1la reklamn\xEDch
+      lokomotiv ve Slovisnku je \u201E\u017Diva\u201C 541.013 s reklamn\xEDm polepem
+      na limon\xE1du Almdudler (jedn\xE1 se o rakouskou limon\xE1du, kter\xE1 je vyr\xE1b\u011Bn\xE1
+      s vyu\u017Eit\xEDm alpsk\xFDch bylin). Lokomotiva byla zachycena 3. \u010Dervence
+      2019 na postrku n\xE1kladn\xEDho kontejnerov\xE9ho vlaku jedouc\xEDho z p\u0159\xEDstavu
+      Koper do vnitrozem\xED Slovinska a d\xE1le do Rakouska. V t\u011Bchto kontejnerech
+      se p\u0159iv\xE1\u017E\xED dovezen\xE9 uhl\xED po mo\u0159i. Sn\xEDmek je po\u0159\xEDzen
+      u m\u011Bste\u010Dka Dol p\u0159i Hrastovljah.</description>\n\t</photo>\n\t<photo
+      id=\"53310444066\" owner=\"60591747@N06\" secret=\"d2903db56a\" server=\"65535\"
+      farm=\"66\" title=\"363 026, Hrastovlje ,  5 Oct 2023\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" ownername=\"Mr Joseph Bloggs\" dateadded=\"1699176912\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1699175996\" datetaken=\"2023-10-05 14:52:24\"
+      datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Joe Bloggs\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53310444066_d2903db56a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53310444066_d2903db56a_t.jpg\"
+      height_t=\"68\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53310444066_d2903db56a_m.jpg\"
+      height_s=\"163\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53310444066_d2903db56a.jpg\"
+      height_m=\"339\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53310444066_d2903db56a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53310444066_d2903db56a_b.jpg\"
+      height_l=\"695\" width_l=\"1024\">\n\t\t<description>363 026 passes Hrastovlje
+      whilst hauling a container train to Koper, 5 Oct 2023</description>\n\t</photo>\n\t<photo
+      id=\"53307356057\" owner=\"127849392@N04\" secret=\"29cec02edb\" server=\"65535\"
+      farm=\"66\" title=\"A Fresh Start\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      ownername=\"Urko Photography\" dateadded=\"1699079702\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1699079699\" datetaken=\"2022-06-19 05:18:33\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" realname=\"URKO FOTO\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53307356057_29cec02edb_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53307356057_29cec02edb_t.jpg\"
+      height_t=\"56\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53307356057_29cec02edb_m.jpg\"
+      height_s=\"135\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53307356057_29cec02edb.jpg\"
+      height_m=\"281\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53307356057_29cec02edb_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53307356057_29cec02edb_b.jpg\"
+      height_l=\"576\" width_l=\"1024\">\n\t\t<description>Sunrise in the Julian Alps.\nSlemenova
+      \u0161pica, Slovenija</description>\n\t</photo>\n\t<photo id=\"53308227095\"
+      owner=\"53903377@N06\" secret=\"6a64274184\" server=\"65535\" farm=\"66\" title=\"Jesen
+      / Autumn\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"PicsbyGrega\"
+      dateadded=\"1699051804\" license=\"0\" safety_level=\"0\" dateupload=\"1699051798\"
+      datetaken=\"2021-10-19 09:59:06\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      realname=\"Grega\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53308227095_6a64274184_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53308227095_6a64274184_t.jpg\"
+      height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/65535/53308227095_6a64274184_m.jpg\"
+      height_s=\"240\" width_s=\"160\" url_m=\"https://live.staticflickr.com/65535/53308227095_6a64274184.jpg\"
+      height_m=\"500\" width_m=\"333\" url_q=\"https://live.staticflickr.com/65535/53308227095_6a64274184_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53308227095_6a64274184_b.jpg\"
+      height_l=\"1024\" width_l=\"683\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53303802460\" owner=\"43902715@N04\" secret=\"4041549b04\" server=\"65535\"
+      farm=\"66\" title=\"Kungoski parkli  (Photo Edi)\" ispublic=\"1\" isfriend=\"0\"
+      isfamily=\"0\" ownername=\"louis.foecy.fr\" dateadded=\"1698871025\" license=\"0\"
+      safety_level=\"0\" dateupload=\"1698871024\" datetaken=\"2022-11-23 18:11:59\"
+      datetakengranularity=\"0\" datetakenunknown=\"1\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53303802460_4041549b04_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53303802460_4041549b04_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53303802460_4041549b04_m.jpg\"
+      height_s=\"159\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53303802460_4041549b04.jpg\"
+      height_m=\"331\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53303802460_4041549b04_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53303802460_4041549b04_b.jpg\"
+      height_l=\"677\" width_l=\"1024\">\n\t\t<description>Cette ann\xE9e, pour la
+      troisi\xE8me fois, vous \xEAtes cordialement invit\xE9s au festival Parkl dans
+      le cadre du festival Happy D\xE9cembre \xE0 Zgornja Kungota, o\xF9 vous recevrez
+      la visite du Parkl de Kungo avec ses amis Schmirnberg Teifln, les Diables du
+      Feu et le bon homme Saint Nicolas. .\n\nTo leto \u017Ee tretji\u010D vljudno
+      vabljeni na Parkl fest v sklopu festivala Veseli december v Zgornjo Kungoto,
+      kjer vas bodo obiskali Kungo\u0161ki parkli s prijatelji Schmirnberg Teifln,
+      Fire Devils in dober mo\u017E Sveti Miklav\u017E.</description>\n\t</photo>\n\t<photo
+      id=\"53302361444\" owner=\"127849392@N04\" secret=\"b06811e733\" server=\"65535\"
+      farm=\"66\" title=\"Martuljek Waterfall\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      ownername=\"Urko Photography\" dateadded=\"1698832304\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1698832302\" datetaken=\"2020-05-30 13:37:23\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" realname=\"URKO FOTO\" media=\"photo\" media_status=\"ready\"
+      url_sq=\"https://live.staticflickr.com/65535/53302361444_b06811e733_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53302361444_b06811e733_t.jpg\"
+      height_t=\"59\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53302361444_b06811e733_m.jpg\"
+      height_s=\"142\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53302361444_b06811e733.jpg\"
+      height_m=\"296\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53302361444_b06811e733_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53302361444_b06811e733_b.jpg\"
+      height_l=\"606\" width_l=\"1024\">\n\t\t<description>Gozd Martuljek, Slovenija</description>\n\t</photo>\n\t<photo
+      id=\"53300937438\" owner=\"146875677@N04\" secret=\"05a7d48806\" server=\"65535\"
+      farm=\"66\" title=\"Slowenien - Lake Jasna\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
+      ownername=\"Uwe K\xF6gler\" dateadded=\"1698782508\" license=\"0\" safety_level=\"0\"
+      dateupload=\"1698781750\" datetaken=\"2023-08-31 07:01:59\" datetakengranularity=\"0\"
+      datetakenunknown=\"0\" realname=\"Uwe K\xF6gler\" originalsecret=\"366cd7a778\"
+      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53300937438_05a7d48806_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53300937438_05a7d48806_t.jpg\"
+      height_t=\"69\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53300937438_05a7d48806_m.jpg\"
+      height_s=\"166\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53300937438_05a7d48806.jpg\"
+      height_m=\"345\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53300937438_366cd7a778_o.jpg\"
+      height_o=\"3942\" width_o=\"5709\" url_q=\"https://live.staticflickr.com/65535/53300937438_05a7d48806_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53300937438_05a7d48806_b.jpg\"
+      height_l=\"707\" width_l=\"1024\">\n\t\t<description>So ruhig und menschenleer
+      wie hier sieht man den Jasna-See nur selten, tags\xFCber ist hier alles voller
+      Leben. Es ist fr\xFCh am Morgen und wir wollen noch zu einer Bergwanderung,
+      aber dieser Stopp musste sein!</description>\n\t</photo>\n\t<photo id=\"53063137298\"
+      owner=\"144436250@N05\" secret=\"92d925cace\" server=\"65535\" farm=\"66\" title=\"Ptuj\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"wernerfunk\" dateadded=\"1698771532\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1690003755\" datetaken=\"2023-07-06
+      16:09:44\" datetakengranularity=\"0\" datetakenunknown=\"0\" realname=\"Werner
+      Funk\" originalsecret=\"8fb6edef43\" originalformat=\"jpg\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53063137298_92d925cace_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53063137298_92d925cace_t.jpg\"
+      height_t=\"51\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53063137298_92d925cace_m.jpg\"
+      height_s=\"123\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53063137298_92d925cace.jpg\"
+      height_m=\"257\" width_m=\"500\" url_o=\"https://live.staticflickr.com/65535/53063137298_8fb6edef43_o.jpg\"
+      height_o=\"3206\" width_o=\"6231\" url_q=\"https://live.staticflickr.com/65535/53063137298_92d925cace_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53063137298_92d925cace_b.jpg\"
+      height_l=\"527\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n\t<photo
+      id=\"53299371976\" owner=\"127849392@N04\" secret=\"5054be062a\" server=\"65535\"
+      farm=\"66\" title=\"Ghosts\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Urko
+      Photography\" dateadded=\"1698742011\" license=\"0\" safety_level=\"0\" dateupload=\"1698742003\"
+      datetaken=\"2019-10-31 21:16:15\" datetakengranularity=\"0\" datetakenunknown=\"0\"
+      realname=\"URKO FOTO\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53299371976_5054be062a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53299371976_5054be062a_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53299371976_5054be062a_m.jpg\"
+      height_s=\"157\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53299371976_5054be062a.jpg\"
+      height_m=\"328\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53299371976_5054be062a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53299371976_5054be062a_b.jpg\"
+      height_l=\"671\" width_l=\"1024\">\n\t\t<description>War is always a defeat.</description>\n\t</photo>\n\t<photo
+      id=\"53273954603\" owner=\"30657656@N06\" secret=\"0e26632b3a\" server=\"65535\"
+      farm=\"66\" title=\"Perfect reflection at Double Triglav Lake (Dvojno jezero)\"
+      ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"Damijan P.\" dateadded=\"1698685769\"
+      license=\"0\" safety_level=\"0\" dateupload=\"1697878016\" datetaken=\"2023-10-12
+      09:02:03\" datetakengranularity=\"0\" datetakenunknown=\"0\" media=\"photo\"
+      media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53273954603_0e26632b3a_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53273954603_0e26632b3a_t.jpg\"
+      height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53273954603_0e26632b3a_m.jpg\"
+      height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53273954603_0e26632b3a.jpg\"
+      height_m=\"333\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53273954603_0e26632b3a_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53273954603_0e26632b3a_b.jpg\"
+      height_l=\"683\" width_l=\"1024\">\n\t\t<description />\n\t</photo>\n</photos>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2777'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Sun, 05 Nov 2023 15:40:36 GMT
+      Via:
+      - 1.1 88e066f06ce21d9d589e0b7dba0cd180.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3oYXsHOzimuJO3HnakUbyNaaVHhuXzL9kVqxukkI7RURv5Rtdbsa_Q==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 15:40:35 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
+        hello@flickr.org)
+    method: GET
+    uri: https://api.flickr.com/services/rest/?method=flickr.photos.licenses.getInfo
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<licenses>\n\t<license
+      id=\"0\" name=\"All Rights Reserved\" url=\"\" />\n\t<license id=\"4\" name=\"Attribution
+      License\" url=\"https://creativecommons.org/licenses/by/2.0/\" />\n\t<license
+      id=\"6\" name=\"Attribution-NoDerivs License\" url=\"https://creativecommons.org/licenses/by-nd/2.0/\"
+      />\n\t<license id=\"3\" name=\"Attribution-NonCommercial-NoDerivs License\"
+      url=\"https://creativecommons.org/licenses/by-nc-nd/2.0/\" />\n\t<license id=\"2\"
+      name=\"Attribution-NonCommercial License\" url=\"https://creativecommons.org/licenses/by-nc/2.0/\"
+      />\n\t<license id=\"1\" name=\"Attribution-NonCommercial-ShareAlike License\"
+      url=\"https://creativecommons.org/licenses/by-nc-sa/2.0/\" />\n\t<license id=\"5\"
+      name=\"Attribution-ShareAlike License\" url=\"https://creativecommons.org/licenses/by-sa/2.0/\"
+      />\n\t<license id=\"7\" name=\"No known copyright restrictions\" url=\"https://www.flickr.com/commons/usage/\"
+      />\n\t<license id=\"8\" name=\"United States Government Work\" url=\"http://www.usa.gov/copyright.shtml\"
+      />\n\t<license id=\"9\" name=\"Public Domain Dedication (CC0)\" url=\"https://creativecommons.org/publicdomain/zero/1.0/\"
+      />\n\t<license id=\"10\" name=\"Public Domain Mark\" url=\"https://creativecommons.org/publicdomain/mark/1.0/\"
+      />\n</licenses>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '395'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Sun, 05 Nov 2023 15:40:36 GMT
+      Via:
+      - 1.1 88e066f06ce21d9d589e0b7dba0cd180.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - QK_mitBAMX_5eqIypjinVuWfCBi5CTkymstYC8lFXo7ggI50CEj6Zg==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 15:40:36 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
+        hello@flickr.org)
+    method: GET
+    uri: https://api.flickr.com/services/rest/?method=flickr.urls.lookupGroup&url=https%3A%2F%2Fwww.flickr.com%2Fgroups%2Fslovenia%2Fpool%2F
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<group
+      id=\"31849566@N00\">\n\t<groupname>Slovenia</groupname>\n</group>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '128'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Sun, 05 Nov 2023 15:40:36 GMT
+      Via:
+      - 1.1 88e066f06ce21d9d589e0b7dba0cd180.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - cA0Qs7yEQiu_vKppcXVkqu6zHWVtuvczwrRx4Y6hd2IDvbit6Q7AWA==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 15:40:36 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      host:
+      - api.flickr.com
+      user-agent:
+      - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
+        hello@flickr.org)
+    method: GET
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&group_id=31849566%40N00&method=flickr.groups.pools.getPhotos&page=5&per_page=1
+  response:
+    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
+      page=\"5\" pages=\"44474\" perpage=\"1\" total=\"44474\">\n\t<photo id=\"53303802460\"
+      owner=\"43902715@N04\" secret=\"4041549b04\" server=\"65535\" farm=\"66\" title=\"Kungoski
+      parkli  (Photo Edi)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" ownername=\"louis.foecy.fr\"
+      dateadded=\"1698871025\" license=\"0\" safety_level=\"0\" dateupload=\"1698871024\"
+      datetaken=\"2022-11-23 18:11:59\" datetakengranularity=\"0\" datetakenunknown=\"1\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/53303802460_4041549b04_s.jpg\"
+      height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/53303802460_4041549b04_t.jpg\"
+      height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/53303802460_4041549b04_m.jpg\"
+      height_s=\"159\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/53303802460_4041549b04.jpg\"
+      height_m=\"331\" width_m=\"500\" url_q=\"https://live.staticflickr.com/65535/53303802460_4041549b04_q.jpg\"
+      height_q=\"150\" width_q=\"150\" url_l=\"https://live.staticflickr.com/65535/53303802460_4041549b04_b.jpg\"
+      height_l=\"677\" width_l=\"1024\">\n\t\t<description>Cette ann\xE9e, pour la
+      troisi\xE8me fois, vous \xEAtes cordialement invit\xE9s au festival Parkl dans
+      le cadre du festival Happy D\xE9cembre \xE0 Zgornja Kungota, o\xF9 vous recevrez
+      la visite du Parkl de Kungo avec ses amis Schmirnberg Teifln, les Diables du
+      Feu et le bon homme Saint Nicolas. .\n\nTo leto \u017Ee tretji\u010D vljudno
+      vabljeni na Parkl fest v sklopu festivala Veseli december v Zgornjo Kungoto,
+      kjer vas bodo obiskali Kungo\u0161ki parkli s prijatelji Schmirnberg Teifln,
+      Fire Devils in dober mo\u017E Sveti Miklav\u017E.</description>\n\t</photo>\n</photos>\n</rsp>\n"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '833'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Sun, 05 Nov 2023 15:40:36 GMT
+      Via:
+      - 1.1 88e066f06ce21d9d589e0b7dba0cd180.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - D7ClJ-VTNa4BphhcCYyp5sqNk8emuUrUUNU_lzHYqXfGc8mJrojbyA==
+      X-Amz-Cf-Pop:
+      - LHR50-P8
+      X-Cache:
+      - Miss from cloudfront
+      content-encoding:
+      - gzip
+      server:
+      - Apache/2.4.57 (Ubuntu)
+      set-cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
+        expires=Tue, 05-Dec-2023 15:40:36 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+      x-robots-tag:
+      - noindex
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

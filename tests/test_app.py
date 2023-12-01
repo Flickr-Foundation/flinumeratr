@@ -1,6 +1,7 @@
 from flask.testing import FlaskClient
-from flickr_photos_api import FlickrPhotosApi
 import pytest
+
+from flinumeratr.flickr_photos_api import FlickrPhotosApi
 
 
 def test_can_load_homepage(client: FlaskClient, api: FlickrPhotosApi) -> None:
