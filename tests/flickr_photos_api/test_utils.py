@@ -1,4 +1,3 @@
-from typing import Optional
 import xml.etree.ElementTree as ET
 
 import pytest
@@ -57,7 +56,7 @@ def test_find_required_text_throws_if_cannot_find_element() -> None:
         ("hungarian", None),
     ],
 )
-def test_find_optional_text(path: str, expected: Optional[str]) -> None:
+def test_find_optional_text(path: str, expected: str | None) -> None:
     assert find_optional_text(XML, path=path) == expected
 
 

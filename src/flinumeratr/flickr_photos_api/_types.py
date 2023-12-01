@@ -1,5 +1,4 @@
 import datetime
-import sys
 from typing import Literal, TypedDict
 
 
@@ -67,7 +66,7 @@ class SinglePhoto(TypedDict):
 class CollectionOfPhotos(TypedDict):
     page_count: int
     total_photos: int
-    photos: List[SinglePhoto]
+    photos: list[SinglePhoto]
 
 
 class AlbumInfo(TypedDict):
@@ -97,6 +96,6 @@ class PhotosInGroup(CollectionOfPhotos):
     group: GroupInfo
 
 
-PhotosFromUrl = Union[
-    SinglePhoto, CollectionOfPhotos, PhotosInAlbum, PhotosInGallery, PhotosInGroup
-]
+PhotosFromUrl = (
+    SinglePhoto | CollectionOfPhotos | PhotosInAlbum | PhotosInGallery | PhotosInGroup
+)

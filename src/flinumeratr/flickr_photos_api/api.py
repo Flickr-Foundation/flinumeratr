@@ -1,5 +1,4 @@
 import functools
-from typing import Dict, List, Optional, Union
 import xml.etree.ElementTree as ET
 
 from flickr_url_parser import ParseResult, parse_flickr_url
@@ -47,7 +46,7 @@ class BaseApi:
             headers={"User-Agent": user_agent},
         )
 
-    def call(self, method: str, **params: Union[str, int]) -> ET.Element:
+    def call(self, method: str, **params: str | int) -> ET.Element:
         resp = self.client.get(url="", params={"method": method, **params})
         resp.raise_for_status()
 
@@ -86,7 +85,7 @@ class BaseApi:
 
 class FlickrPhotosApi(BaseApi):
     @functools.lru_cache()
-    def get_licenses(self) -> Dict[str, License]:
+    def get_licenses(self) -> dict[str, License]:
         """
         Returns a list of licenses, arranged by code.
 
@@ -94,7 +93,7 @@ class FlickrPhotosApi(BaseApi):
         """
         license_resp = self.call("flickr.photos.licenses.getInfo")
 
-        result: Dict[str, License] = {}
+        result: dict[str, License] = {}
 
         # Add a short ID which can be used to more easily refer to this
         # license throughout the codebase.
@@ -340,7 +339,7 @@ class FlickrPhotosApi(BaseApi):
         #
         # Within this function, we just return all the sizes -- we leave it up to the
         # caller to decide which size is most appropriate for their purposes.
-        sizes: List[Size] = []
+        sizes: list[Size] = []
 
         for s in sizes_resp.findall(".//size"):
             sizes.append(
@@ -394,7 +393,7 @@ class FlickrPhotosApi(BaseApi):
     def _parse_collection_of_photos_response(
         self,
         elem: ET.Element,
-        collection_owner: Optional[User] = None,
+        collection_owner: User | None = None,
     ) -> CollectionOfPhotos:
         # The wrapper element includes a couple of attributes related
         # to pagination, e.g.
@@ -404,7 +403,7 @@ class FlickrPhotosApi(BaseApi):
         page_count = int(elem.attrib["pages"])
         total_photos = int(elem.attrib["total"])
 
-        photos: List[SinglePhoto] = []
+        photos: list[SinglePhoto] = []
 
         for photo_elem in elem.findall(".//photo"):
             photo_id = photo_elem.attrib["id"]

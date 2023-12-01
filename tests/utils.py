@@ -1,7 +1,7 @@
 import datetime
 import json
 import os
-from typing import Any, TypeVar, Union
+from typing import Any, TypeVar
 
 
 def get_fixture(filename: str) -> Any:
@@ -36,7 +36,7 @@ def jsonify(t: T) -> Any:
     """
 
     class DatetimeEncoder(json.JSONEncoder):
-        def default(self, t: T) -> Union[str, T]:
+        def default(self, t: T) -> str | T:
             if isinstance(t, datetime.datetime):
                 return t.isoformat()
             else:  # pragma: no cover

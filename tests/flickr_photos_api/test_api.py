@@ -1,5 +1,4 @@
 import datetime
-from typing import Dict
 
 import pytest
 
@@ -60,7 +59,7 @@ from utils import get_fixture, jsonify
     ],
 )
 def test_methods_fail_if_not_found(
-    api: FlickrPhotosApi, method: str, params: Dict[str, str]
+    api: FlickrPhotosApi, method: str, params: dict[str, str]
 ) -> None:
     api_method = getattr(api, method)
 
@@ -418,7 +417,7 @@ def test_get_photos_with_tag(api: FlickrPhotosApi) -> None:
     ],
 )
 def test_get_collection_methods_are_paginated(
-    api: FlickrPhotosApi, method: str, kwargs: Dict[str, str]
+    api: FlickrPhotosApi, method: str, kwargs: dict[str, str]
 ) -> None:
     api_method = getattr(api, method)
 

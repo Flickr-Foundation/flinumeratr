@@ -1,5 +1,4 @@
 import datetime
-from typing import Dict, List, Optional
 import xml.etree.ElementTree as ET
 
 from ._types import SafetyLevel, Size, TakenGranularity
@@ -62,7 +61,7 @@ def find_required_text(elem: ET.Element, *, path: str) -> str:
     return text
 
 
-def find_optional_text(elem: ET.Element, *, path: str) -> Optional[str]:
+def find_optional_text(elem: ET.Element, *, path: str) -> str | None:
     """
     Find the text of the first element matching ``path``, or return None
     if the element is missing, has no text, or has empty text.
@@ -104,7 +103,7 @@ def parse_date_taken_granularity(g: str) -> TakenGranularity:
 
     See https://www.flickr.com/services/api/misc.dates.html
     """
-    lookup_table: Dict[str, TakenGranularity] = {
+    lookup_table: dict[str, TakenGranularity] = {
         "0": "second",
         "4": "month",
         "6": "year",
@@ -124,7 +123,7 @@ def parse_safety_level(s: str) -> SafetyLevel:
 
     See https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
     """
-    lookup_table: Dict[str, SafetyLevel] = {
+    lookup_table: dict[str, SafetyLevel] = {
         "0": "safe",
         "1": "moderate",
         "2": "restricted",
@@ -136,7 +135,7 @@ def parse_safety_level(s: str) -> SafetyLevel:
         raise ValueError(f"Unrecognised safety level: {s}")
 
 
-def parse_sizes(photo_elem: ET.Element) -> List[Size]:
+def parse_sizes(photo_elem: ET.Element) -> list[Size]:
     """
     Get a list of sizes from a photo in a collection response.
     """
@@ -151,7 +150,7 @@ def parse_sizes(photo_elem: ET.Element) -> List[Size]:
     #       …
     #     />
     #
-    sizes: List[Size] = []
+    sizes: list[Size] = []
 
     for suffix, label in [
         ("sq", "Square"),

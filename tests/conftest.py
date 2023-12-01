@@ -1,5 +1,5 @@
+from collections.abc import Generator
 import os
-from typing import Generator
 
 from flask.testing import FlaskClient
 import pytest
