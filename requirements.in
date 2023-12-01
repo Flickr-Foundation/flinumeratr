@@ -2,6 +2,7 @@ flickr-photos-api
 flickr-url-parser
 gunicorn
 hyperlink
+keyring
 
 # These version pins are all to maintain Python 3.7 support, even though
 # Python 3.7 is EOL.
