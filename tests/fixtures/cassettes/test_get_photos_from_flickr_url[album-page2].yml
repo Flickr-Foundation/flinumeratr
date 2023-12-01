@@ -134,7 +134,7 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=2&per_page=100&photoset_id=72157640898611483&user_id=115357548%40N08
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=2&per_page=100&photoset_id=72157640898611483&user_id=115357548%40N08
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157640898611483\" primary=\"40750084443\" owner=\"115357548@N08\" ownername=\"Joshua
@@ -144,7 +144,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1444232609\" datetaken=\"2015-10-06 17:47:24\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"6afd5d50bc\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5793/21834340709_7d96779f62_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5793/21834340709_7d96779f62_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5793/21834340709_7d96779f62_m.jpg\"
@@ -157,7 +157,7 @@ interactions:
       Roosting at Oasis of Mara; 10/7/15\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1444232608\" datetaken=\"2015-10-06
       17:47:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"1e39a5a021\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/611/22031134421_75667196cd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/611/22031134421_75667196cd_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/611/22031134421_75667196cd_m.jpg\"
@@ -170,7 +170,7 @@ interactions:
       roosting at Oasis of Mara; 10/7/15\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1444232607\" datetaken=\"2015-10-06
       17:45:54\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"54e7e42817\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/723/22031142221_8cc7887a23_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/723/22031142221_8cc7887a23_t.jpg\"
       height_t=\"61\" width_t=\"100\" url_s=\"https://live.staticflickr.com/723/22031142221_8cc7887a23_m.jpg\"
@@ -183,7 +183,7 @@ interactions:
       Jay\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1481144468\" datetaken=\"2015-09-17 09:06:44\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"1536d403aa\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5554/31454495166_b975ddf64d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5554/31454495166_b975ddf64d_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5554/31454495166_b975ddf64d_m.jpg\"
@@ -196,7 +196,7 @@ interactions:
       Shrike in the Rain\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1450463305\" datetaken=\"2015-09-15
       12:18:35\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"9e2c8509ae\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/662/23535656970_d03855ff9c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/662/23535656970_d03855ff9c_t.jpg\"
       height_t=\"79\" width_t=\"100\" url_s=\"https://live.staticflickr.com/662/23535656970_d03855ff9c_m.jpg\"
@@ -209,7 +209,7 @@ interactions:
       bird at Barker Dam\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1443813957\" datetaken=\"2015-09-11
       09:28:13\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"b65c50f76c\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/756/21903071801_85c19ac3ee_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/756/21903071801_85c19ac3ee_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/756/21903071801_85c19ac3ee_m.jpg\"
@@ -222,7 +222,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1431468347\" datetaken=\"2015-05-09
       13:58:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"0145e26c56\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7758/17388054719_ba490c3bed_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7758/17388054719_ba490c3bed_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7758/17388054719_ba490c3bed_m.jpg\"
@@ -235,7 +235,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1431468346\" datetaken=\"2015-05-09
       13:58:02\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"ee8303725c\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7687/17548051726_dfbca55e30_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7687/17548051726_dfbca55e30_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7687/17548051726_dfbca55e30_m.jpg\"
@@ -250,7 +250,7 @@ interactions:
       to Identify Birds\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1430250657\" datetaken=\"2015-03-31
       11:16:55\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"0cf30b0337\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7698/17116116200_008bfa2a9b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7698/17116116200_008bfa2a9b_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7698/17116116200_008bfa2a9b_m.jpg\"
@@ -263,7 +263,7 @@ interactions:
       Hawk (Buteo jamaicensis) Carrying Snake\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1430250655\" datetaken=\"2015-03-31
       09:09:30\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"9554970f6a\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7692/17116108720_70782a8b08_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7692/17116108720_70782a8b08_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7692/17116108720_70782a8b08_m.jpg\"
@@ -276,7 +276,7 @@ interactions:
       Scrub Jay (Aphelocoma californica)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1428347568\" datetaken=\"2015-03-23
       00:12:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"8e9bb0a5a1\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8811/17056404742_efda30fbcc_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8811/17056404742_efda30fbcc_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8811/17056404742_efda30fbcc_m.jpg\"
@@ -289,7 +289,7 @@ interactions:
       sparrow (Amphispiza bilineata)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1427396109\" datetaken=\"2015-03-18
       02:55:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"5f71d00125\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8731/16750828608_7cf5f3bc50_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8731/16750828608_7cf5f3bc50_t.jpg\"
       height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/8731/16750828608_7cf5f3bc50_m.jpg\"
@@ -304,7 +304,7 @@ interactions:
       jamaicensis)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1427396111\" datetaken=\"2015-03-18
       02:02:38\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"1c691691f7\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8741/16937513751_35f8b9c30f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8741/16937513751_35f8b9c30f_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8741/16937513751_35f8b9c30f_m.jpg\"
@@ -317,7 +317,7 @@ interactions:
       sparrows (Amphispiza bilineata)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1426545764\" datetaken=\"2015-03-10
       05:08:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"5546a7d444\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7636/16215875144_105ca56428_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7636/16215875144_105ca56428_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7636/16215875144_105ca56428_m.jpg\"
@@ -330,7 +330,7 @@ interactions:
       sparrows (Amphispiza bilineata)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1426545765\" datetaken=\"2015-03-10
       05:08:57\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"33a4aa3477\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8665/16215871384_ba0159be7e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8665/16215871384_ba0159be7e_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8665/16215871384_ba0159be7e_m.jpg\"
@@ -343,7 +343,7 @@ interactions:
       (Corvus corax)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1426545765\" datetaken=\"2015-03-10
       04:49:36\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"f5b928670d\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8749/16838220775_fdefb8b0c9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8749/16838220775_fdefb8b0c9_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8749/16838220775_fdefb8b0c9_m.jpg\"
@@ -357,7 +357,7 @@ interactions:
       seeds\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1424376989\" datetaken=\"2015-02-18 14:39:59\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"2bc6eecaec\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8561/15963492823_c3b6a8bfca_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8561/15963492823_c3b6a8bfca_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8561/15963492823_c3b6a8bfca_m.jpg\"
@@ -370,7 +370,7 @@ interactions:
       on 12/31/14 - Raven on Mojave yucca\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1421537064\" datetaken=\"2014-12-31
       07:47:26\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"ed32aaa947\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7533/16278014916_2c4b06e42f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7533/16278014916_2c4b06e42f_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7533/16278014916_2c4b06e42f_m.jpg\"
@@ -383,7 +383,7 @@ interactions:
       quail (Callipepla gambelii)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1427396115\" datetaken=\"2014-12-07
       13:54:14\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"218df7a501\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8750/16750987760_3e7da6b779_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8750/16750987760_3e7da6b779_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8750/16750987760_3e7da6b779_m.jpg\"
@@ -396,7 +396,7 @@ interactions:
       Waxwing\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951206\" datetaken=\"2014-11-04 11:34:47\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"513a5d4580\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4444/37897470922_6164603d00_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4444/37897470922_6164603d00_t.jpg\"
       height_t=\"79\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4444/37897470922_6164603d00_m.jpg\"
@@ -411,7 +411,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1408743615\" datetaken=\"2014-08-06 09:12:00\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"2e00a598ae\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3891/14979852526_33d3644d63_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3891/14979852526_33d3644d63_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3891/14979852526_33d3644d63_m.jpg\"
@@ -427,7 +427,7 @@ interactions:
       tridentata)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1415408081\" datetaken=\"2014-06-26 14:05:15\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"ac142b36c2\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3952/15116149633_c06883f3d2_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3952/15116149633_c06883f3d2_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3952/15116149633_c06883f3d2_m.jpg\"
@@ -440,8 +440,8 @@ interactions:
       Flycatcher (Myiarchus tuberculifer) on Creosote Bush (Larrea tridentata)\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1415408081\" datetaken=\"2014-06-26 14:04:32\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"49aba76447\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5610/15115581524_b338ea671b_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5610/15115581524_b338ea671b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5610/15115581524_b338ea671b_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5610/15115581524_b338ea671b_m.jpg\"
       height_s=\"159\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5610/15115581524_b338ea671b.jpg\"
@@ -453,7 +453,7 @@ interactions:
       Quail (Callipepla gambelii), male\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1440099550\" datetaken=\"2014-05-12
       09:59:08\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"2b638c8fca\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5673/20117663704_4173537681_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5673/20117663704_4173537681_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5673/20117663704_4173537681_m.jpg\"
@@ -466,7 +466,7 @@ interactions:
       quail chicks\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1441910593\" datetaken=\"2014-05-12
       09:55:19\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"e6512592ab\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5707/20678432374_b8ed9e0c01_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5707/20678432374_b8ed9e0c01_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5707/20678432374_b8ed9e0c01_m.jpg\"
@@ -479,7 +479,7 @@ interactions:
       with Gambel&#039;s quail chick\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1441910594\" datetaken=\"2014-05-12
       08:51:34\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"cc029767cc\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/688/21113230218_482c3eeba3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/688/21113230218_482c3eeba3_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/688/21113230218_482c3eeba3_m.jpg\"
@@ -492,7 +492,7 @@ interactions:
       hawk (Buteo jamaicensis) chick\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1400616243\" datetaken=\"2014-05-01
       14:08:27\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"2c950cb4f3\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5495/14045509068_d335acbb0a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5495/14045509068_d335acbb0a_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5495/14045509068_d335acbb0a_m.jpg\"
@@ -505,7 +505,7 @@ interactions:
       skewered on Mojave yucca spike by loggerhead shrike\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1400616222\"
       datetaken=\"2014-04-06 09:54:50\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"e5eed30402\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2896/14045718200_51c68aa940_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2896/14045718200_51c68aa940_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2896/14045718200_51c68aa940_m.jpg\"
@@ -519,8 +519,8 @@ interactions:
       server=\"638\" farm=\"1\" title=\"Unidentified Flycatcher\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1440101266\" datetaken=\"2014-03-11 03:29:34\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"17ca86ce00\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/638/20740872075_217df27901_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/638/20740872075_217df27901_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/638/20740872075_217df27901_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/638/20740872075_217df27901_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/638/20740872075_217df27901.jpg\"
@@ -532,7 +532,7 @@ interactions:
       Woodpecker (Picoides scalaris) on mojave yucca\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1440099548\"
       datetaken=\"2014-03-05 16:59:15\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"6cbfd36a25\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/653/20730957142_b88d5e35e0_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/653/20730957142_b88d5e35e0_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/653/20730957142_b88d5e35e0_m.jpg\"
@@ -547,8 +547,8 @@ interactions:
       wren (Campylorhynchus brunneicapillus) on teddybear cholla\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1440099549\" datetaken=\"2014-03-03 12:53:34\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"578851d1af\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5666/20740265425_e525e23768_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5666/20740265425_e525e23768_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5666/20740265425_e525e23768_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5666/20740265425_e525e23768_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/5666/20740265425_e525e23768.jpg\"
@@ -562,7 +562,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977679\"
       datetaken=\"2014-03-03 12:52:12\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"65d5aebf39\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3801/12937904435_2a76f11a82_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3801/12937904435_2a76f11a82_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3801/12937904435_2a76f11a82_m.jpg\"
@@ -575,8 +575,8 @@ interactions:
       Wren (Campylorhynchus brunneicapillus) on teddybear cholla\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1440099549\" datetaken=\"2014-03-03 12:48:45\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"4871b6cae9\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/571/20730946272_59c684292c_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/571/20730946272_59c684292c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/571/20730946272_59c684292c_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/571/20730946272_59c684292c_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/571/20730946272_59c684292c.jpg\"
@@ -588,7 +588,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977678\"
       datetaken=\"2014-03-03 12:44:35\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"01ac904f3b\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7360/12938027583_75fb1f4286_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7360/12938027583_75fb1f4286_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7360/12938027583_75fb1f4286_m.jpg\"
@@ -601,7 +601,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977677\"
       datetaken=\"2014-03-03 12:39:53\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"1b6ef2d1d0\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7356/12938042023_f24d201fbb_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7356/12938042023_f24d201fbb_t.jpg\"
       height_t=\"100\" width_t=\"67\" url_s=\"https://live.staticflickr.com/7356/12938042023_f24d201fbb_m.jpg\"
@@ -614,7 +614,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977676\"
       datetaken=\"2014-03-03 12:39:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"5d4076b312\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3756/12938364434_9a7535bbf7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3756/12938364434_9a7535bbf7_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3756/12938364434_9a7535bbf7_m.jpg\"
@@ -627,7 +627,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977675\"
       datetaken=\"2014-03-03 12:35:25\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"1e02e13759\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2823/12938376254_7062e133e7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2823/12938376254_7062e133e7_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2823/12938376254_7062e133e7_m.jpg\"
@@ -640,7 +640,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977674\"
       datetaken=\"2014-03-03 12:34:52\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"dbf1f6e57b\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3681/12938385904_93f88758e6_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3681/12938385904_93f88758e6_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3681/12938385904_93f88758e6_m.jpg\"
@@ -653,7 +653,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977673\"
       datetaken=\"2014-03-03 12:34:51\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"b51d74dcd3\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2833/12938396024_7aa52bc323_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2833/12938396024_7aa52bc323_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2833/12938396024_7aa52bc323_m.jpg\"
@@ -666,7 +666,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977673\"
       datetaken=\"2014-03-03 12:30:29\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"b125eaa18e\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3732/12937993255_ee57a15ae7_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3732/12937993255_ee57a15ae7_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3732/12937993255_ee57a15ae7_m.jpg\"
@@ -679,7 +679,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus) building a nest\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977672\"
       datetaken=\"2014-03-03 12:30:18\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"8c94d788e2\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2858/12938005155_15d47cabf9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2858/12938005155_15d47cabf9_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2858/12938005155_15d47cabf9_m.jpg\"
@@ -692,7 +692,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977671\" datetaken=\"2014-03-03
       11:12:04\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"8aa187f4cf\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7349/12938423854_d5ef58080c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7349/12938423854_d5ef58080c_t.jpg\"
       height_t=\"62\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7349/12938423854_d5ef58080c_m.jpg\"
@@ -705,7 +705,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977671\" datetaken=\"2014-03-03
       11:11:43\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"87e8198f78\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7390/12938133183_f9a168e0df_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7390/12938133183_f9a168e0df_t.jpg\"
       height_t=\"41\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7390/12938133183_f9a168e0df_m.jpg\"
@@ -718,7 +718,7 @@ interactions:
       bird at chuparosa (Justicia californica)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977671\" datetaken=\"2014-02-28
       15:31:53\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"327dc3c98b\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2858/12938044225_d8fe4586f3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2858/12938044225_d8fe4586f3_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2858/12938044225_d8fe4586f3_m.jpg\"
@@ -731,7 +731,7 @@ interactions:
       at chuparosa (Justicia californica)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977670\" datetaken=\"2014-02-28
       15:31:50\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"62b74cac2b\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7345/12938158613_963dd91509_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7345/12938158613_963dd91509_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7345/12938158613_963dd91509_m.jpg\"
@@ -744,7 +744,7 @@ interactions:
       at Oasis of Mara\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1393977669\" datetaken=\"2014-02-28
       15:31:23\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"03ae6495cc\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3822/12938163583_0016d7c3d3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3822/12938163583_0016d7c3d3_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3822/12938163583_0016d7c3d3_m.jpg\"
@@ -757,7 +757,7 @@ interactions:
       quail (Callipepla gambelii)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977668\" datetaken=\"2014-02-26
       16:12:44\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"f54f8cf51e\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7342/12938471544_2a412e5dc9_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7342/12938471544_2a412e5dc9_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7342/12938471544_2a412e5dc9_m.jpg\"
@@ -770,7 +770,7 @@ interactions:
       quail (Callipepla gambelii)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977668\" datetaken=\"2014-02-26
       16:11:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"b63206468c\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3822/12938064105_d0cce101bb_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3822/12938064105_d0cce101bb_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3822/12938064105_d0cce101bb_m.jpg\"
@@ -783,7 +783,7 @@ interactions:
       quail (Callipepla gambelii)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977667\" datetaken=\"2014-02-26
       16:10:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"d499685a75\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7404/12938068595_490b0fa004_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7404/12938068595_490b0fa004_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7404/12938068595_490b0fa004_m.jpg\"
@@ -796,7 +796,7 @@ interactions:
       (Phainopepla nitens)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1392409622\" datetaken=\"2014-02-13
       16:51:04\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"f1674d5182\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3719/12526697173_19765dd2bb_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3719/12526697173_19765dd2bb_t.jpg\"
       height_t=\"63\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3719/12526697173_19765dd2bb_m.jpg\"
@@ -809,7 +809,7 @@ interactions:
       at Oasis of Mara\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1392409622\" datetaken=\"2014-02-13
       16:50:17\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"792361f85f\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7456/12526584705_5688c6e731_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7456/12526584705_5688c6e731_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7456/12526584705_5688c6e731_m.jpg\"
@@ -822,7 +822,7 @@ interactions:
       at Oasis of Mara\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1392409621\" datetaken=\"2014-02-13
       16:49:50\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"26017d40a4\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5533/12526707753_35c46d6353_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5533/12526707753_35c46d6353_t.jpg\"
       height_t=\"65\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5533/12526707753_35c46d6353_m.jpg\"
@@ -835,7 +835,7 @@ interactions:
       Mockingbird (Mimus polyglottos) at Oasis of Mara\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1440099549\"
       datetaken=\"2014-02-07 09:42:43\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"8daf313fc0\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5816/20553519219_69e34256d8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5816/20553519219_69e34256d8_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5816/20553519219_69e34256d8_m.jpg\"
@@ -848,7 +848,7 @@ interactions:
       Roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1440012650\" datetaken=\"2014-02-05
       10:47:32\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"081aa45729\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5732/20092404753_506e16a816_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5732/20092404753_506e16a816_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5732/20092404753_506e16a816_m.jpg\"
@@ -861,7 +861,7 @@ interactions:
       roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977666\" datetaken=\"2014-01-28
       15:54:18\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"a04f8b0689\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7363/12938079055_1ba381494a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7363/12938079055_1ba381494a_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7363/12938079055_1ba381494a_m.jpg\"
@@ -874,7 +874,7 @@ interactions:
       roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977665\" datetaken=\"2014-01-28
       15:54:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"cbd82343fc\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3729/12938501944_bf3fe62778_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3729/12938501944_bf3fe62778_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3729/12938501944_bf3fe62778_m.jpg\"
@@ -887,7 +887,7 @@ interactions:
       roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977665\" datetaken=\"2014-01-28
       15:53:09\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"19d1c23388\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3736/12938204193_d27f29d0b8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3736/12938204193_d27f29d0b8_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3736/12938204193_d27f29d0b8_m.jpg\"
@@ -900,7 +900,7 @@ interactions:
       Roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1440099548\" datetaken=\"2014-01-28
       15:52:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"1812b28cd7\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5696/20553531759_a74e9b0022_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5696/20553531759_a74e9b0022_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5696/20553531759_a74e9b0022_m.jpg\"
@@ -913,7 +913,7 @@ interactions:
       roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977665\" datetaken=\"2014-01-28
       15:52:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"1fc02c7806\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3771/12938113005_8fe462144f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3771/12938113005_8fe462144f_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3771/12938113005_8fe462144f_m.jpg\"
@@ -926,7 +926,7 @@ interactions:
       Roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1456253541\" datetaken=\"2014-01-28
       15:52:39\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"864fda8cba\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1470/25192500806_3646c2ae8d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1470/25192500806_3646c2ae8d_t.jpg\"
       height_t=\"79\" width_t=\"100\" url_s=\"https://live.staticflickr.com/1470/25192500806_3646c2ae8d_m.jpg\"
@@ -941,7 +941,7 @@ interactions:
       hawk\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951210\" datetaken=\"2014-01-28 15:49:51\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"9229e514be\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4485/37875503046_fa4efdd331_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4485/37875503046_fa4efdd331_t.jpg\"
       height_t=\"58\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4485/37875503046_fa4efdd331_m.jpg\"
@@ -954,7 +954,7 @@ interactions:
       roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977664\" datetaken=\"2014-01-28
       15:46:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"1145129deb\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7431/12938224753_b2cb55ae88_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7431/12938224753_b2cb55ae88_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7431/12938224753_b2cb55ae88_m.jpg\"
@@ -967,7 +967,7 @@ interactions:
       sitting on creosote bush branch\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1474485326\" datetaken=\"2014-01-28
       15:46:15\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"f180aa03a6\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/8378/29756622201_dd8ec42282_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/8378/29756622201_dd8ec42282_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/8378/29756622201_dd8ec42282_m.jpg\"
@@ -980,7 +980,7 @@ interactions:
       roadrunner (Geococcyx californianus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1393977681\" datetaken=\"2014-01-20
       14:57:24\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"3afb60cea6\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2868/12937890555_83914a2792_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2868/12937890555_83914a2792_t.jpg\"
       height_t=\"66\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2868/12937890555_83914a2792_m.jpg\"
@@ -993,7 +993,7 @@ interactions:
       Flicker\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951209\" datetaken=\"2014-01-14 11:23:13\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"cb2572de9d\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4475/37875507526_0485a4c9f3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4475/37875507526_0485a4c9f3_t.jpg\"
       height_t=\"100\" width_t=\"77\" url_s=\"https://live.staticflickr.com/4475/37875507526_0485a4c9f3_m.jpg\"
@@ -1006,7 +1006,7 @@ interactions:
       Finch (Haemorhous mexicanus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1508951208\" datetaken=\"2014-01-13
       08:50:49\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"40c0484e54\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4490/26152839669_50f77c908e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4490/26152839669_50f77c908e_t.jpg\"
       height_t=\"100\" width_t=\"73\" url_s=\"https://live.staticflickr.com/4490/26152839669_50f77c908e_m.jpg\"
@@ -1020,8 +1020,8 @@ interactions:
       secret=\"61776673fd\" server=\"4512\" farm=\"5\" title=\"Burrowing Owl\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1508951205\" datetaken=\"2014-01-02 16:14:29\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"6c6ea527e0\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4512/37219062444_61776673fd_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4512/37219062444_61776673fd_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4512/37219062444_61776673fd_t.jpg\"
       height_t=\"82\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4512/37219062444_61776673fd_m.jpg\"
       height_s=\"196\" width_s=\"240\" url_m=\"https://live.staticflickr.com/4512/37219062444_61776673fd.jpg\"
@@ -1033,7 +1033,7 @@ interactions:
       sparrow (Zonotrichia leucophrys)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1508951212\" datetaken=\"2014-01-02
       14:30:58\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"59740d154b\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4480/37897406642_8254494134_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4480/37897406642_8254494134_t.jpg\"
       height_t=\"100\" width_t=\"76\" url_s=\"https://live.staticflickr.com/4480/37897406642_8254494134_m.jpg\"
@@ -1048,7 +1048,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951207\" datetaken=\"2014-01-02 13:45:43\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"43d312d726\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4476/37875523336_79a5492013_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4476/37875523336_79a5492013_t.jpg\"
       height_t=\"74\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4476/37875523336_79a5492013_m.jpg\"
@@ -1061,7 +1061,7 @@ interactions:
       Egret and Great Blue Heron at Barker Dam\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1508951207\" datetaken=\"2014-01-02
       13:42:21\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"d9d174f1d8\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4503/24077445788_bfc1c98f9c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4503/24077445788_bfc1c98f9c_t.jpg\"
       height_t=\"100\" width_t=\"73\" url_s=\"https://live.staticflickr.com/4503/24077445788_bfc1c98f9c_m.jpg\"
@@ -1074,7 +1074,7 @@ interactions:
       Dove (Zenaida macroura)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1508951208\" datetaken=\"2014-01-02
       12:57:59\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"c0ef9dca25\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4451/37875513876_6423791281_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4451/37875513876_6423791281_t.jpg\"
       height_t=\"100\" width_t=\"79\" url_s=\"https://live.staticflickr.com/4451/37875513876_6423791281_m.jpg\"
@@ -1088,7 +1088,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951211\" datetaken=\"2013-12-05 12:25:56\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"c4062fb578\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4502/37875488226_fb514fffb8_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4502/37875488226_fb514fffb8_t.jpg\"
       height_t=\"98\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4502/37875488226_fb514fffb8_m.jpg\"
@@ -1101,7 +1101,7 @@ interactions:
       Thrashers\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951206\" datetaken=\"2011-01-23 17:44:15\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"43d9c5c976\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4461/24077447618_9d3655a45d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4461/24077447618_9d3655a45d_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4461/24077447618_9d3655a45d_m.jpg\"
@@ -1114,7 +1114,7 @@ interactions:
       thrasher (Toxostoma redivivum)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1392248012\" datetaken=\"2011-01-23
       17:37:16\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"4c4c0cd434\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3684/12488732673_f909777704_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3684/12488732673_f909777704_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3684/12488732673_f909777704_m.jpg\"
@@ -1129,7 +1129,7 @@ interactions:
       jay\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508951212\" datetaken=\"2011-01-23 17:35:39\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"2f36450dd1\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4501/26152800689_6662672276_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4501/26152800689_6662672276_t.jpg\"
       height_t=\"79\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4501/26152800689_6662672276_m.jpg\"
@@ -1142,7 +1142,7 @@ interactions:
       jay (Aphelocoma californica)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1392248015\" datetaken=\"2011-01-23
       17:35:39\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"79fa28b499\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5528/12488572145_8a728bdf42_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5528/12488572145_8a728bdf42_t.jpg\"
       height_t=\"79\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5528/12488572145_8a728bdf42_m.jpg\"
@@ -1156,8 +1156,8 @@ interactions:
       server=\"4508\" farm=\"5\" title=\"Scrub jay (Aphelocoma californica)\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1508951211\" datetaken=\"2010-12-06 17:05:02\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"a15901e296\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4508/37928527071_fee51b14de_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4508/37928527071_fee51b14de_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4508/37928527071_fee51b14de_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4508/37928527071_fee51b14de_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/4508/37928527071_fee51b14de.jpg\"
@@ -1170,8 +1170,8 @@ interactions:
       server=\"3687\" farm=\"4\" title=\"Phainopepla (Phainopepla nitens)\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1392248016\" datetaken=\"2010-10-24 15:18:48\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"91ecfdb43b\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3687/12488610755_cbe104ab92_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3687/12488610755_cbe104ab92_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3687/12488610755_cbe104ab92_t.jpg\"
       height_t=\"100\" width_t=\"75\" url_s=\"https://live.staticflickr.com/3687/12488610755_cbe104ab92_m.jpg\"
       height_s=\"240\" width_s=\"180\" url_m=\"https://live.staticflickr.com/3687/12488610755_cbe104ab92.jpg\"
@@ -1185,7 +1185,7 @@ interactions:
       hawk (Accipiter cooperii)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1392248015\" datetaken=\"2010-10-24
       07:28:31\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"dd5c66073e\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7379/12488613975_1e1dcabb1c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7379/12488613975_1e1dcabb1c_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7379/12488613975_1e1dcabb1c_m.jpg\"
@@ -1200,7 +1200,7 @@ interactions:
       wren (Campylorhynchus brunneicapillus)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1392248013\" datetaken=\"2010-10-24
       06:56:29\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"2e8a9802a7\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3707/12488590625_fd1c208818_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3707/12488590625_fd1c208818_t.jpg\"
       height_t=\"69\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3707/12488590625_fd1c208818_m.jpg\"
@@ -1215,8 +1215,8 @@ interactions:
       virginianus) in Joshua tree (Yucca brevifolia) near Black Rock\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1393977680\" datetaken=\"2010-05-10 18:03:11\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"f73cb3cccf\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2853/12938307524_cb4f8d9f44_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2853/12938307524_cb4f8d9f44_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2853/12938307524_cb4f8d9f44_t.jpg\"
       height_t=\"100\" width_t=\"62\" url_s=\"https://live.staticflickr.com/2853/12938307524_cb4f8d9f44_m.jpg\"
       height_s=\"240\" width_s=\"150\" url_m=\"https://live.staticflickr.com/2853/12938307524_cb4f8d9f44.jpg\"
@@ -1229,7 +1229,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1393977679\" datetaken=\"2010-05-10 18:02:54\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"3ec0a20b9f\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7457/12938309124_c74174ca4f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7457/12938309124_c74174ca4f_t.jpg\"
       height_t=\"59\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7457/12938309124_c74174ca4f_m.jpg\"
@@ -1243,7 +1243,7 @@ interactions:
       shrike (Lanius ludovicianus) in Queen Valley\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1392248014\"
       datetaken=\"2010-02-04 18:22:49\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"2561e6698e\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/7422/12488581405_1b47b51bda_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/7422/12488581405_1b47b51bda_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/7422/12488581405_1b47b51bda_m.jpg\"
@@ -1258,7 +1258,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1508949717\" datetaken=\"2008-12-07 16:23:45\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"3395b813ca\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/4465/37218459734_4f64e3fee6_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/4465/37218459734_4f64e3fee6_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/4465/37218459734_4f64e3fee6_m.jpg\"
@@ -1273,7 +1273,7 @@ interactions:
       (Yucca brevifolia) in Queen Valley\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1392248014\" datetaken=\"2008-03-29
       14:46:53\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"64cf85da54\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/5522/12488695243_abfaa2b505_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/5522/12488695243_abfaa2b505_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/5522/12488695243_abfaa2b505_m.jpg\"
@@ -1288,7 +1288,7 @@ interactions:
       aura) at the Oasis of Mara\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1392248016\" datetaken=\"2007-09-21
       17:23:50\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"ac86ce617d\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3745/12488734983_e179abcf6d_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3745/12488734983_e179abcf6d_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3745/12488734983_e179abcf6d_m.jpg\"
@@ -1303,7 +1303,7 @@ interactions:
       vulture (Cathartes aura) near Cottonwood Springs\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1604555075\"
       datetaken=\"2020-09-15 08:40:21\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"68772a8236\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50568693166_f7156af715_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50568693166_f7156af715_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50568693166_f7156af715_m.jpg\"
@@ -1317,7 +1317,7 @@ interactions:
       vulture (Cathartes aura) near Cottonwood Springs\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1604555075\"
       datetaken=\"2020-09-15 08:40:47\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"88fd55bb56\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50568824392_4980369788_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50568824392_4980369788_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50568824392_4980369788_m.jpg\"
@@ -1332,7 +1332,7 @@ interactions:
       Springs\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1604555076\" datetaken=\"2020-09-15 08:40:05\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"6673030843\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50568692636_ea3f7d6692_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50568692636_ea3f7d6692_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50568692636_ea3f7d6692_m.jpg\"
@@ -1347,7 +1347,7 @@ interactions:
       Springs\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1604555076\" datetaken=\"2020-09-15 08:40:05\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"c3d8e40ce1\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50568824042_94b278a102_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50568824042_94b278a102_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50568824042_94b278a102_m.jpg\"
@@ -1362,7 +1362,7 @@ interactions:
       Springs\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\"
       safety_level=\"0\" dateupload=\"1604555078\" datetaken=\"2020-09-15 08:39:25\"
       datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua Tree National
-      Park\" originalsecret=\"c9d980c19b\" originalformat=\"jpg\" media=\"photo\"
+      Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50567941333_ba9f39281b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50567941333_ba9f39281b_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50567941333_ba9f39281b_m.jpg\"
@@ -1377,7 +1377,7 @@ interactions:
       near Cottonwood Springs\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1604555079\" datetaken=\"2020-09-15
       08:29:52\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"e33c122f56\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50567941068_b16144963c_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50567941068_b16144963c_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50567941068_b16144963c_m.jpg\"
@@ -1392,7 +1392,7 @@ interactions:
       aura) near Cottonwood Springs\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1604555079\" datetaken=\"2020-09-15
       08:39:44\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"2d57565a77\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50568692491_2cfed25303_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50568692491_2cfed25303_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50568692491_2cfed25303_m.jpg\"
@@ -1406,7 +1406,7 @@ interactions:
       kinglet (Regulus calendula) at Cottonwood Springs\" isprimary=\"0\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1604874393\"
       datetaken=\"2020-11-02 17:07:27\" datetakengranularity=\"0\" datetakenunknown=\"0\"
-      ownername=\"Joshua Tree National Park\" originalsecret=\"63dd00d207\" originalformat=\"jpg\"
+      ownername=\"Joshua Tree National Park\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50580537498_d924b4851f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50580537498_d924b4851f_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50580537498_d924b4851f_m.jpg\"
@@ -1421,7 +1421,7 @@ interactions:
       sparrow (Amphispiza bilineata)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1605397845\" datetaken=\"2019-11-24
       09:51:54\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"c287ffe2d5\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50601992453_bb3c5e5422_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50601992453_bb3c5e5422_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50601992453_bb3c5e5422_m.jpg\"
@@ -1436,7 +1436,7 @@ interactions:
       flaviceps) near Contact Mine\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1605397845\" datetaken=\"2019-11-24
       09:57:45\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"c567251488\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50602851462_103ed5b137_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50602851462_103ed5b137_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50602851462_103ed5b137_m.jpg\"
@@ -1450,7 +1450,7 @@ interactions:
       sparrow (Amphispiza bilineata)\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"10\" safety_level=\"0\" dateupload=\"1605397846\" datetaken=\"2019-11-24
       09:50:10\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"5d6ba51a1f\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50601992733_f42da06a1f_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50601992733_f42da06a1f_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50601992733_f42da06a1f_m.jpg\"
@@ -1464,8 +1464,8 @@ interactions:
       server=\"65535\" farm=\"66\" title=\"Raven (Corvus corax)\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1605470116\" datetaken=\"2020-03-12 14:07:48\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"5973e085eb\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50606566307_5eca509c05_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50606566307_5eca509c05_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50606566307_5eca509c05_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50606566307_5eca509c05_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/50606566307_5eca509c05.jpg\"
@@ -1479,7 +1479,7 @@ interactions:
       Oasis of Mara\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"10\" safety_level=\"0\" dateupload=\"1605479205\" datetaken=\"2020-03-12
       14:07:08\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Joshua
-      Tree National Park\" originalsecret=\"776ab91f3b\" originalformat=\"jpg\" media=\"photo\"
+      Tree National Park\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50607016096_bb77890b9e_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50607016096_bb77890b9e_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50607016096_bb77890b9e_m.jpg\"
@@ -1494,8 +1494,8 @@ interactions:
       wren (Campylorhynchus brunneicapillus) at the Oasis of Mara\" isprimary=\"0\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"10\" safety_level=\"0\"
       dateupload=\"1605479206\" datetaken=\"2020-03-12 14:07:02\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\" originalsecret=\"265546542f\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50606271783_f06cb3e44b_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"Joshua Tree National Park\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/65535/50606271783_f06cb3e44b_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/65535/50606271783_f06cb3e44b_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/65535/50606271783_f06cb3e44b_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/65535/50606271783_f06cb3e44b.jpg\"

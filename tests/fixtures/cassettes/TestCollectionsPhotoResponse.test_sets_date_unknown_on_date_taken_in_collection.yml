@@ -141,7 +141,7 @@ interactions:
       - flickr-photos-api/dev (https://github.com/Flickr-Foundation/flickr-photos-api;
         hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157664284840282&user_id=31575009%40N05
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname&method=flickr.photosets.getPhotos&page=1&per_page=10&photoset_id=72157664284840282&user_id=31575009%40N05
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photoset
       id=\"72157664284840282\" primary=\"24284955104\" owner=\"31575009@N05\" ownername=\"The
@@ -151,7 +151,7 @@ interactions:
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
       dateupload=\"1455012159\" datetaken=\"2016-02-09 10:01:59\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
-      originalsecret=\"f558de7f40\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1577/24819736071_e9c8f76b1d_s.jpg\" height_sq=\"75\"
       width_sq=\"75\" url_t=\"https://live.staticflickr.com/1577/24819736071_e9c8f76b1d_t.jpg\"
       height_t=\"100\" width_t=\"70\" url_s=\"https://live.staticflickr.com/1577/24819736071_e9c8f76b1d_m.jpg\"
@@ -173,7 +173,7 @@ interactions:
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
       dateupload=\"1455012161\" datetaken=\"2016-02-09 10:01:58\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
-      originalsecret=\"f294fa53dc\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1545/24284955174_16d849aaa4_s.jpg\" height_sq=\"75\"
       width_sq=\"75\" url_t=\"https://live.staticflickr.com/1545/24284955174_16d849aaa4_t.jpg\"
       height_t=\"100\" width_t=\"81\" url_s=\"https://live.staticflickr.com/1545/24284955174_16d849aaa4_m.jpg\"
@@ -195,7 +195,7 @@ interactions:
       Power demonstration\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"7\" safety_level=\"0\" dateupload=\"1455012160\" datetaken=\"2016-02-09
       10:01:59\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The
-      National Archives UK\" realname=\"\" originalsecret=\"2c53626b3c\" originalformat=\"jpg\"
+      National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1703/24795146422_64a35fb440_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1703/24795146422_64a35fb440_t.jpg\"
       height_t=\"100\" width_t=\"81\" url_s=\"https://live.staticflickr.com/1703/24795146422_64a35fb440_m.jpg\"
@@ -216,7 +216,7 @@ interactions:
       Panther movement newspaper\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"7\" safety_level=\"0\" dateupload=\"1455012161\" datetaken=\"2016-02-09
       10:01:57\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The
-      National Archives UK\" realname=\"\" originalsecret=\"499d22dddb\" originalformat=\"jpg\"
+      National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1712/24819735771_08d3270366_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1712/24819735771_08d3270366_t.jpg\"
       height_t=\"100\" width_t=\"82\" url_s=\"https://live.staticflickr.com/1712/24819735771_08d3270366_m.jpg\"
@@ -235,8 +235,8 @@ interactions:
       server=\"1462\" farm=\"2\" title=\"Protesters\" isprimary=\"1\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\" dateupload=\"1455012162\"
       datetaken=\"2016-02-09 10:01:58\" datetakengranularity=\"0\" datetakenunknown=\"1\"
-      ownername=\"The National Archives UK\" realname=\"\" originalsecret=\"1122f88183\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1462/24284955104_a636db6774_s.jpg\"
+      ownername=\"The National Archives UK\" realname=\"\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1462/24284955104_a636db6774_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1462/24284955104_a636db6774_t.jpg\"
       height_t=\"68\" width_t=\"100\" url_s=\"https://live.staticflickr.com/1462/24284955104_a636db6774_m.jpg\"
       height_s=\"162\" width_s=\"240\" url_m=\"https://live.staticflickr.com/1462/24284955104_a636db6774.jpg\"
@@ -256,7 +256,7 @@ interactions:
       isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
       dateupload=\"1455012157\" datetaken=\"2016-02-09 10:02:01\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
-      originalsecret=\"e123b054dc\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1688/24284955664_5a4305d862_s.jpg\" height_sq=\"75\"
       width_sq=\"75\" url_t=\"https://live.staticflickr.com/1688/24284955664_5a4305d862_t.jpg\"
       height_t=\"100\" width_t=\"71\" url_s=\"https://live.staticflickr.com/1688/24284955664_5a4305d862_m.jpg\"
@@ -275,7 +275,7 @@ interactions:
       for Freedom at the Old Bailey poster\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"7\" safety_level=\"0\" dateupload=\"1455012157\" datetaken=\"2016-02-09
       10:02:01\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The
-      National Archives UK\" realname=\"\" originalsecret=\"e551db785c\" originalformat=\"jpg\"
+      National Archives UK\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1612/24819736411_98e90be203_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1612/24819736411_98e90be203_t.jpg\"
       height_t=\"100\" width_t=\"71\" url_s=\"https://live.staticflickr.com/1612/24819736411_98e90be203_m.jpg\"
@@ -295,7 +295,7 @@ interactions:
       Nine flyer\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       safety_level=\"0\" dateupload=\"1455012158\" datetaken=\"2016-02-09 10:02:01\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The National Archives
-      UK\" realname=\"\" originalsecret=\"81600f55fd\" originalformat=\"jpg\" media=\"photo\"
+      UK\" realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1586/24819736331_b4cf6801c6_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1586/24819736331_b4cf6801c6_t.jpg\"
       height_t=\"100\" width_t=\"71\" url_s=\"https://live.staticflickr.com/1586/24819736331_b4cf6801c6_m.jpg\"
@@ -316,7 +316,7 @@ interactions:
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
       dateupload=\"1455012160\" datetaken=\"2016-02-09 10:01:59\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"The National Archives UK\" realname=\"\"
-      originalsecret=\"3ebd72f0fa\" originalformat=\"jpg\" media=\"photo\" media_status=\"ready\"
+      media=\"photo\" media_status=\"ready\"
       url_sq=\"https://live.staticflickr.com/1499/24284955374_aab803081e_s.jpg\" height_sq=\"75\"
       width_sq=\"75\" url_t=\"https://live.staticflickr.com/1499/24284955374_aab803081e_t.jpg\"
       height_t=\"70\" width_t=\"100\" url_s=\"https://live.staticflickr.com/1499/24284955374_aab803081e_m.jpg\"
@@ -337,7 +337,7 @@ interactions:
       1970\" isprimary=\"0\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       safety_level=\"0\" dateupload=\"1455012162\" datetaken=\"2016-02-09 10:01:57\"
       datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"The National Archives
-      UK\" realname=\"\" originalsecret=\"7fb0067cf4\" originalformat=\"jpg\" media=\"photo\"
+      UK\" realname=\"\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/1525/24617611340_ff06736813_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/1525/24617611340_ff06736813_t.jpg\"
       height_t=\"75\" width_t=\"100\" url_s=\"https://live.staticflickr.com/1525/24617611340_ff06736813_m.jpg\"

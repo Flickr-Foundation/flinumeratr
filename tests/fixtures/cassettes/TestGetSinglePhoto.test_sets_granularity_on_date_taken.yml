@@ -18,8 +18,8 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"5240741057\" secret=\"09a033b71f\" server=\"5161\" farm=\"6\" dateuploaded=\"1291733411\"
-      isfavorite=\"0\" license=\"7\" safety_level=\"0\" rotation=\"0\" originalsecret=\"8cdce283d1\"
-      originalformat=\"jpg\" views=\"25075\" media=\"photo\">\n\t<owner nsid=\"31575009@N05\"
+      isfavorite=\"0\" license=\"7\" safety_level=\"0\" rotation=\"0\"
+      views=\"25075\" media=\"photo\">\n\t<owner nsid=\"31575009@N05\"
       username=\"The National Archives UK\" realname=\"\" location=\"\" iconserver=\"65535\"
       iconfarm=\"66\" path_alias=\"nationalarchives\">\n\t\t<gift gift_eligible=\"\"
       new_flow=\"1\" />\n\t</owner>\n\t<title>Christmas underground</title>\n\t<description>&lt;b&gt;Description&lt;/b&gt;:

@@ -15,15 +15,15 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Coriginal_format%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname%2Cpath_alias&gallery_id=72157621848008117&get_gallery_info=1&method=flickr.galleries.getPhotos&page=1&per_page=100
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Csafety_level%2Crealname%2Cpath_alias&gallery_id=72157621848008117&get_gallery_info=1&method=flickr.galleries.getPhotos&page=1&per_page=100
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"1\" perpage=\"100\" total=\"12\">\n\t<photo id=\"2456288552\"
       owner=\"38851157@N00\" secret=\"3794a1ba27\" server=\"2407\" farm=\"3\" title=\"IMG_6834\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
       dateupload=\"1209617815\" datetaken=\"2008-04-17 17:35:45\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"locaburg\" originalsecret=\"b77a3310df\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2407/2456288552_3794a1ba27_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"locaburg\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2407/2456288552_3794a1ba27_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2407/2456288552_3794a1ba27_t.jpg\"
       height_t=\"67\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2407/2456288552_3794a1ba27_m.jpg\"
       height_s=\"160\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2407/2456288552_3794a1ba27.jpg\"
@@ -36,8 +36,8 @@ interactions:
       owner=\"19797316@N00\" secret=\"a6f6084173\" server=\"2387\" farm=\"3\" title=\"286\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
       dateupload=\"1199804940\" datetaken=\"2008-01-08 16:05:33\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"jan postma\" realname=\"jan postma\" originalsecret=\"2ab749b101\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2387/2178297354_a6f6084173_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"jan postma\" realname=\"jan postma\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2387/2178297354_a6f6084173_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2387/2178297354_a6f6084173_t.jpg\"
       height_t=\"82\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2387/2178297354_a6f6084173_m.jpg\"
       height_s=\"196\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2387/2178297354_a6f6084173.jpg\"
@@ -71,7 +71,7 @@ interactions:
       server=\"209\" farm=\"1\" title=\"Leena the hat lady\" ispublic=\"1\" isfriend=\"0\"
       isfamily=\"0\" license=\"0\" safety_level=\"0\" dateupload=\"1177657206\" datetaken=\"2007-04-26
       16:45:46\" datetakengranularity=\"0\" datetakenunknown=\"0\" ownername=\"Teppo\"
-      realname=\"Teppo Moisio\" originalsecret=\"3978a5c142\" originalformat=\"jpg\"
+      realname=\"Teppo Moisio\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/209/474277734_fe4f8375b5_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/209/474277734_fe4f8375b5_t.jpg\"
       height_t=\"70\" width_t=\"100\" url_s=\"https://live.staticflickr.com/209/474277734_fe4f8375b5_m.jpg\"
@@ -123,8 +123,8 @@ interactions:
       innoculation at a rural school, San Augustine County, Texas  (LOC)\" ispublic=\"1\"
       isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\" dateupload=\"1199852465\"
       datetaken=\"1939-01-01 00:00:00\" datetakengranularity=\"8\" datetakenunknown=\"0\"
-      ownername=\"The Library of Congress\" realname=\"\" originalsecret=\"5c9eacff88\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2243/2179909780_c263ed2455_s.jpg\"
+      ownername=\"The Library of Congress\" realname=\"\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2243/2179909780_c263ed2455_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2243/2179909780_c263ed2455_t.jpg\"
       height_t=\"77\" width_t=\"100\" url_s=\"https://live.staticflickr.com/2243/2179909780_c263ed2455_m.jpg\"
       height_s=\"185\" width_s=\"240\" url_m=\"https://live.staticflickr.com/2243/2179909780_c263ed2455.jpg\"
@@ -156,7 +156,7 @@ interactions:
       for Women\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\" safety_level=\"0\"
       dateupload=\"1221855093\" datetaken=\"2008-09-19 16:11:33\" datetakengranularity=\"0\"
       datetakenunknown=\"1\" ownername=\"George Eastman Museum\" realname=\"George
-      Eastman Museum\" originalsecret=\"69b1b41fd3\" originalformat=\"jpg\" media=\"photo\"
+      Eastman Museum\" media=\"photo\"
       media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3280/2870337431_5a7a77004a_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3280/2870337431_5a7a77004a_t.jpg\"
       height_t=\"100\" width_t=\"77\" url_s=\"https://live.staticflickr.com/3280/2870337431_5a7a77004a_m.jpg\"
@@ -179,8 +179,8 @@ interactions:
       farm=\"3\" title=\"Strong man, c.1910\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\"
       license=\"0\" safety_level=\"0\" dateupload=\"1195522604\" datetaken=\"2007-11-20
       14:36:44\" datetakengranularity=\"0\" datetakenunknown=\"1\" ownername=\"National
-      Library of New Zealand\" realname=\"National Library of New Zealand\" originalsecret=\"75e0f3dba1\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2367/2048201177_f85295f2d0_s.jpg\"
+      Library of New Zealand\" realname=\"National Library of New Zealand\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2367/2048201177_f85295f2d0_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2367/2048201177_f85295f2d0_t.jpg\"
       height_t=\"100\" width_t=\"73\" url_s=\"https://live.staticflickr.com/2367/2048201177_f85295f2d0_m.jpg\"
       height_s=\"240\" width_s=\"175\" url_m=\"https://live.staticflickr.com/2367/2048201177_f85295f2d0.jpg\"
@@ -207,7 +207,7 @@ interactions:
       Parris Island, S.C.  (LOC)\" ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"7\"
       safety_level=\"0\" dateupload=\"1199851624\" datetaken=\"1939-01-01 00:00:00\"
       datetakengranularity=\"8\" datetakenunknown=\"0\" ownername=\"The Library of
-      Congress\" realname=\"\" originalsecret=\"9e8668b510\" originalformat=\"jpg\"
+      Congress\" realname=\"\"
       media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/2312/2179093359_64607d2383_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/2312/2179093359_64607d2383_t.jpg\"
       height_t=\"100\" width_t=\"70\" url_s=\"https://live.staticflickr.com/2312/2179093359_64607d2383_m.jpg\"
@@ -236,8 +236,8 @@ interactions:
       owner=\"7568189@N04\" secret=\"f7d15123b3\" server=\"3621\" farm=\"4\" title=\"Jokeys\"
       ispublic=\"1\" isfriend=\"0\" isfamily=\"0\" license=\"0\" safety_level=\"0\"
       dateupload=\"1243280529\" datetaken=\"2009-05-25 21:03:25\" datetakengranularity=\"0\"
-      datetakenunknown=\"0\" ownername=\"cyrille r\" realname=\"Cyrille R\" originalsecret=\"0a76a8fa5a\"
-      originalformat=\"jpg\" media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_s.jpg\"
+      datetakenunknown=\"0\" ownername=\"cyrille r\" realname=\"Cyrille R\"
+      media=\"photo\" media_status=\"ready\" url_sq=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_s.jpg\"
       height_sq=\"75\" width_sq=\"75\" url_t=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_t.jpg\"
       height_t=\"63\" width_t=\"100\" url_s=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3_m.jpg\"
       height_s=\"152\" width_s=\"240\" url_m=\"https://live.staticflickr.com/3621/3563389643_f7d15123b3.jpg\"

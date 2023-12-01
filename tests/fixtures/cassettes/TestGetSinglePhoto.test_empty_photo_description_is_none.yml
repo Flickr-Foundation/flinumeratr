@@ -18,8 +18,8 @@ interactions:
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photo
       id=\"5536044022\" secret=\"7e6f0df667\" server=\"5137\" farm=\"6\" dateuploaded=\"1300402940\"
-      isfavorite=\"0\" license=\"5\" safety_level=\"0\" rotation=\"0\" originalsecret=\"44d052df5a\"
-      originalformat=\"jpg\" views=\"2833\" media=\"photo\">\n\t<owner nsid=\"32834977@N03\"
+      isfavorite=\"0\" license=\"5\" safety_level=\"0\" rotation=\"0\"
+      views=\"2833\" media=\"photo\">\n\t<owner nsid=\"32834977@N03\"
       username=\"Al Jazeera English\" realname=\"Al Jazeera English\" location=\"\"
       iconserver=\"3279\" iconfarm=\"4\" path_alias=\"aljazeeraenglish\">\n\t\t<gift
       gift_eligible=\"1\" new_flow=\"1\">\n\t\t\t<eligible_durations />\n\t\t\t<eligible_durations
