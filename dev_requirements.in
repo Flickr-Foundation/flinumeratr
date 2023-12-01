@@ -4,6 +4,7 @@ black
 coverage
 flake8
 mypy
+pip-tools
 pytest
 pytest-cov
 vcrpy

@@ -1,5 +1,5 @@
 flask
-flickr-photos-api
+flickr-photos-api==1.1.0
 flickr-url-parser
 gunicorn
 humanize
