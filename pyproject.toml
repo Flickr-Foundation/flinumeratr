@@ -44,8 +44,6 @@ show_missing = true
 skip_covered = true
 fail_under = 100
 exclude_also = [
-  "from typing import",
-  "from typing_extensions import",
   "if request.cls is not None",
 ]
 

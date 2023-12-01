@@ -3,7 +3,6 @@
 import os
 import secrets
 import sys
-from typing import List
 
 from flask import Flask, flash, redirect, render_template, request, url_for
 from flickr_photos_api import FlickrPhotosApi, ResourceNotFound, Size as PhotoSize
@@ -39,7 +38,7 @@ else:
 
 
 @app.template_filter()
-def image_at(sizes: List[PhotoSize], desired_size: str) -> str:
+def image_at(sizes: list[PhotoSize], desired_size: str) -> str:
     """
     Given a list of sizes of Flickr photo, return the source of
     the desired size.
