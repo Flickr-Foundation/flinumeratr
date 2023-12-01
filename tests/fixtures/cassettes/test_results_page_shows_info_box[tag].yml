@@ -15,7 +15,7 @@ interactions:
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Cdescription%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=thatch
+    uri: https://api.flickr.com/services/rest/?extras=license%2Cdate_upload%2Cdate_taken%2Cmedia%2Cowner_name%2Curl_sq%2Curl_t%2Curl_s%2Curl_m%2Curl_o%2Curl_q%2Curl_l%2Crealname&method=flickr.photos.search&page=1&per_page=100&sort=interestingness-desc&tags=thatch
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<photos
       page=\"1\" pages=\"321\" perpage=\"100\" total=\"32055\">\n\t<photo id=\"52312186930\"

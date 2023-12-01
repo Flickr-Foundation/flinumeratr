@@ -251,7 +251,6 @@ class FlickrPhotosApi(BaseApi):
         #       		…
         #       	</owner>
         #       	<title>Puppy Kisses</title>
-        #           <description>Seaman Nina Bowen shows …</description>
         #       	<dates
         #               posted="1490376472"
         #               taken="2017-02-17 00:00:00"
@@ -267,7 +266,6 @@ class FlickrPhotosApi(BaseApi):
         photo_elem = find_required_elem(info_resp, path=".//photo")
 
         title = find_optional_text(photo_elem, path="title")
-        description = find_optional_text(photo_elem, path="description")
 
         owner_elem = find_required_elem(photo_elem, path="owner")
         user_id = owner_elem.attrib["nsid"]
@@ -340,7 +338,6 @@ class FlickrPhotosApi(BaseApi):
         return {
             "id": photo_id,
             "title": title,
-            "description": description,
             "owner": owner,
             "date_posted": date_posted,
             "date_taken": date_taken,
@@ -367,7 +364,6 @@ class FlickrPhotosApi(BaseApi):
         # useful for our purposes!
         "url_q",  # Large Square
         "url_l",  # Large
-        "description",
         "realname",
     ]
 
@@ -390,7 +386,6 @@ class FlickrPhotosApi(BaseApi):
             photo_id = photo_elem.attrib["id"]
 
             title = photo_elem.attrib["title"] or None
-            description = find_optional_text(photo_elem, path="description")
 
             owner: User
             if collection_owner is None:
@@ -415,7 +410,6 @@ class FlickrPhotosApi(BaseApi):
                 {
                     "id": photo_id,
                     "title": title,
-                    "description": description,
                     "date_posted": parse_date_posted(photo_elem.attrib["dateupload"]),
                     "date_taken": self._get_date_taken(
                         value=photo_elem.attrib["datetaken"],
