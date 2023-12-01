@@ -215,14 +215,6 @@ class TestGetSinglePhoto:
 
         assert info["date_taken"] is None
 
-    def test_gets_photo_description(self, api: FlickrPhotosApi) -> None:
-        photo = api.get_single_photo(photo_id="53248070597")
-        assert photo["description"] == "Paris Montmartre"
-
-    def test_empty_photo_description_is_none(self, api: FlickrPhotosApi) -> None:
-        photo = api.get_single_photo(photo_id="5536044022")
-        assert photo["description"] is None
-
     def test_gets_photo_title(self, api: FlickrPhotosApi) -> None:
         photo_with_title = api.get_single_photo(photo_id="20428374183")
         assert photo_with_title["title"] == "Hapjeong"
@@ -301,25 +293,6 @@ class TestGetAlbum:
 
         assert album["photos"][0]["title"] == "Seoul"
         assert album["photos"][7]["title"] is None
-
-    def test_empty_album_description_is_none(self, api: FlickrPhotosApi) -> None:
-        album_without_desc = api.get_photos_in_album(
-            user_url="https://www.flickr.com/photos/aljazeeraenglish/",
-            album_id="72157626164453131",
-        )
-
-        assert all(
-            photo["description"] is None for photo in album_without_desc["photos"]
-        )
-
-        album_with_desc = api.get_photos_in_album(
-            user_url="https://www.flickr.com/photos/zeeyolqpictures/",
-            album_id="72157631707062493",
-        )
-
-        assert all(
-            isinstance(photo["description"], str) for photo in album_with_desc["photos"]
-        )
 
 
 def test_get_gallery_from_id(api: FlickrPhotosApi) -> None:

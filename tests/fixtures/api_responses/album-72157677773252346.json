@@ -5,7 +5,6 @@
     {
       "id": "18250964001",
       "title": "Seoul",
-      "description": null,
       "date_posted": "2016-09-26T06:13:00+00:00",
       "date_taken": {
         "value": "2015-05-18T16:11:59",
@@ -79,7 +78,6 @@
     {
       "id": "19722996319",
       "title": "Jiri mountain",
-      "description": null,
       "date_posted": "2015-07-22T08:52:55+00:00",
       "date_taken": null,
       "license": {
@@ -150,7 +148,6 @@
     {
       "id": "19777368608",
       "title": "Jiri Mountain",
-      "description": null,
       "date_posted": "2015-07-24T09:49:34+00:00",
       "date_taken": {
         "value": "2015-07-22T19:48:40",
@@ -224,7 +221,6 @@
     {
       "id": "19995531304",
       "title": "Sunblock",
-      "description": null,
       "date_posted": "2015-08-16T08:38:15+00:00",
       "date_taken": null,
       "license": {
@@ -295,7 +291,6 @@
     {
       "id": "20434367760",
       "title": "Beside",
-      "description": null,
       "date_posted": "2015-08-16T12:11:21+00:00",
       "date_taken": null,
       "license": {
@@ -366,7 +361,6 @@
     {
       "id": "20671286152",
       "title": "Lazy (blue)",
-      "description": null,
       "date_posted": "2015-08-18T13:29:04+00:00",
       "date_taken": null,
       "license": {
@@ -437,7 +431,6 @@
     {
       "id": "20889037076",
       "title": "With bus",
-      "description": null,
       "date_posted": "2015-08-27T03:54:30+00:00",
       "date_taken": null,
       "license": {
@@ -508,7 +501,6 @@
     {
       "id": "20967567081",
       "title": null,
-      "description": null,
       "date_posted": "2015-08-28T21:30:15+00:00",
       "date_taken": null,
       "license": {
@@ -579,7 +571,6 @@
     {
       "id": "20351005903",
       "title": "Namsan , seoul",
-      "description": null,
       "date_posted": "2015-08-29T09:01:55+00:00",
       "date_taken": null,
       "license": {
@@ -650,7 +641,6 @@
     {
       "id": "20428374183",
       "title": "Hapjeong",
-      "description": null,
       "date_posted": "2015-09-01T03:00:45+00:00",
       "date_taken": null,
       "license": {

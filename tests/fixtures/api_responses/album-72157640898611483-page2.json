@@ -17,7 +17,7 @@
         "granularity": "second",
         "value": "2015-10-06T17:47:24"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "21834340709",
       "license": {
         "id": "pdm",
@@ -90,7 +90,7 @@
         "granularity": "second",
         "value": "2015-10-06T17:47:09"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "22031134421",
       "license": {
         "id": "pdm",
@@ -163,7 +163,7 @@
         "granularity": "second",
         "value": "2015-10-06T17:45:54"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "22031142221",
       "license": {
         "id": "pdm",
@@ -236,7 +236,7 @@
         "granularity": "second",
         "value": "2015-09-17T09:06:44"
       },
-      "description": "NPS/Hannah Schwalbe",
+      
       "id": "31454495166",
       "license": {
         "id": "pdm",
@@ -309,7 +309,7 @@
         "granularity": "second",
         "value": "2015-09-15T12:18:35"
       },
-      "description": "[NPS/Hannah Schwalbe]",
+      
       "id": "23535656970",
       "license": {
         "id": "pdm",
@@ -382,7 +382,7 @@
         "granularity": "second",
         "value": "2015-09-11T09:28:13"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "21903071801",
       "license": {
         "id": "pdm",
@@ -455,7 +455,7 @@
         "granularity": "second",
         "value": "2015-05-09T13:58:49"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "17388054719",
       "license": {
         "id": "pdm",
@@ -528,7 +528,7 @@
         "granularity": "second",
         "value": "2015-05-09T13:58:02"
       },
-      "description": "NPS/Brad Sutton\n\nAlt text: A cactus wren clings to the spiky outer layer of a Joshua tree and looks inquisitively at the trunk.",
+      
       "id": "17548051726",
       "license": {
         "id": "pdm",
@@ -601,7 +601,7 @@
         "granularity": "second",
         "value": "2015-03-31T11:16:55"
       },
-      "description": "NPS/Kurt Moses",
+      
       "id": "17116116200",
       "license": {
         "id": "pdm",
@@ -674,7 +674,7 @@
         "granularity": "second",
         "value": "2015-03-31T09:09:30"
       },
-      "description": "NPS/Kurt Moses",
+      
       "id": "17116108720",
       "license": {
         "id": "pdm",
@@ -747,7 +747,7 @@
         "granularity": "second",
         "value": "2015-03-23T00:12:45"
       },
-      "description": "NPS/Lian Law",
+      
       "id": "17056404742",
       "license": {
         "id": "pdm",
@@ -820,7 +820,7 @@
         "granularity": "second",
         "value": "2015-03-18T02:55:24"
       },
-      "description": "NPS / Brad Sutton\n\nAlt text: A bird with a beige breast, striking dark throat, and bright white stripes on its face perches on a yucca plant.",
+      
       "id": "16750828608",
       "license": {
         "id": "pdm",
@@ -893,7 +893,7 @@
         "granularity": "second",
         "value": "2015-03-18T02:02:38"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "16937513751",
       "license": {
         "id": "pdm",
@@ -966,7 +966,7 @@
         "granularity": "second",
         "value": "2015-03-10T05:08:57"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "16215875144",
       "license": {
         "id": "pdm",
@@ -1039,7 +1039,7 @@
         "granularity": "second",
         "value": "2015-03-10T05:08:57"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "16215871384",
       "license": {
         "id": "pdm",
@@ -1112,7 +1112,7 @@
         "granularity": "second",
         "value": "2015-03-10T04:49:36"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "16838220775",
       "license": {
         "id": "pdm",
@@ -1185,7 +1185,7 @@
         "granularity": "second",
         "value": "2015-02-18T14:39:59"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "15963492823",
       "license": {
         "id": "pdm",
@@ -1258,7 +1258,7 @@
         "granularity": "second",
         "value": "2014-12-31T07:47:26"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "16278014916",
       "license": {
         "id": "pdm",
@@ -1331,7 +1331,7 @@
         "granularity": "second",
         "value": "2014-12-07T13:54:14"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "16750987760",
       "license": {
         "id": "pdm",
@@ -1404,7 +1404,7 @@
         "granularity": "second",
         "value": "2014-11-04T11:34:47"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A beige cedar waxwing, with distinctive black mask, tall crest, and yellow tail tip, perches on a thorny branch.",
+      
       "id": "37897470922",
       "license": {
         "id": "pdm",
@@ -1477,7 +1477,7 @@
         "granularity": "second",
         "value": "2014-08-06T09:12:00"
       },
-      "description": "NPS / Cathy Bell\n\nAlt text: A black-throated sparrow with black feathers on its throat and gray and white feathers on its body sits in a catclaw bush.",
+      
       "id": "14979852526",
       "license": {
         "id": "pdm",
@@ -1550,7 +1550,7 @@
         "granularity": "second",
         "value": "2014-06-26T14:05:15"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "15116149633",
       "license": {
         "id": "pdm",
@@ -1623,7 +1623,7 @@
         "granularity": "second",
         "value": "2014-06-26T14:04:32"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "15115581524",
       "license": {
         "id": "pdm",
@@ -1696,7 +1696,7 @@
         "granularity": "second",
         "value": "2014-05-12T09:59:08"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20117663704",
       "license": {
         "id": "pdm",
@@ -1769,7 +1769,7 @@
         "granularity": "second",
         "value": "2014-05-12T09:55:19"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20678432374",
       "license": {
         "id": "pdm",
@@ -1842,7 +1842,7 @@
         "granularity": "second",
         "value": "2014-05-12T08:51:34"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "21113230218",
       "license": {
         "id": "pdm",
@@ -1915,7 +1915,7 @@
         "granularity": "second",
         "value": "2014-05-01T14:08:27"
       },
-      "description": "NPS/Andrew Eberly",
+      
       "id": "14045509068",
       "license": {
         "id": "pdm",
@@ -1988,7 +1988,7 @@
         "granularity": "second",
         "value": "2014-04-06T09:54:50"
       },
-      "description": "NPS / Brad Sutton\n\nAlt text: A brown, furry, dead tarantula spider is skewered on a spine of a Mojave yucca plant.",
+      
       "id": "14045718200",
       "license": {
         "id": "pdm",
@@ -2061,7 +2061,7 @@
         "granularity": "second",
         "value": "2014-03-11T03:29:34"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20740872075",
       "license": {
         "id": "pdm",
@@ -2134,7 +2134,7 @@
         "granularity": "second",
         "value": "2014-03-05T16:59:15"
       },
-      "description": "NPS / Brad Sutton\n\nAlt text: A ladder-backed woodpecker (Picoides scalaris) with black and white striped feathers clings to the trunk of a Joshua tree.",
+      
       "id": "20730957142",
       "license": {
         "id": "pdm",
@@ -2207,7 +2207,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:53:34"
       },
-      "description": "NPS / Brad Sutton\n\nAlt text: A cactus wren (Campylorhynchus brunneicapillus) with brown and white spotted feathers clings to the spiky top of a teddybear cholla.",
+      
       "id": "20740265425",
       "license": {
         "id": "pdm",
@@ -2280,7 +2280,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:52:12"
       },
-      "description": "NPS Photo",
+      
       "id": "12937904435",
       "license": {
         "id": "pdm",
@@ -2353,7 +2353,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:48:45"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20730946272",
       "license": {
         "id": "pdm",
@@ -2426,7 +2426,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:44:35"
       },
-      "description": "NPS Photo",
+      
       "id": "12938027583",
       "license": {
         "id": "pdm",
@@ -2499,7 +2499,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:39:53"
       },
-      "description": "NPS Photo",
+      
       "id": "12938042023",
       "license": {
         "id": "pdm",
@@ -2572,7 +2572,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:39:43"
       },
-      "description": "NPS Photo",
+      
       "id": "12938364434",
       "license": {
         "id": "pdm",
@@ -2645,7 +2645,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:35:25"
       },
-      "description": "NPS Photo",
+      
       "id": "12938376254",
       "license": {
         "id": "pdm",
@@ -2718,7 +2718,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:34:52"
       },
-      "description": "NPS Photo",
+      
       "id": "12938385904",
       "license": {
         "id": "pdm",
@@ -2791,7 +2791,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:34:51"
       },
-      "description": "NPS Photo",
+      
       "id": "12938396024",
       "license": {
         "id": "pdm",
@@ -2864,7 +2864,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:30:29"
       },
-      "description": "NPS Photo",
+      
       "id": "12937993255",
       "license": {
         "id": "pdm",
@@ -2937,7 +2937,7 @@
         "granularity": "second",
         "value": "2014-03-03T12:30:18"
       },
-      "description": "NPS Photo",
+      
       "id": "12938005155",
       "license": {
         "id": "pdm",
@@ -3010,7 +3010,7 @@
         "granularity": "second",
         "value": "2014-03-03T11:12:04"
       },
-      "description": "NPS Photo",
+      
       "id": "12938423854",
       "license": {
         "id": "pdm",
@@ -3083,7 +3083,7 @@
         "granularity": "second",
         "value": "2014-03-03T11:11:43"
       },
-      "description": "NPS Photo",
+      
       "id": "12938133183",
       "license": {
         "id": "pdm",
@@ -3156,7 +3156,7 @@
         "granularity": "second",
         "value": "2014-02-28T15:31:53"
       },
-      "description": "NPS Photo",
+      
       "id": "12938044225",
       "license": {
         "id": "pdm",
@@ -3229,7 +3229,7 @@
         "granularity": "second",
         "value": "2014-02-28T15:31:50"
       },
-      "description": "NPS Photo",
+      
       "id": "12938158613",
       "license": {
         "id": "pdm",
@@ -3302,7 +3302,7 @@
         "granularity": "second",
         "value": "2014-02-28T15:31:23"
       },
-      "description": "NPS Photo",
+      
       "id": "12938163583",
       "license": {
         "id": "pdm",
@@ -3375,7 +3375,7 @@
         "granularity": "second",
         "value": "2014-02-26T16:12:44"
       },
-      "description": "NPS Photo",
+      
       "id": "12938471544",
       "license": {
         "id": "pdm",
@@ -3448,7 +3448,7 @@
         "granularity": "second",
         "value": "2014-02-26T16:11:49"
       },
-      "description": "NPS Photo",
+      
       "id": "12938064105",
       "license": {
         "id": "pdm",
@@ -3521,7 +3521,7 @@
         "granularity": "second",
         "value": "2014-02-26T16:10:59"
       },
-      "description": "NPS Photo",
+      
       "id": "12938068595",
       "license": {
         "id": "pdm",
@@ -3594,7 +3594,7 @@
         "granularity": "second",
         "value": "2014-02-13T16:51:04"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "12526697173",
       "license": {
         "id": "pdm",
@@ -3667,7 +3667,7 @@
         "granularity": "second",
         "value": "2014-02-13T16:50:17"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "12526584705",
       "license": {
         "id": "pdm",
@@ -3740,7 +3740,7 @@
         "granularity": "second",
         "value": "2014-02-13T16:49:50"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "12526707753",
       "license": {
         "id": "pdm",
@@ -3813,7 +3813,7 @@
         "granularity": "second",
         "value": "2014-02-07T09:42:43"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20553519219",
       "license": {
         "id": "pdm",
@@ -3886,7 +3886,7 @@
         "granularity": "second",
         "value": "2014-02-05T10:47:32"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20092404753",
       "license": {
         "id": "pdm",
@@ -3959,7 +3959,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:54:18"
       },
-      "description": "NPS Photo",
+      
       "id": "12938079055",
       "license": {
         "id": "pdm",
@@ -4032,7 +4032,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:54:10"
       },
-      "description": "NPS Photo",
+      
       "id": "12938501944",
       "license": {
         "id": "pdm",
@@ -4105,7 +4105,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:53:09"
       },
-      "description": "NPS Photo",
+      
       "id": "12938204193",
       "license": {
         "id": "pdm",
@@ -4178,7 +4178,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:52:49"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "20553531759",
       "license": {
         "id": "pdm",
@@ -4251,7 +4251,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:52:49"
       },
-      "description": "NPS Photo",
+      
       "id": "12938113005",
       "license": {
         "id": "pdm",
@@ -4324,7 +4324,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:52:39"
       },
-      "description": "NPS / Brad Sutton\n\nAlt text: A large roadrunner, with brown and beige streaked feathers, hints of green, and a prominent tail, stands on a rock.",
+      
       "id": "25192500806",
       "license": {
         "id": "pdm",
@@ -4397,7 +4397,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:49:51"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "37875503046",
       "license": {
         "id": "pdm",
@@ -4470,7 +4470,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:46:58"
       },
-      "description": "NPS Photo",
+      
       "id": "12938224753",
       "license": {
         "id": "pdm",
@@ -4543,7 +4543,7 @@
         "granularity": "second",
         "value": "2014-01-28T15:46:15"
       },
-      "description": "NPS/Brad Sutton",
+      
       "id": "29756622201",
       "license": {
         "id": "pdm",
@@ -4616,7 +4616,7 @@
         "granularity": "second",
         "value": "2014-01-20T14:57:24"
       },
-      "description": "NPS Photo",
+      
       "id": "12937890555",
       "license": {
         "id": "pdm",
@@ -4689,7 +4689,7 @@
         "granularity": "second",
         "value": "2014-01-14T11:23:13"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "37875507526",
       "license": {
         "id": "pdm",
@@ -4762,7 +4762,7 @@
         "granularity": "second",
         "value": "2014-01-13T08:50:49"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A brown and red-hued house finch (Haemorhous mexicanus) is bathed in golden light as it sits atop a nest of twigs",
+      
       "id": "26152839669",
       "license": {
         "id": "pdm",
@@ -4835,7 +4835,7 @@
         "granularity": "second",
         "value": "2014-01-02T16:14:29"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "37219062444",
       "license": {
         "id": "pdm",
@@ -4908,7 +4908,7 @@
         "granularity": "second",
         "value": "2014-01-02T14:30:58"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A white-crowned sparrow (Zonotrichia leucophrys) with brown and gray coloration stands atop a branch.",
+      
       "id": "37897406642",
       "license": {
         "id": "pdm",
@@ -4981,7 +4981,7 @@
         "granularity": "second",
         "value": "2014-01-02T13:45:43"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "37875523336",
       "license": {
         "id": "pdm",
@@ -5054,7 +5054,7 @@
         "granularity": "second",
         "value": "2014-01-02T13:42:21"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "24077445788",
       "license": {
         "id": "pdm",
@@ -5127,7 +5127,7 @@
         "granularity": "second",
         "value": "2014-01-02T12:57:59"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A brown and gray mourning dove (Zenaida macroura) sits on a small branch.",
+      
       "id": "37875513876",
       "license": {
         "id": "pdm",
@@ -5200,7 +5200,7 @@
         "granularity": "second",
         "value": "2013-12-05T12:25:56"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "37875488226",
       "license": {
         "id": "pdm",
@@ -5273,7 +5273,7 @@
         "granularity": "second",
         "value": "2011-01-23T17:44:15"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "24077447618",
       "license": {
         "id": "pdm",
@@ -5346,7 +5346,7 @@
         "granularity": "second",
         "value": "2011-01-23T17:37:16"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: Two California thrashers (Toxostoma redivivum) stand alertly on a bed of desert sand, grass, and fallen petals. ",
+      
       "id": "12488732673",
       "license": {
         "id": "pdm",
@@ -5419,7 +5419,7 @@
         "granularity": "second",
         "value": "2011-01-23T17:35:39"
       },
-      "description": "NPS / Robb Hannawacker",
+      
       "id": "26152800689",
       "license": {
         "id": "pdm",
@@ -5492,7 +5492,7 @@
         "granularity": "second",
         "value": "2011-01-23T17:35:39"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A scrub jay (Aphelocoma californica) sits atop the brown, dry branch of a plant.",
+      
       "id": "12488572145",
       "license": {
         "id": "pdm",
@@ -5565,7 +5565,7 @@
         "granularity": "second",
         "value": "2010-12-06T17:05:02"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A blue and white scrub jay (Aphelocoma californica) clings to the top of a Joshua tree.",
+      
       "id": "37928527071",
       "license": {
         "id": "pdm",
@@ -5638,7 +5638,7 @@
         "granularity": "second",
         "value": "2010-10-24T15:18:48"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A dark-colored phainopepla (Phainopepla nitens) sits among the spindly dried branches of a tree with a rock formation in the background.",
+      
       "id": "12488610755",
       "license": {
         "id": "pdm",
@@ -5711,7 +5711,7 @@
         "granularity": "second",
         "value": "2010-10-24T07:28:31"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A dark brown Cooper's hawk (Accipiter cooperii) sits atop the thin branches of a tree as it looks off into the distance.",
+      
       "id": "12488613975",
       "license": {
         "id": "pdm",
@@ -5784,7 +5784,7 @@
         "granularity": "second",
         "value": "2010-10-24T06:56:29"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A cactus wren (Campylorhynchus brunneicapillus) sits atop the spky green branches of a Joshua tree.",
+      
       "id": "12488590625",
       "license": {
         "id": "pdm",
@@ -5857,7 +5857,7 @@
         "granularity": "second",
         "value": "2010-05-10T18:03:11"
       },
-      "description": "NPS/Stacy Manson",
+      
       "id": "12938307524",
       "license": {
         "id": "pdm",
@@ -5930,7 +5930,7 @@
         "granularity": "second",
         "value": "2010-05-10T18:02:54"
       },
-      "description": "NPS/Stacy Manson\n\nalt text: Two Great Horned Owls (Bubo virginianus) perched on a Joshua tree branch.",
+      
       "id": "12938309124",
       "license": {
         "id": "pdm",
@@ -6003,7 +6003,7 @@
         "granularity": "second",
         "value": "2010-02-04T18:22:49"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A loggerhead shrike (Lanius ludovicianus) sits atop the spiky green branches of a Joshua tree against a blue sky.",
+      
       "id": "12488581405",
       "license": {
         "id": "pdm",
@@ -6076,7 +6076,7 @@
         "granularity": "second",
         "value": "2008-12-07T16:23:45"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: An empty nest made of twigs and leaves sits in the fragile branches of a small bush.",
+      
       "id": "37218459734",
       "license": {
         "id": "pdm",
@@ -6149,7 +6149,7 @@
         "granularity": "second",
         "value": "2008-03-29T14:46:53"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: A raven (Covus corax) looks off into the distance from atop a spiky green flowering Joshua tree.",
+      
       "id": "12488695243",
       "license": {
         "id": "pdm",
@@ -6222,7 +6222,7 @@
         "granularity": "second",
         "value": "2007-09-21T17:23:50"
       },
-      "description": "NPS / Robb Hannawacker\n\nAlt text: Turkey vultures (Cathartes aura) fly above the California fan palms in the Oasis of Mara with mountains and cloudy skies in the background.",
+      
       "id": "12488734983",
       "license": {
         "id": "pdm",
@@ -6295,7 +6295,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:40:21"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) sits atop a rocky mountainside.",
+      
       "id": "50568693166",
       "license": {
         "id": "pdm",
@@ -6368,7 +6368,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:40:47"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) sits atop a rocky mountainside as it grooms itself.",
+      
       "id": "50568824392",
       "license": {
         "id": "pdm",
@@ -6441,7 +6441,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:40:05"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) spreads its wings as it soars high in the sky.",
+      
       "id": "50568692636",
       "license": {
         "id": "pdm",
@@ -6514,7 +6514,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:40:05"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) beats its wings as it soars high in the sky.",
+      
       "id": "50568824042",
       "license": {
         "id": "pdm",
@@ -6587,7 +6587,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:39:25"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A turkey vulture (Cathartes aura) spreads its wings as it soars high in the sky.",
+      
       "id": "50567941333",
       "license": {
         "id": "pdm",
@@ -6660,7 +6660,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:29:52"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A group of turkey vultures (Cathartes aura) sit atop a mountainside framed by California palm trees.",
+      
       "id": "50567941068",
       "license": {
         "id": "pdm",
@@ -6733,7 +6733,7 @@
         "granularity": "second",
         "value": "2020-09-15T08:39:44"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A far-away turkey vulture (Cathartes aura) flies behind bare tree branches.",
+      
       "id": "50568692491",
       "license": {
         "id": "pdm",
@@ -6806,7 +6806,7 @@
         "granularity": "second",
         "value": "2020-11-02T17:07:27"
       },
-      "description": "NPS / Peri Sasnett\n\nAlt text: a small beige and olive green bird perches on a branch with green leaves, with a fan palm tree in the background.",
+      
       "id": "50580537498",
       "license": {
         "id": "pdm",
@@ -6879,7 +6879,7 @@
         "granularity": "second",
         "value": "2019-11-24T09:51:54"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A black-throated sparrow (Amphispiza bilineata) hops among cheatgrass on the desert floor.",
+      
       "id": "50601992453",
       "license": {
         "id": "pdm",
@@ -6952,7 +6952,7 @@
         "granularity": "second",
         "value": "2019-11-24T09:57:45"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A verdin (Auriparus flaviceps) sits in the branches of a creosote bush.",
+      
       "id": "50602851462",
       "license": {
         "id": "pdm",
@@ -7025,7 +7025,7 @@
         "granularity": "second",
         "value": "2019-11-24T09:50:10"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A black-throated sparrow (Amphispiza bilineata) looks for food on the desert soil.",
+      
       "id": "50601992733",
       "license": {
         "id": "pdm",
@@ -7098,7 +7098,7 @@
         "granularity": "second",
         "value": "2020-03-12T14:07:48"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A black raven (Corvus corax) flaps its wings against a blue sky.",
+      
       "id": "50606566307",
       "license": {
         "id": "pdm",
@@ -7171,7 +7171,7 @@
         "granularity": "second",
         "value": "2020-03-12T14:07:08"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A raven (Corvus corax) spreads its wings to land atop the golden fronds of a California fan palm (Washingtonia filifera).",
+      
       "id": "50607016096",
       "license": {
         "id": "pdm",
@@ -7244,7 +7244,7 @@
         "granularity": "second",
         "value": "2020-03-12T14:07:02"
       },
-      "description": "NPS / Emily Hassell\n\nAlt text: A cactus wren (Campylorhynchus brunneicapillus) sits atop a branch in the golden morning light.",
+      
       "id": "50606271783",
       "license": {
         "id": "pdm",

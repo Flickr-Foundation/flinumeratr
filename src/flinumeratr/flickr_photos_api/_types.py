@@ -38,7 +38,6 @@ class Size(TypedDict):
 class SinglePhoto(TypedDict):
     id: str
     title: str | None
-    description: str | None
     owner: User
     date_posted: datetime.datetime
     date_taken: DateTaken | None
