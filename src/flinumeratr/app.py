@@ -68,7 +68,10 @@ def example_url(url: str) -> str:
     display_url = url.replace("https://www.flickr.com", "").replace(
         "https://flickr.com", ""
     )
-    return f'<li><a href="/see_photos?flickr_url={url}">{display_url}</a></li>'
+
+    app_url = url_for("see_photos", flickr_url=url)
+
+    return f'<li><a href="{app_url}">{display_url}</a></li>'
 
 
 @app.template_filter()
