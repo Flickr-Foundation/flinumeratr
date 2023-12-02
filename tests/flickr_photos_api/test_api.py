@@ -83,56 +83,71 @@ def test_it_throws_if_bad_auth(vcr_cassette: str, user_agent: str) -> None:
 class TestLicenses:
     def test_get_licenses(self, api: FlickrPhotosApi) -> None:
         assert api.get_licenses() == {
-            "0": {"id": "in-copyright", "label": "All Rights Reserved", "url": None},
+            "0": {
+                "id": "in-copyright",
+                "label": "All Rights Reserved",
+                "icons": [],
+                "url": None,
+            },
             "1": {
                 "id": "cc-by-nc-sa-2.0",
                 "label": "CC BY-NC-SA 2.0",
                 "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+                "icons": ["cc.svg", "by.svg", "nc.svg", "sa.svg"],
             },
             "2": {
                 "id": "cc-by-nc-2.0",
                 "label": "CC BY-NC 2.0",
                 "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+                "icons": ["cc.svg", "by.svg", "nc.svg"],
             },
             "3": {
                 "id": "cc-by-nc-nd-2.0",
                 "label": "CC BY-NC-ND 2.0",
                 "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+                "icons": ["cc.svg", "by.svg", "nc.svg", "nd.svg"],
             },
             "4": {
                 "id": "cc-by-2.0",
                 "label": "CC BY 2.0",
                 "url": "https://creativecommons.org/licenses/by/2.0/",
+                "icons": ["cc.svg", "by.svg"],
             },
             "5": {
                 "id": "cc-by-sa-2.0",
                 "label": "CC BY-SA 2.0",
                 "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+                "icons": ["cc.svg", "by.svg", "sa.svg"],
             },
             "6": {
                 "id": "cc-by-nd-2.0",
                 "label": "CC BY-ND 2.0",
                 "url": "https://creativecommons.org/licenses/by-nd/2.0/",
+                "icons": ["cc.svg", "by.svg", "nd.svg"],
             },
             "7": {
                 "id": "nkcr",
                 "label": "No known copyright restrictions",
                 "url": "https://www.flickr.com/commons/usage/",
+                "icons": [],
             },
             "8": {
                 "id": "usgov",
                 "label": "United States Government Work",
                 "url": "http://www.usa.gov/copyright.shtml",
+                "icons": [],
             },
             "9": {
                 "id": "cc0-1.0",
                 "label": "CC0 1.0",
                 "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "icons": ["zero.svg"],
             },
             "10": {
                 "id": "pdm",
                 "label": "Public Domain Mark",
                 "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+                "icons": [],
             },
         }
 
@@ -140,6 +155,7 @@ class TestLicenses:
         assert api.lookup_license_by_id(id="0") == {
             "id": "in-copyright",
             "label": "All Rights Reserved",
+            "icons": [],
             "url": None,
         }
 

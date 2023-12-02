@@ -19,6 +19,7 @@
       },
       "id": "53319292481",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -98,6 +99,7 @@
       },
       "id": "53317770887",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -177,6 +179,7 @@
       },
       "id": "53317049926",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -256,6 +259,7 @@
       },
       "id": "53314994733",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -335,6 +339,7 @@
       },
       "id": "53312512568",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -414,6 +419,7 @@
       },
       "id": "53309412534",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -493,6 +499,7 @@
       },
       "id": "53305412092",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -572,6 +579,7 @@
       },
       "id": "53308046833",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -651,6 +659,10 @@
       },
       "id": "53305252827",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -730,6 +742,7 @@
       },
       "id": "53301663756",
       "license": {
+        "icons": [],
         "id": "pdm",
         "label": "Public Domain Mark",
         "url": "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -809,6 +822,7 @@
       },
       "id": "53301344368",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -888,6 +902,7 @@
       },
       "id": "53299913910",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -967,6 +982,7 @@
       },
       "id": "53297798697",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1046,6 +1062,7 @@
       },
       "id": "53293393949",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1125,6 +1142,7 @@
       },
       "id": "53288576060",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1204,6 +1222,10 @@
       },
       "id": "53286195151",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1283,6 +1305,10 @@
       },
       "id": "53286194936",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1362,6 +1388,10 @@
       },
       "id": "53286564679",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1441,6 +1471,10 @@
       },
       "id": "53286564844",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1520,6 +1554,10 @@
       },
       "id": "53285302377",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1599,6 +1637,10 @@
       },
       "id": "53285302477",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1678,6 +1720,10 @@
       },
       "id": "53286195406",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1757,6 +1803,10 @@
       },
       "id": "53286564369",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1836,6 +1886,10 @@
       },
       "id": "53286657005",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1915,6 +1969,10 @@
       },
       "id": "53286657155",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -1994,6 +2052,7 @@
       },
       "id": "53284905642",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2073,6 +2132,7 @@
       },
       "id": "53283379996",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2152,6 +2212,11 @@
       },
       "id": "53281370801",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-sa-2.0",
         "label": "CC BY-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -2231,6 +2296,11 @@
       },
       "id": "53281839315",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-sa-2.0",
         "label": "CC BY-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -2310,6 +2380,11 @@
       },
       "id": "53281837945",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-sa-2.0",
         "label": "CC BY-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -2389,6 +2464,7 @@
       },
       "id": "53281283364",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2468,6 +2544,12 @@
       },
       "id": "53226069018",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-nc-sa-2.0",
         "label": "CC BY-NC-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
@@ -2547,6 +2629,7 @@
       },
       "id": "53275648005",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2626,6 +2709,7 @@
       },
       "id": "53272885351",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2705,6 +2789,7 @@
       },
       "id": "53272515055",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2784,6 +2869,7 @@
       },
       "id": "53271012034",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2863,6 +2949,7 @@
       },
       "id": "53267563072",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2942,6 +3029,7 @@
       },
       "id": "53267108158",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3004,7 +3092,7 @@
           "width": 3749
         }
       ],
-      "title": "Łaba // Elbe",
+      "title": "\u0141aba // Elbe",
       "url": "https://www.flickr.com/photos/188808032@N05/53267108158/"
     },
     {
@@ -3021,6 +3109,7 @@
       },
       "id": "53266595260",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3100,6 +3189,7 @@
       },
       "id": "53264776014",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3172,6 +3262,7 @@
       },
       "id": "53263600006",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3251,6 +3342,7 @@
       },
       "id": "53262610065",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3323,6 +3415,7 @@
       },
       "id": "53253776390",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3395,6 +3488,7 @@
       },
       "id": "53256398103",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3474,6 +3568,7 @@
       },
       "id": "53254060408",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3553,6 +3648,7 @@
       },
       "id": "53250733547",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3632,6 +3728,7 @@
       },
       "id": "53249755023",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3711,6 +3808,7 @@
       },
       "id": "53247185858",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3790,6 +3888,7 @@
       },
       "id": "53245930917",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3869,6 +3968,7 @@
       },
       "id": "53242900910",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3941,6 +4041,7 @@
       },
       "id": "53241541841",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4020,6 +4121,7 @@
       },
       "id": "53239745750",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4099,6 +4201,7 @@
       },
       "id": "53237534859",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4178,6 +4281,7 @@
       },
       "id": "53237492035",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4251,6 +4355,7 @@
       "date_taken": null,
       "id": "53234046374",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4324,6 +4429,7 @@
       "date_taken": null,
       "id": "53234196195",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4403,6 +4509,7 @@
       },
       "id": "53233073025",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4482,6 +4589,7 @@
       },
       "id": "53212741652",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4561,6 +4669,7 @@
       },
       "id": "53208562441",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4633,6 +4742,7 @@
       },
       "id": "53209055865",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4712,6 +4822,7 @@
       },
       "id": "53206992501",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4777,6 +4888,7 @@
       },
       "id": "53205525427",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4856,6 +4968,7 @@
       },
       "id": "53202518625",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4935,6 +5048,7 @@
       },
       "id": "53200208410",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5008,6 +5122,7 @@
       "date_taken": null,
       "id": "53196825815",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5080,6 +5195,7 @@
       },
       "id": "53195466740",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5152,6 +5268,7 @@
       },
       "id": "53194508679",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5231,6 +5348,7 @@
       },
       "id": "53192457283",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5304,6 +5422,7 @@
       "date_taken": null,
       "id": "53191825160",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5359,7 +5478,7 @@
           "width": 1024
         }
       ],
-      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the ‘toes’ of the hills Wheeler County, Oregon",
+      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon",
       "url": "https://www.flickr.com/photos/93408882@N03/53191825160/"
     },
     {
@@ -5370,6 +5489,7 @@
       "date_taken": null,
       "id": "53191170072",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5425,7 +5545,7 @@
           "width": 1024
         }
       ],
-      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the ‘toes’ of the hills Wheeler County, Oregon",
+      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon",
       "url": "https://www.flickr.com/photos/93408882@N03/53191170072/"
     },
     {
@@ -5436,6 +5556,7 @@
       "date_taken": null,
       "id": "53191431509",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5491,7 +5612,7 @@
           "width": 1024
         }
       ],
-      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the ‘toes’ of the hills Wheeler County, Oregon",
+      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon",
       "url": "https://www.flickr.com/photos/93408882@N03/53191431509/"
     },
     {
@@ -5502,6 +5623,7 @@
       "date_taken": null,
       "id": "53190651270",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5574,6 +5696,7 @@
       },
       "id": "53189462917",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5653,6 +5776,7 @@
       },
       "id": "53187912844",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5732,6 +5856,7 @@
       },
       "id": "53185186275",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5804,6 +5929,7 @@
       },
       "id": "53184710710",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5876,6 +6002,7 @@
       },
       "id": "53183796992",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5948,6 +6075,7 @@
       },
       "id": "53184879493",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6020,6 +6148,7 @@
       },
       "id": "53183776200",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6099,6 +6228,7 @@
       },
       "id": "53181735133",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6178,6 +6308,7 @@
       },
       "id": "53181572895",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6257,6 +6388,7 @@
       },
       "id": "52561295192",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6336,6 +6468,7 @@
       },
       "id": "53178381291",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6415,6 +6548,7 @@
       },
       "id": "53175199817",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6494,6 +6628,7 @@
       },
       "id": "53041855087",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6573,6 +6708,7 @@
       },
       "id": "53174146605",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6652,6 +6788,7 @@
       },
       "id": "53171036752",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6731,6 +6868,7 @@
       },
       "id": "53171453716",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6810,6 +6948,7 @@
       },
       "id": "53170887847",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6889,6 +7028,7 @@
       },
       "id": "53171803383",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6961,6 +7101,7 @@
       },
       "id": "53168957021",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7034,6 +7175,7 @@
       "date_taken": null,
       "id": "53168153703",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7107,6 +7249,7 @@
       "date_taken": null,
       "id": "53167670223",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7180,6 +7323,7 @@
       "date_taken": null,
       "id": "53166622932",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7253,6 +7397,7 @@
       "date_taken": null,
       "id": "53167646080",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7326,6 +7471,7 @@
       "date_taken": null,
       "id": "53167413449",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7399,6 +7545,7 @@
       "date_taken": null,
       "id": "53167695508",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7472,6 +7619,7 @@
       "date_taken": null,
       "id": "53167695558",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7545,6 +7693,7 @@
       "date_taken": null,
       "id": "53167413444",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7618,6 +7767,7 @@
       "date_taken": null,
       "id": "53167646265",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null

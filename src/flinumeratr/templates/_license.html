@@ -15,12 +15,12 @@
   {% if license.url %}
     <a href="{{ license.url }}">
       {% for ic in license.icons %}
-        <img src="{{ ic }}">
+        <img src="{{ url_for('static', filename='icons/' + ic) }}">
       {% endfor %}
     </a>
   {% else %}
       {% for ic in license.icons %}
-        <img src="{{ ic }}">
+        <img src="{{ url_for('static', filename='icons/' + ic) }}">
       {% endfor %}
   {% endif %}
   </div>
