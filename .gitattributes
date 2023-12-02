@@ -1,4 +1,5 @@
 requirements.txt linguist-generated=true
 dev_requirements.txt linguist-generated=true
 
+tests/fixtures/api_responses/*.json linguist-generated=true
 tests/fixtures/cassettes/*.yml linguist-generated=true
