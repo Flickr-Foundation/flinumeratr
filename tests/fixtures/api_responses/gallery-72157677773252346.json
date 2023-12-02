@@ -3,11 +3,12 @@
     {
       "id": "52381250655",
       "title": "When the Sun goes down.. (Explored on 24 Sep 22)",
-      
-      "date_posted": "2022-09-24T16:14:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-09-24T16:14:04+00:00"
+      },
       "date_taken": {
-        "value": "2022-09-24T17:50:41",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2022-09-24T17:50:41"}
       },
       "license": {
         "id": "in-copyright",
@@ -57,7 +58,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52381250655_dcf763d335_b.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/dunstanfdo/52381250655/",
+      ],
+      "url": "https://www.flickr.com/photos/dunstanfdo/52381250655/",
       "owner": {
         "id": "78978556@N06",
         "username": "Dunstan Fernando",
@@ -69,11 +71,12 @@
     {
       "id": "52391562366",
       "title": "New York Sunset",
-      
-      "date_posted": "2022-09-29T00:00:52+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-09-29T00:00:52+00:00"
+      },
       "date_taken": {
-        "value": "2021-08-25T19:27:42",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2021-08-25T19:27:42"}
       },
       "license": {
         "id": "in-copyright",
@@ -130,7 +133,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52391562366_a9ce25f1cf_o.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/dimaruss34/52391562366/",
+      ],
+      "url": "https://www.flickr.com/photos/dimaruss34/52391562366/",
       "owner": {
         "id": "34869895@N06",
         "username": "dimaruss34",
@@ -142,10 +146,12 @@
     {
       "id": "52370517025",
       "title": "LYL_1681-Edit-Edit-Edit.jpg",
-      "date_posted": "2022-09-19T21:32:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-09-19T21:32:53+00:00"
+      },
       "date_taken": {
-        "value": "2022-07-25T19:56:03",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2022-07-25T19:56:03"}
       },
       "license": {
         "id": "in-copyright",
@@ -195,7 +201,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52370517025_0ff217b924_b.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/justmybestphotos/52370517025/",
+      ],
+      "url": "https://www.flickr.com/photos/justmybestphotos/52370517025/",
       "owner": {
         "id": "9846013@N04",
         "username": "@ttomab",
@@ -207,11 +214,12 @@
     {
       "id": "52393258045",
       "title": "Contemplation !",
-      
-      "date_posted": "2022-09-29T15:19:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-09-29T15:19:00+00:00"
+      },
       "date_taken": {
-        "value": "2022-09-27T19:59:28",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2022-09-27T19:59:28"}
       },
       "license": {
         "id": "in-copyright",
@@ -268,7 +276,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52393258045_44bb000f46_o.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/144999844@N06/52393258045/",
+      ],
+      "url": "https://www.flickr.com/photos/144999844@N06/52393258045/",
       "owner": {
         "id": "144999844@N06",
         "username": "Armelle85",
@@ -280,10 +289,12 @@
     {
       "id": "52402720516",
       "title": "Sunset seen from onboard a ferry bound for Vancouver Island, Canada",
-      "date_posted": "2022-10-06T08:03:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-10-06T08:03:00+00:00"
+      },
       "date_taken": {
-        "value": "2022-08-30T19:44:00",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2022-08-30T19:44:00"}
       },
       "license": {
         "id": "in-copyright",
@@ -340,7 +351,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52402720516_a0d03bbc80_o.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/59238173@N07/52402720516/",
+      ],
+      "url": "https://www.flickr.com/photos/59238173@N07/52402720516/",
       "owner": {
         "id": "59238173@N07",
         "username": "JH_1982",
@@ -352,10 +364,12 @@
     {
       "id": "52376724970",
       "title": "We will return!",
-      "date_posted": "2022-09-22T13:12:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-09-22T13:12:54+00:00"
+      },
       "date_taken": {
-        "value": "2010-06-19T19:57:41",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2010-06-19T19:57:41"}
       },
       "license": {
         "id": "in-copyright",
@@ -405,7 +419,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52376724970_2d2b148535_b.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/olhando_o_sol/52376724970/",
+      ],
+      "url": "https://www.flickr.com/photos/olhando_o_sol/52376724970/",
       "owner": {
         "id": "49910084@N03",
         "username": "Vitor S. Cruz",
@@ -417,10 +432,12 @@
     {
       "id": "52398380693",
       "title": "Sunsetting Reflections on the Pacific!",
-      "date_posted": "2022-10-01T23:52:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-10-01T23:52:15+00:00"
+      },
       "date_taken": {
-        "value": "2021-09-25T17:56:34",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2021-09-25T17:56:34"}
       },
       "license": {
         "id": "in-copyright",
@@ -470,7 +487,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52398380693_f08ec53f85_b.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/38382651@N04/52398380693/",
+      ],
+      "url": "https://www.flickr.com/photos/38382651@N04/52398380693/",
       "owner": {
         "id": "38382651@N04",
         "username": "medaibl (Meedo)",
@@ -482,10 +500,12 @@
     {
       "id": "52394890775",
       "title": "Sunset, Palms, and Hills!",
-      "date_posted": "2022-09-30T11:06:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-09-30T11:06:23+00:00"
+      },
       "date_taken": {
-        "value": "2022-09-27T18:16:02",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2022-09-27T18:16:02"}
       },
       "license": {
         "id": "in-copyright",
@@ -535,7 +555,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52394890775_951691903e_b.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/38382651@N04/52394890775/",
+      ],
+      "url": "https://www.flickr.com/photos/38382651@N04/52394890775/",
       "owner": {
         "id": "38382651@N04",
         "username": "medaibl (Meedo)",
@@ -547,11 +568,12 @@
     {
       "id": "52412509807",
       "title": "The beauty of sunrise...",
-      
-      "date_posted": "2022-10-08T17:12:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-10-08T17:12:02+00:00"
+      },
       "date_taken": {
-        "value": "2022-04-30T06:56:09",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2022-04-30T06:56:09"}
       },
       "license": {
         "id": "in-copyright",
@@ -601,7 +623,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52412509807_064c41dbc2_b.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/juvenalia_de_oliveira/52412509807/",
+      ],
+      "url": "https://www.flickr.com/photos/juvenalia_de_oliveira/52412509807/",
       "owner": {
         "id": "194968553@N08",
         "username": "mjuvenalia",
@@ -613,11 +636,12 @@
     {
       "id": "52412249876",
       "title": "SUNSET... bye bye sun ...",
-      
-      "date_posted": "2022-10-08T07:38:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-10-08T07:38:14+00:00"
+      },
       "date_taken": {
-        "value": "2018-08-16T20:19:04",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2018-08-16T20:19:04"}
       },
       "license": {
         "id": "in-copyright",
@@ -674,7 +698,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52412249876_607e3c11e1_o.jpg"
         }
-      ],      "url": "https://www.flickr.com/photos/falcogr/52412249876/",
+      ],
+      "url": "https://www.flickr.com/photos/falcogr/52412249876/",
       "owner": {
         "id": "138018182@N02",
         "username": "f@lcogr",

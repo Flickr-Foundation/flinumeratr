@@ -1,15 +1,21 @@
 import datetime
+from typing import TypeVar
 
 import pytest
 
-from flinumeratr.flickr_photos_api import FlickrPhotosApi
-from flinumeratr.flickr_photos_api.exceptions import (
+from flinumeratr.flickr_photos_api import (
+    CollectionOfPhotos,
     FlickrApiException,
+    FlickrPhotosApi,
     LicenseNotFound,
+    PhotosInAlbum,
+    PhotosInGallery,
+    PhotosInGroup,
     ResourceNotFound,
+    SinglePhoto,
+    User,
 )
-from flinumeratr.flickr_photos_api._types import User
-from utils import get_fixture, jsonify
+from utils import get_typed_fixture
 
 
 @pytest.mark.parametrize(
@@ -195,7 +201,7 @@ class TestGetSinglePhoto:
     def test_can_get_single_photo(self, api: FlickrPhotosApi) -> None:
         resp = api.get_single_photo(photo_id="32812033543")
 
-        assert jsonify(resp) == get_fixture(filename="32812033543.json")
+        assert resp == get_typed_fixture("32812033543.json", model=SinglePhoto)
 
     def test_sets_realname_to_none_if_empty(self, api: FlickrPhotosApi) -> None:
         info = api.get_single_photo(photo_id="31073485032")
@@ -283,7 +289,9 @@ class TestGetAlbum:
             album_id="72157677773252346",
         )
 
-        assert jsonify(resp) == get_fixture(filename="album-72157677773252346.json")
+        assert resp == get_typed_fixture(
+            "album-72157677773252346.json", model=PhotosInAlbum
+        )
 
     def test_empty_album_title_is_none(self, api: FlickrPhotosApi) -> None:
         album = api.get_photos_in_album(
@@ -298,7 +306,9 @@ class TestGetAlbum:
 def test_get_gallery_from_id(api: FlickrPhotosApi) -> None:
     resp = api.get_photos_in_gallery(gallery_id="72157720932863274")
 
-    assert jsonify(resp) == get_fixture(filename="gallery-72157677773252346.json")
+    assert resp == get_typed_fixture(
+        "gallery-72157677773252346.json", model=PhotosInGallery
+    )
 
 
 def test_get_public_photos_by_user(api: FlickrPhotosApi) -> None:
@@ -306,7 +316,7 @@ def test_get_public_photos_by_user(api: FlickrPhotosApi) -> None:
         user_url="https://www.flickr.com/photos/george"
     )
 
-    assert jsonify(resp) == get_fixture(filename="user-george.json")
+    assert resp == get_typed_fixture("user-george.json", model=CollectionOfPhotos)
 
 
 def test_get_photos_in_group_pool(api: FlickrPhotosApi) -> None:
@@ -314,13 +324,13 @@ def test_get_photos_in_group_pool(api: FlickrPhotosApi) -> None:
         group_url="https://www.flickr.com/groups/slovenia/pool/"
     )
 
-    assert jsonify(resp) == get_fixture(filename="group-slovenia.json")
+    assert resp == get_typed_fixture("group-slovenia.json", model=PhotosInGroup)
 
 
 def test_get_photos_with_tag(api: FlickrPhotosApi) -> None:
     resp = api.get_photos_with_tag(tag="sunset")
 
-    assert jsonify(resp) == get_fixture(filename="tag-sunset.json")
+    assert resp == get_typed_fixture("tag-sunset.json", model=CollectionOfPhotos)
 
 
 @pytest.mark.parametrize(
@@ -371,48 +381,62 @@ def test_get_collection_methods_are_paginated(
     assert individual_resp["photos"][0] == all_resp["photos"][4]
 
 
+T = TypeVar("T")
+
+
 @pytest.mark.parametrize(
-    ["url", "filename"],
+    ["url", "filename", "model"],
     [
         pytest.param(
             "https://www.flickr.com/photos/coast_guard/32812033543",
             "32812033543.json",
+            SinglePhoto,
             id="single_photo",
         ),
         pytest.param(
             "https://www.flickr.com/photos/joshuatreenp/albums/72157640898611483",
             "album-72157640898611483.json",
+            PhotosInAlbum,
             id="album",
         ),
         pytest.param(
             "https://www.flickr.com/photos/joshuatreenp/albums/72157640898611483/page2",
             "album-72157640898611483-page2.json",
+            PhotosInAlbum,
             id="album-page2",
         ),
         pytest.param(
-            "https://www.flickr.com/photos/spike_yun/", "user-spike_yun.json", id="user"
+            "https://www.flickr.com/photos/spike_yun/",
+            "user-spike_yun.json",
+            CollectionOfPhotos,
+            id="user",
         ),
         pytest.param(
             "https://www.flickr.com/photos/meldaniel/galleries/72157716953066942/",
             "gallery-72157716953066942.json",
+            PhotosInGallery,
             id="gallery",
         ),
         pytest.param(
             "https://www.flickr.com/groups/geologists/",
             "group-geologists.json",
+            PhotosInGroup,
             id="group",
         ),
         pytest.param(
-            "https://www.flickr.com/photos/tags/botany", "tag-botany.json", id="tag"
+            "https://www.flickr.com/photos/tags/botany",
+            "tag-botany.json",
+            CollectionOfPhotos,
+            id="tag",
         ),
     ],
 )
 def test_get_photos_from_flickr_url(
-    api: FlickrPhotosApi, url: str, filename: str
+    api: FlickrPhotosApi, url: str, filename: str, model: type[T]
 ) -> None:
     resp = api.get_photos_from_flickr_url(url)
 
-    assert jsonify(resp) == get_fixture(filename)
+    assert resp == get_typed_fixture(filename, model=model)
 
 
 @pytest.mark.parametrize(

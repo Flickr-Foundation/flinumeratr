@@ -8,17 +8,23 @@
     "photos_url": "https://www.flickr.com/photos/coast_guard/",
     "profile_url": "https://www.flickr.com/people/coast_guard/"
   },
-  "date_posted": "2017-03-24T17:27:52+00:00",
+  "date_posted": {
+    "type": "datetime.datetime",
+    "value": "2017-03-24T17:27:52+00:00"
+  },
   "date_taken": {
-    "value": "2017-02-17T00:00:00",
+    "value": {
+      "type": "datetime.datetime",
+      "value": "2017-02-17T00:00:00"
+    },
     "granularity": "second"
-  },  "license": {
+  },
+  "license": {
     "id": "usgov",
     "label": "United States Government Work",
     "url": "http://www.usa.gov/copyright.shtml"
   },
   "url": "https://www.flickr.com/photos/coast_guard/32812033543/",
-  
   "sizes": [
     {
       "label": "Square",

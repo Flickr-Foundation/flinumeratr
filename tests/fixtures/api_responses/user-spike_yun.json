@@ -2,12 +2,17 @@
   "page_count": 4,
   "photos": [
     {
-      "date_posted": "2018-07-22T00:25:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-07-22T00:25:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-07-16T16:53:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-07-16T16:53:51"
+        }
       },
-
       "id": "41748863770",
       "license": {
         "id": "in-copyright",
@@ -20,7 +25,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -75,12 +81,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/41748863770/"
     },
     {
-      "date_posted": "2018-07-22T00:25:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-07-22T00:25:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-07-16T16:17:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-07-16T16:17:22"
+        }
       },
-
       "id": "41748860730",
       "license": {
         "id": "in-copyright",
@@ -93,7 +104,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -148,12 +160,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/41748860730/"
     },
     {
-      "date_posted": "2018-07-22T00:24:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-07-22T00:24:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-07-20T14:01:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-07-20T14:01:40"
+        }
       },
-
       "id": "29685544718",
       "license": {
         "id": "in-copyright",
@@ -166,7 +183,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -221,9 +239,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/29685544718/"
     },
     {
-      "date_posted": "2018-07-13T03:23:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-07-13T03:23:11+00:00"
+      },
       "date_taken": null,
-
       "id": "29504825658",
       "license": {
         "id": "in-copyright",
@@ -236,7 +256,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -284,12 +305,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/29504825658/"
     },
     {
-      "date_posted": "2018-06-01T04:41:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-06-01T04:41:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-30T14:49:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-30T14:49:18"
+        }
       },
-
       "id": "27617017957",
       "license": {
         "id": "in-copyright",
@@ -302,7 +328,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -357,12 +384,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27617017957/"
     },
     {
-      "date_posted": "2018-04-27T07:07:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-04-27T07:07:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-04-20T09:10:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-04-20T09:10:54"
+        }
       },
-
       "id": "41691679542",
       "license": {
         "id": "in-copyright",
@@ -375,7 +407,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -430,12 +463,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/41691679542/"
     },
     {
-      "date_posted": "2018-04-06T12:38:40+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-04-06T12:38:40+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-03-23T21:46:48"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-03-23T21:46:48"
+        }
       },
-
       "id": "39728232390",
       "license": {
         "id": "in-copyright",
@@ -448,7 +486,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -503,12 +542,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/39728232390/"
     },
     {
-      "date_posted": "2018-03-15T06:45:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-03-15T06:45:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-02-26T20:22:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-02-26T20:22:06"
+        }
       },
-
       "id": "25947688217",
       "license": {
         "id": "in-copyright",
@@ -521,7 +565,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -576,9 +621,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25947688217/"
     },
     {
-      "date_posted": "2018-02-11T05:26:49+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-02-11T05:26:49+00:00"
+      },
       "date_taken": null,
-
       "id": "26324652908",
       "license": {
         "id": "in-copyright",
@@ -591,7 +638,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -646,12 +694,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26324652908/"
     },
     {
-      "date_posted": "2017-11-21T16:17:03+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-11-21T16:17:03+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-11-10T17:06:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-11-10T17:06:56"
+        }
       },
-
       "id": "37847389274",
       "license": {
         "id": "in-copyright",
@@ -664,7 +717,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -719,12 +773,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/37847389274/"
     },
     {
-      "date_posted": "2017-10-04T09:04:50+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-10-04T09:04:50+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-10-03T03:23:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-10-03T03:23:38"
+        }
       },
-
       "id": "36820403863",
       "license": {
         "id": "in-copyright",
@@ -737,7 +796,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -792,12 +852,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/36820403863/"
     },
     {
-      "date_posted": "2017-09-10T03:13:50+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-09-10T03:13:50+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-08-02T15:10:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-08-02T15:10:49"
+        }
       },
-
       "id": "36298314454",
       "license": {
         "id": "in-copyright",
@@ -810,7 +875,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -865,12 +931,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/36298314454/"
     },
     {
-      "date_posted": "2017-08-13T11:00:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-08-13T11:00:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-07-02T15:04:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-07-02T15:04:59"
+        }
       },
-
       "id": "36370844242",
       "license": {
         "id": "in-copyright",
@@ -883,7 +954,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -938,12 +1010,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/36370844242/"
     },
     {
-      "date_posted": "2017-06-26T12:50:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-06-26T12:50:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-06-25T14:21:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-06-25T14:21:10"
+        }
       },
-
       "id": "35159091470",
       "license": {
         "id": "in-copyright",
@@ -956,7 +1033,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1011,12 +1089,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/35159091470/"
     },
     {
-      "date_posted": "2017-06-12T12:36:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-06-12T12:36:56+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-05-19T00:33:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-05-19T00:33:18"
+        }
       },
-
       "id": "34872220970",
       "license": {
         "id": "in-copyright",
@@ -1029,7 +1112,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1084,12 +1168,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/34872220970/"
     },
     {
-      "date_posted": "2017-05-09T10:15:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-05-09T10:15:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-04-17T16:48:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-04-17T16:48:52"
+        }
       },
-
       "id": "34420718291",
       "license": {
         "id": "in-copyright",
@@ -1102,7 +1191,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1157,12 +1247,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/34420718291/"
     },
     {
-      "date_posted": "2017-04-14T13:12:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-04-14T13:12:56+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T08:30:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T08:30:50"
+        }
       },
-
       "id": "33873581602",
       "license": {
         "id": "in-copyright",
@@ -1175,7 +1270,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1230,12 +1326,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/33873581602/"
     },
     {
-      "date_posted": "2017-03-11T13:45:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-11T13:45:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-07T12:20:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-07T12:20:58"
+        }
       },
-
       "id": "33107666061",
       "license": {
         "id": "in-copyright",
@@ -1248,7 +1349,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1303,12 +1405,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/33107666061/"
     },
     {
-      "date_posted": "2017-02-26T12:08:55+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-02-26T12:08:55+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-12T10:27:15"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-12T10:27:15"
+        }
       },
-
       "id": "33125709115",
       "license": {
         "id": "in-copyright",
@@ -1321,7 +1428,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1376,12 +1484,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/33125709115/"
     },
     {
-      "date_posted": "2017-02-13T05:17:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-02-13T05:17:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-10T11:31:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-10T11:31:37"
+        }
       },
-
       "id": "32719420582",
       "license": {
         "id": "in-copyright",
@@ -1394,7 +1507,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1449,12 +1563,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/32719420582/"
     },
     {
-      "date_posted": "2017-02-09T08:09:21+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-02-09T08:09:21+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-01-21T14:03:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-01-21T14:03:10"
+        }
       },
-
       "id": "32674080691",
       "license": {
         "id": "in-copyright",
@@ -1467,7 +1586,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1522,12 +1642,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/32674080691/"
     },
     {
-      "date_posted": "2017-02-06T03:54:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-02-06T03:54:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-06T12:10:39"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-06T12:10:39"
+        }
       },
-
       "id": "32737833735",
       "license": {
         "id": "in-copyright",
@@ -1540,7 +1665,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1595,12 +1721,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/32737833735/"
     },
     {
-      "date_posted": "2017-01-30T15:11:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-01-30T15:11:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-02T09:31:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-02T09:31:01"
+        }
       },
-
       "id": "31674099572",
       "license": {
         "id": "in-copyright",
@@ -1613,7 +1744,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1668,12 +1800,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31674099572/"
     },
     {
-      "date_posted": "2017-01-12T07:31:29+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-01-12T07:31:29+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-20T18:35:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-20T18:35:52"
+        }
       },
-
       "id": "31451210553",
       "license": {
         "id": "in-copyright",
@@ -1686,7 +1823,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1741,12 +1879,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31451210553/"
     },
     {
-      "date_posted": "2016-12-20T13:05:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-20T13:05:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-06T13:28:13"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-06T13:28:13"
+        }
       },
-
       "id": "31390739330",
       "license": {
         "id": "in-copyright",
@@ -1759,7 +1902,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1814,12 +1958,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31390739330/"
     },
     {
-      "date_posted": "2016-12-17T11:24:45+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-17T11:24:45+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-07T09:55:26"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-07T09:55:26"
+        }
       },
-
       "id": "31660432316",
       "license": {
         "id": "in-copyright",
@@ -1832,7 +1981,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1887,12 +2037,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31660432316/"
     },
     {
-      "date_posted": "2016-12-12T16:36:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-12T16:36:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-06T13:16:46"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-06T13:16:46"
+        }
       },
-
       "id": "31563600416",
       "license": {
         "id": "in-copyright",
@@ -1905,7 +2060,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1960,12 +2116,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31563600416/"
     },
     {
-      "date_posted": "2016-12-08T06:40:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-08T06:40:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-11T19:40:39"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-11T19:40:39"
+        }
       },
-
       "id": "30640144594",
       "license": {
         "id": "in-copyright",
@@ -1978,7 +2139,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2033,12 +2195,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/30640144594/"
     },
     {
-      "date_posted": "2016-12-02T04:54:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-02T04:54:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-17T16:10:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-17T16:10:51"
+        }
       },
-
       "id": "30559113883",
       "license": {
         "id": "in-copyright",
@@ -2051,7 +2218,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2106,12 +2274,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/30559113883/"
     },
     {
-      "date_posted": "2016-11-25T14:30:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-11-25T14:30:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-21T15:17:46"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-21T15:17:46"
+        }
       },
-
       "id": "31233066315",
       "license": {
         "id": "in-copyright",
@@ -2124,7 +2297,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2179,12 +2353,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31233066315/"
     },
     {
-      "date_posted": "2016-11-24T20:01:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-11-24T20:01:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-10-24T17:06:43"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-10-24T17:06:43"
+        }
       },
-
       "id": "31183620606",
       "license": {
         "id": "in-copyright",
@@ -2197,7 +2376,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2252,12 +2432,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/31183620606/"
     },
     {
-      "date_posted": "2016-11-17T14:46:50+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-11-17T14:46:50+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-15T08:39:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-15T08:39:44"
+        }
       },
-
       "id": "30941098941",
       "license": {
         "id": "in-copyright",
@@ -2270,7 +2455,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2325,12 +2511,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/30941098941/"
     },
     {
-      "date_posted": "2016-11-11T15:25:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-11-11T15:25:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-05T13:43:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-05T13:43:00"
+        }
       },
-
       "id": "30879922446",
       "license": {
         "id": "in-copyright",
@@ -2343,7 +2534,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2398,12 +2590,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/30879922446/"
     },
     {
-      "date_posted": "2016-10-30T01:49:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-30T01:49:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-10T18:33:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-10T18:33:59"
+        }
       },
-
       "id": "27099720072",
       "license": {
         "id": "in-copyright",
@@ -2416,7 +2613,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2471,12 +2669,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27099720072/"
     },
     {
-      "date_posted": "2016-10-26T13:06:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-26T13:06:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-27T15:11:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-27T15:11:55"
+        }
       },
-
       "id": "28743115801",
       "license": {
         "id": "in-copyright",
@@ -2489,7 +2692,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2544,12 +2748,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28743115801/"
     },
     {
-      "date_posted": "2016-10-21T12:57:03+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-21T12:57:03+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-10-01T18:17:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-10-01T18:17:40"
+        }
       },
-
       "id": "30003758451",
       "license": {
         "id": "in-copyright",
@@ -2562,7 +2771,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2617,12 +2827,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/30003758451/"
     },
     {
-      "date_posted": "2016-10-19T17:40:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-19T17:40:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-04-12T13:09:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-04-12T13:09:41"
+        }
       },
-
       "id": "29705613623",
       "license": {
         "id": "in-copyright",
@@ -2635,7 +2850,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2690,12 +2906,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/29705613623/"
     },
     {
-      "date_posted": "2016-10-15T00:36:06+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-15T00:36:06+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-04-21T08:55:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-04-21T08:55:11"
+        }
       },
-
       "id": "29698250434",
       "license": {
         "id": "in-copyright",
@@ -2708,7 +2929,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2763,12 +2985,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/29698250434/"
     },
     {
-      "date_posted": "2016-10-05T01:00:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-05T01:00:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-10-01T17:39:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-10-01T17:39:44"
+        }
       },
-
       "id": "30053033186",
       "license": {
         "id": "in-copyright",
@@ -2781,7 +3008,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2836,12 +3064,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/30053033186/"
     },
     {
-      "date_posted": "2016-10-02T21:27:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-02T21:27:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-14T19:53:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-14T19:53:06"
+        }
       },
-
       "id": "28225698142",
       "license": {
         "id": "in-copyright",
@@ -2854,7 +3087,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2909,12 +3143,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28225698142/"
     },
     {
-      "date_posted": "2016-09-30T03:48:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-30T03:48:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-02T09:29:24"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-02T09:29:24"
+        }
       },
-
       "id": "27451937741",
       "license": {
         "id": "in-copyright",
@@ -2927,7 +3166,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2982,12 +3222,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27451937741/"
     },
     {
-      "date_posted": "2016-09-28T09:36:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-28T09:36:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-07T18:50:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-07T18:50:21"
+        }
       },
-
       "id": "28202175994",
       "license": {
         "id": "in-copyright",
@@ -3000,7 +3245,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3055,12 +3301,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28202175994/"
     },
     {
-      "date_posted": "2016-09-26T06:13:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-26T06:13:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-05-18T16:11:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-05-18T16:11:59"
+        }
       },
-
       "id": "18250964001",
       "license": {
         "id": "in-copyright",
@@ -3073,7 +3324,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3128,12 +3380,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/18250964001/"
     },
     {
-      "date_posted": "2016-09-25T01:33:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-25T01:33:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-01T16:44:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-01T16:44:40"
+        }
       },
-
       "id": "26706890691",
       "license": {
         "id": "in-copyright",
@@ -3146,7 +3403,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3201,12 +3459,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26706890691/"
     },
     {
-      "date_posted": "2016-09-22T14:28:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-22T14:28:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-07T20:55:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-07T20:55:41"
+        }
       },
-
       "id": "29796109526",
       "license": {
         "id": "in-copyright",
@@ -3219,7 +3482,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3274,12 +3538,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/29796109526/"
     },
     {
-      "date_posted": "2016-09-20T02:02:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-20T02:02:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-16T17:28:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-16T17:28:21"
+        }
       },
-
       "id": "27838555144",
       "license": {
         "id": "in-copyright",
@@ -3292,7 +3561,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3347,12 +3617,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27838555144/"
     },
     {
-      "date_posted": "2016-09-17T10:49:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-17T10:49:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-19T12:44:27"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-19T12:44:27"
+        }
       },
-
       "id": "28831635841",
       "license": {
         "id": "in-copyright",
@@ -3365,7 +3640,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3420,12 +3696,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28831635841/"
     },
     {
-      "date_posted": "2016-09-05T02:51:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-05T02:51:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-27T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-27T00:00:00"
+        }
       },
-
       "id": "28819830415",
       "license": {
         "id": "in-copyright",
@@ -3438,7 +3719,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3493,12 +3775,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28819830415/"
     },
     {
-      "date_posted": "2016-09-03T10:00:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-03T10:00:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-03T04:38:32"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-03T04:38:32"
+        }
       },
-
       "id": "26529912340",
       "license": {
         "id": "in-copyright",
@@ -3511,7 +3798,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3566,12 +3854,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26529912340/"
     },
     {
-      "date_posted": "2016-09-02T08:09:08+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-02T08:09:08+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-27T18:50:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-27T18:50:52"
+        }
       },
-
       "id": "29400367215",
       "license": {
         "id": "in-copyright",
@@ -3584,7 +3877,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3639,12 +3933,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/29400367215/"
     },
     {
-      "date_posted": "2016-08-27T13:00:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-27T13:00:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-12-20T12:12:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-12-20T12:12:00"
+        }
       },
-
       "id": "23596811400",
       "license": {
         "id": "in-copyright",
@@ -3657,7 +3956,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3712,12 +4012,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/23596811400/"
     },
     {
-      "date_posted": "2016-08-24T05:35:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-24T05:35:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-12-18T10:40:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-12-18T10:40:40"
+        }
       },
-
       "id": "25558743402",
       "license": {
         "id": "in-copyright",
@@ -3730,7 +4035,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3785,12 +4091,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/25558743402/"
     },
     {
-      "date_posted": "2016-08-22T14:17:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-22T14:17:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-19T17:08:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-19T17:08:40"
+        }
       },
-
       "id": "28907195485",
       "license": {
         "id": "in-copyright",
@@ -3803,7 +4114,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3858,12 +4170,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28907195485/"
     },
     {
-      "date_posted": "2016-08-13T06:36:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-13T06:36:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-19T16:41:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-19T16:41:12"
+        }
       },
-
       "id": "28907192615",
       "license": {
         "id": "in-copyright",
@@ -3876,7 +4193,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3931,12 +4249,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28907192615/"
     },
     {
-      "date_posted": "2016-08-11T04:38:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-11T04:38:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-11T08:40:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-11T08:40:56"
+        }
       },
-
       "id": "27655086693",
       "license": {
         "id": "in-copyright",
@@ -3949,7 +4272,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4004,12 +4328,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27655086693/"
     },
     {
-      "date_posted": "2016-08-09T11:36:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-09T11:36:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-11T16:33:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-11T16:33:09"
+        }
       },
-
       "id": "28191872861",
       "license": {
         "id": "in-copyright",
@@ -4022,7 +4351,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4077,12 +4407,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28191872861/"
     },
     {
-      "date_posted": "2016-08-07T12:14:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-08-07T12:14:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-25T20:48:32"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-25T20:48:32"
+        }
       },
-
       "id": "28202172884",
       "license": {
         "id": "in-copyright",
@@ -4095,7 +4430,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4150,12 +4486,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28202172884/"
     },
     {
-      "date_posted": "2016-07-29T17:33:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-07-29T17:33:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-07-11T18:23:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-07-11T18:23:34"
+        }
       },
-
       "id": "28270106995",
       "license": {
         "id": "in-copyright",
@@ -4168,7 +4509,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4223,12 +4565,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/28270106995/"
     },
     {
-      "date_posted": "2016-07-21T16:48:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-07-21T16:48:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-29T08:44:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-29T08:44:55"
+        }
       },
-
       "id": "27489696136",
       "license": {
         "id": "in-copyright",
@@ -4241,7 +4588,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4296,12 +4644,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27489696136/"
     },
     {
-      "date_posted": "2016-07-20T16:31:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-07-20T16:31:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-28T17:11:08"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-28T17:11:08"
+        }
       },
-
       "id": "26914892294",
       "license": {
         "id": "in-copyright",
@@ -4314,7 +4667,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4369,12 +4723,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26914892294/"
     },
     {
-      "date_posted": "2016-07-09T12:44:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-07-09T12:44:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-01T19:28:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-01T19:28:09"
+        }
       },
-
       "id": "27425335532",
       "license": {
         "id": "in-copyright",
@@ -4387,7 +4746,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4442,12 +4802,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27425335532/"
     },
     {
-      "date_posted": "2016-07-07T13:40:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-07-07T13:40:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-06T20:32:32"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-06T20:32:32"
+        }
       },
-
       "id": "27529006432",
       "license": {
         "id": "in-copyright",
@@ -4460,7 +4825,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4515,12 +4881,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27529006432/"
     },
     {
-      "date_posted": "2016-07-06T12:32:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-07-06T12:32:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-31T12:19:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-31T12:19:12"
+        }
       },
-
       "id": "27489224696",
       "license": {
         "id": "in-copyright",
@@ -4533,7 +4904,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4588,12 +4960,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27489224696/"
     },
     {
-      "date_posted": "2016-06-30T11:41:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-30T11:41:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-06T21:09:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-06T21:09:37"
+        }
       },
-
       "id": "27555256541",
       "license": {
         "id": "in-copyright",
@@ -4606,7 +4983,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4661,12 +5039,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27555256541/"
     },
     {
-      "date_posted": "2016-06-27T12:47:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-27T12:47:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-18T10:26:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-18T10:26:57"
+        }
       },
-
       "id": "27246190436",
       "license": {
         "id": "in-copyright",
@@ -4679,7 +5062,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4734,12 +5118,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27246190436/"
     },
     {
-      "date_posted": "2016-06-26T15:14:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-26T15:14:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-01T18:59:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-01T18:59:45"
+        }
       },
-
       "id": "27425321042",
       "license": {
         "id": "in-copyright",
@@ -4752,7 +5141,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4807,12 +5197,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27425321042/"
     },
     {
-      "date_posted": "2016-06-25T10:32:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-25T10:32:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-01T12:26:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-01T12:26:44"
+        }
       },
-
       "id": "27489766816",
       "license": {
         "id": "in-copyright",
@@ -4825,7 +5220,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4880,12 +5276,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27489766816/"
     },
     {
-      "date_posted": "2016-06-22T10:31:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-22T10:31:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-01T11:54:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-01T11:54:06"
+        }
       },
-
       "id": "26916104173",
       "license": {
         "id": "in-copyright",
@@ -4898,7 +5299,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4953,12 +5355,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26916104173/"
     },
     {
-      "date_posted": "2016-06-18T05:11:30+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-18T05:11:30+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-27T18:37:26"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-27T18:37:26"
+        }
       },
-
       "id": "27401794156",
       "license": {
         "id": "in-copyright",
@@ -4971,7 +5378,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5026,12 +5434,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27401794156/"
     },
     {
-      "date_posted": "2016-06-16T09:27:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-16T09:27:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-06-01T11:56:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-06-01T11:56:29"
+        }
       },
-
       "id": "27451758221",
       "license": {
         "id": "in-copyright",
@@ -5044,7 +5457,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5099,12 +5513,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27451758221/"
     },
     {
-      "date_posted": "2016-06-13T15:27:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-13T15:27:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-29T08:08:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-29T08:08:57"
+        }
       },
-
       "id": "27567301316",
       "license": {
         "id": "in-copyright",
@@ -5117,7 +5536,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5172,12 +5592,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27567301316/"
     },
     {
-      "date_posted": "2016-06-12T14:05:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-12T14:05:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-30T20:42:13"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-30T20:42:13"
+        }
       },
-
       "id": "26915472463",
       "license": {
         "id": "in-copyright",
@@ -5190,7 +5615,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5245,12 +5671,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26915472463/"
     },
     {
-      "date_posted": "2016-06-11T12:10:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-11T12:10:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-30T21:40:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-30T21:40:45"
+        }
       },
-
       "id": "27247212860",
       "license": {
         "id": "in-copyright",
@@ -5263,7 +5694,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5318,12 +5750,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27247212860/"
     },
     {
-      "date_posted": "2016-06-09T18:13:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-09T18:13:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-29T08:43:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-29T08:43:12"
+        }
       },
-
       "id": "26916020163",
       "license": {
         "id": "in-copyright",
@@ -5336,7 +5773,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5391,9 +5829,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26916020163/"
     },
     {
-      "date_posted": "2016-06-07T01:56:07+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-07T01:56:07+00:00"
+      },
       "date_taken": null,
-
       "id": "26904502223",
       "license": {
         "id": "in-copyright",
@@ -5406,7 +5846,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5461,9 +5902,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26904502223/"
     },
     {
-      "date_posted": "2016-06-04T11:04:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-04T11:04:16+00:00"
+      },
       "date_taken": null,
-
       "id": "27381362431",
       "license": {
         "id": "in-copyright",
@@ -5476,7 +5919,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5531,9 +5975,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/27381362431/"
     },
     {
-      "date_posted": "2016-06-02T06:13:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-06-02T06:13:15+00:00"
+      },
       "date_taken": null,
-
       "id": "26802355554",
       "license": {
         "id": "in-copyright",
@@ -5546,7 +5992,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5601,9 +6048,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26802355554/"
     },
     {
-      "date_posted": "2016-05-29T17:01:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-05-29T17:01:19+00:00"
+      },
       "date_taken": null,
-
       "id": "27297648756",
       "license": {
         "id": "in-copyright",
@@ -5616,7 +6065,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5671,12 +6121,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/27297648756/"
     },
     {
-      "date_posted": "2016-05-27T06:50:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-05-27T06:50:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-18T10:58:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-18T10:58:12"
+        }
       },
-
       "id": "26672933734",
       "license": {
         "id": "in-copyright",
@@ -5689,7 +6144,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5744,12 +6200,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26672933734/"
     },
     {
-      "date_posted": "2016-05-24T13:22:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-05-24T13:22:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-08T18:29:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-08T18:29:09"
+        }
       },
-
       "id": "26306023043",
       "license": {
         "id": "in-copyright",
@@ -5762,7 +6223,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5817,12 +6279,17 @@
       "url": "https://www.flickr.com/photos/spike_yun/26306023043/"
     },
     {
-      "date_posted": "2016-05-10T06:25:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-05-10T06:25:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-05-01T19:22:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-05-01T19:22:59"
+        }
       },
-
       "id": "26910161535",
       "license": {
         "id": "in-copyright",
@@ -5835,7 +6302,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5890,9 +6358,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26910161535/"
     },
     {
-      "date_posted": "2016-05-06T11:33:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-05-06T11:33:15+00:00"
+      },
       "date_taken": null,
-
       "id": "26244647173",
       "license": {
         "id": "in-copyright",
@@ -5905,7 +6375,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5960,9 +6431,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26244647173/"
     },
     {
-      "date_posted": "2016-05-04T06:24:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-05-04T06:24:28+00:00"
+      },
       "date_taken": null,
-
       "id": "26201626284",
       "license": {
         "id": "in-copyright",
@@ -5975,7 +6448,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6030,9 +6504,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26201626284/"
     },
     {
-      "date_posted": "2016-04-29T14:33:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-29T14:33:38+00:00"
+      },
       "date_taken": null,
-
       "id": "26619210042",
       "license": {
         "id": "in-copyright",
@@ -6045,7 +6521,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6100,9 +6577,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26619210042/"
     },
     {
-      "date_posted": "2016-04-28T13:39:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-28T13:39:24+00:00"
+      },
       "date_taken": null,
-
       "id": "26667270356",
       "license": {
         "id": "in-copyright",
@@ -6115,7 +6594,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6170,9 +6650,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26667270356/"
     },
     {
-      "date_posted": "2016-04-28T01:30:41+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-28T01:30:41+00:00"
+      },
       "date_taken": null,
-
       "id": "26659073406",
       "license": {
         "id": "in-copyright",
@@ -6185,7 +6667,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6240,9 +6723,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26659073406/"
     },
     {
-      "date_posted": "2016-04-26T23:55:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-26T23:55:38+00:00"
+      },
       "date_taken": null,
-
       "id": "26666607855",
       "license": {
         "id": "in-copyright",
@@ -6255,7 +6740,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6310,9 +6796,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26666607855/"
     },
     {
-      "date_posted": "2016-04-26T04:01:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-26T04:01:16+00:00"
+      },
       "date_taken": null,
-
       "id": "26046664843",
       "license": {
         "id": "in-copyright",
@@ -6325,7 +6813,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6380,9 +6869,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26046664843/"
     },
     {
-      "date_posted": "2016-04-25T14:46:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-25T14:46:35+00:00"
+      },
       "date_taken": null,
-
       "id": "26573015011",
       "license": {
         "id": "in-copyright",
@@ -6395,7 +6886,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6450,9 +6942,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26573015011/"
     },
     {
-      "date_posted": "2016-04-24T13:52:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-24T13:52:26+00:00"
+      },
       "date_taken": null,
-
       "id": "26589057906",
       "license": {
         "id": "in-copyright",
@@ -6465,7 +6959,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6520,9 +7015,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26589057906/"
     },
     {
-      "date_posted": "2016-04-22T09:53:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-22T09:53:34+00:00"
+      },
       "date_taken": null,
-
       "id": "25970533723",
       "license": {
         "id": "in-copyright",
@@ -6535,7 +7032,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6590,9 +7088,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25970533723/"
     },
     {
-      "date_posted": "2016-04-16T14:41:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-16T14:41:39+00:00"
+      },
       "date_taken": null,
-
       "id": "26189109980",
       "license": {
         "id": "in-copyright",
@@ -6605,7 +7105,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6660,9 +7161,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26189109980/"
     },
     {
-      "date_posted": "2016-04-12T15:44:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-04-12T15:44:17+00:00"
+      },
       "date_taken": null,
-
       "id": "26118240480",
       "license": {
         "id": "in-copyright",
@@ -6675,7 +7178,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6730,9 +7234,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/26118240480/"
     },
     {
-      "date_posted": "2016-03-22T12:14:43+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-03-22T12:14:43+00:00"
+      },
       "date_taken": null,
-
       "id": "25983685815",
       "license": {
         "id": "in-copyright",
@@ -6745,7 +7251,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6800,9 +7307,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25983685815/"
     },
     {
-      "date_posted": "2016-03-12T19:49:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-03-12T19:49:12+00:00"
+      },
       "date_taken": null,
-
       "id": "25107224203",
       "license": {
         "id": "in-copyright",
@@ -6815,7 +7324,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6870,9 +7380,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25107224203/"
     },
     {
-      "date_posted": "2016-03-11T19:01:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-03-11T19:01:17+00:00"
+      },
       "date_taken": null,
-
       "id": "25405437990",
       "license": {
         "id": "in-copyright",
@@ -6885,7 +7397,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6940,9 +7453,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25405437990/"
     },
     {
-      "date_posted": "2016-03-05T11:47:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-03-05T11:47:04+00:00"
+      },
       "date_taken": null,
-
       "id": "25523348695",
       "license": {
         "id": "in-copyright",
@@ -6955,7 +7470,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7010,9 +7526,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25523348695/"
     },
     {
-      "date_posted": "2016-03-03T16:05:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-03-03T16:05:09+00:00"
+      },
       "date_taken": null,
-
       "id": "25355271842",
       "license": {
         "id": "in-copyright",
@@ -7025,7 +7543,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7080,9 +7599,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25355271842/"
     },
     {
-      "date_posted": "2016-03-01T20:44:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-03-01T20:44:25+00:00"
+      },
       "date_taken": null,
-
       "id": "25392224626",
       "license": {
         "id": "in-copyright",
@@ -7095,7 +7616,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7150,9 +7672,11 @@
       "url": "https://www.flickr.com/photos/spike_yun/25392224626/"
     },
     {
-      "date_posted": "2016-02-29T08:27:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-02-29T08:27:46+00:00"
+      },
       "date_taken": null,
-
       "id": "24742680143",
       "license": {
         "id": "in-copyright",
@@ -7165,7 +7689,8 @@
         "profile_url": "https://www.flickr.com/people/spike_yun/",
         "realname": "Jeong Vin Yoon",
         "username": "Jeong Vin, Yoon"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",

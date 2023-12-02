@@ -6,12 +6,17 @@
   "page_count": 5,
   "photos": [
     {
-      "date_posted": "2022-07-12T14:59:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-07-12T14:59:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-09-28T11:20:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-09-28T11:20:25"
+        }
       },
-      
       "id": "52211834324",
       "license": {
         "id": "in-copyright",
@@ -24,7 +29,8 @@
         "profile_url": "https://www.flickr.com/people/rckr88/",
         "realname": null,
         "username": "Rckr88"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -79,12 +85,17 @@
       "url": "https://www.flickr.com/photos/rckr88/52211834324/"
     },
     {
-      "date_posted": "2022-07-04T22:54:43+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-07-04T22:54:43+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-06-25T07:29:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-06-25T07:29:14"
+        }
       },
-      
       "id": "52194550344",
       "license": {
         "id": "in-copyright",
@@ -97,7 +108,8 @@
         "profile_url": "https://www.flickr.com/people/kamomebird/",
         "realname": "Teruhide Tomori",
         "username": "Teruhide Tomori"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -145,10 +157,16 @@
       "url": "https://www.flickr.com/photos/kamomebird/52194550344/"
     },
     {
-      "date_posted": "2022-07-04T18:52:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-07-04T18:52:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-07-02T16:40:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-07-02T16:40:28"
+        }
       },
       "id": "52194031014",
       "license": {
@@ -162,7 +180,8 @@
         "profile_url": "https://www.flickr.com/people/29830183@N07/",
         "realname": "Peter Roos",
         "username": "^Pete^"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -217,10 +236,16 @@
       "url": "https://www.flickr.com/photos/29830183@N07/52194031014/"
     },
     {
-      "date_posted": "2022-07-04T18:40:43+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-07-04T18:40:43+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-07-03T08:19:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-07-03T08:19:49"
+        }
       },
       "id": "52193740576",
       "license": {
@@ -234,7 +259,8 @@
         "profile_url": "https://www.flickr.com/people/bodiver/",
         "realname": "Bo Pardau",
         "username": "bodiver"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -282,10 +308,16 @@
       "url": "https://www.flickr.com/photos/bodiver/52193740576/"
     },
     {
-      "date_posted": "2022-06-27T13:39:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-06-27T13:39:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-06-27T14:37:48"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-06-27T14:37:48"
+        }
       },
       "id": "52177315355",
       "license": {
@@ -299,7 +331,8 @@
         "profile_url": "https://www.flickr.com/people/140898573@N03/",
         "realname": "~~Marie du Val Couesnon~~",
         "username": "Marie du 35."
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -347,10 +380,16 @@
       "url": "https://www.flickr.com/photos/140898573@N03/52177315355/"
     },
     {
-      "date_posted": "2022-04-05T13:15:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-04-05T13:15:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-04-05T11:33:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-04-05T11:33:58"
+        }
       },
       "id": "51984317844",
       "license": {
@@ -364,7 +403,8 @@
         "profile_url": "https://www.flickr.com/people/56201138@N03/",
         "realname": "Yonca Evren",
         "username": "yonca60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -419,12 +459,17 @@
       "url": "https://www.flickr.com/photos/56201138@N03/51984317844/"
     },
     {
-      "date_posted": "2022-04-04T21:48:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-04-04T21:48:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-08-30T15:16:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-08-30T15:16:21"
+        }
       },
-      
       "id": "51981824432",
       "license": {
         "id": "cc-by-sa-2.0",
@@ -437,7 +482,8 @@
         "profile_url": "https://www.flickr.com/people/londonexpat/",
         "realname": null,
         "username": "londonexpat"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -492,12 +538,17 @@
       "url": "https://www.flickr.com/photos/londonexpat/51981824432/"
     },
     {
-      "date_posted": "2022-01-12T10:18:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-01-12T10:18:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-08-15T17:45:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-08-15T17:45:49"
+        }
       },
-      
       "id": "51815059727",
       "license": {
         "id": "in-copyright",
@@ -508,9 +559,10 @@
         "id": "20127130@N02",
         "photos_url": "https://www.flickr.com/photos/thelmagatuzzo/",
         "profile_url": "https://www.flickr.com/people/thelmagatuzzo/",
-        "realname": "Thelma G\u00e1tuzz\u00f4",
-        "username": "Thelma G\u00e1tuzz\u00f4"
-      },      "sizes": [
+        "realname": "Thelma Gátuzzô",
+        "username": "Thelma Gátuzzô"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -558,12 +610,17 @@
       "url": "https://www.flickr.com/photos/thelmagatuzzo/51815059727/"
     },
     {
-      "date_posted": "2021-12-03T01:45:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-12-03T01:45:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2011-10-20T12:35:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2011-10-20T12:35:35"
+        }
       },
-      
       "id": "51721494545",
       "license": {
         "id": "cc-by-nc-nd-2.0",
@@ -576,7 +633,8 @@
         "profile_url": "https://www.flickr.com/people/fotograzio/",
         "realname": "Wayne S. Grazio",
         "username": "FotoGrazio"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -631,12 +689,17 @@
       "url": "https://www.flickr.com/photos/fotograzio/51721494545/"
     },
     {
-      "date_posted": "2021-11-04T14:18:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-11-04T14:18:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-10-30T16:12:23"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-10-30T16:12:23"
+        }
       },
-      
       "id": "51654251181",
       "license": {
         "id": "in-copyright",
@@ -649,7 +712,8 @@
         "profile_url": "https://www.flickr.com/people/viv3rai/",
         "realname": null,
         "username": "LotusMoon Photography"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -697,12 +761,17 @@
       "url": "https://www.flickr.com/photos/viv3rai/51654251181/"
     },
     {
-      "date_posted": "2021-08-14T11:41:51+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-08-14T11:41:51+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-08-04T10:25:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-08-04T10:25:03"
+        }
       },
-      
       "id": "51376589362",
       "license": {
         "id": "in-copyright",
@@ -715,7 +784,8 @@
         "profile_url": "https://www.flickr.com/people/147061930@N04/",
         "realname": "Takashi Muramatsu",
         "username": "takashi muramatsu"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -770,10 +840,16 @@
       "url": "https://www.flickr.com/photos/147061930@N04/51376589362/"
     },
     {
-      "date_posted": "2021-09-16T05:58:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-09-16T05:58:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-09-09T13:40:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-09-09T13:40:22"
+        }
       },
       "id": "51481366988",
       "license": {
@@ -787,7 +863,8 @@
         "profile_url": "https://www.flickr.com/people/188558354@N02/",
         "realname": null,
         "username": "Fun side sun fide"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -835,10 +912,16 @@
       "url": "https://www.flickr.com/photos/188558354@N02/51481366988/"
     },
     {
-      "date_posted": "2020-10-17T19:08:40+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2020-10-17T19:08:40+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-10-17T09:51:13"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-10-17T09:51:13"
+        }
       },
       "id": "50498083683",
       "license": {
@@ -852,7 +935,8 @@
         "profile_url": "https://www.flickr.com/people/peter_kostov/",
         "realname": "Peter Kostov",
         "username": "Peter Kostov"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -900,12 +984,17 @@
       "url": "https://www.flickr.com/photos/peter_kostov/50498083683/"
     },
     {
-      "date_posted": "2021-09-16T13:34:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-09-16T13:34:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-09-07T13:16:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-09-07T13:16:51"
+        }
       },
-      
       "id": "51483155336",
       "license": {
         "id": "in-copyright",
@@ -918,7 +1007,8 @@
         "profile_url": "https://www.flickr.com/people/gremassimo/",
         "realname": "Massimo Greco",
         "username": "Massimo Greco *"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -966,12 +1056,17 @@
       "url": "https://www.flickr.com/photos/gremassimo/51483155336/"
     },
     {
-      "date_posted": "2020-04-06T16:22:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2020-04-06T16:22:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-05-09T10:34:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-05-09T10:34:37"
+        }
       },
-      
       "id": "49743301242",
       "license": {
         "id": "in-copyright",
@@ -984,7 +1079,8 @@
         "profile_url": "https://www.flickr.com/people/187493411@N03/",
         "realname": "Hadi Hormozi",
         "username": "Hadi Hormozi"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1032,10 +1128,16 @@
       "url": "https://www.flickr.com/photos/187493411@N03/49743301242/"
     },
     {
-      "date_posted": "2021-07-11T13:21:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-11T13:21:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-06T18:29:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-06T18:29:18"
+        }
       },
       "id": "51303484597",
       "license": {
@@ -1049,7 +1151,8 @@
         "profile_url": "https://www.flickr.com/people/75992994@N05/",
         "realname": "Steve Barowik",
         "username": "Steve Barowik"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1097,12 +1200,17 @@
       "url": "https://www.flickr.com/photos/75992994@N05/51303484597/"
     },
     {
-      "date_posted": "2021-06-18T01:13:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-18T01:13:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-17T13:43:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-17T13:43:35"
+        }
       },
-      
       "id": "51254850149",
       "license": {
         "id": "in-copyright",
@@ -1115,7 +1223,8 @@
         "profile_url": "https://www.flickr.com/people/laurentfadyphotos/",
         "realname": "Laurent Fady",
         "username": "Petoskey Drones"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1163,12 +1272,17 @@
       "url": "https://www.flickr.com/photos/laurentfadyphotos/51254850149/"
     },
     {
-      "date_posted": "2021-07-13T11:58:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-13T11:58:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-12T00:16:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-12T00:16:52"
+        }
       },
-      
       "id": "51307893097",
       "license": {
         "id": "in-copyright",
@@ -1180,8 +1294,9 @@
         "photos_url": "https://www.flickr.com/photos/bereal4ever/",
         "profile_url": "https://www.flickr.com/people/bereal4ever/",
         "realname": null,
-        "username": "\u265eJenny\u265e"
-      },      "sizes": [
+        "username": "♞Jenny♞"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1229,12 +1344,17 @@
       "url": "https://www.flickr.com/photos/bereal4ever/51307893097/"
     },
     {
-      "date_posted": "2021-07-13T11:41:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-13T11:41:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-08-13T15:49:08"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-08-13T15:49:08"
+        }
       },
-      
       "id": "51307864547",
       "license": {
         "id": "in-copyright",
@@ -1247,7 +1367,8 @@
         "profile_url": "https://www.flickr.com/people/bartrozanski/",
         "realname": "Bartek Rozanski",
         "username": "Bartek Rozanski"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1295,10 +1416,16 @@
       "url": "https://www.flickr.com/photos/bartrozanski/51307864547/"
     },
     {
-      "date_posted": "2021-07-13T11:52:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-13T11:52:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-10T14:41:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-10T14:41:50"
+        }
       },
       "id": "51307884412",
       "license": {
@@ -1312,7 +1439,8 @@
         "profile_url": "https://www.flickr.com/people/jessicachau/",
         "realname": "Jessica  Chau",
         "username": "jchau1731, thanks for 9 million views"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1367,9 +1495,11 @@
       "url": "https://www.flickr.com/photos/jessicachau/51307884412/"
     },
     {
-      "date_posted": "2021-07-07T01:40:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-07T01:40:24+00:00"
+      },
       "date_taken": null,
-      
       "id": "51296251415",
       "license": {
         "id": "cc-by-nc-2.0",
@@ -1382,7 +1512,8 @@
         "profile_url": "https://www.flickr.com/people/brookward/",
         "realname": "Brook Ward",
         "username": "Brook-Ward"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1437,10 +1568,16 @@
       "url": "https://www.flickr.com/photos/brookward/51296251415/"
     },
     {
-      "date_posted": "2021-07-11T15:34:05+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-11T15:34:05+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-11T17:33:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-11T17:33:41"
+        }
       },
       "id": "51304664048",
       "license": {
@@ -1454,7 +1591,8 @@
         "profile_url": "https://www.flickr.com/people/paolopittorino/",
         "realname": null,
         "username": "lajoliette2010 Paul Pittorino"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1498,16 +1636,21 @@
           "width": 1024
         }
       ],
-      "title": "\u00c9cureuils Marseillais",
+      "title": "Écureuils Marseillais",
       "url": "https://www.flickr.com/photos/paolopittorino/51304664048/"
     },
     {
-      "date_posted": "2021-07-07T19:19:01+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-07T19:19:01+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-04T16:35:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-04T16:35:18"
+        }
       },
-      
       "id": "51296782286",
       "license": {
         "id": "in-copyright",
@@ -1520,7 +1663,8 @@
         "profile_url": "https://www.flickr.com/people/darea62/",
         "realname": "Andrea D'Angiolo",
         "username": "Andrea D'Angiolo"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1568,10 +1712,16 @@
       "url": "https://www.flickr.com/photos/darea62/51296782286/"
     },
     {
-      "date_posted": "2021-07-11T13:48:05+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-11T13:48:05+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-11T10:51:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-11T10:51:10"
+        }
       },
       "id": "51304470943",
       "license": {
@@ -1585,7 +1735,8 @@
         "profile_url": "https://www.flickr.com/people/blichb/",
         "realname": null,
         "username": "blichb"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1633,12 +1784,17 @@
       "url": "https://www.flickr.com/photos/blichb/51304470943/"
     },
     {
-      "date_posted": "2021-07-11T13:58:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-11T13:58:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2014-08-14T11:36:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2014-08-14T11:36:57"
+        }
       },
-      
       "id": "51303546737",
       "license": {
         "id": "in-copyright",
@@ -1651,7 +1807,8 @@
         "profile_url": "https://www.flickr.com/people/teekay-72/",
         "realname": null,
         "username": "teekay72"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1699,12 +1856,17 @@
       "url": "https://www.flickr.com/photos/teekay-72/51303546737/"
     },
     {
-      "date_posted": "2021-07-11T08:27:55+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-11T08:27:55+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-02T13:19:43"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-02T13:19:43"
+        }
       },
-      
       "id": "51304829140",
       "license": {
         "id": "in-copyright",
@@ -1717,7 +1879,8 @@
         "profile_url": "https://www.flickr.com/people/gabriele56/",
         "realname": "gabriele bettelli",
         "username": "gabrielebettelli56"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1765,12 +1928,17 @@
       "url": "https://www.flickr.com/photos/gabriele56/51304829140/"
     },
     {
-      "date_posted": "2021-07-10T13:43:30+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-10T13:43:30+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-07T12:47:16"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-07T12:47:16"
+        }
       },
-      
       "id": "51301445057",
       "license": {
         "id": "in-copyright",
@@ -1783,7 +1951,8 @@
         "profile_url": "https://www.flickr.com/people/141178496@N06/",
         "realname": "claudia lohmanns",
         "username": "claudialohmanns"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1827,16 +1996,21 @@
           "width": 1024
         }
       ],
-      "title": "Rosa L\u00f6ffler ........",
+      "title": "Rosa Löffler ........",
       "url": "https://www.flickr.com/photos/141178496@N06/51301445057/"
     },
     {
-      "date_posted": "2021-07-08T12:43:08+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-08T12:43:08+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-07T12:53:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-07T12:53:37"
+        }
       },
-      
       "id": "51297355222",
       "license": {
         "id": "in-copyright",
@@ -1849,7 +2023,8 @@
         "profile_url": "https://www.flickr.com/people/141178496@N06/",
         "realname": "claudia lohmanns",
         "username": "claudialohmanns"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1897,12 +2072,17 @@
       "url": "https://www.flickr.com/photos/141178496@N06/51297355222/"
     },
     {
-      "date_posted": "2021-07-08T12:52:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-08T12:52:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-07T17:47:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-07T17:47:11"
+        }
       },
-      
       "id": "51298827239",
       "license": {
         "id": "in-copyright",
@@ -1915,7 +2095,8 @@
         "profile_url": "https://www.flickr.com/people/ash2276/",
         "realname": null,
         "username": "A Great Capture"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1963,12 +2144,17 @@
       "url": "https://www.flickr.com/photos/ash2276/51298827239/"
     },
     {
-      "date_posted": "2021-07-07T15:46:43+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-07T15:46:43+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-17T10:20:17"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-17T10:20:17"
+        }
       },
-      
       "id": "51296586078",
       "license": {
         "id": "in-copyright",
@@ -1981,7 +2167,8 @@
         "profile_url": "https://www.flickr.com/people/e-niemann-buuts/",
         "realname": null,
         "username": "Niemann-Buuts"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2029,12 +2216,17 @@
       "url": "https://www.flickr.com/photos/e-niemann-buuts/51296586078/"
     },
     {
-      "date_posted": "2021-07-07T11:47:40+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-07T11:47:40+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-08-12T08:56:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-08-12T08:56:54"
+        }
       },
-      
       "id": "51296723669",
       "license": {
         "id": "in-copyright",
@@ -2045,9 +2237,10 @@
         "id": "20127130@N02",
         "photos_url": "https://www.flickr.com/photos/thelmagatuzzo/",
         "profile_url": "https://www.flickr.com/people/thelmagatuzzo/",
-        "realname": "Thelma G\u00e1tuzz\u00f4",
-        "username": "Thelma G\u00e1tuzz\u00f4"
-      },      "sizes": [
+        "realname": "Thelma Gátuzzô",
+        "username": "Thelma Gátuzzô"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2095,12 +2288,17 @@
       "url": "https://www.flickr.com/photos/thelmagatuzzo/51296723669/"
     },
     {
-      "date_posted": "2021-07-06T22:09:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-06T22:09:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-06T12:05:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-06T12:05:54"
+        }
       },
-      
       "id": "51294962436",
       "license": {
         "id": "in-copyright",
@@ -2113,7 +2311,8 @@
         "profile_url": "https://www.flickr.com/people/f2guru/",
         "realname": "Dave Weber \"Fenwoodian\"",
         "username": "YouTube.com/@AffordablePhotography"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2161,10 +2360,16 @@
       "url": "https://www.flickr.com/photos/f2guru/51294962436/"
     },
     {
-      "date_posted": "2021-05-15T19:55:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-15T19:55:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-15T07:26:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-15T07:26:58"
+        }
       },
       "id": "51182035660",
       "license": {
@@ -2178,7 +2383,8 @@
         "profile_url": "https://www.flickr.com/people/geoffsalephotography/",
         "realname": "Geoff Sale",
         "username": "Geoff Sale"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2233,12 +2439,17 @@
       "url": "https://www.flickr.com/photos/geoffsalephotography/51182035660/"
     },
     {
-      "date_posted": "2021-05-15T11:54:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-15T11:54:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-14T08:07:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-14T08:07:25"
+        }
       },
-      
       "id": "51180122831",
       "license": {
         "id": "in-copyright",
@@ -2251,7 +2462,8 @@
         "profile_url": "https://www.flickr.com/people/mariebrowncottagegarden/",
         "realname": null,
         "username": "Marie Brown Cottage Garden"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2299,10 +2511,16 @@
       "url": "https://www.flickr.com/photos/mariebrowncottagegarden/51180122831/"
     },
     {
-      "date_posted": "2021-05-26T08:41:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-26T08:41:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-25T11:03:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-25T11:03:25"
+        }
       },
       "id": "51204767719",
       "license": {
@@ -2316,7 +2534,8 @@
         "profile_url": "https://www.flickr.com/people/129156126@N08/",
         "realname": "tony rawson",
         "username": "trawson58"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2364,10 +2583,16 @@
       "url": "https://www.flickr.com/photos/129156126@N08/51204767719/"
     },
     {
-      "date_posted": "2021-06-10T09:09:51+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-10T09:09:51+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-11-17T16:17:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-11-17T16:17:03"
+        }
       },
       "id": "51238406584",
       "license": {
@@ -2381,7 +2606,8 @@
         "profile_url": "https://www.flickr.com/people/158365943@N06/",
         "realname": "Didier Delouvrier",
         "username": "macdelou"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2429,10 +2655,16 @@
       "url": "https://www.flickr.com/photos/158365943@N06/51238406584/"
     },
     {
-      "date_posted": "2021-07-05T19:03:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-05T19:03:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-09-29T15:21:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-09-29T15:21:52"
+        }
       },
       "id": "51291432407",
       "license": {
@@ -2446,7 +2678,8 @@
         "profile_url": "https://www.flickr.com/people/158365943@N06/",
         "realname": "Didier Delouvrier",
         "username": "macdelou"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2490,16 +2723,21 @@
           "width": 1024
         }
       ],
-      "title": "\u00e9l\u00e9phant et bebe bw-8244",
+      "title": "éléphant et bebe bw-8244",
       "url": "https://www.flickr.com/photos/158365943@N06/51291432407/"
     },
     {
-      "date_posted": "2021-07-05T13:58:08+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-05T13:58:08+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-19T10:40:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-19T10:40:44"
+        }
       },
-      
       "id": "51292532610",
       "license": {
         "id": "in-copyright",
@@ -2512,7 +2750,8 @@
         "profile_url": "https://www.flickr.com/people/nomadsnature/",
         "realname": "Nomads Nature Photography",
         "username": "nomadsnature"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2567,7 +2806,10 @@
       "url": "https://www.flickr.com/photos/nomadsnature/51292532610/"
     },
     {
-      "date_posted": "2021-07-05T14:26:52+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-05T14:26:52+00:00"
+      },
       "date_taken": null,
       "id": "51292590480",
       "license": {
@@ -2581,7 +2823,8 @@
         "profile_url": "https://www.flickr.com/people/adamyzhang/",
         "realname": "Adam Y Zhang",
         "username": "Thank you, my friends, Adam!"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2636,10 +2879,16 @@
       "url": "https://www.flickr.com/photos/adamyzhang/51292590480/"
     },
     {
-      "date_posted": "2021-07-05T14:39:45+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-05T14:39:45+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-04T13:49:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-04T13:49:28"
+        }
       },
       "id": "51292325094",
       "license": {
@@ -2653,7 +2902,8 @@
         "profile_url": "https://www.flickr.com/people/139710384@N02/",
         "realname": "Anita van Gendt",
         "username": "AnitavanGendt"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2708,12 +2958,17 @@
       "url": "https://www.flickr.com/photos/139710384@N02/51292325094/"
     },
     {
-      "date_posted": "2021-07-04T20:57:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-04T20:57:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2011-05-19T12:32:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2011-05-19T12:32:09"
+        }
       },
-      
       "id": "51289983536",
       "license": {
         "id": "in-copyright",
@@ -2726,7 +2981,8 @@
         "profile_url": "https://www.flickr.com/people/68635735@N02/",
         "realname": "David  Wong",
         "username": "R-Gasman"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2774,10 +3030,16 @@
       "url": "https://www.flickr.com/photos/68635735@N02/51289983536/"
     },
     {
-      "date_posted": "2021-06-12T20:24:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-12T20:24:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-05T19:15:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-05T19:15:42"
+        }
       },
       "id": "51243376189",
       "license": {
@@ -2791,7 +3053,8 @@
         "profile_url": "https://www.flickr.com/people/7186423@N05/",
         "realname": "Eric Zumstein",
         "username": "Eric Zumstein"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2846,12 +3109,17 @@
       "url": "https://www.flickr.com/photos/7186423@N05/51243376189/"
     },
     {
-      "date_posted": "2021-07-04T21:14:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-04T21:14:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-04T15:32:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-04T15:32:55"
+        }
       },
-      
       "id": "51291028505",
       "license": {
         "id": "in-copyright",
@@ -2864,7 +3132,8 @@
         "profile_url": "https://www.flickr.com/people/danniepolley/",
         "realname": null,
         "username": "danniepolley"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2912,12 +3181,17 @@
       "url": "https://www.flickr.com/photos/danniepolley/51291028505/"
     },
     {
-      "date_posted": "2021-07-04T21:39:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-04T21:39:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-07-04T09:06:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-07-04T09:06:20"
+        }
       },
-      
       "id": "51289313842",
       "license": {
         "id": "in-copyright",
@@ -2930,7 +3204,8 @@
         "profile_url": "https://www.flickr.com/people/marlinharms/",
         "realname": "marlin harms",
         "username": "marlin harms"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2978,7 +3253,10 @@
       "url": "https://www.flickr.com/photos/marlinharms/51289313842/"
     },
     {
-      "date_posted": "2021-07-02T22:44:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-07-02T22:44:46+00:00"
+      },
       "date_taken": null,
       "id": "51286007298",
       "license": {
@@ -2992,7 +3270,8 @@
         "profile_url": "https://www.flickr.com/people/14143447@N06/",
         "realname": "annie williams",
         "username": "grannie annie taggs"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3040,12 +3319,17 @@
       "url": "https://www.flickr.com/photos/14143447@N06/51286007298/"
     },
     {
-      "date_posted": "2014-01-04T13:12:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2014-01-04T13:12:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2013-10-25T05:46:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2013-10-25T05:46:49"
+        }
       },
-      
       "id": "11751131745",
       "license": {
         "id": "in-copyright",
@@ -3058,7 +3342,8 @@
         "profile_url": "https://www.flickr.com/people/carloalessio77/",
         "realname": "Carlo Alessio Cozzolino",
         "username": "CarloAlessioCozzolino"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3106,9 +3391,11 @@
       "url": "https://www.flickr.com/photos/carloalessio77/11751131745/"
     },
     {
-      "date_posted": "2021-06-27T16:42:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-27T16:42:54+00:00"
+      },
       "date_taken": null,
-      
       "id": "51275360345",
       "license": {
         "id": "in-copyright",
@@ -3121,7 +3408,8 @@
         "profile_url": "https://www.flickr.com/people/njp_frames/",
         "realname": "Stan de Haas",
         "username": "Stan de Haas Photography"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3169,10 +3457,16 @@
       "url": "https://www.flickr.com/photos/njp_frames/51275360345/"
     },
     {
-      "date_posted": "2021-06-26T15:24:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-26T15:24:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-26T15:35:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-26T15:35:52"
+        }
       },
       "id": "51272202973",
       "license": {
@@ -3186,7 +3480,8 @@
         "profile_url": "https://www.flickr.com/people/jan-karel/",
         "realname": null,
         "username": "jankarelkok"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3234,10 +3529,16 @@
       "url": "https://www.flickr.com/photos/jan-karel/51272202973/"
     },
     {
-      "date_posted": "2021-06-26T15:25:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-26T15:25:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2010-07-01T21:17:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2010-07-01T21:17:07"
+        }
       },
       "id": "51273048905",
       "license": {
@@ -3249,9 +3550,10 @@
         "id": "165824254@N04",
         "photos_url": "https://www.flickr.com/photos/165824254@N04/",
         "profile_url": "https://www.flickr.com/people/165824254@N04/",
-        "realname": "Anna S\u0142upianek",
+        "realname": "Anna Słupianek",
         "username": "Solista*"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3306,10 +3608,16 @@
       "url": "https://www.flickr.com/photos/165824254@N04/51273048905/"
     },
     {
-      "date_posted": "2021-06-19T17:56:29+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-19T17:56:29+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-10T14:42:24"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-10T14:42:24"
+        }
       },
       "id": "51256664702",
       "license": {
@@ -3323,7 +3631,8 @@
         "profile_url": "https://www.flickr.com/people/yannha/",
         "realname": null,
         "username": "yannha"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3371,10 +3680,16 @@
       "url": "https://www.flickr.com/photos/yannha/51256664702/"
     },
     {
-      "date_posted": "2021-06-24T15:20:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-24T15:20:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-22T03:36:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-22T03:36:38"
+        }
       },
       "id": "51268207463",
       "license": {
@@ -3388,7 +3703,8 @@
         "profile_url": "https://www.flickr.com/people/gloriousvintage/",
         "realname": "Gloria",
         "username": "MontrealGLORI ~"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3436,12 +3752,17 @@
       "url": "https://www.flickr.com/photos/gloriousvintage/51268207463/"
     },
     {
-      "date_posted": "2021-06-24T07:02:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-24T07:02:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-07T15:32:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-07T15:32:01"
+        }
       },
-      
       "id": "51267565183",
       "license": {
         "id": "in-copyright",
@@ -3454,7 +3775,8 @@
         "profile_url": "https://www.flickr.com/people/187582573@N06/",
         "realname": null,
         "username": "Tigerhase."
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3502,12 +3824,17 @@
       "url": "https://www.flickr.com/photos/187582573@N06/51267565183/"
     },
     {
-      "date_posted": "2021-04-07T14:49:52+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-04-07T14:49:52+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-03-06T11:50:26"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-03-06T11:50:26"
+        }
       },
-      
       "id": "51101429043",
       "license": {
         "id": "in-copyright",
@@ -3520,7 +3847,8 @@
         "profile_url": "https://www.flickr.com/people/wellingtonmio/",
         "realname": "Wellington Martins",
         "username": "Jeepeiro Selvagem"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3564,16 +3892,21 @@
           "width": 1024
         }
       ],
-      "title": "Gavi\u00e3o Caracara",
+      "title": "Gavião Caracara",
       "url": "https://www.flickr.com/photos/wellingtonmio/51101429043/"
     },
     {
-      "date_posted": "2021-06-23T21:29:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-23T21:29:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-23T13:22:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-23T13:22:28"
+        }
       },
-      
       "id": "51265941752",
       "license": {
         "id": "in-copyright",
@@ -3586,7 +3919,8 @@
         "profile_url": "https://www.flickr.com/people/chetkresiak/",
         "realname": null,
         "username": "Chet K. THANKS FOR 49 MILLION VIEWS"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3634,12 +3968,17 @@
       "url": "https://www.flickr.com/photos/chetkresiak/51265941752/"
     },
     {
-      "date_posted": "2021-05-14T19:17:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-14T19:17:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2012-11-03T08:00:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2012-11-03T08:00:03"
+        }
       },
-      
       "id": "51179985245",
       "license": {
         "id": "in-copyright",
@@ -3652,7 +3991,8 @@
         "profile_url": "https://www.flickr.com/people/tall-guy/",
         "realname": "Alan",
         "username": "Tall Guy"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3700,12 +4040,17 @@
       "url": "https://www.flickr.com/photos/tall-guy/51179985245/"
     },
     {
-      "date_posted": "2021-06-16T17:05:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-16T17:05:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2009-12-04T18:39:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2009-12-04T18:39:33"
+        }
       },
-      
       "id": "4171291280",
       "license": {
         "id": "in-copyright",
@@ -3718,7 +4063,8 @@
         "profile_url": "https://www.flickr.com/people/39489005@N05/",
         "realname": "Clement Tang",
         "username": "Clement Tang *"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3773,12 +4119,17 @@
       "url": "https://www.flickr.com/photos/39489005@N05/4171291280/"
     },
     {
-      "date_posted": "2021-05-14T06:06:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-14T06:06:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-12-28T16:22:31"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-12-28T16:22:31"
+        }
       },
-      
       "id": "51177093607",
       "license": {
         "id": "in-copyright",
@@ -3791,7 +4142,8 @@
         "profile_url": "https://www.flickr.com/people/187458160@N06/",
         "realname": "stefano romei",
         "username": "stefano steff romei"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3846,12 +4198,17 @@
       "url": "https://www.flickr.com/photos/187458160@N06/51177093607/"
     },
     {
-      "date_posted": "2021-06-23T14:35:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-23T14:35:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-20T15:31:16"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-20T15:31:16"
+        }
       },
-      
       "id": "51265237357",
       "license": {
         "id": "in-copyright",
@@ -3864,7 +4221,8 @@
         "profile_url": "https://www.flickr.com/people/michel_craipeau/",
         "realname": "Michel Thomas / Craipeau",
         "username": "Michel Thomas / Craipeau"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3919,10 +4277,16 @@
       "url": "https://www.flickr.com/photos/michel_craipeau/51265237357/"
     },
     {
-      "date_posted": "2020-02-16T10:23:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2020-02-16T10:23:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-12-22T19:15:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-12-22T19:15:03"
+        }
       },
       "id": "49540785602",
       "license": {
@@ -3936,7 +4300,8 @@
         "profile_url": "https://www.flickr.com/people/rjonsen/",
         "realname": "Rolf Jonsen",
         "username": "rjonsen"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3984,10 +4349,16 @@
       "url": "https://www.flickr.com/photos/rjonsen/49540785602/"
     },
     {
-      "date_posted": "2021-06-18T14:09:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-18T14:09:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-02-11T13:23:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-02-11T13:23:56"
+        }
       },
       "id": "51254361272",
       "license": {
@@ -4001,7 +4372,8 @@
         "profile_url": "https://www.flickr.com/people/thomashawk/",
         "realname": "Thomas Hawk",
         "username": "Thomas Hawk"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4056,12 +4428,17 @@
       "url": "https://www.flickr.com/photos/thomashawk/51254361272/"
     },
     {
-      "date_posted": "2021-06-18T14:16:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-18T14:16:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-15T13:39:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-15T13:39:57"
+        }
       },
-      
       "id": "51255100121",
       "license": {
         "id": "in-copyright",
@@ -4074,7 +4451,8 @@
         "profile_url": "https://www.flickr.com/people/oldforgecam/",
         "realname": null,
         "username": "Lozarithm"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4122,12 +4500,17 @@
       "url": "https://www.flickr.com/photos/oldforgecam/51255100121/"
     },
     {
-      "date_posted": "2021-06-18T13:05:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-18T13:05:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2011-08-31T14:21:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2011-08-31T14:21:18"
+        }
       },
-      
       "id": "51256040745",
       "license": {
         "id": "in-copyright",
@@ -4139,8 +4522,9 @@
         "photos_url": "https://www.flickr.com/photos/94062339@N06/",
         "profile_url": "https://www.flickr.com/people/94062339@N06/",
         "realname": "Alves Cunha",
-        "username": "botanop\u00e9"
-      },      "sizes": [
+        "username": "botanopé"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4195,12 +4579,17 @@
       "url": "https://www.flickr.com/photos/94062339@N06/51256040745/"
     },
     {
-      "date_posted": "2021-06-18T13:18:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-18T13:18:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-31T16:23:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-31T16:23:58"
+        }
       },
-      
       "id": "51255216693",
       "license": {
         "id": "in-copyright",
@@ -4213,7 +4602,8 @@
         "profile_url": "https://www.flickr.com/people/lfeng1014/",
         "realname": "Li Feng",
         "username": "lfeng1014"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4261,12 +4651,17 @@
       "url": "https://www.flickr.com/photos/lfeng1014/51255216693/"
     },
     {
-      "date_posted": "2021-06-12T18:41:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-12T18:41:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-28T16:44:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-28T16:44:29"
+        }
       },
-      
       "id": "51241737672",
       "license": {
         "id": "in-copyright",
@@ -4279,7 +4674,8 @@
         "profile_url": "https://www.flickr.com/people/189838078@N05/",
         "realname": "Kai Bratke",
         "username": "kai.bratke"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4334,12 +4730,17 @@
       "url": "https://www.flickr.com/photos/189838078@N05/51241737672/"
     },
     {
-      "date_posted": "2021-03-16T16:36:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-03-16T16:36:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-03-15T18:11:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-03-15T18:11:49"
+        }
       },
-      
       "id": "51042787953",
       "license": {
         "id": "in-copyright",
@@ -4352,7 +4753,8 @@
         "profile_url": "https://www.flickr.com/people/161909462@N07/",
         "realname": "Jerry Michelsen",
         "username": "jmpiano"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4400,10 +4802,16 @@
       "url": "https://www.flickr.com/photos/161909462@N07/51042787953/"
     },
     {
-      "date_posted": "2021-06-13T17:31:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-13T17:31:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-05-13T00:12:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-05-13T00:12:44"
+        }
       },
       "id": "51245345969",
       "license": {
@@ -4417,7 +4825,8 @@
         "profile_url": "https://www.flickr.com/people/spirithills/",
         "realname": null,
         "username": "Spirithills (Leah)"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4465,12 +4874,17 @@
       "url": "https://www.flickr.com/photos/spirithills/51245345969/"
     },
     {
-      "date_posted": "2021-06-17T15:25:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-17T15:25:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-08T08:58:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-08T08:58:56"
+        }
       },
-      
       "id": "51253937884",
       "license": {
         "id": "cc-by-2.0",
@@ -4483,7 +4897,8 @@
         "profile_url": "https://www.flickr.com/people/181980422@N05/",
         "realname": "Luiz Lapa",
         "username": "Luiz Lapa"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4534,14 +4949,20 @@
           "width": 4173
         }
       ],
-      "title": "Carraceiro, em fase de reprodu\u00e7\u00e3o Cattle Egret, on bridal  plumage",
+      "title": "Carraceiro, em fase de reprodução Cattle Egret, on bridal  plumage",
       "url": "https://www.flickr.com/photos/181980422@N05/51253937884/"
     },
     {
-      "date_posted": "2021-06-07T23:41:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-07T23:41:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2007-11-04T12:14:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2007-11-04T12:14:00"
+        }
       },
       "id": "51233267279",
       "license": {
@@ -4555,7 +4976,8 @@
         "profile_url": "https://www.flickr.com/people/bombeador/",
         "realname": null,
         "username": "Eduardo Amorim"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4610,12 +5032,17 @@
       "url": "https://www.flickr.com/photos/bombeador/51233267279/"
     },
     {
-      "date_posted": "2021-06-11T19:59:29+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-11T19:59:29+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-29T09:59:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-29T09:59:06"
+        }
       },
-      
       "id": "51239937672",
       "license": {
         "id": "in-copyright",
@@ -4628,7 +5055,8 @@
         "profile_url": "https://www.flickr.com/people/155376904@N07/",
         "realname": "Tomasz Baranowski",
         "username": "www.ownwayphotography.com"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4676,12 +5104,17 @@
       "url": "https://www.flickr.com/photos/155376904@N07/51239937672/"
     },
     {
-      "date_posted": "2019-09-06T19:09:05+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-09-06T19:09:05+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-11-17T15:22:19"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-11-17T15:22:19"
+        }
       },
-      
       "id": "48689363643",
       "license": {
         "id": "in-copyright",
@@ -4694,7 +5127,8 @@
         "profile_url": "https://www.flickr.com/people/184033345@N08/",
         "realname": "Margarita Cabre",
         "username": "margo2x"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4749,12 +5183,17 @@
       "url": "https://www.flickr.com/photos/184033345@N08/48689363643/"
     },
     {
-      "date_posted": "2020-06-05T09:38:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2020-06-05T09:38:56+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2013-07-21T04:17:43"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2013-07-21T04:17:43"
+        }
       },
-      
       "id": "49973036266",
       "license": {
         "id": "in-copyright",
@@ -4767,7 +5206,8 @@
         "profile_url": "https://www.flickr.com/people/184033345@N08/",
         "realname": "Margarita Cabre",
         "username": "margo2x"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4822,12 +5262,17 @@
       "url": "https://www.flickr.com/photos/184033345@N08/49973036266/"
     },
     {
-      "date_posted": "2021-06-11T14:34:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-11T14:34:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-10T10:48:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-10T10:48:09"
+        }
       },
-      
       "id": "51240137211",
       "license": {
         "id": "in-copyright",
@@ -4840,7 +5285,8 @@
         "profile_url": "https://www.flickr.com/people/wernerkrause/",
         "realname": "Werner Krause",
         "username": "WernerKrause"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4888,12 +5334,17 @@
       "url": "https://www.flickr.com/photos/wernerkrause/51240137211/"
     },
     {
-      "date_posted": "2021-02-15T18:06:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-02-15T18:06:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-07-25T02:14:04"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-07-25T02:14:04"
+        }
       },
-      
       "id": "50947062696",
       "license": {
         "id": "in-copyright",
@@ -4906,7 +5357,8 @@
         "profile_url": "https://www.flickr.com/people/teagden/",
         "realname": "Jen Hall",
         "username": "PhotoJenics by Jen Hall"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4954,10 +5406,16 @@
       "url": "https://www.flickr.com/photos/teagden/50947062696/"
     },
     {
-      "date_posted": "2021-06-11T04:27:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-11T04:27:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-02-21T09:49:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-02-21T09:49:01"
+        }
       },
       "id": "51240134469",
       "license": {
@@ -4971,7 +5429,8 @@
         "profile_url": "https://www.flickr.com/people/egofreed/",
         "realname": "Eric  Gofreed",
         "username": "Eric Gofreed"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5019,10 +5478,16 @@
       "url": "https://www.flickr.com/photos/egofreed/51240134469/"
     },
     {
-      "date_posted": "2020-08-31T12:09:32+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2020-08-31T12:09:32+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-05-18T13:31:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-05-18T13:31:38"
+        }
       },
       "id": "50289371253",
       "license": {
@@ -5036,7 +5501,8 @@
         "profile_url": "https://www.flickr.com/people/peter_sossi/",
         "realname": "Peter Sossi",
         "username": "peter_sossi"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5091,12 +5557,17 @@
       "url": "https://www.flickr.com/photos/peter_sossi/50289371253/"
     },
     {
-      "date_posted": "2021-05-27T10:05:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-27T10:05:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-03-15T14:41:31"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-03-15T14:41:31"
+        }
       },
-      
       "id": "51207007389",
       "license": {
         "id": "in-copyright",
@@ -5109,7 +5580,8 @@
         "profile_url": "https://www.flickr.com/people/131994394@N02/",
         "realname": "Ernesto Martin",
         "username": "ermago52"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5164,12 +5636,17 @@
       "url": "https://www.flickr.com/photos/131994394@N02/51207007389/"
     },
     {
-      "date_posted": "2021-04-24T11:20:49+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-04-24T11:20:49+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-24T13:01:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-24T13:01:50"
+        }
       },
-      
       "id": "51134334802",
       "license": {
         "id": "in-copyright",
@@ -5182,7 +5659,8 @@
         "profile_url": "https://www.flickr.com/people/147630395@N03/",
         "realname": "Karen Webb",
         "username": "pkwebb70"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5230,10 +5708,16 @@
       "url": "https://www.flickr.com/photos/147630395@N03/51134334802/"
     },
     {
-      "date_posted": "2021-06-10T20:56:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-10T20:56:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-07-26T09:05:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-07-26T09:05:07"
+        }
       },
       "id": "51239527264",
       "license": {
@@ -5247,7 +5731,8 @@
         "profile_url": "https://www.flickr.com/people/jabitxu/",
         "realname": "Jabi Artaraz",
         "username": "Jabi Artaraz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5302,12 +5787,17 @@
       "url": "https://www.flickr.com/photos/jabitxu/51239527264/"
     },
     {
-      "date_posted": "2021-06-10T21:10:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-10T21:10:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-23T19:00:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-23T19:00:37"
+        }
       },
-      
       "id": "51239549819",
       "license": {
         "id": "in-copyright",
@@ -5320,7 +5810,8 @@
         "profile_url": "https://www.flickr.com/people/12369485@N05/",
         "realname": "Bill",
         "username": "Bill D114"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5368,10 +5859,16 @@
       "url": "https://www.flickr.com/photos/12369485@N05/51239549819/"
     },
     {
-      "date_posted": "2021-06-10T14:04:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-10T14:04:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-27T18:16:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-27T18:16:38"
+        }
       },
       "id": "51239092155",
       "license": {
@@ -5385,7 +5882,8 @@
         "profile_url": "https://www.flickr.com/people/75992994@N05/",
         "realname": "Steve Barowik",
         "username": "Steve Barowik"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5433,12 +5931,17 @@
       "url": "https://www.flickr.com/photos/75992994@N05/51239092155/"
     },
     {
-      "date_posted": "2021-06-10T13:08:30+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-10T13:08:30+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-06T16:15:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-06T16:15:22"
+        }
       },
-      
       "id": "51237942311",
       "license": {
         "id": "in-copyright",
@@ -5451,7 +5954,8 @@
         "profile_url": "https://www.flickr.com/people/kamomebird/",
         "realname": "Teruhide Tomori",
         "username": "Teruhide Tomori"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5499,10 +6003,16 @@
       "url": "https://www.flickr.com/photos/kamomebird/51237942311/"
     },
     {
-      "date_posted": "2021-06-09T07:21:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-09T07:21:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-30T15:40:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-30T15:40:51"
+        }
       },
       "id": "51234701512",
       "license": {
@@ -5516,7 +6026,8 @@
         "profile_url": "https://www.flickr.com/people/24931020@N02/",
         "realname": null,
         "username": "Ozzy Delaney"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5564,10 +6075,16 @@
       "url": "https://www.flickr.com/photos/24931020@N02/51234701512/"
     },
     {
-      "date_posted": "2021-06-09T15:32:50+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-09T15:32:50+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-08T16:52:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-08T16:52:44"
+        }
       },
       "id": "51236291748",
       "license": {
@@ -5581,7 +6098,8 @@
         "profile_url": "https://www.flickr.com/people/wernerkrause/",
         "realname": "Werner Krause",
         "username": "WernerKrause"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5629,10 +6147,16 @@
       "url": "https://www.flickr.com/photos/wernerkrause/51236291748/"
     },
     {
-      "date_posted": "2021-06-09T14:55:08+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-09T14:55:08+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-10T12:57:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-10T12:57:28"
+        }
       },
       "id": "51236783219",
       "license": {
@@ -5646,7 +6170,8 @@
         "profile_url": "https://www.flickr.com/people/lbdersh/",
         "realname": "Linda",
         "username": "lb's photopix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5701,10 +6226,16 @@
       "url": "https://www.flickr.com/photos/lbdersh/51236783219/"
     },
     {
-      "date_posted": "2021-05-25T22:52:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-25T22:52:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-25T13:00:15"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-25T13:00:15"
+        }
       },
       "id": "51203223481",
       "license": {
@@ -5718,7 +6249,8 @@
         "profile_url": "https://www.flickr.com/people/woosamuel/",
         "realname": "samuel. w",
         "username": "sl.woo"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5766,10 +6298,16 @@
       "url": "https://www.flickr.com/photos/woosamuel/51203223481/"
     },
     {
-      "date_posted": "2021-05-29T08:05:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-29T08:05:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-29T16:33:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-29T16:33:03"
+        }
       },
       "id": "51211109635",
       "license": {
@@ -5783,7 +6321,8 @@
         "profile_url": "https://www.flickr.com/people/89701859@N02/",
         "realname": "Ryan Payne",
         "username": "Ryan NT Payne"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5831,12 +6370,17 @@
       "url": "https://www.flickr.com/photos/89701859@N02/51211109635/"
     },
     {
-      "date_posted": "2014-07-29T00:13:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2014-07-29T00:13:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2014-05-06T11:36:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2014-05-06T11:36:28"
+        }
       },
-      
       "id": "14749063396",
       "license": {
         "id": "in-copyright",
@@ -5849,7 +6393,8 @@
         "profile_url": "https://www.flickr.com/people/greystump/",
         "realname": "Colin Pilliner",
         "username": "GreyStump"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5897,12 +6442,17 @@
       "url": "https://www.flickr.com/photos/greystump/14749063396/"
     },
     {
-      "date_posted": "2021-06-06T03:05:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-06T03:05:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-04T06:24:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-04T06:24:45"
+        }
       },
-      
       "id": "51228554654",
       "license": {
         "id": "in-copyright",
@@ -5915,7 +6465,8 @@
         "profile_url": "https://www.flickr.com/people/anowarulhaq/",
         "realname": "Anowarul Haq",
         "username": "Anowarul Haq"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5970,12 +6521,17 @@
       "url": "https://www.flickr.com/photos/anowarulhaq/51228554654/"
     },
     {
-      "date_posted": "2021-05-31T06:08:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-05-31T06:08:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-06-06T11:30:31"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-06-06T11:30:31"
+        }
       },
-      
       "id": "50006226281",
       "license": {
         "id": "in-copyright",
@@ -5987,8 +6543,9 @@
         "photos_url": "https://www.flickr.com/photos/anne-minerve/",
         "profile_url": "https://www.flickr.com/people/anne-minerve/",
         "realname": null,
-        "username": "Anne*\u00b0"
-      },      "sizes": [
+        "username": "Anne*°"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6036,10 +6593,16 @@
       "url": "https://www.flickr.com/photos/anne-minerve/50006226281/"
     },
     {
-      "date_posted": "2021-06-08T22:39:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-08T22:39:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-07-13T11:23:23"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-07-13T11:23:23"
+        }
       },
       "id": "51235731260",
       "license": {
@@ -6053,7 +6616,8 @@
         "profile_url": "https://www.flickr.com/people/pungut/",
         "realname": null,
         "username": "Tokki,an idiot w/cameras & birds. 5.5M views"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6101,9 +6665,11 @@
       "url": "https://www.flickr.com/photos/pungut/51235731260/"
     },
     {
-      "date_posted": "2021-06-08T22:04:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-08T22:04:31+00:00"
+      },
       "date_taken": null,
-      
       "id": "51235391474",
       "license": {
         "id": "in-copyright",
@@ -6116,7 +6682,8 @@
         "profile_url": "https://www.flickr.com/people/84237742@N00/",
         "realname": "In Memoriam: HORACIO JOSE PATRONE",
         "username": "In Memoriam: FISHERMAN'S PASSION AND OPEN NATURE.."
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6171,12 +6738,17 @@
       "url": "https://www.flickr.com/photos/84237742@N00/51235391474/"
     },
     {
-      "date_posted": "2021-06-08T10:26:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-08T10:26:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2010-09-13T20:18:19"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2010-09-13T20:18:19"
+        }
       },
-      
       "id": "51232691317",
       "license": {
         "id": "in-copyright",
@@ -6189,7 +6761,8 @@
         "profile_url": "https://www.flickr.com/people/42964440@N08/",
         "realname": "Sue Roehl",
         "username": "Susan Roehl"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6237,12 +6810,17 @@
       "url": "https://www.flickr.com/photos/42964440@N08/51232691317/"
     },
     {
-      "date_posted": "2021-04-20T23:36:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-04-20T23:36:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-01T18:37:15"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-01T18:37:15"
+        }
       },
-      
       "id": "51128456148",
       "license": {
         "id": "in-copyright",
@@ -6255,7 +6833,8 @@
         "profile_url": "https://www.flickr.com/people/mykeyc/",
         "realname": "Michael Cohen",
         "username": "MyKeyC"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6303,12 +6882,17 @@
       "url": "https://www.flickr.com/photos/mykeyc/51128456148/"
     },
     {
-      "date_posted": "2019-08-14T09:52:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-08-14T09:52:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-06-29T12:07:16"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-06-29T12:07:16"
+        }
       },
-      
       "id": "48534979896",
       "license": {
         "id": "in-copyright",
@@ -6321,7 +6905,8 @@
         "profile_url": "https://www.flickr.com/people/sguiraud/",
         "realname": "Serge Guiraud",
         "username": "sguiraud"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6369,12 +6954,17 @@
       "url": "https://www.flickr.com/photos/sguiraud/48534979896/"
     },
     {
-      "date_posted": "2019-11-16T05:39:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-16T05:39:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-07-13T15:32:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-07-13T15:32:11"
+        }
       },
-      
       "id": "49072245181",
       "license": {
         "id": "in-copyright",
@@ -6387,7 +6977,8 @@
         "profile_url": "https://www.flickr.com/people/sguiraud/",
         "realname": "Serge Guiraud",
         "username": "sguiraud"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6435,12 +7026,17 @@
       "url": "https://www.flickr.com/photos/sguiraud/49072245181/"
     },
     {
-      "date_posted": "2019-11-18T11:09:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-18T11:09:56+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-11-01T16:50:36"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-11-01T16:50:36"
+        }
       },
-      
       "id": "49083469013",
       "license": {
         "id": "in-copyright",
@@ -6453,7 +7049,8 @@
         "profile_url": "https://www.flickr.com/people/sguiraud/",
         "realname": "Serge Guiraud",
         "username": "sguiraud"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6501,12 +7098,17 @@
       "url": "https://www.flickr.com/photos/sguiraud/49083469013/"
     },
     {
-      "date_posted": "2021-06-08T20:04:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-08T20:04:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-05T11:55:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-05T11:55:54"
+        }
       },
-      
       "id": "51234392216",
       "license": {
         "id": "in-copyright",
@@ -6519,7 +7121,8 @@
         "profile_url": "https://www.flickr.com/people/130397654@N08/",
         "realname": "wilco wesdijk",
         "username": "wilco.wesdijk"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6567,12 +7170,17 @@
       "url": "https://www.flickr.com/photos/130397654@N08/51234392216/"
     },
     {
-      "date_posted": "2021-06-08T11:29:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-08T11:29:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-02-27T10:31:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-02-27T10:31:55"
+        }
       },
-      
       "id": "51233692068",
       "license": {
         "id": "in-copyright",
@@ -6585,7 +7193,8 @@
         "profile_url": "https://www.flickr.com/people/dl_dietz/",
         "realname": "D.L. Dietz",
         "username": "DL_Dietz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6633,12 +7242,17 @@
       "url": "https://www.flickr.com/photos/dl_dietz/51233692068/"
     },
     {
-      "date_posted": "2021-06-08T11:29:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2021-06-08T11:29:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-12-08T10:24:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-12-08T10:24:51"
+        }
       },
-      
       "id": "51234548695",
       "license": {
         "id": "in-copyright",
@@ -6651,7 +7265,8 @@
         "profile_url": "https://www.flickr.com/people/dl_dietz/",
         "realname": "D.L. Dietz",
         "username": "DL_Dietz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",

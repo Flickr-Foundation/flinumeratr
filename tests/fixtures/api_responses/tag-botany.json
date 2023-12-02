@@ -2,12 +2,17 @@
   "page_count": 4123,
   "photos": [
     {
-      "date_posted": "2015-10-25T12:48:21+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-25T12:48:21+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-21T11:41:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-21T11:41:49"
+        }
       },
-      
       "id": "21838886804",
       "license": {
         "id": "in-copyright",
@@ -20,7 +25,8 @@
         "profile_url": "https://www.flickr.com/people/131396549@N02/",
         "realname": "Kent Dahlberg",
         "username": "trankoket"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -75,12 +81,17 @@
       "url": "https://www.flickr.com/photos/131396549@N02/21838886804/"
     },
     {
-      "date_posted": "2012-10-01T17:58:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2012-10-01T17:58:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2012-10-01T13:58:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2012-10-01T13:58:12"
+        }
       },
-      
       "id": "8044232301",
       "license": {
         "id": "pdm",
@@ -93,7 +104,8 @@
         "profile_url": "https://www.flickr.com/people/61021753@N02/",
         "realname": "Biodiversity Heritage Library",
         "username": "BioDivLibrary"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -148,10 +160,16 @@
       "url": "https://www.flickr.com/photos/61021753@N02/8044232301/"
     },
     {
-      "date_posted": "2023-07-31T23:38:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-31T23:38:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-25T13:24:30"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-25T13:24:30"
+        }
       },
       "id": "53085621278",
       "license": {
@@ -165,7 +183,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -220,12 +239,17 @@
       "url": "https://www.flickr.com/photos/187931411@N08/53085621278/"
     },
     {
-      "date_posted": "2023-07-31T15:04:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-31T15:04:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2013-07-12T07:38:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2013-07-12T07:38:33"
+        }
       },
-      
       "id": "53084020901",
       "license": {
         "id": "in-copyright",
@@ -238,7 +262,8 @@
         "profile_url": "https://www.flickr.com/people/144882911@N08/",
         "realname": "Paul Paradis",
         "username": "Paul_Paradis"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -286,10 +311,16 @@
       "url": "https://www.flickr.com/photos/144882911@N08/53084020901/"
     },
     {
-      "date_posted": "2023-07-28T02:44:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-28T02:44:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-21T13:42:47"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-21T13:42:47"
+        }
       },
       "id": "53076217676",
       "license": {
@@ -303,7 +334,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -358,12 +390,17 @@
       "url": "https://www.flickr.com/photos/187931411@N08/53076217676/"
     },
     {
-      "date_posted": "2023-07-28T02:42:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-28T02:42:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-25T13:26:23"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-25T13:26:23"
+        }
       },
-      
       "id": "53076214816",
       "license": {
         "id": "in-copyright",
@@ -376,7 +413,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -431,12 +469,17 @@
       "url": "https://www.flickr.com/photos/187931411@N08/53076214816/"
     },
     {
-      "date_posted": "2023-07-27T20:12:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-27T20:12:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-17T10:11:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-17T10:11:38"
+        }
       },
-      
       "id": "53076050710",
       "license": {
         "id": "in-copyright",
@@ -449,7 +492,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -497,12 +541,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53076050710/"
     },
     {
-      "date_posted": "2023-07-26T20:15:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-26T20:15:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-17T10:09:46"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-17T10:09:46"
+        }
       },
-      
       "id": "53072862002",
       "license": {
         "id": "in-copyright",
@@ -515,7 +564,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -563,12 +613,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53072862002/"
     },
     {
-      "date_posted": "2023-07-25T14:06:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-25T14:06:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-19T13:06:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-19T13:06:01"
+        }
       },
-      
       "id": "53070634124",
       "license": {
         "id": "in-copyright",
@@ -581,7 +636,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -636,12 +692,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/53070634124/"
     },
     {
-      "date_posted": "2023-07-24T20:40:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-24T20:40:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-15T16:59:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-15T16:59:51"
+        }
       },
-      
       "id": "53068919716",
       "license": {
         "id": "in-copyright",
@@ -654,7 +715,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -702,10 +764,16 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53068919716/"
     },
     {
-      "date_posted": "2023-07-24T01:33:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-24T01:33:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-21T13:39:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-21T13:39:22"
+        }
       },
       "id": "53067131719",
       "license": {
@@ -719,7 +787,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -774,10 +843,16 @@
       "url": "https://www.flickr.com/photos/187931411@N08/53067131719/"
     },
     {
-      "date_posted": "2023-07-21T20:54:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-21T20:54:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-03-30T20:58:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-03-30T20:58:09"
+        }
       },
       "id": "53062006861",
       "license": {
@@ -791,7 +866,8 @@
         "profile_url": "https://www.flickr.com/people/49793991@N04/",
         "realname": null,
         "username": "jazzmoon12"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -846,12 +922,17 @@
       "url": "https://www.flickr.com/photos/49793991@N04/53062006861/"
     },
     {
-      "date_posted": "2023-07-20T19:11:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-20T19:11:04+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-15T16:57:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-15T16:57:33"
+        }
       },
-      
       "id": "53059100807",
       "license": {
         "id": "in-copyright",
@@ -864,7 +945,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -912,12 +994,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53059100807/"
     },
     {
-      "date_posted": "2023-07-19T20:41:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-19T20:41:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-15T16:56:39"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-15T16:56:39"
+        }
       },
-      
       "id": "53058153535",
       "license": {
         "id": "in-copyright",
@@ -930,7 +1017,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -978,12 +1066,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53058153535/"
     },
     {
-      "date_posted": "2023-07-19T07:28:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-19T07:28:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-23T20:46:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-23T20:46:34"
+        }
       },
-      
       "id": "53056098016",
       "license": {
         "id": "in-copyright",
@@ -996,7 +1089,8 @@
         "profile_url": "https://www.flickr.com/people/121626365@N06/",
         "realname": "Justin Martin",
         "username": "JG Martin"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1044,12 +1138,17 @@
       "url": "https://www.flickr.com/photos/121626365@N06/53056098016/"
     },
     {
-      "date_posted": "2023-07-16T06:49:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-16T06:49:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-09T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-09T00:00:00"
+        }
       },
-      
       "id": "53049332730",
       "license": {
         "id": "in-copyright",
@@ -1062,7 +1161,8 @@
         "profile_url": "https://www.flickr.com/people/45359289@N05/",
         "realname": null,
         "username": "Christina's World : off & on"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1110,12 +1210,17 @@
       "url": "https://www.flickr.com/photos/45359289@N05/53049332730/"
     },
     {
-      "date_posted": "2023-07-14T20:25:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-14T20:25:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T10:25:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T10:25:38"
+        }
       },
-      
       "id": "53046094944",
       "license": {
         "id": "in-copyright",
@@ -1128,7 +1233,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1176,12 +1282,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53046094944/"
     },
     {
-      "date_posted": "2023-07-13T20:45:07+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-13T20:45:07+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T10:24:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T10:24:55"
+        }
       },
-      
       "id": "53043979194",
       "license": {
         "id": "in-copyright",
@@ -1194,7 +1305,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1242,12 +1354,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53043979194/"
     },
     {
-      "date_posted": "2023-07-11T19:58:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-11T19:58:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T10:22:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T10:22:01"
+        }
       },
-      
       "id": "53038575007",
       "license": {
         "id": "in-copyright",
@@ -1260,7 +1377,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1308,12 +1426,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53038575007/"
     },
     {
-      "date_posted": "2023-07-11T07:00:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-11T07:00:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-22T10:12:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-22T10:12:29"
+        }
       },
-      
       "id": "53038212565",
       "license": {
         "id": "in-copyright",
@@ -1326,7 +1449,8 @@
         "profile_url": "https://www.flickr.com/people/95388056@N02/",
         "realname": null,
         "username": "SkyeWeasel"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1374,12 +1498,17 @@
       "url": "https://www.flickr.com/photos/95388056@N02/53038212565/"
     },
     {
-      "date_posted": "2023-07-06T21:47:21+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-06T21:47:21+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-04T19:34:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-04T19:34:03"
+        }
       },
-      
       "id": "53028025449",
       "license": {
         "id": "in-copyright",
@@ -1392,7 +1521,8 @@
         "profile_url": "https://www.flickr.com/people/99230652@N04/",
         "realname": "Giuliano Da Zanche",
         "username": "ab.130722jvkz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1447,12 +1577,17 @@
       "url": "https://www.flickr.com/photos/99230652@N04/53028025449/"
     },
     {
-      "date_posted": "2023-07-06T13:29:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-06T13:29:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-20T13:49:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-20T13:49:07"
+        }
       },
-      
       "id": "53026271952",
       "license": {
         "id": "in-copyright",
@@ -1465,7 +1600,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1520,12 +1656,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/53026271952/"
     },
     {
-      "date_posted": "2023-07-03T18:43:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-03T18:43:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-04T18:57:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-04T18:57:00"
+        }
       },
-      
       "id": "53020649705",
       "license": {
         "id": "in-copyright",
@@ -1538,7 +1679,8 @@
         "profile_url": "https://www.flickr.com/people/78590035@N06/",
         "realname": null,
         "username": "Simon W. Photography"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1586,10 +1728,16 @@
       "url": "https://www.flickr.com/photos/78590035@N06/53020649705/"
     },
     {
-      "date_posted": "2023-07-01T05:00:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-01T05:00:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-09-12T22:46:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-09-12T22:46:41"
+        }
       },
       "id": "53014111311",
       "license": {
@@ -1603,7 +1751,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1658,12 +1807,17 @@
       "url": "https://www.flickr.com/photos/187931411@N08/53014111311/"
     },
     {
-      "date_posted": "2023-06-28T13:40:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-28T13:40:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2012-07-11T13:25:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2012-07-11T13:25:59"
+        }
       },
-      
       "id": "53008022829",
       "license": {
         "id": "in-copyright",
@@ -1676,7 +1830,8 @@
         "profile_url": "https://www.flickr.com/people/144882911@N08/",
         "realname": "Paul Paradis",
         "username": "Paul_Paradis"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1720,16 +1875,21 @@
           "width": 1024
         }
       ],
-      "title": "H\u00e9m\u00e9rocalle  IMG_1060",
+      "title": "Hémérocalle  IMG_1060",
       "url": "https://www.flickr.com/photos/144882911@N08/53008022829/"
     },
     {
-      "date_posted": "2023-06-27T20:33:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-27T20:33:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-27T11:43:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-27T11:43:09"
+        }
       },
-      
       "id": "53006757580",
       "license": {
         "id": "in-copyright",
@@ -1742,7 +1902,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1790,10 +1951,16 @@
       "url": "https://www.flickr.com/photos/133480378@N04/53006757580/"
     },
     {
-      "date_posted": "2023-06-23T00:08:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-23T00:08:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-10-29T22:25:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-10-29T22:25:10"
+        }
       },
       "id": "52994960973",
       "license": {
@@ -1807,7 +1974,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1862,12 +2030,17 @@
       "url": "https://www.flickr.com/photos/187931411@N08/52994960973/"
     },
     {
-      "date_posted": "2023-06-22T14:21:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-22T14:21:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-06T17:47:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-06T17:47:25"
+        }
       },
-      
       "id": "52993721495",
       "license": {
         "id": "in-copyright",
@@ -1880,7 +2053,8 @@
         "profile_url": "https://www.flickr.com/people/140249051@N03/",
         "realname": "Russ Parman",
         "username": "parmrussrap"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1935,12 +2109,17 @@
       "url": "https://www.flickr.com/photos/140249051@N03/52993721495/"
     },
     {
-      "date_posted": "2023-06-18T11:14:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-18T11:14:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-16T11:57:27"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-16T11:57:27"
+        }
       },
-      
       "id": "52982829466",
       "license": {
         "id": "in-copyright",
@@ -1953,7 +2132,8 @@
         "profile_url": "https://www.flickr.com/people/95388056@N02/",
         "realname": null,
         "username": "SkyeWeasel"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2001,12 +2181,17 @@
       "url": "https://www.flickr.com/photos/95388056@N02/52982829466/"
     },
     {
-      "date_posted": "2023-06-16T19:32:55+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-16T19:32:55+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-15T17:00:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-15T17:00:35"
+        }
       },
-      
       "id": "52979403744",
       "license": {
         "id": "in-copyright",
@@ -2019,7 +2204,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2067,12 +2253,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52979403744/"
     },
     {
-      "date_posted": "2023-06-15T20:03:07+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-15T20:03:07+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:57:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:57:22"
+        }
       },
-      
       "id": "52977625128",
       "license": {
         "id": "in-copyright",
@@ -2085,7 +2276,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2133,12 +2325,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52977625128/"
     },
     {
-      "date_posted": "2023-06-13T20:51:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-13T20:51:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:52:26"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:52:26"
+        }
       },
-      
       "id": "52973056133",
       "license": {
         "id": "in-copyright",
@@ -2151,7 +2348,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2199,12 +2397,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52973056133/"
     },
     {
-      "date_posted": "2023-06-13T17:12:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-13T17:12:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-06-25T08:40:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-06-25T08:40:11"
+        }
       },
-      
       "id": "52972568928",
       "license": {
         "id": "in-copyright",
@@ -2217,7 +2420,8 @@
         "profile_url": "https://www.flickr.com/people/144882911@N08/",
         "realname": "Paul Paradis",
         "username": "Paul_Paradis"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2265,12 +2469,17 @@
       "url": "https://www.flickr.com/photos/144882911@N08/52972568928/"
     },
     {
-      "date_posted": "2023-06-12T21:27:33+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-12T21:27:33+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:51:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:51:52"
+        }
       },
-      
       "id": "52970599233",
       "license": {
         "id": "in-copyright",
@@ -2283,7 +2492,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2331,12 +2541,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52970599233/"
     },
     {
-      "date_posted": "2023-06-12T00:44:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-12T00:44:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-02T11:48:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-02T11:48:51"
+        }
       },
-      
       "id": "52968071225",
       "license": {
         "id": "in-copyright",
@@ -2349,7 +2564,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2397,12 +2613,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52968071225/"
     },
     {
-      "date_posted": "2023-06-10T08:16:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-10T08:16:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-07-16T05:49:05"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-07-16T05:49:05"
+        }
       },
-      
       "id": "52958356841",
       "license": {
         "id": "in-copyright",
@@ -2414,8 +2635,9 @@
         "photos_url": "https://www.flickr.com/photos/81035653@N00/",
         "profile_url": "https://www.flickr.com/people/81035653@N00/",
         "realname": "Ben The Man",
-        "username": "B\u212en"
-      },      "sizes": [
+        "username": "B℮n"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2463,12 +2685,17 @@
       "url": "https://www.flickr.com/photos/81035653@N00/52958356841/"
     },
     {
-      "date_posted": "2023-06-07T13:06:55+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T13:06:55+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-06-06T11:04:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-06-06T11:04:49"
+        }
       },
-      
       "id": "52957753005",
       "license": {
         "id": "in-copyright",
@@ -2481,7 +2708,8 @@
         "profile_url": "https://www.flickr.com/people/99230652@N04/",
         "realname": "Giuliano Da Zanche",
         "username": "ab.130722jvkz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2536,12 +2764,17 @@
       "url": "https://www.flickr.com/photos/99230652@N04/52957753005/"
     },
     {
-      "date_posted": "2023-06-09T15:13:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-09T15:13:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-07-16T05:46:53"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-07-16T05:46:53"
+        }
       },
-      
       "id": "52956487778",
       "license": {
         "id": "in-copyright",
@@ -2553,8 +2786,9 @@
         "photos_url": "https://www.flickr.com/photos/81035653@N00/",
         "profile_url": "https://www.flickr.com/people/81035653@N00/",
         "realname": "Ben The Man",
-        "username": "B\u212en"
-      },      "sizes": [
+        "username": "B℮n"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2602,12 +2836,17 @@
       "url": "https://www.flickr.com/photos/81035653@N00/52956487778/"
     },
     {
-      "date_posted": "2023-06-08T14:38:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-08T14:38:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-07-16T05:42:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-07-16T05:42:54"
+        }
       },
-      
       "id": "52952908537",
       "license": {
         "id": "in-copyright",
@@ -2619,8 +2858,9 @@
         "photos_url": "https://www.flickr.com/photos/81035653@N00/",
         "profile_url": "https://www.flickr.com/people/81035653@N00/",
         "realname": "Ben The Man",
-        "username": "B\u212en"
-      },      "sizes": [
+        "username": "B℮n"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2668,12 +2908,17 @@
       "url": "https://www.flickr.com/photos/81035653@N00/52952908537/"
     },
     {
-      "date_posted": "2023-06-04T20:11:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-04T20:11:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:51:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:51:35"
+        }
       },
-      
       "id": "52950805039",
       "license": {
         "id": "in-copyright",
@@ -2686,7 +2931,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2734,12 +2980,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52950805039/"
     },
     {
-      "date_posted": "2023-06-02T19:34:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-02T19:34:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:50:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:50:51"
+        }
       },
-      
       "id": "52945257707",
       "license": {
         "id": "in-copyright",
@@ -2752,7 +3003,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2800,9 +3052,11 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52945257707/"
     },
     {
-      "date_posted": "2023-06-01T16:32:05+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-01T16:32:05+00:00"
+      },
       "date_taken": null,
-      
       "id": "52943351150",
       "license": {
         "id": "in-copyright",
@@ -2815,7 +3069,8 @@
         "profile_url": "https://www.flickr.com/people/33823434@N06/",
         "realname": null,
         "username": "CrimeanArtist"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2863,12 +3118,17 @@
       "url": "https://www.flickr.com/photos/33823434@N06/52943351150/"
     },
     {
-      "date_posted": "2023-05-31T19:32:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-31T19:32:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:46:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:46:10"
+        }
       },
-      
       "id": "52941081054",
       "license": {
         "id": "in-copyright",
@@ -2881,7 +3141,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2929,12 +3190,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52941081054/"
     },
     {
-      "date_posted": "2023-05-30T20:31:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-30T20:31:04+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:45:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:45:56"
+        }
       },
-      
       "id": "52937856112",
       "license": {
         "id": "in-copyright",
@@ -2947,7 +3213,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2995,12 +3262,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52937856112/"
     },
     {
-      "date_posted": "2023-05-30T08:00:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-30T08:00:04+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-12T07:43:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-12T07:43:21"
+        }
       },
-      
       "id": "52936967889",
       "license": {
         "id": "in-copyright",
@@ -3012,8 +3284,9 @@
         "photos_url": "https://www.flickr.com/photos/197634383@N07/",
         "profile_url": "https://www.flickr.com/people/197634383@N07/",
         "realname": "Steve Rich",
-        "username": "Steve\uf8ffRich"
-      },      "sizes": [
+        "username": "SteveRich"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3061,12 +3334,17 @@
       "url": "https://www.flickr.com/photos/197634383@N07/52936967889/"
     },
     {
-      "date_posted": "2023-05-28T04:06:33+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-28T04:06:33+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-24T17:53:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-24T17:53:29"
+        }
       },
-      
       "id": "52930376167",
       "license": {
         "id": "in-copyright",
@@ -3079,7 +3357,8 @@
         "profile_url": "https://www.flickr.com/people/47881347@N00/",
         "realname": "D'Arcy Guerin Gue",
         "username": "D'ArcyG"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3127,12 +3406,17 @@
       "url": "https://www.flickr.com/photos/47881347@N00/52930376167/"
     },
     {
-      "date_posted": "2023-05-27T01:40:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-27T01:40:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-25T15:59:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-25T15:59:37"
+        }
       },
-      
       "id": "52928607144",
       "license": {
         "id": "in-copyright",
@@ -3145,7 +3429,8 @@
         "profile_url": "https://www.flickr.com/people/187931411@N08/",
         "realname": "Randy Mendelsohn",
         "username": "ranmen44"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3200,12 +3485,17 @@
       "url": "https://www.flickr.com/photos/187931411@N08/52928607144/"
     },
     {
-      "date_posted": "2023-05-24T15:29:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-24T15:29:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-08-03T11:39:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-08-03T11:39:01"
+        }
       },
-      
       "id": "52922473664",
       "license": {
         "id": "in-copyright",
@@ -3218,7 +3508,8 @@
         "profile_url": "https://www.flickr.com/people/144882911@N08/",
         "realname": "Paul Paradis",
         "username": "Paul_Paradis"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3266,12 +3557,17 @@
       "url": "https://www.flickr.com/photos/144882911@N08/52922473664/"
     },
     {
-      "date_posted": "2023-05-23T20:47:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-23T20:47:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:29:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:29:10"
+        }
       },
-      
       "id": "52920555936",
       "license": {
         "id": "in-copyright",
@@ -3284,7 +3580,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3332,12 +3629,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52920555936/"
     },
     {
-      "date_posted": "2023-05-21T20:01:52+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-21T20:01:52+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:26:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:26:14"
+        }
       },
-      
       "id": "52914365662",
       "license": {
         "id": "in-copyright",
@@ -3350,7 +3652,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3398,12 +3701,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52914365662/"
     },
     {
-      "date_posted": "2023-05-21T10:36:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-21T10:36:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-20T19:59:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-20T19:59:50"
+        }
       },
-      
       "id": "52913143802",
       "license": {
         "id": "cc-by-nc-nd-2.0",
@@ -3416,7 +3724,8 @@
         "profile_url": "https://www.flickr.com/people/149789252@N05/",
         "realname": "Gary Paakkonen",
         "username": "Paakkonen Photo"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3471,12 +3780,17 @@
       "url": "https://www.flickr.com/photos/149789252@N05/52913143802/"
     },
     {
-      "date_posted": "2023-05-20T07:58:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-20T07:58:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-19T17:13:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-19T17:13:58"
+        }
       },
-      
       "id": "52911135721",
       "license": {
         "id": "in-copyright",
@@ -3489,7 +3803,8 @@
         "profile_url": "https://www.flickr.com/people/99230652@N04/",
         "realname": "Giuliano Da Zanche",
         "username": "ab.130722jvkz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3544,12 +3859,17 @@
       "url": "https://www.flickr.com/photos/99230652@N04/52911135721/"
     },
     {
-      "date_posted": "2023-05-19T14:15:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-19T14:15:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-06T17:56:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-06T17:56:34"
+        }
       },
-      
       "id": "52909348916",
       "license": {
         "id": "in-copyright",
@@ -3562,7 +3882,8 @@
         "profile_url": "https://www.flickr.com/people/140249051@N03/",
         "realname": "Russ Parman",
         "username": "parmrussrap"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3617,12 +3938,17 @@
       "url": "https://www.flickr.com/photos/140249051@N03/52909348916/"
     },
     {
-      "date_posted": "2023-05-18T19:20:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-18T19:20:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:31:08"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:31:08"
+        }
       },
-      
       "id": "52907799364",
       "license": {
         "id": "in-copyright",
@@ -3635,7 +3961,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3683,12 +4010,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52907799364/"
     },
     {
-      "date_posted": "2023-05-16T20:19:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-16T20:19:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:29:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:29:45"
+        }
       },
-      
       "id": "52903613285",
       "license": {
         "id": "in-copyright",
@@ -3701,7 +4033,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3749,12 +4082,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52903613285/"
     },
     {
-      "date_posted": "2023-05-15T17:21:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-15T17:21:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-02T17:27:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-02T17:27:21"
+        }
       },
-      
       "id": "52900644395",
       "license": {
         "id": "in-copyright",
@@ -3767,7 +4105,8 @@
         "profile_url": "https://www.flickr.com/people/99230652@N04/",
         "realname": "Giuliano Da Zanche",
         "username": "ab.130722jvkz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3822,12 +4161,17 @@
       "url": "https://www.flickr.com/photos/99230652@N04/52900644395/"
     },
     {
-      "date_posted": "2023-05-10T20:52:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-10T20:52:04+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:13:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:13:42"
+        }
       },
-      
       "id": "52887790178",
       "license": {
         "id": "in-copyright",
@@ -3840,7 +4184,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3888,12 +4233,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52887790178/"
     },
     {
-      "date_posted": "2023-05-10T13:41:21+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-10T13:41:21+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-20T12:32:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-20T12:32:38"
+        }
       },
-      
       "id": "52886507229",
       "license": {
         "id": "in-copyright",
@@ -3906,7 +4256,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3961,12 +4312,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/52886507229/"
     },
     {
-      "date_posted": "2023-05-09T20:19:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-09T20:19:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:11:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:11:10"
+        }
       },
-      
       "id": "52884764134",
       "license": {
         "id": "in-copyright",
@@ -3979,7 +4335,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4027,12 +4384,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52884764134/"
     },
     {
-      "date_posted": "2023-05-07T19:37:06+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-07T19:37:06+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:10:16"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:10:16"
+        }
       },
-      
       "id": "52878540734",
       "license": {
         "id": "in-copyright",
@@ -4045,7 +4407,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4093,12 +4456,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52878540734/"
     },
     {
-      "date_posted": "2023-05-06T09:38:45+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-06T09:38:45+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-03T11:45:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-03T11:45:14"
+        }
       },
-      
       "id": "52874317006",
       "license": {
         "id": "in-copyright",
@@ -4111,7 +4479,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4166,12 +4535,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/52874317006/"
     },
     {
-      "date_posted": "2023-05-05T20:23:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-05T20:23:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:08:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:08:40"
+        }
       },
-      
       "id": "52872503787",
       "license": {
         "id": "in-copyright",
@@ -4184,7 +4558,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4232,12 +4607,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52872503787/"
     },
     {
-      "date_posted": "2023-05-05T09:57:41+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-05T09:57:41+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-25T13:09:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-25T13:09:00"
+        }
       },
-      
       "id": "52871291202",
       "license": {
         "id": "in-copyright",
@@ -4250,7 +4630,8 @@
         "profile_url": "https://www.flickr.com/people/99230652@N04/",
         "realname": "Giuliano Da Zanche",
         "username": "ab.130722jvkz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4305,12 +4686,17 @@
       "url": "https://www.flickr.com/photos/99230652@N04/52871291202/"
     },
     {
-      "date_posted": "2023-05-03T20:22:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-05-03T20:22:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:06:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:06:25"
+        }
       },
-      
       "id": "52868538490",
       "license": {
         "id": "in-copyright",
@@ -4323,7 +4709,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4371,12 +4758,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52868538490/"
     },
     {
-      "date_posted": "2023-04-30T20:39:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-30T20:39:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-12T07:46:15"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-12T07:46:15"
+        }
       },
-      
       "id": "52859494486",
       "license": {
         "id": "in-copyright",
@@ -4388,8 +4780,9 @@
         "photos_url": "https://www.flickr.com/photos/197634383@N07/",
         "profile_url": "https://www.flickr.com/people/197634383@N07/",
         "realname": "Steve Rich",
-        "username": "Steve\uf8ffRich"
-      },      "sizes": [
+        "username": "SteveRich"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4437,12 +4830,17 @@
       "url": "https://www.flickr.com/photos/197634383@N07/52859494486/"
     },
     {
-      "date_posted": "2023-04-29T18:21:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-29T18:21:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:02:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:02:20"
+        }
       },
-      
       "id": "52856754235",
       "license": {
         "id": "in-copyright",
@@ -4455,7 +4853,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4503,10 +4902,16 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52856754235/"
     },
     {
-      "date_posted": "2023-04-29T15:07:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-29T15:07:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-28T18:51:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-28T18:51:25"
+        }
       },
       "id": "52855966466",
       "license": {
@@ -4520,7 +4925,8 @@
         "profile_url": "https://www.flickr.com/people/108601026@N06/",
         "realname": "Maurizio Della Siega",
         "username": "mauri11755"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4568,12 +4974,17 @@
       "url": "https://www.flickr.com/photos/108601026@N06/52855966466/"
     },
     {
-      "date_posted": "2023-04-27T20:10:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-27T20:10:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T11:00:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T11:00:03"
+        }
       },
-      
       "id": "52851489816",
       "license": {
         "id": "in-copyright",
@@ -4586,7 +4997,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4634,12 +5046,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52851489816/"
     },
     {
-      "date_posted": "2023-04-26T19:37:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-26T19:37:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T10:56:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T10:56:14"
+        }
       },
-      
       "id": "52848991989",
       "license": {
         "id": "in-copyright",
@@ -4652,7 +5069,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4700,10 +5118,16 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52848991989/"
     },
     {
-      "date_posted": "2023-04-25T23:26:43+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-25T23:26:43+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-10-06T15:05:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-10-06T15:05:44"
+        }
       },
       "id": "52846051487",
       "license": {
@@ -4717,7 +5141,8 @@
         "profile_url": "https://www.flickr.com/people/44288006@N03/",
         "realname": "Frank Fullard",
         "username": "Frank Fullard"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4765,10 +5190,16 @@
       "url": "https://www.flickr.com/photos/44288006@N03/52846051487/"
     },
     {
-      "date_posted": "2023-04-24T11:04:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-24T11:04:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-22T12:52:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-22T12:52:44"
+        }
       },
       "id": "52842493888",
       "license": {
@@ -4782,7 +5213,8 @@
         "profile_url": "https://www.flickr.com/people/44288006@N03/",
         "realname": "Frank Fullard",
         "username": "Frank Fullard"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4830,12 +5262,17 @@
       "url": "https://www.flickr.com/photos/44288006@N03/52842493888/"
     },
     {
-      "date_posted": "2023-04-23T20:41:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-23T20:41:04+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T09:17:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T09:17:09"
+        }
       },
-      
       "id": "52839905282",
       "license": {
         "id": "in-copyright",
@@ -4848,7 +5285,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4896,12 +5334,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52839905282/"
     },
     {
-      "date_posted": "2023-04-22T18:17:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-22T18:17:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-01-07T14:55:02"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-01-07T14:55:02"
+        }
       },
-      
       "id": "52837314721",
       "license": {
         "id": "in-copyright",
@@ -4914,7 +5357,8 @@
         "profile_url": "https://www.flickr.com/people/187587141@N04/",
         "realname": "P-B Foto",
         "username": "P-B Foto"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4969,12 +5413,17 @@
       "url": "https://www.flickr.com/photos/187587141@N04/52837314721/"
     },
     {
-      "date_posted": "2023-04-21T14:08:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-21T14:08:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-04-13T12:54:30"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-04-13T12:54:30"
+        }
       },
-      
       "id": "52834656014",
       "license": {
         "id": "in-copyright",
@@ -4987,7 +5436,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5042,12 +5492,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/52834656014/"
     },
     {
-      "date_posted": "2023-04-21T13:42:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-21T13:42:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-20T11:17:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-20T11:17:44"
+        }
       },
-      
       "id": "52833844712",
       "license": {
         "id": "in-copyright",
@@ -5059,8 +5514,9 @@
         "photos_url": "https://www.flickr.com/photos/129194286@N08/",
         "profile_url": "https://www.flickr.com/people/129194286@N08/",
         "realname": null,
-        "username": "Kev Walker \u00a6 Away in early September"
-      },      "sizes": [
+        "username": "Kev Walker ¦ Away in early September"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5104,16 +5560,21 @@
           "width": 1024
         }
       ],
-      "title": "\"Say What You See.\" on Explore! \u2b50 April 21, 2023",
+      "title": "\"Say What You See.\" on Explore! ⭐ April 21, 2023",
       "url": "https://www.flickr.com/photos/129194286@N08/52833844712/"
     },
     {
-      "date_posted": "2023-04-20T20:42:05+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-20T20:42:05+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T10:47:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T10:47:33"
+        }
       },
-      
       "id": "52832336597",
       "license": {
         "id": "in-copyright",
@@ -5126,7 +5587,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5174,9 +5636,11 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52832336597/"
     },
     {
-      "date_posted": "2023-04-19T13:20:29+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-19T13:20:29+00:00"
+      },
       "date_taken": null,
-      
       "id": "52828917567",
       "license": {
         "id": "in-copyright",
@@ -5189,7 +5653,8 @@
         "profile_url": "https://www.flickr.com/people/22154713@N04/",
         "realname": "Cathy Labudak",
         "username": "clabudak"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5237,10 +5702,16 @@
       "url": "https://www.flickr.com/photos/22154713@N04/52828917567/"
     },
     {
-      "date_posted": "2023-04-19T13:18:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-19T13:18:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2012-07-21T15:43:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2012-07-21T15:43:21"
+        }
       },
       "id": "52828625873",
       "license": {
@@ -5254,7 +5725,8 @@
         "profile_url": "https://www.flickr.com/people/140454096@N02/",
         "realname": null,
         "username": "vicch7"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5302,12 +5774,17 @@
       "url": "https://www.flickr.com/photos/140454096@N02/52828625873/"
     },
     {
-      "date_posted": "2023-04-18T20:24:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-18T20:24:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-16T10:57:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-16T10:57:12"
+        }
       },
-      
       "id": "52828403178",
       "license": {
         "id": "in-copyright",
@@ -5320,7 +5797,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5368,10 +5846,16 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52828403178/"
     },
     {
-      "date_posted": "2023-04-18T08:45:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-18T08:45:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-17T15:47:32"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-17T15:47:32"
+        }
       },
       "id": "52826664066",
       "license": {
@@ -5384,8 +5868,9 @@
         "photos_url": "https://www.flickr.com/photos/149762673@N02/",
         "profile_url": "https://www.flickr.com/people/149762673@N02/",
         "realname": "Slavka K",
-        "username": "Sl\u00e1vka K"
-      },      "sizes": [
+        "username": "Slávka K"
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5433,12 +5918,17 @@
       "url": "https://www.flickr.com/photos/149762673@N02/52826664066/"
     },
     {
-      "date_posted": "2023-04-17T22:11:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-17T22:11:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-03-31T07:45:23"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-03-31T07:45:23"
+        }
       },
-      
       "id": "52825635471",
       "license": {
         "id": "in-copyright",
@@ -5451,7 +5941,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5499,12 +5990,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52825635471/"
     },
     {
-      "date_posted": "2023-04-17T22:07:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-17T22:07:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-14T10:14:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-14T10:14:45"
+        }
       },
-      
       "id": "52826023830",
       "license": {
         "id": "in-copyright",
@@ -5517,7 +6013,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5565,12 +6062,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52826023830/"
     },
     {
-      "date_posted": "2023-04-15T20:00:07+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-15T20:00:07+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-15T10:42:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-15T10:42:06"
+        }
       },
-      
       "id": "52820112615",
       "license": {
         "id": "in-copyright",
@@ -5583,7 +6085,8 @@
         "profile_url": "https://www.flickr.com/people/99230652@N04/",
         "realname": "Giuliano Da Zanche",
         "username": "ab.130722jvkz"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5638,12 +6141,17 @@
       "url": "https://www.flickr.com/photos/99230652@N04/52820112615/"
     },
     {
-      "date_posted": "2023-04-15T19:24:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-15T19:24:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-14T10:07:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-14T10:07:21"
+        }
       },
-      
       "id": "52819836204",
       "license": {
         "id": "in-copyright",
@@ -5656,7 +6164,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5704,12 +6213,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52819836204/"
     },
     {
-      "date_posted": "2023-04-13T20:40:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-13T20:40:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-02-09T11:59:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-02-09T11:59:01"
+        }
       },
-      
       "id": "52815329086",
       "license": {
         "id": "in-copyright",
@@ -5722,7 +6236,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5770,12 +6285,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52815329086/"
     },
     {
-      "date_posted": "2023-04-13T12:07:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-13T12:07:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-03-28T14:16:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-03-28T14:16:06"
+        }
       },
-      
       "id": "52814679015",
       "license": {
         "id": "in-copyright",
@@ -5788,7 +6308,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5843,12 +6364,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/52814679015/"
     },
     {
-      "date_posted": "2023-04-12T20:26:30+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-12T20:26:30+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-02-09T11:58:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-02-09T11:58:42"
+        }
       },
-      
       "id": "52813005044",
       "license": {
         "id": "in-copyright",
@@ -5861,7 +6387,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5909,12 +6436,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52813005044/"
     },
     {
-      "date_posted": "2023-04-12T17:08:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-12T17:08:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-01-07T14:51:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-01-07T14:51:33"
+        }
       },
-      
       "id": "52812765975",
       "license": {
         "id": "in-copyright",
@@ -5927,7 +6459,8 @@
         "profile_url": "https://www.flickr.com/people/187587141@N04/",
         "realname": "P-B Foto",
         "username": "P-B Foto"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5982,12 +6515,17 @@
       "url": "https://www.flickr.com/photos/187587141@N04/52812765975/"
     },
     {
-      "date_posted": "2023-04-11T23:06:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-11T23:06:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-07T17:59:13"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-07T17:59:13"
+        }
       },
-      
       "id": "52810838934",
       "license": {
         "id": "in-copyright",
@@ -6000,7 +6538,8 @@
         "profile_url": "https://www.flickr.com/people/150922460@N03/",
         "realname": "Kenneth Dagenais",
         "username": "Kens images"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6055,12 +6594,17 @@
       "url": "https://www.flickr.com/photos/150922460@N03/52810838934/"
     },
     {
-      "date_posted": "2023-04-11T18:29:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-11T18:29:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-10T14:40:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-10T14:40:55"
+        }
       },
-      
       "id": "52810310744",
       "license": {
         "id": "in-copyright",
@@ -6073,7 +6617,8 @@
         "profile_url": "https://www.flickr.com/people/130738538@N08/",
         "realname": "Andrea D'Angiolo",
         "username": "Andrea D'Angiolo"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6121,12 +6666,17 @@
       "url": "https://www.flickr.com/photos/130738538@N08/52810310744/"
     },
     {
-      "date_posted": "2023-04-10T22:41:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-10T22:41:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-02-09T11:56:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-02-09T11:56:20"
+        }
       },
-      
       "id": "52807550497",
       "license": {
         "id": "in-copyright",
@@ -6139,7 +6689,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6187,10 +6738,16 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52807550497/"
     },
     {
-      "date_posted": "2023-04-08T15:36:05+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-08T15:36:05+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-08T15:19:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-08T15:19:40"
+        }
       },
       "id": "52802499873",
       "license": {
@@ -6204,7 +6761,8 @@
         "profile_url": "https://www.flickr.com/people/148376495@N04/",
         "realname": "Chris Johnson",
         "username": "FireDevilPhoto"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6259,12 +6817,17 @@
       "url": "https://www.flickr.com/photos/148376495@N04/52802499873/"
     },
     {
-      "date_posted": "2023-04-07T19:06:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-07T19:06:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-02-09T11:55:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-02-09T11:55:20"
+        }
       },
-      
       "id": "52800787145",
       "license": {
         "id": "in-copyright",
@@ -6277,7 +6840,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6325,12 +6889,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52800787145/"
     },
     {
-      "date_posted": "2023-04-05T20:26:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-05T20:26:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-02-09T11:54:46"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-02-09T11:54:46"
+        }
       },
-      
       "id": "52796285414",
       "license": {
         "id": "in-copyright",
@@ -6343,7 +6912,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6391,12 +6961,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52796285414/"
     },
     {
-      "date_posted": "2023-04-05T15:50:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-05T15:50:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-05-01T11:14:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-05-01T11:14:07"
+        }
       },
-      
       "id": "52795912328",
       "license": {
         "id": "in-copyright",
@@ -6409,7 +6984,8 @@
         "profile_url": "https://www.flickr.com/people/144882911@N08/",
         "realname": "Paul Paradis",
         "username": "Paul_Paradis"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6457,12 +7033,17 @@
       "url": "https://www.flickr.com/photos/144882911@N08/52795912328/"
     },
     {
-      "date_posted": "2023-04-04T20:22:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-04T20:22:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-03T15:23:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-03T15:23:14"
+        }
       },
-      
       "id": "52793916184",
       "license": {
         "id": "in-copyright",
@@ -6475,7 +7056,8 @@
         "profile_url": "https://www.flickr.com/people/133480378@N04/",
         "realname": "Bob Rumer.",
         "username": "rumerbob"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6523,12 +7105,17 @@
       "url": "https://www.flickr.com/photos/133480378@N04/52793916184/"
     },
     {
-      "date_posted": "2023-04-04T14:03:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-04T14:03:58+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2022-10-27T13:36:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2022-10-27T13:36:57"
+        }
       },
-      
       "id": "52793229910",
       "license": {
         "id": "in-copyright",
@@ -6541,7 +7128,8 @@
         "profile_url": "https://www.flickr.com/people/162684392@N05/",
         "realname": "Bernhard Niedermeier",
         "username": "NiBe60"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6596,12 +7184,17 @@
       "url": "https://www.flickr.com/photos/162684392@N05/52793229910/"
     },
     {
-      "date_posted": "2011-08-14T13:06:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2011-08-14T13:06:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2011-08-01T16:45:26"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2011-08-01T16:45:26"
+        }
       },
-      
       "id": "6041127387",
       "license": {
         "id": "in-copyright",
@@ -6614,7 +7207,8 @@
         "profile_url": "https://www.flickr.com/people/10299477@N02/",
         "realname": null,
         "username": "SurrendrDorothy"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6665,14 +7259,20 @@
           "width": 682
         }
       ],
-      "title": "Cadia purpurea Splaendoncea Redout\u00e9 Botanical Illustration",
+      "title": "Cadia purpurea Splaendoncea Redouté Botanical Illustration",
       "url": "https://www.flickr.com/photos/10299477@N02/6041127387/"
     },
     {
-      "date_posted": "2007-04-14T16:35:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2007-04-14T16:35:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2007-04-01T11:30:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2007-04-01T11:30:41"
+        }
       },
       "id": "458864327",
       "license": {
@@ -6686,7 +7286,8 @@
         "profile_url": "https://www.flickr.com/people/15304737@N00/",
         "realname": "Maria Slominski",
         "username": "maya_dragonfly"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6734,12 +7335,17 @@
       "url": "https://www.flickr.com/photos/15304737@N00/458864327/"
     },
     {
-      "date_posted": "2023-04-20T09:36:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-04-20T09:36:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-04-20T10:39:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-04-20T10:39:56"
+        }
       },
-      
       "id": "52831051257",
       "license": {
         "id": "in-copyright",
@@ -6752,7 +7358,8 @@
         "profile_url": "https://www.flickr.com/people/102960786@N08/",
         "realname": "Masako Ogasawara",
         "username": "yumehana"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
