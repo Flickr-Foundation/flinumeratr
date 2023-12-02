@@ -6,12 +6,17 @@
   "page_count": 144,
   "photos": [
     {
-      "date_posted": "2023-11-09T00:28:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-09T00:28:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-10T09:33:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-10T09:33:11"
+        }
       },
-      
       "id": "53319292481",
       "license": {
         "id": "in-copyright",
@@ -24,7 +29,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -79,12 +85,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53319292481/"
     },
     {
-      "date_posted": "2023-11-08T18:26:32+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-08T18:26:32+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-11-08T10:57:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-11-08T10:57:35"
+        }
       },
-      
       "id": "53317770887",
       "license": {
         "id": "in-copyright",
@@ -97,7 +108,8 @@
         "profile_url": "https://www.flickr.com/people/56837663@N03/",
         "realname": "Stan Celestian",
         "username": "Stan Celestian"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -152,12 +164,17 @@
       "url": "https://www.flickr.com/photos/56837663@N03/53317770887/"
     },
     {
-      "date_posted": "2023-11-07T23:52:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-07T23:52:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2007-04-15T11:36:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2007-04-15T11:36:11"
+        }
       },
-      
       "id": "53317049926",
       "license": {
         "id": "in-copyright",
@@ -170,7 +187,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -225,12 +243,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53317049926/"
     },
     {
-      "date_posted": "2023-11-06T23:56:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-06T23:56:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-05-31T12:27:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-05-31T12:27:03"
+        }
       },
-      
       "id": "53314994733",
       "license": {
         "id": "in-copyright",
@@ -243,7 +266,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -298,12 +322,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53314994733/"
     },
     {
-      "date_posted": "2023-11-06T00:13:03+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-06T00:13:03+00:00"
+      },
       "date_taken": {
         "granularity": "month",
-        "value": "1975-06-01T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1975-06-01T00:00:00"
+        }
       },
-      
       "id": "53312512568",
       "license": {
         "id": "in-copyright",
@@ -316,7 +345,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -371,12 +401,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53312512568/"
     },
     {
-      "date_posted": "2023-11-04T17:02:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-04T17:02:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-10-21T15:21:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-10-21T15:21:18"
+        }
       },
-      
       "id": "53309412534",
       "license": {
         "id": "in-copyright",
@@ -389,7 +424,8 @@
         "profile_url": "https://www.flickr.com/people/9746040@N08/",
         "realname": "Wayne Chadwick",
         "username": "Wayne~Chadwick"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -444,12 +480,17 @@
       "url": "https://www.flickr.com/photos/9746040@N08/53309412534/"
     },
     {
-      "date_posted": "2023-11-03T06:02:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-03T06:02:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-11-01T12:08:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-11-01T12:08:45"
+        }
       },
-      
       "id": "53305412092",
       "license": {
         "id": "in-copyright",
@@ -462,7 +503,8 @@
         "profile_url": "https://www.flickr.com/people/88572252@N06/",
         "realname": null,
         "username": "aussiejeff"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -517,12 +559,17 @@
       "url": "https://www.flickr.com/photos/88572252@N06/53305412092/"
     },
     {
-      "date_posted": "2023-11-03T23:24:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-03T23:24:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2007-09-09T07:59:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2007-09-09T07:59:42"
+        }
       },
-      
       "id": "53308046833",
       "license": {
         "id": "in-copyright",
@@ -535,7 +582,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -590,12 +638,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53308046833/"
     },
     {
-      "date_posted": "2023-11-03T04:28:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-03T04:28:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-12-17T06:23:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-12-17T06:23:54"
+        }
       },
-      
       "id": "53305252827",
       "license": {
         "id": "cc-by-2.0",
@@ -608,7 +661,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -663,12 +717,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53305252827/"
     },
     {
-      "date_posted": "2023-11-01T05:46:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-01T05:46:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-05-15T14:09:47"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-05-15T14:09:47"
+        }
       },
-      
       "id": "53301663756",
       "license": {
         "id": "pdm",
@@ -681,7 +740,8 @@
         "profile_url": "https://www.flickr.com/people/88123769@N02/",
         "realname": "Bernard Spragg. NZ",
         "username": "Bernard Spragg"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -736,12 +796,17 @@
       "url": "https://www.flickr.com/photos/88123769@N02/53301663756/"
     },
     {
-      "date_posted": "2023-10-31T23:13:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-31T23:13:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2002-03-11T11:35:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2002-03-11T11:35:41"
+        }
       },
-      
       "id": "53301344368",
       "license": {
         "id": "in-copyright",
@@ -754,7 +819,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -809,10 +875,16 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53301344368/"
     },
     {
-      "date_posted": "2023-10-31T08:23:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-31T08:23:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-10-25T08:10:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-10-25T08:10:09"
+        }
       },
       "id": "53299913910",
       "license": {
@@ -826,7 +898,8 @@
         "profile_url": "https://www.flickr.com/people/188808032@N05/",
         "realname": "Marcin Stepien",
         "username": "sadebudy"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -881,12 +954,17 @@
       "url": "https://www.flickr.com/photos/188808032@N05/53299913910/"
     },
     {
-      "date_posted": "2023-10-30T23:01:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-30T23:01:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-03-05T02:01:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-03-05T02:01:03"
+        }
       },
-      
       "id": "53297798697",
       "license": {
         "id": "in-copyright",
@@ -899,7 +977,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -954,12 +1033,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53297798697/"
     },
     {
-      "date_posted": "2023-10-28T23:07:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-28T23:07:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-02-23T01:35:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-02-23T01:35:45"
+        }
       },
-      
       "id": "53293393949",
       "license": {
         "id": "in-copyright",
@@ -972,7 +1056,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1027,12 +1112,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53293393949/"
     },
     {
-      "date_posted": "2023-10-26T22:27:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T22:27:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-12T08:48:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-12T08:48:34"
+        }
       },
-      
       "id": "53288576060",
       "license": {
         "id": "in-copyright",
@@ -1045,7 +1135,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1100,12 +1191,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53288576060/"
     },
     {
-      "date_posted": "2023-10-26T04:21:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T19:24:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T19:24:57"
+        }
       },
-      
       "id": "53286195151",
       "license": {
         "id": "cc-by-2.0",
@@ -1118,7 +1214,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1173,12 +1270,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286195151/"
     },
     {
-      "date_posted": "2023-10-26T04:21:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T19:49:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T19:49:42"
+        }
       },
-      
       "id": "53286194936",
       "license": {
         "id": "cc-by-2.0",
@@ -1191,7 +1293,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1246,12 +1349,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286194936/"
     },
     {
-      "date_posted": "2023-10-26T04:21:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T19:31:24"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T19:31:24"
+        }
       },
-      
       "id": "53286564679",
       "license": {
         "id": "cc-by-2.0",
@@ -1264,7 +1372,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1319,10 +1428,16 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286564679/"
     },
     {
-      "date_posted": "2023-10-26T04:21:41+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:41+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T18:27:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T18:27:42"
+        }
       },
       "id": "53286564844",
       "license": {
@@ -1336,7 +1451,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1391,12 +1507,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286564844/"
     },
     {
-      "date_posted": "2023-10-26T04:21:41+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:41+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T18:23:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T18:23:58"
+        }
       },
-      
       "id": "53285302377",
       "license": {
         "id": "cc-by-2.0",
@@ -1409,7 +1530,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1464,12 +1586,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53285302377/"
     },
     {
-      "date_posted": "2023-10-26T04:21:40+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:40+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T18:20:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T18:20:59"
+        }
       },
-      
       "id": "53285302477",
       "license": {
         "id": "cc-by-2.0",
@@ -1482,7 +1609,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1537,10 +1665,16 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53285302477/"
     },
     {
-      "date_posted": "2023-10-26T04:21:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T17:30:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T17:30:29"
+        }
       },
       "id": "53286195406",
       "license": {
@@ -1554,7 +1688,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1609,12 +1744,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286195406/"
     },
     {
-      "date_posted": "2023-10-26T04:21:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T20:22:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T20:22:51"
+        }
       },
-      
       "id": "53286564369",
       "license": {
         "id": "cc-by-2.0",
@@ -1627,7 +1767,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1682,12 +1823,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286564369/"
     },
     {
-      "date_posted": "2023-10-26T04:21:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T19:57:47"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T19:57:47"
+        }
       },
-      
       "id": "53286657005",
       "license": {
         "id": "cc-by-2.0",
@@ -1700,7 +1846,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1755,12 +1902,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286657005/"
     },
     {
-      "date_posted": "2023-10-26T04:21:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-26T04:21:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-20T19:57:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-20T19:57:29"
+        }
       },
-      
       "id": "53286657155",
       "license": {
         "id": "cc-by-2.0",
@@ -1773,7 +1925,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1828,12 +1981,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53286657155/"
     },
     {
-      "date_posted": "2023-10-25T22:56:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-25T22:56:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2002-03-14T04:10:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2002-03-14T04:10:35"
+        }
       },
-      
       "id": "53284905642",
       "license": {
         "id": "in-copyright",
@@ -1846,7 +2004,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1901,12 +2060,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53284905642/"
     },
     {
-      "date_posted": "2023-10-24T22:38:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-24T22:38:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-09-20T09:42:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-09-20T09:42:22"
+        }
       },
-      
       "id": "53283379996",
       "license": {
         "id": "in-copyright",
@@ -1919,7 +2083,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1974,10 +2139,16 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53283379996/"
     },
     {
-      "date_posted": "2023-10-24T04:48:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-24T04:48:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-19T16:20:19"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-19T16:20:19"
+        }
       },
       "id": "53281370801",
       "license": {
@@ -1991,7 +2162,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2046,12 +2218,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53281370801/"
     },
     {
-      "date_posted": "2023-10-24T04:48:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-24T04:48:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-19T16:22:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-19T16:22:57"
+        }
       },
-      
       "id": "53281839315",
       "license": {
         "id": "cc-by-sa-2.0",
@@ -2064,7 +2241,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2119,12 +2297,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53281839315/"
     },
     {
-      "date_posted": "2023-10-24T04:48:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-24T04:48:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-19T16:25:27"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-19T16:25:27"
+        }
       },
-      
       "id": "53281837945",
       "license": {
         "id": "cc-by-sa-2.0",
@@ -2137,7 +2320,8 @@
         "profile_url": "https://www.flickr.com/people/114641806@N08/",
         "realname": null,
         "username": "incidencematrix"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2192,12 +2376,17 @@
       "url": "https://www.flickr.com/photos/114641806@N08/53281837945/"
     },
     {
-      "date_posted": "2023-10-23T23:41:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-23T23:41:56+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-04-13T00:40:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-04-13T00:40:50"
+        }
       },
-      
       "id": "53281283364",
       "license": {
         "id": "in-copyright",
@@ -2210,7 +2399,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2265,12 +2455,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53281283364/"
     },
     {
-      "date_posted": "2023-10-07T11:53:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-07T11:53:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-10-27T10:17:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-10-27T10:17:25"
+        }
       },
-      
       "id": "53226069018",
       "license": {
         "id": "cc-by-nc-sa-2.0",
@@ -2283,7 +2478,8 @@
         "profile_url": "https://www.flickr.com/people/43164076@N06/",
         "realname": "David Hoffman",
         "username": "David Hoffman '41"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2338,12 +2534,17 @@
       "url": "https://www.flickr.com/photos/43164076@N06/53226069018/"
     },
     {
-      "date_posted": "2023-10-21T22:53:03+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-21T22:53:03+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-09T13:11:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-09T13:11:33"
+        }
       },
-      
       "id": "53275648005",
       "license": {
         "id": "in-copyright",
@@ -2356,7 +2557,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2411,12 +2613,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53275648005/"
     },
     {
-      "date_posted": "2023-10-20T21:32:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-20T21:32:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-10T09:32:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-10T09:32:35"
+        }
       },
-      
       "id": "53272885351",
       "license": {
         "id": "in-copyright",
@@ -2429,7 +2636,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2484,12 +2692,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53272885351/"
     },
     {
-      "date_posted": "2023-10-20T14:49:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-20T14:49:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-27T05:44:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-27T05:44:45"
+        }
       },
-      
       "id": "53272515055",
       "license": {
         "id": "in-copyright",
@@ -2502,7 +2715,8 @@
         "profile_url": "https://www.flickr.com/people/9746040@N08/",
         "realname": "Wayne Chadwick",
         "username": "Wayne~Chadwick"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2557,12 +2771,17 @@
       "url": "https://www.flickr.com/photos/9746040@N08/53272515055/"
     },
     {
-      "date_posted": "2023-10-19T22:12:40+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-19T22:12:40+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2007-04-15T11:35:47"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2007-04-15T11:35:47"
+        }
       },
-      
       "id": "53271012034",
       "license": {
         "id": "in-copyright",
@@ -2575,7 +2794,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2630,12 +2850,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53271012034/"
     },
     {
-      "date_posted": "2023-10-18T21:57:33+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-18T21:57:33+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-05-31T12:26:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-05-31T12:26:14"
+        }
       },
-      
       "id": "53267563072",
       "license": {
         "id": "in-copyright",
@@ -2648,7 +2873,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2703,10 +2929,16 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53267563072/"
     },
     {
-      "date_posted": "2023-10-18T07:28:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-18T07:28:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-21T17:19:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-21T17:19:01"
+        }
       },
       "id": "53267108158",
       "license": {
@@ -2720,7 +2952,8 @@
         "profile_url": "https://www.flickr.com/people/188808032@N05/",
         "realname": "Marcin Stepien",
         "username": "sadebudy"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2771,16 +3004,21 @@
           "width": 3749
         }
       ],
-      "title": "\u0141aba // Elbe",
+      "title": "Łaba // Elbe",
       "url": "https://www.flickr.com/photos/188808032@N05/53267108158/"
     },
     {
-      "date_posted": "2023-10-17T22:23:06+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-17T22:23:06+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-11-05T05:45:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-11-05T05:45:20"
+        }
       },
-      
       "id": "53266595260",
       "license": {
         "id": "in-copyright",
@@ -2793,7 +3031,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2848,12 +3087,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53266595260/"
     },
     {
-      "date_posted": "2023-10-17T08:02:01+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-17T08:02:01+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2013-04-14T00:00:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2013-04-14T00:00:09"
+        }
       },
-      
       "id": "53264776014",
       "license": {
         "id": "in-copyright",
@@ -2866,7 +3110,8 @@
         "profile_url": "https://www.flickr.com/people/37075433@N00/",
         "realname": "Vid Pogacnik",
         "username": "Vid Pogacnik"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2914,12 +3159,17 @@
       "url": "https://www.flickr.com/photos/37075433@N00/53264776014/"
     },
     {
-      "date_posted": "2023-10-16T23:12:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-16T23:12:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-02-14T13:05:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-02-14T13:05:57"
+        }
       },
-      
       "id": "53263600006",
       "license": {
         "id": "in-copyright",
@@ -2932,7 +3182,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2987,12 +3238,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53263600006/"
     },
     {
-      "date_posted": "2023-10-16T11:39:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-16T11:39:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2013-04-14T00:00:05"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2013-04-14T00:00:05"
+        }
       },
-      
       "id": "53262610065",
       "license": {
         "id": "in-copyright",
@@ -3005,7 +3261,8 @@
         "profile_url": "https://www.flickr.com/people/37075433@N00/",
         "realname": "Vid Pogacnik",
         "username": "Vid Pogacnik"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3053,12 +3310,17 @@
       "url": "https://www.flickr.com/photos/37075433@N00/53262610065/"
     },
     {
-      "date_posted": "2023-10-12T17:08:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-12T17:08:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-05-22T17:58:46"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-05-22T17:58:46"
+        }
       },
-      
       "id": "53253776390",
       "license": {
         "id": "in-copyright",
@@ -3071,7 +3333,8 @@
         "profile_url": "https://www.flickr.com/people/31154073@N05/",
         "realname": null,
         "username": "Dah Professor"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3119,12 +3382,17 @@
       "url": "https://www.flickr.com/photos/31154073@N05/53253776390/"
     },
     {
-      "date_posted": "2023-10-13T23:40:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-13T23:40:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-03-05T00:31:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-03-05T00:31:50"
+        }
       },
-      
       "id": "53256398103",
       "license": {
         "id": "in-copyright",
@@ -3137,7 +3405,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3192,12 +3461,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53256398103/"
     },
     {
-      "date_posted": "2023-10-12T21:14:43+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-12T21:14:43+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-02-23T01:24:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-02-23T01:24:03"
+        }
       },
-      
       "id": "53254060408",
       "license": {
         "id": "in-copyright",
@@ -3210,7 +3484,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3265,12 +3540,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53254060408/"
     },
     {
-      "date_posted": "2023-10-11T21:34:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-11T21:34:57+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-06-12T08:46:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-06-12T08:46:51"
+        }
       },
-      
       "id": "53250733547",
       "license": {
         "id": "in-copyright",
@@ -3283,7 +3563,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3338,12 +3619,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53250733547/"
     },
     {
-      "date_posted": "2023-10-10T22:45:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-10T22:45:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2002-03-14T03:11:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2002-03-14T03:11:42"
+        }
       },
-      
       "id": "53249755023",
       "license": {
         "id": "in-copyright",
@@ -3356,7 +3642,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3411,12 +3698,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53249755023/"
     },
     {
-      "date_posted": "2023-10-09T22:52:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-09T22:52:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-09-20T09:41:30"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-09-20T09:41:30"
+        }
       },
-      
       "id": "53247185858",
       "license": {
         "id": "in-copyright",
@@ -3429,7 +3721,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3484,12 +3777,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53247185858/"
     },
     {
-      "date_posted": "2023-10-09T22:04:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-09T22:04:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-04-13T00:16:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-04-13T00:16:44"
+        }
       },
-      
       "id": "53245930917",
       "license": {
         "id": "in-copyright",
@@ -3502,7 +3800,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3557,12 +3856,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53245930917/"
     },
     {
-      "date_posted": "2023-10-08T07:37:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-08T07:37:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-10-01T13:02:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-10-01T13:02:38"
+        }
       },
-      
       "id": "53242900910",
       "license": {
         "id": "in-copyright",
@@ -3575,7 +3879,8 @@
         "profile_url": "https://www.flickr.com/people/37075433@N00/",
         "realname": "Vid Pogacnik",
         "username": "Vid Pogacnik"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3623,12 +3928,17 @@
       "url": "https://www.flickr.com/photos/37075433@N00/53242900910/"
     },
     {
-      "date_posted": "2023-10-07T21:33:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-07T21:33:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-10-07T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-10-07T00:00:00"
+        }
       },
-      
       "id": "53241541841",
       "license": {
         "id": "in-copyright",
@@ -3641,7 +3951,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3696,12 +4007,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53241541841/"
     },
     {
-      "date_posted": "2023-10-06T21:39:03+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-06T21:39:03+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-09T13:11:23"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-09T13:11:23"
+        }
       },
-      
       "id": "53239745750",
       "license": {
         "id": "in-copyright",
@@ -3714,7 +4030,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3769,12 +4086,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53239745750/"
     },
     {
-      "date_posted": "2023-10-05T22:26:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-05T22:26:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-10T09:31:39"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-10T09:31:39"
+        }
       },
-      
       "id": "53237534859",
       "license": {
         "id": "in-copyright",
@@ -3787,7 +4109,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3842,12 +4165,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53237534859/"
     },
     {
-      "date_posted": "2023-10-05T20:46:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-05T20:46:00+00:00"
+      },
       "date_taken": {
         "granularity": "month",
-        "value": "1997-04-01T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1997-04-01T00:00:00"
+        }
       },
-      
       "id": "53237492035",
       "license": {
         "id": "in-copyright",
@@ -3860,7 +4188,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3915,9 +4244,11 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53237492035/"
     },
     {
-      "date_posted": "2023-10-04T12:51:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-04T12:51:18+00:00"
+      },
       "date_taken": null,
-      
       "id": "53234046374",
       "license": {
         "id": "in-copyright",
@@ -3930,7 +4261,8 @@
         "profile_url": "https://www.flickr.com/people/128501237@N03/",
         "realname": "Thomas Williamson",
         "username": "thomasedward63"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3985,9 +4317,11 @@
       "url": "https://www.flickr.com/photos/128501237@N03/53234046374/"
     },
     {
-      "date_posted": "2023-10-04T12:51:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-04T12:51:20+00:00"
+      },
       "date_taken": null,
-      
       "id": "53234196195",
       "license": {
         "id": "in-copyright",
@@ -4000,7 +4334,8 @@
         "profile_url": "https://www.flickr.com/people/128501237@N03/",
         "realname": "Thomas Williamson",
         "username": "thomasedward63"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4055,12 +4390,17 @@
       "url": "https://www.flickr.com/photos/128501237@N03/53234196195/"
     },
     {
-      "date_posted": "2023-10-03T23:07:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-03T23:07:56+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-23T18:53:17"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-23T18:53:17"
+        }
       },
-      
       "id": "53233073025",
       "license": {
         "id": "in-copyright",
@@ -4073,7 +4413,8 @@
         "profile_url": "https://www.flickr.com/people/39398829@N02/",
         "realname": "Dave Coppedge",
         "username": "Chief Bwana"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4128,12 +4469,17 @@
       "url": "https://www.flickr.com/photos/39398829@N02/53233073025/"
     },
     {
-      "date_posted": "2023-09-25T21:28:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-25T21:28:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-05-31T12:37:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-05-31T12:37:56"
+        }
       },
-      
       "id": "53212741652",
       "license": {
         "id": "in-copyright",
@@ -4146,7 +4492,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4201,12 +4548,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53212741652/"
     },
     {
-      "date_posted": "2023-09-23T23:38:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-23T23:38:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-22T18:22:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-22T18:22:50"
+        }
       },
-      
       "id": "53208562441",
       "license": {
         "id": "in-copyright",
@@ -4219,7 +4571,8 @@
         "profile_url": "https://www.flickr.com/people/34457823@N04/",
         "realname": "Karen  Portin",
         "username": "KPortin"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4267,12 +4620,17 @@
       "url": "https://www.flickr.com/photos/34457823@N04/53208562441/"
     },
     {
-      "date_posted": "2023-09-23T22:45:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-23T22:45:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-11-05T06:05:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-11-05T06:05:25"
+        }
       },
-      
       "id": "53209055865",
       "license": {
         "id": "in-copyright",
@@ -4285,7 +4643,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4340,10 +4699,16 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53209055865/"
     },
     {
-      "date_posted": "2023-09-23T07:27:52+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-23T07:27:52+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-22T13:54:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-22T13:54:20"
+        }
       },
       "id": "53206992501",
       "license": {
@@ -4357,7 +4722,8 @@
         "profile_url": "https://www.flickr.com/people/44273756@N08/",
         "realname": null,
         "username": "mikek666"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4398,12 +4764,17 @@
       "url": "https://www.flickr.com/photos/44273756@N08/53206992501/"
     },
     {
-      "date_posted": "2023-09-22T23:21:04+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-22T23:21:04+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2007-09-09T07:58:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2007-09-09T07:58:09"
+        }
       },
-      
       "id": "53205525427",
       "license": {
         "id": "in-copyright",
@@ -4416,7 +4787,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4471,12 +4843,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53205525427/"
     },
     {
-      "date_posted": "2023-09-20T23:22:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-20T23:22:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2002-03-11T03:08:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2002-03-11T03:08:52"
+        }
       },
-      
       "id": "53202518625",
       "license": {
         "id": "in-copyright",
@@ -4489,7 +4866,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4544,12 +4922,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53202518625/"
     },
     {
-      "date_posted": "2023-09-19T23:35:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-19T23:35:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-03-05T01:41:59"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-03-05T01:41:59"
+        }
       },
-      
       "id": "53200208410",
       "license": {
         "id": "in-copyright",
@@ -4562,7 +4945,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4617,9 +5001,11 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53200208410/"
     },
     {
-      "date_posted": "2023-09-18T16:44:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-18T16:44:10+00:00"
+      },
       "date_taken": null,
-      
       "id": "53196825815",
       "license": {
         "id": "in-copyright",
@@ -4632,7 +5018,8 @@
         "profile_url": "https://www.flickr.com/people/93408882@N03/",
         "realname": "Janis Morrison",
         "username": "Freshairphotography by Janis Morrison"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4680,12 +5067,17 @@
       "url": "https://www.flickr.com/photos/93408882@N03/53196825815/"
     },
     {
-      "date_posted": "2023-09-18T03:26:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-18T03:26:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-18T13:25:27"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-18T13:25:27"
+        }
       },
-      
       "id": "53195466740",
       "license": {
         "id": "in-copyright",
@@ -4698,7 +5090,8 @@
         "profile_url": "https://www.flickr.com/people/29409244@N03/",
         "realname": "Lilian Alizert",
         "username": "Lilian Alizert"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4746,12 +5139,17 @@
       "url": "https://www.flickr.com/photos/29409244@N03/53195466740/"
     },
     {
-      "date_posted": "2023-09-17T22:17:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-17T22:17:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-02-23T01:03:27"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-02-23T01:03:27"
+        }
       },
-      
       "id": "53194508679",
       "license": {
         "id": "in-copyright",
@@ -4764,7 +5162,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4819,12 +5218,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53194508679/"
     },
     {
-      "date_posted": "2023-09-16T22:26:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-16T22:26:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-05T11:52:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-05T11:52:01"
+        }
       },
-      
       "id": "53192457283",
       "license": {
         "id": "in-copyright",
@@ -4837,7 +5241,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4892,9 +5297,11 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53192457283/"
     },
     {
-      "date_posted": "2023-09-16T18:35:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-16T18:35:23+00:00"
+      },
       "date_taken": null,
-      
       "id": "53191825160",
       "license": {
         "id": "in-copyright",
@@ -4907,7 +5314,8 @@
         "profile_url": "https://www.flickr.com/people/93408882@N03/",
         "realname": "Janis Morrison",
         "username": "Freshairphotography by Janis Morrison"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4951,13 +5359,15 @@
           "width": 1024
         }
       ],
-      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon",
+      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the ‘toes’ of the hills Wheeler County, Oregon",
       "url": "https://www.flickr.com/photos/93408882@N03/53191825160/"
     },
     {
-      "date_posted": "2023-09-16T18:35:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-16T18:35:23+00:00"
+      },
       "date_taken": null,
-      
       "id": "53191170072",
       "license": {
         "id": "in-copyright",
@@ -4970,7 +5380,8 @@
         "profile_url": "https://www.flickr.com/people/93408882@N03/",
         "realname": "Janis Morrison",
         "username": "Freshairphotography by Janis Morrison"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5014,13 +5425,15 @@
           "width": 1024
         }
       ],
-      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon",
+      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the ‘toes’ of the hills Wheeler County, Oregon",
       "url": "https://www.flickr.com/photos/93408882@N03/53191170072/"
     },
     {
-      "date_posted": "2023-09-16T18:35:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-16T18:35:22+00:00"
+      },
       "date_taken": null,
-      
       "id": "53191431509",
       "license": {
         "id": "in-copyright",
@@ -5033,7 +5446,8 @@
         "profile_url": "https://www.flickr.com/people/93408882@N03/",
         "realname": "Janis Morrison",
         "username": "Freshairphotography by Janis Morrison"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5077,13 +5491,15 @@
           "width": 1024
         }
       ],
-      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the \u2018toes\u2019 of the hills Wheeler County, Oregon",
+      "title": "Painted Hills, John Day Fossil Beds National Monument A closer look of the ‘toes’ of the hills Wheeler County, Oregon",
       "url": "https://www.flickr.com/photos/93408882@N03/53191431509/"
     },
     {
-      "date_posted": "2023-09-16T05:05:32+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-16T05:05:32+00:00"
+      },
       "date_taken": null,
-      
       "id": "53190651270",
       "license": {
         "id": "in-copyright",
@@ -5096,7 +5512,8 @@
         "profile_url": "https://www.flickr.com/people/93408882@N03/",
         "realname": "Janis Morrison",
         "username": "Freshairphotography by Janis Morrison"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5144,12 +5561,17 @@
       "url": "https://www.flickr.com/photos/93408882@N03/53190651270/"
     },
     {
-      "date_posted": "2023-09-15T22:02:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-15T22:02:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-01-09T13:38:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-01-09T13:38:51"
+        }
       },
-      
       "id": "53189462917",
       "license": {
         "id": "in-copyright",
@@ -5162,7 +5584,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5217,12 +5640,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53189462917/"
     },
     {
-      "date_posted": "2023-09-14T22:41:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-14T22:41:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-04-13T00:02:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-04-13T00:02:22"
+        }
       },
-      
       "id": "53187912844",
       "license": {
         "id": "in-copyright",
@@ -5235,7 +5663,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5290,12 +5719,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53187912844/"
     },
     {
-      "date_posted": "2023-09-13T16:02:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-13T16:02:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-05-16T07:08:46"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-05-16T07:08:46"
+        }
       },
-      
       "id": "53185186275",
       "license": {
         "id": "in-copyright",
@@ -5308,7 +5742,8 @@
         "profile_url": "https://www.flickr.com/people/74486811@N00/",
         "realname": "Eric",
         "username": "eb78"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5356,12 +5791,17 @@
       "url": "https://www.flickr.com/photos/74486811@N00/53185186275/"
     },
     {
-      "date_posted": "2023-09-13T10:27:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-13T10:27:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-04T16:28:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-04T16:28:25"
+        }
       },
-      
       "id": "53184710710",
       "license": {
         "id": "in-copyright",
@@ -5374,7 +5814,8 @@
         "profile_url": "https://www.flickr.com/people/75916004@N00/",
         "realname": "paolo alias opaxir",
         "username": "opaxir"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5422,12 +5863,17 @@
       "url": "https://www.flickr.com/photos/75916004@N00/53184710710/"
     },
     {
-      "date_posted": "2023-09-13T10:27:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-13T10:27:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-04T17:23:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-04T17:23:07"
+        }
       },
-      
       "id": "53183796992",
       "license": {
         "id": "in-copyright",
@@ -5440,7 +5886,8 @@
         "profile_url": "https://www.flickr.com/people/75916004@N00/",
         "realname": "paolo alias opaxir",
         "username": "opaxir"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5488,12 +5935,17 @@
       "url": "https://www.flickr.com/photos/75916004@N00/53183796992/"
     },
     {
-      "date_posted": "2023-09-13T10:27:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-13T10:27:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-09-04T17:27:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-09-04T17:27:57"
+        }
       },
-      
       "id": "53184879493",
       "license": {
         "id": "in-copyright",
@@ -5506,7 +5958,8 @@
         "profile_url": "https://www.flickr.com/people/75916004@N00/",
         "realname": "paolo alias opaxir",
         "username": "opaxir"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5554,12 +6007,17 @@
       "url": "https://www.flickr.com/photos/75916004@N00/53184879493/"
     },
     {
-      "date_posted": "2023-09-12T21:45:50+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-12T21:45:50+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-09T13:23:47"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-09T13:23:47"
+        }
       },
-      
       "id": "53183776200",
       "license": {
         "id": "in-copyright",
@@ -5572,7 +6030,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5627,12 +6086,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53183776200/"
     },
     {
-      "date_posted": "2023-09-11T22:53:33+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-11T22:53:33+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2021-04-10T09:32:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2021-04-10T09:32:10"
+        }
       },
-      
       "id": "53181735133",
       "license": {
         "id": "in-copyright",
@@ -5645,7 +6109,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5700,12 +6165,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53181735133/"
     },
     {
-      "date_posted": "2023-09-11T21:51:45+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-11T21:51:45+00:00"
+      },
       "date_taken": {
         "granularity": "month",
-        "value": "1997-04-01T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1997-04-01T00:00:00"
+        }
       },
-      
       "id": "53181572895",
       "license": {
         "id": "in-copyright",
@@ -5718,7 +6188,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5773,12 +6244,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53181572895/"
     },
     {
-      "date_posted": "2022-12-13T21:13:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2022-12-13T21:13:25+00:00"
+      },
       "date_taken": {
         "granularity": "month",
-        "value": "1975-07-01T00:00:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1975-07-01T00:00:00"
+        }
       },
-      
       "id": "52561295192",
       "license": {
         "id": "in-copyright",
@@ -5791,7 +6267,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5846,12 +6323,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/52561295192/"
     },
     {
-      "date_posted": "2023-09-10T21:21:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-10T21:21:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-05-31T12:37:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-05-31T12:37:10"
+        }
       },
-      
       "id": "53178381291",
       "license": {
         "id": "in-copyright",
@@ -5864,7 +6346,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5919,12 +6402,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53178381291/"
     },
     {
-      "date_posted": "2023-09-09T21:32:02+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-09T21:32:02+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-11-05T05:22:09"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-11-05T05:22:09"
+        }
       },
-      
       "id": "53175199817",
       "license": {
         "id": "in-copyright",
@@ -5937,7 +6425,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5992,10 +6481,16 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53175199817/"
     },
     {
-      "date_posted": "2023-07-13T07:05:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-07-13T07:05:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-07-01T11:17:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-07-01T11:17:33"
+        }
       },
       "id": "53041855087",
       "license": {
@@ -6009,7 +6504,8 @@
         "profile_url": "https://www.flickr.com/people/15029120@N00/",
         "realname": null,
         "username": "michael_jeddah"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6064,12 +6560,17 @@
       "url": "https://www.flickr.com/photos/15029120@N00/53041855087/"
     },
     {
-      "date_posted": "2023-09-08T22:17:24+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-08T22:17:24+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2020-02-14T13:12:54"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2020-02-14T13:12:54"
+        }
       },
-      
       "id": "53174146605",
       "license": {
         "id": "in-copyright",
@@ -6082,7 +6583,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6137,12 +6639,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53174146605/"
     },
     {
-      "date_posted": "2023-09-07T23:13:52+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-07T23:13:52+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2002-03-11T04:30:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2002-03-11T04:30:42"
+        }
       },
-      
       "id": "53171036752",
       "license": {
         "id": "in-copyright",
@@ -6155,7 +6662,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6210,12 +6718,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53171036752/"
     },
     {
-      "date_posted": "2023-09-07T21:28:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-07T21:28:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1976-03-05T00:02:29"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1976-03-05T00:02:29"
+        }
       },
-      
       "id": "53171453716",
       "license": {
         "id": "in-copyright",
@@ -6228,7 +6741,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6283,12 +6797,17 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53171453716/"
     },
     {
-      "date_posted": "2023-09-07T21:40:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-07T21:40:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-08-11T13:38:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-08-11T13:38:25"
+        }
       },
-      
       "id": "53170887847",
       "license": {
         "id": "in-copyright",
@@ -6301,7 +6820,8 @@
         "profile_url": "https://www.flickr.com/people/9746040@N08/",
         "realname": "Wayne Chadwick",
         "username": "Wayne~Chadwick"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6356,12 +6876,17 @@
       "url": "https://www.flickr.com/photos/9746040@N08/53170887847/"
     },
     {
-      "date_posted": "2023-09-07T20:37:55+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-07T20:37:55+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2023-03-12T12:05:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2023-03-12T12:05:35"
+        }
       },
-      
       "id": "53171803383",
       "license": {
         "id": "in-copyright",
@@ -6374,7 +6899,8 @@
         "profile_url": "https://www.flickr.com/people/34457823@N04/",
         "realname": "Karen  Portin",
         "username": "KPortin"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6422,12 +6948,17 @@
       "url": "https://www.flickr.com/photos/34457823@N04/53171803383/"
     },
     {
-      "date_posted": "2023-09-06T19:34:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-06T19:34:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "1978-02-23T03:55:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "1978-02-23T03:55:50"
+        }
       },
-      
       "id": "53168957021",
       "license": {
         "id": "in-copyright",
@@ -6440,7 +6971,8 @@
         "profile_url": "https://www.flickr.com/people/196253572@N05/",
         "realname": "Raymond Wiggers",
         "username": "rwgabbro1"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6495,9 +7027,11 @@
       "url": "https://www.flickr.com/photos/196253572@N05/53168957021/"
     },
     {
-      "date_posted": "2023-09-06T04:45:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-06T04:45:11+00:00"
+      },
       "date_taken": null,
-      
       "id": "53168153703",
       "license": {
         "id": "in-copyright",
@@ -6510,7 +7044,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6565,7 +7100,10 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53168153703/"
     },
     {
-      "date_posted": "2023-09-05T23:01:32+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:01:32+00:00"
+      },
       "date_taken": null,
       "id": "53167670223",
       "license": {
@@ -6579,7 +7117,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6634,9 +7173,11 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53167670223/"
     },
     {
-      "date_posted": "2023-09-05T23:15:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:14+00:00"
+      },
       "date_taken": null,
-      
       "id": "53166622932",
       "license": {
         "id": "in-copyright",
@@ -6649,7 +7190,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6704,7 +7246,10 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53166622932/"
     },
     {
-      "date_posted": "2023-09-05T23:15:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:13+00:00"
+      },
       "date_taken": null,
       "id": "53167646080",
       "license": {
@@ -6718,7 +7263,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6773,7 +7319,10 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53167646080/"
     },
     {
-      "date_posted": "2023-09-05T23:15:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:13+00:00"
+      },
       "date_taken": null,
       "id": "53167413449",
       "license": {
@@ -6787,7 +7336,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6842,7 +7392,10 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53167413449/"
     },
     {
-      "date_posted": "2023-09-05T23:15:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:12+00:00"
+      },
       "date_taken": null,
       "id": "53167695508",
       "license": {
@@ -6856,7 +7409,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6911,7 +7465,10 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53167695508/"
     },
     {
-      "date_posted": "2023-09-05T23:15:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:11+00:00"
+      },
       "date_taken": null,
       "id": "53167695558",
       "license": {
@@ -6925,7 +7482,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6980,7 +7538,10 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53167695558/"
     },
     {
-      "date_posted": "2023-09-05T23:15:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:11+00:00"
+      },
       "date_taken": null,
       "id": "53167413444",
       "license": {
@@ -6994,7 +7555,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7049,9 +7611,11 @@
       "url": "https://www.flickr.com/photos/7665648@N04/53167413444/"
     },
     {
-      "date_posted": "2023-09-05T23:15:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-09-05T23:15:10+00:00"
+      },
       "date_taken": null,
-      
       "id": "53167646265",
       "license": {
         "id": "in-copyright",
@@ -7064,7 +7628,8 @@
         "profile_url": "https://www.flickr.com/people/7665648@N04/",
         "realname": "Steve",
         "username": "Singingstone48"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",

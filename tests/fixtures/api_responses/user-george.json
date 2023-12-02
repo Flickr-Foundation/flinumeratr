@@ -5,11 +5,12 @@
     {
       "id": "53310991033",
       "title": "Canary Wharf dusk",
-      
-      "date_posted": "2023-11-05T12:53:56+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-11-05T12:53:56+00:00"
+      },
       "date_taken": {
-        "value": "2023-11-04T16:21:45",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2023-11-04T16:21:45"}
       },
       "license": {
         "id": "in-copyright",
@@ -66,7 +67,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/53310991033_16814783a9_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -78,10 +80,12 @@
     {
       "id": "53282436419",
       "title": "Tower Bridge alla noche",
-      "date_posted": "2023-10-24T12:57:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-24T12:57:28+00:00"
+      },
       "date_taken": {
-        "value": "2023-10-19T19:20:10",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2023-10-19T19:20:10"}
       },
       "license": {
         "id": "cc0-1.0",
@@ -138,7 +142,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/53282436419_474c66ea1b_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -150,10 +155,12 @@
     {
       "id": "53237018379",
       "title": "Borough before a shower",
-      "date_posted": "2023-10-05T17:58:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-10-05T17:58:16+00:00"
+      },
       "date_taken": {
-        "value": "2023-10-03T13:16:01",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2023-10-03T13:16:01"}
       },
       "license": {
         "id": "cc-by-2.0",
@@ -210,7 +217,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/53237018379_e77e160e9a_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -222,11 +230,12 @@
     {
       "id": "53100996733",
       "title": "The City of London appears to be generating weather",
-      
-      "date_posted": "2023-08-07T19:15:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-08-07T19:15:39+00:00"
+      },
       "date_taken": {
-        "value": "2023-08-06T17:08:01",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2023-08-06T17:08:01"}
       },
       "license": {
         "id": "cc-by-nc-sa-2.0",
@@ -283,7 +292,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/53100996733_c381e8d3de_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -295,8 +305,10 @@
     {
       "id": "52957366694",
       "title": "A few weeks after the fire",
-      
-      "date_posted": "2023-06-07T10:55:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T10:55:00+00:00"
+      },
       "date_taken": null,
       "license": {
         "id": "cc-by-2.0",
@@ -353,7 +365,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52957366694_76f1887840_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -365,11 +378,12 @@
     {
       "id": "52957605480",
       "title": "A few weeks after the fire",
-      
-      "date_posted": "2023-06-07T10:54:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T10:54:59+00:00"
+      },
       "date_taken": {
-        "value": "2023-06-07T03:50:50",
-        "granularity": "second"
+"granularity": "second", "value": {"type": "datetime.datetime", "value": "2023-06-07T03:50:50"}
       },
       "license": {
         "id": "cc-by-2.0",
@@ -426,7 +440,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52957605480_5a4b6f94b8_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -438,8 +453,10 @@
     {
       "id": "52956623732",
       "title": "A few weeks after the fire",
-      
-      "date_posted": "2023-06-07T10:54:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T10:54:59+00:00"
+      },
       "date_taken": null,
       "license": {
         "id": "in-copyright",
@@ -496,7 +513,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52956623732_a6f3d9ee83_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -508,8 +526,10 @@
     {
       "id": "52957602825",
       "title": "Culture Burn, Adelaide",
-      
-      "date_posted": "2023-06-07T10:54:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T10:54:58+00:00"
+      },
       "date_taken": null,
       "license": {
         "id": "cc-by-2.0",
@@ -566,7 +586,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52957602825_473eb21e4f_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -578,8 +599,10 @@
     {
       "id": "52956620847",
       "title": "Culture Burn, Adelaide",
-      
-      "date_posted": "2023-06-07T10:54:58+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T10:54:58+00:00"
+      },
       "date_taken": null,
       "license": {
         "id": "cc-by-2.0",
@@ -636,7 +659,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52956620847_2eea8ddd3a_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",
@@ -648,8 +672,10 @@
     {
       "id": "52957218821",
       "title": "Culture Burn, Adelaide",
-      
-      "date_posted": "2023-06-07T10:54:57+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2023-06-07T10:54:57+00:00"
+      },
       "date_taken": null,
       "license": {
         "id": "cc-by-2.0",
@@ -706,7 +732,8 @@
           "media": "photo",
           "source": "https://live.staticflickr.com/65535/52957218821_d308598570_o.jpg"
         }
-      ],      "owner": {
+      ],
+      "owner": {
         "id": "34427469121@N01",
         "username": "George",
         "realname": "George Oates",

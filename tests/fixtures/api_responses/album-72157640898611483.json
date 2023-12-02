@@ -12,12 +12,17 @@
   "page_count": 4,
   "photos": [
     {
-      "date_posted": "2019-11-06T00:55:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-06T00:55:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T16:59:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T16:59:38"
+        }
       },
-      
       "id": "49021434741",
       "license": {
         "id": "pdm",
@@ -30,7 +35,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -85,12 +91,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/49021434741/"
     },
     {
-      "date_posted": "2019-11-06T00:55:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-06T00:55:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T16:51:32"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T16:51:32"
+        }
       },
-      
       "id": "49020912923",
       "license": {
         "id": "pdm",
@@ -103,7 +114,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -158,12 +170,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/49020912923/"
     },
     {
-      "date_posted": "2019-11-06T00:55:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-06T00:55:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T16:47:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T16:47:41"
+        }
       },
-      
       "id": "49021639582",
       "license": {
         "id": "pdm",
@@ -176,7 +193,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -231,12 +249,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/49021639582/"
     },
     {
-      "date_posted": "2019-11-06T00:55:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-06T00:55:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T16:36:08"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T16:36:08"
+        }
       },
-      
       "id": "49021436591",
       "license": {
         "id": "pdm",
@@ -249,7 +272,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -304,12 +328,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/49021436591/"
     },
     {
-      "date_posted": "2019-11-06T00:55:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-11-06T00:55:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T16:31:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T16:31:56"
+        }
       },
-      
       "id": "49020914453",
       "license": {
         "id": "pdm",
@@ -322,7 +351,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -377,12 +407,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/49020914453/"
     },
     {
-      "date_posted": "2019-10-31T18:55:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-10-31T18:55:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T15:09:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T15:09:01"
+        }
       },
-      
       "id": "48992137491",
       "license": {
         "id": "pdm",
@@ -395,7 +430,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -450,12 +486,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/48992137491/"
     },
     {
-      "date_posted": "2019-10-31T18:55:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-10-31T18:55:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-10-29T15:01:19"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-10-29T15:01:19"
+        }
       },
-      
       "id": "48992335797",
       "license": {
         "id": "pdm",
@@ -468,7 +509,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -523,12 +565,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/48992335797/"
     },
     {
-      "date_posted": "2019-04-25T23:46:53+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-25T23:46:53+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-16T16:28:22"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-16T16:28:22"
+        }
       },
-      
       "id": "40733986283",
       "license": {
         "id": "pdm",
@@ -541,7 +588,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -596,12 +644,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40733986283/"
     },
     {
-      "date_posted": "2019-04-25T23:46:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-25T23:46:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-16T16:28:16"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-16T16:28:16"
+        }
       },
-      
       "id": "32757107117",
       "license": {
         "id": "pdm",
@@ -614,7 +667,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -669,12 +723,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32757107117/"
     },
     {
-      "date_posted": "2019-04-25T23:46:54+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-25T23:46:54+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-08T19:28:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-08T19:28:49"
+        }
       },
-      
       "id": "47647261722",
       "license": {
         "id": "pdm",
@@ -687,7 +746,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -742,12 +802,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47647261722/"
     },
     {
-      "date_posted": "2019-04-25T23:46:55+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-25T23:46:55+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-04-08T19:28:33"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-04-08T19:28:33"
+        }
       },
-      
       "id": "32757106377",
       "license": {
         "id": "pdm",
@@ -760,7 +825,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -815,12 +881,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32757106377/"
     },
     {
-      "date_posted": "2019-03-20T23:44:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-03-20T23:44:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-03-15T09:58:11"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-03-15T09:58:11"
+        }
       },
-      
       "id": "46515565425",
       "license": {
         "id": "pdm",
@@ -833,7 +904,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -888,12 +960,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/46515565425/"
     },
     {
-      "date_posted": "2019-03-20T23:35:29+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-03-20T23:35:29+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-03-15T09:28:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-03-15T09:28:34"
+        }
       },
-      
       "id": "33554687048",
       "license": {
         "id": "pdm",
@@ -906,7 +983,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -954,12 +1032,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33554687048/"
     },
     {
-      "date_posted": "2019-04-27T21:27:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:27:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-03-07T11:36:02"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-03-07T11:36:02"
+        }
       },
-      
       "id": "40750084443",
       "license": {
         "id": "pdm",
@@ -972,7 +1055,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1027,12 +1111,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40750084443/"
     },
     {
-      "date_posted": "2019-04-27T21:35:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:35:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-03-04T13:32:04"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-03-04T13:32:04"
+        }
       },
-      
       "id": "32773239567",
       "license": {
         "id": "pdm",
@@ -1045,7 +1134,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1100,12 +1190,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32773239567/"
     },
     {
-      "date_posted": "2019-04-27T21:31:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:31:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-03-02T18:14:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-03-02T18:14:10"
+        }
       },
-      
       "id": "33839347748",
       "license": {
         "id": "pdm",
@@ -1118,7 +1213,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1173,12 +1269,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33839347748/"
     },
     {
-      "date_posted": "2019-04-16T23:40:23+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-16T23:40:23+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-21T08:48:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-21T08:48:44"
+        }
       },
-      
       "id": "47625552741",
       "license": {
         "id": "pdm",
@@ -1191,7 +1292,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1246,12 +1348,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47625552741/"
     },
     {
-      "date_posted": "2019-04-16T23:40:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-16T23:40:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-21T08:47:48"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-21T08:47:48"
+        }
       },
-      
       "id": "47625553891",
       "license": {
         "id": "pdm",
@@ -1264,7 +1371,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1319,12 +1427,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47625553891/"
     },
     {
-      "date_posted": "2019-04-16T23:40:22+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-16T23:40:22+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-21T08:47:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-21T08:47:28"
+        }
       },
-      
       "id": "33748283028",
       "license": {
         "id": "pdm",
@@ -1337,7 +1450,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1392,12 +1506,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33748283028/"
     },
     {
-      "date_posted": "2019-04-16T23:40:21+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-16T23:40:21+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-21T08:45:01"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-21T08:45:01"
+        }
       },
-      
       "id": "40659177473",
       "license": {
         "id": "pdm",
@@ -1410,7 +1529,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1465,12 +1585,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40659177473/"
     },
     {
-      "date_posted": "2019-04-16T23:40:20+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-16T23:40:20+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-21T08:44:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-21T08:44:12"
+        }
       },
-      
       "id": "46710043795",
       "license": {
         "id": "pdm",
@@ -1483,7 +1608,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1538,12 +1664,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/46710043795/"
     },
     {
-      "date_posted": "2019-04-16T23:40:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-16T23:40:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-21T08:43:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-21T08:43:25"
+        }
       },
-      
       "id": "46901244194",
       "license": {
         "id": "pdm",
@@ -1556,7 +1687,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1611,12 +1743,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/46901244194/"
     },
     {
-      "date_posted": "2019-04-27T21:27:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:27:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-17T09:13:31"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-17T09:13:31"
+        }
       },
-      
       "id": "46800219385",
       "license": {
         "id": "pdm",
@@ -1629,7 +1766,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1684,12 +1822,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/46800219385/"
     },
     {
-      "date_posted": "2019-04-27T21:33:42+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:33:42+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-17T09:04:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-17T09:04:25"
+        }
       },
-      
       "id": "47716570601",
       "license": {
         "id": "pdm",
@@ -1702,7 +1845,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1757,12 +1901,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47716570601/"
     },
     {
-      "date_posted": "2019-04-27T21:36:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:36:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-17T09:01:48"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-17T09:01:48"
+        }
       },
-      
       "id": "40750137553",
       "license": {
         "id": "pdm",
@@ -1775,7 +1924,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1830,12 +1980,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40750137553/"
     },
     {
-      "date_posted": "2019-04-27T21:22:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:22:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-17T08:47:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-17T08:47:07"
+        }
       },
-      
       "id": "47716505701",
       "license": {
         "id": "pdm",
@@ -1848,7 +2003,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1903,12 +2059,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47716505701/"
     },
     {
-      "date_posted": "2019-04-27T21:22:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:22:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-17T08:47:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-17T08:47:07"
+        }
       },
-      
       "id": "47663515852",
       "license": {
         "id": "pdm",
@@ -1921,7 +2082,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -1976,12 +2138,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47663515852/"
     },
     {
-      "date_posted": "2019-04-27T21:22:36+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:22:36+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-17T08:46:43"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-17T08:46:43"
+        }
       },
-      
       "id": "47716507401",
       "license": {
         "id": "pdm",
@@ -1994,7 +2161,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2049,12 +2217,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47716507401/"
     },
     {
-      "date_posted": "2019-04-27T21:24:59+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:24:59+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-10T08:40:44"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-10T08:40:44"
+        }
       },
-      
       "id": "47716525831",
       "license": {
         "id": "pdm",
@@ -2067,7 +2240,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2122,12 +2296,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47716525831/"
     },
     {
-      "date_posted": "2019-04-27T21:25:00+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:25:00+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-10T08:38:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-10T08:38:37"
+        }
       },
-      
       "id": "47663532772",
       "license": {
         "id": "pdm",
@@ -2140,7 +2319,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2195,12 +2375,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47663532772/"
     },
     {
-      "date_posted": "2019-04-27T21:25:01+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:25:01+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-10T08:38:36"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-10T08:38:36"
+        }
       },
-      
       "id": "33839300808",
       "license": {
         "id": "pdm",
@@ -2213,7 +2398,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2268,12 +2454,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33839300808/"
     },
     {
-      "date_posted": "2019-04-27T21:29:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:29:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2019-02-02T17:49:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2019-02-02T17:49:07"
+        }
       },
-      
       "id": "40750095253",
       "license": {
         "id": "pdm",
@@ -2286,7 +2477,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2341,12 +2533,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40750095253/"
     },
     {
-      "date_posted": "2019-04-27T21:31:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:31:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-12-16T12:53:53"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-12-16T12:53:53"
+        }
       },
-      
       "id": "33839346788",
       "license": {
         "id": "pdm",
@@ -2359,7 +2556,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2414,12 +2612,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33839346788/"
     },
     {
-      "date_posted": "2019-04-27T21:27:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:27:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-12-15T16:25:15"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-12-15T16:25:15"
+        }
       },
-      
       "id": "40750083433",
       "license": {
         "id": "pdm",
@@ -2432,7 +2635,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2487,12 +2691,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40750083433/"
     },
     {
-      "date_posted": "2019-04-27T21:27:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:27:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-12-15T15:16:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-12-15T15:16:34"
+        }
       },
-      
       "id": "40750085043",
       "license": {
         "id": "pdm",
@@ -2505,7 +2714,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2560,12 +2770,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/40750085043/"
     },
     {
-      "date_posted": "2019-04-27T21:27:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:27:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-12-15T14:28:02"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-12-15T14:28:02"
+        }
       },
-      
       "id": "46800220365",
       "license": {
         "id": "pdm",
@@ -2578,7 +2793,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2633,12 +2849,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/46800220365/"
     },
     {
-      "date_posted": "2019-04-27T21:31:38+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2019-04-27T21:31:38+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-11-19T15:41:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-11-19T15:41:45"
+        }
       },
-      
       "id": "47716554311",
       "license": {
         "id": "pdm",
@@ -2651,7 +2872,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2706,12 +2928,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/47716554311/"
     },
     {
-      "date_posted": "2018-10-25T23:19:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-10-25T23:19:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-09T19:16:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-09T19:16:28"
+        }
       },
-      
       "id": "45507949072",
       "license": {
         "id": "pdm",
@@ -2724,7 +2951,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2779,12 +3007,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/45507949072/"
     },
     {
-      "date_posted": "2018-10-25T23:19:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-10-25T23:19:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-09T19:15:23"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-09T19:15:23"
+        }
       },
-      
       "id": "44644124795",
       "license": {
         "id": "pdm",
@@ -2797,7 +3030,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2852,12 +3086,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/44644124795/"
     },
     {
-      "date_posted": "2018-10-25T23:19:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-10-25T23:19:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-09T19:15:04"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-09T19:15:04"
+        }
       },
-      
       "id": "44644127765",
       "license": {
         "id": "pdm",
@@ -2870,7 +3109,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2925,12 +3165,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/44644127765/"
     },
     {
-      "date_posted": "2018-10-25T23:19:27+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-10-25T23:19:27+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-09T18:47:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-09T18:47:06"
+        }
       },
-      
       "id": "31685686998",
       "license": {
         "id": "pdm",
@@ -2943,7 +3188,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -2998,12 +3244,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31685686998/"
     },
     {
-      "date_posted": "2018-10-25T23:19:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-10-25T23:19:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-09T18:47:03"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-09T18:47:03"
+        }
       },
-      
       "id": "44644132705",
       "license": {
         "id": "pdm",
@@ -3016,7 +3267,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3071,12 +3323,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/44644132705/"
     },
     {
-      "date_posted": "2018-10-25T23:19:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2018-10-25T23:19:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2018-05-09T18:47:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2018-05-09T18:47:00"
+        }
       },
-      
       "id": "43740732990",
       "license": {
         "id": "pdm",
@@ -3089,7 +3346,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3144,12 +3402,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/43740732990/"
     },
     {
-      "date_posted": "2017-10-31T17:43:44+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-10-31T17:43:44+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-10-30T17:28:31"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-10-30T17:28:31"
+        }
       },
-      
       "id": "26293146609",
       "license": {
         "id": "pdm",
@@ -3162,7 +3425,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3217,12 +3481,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/26293146609/"
     },
     {
-      "date_posted": "2017-08-19T22:45:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-08-19T22:45:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-05-04T15:15:21"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-05-04T15:15:21"
+        }
       },
-      
       "id": "36630962606",
       "license": {
         "id": "pdm",
@@ -3235,7 +3504,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3290,12 +3560,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/36630962606/"
     },
     {
-      "date_posted": "2017-08-28T20:14:47+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-08-28T20:14:47+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-04-27T18:22:53"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-04-27T18:22:53"
+        }
       },
-      
       "id": "36736481471",
       "license": {
         "id": "pdm",
@@ -3308,7 +3583,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3363,12 +3639,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/36736481471/"
     },
     {
-      "date_posted": "2017-08-28T20:14:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-08-28T20:14:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-04-27T18:22:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-04-27T18:22:50"
+        }
       },
-      
       "id": "36876280445",
       "license": {
         "id": "pdm",
@@ -3381,7 +3662,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3436,12 +3718,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/36876280445/"
     },
     {
-      "date_posted": "2017-08-28T20:14:46+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-08-28T20:14:46+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-04-27T18:21:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-04-27T18:21:12"
+        }
       },
-      
       "id": "36067782373",
       "license": {
         "id": "pdm",
@@ -3454,7 +3741,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3509,12 +3797,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/36067782373/"
     },
     {
-      "date_posted": "2017-04-10T21:07:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-04-10T21:07:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-23T18:09:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-23T18:09:14"
+        }
       },
-      
       "id": "33832000471",
       "license": {
         "id": "pdm",
@@ -3527,7 +3820,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3582,12 +3876,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33832000471/"
     },
     {
-      "date_posted": "2017-03-31T22:25:14+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:14+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:36:42"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:36:42"
+        }
       },
-      
       "id": "33378082190",
       "license": {
         "id": "pdm",
@@ -3600,7 +3899,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3655,12 +3955,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33378082190/"
     },
     {
-      "date_posted": "2017-03-31T22:25:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:35:53"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:35:53"
+        }
       },
-      
       "id": "33721734626",
       "license": {
         "id": "pdm",
@@ -3673,7 +3978,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3728,12 +4034,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33721734626/"
     },
     {
-      "date_posted": "2017-03-31T22:25:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:35:41"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:35:41"
+        }
       },
-      
       "id": "33378080680",
       "license": {
         "id": "pdm",
@@ -3746,7 +4057,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3801,12 +4113,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33378080680/"
     },
     {
-      "date_posted": "2017-03-31T22:25:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:35:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:35:35"
+        }
       },
-      
       "id": "33633601601",
       "license": {
         "id": "pdm",
@@ -3819,7 +4136,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3874,12 +4192,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33633601601/"
     },
     {
-      "date_posted": "2017-03-31T22:25:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:35:25"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:35:25"
+        }
       },
-      
       "id": "33633592731",
       "license": {
         "id": "pdm",
@@ -3892,7 +4215,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -3947,12 +4271,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33633592731/"
     },
     {
-      "date_posted": "2017-03-31T22:25:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:34:31"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:34:31"
+        }
       },
-      
       "id": "33378084920",
       "license": {
         "id": "pdm",
@@ -3965,7 +4294,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4020,12 +4350,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33378084920/"
     },
     {
-      "date_posted": "2017-03-31T22:25:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:29:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:29:58"
+        }
       },
-      
       "id": "32949751173",
       "license": {
         "id": "pdm",
@@ -4038,7 +4373,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4093,12 +4429,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32949751173/"
     },
     {
-      "date_posted": "2017-03-31T22:25:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:29:55"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:29:55"
+        }
       },
-      
       "id": "33633597131",
       "license": {
         "id": "pdm",
@@ -4111,7 +4452,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4166,12 +4508,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33633597131/"
     },
     {
-      "date_posted": "2017-03-31T22:25:10+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-31T22:25:10+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-22T09:10:51"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-22T09:10:51"
+        }
       },
-      
       "id": "32919511814",
       "license": {
         "id": "pdm",
@@ -4184,7 +4531,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4239,12 +4587,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32919511814/"
     },
     {
-      "date_posted": "2017-03-17T20:32:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-17T20:32:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-15T11:56:05"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-15T11:56:05"
+        }
       },
-      
       "id": "33368883441",
       "license": {
         "id": "pdm",
@@ -4257,7 +4610,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4312,12 +4666,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33368883441/"
     },
     {
-      "date_posted": "2017-03-17T20:32:48+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-17T20:32:48+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-15T11:52:10"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-15T11:52:10"
+        }
       },
-      
       "id": "33341120212",
       "license": {
         "id": "pdm",
@@ -4330,7 +4689,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4385,12 +4745,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33341120212/"
     },
     {
-      "date_posted": "2017-03-16T19:11:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T17:38:04"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T17:38:04"
+        }
       },
-      
       "id": "32664351143",
       "license": {
         "id": "pdm",
@@ -4403,7 +4768,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4458,12 +4824,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32664351143/"
     },
     {
-      "date_posted": "2017-03-16T19:11:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T17:37:48"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T17:37:48"
+        }
       },
-      
       "id": "33437625536",
       "license": {
         "id": "pdm",
@@ -4476,7 +4847,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4531,12 +4903,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33437625536/"
     },
     {
-      "date_posted": "2017-03-16T19:11:18+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:18+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T17:36:52"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T17:36:52"
+        }
       },
-      
       "id": "32635298424",
       "license": {
         "id": "pdm",
@@ -4549,7 +4926,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4604,12 +4982,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32635298424/"
     },
     {
-      "date_posted": "2017-03-16T19:11:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T17:36:38"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T17:36:38"
+        }
       },
-      
       "id": "33322509322",
       "license": {
         "id": "pdm",
@@ -4622,7 +5005,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4677,12 +5061,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33322509322/"
     },
     {
-      "date_posted": "2017-03-16T19:11:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T16:54:36"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T16:54:36"
+        }
       },
-      
       "id": "33350369341",
       "license": {
         "id": "pdm",
@@ -4695,7 +5084,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4750,12 +5140,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33350369341/"
     },
     {
-      "date_posted": "2017-03-16T19:11:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T16:49:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T16:49:49"
+        }
       },
-      
       "id": "33350378881",
       "license": {
         "id": "pdm",
@@ -4768,7 +5163,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4823,12 +5219,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33350378881/"
     },
     {
-      "date_posted": "2017-03-16T19:11:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T16:46:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T16:46:14"
+        }
       },
-      
       "id": "33322536122",
       "license": {
         "id": "pdm",
@@ -4841,7 +5242,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4896,12 +5298,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33322536122/"
     },
     {
-      "date_posted": "2017-03-16T19:11:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T16:42:17"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T16:42:17"
+        }
       },
-      
       "id": "33322611082",
       "license": {
         "id": "pdm",
@@ -4914,7 +5321,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -4969,12 +5377,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33322611082/"
     },
     {
-      "date_posted": "2017-03-16T19:11:19+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-03-16T19:11:19+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-03-08T16:42:06"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-03-08T16:42:06"
+        }
       },
-      
       "id": "33095017500",
       "license": {
         "id": "pdm",
@@ -4987,7 +5400,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5042,12 +5456,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/33095017500/"
     },
     {
-      "date_posted": "2017-02-18T22:04:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2017-02-18T22:04:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2017-02-03T15:29:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2017-02-03T15:29:00"
+        }
       },
-      
       "id": "32133748614",
       "license": {
         "id": "pdm",
@@ -5060,7 +5479,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5115,12 +5535,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/32133748614/"
     },
     {
-      "date_posted": "2016-12-07T21:01:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-06T15:01:27"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-06T15:01:27"
+        }
       },
-      
       "id": "31120579320",
       "license": {
         "id": "pdm",
@@ -5133,7 +5558,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5188,12 +5614,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31120579320/"
     },
     {
-      "date_posted": "2016-12-07T21:01:12+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:12+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-06T15:01:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-06T15:01:07"
+        }
       },
-      
       "id": "30650775364",
       "license": {
         "id": "pdm",
@@ -5206,7 +5637,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5261,12 +5693,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30650775364/"
     },
     {
-      "date_posted": "2016-12-07T21:01:11+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:11+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-06T13:08:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-06T13:08:35"
+        }
       },
-      
       "id": "31120589340",
       "license": {
         "id": "pdm",
@@ -5279,7 +5716,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5334,12 +5772,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31120589340/"
     },
     {
-      "date_posted": "2016-12-07T21:01:09+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:09+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-06T12:01:07"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-06T12:01:07"
+        }
       },
-      
       "id": "31454484296",
       "license": {
         "id": "pdm",
@@ -5352,7 +5795,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5407,12 +5851,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31454484296/"
     },
     {
-      "date_posted": "2016-12-07T21:01:17+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:17+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-06T09:57:28"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-06T09:57:28"
+        }
       },
-      
       "id": "31345341962",
       "license": {
         "id": "pdm",
@@ -5425,7 +5874,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5480,12 +5930,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31345341962/"
     },
     {
-      "date_posted": "2016-12-07T21:01:16+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:16+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-06T09:57:18"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-06T09:57:18"
+        }
       },
-      
       "id": "31345350132",
       "license": {
         "id": "pdm",
@@ -5498,7 +5953,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5553,12 +6009,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31345350132/"
     },
     {
-      "date_posted": "2016-12-07T21:01:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-04T13:40:15"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-04T13:40:15"
+        }
       },
-      
       "id": "31491785695",
       "license": {
         "id": "pdm",
@@ -5571,7 +6032,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5626,12 +6088,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31491785695/"
     },
     {
-      "date_posted": "2016-12-07T21:01:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-04T13:38:37"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-04T13:38:37"
+        }
       },
-      
       "id": "31345355352",
       "license": {
         "id": "pdm",
@@ -5644,7 +6111,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5699,12 +6167,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31345355352/"
     },
     {
-      "date_posted": "2016-12-07T21:01:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-04T13:34:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-04T13:34:45"
+        }
       },
-      
       "id": "30682851463",
       "license": {
         "id": "pdm",
@@ -5717,7 +6190,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5772,12 +6246,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30682851463/"
     },
     {
-      "date_posted": "2016-12-07T21:01:15+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:15+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-04T12:23:12"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-04T12:23:12"
+        }
       },
-      
       "id": "30650749574",
       "license": {
         "id": "pdm",
@@ -5790,7 +6269,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5845,12 +6325,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30650749574/"
     },
     {
-      "date_posted": "2016-12-07T21:01:13+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-07T21:01:13+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-12-04T11:26:40"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-12-04T11:26:40"
+        }
       },
-      
       "id": "30650766524",
       "license": {
         "id": "pdm",
@@ -5863,7 +6348,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5918,12 +6404,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30650766524/"
     },
     {
-      "date_posted": "2016-12-01T23:53:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-01T23:53:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-29T15:17:16"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-29T15:17:16"
+        }
       },
-      
       "id": "30993795700",
       "license": {
         "id": "pdm",
@@ -5936,7 +6427,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -5991,12 +6483,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30993795700/"
     },
     {
-      "date_posted": "2016-12-01T23:53:35+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-01T23:53:35+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-29T15:04:57"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-29T15:04:57"
+        }
       },
-      
       "id": "30541101814",
       "license": {
         "id": "pdm",
@@ -6009,7 +6506,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6064,12 +6562,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30541101814/"
     },
     {
-      "date_posted": "2016-12-01T23:53:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-01T23:53:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-29T15:04:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-29T15:04:56"
+        }
       },
-      
       "id": "31326686376",
       "license": {
         "id": "pdm",
@@ -6082,7 +6585,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6137,12 +6641,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31326686376/"
     },
     {
-      "date_posted": "2016-12-01T23:53:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-12-01T23:53:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-11-29T15:02:13"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-11-29T15:02:13"
+        }
       },
-      
       "id": "31247916371",
       "license": {
         "id": "pdm",
@@ -6155,7 +6664,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6210,12 +6720,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/31247916371/"
     },
     {
-      "date_posted": "2016-10-18T17:14:39+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-10-18T17:14:39+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-10-12T17:03:45"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-10-12T17:03:45"
+        }
       },
-      
       "id": "30374294396",
       "license": {
         "id": "pdm",
@@ -6228,7 +6743,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6283,12 +6799,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/30374294396/"
     },
     {
-      "date_posted": "2016-09-21T19:15:28+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-21T19:15:28+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-02-25T17:56:20"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-02-25T17:56:20"
+        }
       },
-      
       "id": "29756596001",
       "license": {
         "id": "pdm",
@@ -6301,7 +6822,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6356,12 +6878,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/29756596001/"
     },
     {
-      "date_posted": "2016-09-21T21:50:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-09-21T21:50:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-02-25T17:54:49"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-02-25T17:54:49"
+        }
       },
-      
       "id": "29758913021",
       "license": {
         "id": "pdm",
@@ -6374,7 +6901,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6429,12 +6957,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/29758913021/"
     },
     {
-      "date_posted": "2016-02-08T01:15:37+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2016-02-08T01:15:37+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2016-02-02T17:29:00"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2016-02-02T17:29:00"
+        }
       },
-      
       "id": "24884604535",
       "license": {
         "id": "pdm",
@@ -6447,7 +6980,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6502,12 +7036,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/24884604535/"
     },
     {
-      "date_posted": "2015-10-07T15:43:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:57:35"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:57:35"
+        }
       },
-      
       "id": "22031144541",
       "license": {
         "id": "pdm",
@@ -6520,7 +7059,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6575,12 +7115,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/22031144541/"
     },
     {
-      "date_posted": "2015-10-07T15:43:26+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:26+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:56:53"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:56:53"
+        }
       },
-      
       "id": "21833116010",
       "license": {
         "id": "pdm",
@@ -6593,7 +7138,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6648,12 +7194,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21833116010/"
     },
     {
-      "date_posted": "2015-10-07T15:43:25+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:25+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:55:39"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:55:39"
+        }
       },
-      
       "id": "22021289285",
       "license": {
         "id": "pdm",
@@ -6666,7 +7217,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6721,12 +7273,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/22021289285/"
     },
     {
-      "date_posted": "2015-10-07T15:43:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:55:14"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:55:14"
+        }
       },
-      
       "id": "21400039143",
       "license": {
         "id": "pdm",
@@ -6739,7 +7296,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6794,12 +7352,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21400039143/"
     },
     {
-      "date_posted": "2015-10-07T15:43:34+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:34+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:53:19"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:53:19"
+        }
       },
-      
       "id": "21398417714",
       "license": {
         "id": "pdm",
@@ -6812,7 +7375,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6867,12 +7431,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21398417714/"
     },
     {
-      "date_posted": "2015-10-07T15:43:33+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:33+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:51:34"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:51:34"
+        }
       },
-      
       "id": "21400065653",
       "license": {
         "id": "pdm",
@@ -6885,7 +7454,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -6940,12 +7510,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21400065653/"
     },
     {
-      "date_posted": "2015-10-07T15:43:33+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:33+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:51:04"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:51:04"
+        }
       },
-      
       "id": "22021220465",
       "license": {
         "id": "pdm",
@@ -6958,7 +7533,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7013,12 +7589,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/22021220465/"
     },
     {
-      "date_posted": "2015-10-07T15:43:32+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:32+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:50:56"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:50:56"
+        }
       },
-      
       "id": "21834317359",
       "license": {
         "id": "pdm",
@@ -7031,7 +7612,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7086,12 +7668,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21834317359/"
     },
     {
-      "date_posted": "2015-10-07T15:43:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:49:58"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:49:58"
+        }
       },
-      
       "id": "21834325379",
       "license": {
         "id": "pdm",
@@ -7104,7 +7691,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7159,12 +7747,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21834325379/"
     },
     {
-      "date_posted": "2015-10-07T15:43:31+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:31+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:48:50"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:48:50"
+        }
       },
-      
       "id": "21833401558",
       "license": {
         "id": "pdm",
@@ -7177,7 +7770,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
@@ -7232,12 +7826,17 @@
       "url": "https://www.flickr.com/photos/joshuatreenp/21833401558/"
     },
     {
-      "date_posted": "2015-10-07T15:43:30+00:00",
+      "date_posted": {
+        "type": "datetime.datetime",
+        "value": "2015-10-07T15:43:30+00:00"
+      },
       "date_taken": {
         "granularity": "second",
-        "value": "2015-10-06T17:48:19"
+        "value": {
+          "type": "datetime.datetime",
+          "value": "2015-10-06T17:48:19"
+        }
       },
-      
       "id": "21834337789",
       "license": {
         "id": "pdm",
@@ -7250,7 +7849,8 @@
         "profile_url": "https://www.flickr.com/people/joshuatreenp/",
         "realname": null,
         "username": "Joshua Tree National Park"
-      },      "sizes": [
+      },
+      "sizes": [
         {
           "height": 75,
           "label": "Square",
