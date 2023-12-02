@@ -5,6 +5,7 @@ from typing import Literal, TypedDict
 class License(TypedDict):
     id: str
     label: str
+    icons: list[str]
     url: str | None
 
 

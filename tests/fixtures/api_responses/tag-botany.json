@@ -15,6 +15,7 @@
       },
       "id": "21838886804",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -94,6 +95,7 @@
       },
       "id": "8044232301",
       "license": {
+        "icons": [],
         "id": "pdm",
         "label": "Public Domain Mark",
         "url": "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -173,6 +175,7 @@
       },
       "id": "53085621278",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -252,6 +255,7 @@
       },
       "id": "53084020901",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -324,6 +328,7 @@
       },
       "id": "53076217676",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -403,6 +408,7 @@
       },
       "id": "53076214816",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -482,6 +488,7 @@
       },
       "id": "53076050710",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -554,6 +561,7 @@
       },
       "id": "53072862002",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -626,6 +634,7 @@
       },
       "id": "53070634124",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -705,6 +714,7 @@
       },
       "id": "53068919716",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -777,6 +787,7 @@
       },
       "id": "53067131719",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -856,6 +867,11 @@
       },
       "id": "53062006861",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-sa-2.0",
         "label": "CC BY-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -935,6 +951,7 @@
       },
       "id": "53059100807",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1007,6 +1024,7 @@
       },
       "id": "53058153535",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1079,6 +1097,7 @@
       },
       "id": "53056098016",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1151,6 +1170,7 @@
       },
       "id": "53049332730",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1223,6 +1243,7 @@
       },
       "id": "53046094944",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1295,6 +1316,7 @@
       },
       "id": "53043979194",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1367,6 +1389,7 @@
       },
       "id": "53038575007",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1439,6 +1462,7 @@
       },
       "id": "53038212565",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1511,6 +1535,7 @@
       },
       "id": "53028025449",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1590,6 +1615,7 @@
       },
       "id": "53026271952",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1669,6 +1695,7 @@
       },
       "id": "53020649705",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1741,6 +1768,7 @@
       },
       "id": "53014111311",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1820,6 +1848,7 @@
       },
       "id": "53008022829",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1875,7 +1904,7 @@
           "width": 1024
         }
       ],
-      "title": "Hémérocalle  IMG_1060",
+      "title": "H\u00e9m\u00e9rocalle  IMG_1060",
       "url": "https://www.flickr.com/photos/144882911@N08/53008022829/"
     },
     {
@@ -1892,6 +1921,7 @@
       },
       "id": "53006757580",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1964,6 +1994,7 @@
       },
       "id": "52994960973",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2043,6 +2074,7 @@
       },
       "id": "52993721495",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2122,6 +2154,7 @@
       },
       "id": "52982829466",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2194,6 +2227,7 @@
       },
       "id": "52979403744",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2266,6 +2300,7 @@
       },
       "id": "52977625128",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2338,6 +2373,7 @@
       },
       "id": "52973056133",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2410,6 +2446,7 @@
       },
       "id": "52972568928",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2482,6 +2519,7 @@
       },
       "id": "52970599233",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2554,6 +2592,7 @@
       },
       "id": "52968071225",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2626,6 +2665,7 @@
       },
       "id": "52958356841",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2635,7 +2675,7 @@
         "photos_url": "https://www.flickr.com/photos/81035653@N00/",
         "profile_url": "https://www.flickr.com/people/81035653@N00/",
         "realname": "Ben The Man",
-        "username": "B℮n"
+        "username": "B\u212en"
       },
       "sizes": [
         {
@@ -2698,6 +2738,7 @@
       },
       "id": "52957753005",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2777,6 +2818,7 @@
       },
       "id": "52956487778",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2786,7 +2828,7 @@
         "photos_url": "https://www.flickr.com/photos/81035653@N00/",
         "profile_url": "https://www.flickr.com/people/81035653@N00/",
         "realname": "Ben The Man",
-        "username": "B℮n"
+        "username": "B\u212en"
       },
       "sizes": [
         {
@@ -2849,6 +2891,7 @@
       },
       "id": "52952908537",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2858,7 +2901,7 @@
         "photos_url": "https://www.flickr.com/photos/81035653@N00/",
         "profile_url": "https://www.flickr.com/people/81035653@N00/",
         "realname": "Ben The Man",
-        "username": "B℮n"
+        "username": "B\u212en"
       },
       "sizes": [
         {
@@ -2921,6 +2964,7 @@
       },
       "id": "52950805039",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2993,6 +3037,7 @@
       },
       "id": "52945257707",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3059,6 +3104,7 @@
       "date_taken": null,
       "id": "52943351150",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3131,6 +3177,7 @@
       },
       "id": "52941081054",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3203,6 +3250,7 @@
       },
       "id": "52937856112",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3275,6 +3323,7 @@
       },
       "id": "52936967889",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3284,7 +3333,7 @@
         "photos_url": "https://www.flickr.com/photos/197634383@N07/",
         "profile_url": "https://www.flickr.com/people/197634383@N07/",
         "realname": "Steve Rich",
-        "username": "SteveRich"
+        "username": "Steve\uf8ffRich"
       },
       "sizes": [
         {
@@ -3347,6 +3396,7 @@
       },
       "id": "52930376167",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3419,6 +3469,7 @@
       },
       "id": "52928607144",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3498,6 +3549,7 @@
       },
       "id": "52922473664",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3570,6 +3622,7 @@
       },
       "id": "52920555936",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3642,6 +3695,7 @@
       },
       "id": "52914365662",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3714,6 +3768,12 @@
       },
       "id": "52913143802",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg",
+          "nd.svg"
+        ],
         "id": "cc-by-nc-nd-2.0",
         "label": "CC BY-NC-ND 2.0",
         "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
@@ -3793,6 +3853,7 @@
       },
       "id": "52911135721",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3872,6 +3933,7 @@
       },
       "id": "52909348916",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3951,6 +4013,7 @@
       },
       "id": "52907799364",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4023,6 +4086,7 @@
       },
       "id": "52903613285",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4095,6 +4159,7 @@
       },
       "id": "52900644395",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4174,6 +4239,7 @@
       },
       "id": "52887790178",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4246,6 +4312,7 @@
       },
       "id": "52886507229",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4325,6 +4392,7 @@
       },
       "id": "52884764134",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4397,6 +4465,7 @@
       },
       "id": "52878540734",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4469,6 +4538,7 @@
       },
       "id": "52874317006",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4548,6 +4618,7 @@
       },
       "id": "52872503787",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4620,6 +4691,7 @@
       },
       "id": "52871291202",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4699,6 +4771,7 @@
       },
       "id": "52868538490",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4771,6 +4844,7 @@
       },
       "id": "52859494486",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4780,7 +4854,7 @@
         "photos_url": "https://www.flickr.com/photos/197634383@N07/",
         "profile_url": "https://www.flickr.com/people/197634383@N07/",
         "realname": "Steve Rich",
-        "username": "SteveRich"
+        "username": "Steve\uf8ffRich"
       },
       "sizes": [
         {
@@ -4843,6 +4917,7 @@
       },
       "id": "52856754235",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4915,6 +4990,7 @@
       },
       "id": "52855966466",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4987,6 +5063,7 @@
       },
       "id": "52851489816",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5059,6 +5136,7 @@
       },
       "id": "52848991989",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5131,6 +5209,7 @@
       },
       "id": "52846051487",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5203,6 +5282,7 @@
       },
       "id": "52842493888",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5275,6 +5355,7 @@
       },
       "id": "52839905282",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5347,6 +5428,7 @@
       },
       "id": "52837314721",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5426,6 +5508,7 @@
       },
       "id": "52834656014",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5505,6 +5588,7 @@
       },
       "id": "52833844712",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5514,7 +5598,7 @@
         "photos_url": "https://www.flickr.com/photos/129194286@N08/",
         "profile_url": "https://www.flickr.com/people/129194286@N08/",
         "realname": null,
-        "username": "Kev Walker ¦ Away in early September"
+        "username": "Kev Walker \u00a6 Away in early September"
       },
       "sizes": [
         {
@@ -5560,7 +5644,7 @@
           "width": 1024
         }
       ],
-      "title": "\"Say What You See.\" on Explore! ⭐ April 21, 2023",
+      "title": "\"Say What You See.\" on Explore! \u2b50 April 21, 2023",
       "url": "https://www.flickr.com/photos/129194286@N08/52833844712/"
     },
     {
@@ -5577,6 +5661,7 @@
       },
       "id": "52832336597",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5643,6 +5728,7 @@
       "date_taken": null,
       "id": "52828917567",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5715,6 +5801,7 @@
       },
       "id": "52828625873",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5787,6 +5874,7 @@
       },
       "id": "52828403178",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5859,6 +5947,7 @@
       },
       "id": "52826664066",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5868,7 +5957,7 @@
         "photos_url": "https://www.flickr.com/photos/149762673@N02/",
         "profile_url": "https://www.flickr.com/people/149762673@N02/",
         "realname": "Slavka K",
-        "username": "Slávka K"
+        "username": "Sl\u00e1vka K"
       },
       "sizes": [
         {
@@ -5931,6 +6020,7 @@
       },
       "id": "52825635471",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6003,6 +6093,7 @@
       },
       "id": "52826023830",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6075,6 +6166,7 @@
       },
       "id": "52820112615",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6154,6 +6246,7 @@
       },
       "id": "52819836204",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6226,6 +6319,7 @@
       },
       "id": "52815329086",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6298,6 +6392,7 @@
       },
       "id": "52814679015",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6377,6 +6472,7 @@
       },
       "id": "52813005044",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6449,6 +6545,7 @@
       },
       "id": "52812765975",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6528,6 +6625,7 @@
       },
       "id": "52810838934",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6607,6 +6705,7 @@
       },
       "id": "52810310744",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6679,6 +6778,7 @@
       },
       "id": "52807550497",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6751,6 +6851,7 @@
       },
       "id": "52802499873",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6830,6 +6931,7 @@
       },
       "id": "52800787145",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6902,6 +7004,7 @@
       },
       "id": "52796285414",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6974,6 +7077,7 @@
       },
       "id": "52795912328",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7046,6 +7150,7 @@
       },
       "id": "52793916184",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7118,6 +7223,7 @@
       },
       "id": "52793229910",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7197,6 +7303,7 @@
       },
       "id": "6041127387",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7259,7 +7366,7 @@
           "width": 682
         }
       ],
-      "title": "Cadia purpurea Splaendoncea Redouté Botanical Illustration",
+      "title": "Cadia purpurea Splaendoncea Redout\u00e9 Botanical Illustration",
       "url": "https://www.flickr.com/photos/10299477@N02/6041127387/"
     },
     {
@@ -7276,6 +7383,7 @@
       },
       "id": "458864327",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7348,6 +7456,7 @@
       },
       "id": "52831051257",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null

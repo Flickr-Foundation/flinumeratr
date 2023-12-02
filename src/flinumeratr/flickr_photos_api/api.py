@@ -120,11 +120,24 @@ class FlickrPhotosApi(BaseApi):
             "Public Domain Dedication (CC0)": "CC0 1.0",
         }
 
+        license_icons = {
+            "CC BY-NC-SA 2.0": ["cc.svg", "by.svg", "nc.svg", "sa.svg"],
+            "CC BY-NC 2.0": ["cc.svg", "by.svg", "nc.svg"],
+            "CC BY-NC-ND 2.0": ["cc.svg", "by.svg", "nc.svg", "nd.svg"],
+            "CC BY 2.0": ["cc.svg", "by.svg"],
+            "CC BY-SA 2.0": ["cc.svg", "by.svg", "sa.svg"],
+            "CC BY-ND 2.0": ["cc.svg", "by.svg", "nd.svg"],
+            "CC0 1.0": ["zero.svg"],
+        }
+
         for lic in license_resp.findall(".//license"):
+            label = license_labels.get(lic.attrib["name"], lic.attrib["name"])
+
             result[lic.attrib["id"]] = {
                 "id": license_ids[lic.attrib["name"]],
-                "label": license_labels.get(lic.attrib["name"], lic.attrib["name"]),
+                "label": label,
                 "url": lic.attrib["url"] or None,
+                "icons": license_icons.get(label, []),
             }
 
         return result

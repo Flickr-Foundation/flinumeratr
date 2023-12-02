@@ -19,6 +19,7 @@
       },
       "id": "52211834324",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -98,6 +99,7 @@
       },
       "id": "52194550344",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -170,6 +172,7 @@
       },
       "id": "52194031014",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -249,6 +252,7 @@
       },
       "id": "52193740576",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -321,6 +325,7 @@
       },
       "id": "52177315355",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -393,6 +398,7 @@
       },
       "id": "51984317844",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -472,6 +478,11 @@
       },
       "id": "51981824432",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-sa-2.0",
         "label": "CC BY-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -551,6 +562,7 @@
       },
       "id": "51815059727",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -559,8 +571,8 @@
         "id": "20127130@N02",
         "photos_url": "https://www.flickr.com/photos/thelmagatuzzo/",
         "profile_url": "https://www.flickr.com/people/thelmagatuzzo/",
-        "realname": "Thelma Gátuzzô",
-        "username": "Thelma Gátuzzô"
+        "realname": "Thelma G\u00e1tuzz\u00f4",
+        "username": "Thelma G\u00e1tuzz\u00f4"
       },
       "sizes": [
         {
@@ -623,6 +635,12 @@
       },
       "id": "51721494545",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg",
+          "nd.svg"
+        ],
         "id": "cc-by-nc-nd-2.0",
         "label": "CC BY-NC-ND 2.0",
         "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
@@ -702,6 +720,7 @@
       },
       "id": "51654251181",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -774,6 +793,7 @@
       },
       "id": "51376589362",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -853,6 +873,7 @@
       },
       "id": "51481366988",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -925,6 +946,7 @@
       },
       "id": "50498083683",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -997,6 +1019,7 @@
       },
       "id": "51483155336",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1069,6 +1092,7 @@
       },
       "id": "49743301242",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1141,6 +1165,7 @@
       },
       "id": "51303484597",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1213,6 +1238,7 @@
       },
       "id": "51254850149",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1285,6 +1311,7 @@
       },
       "id": "51307893097",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1294,7 +1321,7 @@
         "photos_url": "https://www.flickr.com/photos/bereal4ever/",
         "profile_url": "https://www.flickr.com/people/bereal4ever/",
         "realname": null,
-        "username": "♞Jenny♞"
+        "username": "\u265eJenny\u265e"
       },
       "sizes": [
         {
@@ -1357,6 +1384,7 @@
       },
       "id": "51307864547",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1429,6 +1457,7 @@
       },
       "id": "51307884412",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1502,6 +1531,11 @@
       "date_taken": null,
       "id": "51296251415",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg"
+        ],
         "id": "cc-by-nc-2.0",
         "label": "CC BY-NC 2.0",
         "url": "https://creativecommons.org/licenses/by-nc/2.0/"
@@ -1581,6 +1615,7 @@
       },
       "id": "51304664048",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1636,7 +1671,7 @@
           "width": 1024
         }
       ],
-      "title": "Écureuils Marseillais",
+      "title": "\u00c9cureuils Marseillais",
       "url": "https://www.flickr.com/photos/paolopittorino/51304664048/"
     },
     {
@@ -1653,6 +1688,7 @@
       },
       "id": "51296782286",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1725,6 +1761,7 @@
       },
       "id": "51304470943",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1797,6 +1834,7 @@
       },
       "id": "51303546737",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1869,6 +1907,7 @@
       },
       "id": "51304829140",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1941,6 +1980,7 @@
       },
       "id": "51301445057",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -1996,7 +2036,7 @@
           "width": 1024
         }
       ],
-      "title": "Rosa Löffler ........",
+      "title": "Rosa L\u00f6ffler ........",
       "url": "https://www.flickr.com/photos/141178496@N06/51301445057/"
     },
     {
@@ -2013,6 +2053,7 @@
       },
       "id": "51297355222",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2085,6 +2126,7 @@
       },
       "id": "51298827239",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2157,6 +2199,7 @@
       },
       "id": "51296586078",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2229,6 +2272,7 @@
       },
       "id": "51296723669",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2237,8 +2281,8 @@
         "id": "20127130@N02",
         "photos_url": "https://www.flickr.com/photos/thelmagatuzzo/",
         "profile_url": "https://www.flickr.com/people/thelmagatuzzo/",
-        "realname": "Thelma Gátuzzô",
-        "username": "Thelma Gátuzzô"
+        "realname": "Thelma G\u00e1tuzz\u00f4",
+        "username": "Thelma G\u00e1tuzz\u00f4"
       },
       "sizes": [
         {
@@ -2301,6 +2345,7 @@
       },
       "id": "51294962436",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2373,6 +2418,7 @@
       },
       "id": "51182035660",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2452,6 +2498,7 @@
       },
       "id": "51180122831",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2524,6 +2571,7 @@
       },
       "id": "51204767719",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2596,6 +2644,7 @@
       },
       "id": "51238406584",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2668,6 +2717,7 @@
       },
       "id": "51291432407",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2723,7 +2773,7 @@
           "width": 1024
         }
       ],
-      "title": "éléphant et bebe bw-8244",
+      "title": "\u00e9l\u00e9phant et bebe bw-8244",
       "url": "https://www.flickr.com/photos/158365943@N06/51291432407/"
     },
     {
@@ -2740,6 +2790,7 @@
       },
       "id": "51292532610",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2813,6 +2864,12 @@
       "date_taken": null,
       "id": "51292590480",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-nc-sa-2.0",
         "label": "CC BY-NC-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
@@ -2892,6 +2949,7 @@
       },
       "id": "51292325094",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -2971,6 +3029,7 @@
       },
       "id": "51289983536",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3043,6 +3102,7 @@
       },
       "id": "51243376189",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3122,6 +3182,7 @@
       },
       "id": "51291028505",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3194,6 +3255,7 @@
       },
       "id": "51289313842",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3260,6 +3322,7 @@
       "date_taken": null,
       "id": "51286007298",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3332,6 +3395,7 @@
       },
       "id": "11751131745",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3398,6 +3462,7 @@
       "date_taken": null,
       "id": "51275360345",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3470,6 +3535,7 @@
       },
       "id": "51272202973",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3542,6 +3608,7 @@
       },
       "id": "51273048905",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3550,7 +3617,7 @@
         "id": "165824254@N04",
         "photos_url": "https://www.flickr.com/photos/165824254@N04/",
         "profile_url": "https://www.flickr.com/people/165824254@N04/",
-        "realname": "Anna Słupianek",
+        "realname": "Anna S\u0142upianek",
         "username": "Solista*"
       },
       "sizes": [
@@ -3621,6 +3688,7 @@
       },
       "id": "51256664702",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3693,6 +3761,7 @@
       },
       "id": "51268207463",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3765,6 +3834,7 @@
       },
       "id": "51267565183",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3837,6 +3907,7 @@
       },
       "id": "51101429043",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3892,7 +3963,7 @@
           "width": 1024
         }
       ],
-      "title": "Gavião Caracara",
+      "title": "Gavi\u00e3o Caracara",
       "url": "https://www.flickr.com/photos/wellingtonmio/51101429043/"
     },
     {
@@ -3909,6 +3980,7 @@
       },
       "id": "51265941752",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -3981,6 +4053,7 @@
       },
       "id": "51179985245",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4053,6 +4126,7 @@
       },
       "id": "4171291280",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4132,6 +4206,7 @@
       },
       "id": "51177093607",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4211,6 +4286,7 @@
       },
       "id": "51265237357",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4290,6 +4366,7 @@
       },
       "id": "49540785602",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4362,6 +4439,11 @@
       },
       "id": "51254361272",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg"
+        ],
         "id": "cc-by-nc-2.0",
         "label": "CC BY-NC 2.0",
         "url": "https://creativecommons.org/licenses/by-nc/2.0/"
@@ -4441,6 +4523,7 @@
       },
       "id": "51255100121",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4513,6 +4596,7 @@
       },
       "id": "51256040745",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4522,7 +4606,7 @@
         "photos_url": "https://www.flickr.com/photos/94062339@N06/",
         "profile_url": "https://www.flickr.com/people/94062339@N06/",
         "realname": "Alves Cunha",
-        "username": "botanopé"
+        "username": "botanop\u00e9"
       },
       "sizes": [
         {
@@ -4592,6 +4676,7 @@
       },
       "id": "51255216693",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4664,6 +4749,7 @@
       },
       "id": "51241737672",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4743,6 +4829,7 @@
       },
       "id": "51042787953",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4815,6 +4902,7 @@
       },
       "id": "51245345969",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -4887,6 +4975,10 @@
       },
       "id": "51253937884",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg"
+        ],
         "id": "cc-by-2.0",
         "label": "CC BY 2.0",
         "url": "https://creativecommons.org/licenses/by/2.0/"
@@ -4949,7 +5041,7 @@
           "width": 4173
         }
       ],
-      "title": "Carraceiro, em fase de reprodução Cattle Egret, on bridal  plumage",
+      "title": "Carraceiro, em fase de reprodu\u00e7\u00e3o Cattle Egret, on bridal  plumage",
       "url": "https://www.flickr.com/photos/181980422@N05/51253937884/"
     },
     {
@@ -4966,6 +5058,12 @@
       },
       "id": "51233267279",
       "license": {
+        "icons": [
+          "cc.svg",
+          "by.svg",
+          "nc.svg",
+          "sa.svg"
+        ],
         "id": "cc-by-nc-sa-2.0",
         "label": "CC BY-NC-SA 2.0",
         "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
@@ -5045,6 +5143,7 @@
       },
       "id": "51239937672",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5117,6 +5216,7 @@
       },
       "id": "48689363643",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5196,6 +5296,7 @@
       },
       "id": "49973036266",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5275,6 +5376,7 @@
       },
       "id": "51240137211",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5347,6 +5449,7 @@
       },
       "id": "50947062696",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5419,6 +5522,7 @@
       },
       "id": "51240134469",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5491,6 +5595,7 @@
       },
       "id": "50289371253",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5570,6 +5675,7 @@
       },
       "id": "51207007389",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5649,6 +5755,7 @@
       },
       "id": "51134334802",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5721,6 +5828,7 @@
       },
       "id": "51239527264",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5800,6 +5908,7 @@
       },
       "id": "51239549819",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5872,6 +5981,7 @@
       },
       "id": "51239092155",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -5944,6 +6054,7 @@
       },
       "id": "51237942311",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6016,6 +6127,7 @@
       },
       "id": "51234701512",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6088,6 +6200,7 @@
       },
       "id": "51236291748",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6160,6 +6273,7 @@
       },
       "id": "51236783219",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6239,6 +6353,7 @@
       },
       "id": "51203223481",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6311,6 +6426,7 @@
       },
       "id": "51211109635",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6383,6 +6499,7 @@
       },
       "id": "14749063396",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6455,6 +6572,7 @@
       },
       "id": "51228554654",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6534,6 +6652,7 @@
       },
       "id": "50006226281",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6543,7 +6662,7 @@
         "photos_url": "https://www.flickr.com/photos/anne-minerve/",
         "profile_url": "https://www.flickr.com/people/anne-minerve/",
         "realname": null,
-        "username": "Anne*°"
+        "username": "Anne*\u00b0"
       },
       "sizes": [
         {
@@ -6606,6 +6725,7 @@
       },
       "id": "51235731260",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6672,6 +6792,7 @@
       "date_taken": null,
       "id": "51235391474",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6751,6 +6872,7 @@
       },
       "id": "51232691317",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6823,6 +6945,7 @@
       },
       "id": "51128456148",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6895,6 +7018,7 @@
       },
       "id": "48534979896",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -6967,6 +7091,7 @@
       },
       "id": "49072245181",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7039,6 +7164,7 @@
       },
       "id": "49083469013",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7111,6 +7237,7 @@
       },
       "id": "51234392216",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7183,6 +7310,7 @@
       },
       "id": "51233692068",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
@@ -7255,6 +7383,7 @@
       },
       "id": "51234548695",
       "license": {
+        "icons": [],
         "id": "in-copyright",
         "label": "All Rights Reserved",
         "url": null
