@@ -47,14 +47,10 @@ exclude_also = [
   "if request.cls is not None",
 ]
 
-# TODO: Re-enable this option.
-#
-# It's currently disabled because of some deprecation warnings from
-# Python 3.12; see https://github.com/Flickr-Foundation/flinumeratr/actions/runs/6760699548/job/18374761986?pr=59
-# [tool.pytest.ini_options]
-# filterwarnings = [
-#   "error",
-# ]
+[tool.pytest.ini_options]
+filterwarnings = [
+  "error",
+]
 
 [tool.mypy]
 mypy_path = "src"
