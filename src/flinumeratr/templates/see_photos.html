@@ -144,7 +144,7 @@
         {% if not p.date_taken.unknown %}
         taken {{ p.date_taken | render_date_taken }}<br/>
         {% endif %}
-        uploaded on {{ p.date_posted.strftime("%B %-d, %Y") }}
+        uploaded on {{ p.date_posted.strftime("%B %d, %Y") }}
       </p>
 			<div class="license">
         {% include "_license.html" %}
@@ -156,6 +156,11 @@
 
 <p>
   <a href="{{ url_for('index') }}">Home</a>
+</p>
+
+<p>
+    <a href="{{ url_for('see_photos_iiif', path=flickr_path, _external=True) }}">IIIF</a> |
+    <a href="https://uv-v4.netlify.app/#?manifest={{ url_for('see_photos_iiif', path=flickr_path, _external=True) }}">UV</a>
 </p>
 
 {% endblock %}
