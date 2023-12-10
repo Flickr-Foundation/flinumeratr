@@ -4,6 +4,7 @@ import sys
 import requests  # api is using httpx though
 
 from flask import Flask, flash, redirect, render_template, request, url_for, Response, jsonify
+from flask_cors import CORS
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -17,10 +18,13 @@ from ._types import ViewResponse
 
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/iiif/*": {"origins": "*"}})
 
 app.config["SECRET_KEY"] = secrets.token_hex()
 
 app.add_template_filter(render_date_taken)
+
+WWW_FLICKR_COM = "https://www.flickr.com/"
 
 try:
     api_key = os.environ["FLICKR_API_KEY"]
@@ -89,6 +93,16 @@ def see_photos() -> ViewResponse:
     except KeyError:
         return redirect(url_for("index"))
 
+    return see_photos_from_flickr_url(flickr_url, view_type="html")
+
+
+@app.route("/iiif/see_photos/<path:path>")
+def see_photos_iiif(path) -> ViewResponse:
+    flickr_url = f"{WWW_FLICKR_COM}{path}"
+    return see_photos_from_flickr_url(flickr_url, view_type="iiif")
+
+
+def see_photos_from_flickr_url(flickr_url, view_type="html") -> ViewResponse:
     try:
         parsed_url = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
@@ -122,23 +136,25 @@ def see_photos() -> ViewResponse:
         flash(f"Boom! Something went wrong: {e}")
         return render_template("error.html", flickr_url=flickr_url, error=e)
     else:
-        if request.args.get("iiif", None) is None:
+        if view_type == "html":
             return render_template(
                 "see_photos.html",
                 flickr_url=flickr_url,
+                flickr_path=flickr_url[len(WWW_FLICKR_COM):],
                 parsed_url=parsed_url,
                 photo_data=photo_data,
                 label=category_label,
             )
-        elif request.args.get("raw", None) is not None:
-            return photo_data
-        else:
+        elif view_type == "iiif":
             canvases = make_canvases(photo_data)
-            manifest_id = f'{url_for("see_photos", _external=True)}?flickr_url={flickr_url}&iiif=true'
+            flickr_path = flickr_url[len(WWW_FLICKR_COM):]
+            manifest_id = f'{url_for("see_photos_iiif", path=flickr_path, _external=True)}'
             manifest = make_manifest(
                 manifest_id, canvases,
                 photo_data=photo_data, label=category_label, flickr_url=flickr_url, parsed_url=parsed_url)
             return jsonify(manifest)
+        else:
+            return photo_data
 
 
 """
@@ -242,18 +258,31 @@ IIIF Presentation API
 def make_manifest(manifest_id, canvases, photo_data, label, flickr_url, parsed_url):
     description = "Unknown url type"
     total_photos = photo_data.get("total_photos", 0)
+    # This could be cleverer and use the jinja template, this text is reproduced
     if parsed_url["type"] == "user":
-        user = photo_data.photos[0].owner
-        description = f'<p>This IIIF Manifest shows the photos taken by <a href="{user.profile_url}">{user.realname or user.username}</a>, who has posted {total_photos} photos</p>'
+        user = photo_data["photos"][0]["owner"]
+        description = (f'<p>This IIIF Manifest shows the photos taken by '
+                       f'<a href="{user["profile_url"]}">'
+                       f'{user.get("realname", None) or user.get("username", "???")}</a>, '
+                       f'who has posted {total_photos} photos</p>')
     elif parsed_url["type"] == "album":
-        username = photo_data["album"]["owner"].get("realname", None) or photo_data["album"]["owner"].get("username", "???")
-        description = f'<p>This IIIF Manifest shows the photos in the <a href="{flickr_url}">{photo_data["album"]["title"]}</a> album, which was created by <a href="{url_for('see_photos', flickr_url=photo_data["album"]["owner"]["profile_url"])}">{username}</a>.It contains {total_photos} photos</p>'
+        username = (photo_data["album"]["owner"].get("realname", None)
+                    or photo_data["album"]["owner"].get("username", "???"))
+        description = (f'<p>This IIIF Manifest shows the photos in the <a href="{flickr_url}">'
+                       f'{photo_data["album"]["title"]}</a> album, which was created by <a href="'
+                       f'{url_for('see_photos', flickr_url=photo_data["album"]["owner"]["profile_url"])}">'
+                       f'{username}</a>.It contains {total_photos} photos</p>')
     elif parsed_url["type"] == "group":
-        description = f'<p>This IIIF Manifest shows the photos in the <a href="{flickr_url}">{photo_data["group"]["name"]}</a> group pool, which contains {total_photos}&nbsp;photos.</p>'
+        description = (f'<p>This IIIF Manifest shows the photos in the '
+                       f'<a href="{flickr_url}">{photo_data["group"]["name"]}</a> group pool, '
+                       f'which contains {total_photos}&nbsp;photos.</p>')
     elif parsed_url["type"] == "gallery":
-        description = f'<p>This IIIF Manifest shows the photos in the <a href="{flickr_url}">{photo_data["gallery"]["title"]}</a> gallery, which contains {total_photos}&nbsp;photos.</p>'
+        description = (f'<p>This IIIF Manifest shows the photos in the '
+                       f'<a href="{flickr_url}">{photo_data["gallery"]["title"]}</a> gallery, '
+                       f'which contains {total_photos}&nbsp;photos.</p>')
     elif parsed_url["type"] == "tag":
-        description = f'<p>This IIIF Manifest shows photos tagged with <a href="{flickr_url}">{ parsed_url["tag"] }</a>.</p>'
+        description = (f'<p>This IIIF Manifest shows photos tagged with <'
+                       f'a href="{flickr_url}">{parsed_url["tag"]}</a>.</p>')
     elif parsed_url["type"] == "single_photo":
         description = f'<p>This IIIF Manifest is <a href="{flickr_url}">a single photo</a> on Flickr.</p>'
     return {
@@ -339,18 +368,20 @@ def get_sizes_from_photo(photo):
     # This is mostly unnecessary - the flinumerator API does this for me
     # TODO - tidy this up
     for entry in photo["sizes"]:
-        suffix = entry["source"].split("_")[1]
+        suffix = entry["source"].split("_")[-1]
+        if suffix.endswith(".jpg"):
+            suffix = suffix[:-4]
         size = {
             "width": entry["width"],
             "height": entry["height"],
             "url": entry["source"],
             "suffix": suffix
         }
-        if suffix == "sq":
+        if suffix == "q" or suffix == "sq":
             # don't include the square one in the list
             size_info["square"] = size
         else:
-            size_info["all"]["suffix"] = size
+            size_info["all"][suffix] = size
             # but do include the thumbnail
             if suffix == "t":
                 size_info["thumb"] = size

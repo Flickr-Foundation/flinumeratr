@@ -159,7 +159,8 @@
 </p>
 
 <p>
-    <a href="{{ url_for('see_photos', flickr_url=flickr_url, iiif=True) }}">iiif</a>
+    <a href="{{ url_for('see_photos_iiif', path=flickr_path, _external=True) }}">IIIF</a> |
+    <a href="https://uv-v4.netlify.app/#?manifest={{ url_for('see_photos_iiif', path=flickr_path, _external=True) }}">UV</a>
 </p>
 
 {% endblock %}
