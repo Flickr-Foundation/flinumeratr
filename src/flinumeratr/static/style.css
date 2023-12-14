@@ -5,6 +5,13 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: rgb(39, 37, 33);
+
+  /* This causes the footer to be pushed to the bottom of the viewport,
+    * regardless of the size of the content.
+    * See https://stackoverflow.com/q/643879/1558022 */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 input {
@@ -13,11 +20,13 @@ input {
 
 main, footer {
   line-height: 1.6;
-  margin-top:    1em;
+  margin-top: 1em;
 }
 
 main {
   margin-bottom: 1em;
+  width: 100vw;
+  flex: 1;
 }
 
 main, #header a, #footer_inner {
