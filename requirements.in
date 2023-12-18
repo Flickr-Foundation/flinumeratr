@@ -2,5 +2,3 @@ flask
 flickr-photos-api>=1.4.0
 gunicorn
 humanize
-hyperlink
-keyring
