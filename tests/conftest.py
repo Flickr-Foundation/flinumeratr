@@ -2,11 +2,10 @@ from collections.abc import Generator
 import os
 
 from flask.testing import FlaskClient
+from flickr_photos_api import FlickrPhotosApi
 import pytest
 from pytest import FixtureRequest
 import vcr
-
-from flinumeratr.flickr_photos_api import FlickrPhotosApi
 
 
 @pytest.fixture
@@ -30,22 +29,6 @@ def cassette_name(request: FixtureRequest) -> str:
         return f"{request.cls.__name__}.{request.node.name}.yml"
     else:
         return f"{request.node.name}.yml"
-
-
-@pytest.fixture(scope="function")
-def vcr_cassette(cassette_name: str) -> Generator[None, None, None]:
-    """
-    Creates a VCR cassette for use in tests.
-
-    Anything using httpx in this test will record its HTTP interactions
-    as "cassettes" using vcr.py, which can be replayed offline
-    (e.g. in CI tests).
-    """
-    with vcr.use_cassette(
-        cassette_name,
-        cassette_library_dir="tests/fixtures/cassettes",
-    ):
-        yield
 
 
 @pytest.fixture(scope="function")

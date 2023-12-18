@@ -141,7 +141,7 @@
         </h5>
       {% endif %}
       <p>
-        {% if not p.date_taken.unknown %}
+        {% if p.date_taken.unknown %}
         taken {{ p.date_taken | render_date_taken }}<br/>
         {% endif %}
         uploaded on {{ p.date_posted.strftime("%B %-d, %Y") }}

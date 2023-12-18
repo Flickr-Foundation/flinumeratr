@@ -1,6 +1,4 @@
 flask
-flickr-url-parser>=1.5.0
+flickr-photos-api>=1.4.0
 gunicorn
 humanize
-hyperlink
-keyring
