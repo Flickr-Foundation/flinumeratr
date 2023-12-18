@@ -37,8 +37,12 @@ flake8==6.1.0
     # via -r dev_requirements.in
 flask==3.0.0
     # via -r requirements.txt
-flickr-url-parser==1.5.0
+flickr-photos-api==1.4.0
     # via -r requirements.txt
+flickr-url-parser==1.5.0
+    # via
+    #   -r requirements.txt
+    #   flickr-photos-api
 gunicorn==21.2.0
     # via -r requirements.txt
 h11==0.14.0
@@ -52,6 +56,7 @@ httpcore==1.0.2
 httpx==0.25.2
     # via
     #   -r requirements.txt
+    #   flickr-photos-api
     #   flickr-url-parser
 humanize==4.9.0
     # via -r requirements.txt

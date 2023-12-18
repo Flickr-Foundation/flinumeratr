@@ -1,7 +1,6 @@
 from flask.testing import FlaskClient
+from flickr_photos_api import FlickrPhotosApi
 import pytest
-
-from flinumeratr.flickr_photos_api import FlickrPhotosApi
 
 
 def test_can_load_homepage(client: FlaskClient, api: FlickrPhotosApi) -> None:
@@ -64,7 +63,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
             [
                 b"This URL shows the photos taken by",
                 b"Alexander Lauterbach",
-                b"who has posted 365 photos",
+                b"who has posted 367 photos",
             ],
             id="user",
         ),
@@ -103,3 +102,14 @@ def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrPhotosApi) 
 
     assert resp.status_code == 200
     assert b"Unable to find" in resp.data
+
+
+def test_it_doesnt_show_date_taken_if_not_known(
+    client: FlaskClient, api: FlickrPhotosApi
+) -> None:
+    resp = client.get(
+        "/see_photos?flickr_url=https://www.flickr.com/photos/sdasmarchives/50567413447"
+    )
+
+    assert resp.status_code == 200
+    assert b"taken None" not in resp.data

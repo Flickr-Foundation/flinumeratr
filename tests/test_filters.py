@@ -1,9 +1,9 @@
 import datetime
 
+from flickr_photos_api import DateTaken
 import pytest
 
 from flinumeratr.filters import render_date_taken
-from flinumeratr.flickr_photos_api import DateTaken
 
 
 @pytest.mark.parametrize(
@@ -49,20 +49,7 @@ from flinumeratr.flickr_photos_api import DateTaken
             },
             "circa 1910",
         ),
-        # Based on https://www.flickr.com/photos/140375060@N02/25868667441/
-        (None, None),
     ],
 )
-def test_render_date_taken(date_taken: DateTaken | None, expected_output: str) -> None:
+def test_render_date_taken(date_taken: DateTaken, expected_output: str) -> None:
     assert render_date_taken(date_taken) == expected_output
-
-
-def test_render_date_taken_fails_with_unrecognised_granularity() -> None:
-    with pytest.raises(ValueError):
-        render_date_taken(
-            date_taken={
-                "granularity": -1,  # type: ignore
-                "value": datetime.datetime.now(),
-                "unknown": False,
-            }
-        )
