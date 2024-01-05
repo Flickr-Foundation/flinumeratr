@@ -52,12 +52,12 @@ def image_at(sizes: list[PhotoSize], desired_size: str) -> str:
     #       of their photo beyond a certain size.  But CC-licensed photos
     #       are always available to download, so that's not an issue for us.
     #   2.  This photo is smaller than the size we've asked for, in which
-    #       case we fall back to Original as the largest possible size.
+    #       case we fall back to the largest possible size.
     #
     try:
         return sizes_by_label[desired_size]["source"]
     except KeyError:  # pragma: no cover
-        return sizes_by_label["Original"]["source"]
+        return max(sizes, key=lambda s: s["width"])["source"]
 
 
 @app.template_filter()
