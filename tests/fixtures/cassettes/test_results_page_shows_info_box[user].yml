@@ -8,12 +8,14 @@ interactions:
       - gzip, deflate
       connection:
       - keep-alive
+      cookie:
+      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
       host:
       - api.flickr.com
       user-agent:
       - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
     method: GET
-    uri: https://api.flickr.com/services/rest/?method=flickr.urls.lookupUser&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fblueminds
+    uri: https://api.flickr.com/services/rest/?method=flickr.urls.lookupUser&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fblueminds%2F
   response:
     content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<user
       id=\"47265398@N04\">\n\t<username>Alexander Lauterbach Photography</username>\n</user>\n</rsp>\n"
@@ -25,11 +27,11 @@ interactions:
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Mon, 18 Dec 2023 16:13:08 GMT
+      - Fri, 05 Jan 2024 10:18:41 GMT
       Via:
-      - 1.1 081e5088637a101207bef39b8d7f3d4c.cloudfront.net (CloudFront)
+      - 1.1 d4a1f30a438c41cdd21510ef3201c44e.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - hiJQTC-EVAWKKLBf2H30L7uT5q5xotNW5fVZwiJXGjFu5AF8w61Uqg==
+      - _jwHQm8qyPX74NqA7STKnr3kIt6N6C8loe5Y3DitahrHrhx_ACfeMg==
       X-Amz-Cf-Pop:
       - LHR5-P1
       X-Cache:
@@ -39,10 +41,8 @@ interactions:
       server:
       - Apache/2.4.58 (Ubuntu)
       set-cookie:
-      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A0%7D%7D%7D;
-        expires=Wed, 17-Jan-2024 16:13:06 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Wed, 17-Jan-2024 16:13:06 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 04-Feb-2024 10:18:41 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:
@@ -103,16 +103,16 @@ interactions:
     headers:
       Connection:
       - keep-alive
+      Content-Length:
+      - '1271'
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Mon, 18 Dec 2023 16:13:08 GMT
-      Transfer-Encoding:
-      - chunked
+      - Fri, 05 Jan 2024 10:18:41 GMT
       Via:
-      - 1.1 081e5088637a101207bef39b8d7f3d4c.cloudfront.net (CloudFront)
+      - 1.1 d4a1f30a438c41cdd21510ef3201c44e.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - bmYdGbQB8S4nqYGuFnWmMO2X0JmlJrpuumDFciyu7bbraC_oCJLmhA==
+      - 2zwMrtO6wnEZv_7N1quLXWGH7ty63TLrVulY6odc88QIWGArRwkT9A==
       X-Amz-Cf-Pop:
       - LHR5-P1
       X-Cache:
@@ -120,16 +120,16 @@ interactions:
       content-encoding:
       - gzip
       server:
-      - openresty
+      - Apache/2.4.58 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Wed, 17-Jan-2024 16:13:08 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 04-Feb-2024 10:18:41 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
       x-robots-tag:
       - noindex
-      x-server:
-      - serverless-proxy-10.78.5.43
     http_version: HTTP/1.1
     status_code: 200
 - request:
@@ -2727,11 +2727,11 @@ interactions:
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Mon, 18 Dec 2023 16:13:09 GMT
+      - Fri, 05 Jan 2024 10:18:42 GMT
       Via:
-      - 1.1 081e5088637a101207bef39b8d7f3d4c.cloudfront.net (CloudFront)
+      - 1.1 d4a1f30a438c41cdd21510ef3201c44e.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - hqxLt8wwLYBnSxmnmvoHGYNJaSk9916FtaeaHgIRBgrRRJCIDSNO3w==
+      - leED3gd9BDhzp6PBC5PjnavtGoA1TNgdGcOb5HyT0_KAYtV8k28OrA==
       X-Amz-Cf-Pop:
       - LHR5-P1
       X-Cache:
@@ -2742,72 +2742,7 @@ interactions:
       - Apache/2.4.58 (Ubuntu)
       set-cookie:
       - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Wed, 17-Jan-2024 16:13:09 GMT; Max-Age=2592000; path=/; domain=.flickr.com
-      vary:
-      - Accept-Encoding
-      x-frame-options:
-      - SAMEORIGIN
-      x-robots-tag:
-      - noindex
-    http_version: HTTP/1.1
-    status_code: 200
-- request:
-    body: ''
-    headers:
-      accept:
-      - '*/*'
-      accept-encoding:
-      - gzip, deflate
-      connection:
-      - keep-alive
-      cookie:
-      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
-      host:
-      - api.flickr.com
-      user-agent:
-      - Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
-    method: GET
-    uri: https://api.flickr.com/services/rest/?method=flickr.photos.licenses.getInfo
-  response:
-    content: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<licenses>\n\t<license
-      id=\"0\" name=\"All Rights Reserved\" url=\"\" />\n\t<license id=\"4\" name=\"Attribution
-      License\" url=\"https://creativecommons.org/licenses/by/2.0/\" />\n\t<license
-      id=\"6\" name=\"Attribution-NoDerivs License\" url=\"https://creativecommons.org/licenses/by-nd/2.0/\"
-      />\n\t<license id=\"3\" name=\"Attribution-NonCommercial-NoDerivs License\"
-      url=\"https://creativecommons.org/licenses/by-nc-nd/2.0/\" />\n\t<license id=\"2\"
-      name=\"Attribution-NonCommercial License\" url=\"https://creativecommons.org/licenses/by-nc/2.0/\"
-      />\n\t<license id=\"1\" name=\"Attribution-NonCommercial-ShareAlike License\"
-      url=\"https://creativecommons.org/licenses/by-nc-sa/2.0/\" />\n\t<license id=\"5\"
-      name=\"Attribution-ShareAlike License\" url=\"https://creativecommons.org/licenses/by-sa/2.0/\"
-      />\n\t<license id=\"7\" name=\"No known copyright restrictions\" url=\"https://www.flickr.com/commons/usage/\"
-      />\n\t<license id=\"8\" name=\"United States Government Work\" url=\"http://www.usa.gov/copyright.shtml\"
-      />\n\t<license id=\"9\" name=\"Public Domain Dedication (CC0)\" url=\"https://creativecommons.org/publicdomain/zero/1.0/\"
-      />\n\t<license id=\"10\" name=\"Public Domain Mark\" url=\"https://creativecommons.org/publicdomain/mark/1.0/\"
-      />\n</licenses>\n</rsp>\n"
-    headers:
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '395'
-      Content-Type:
-      - text/xml; charset=utf-8
-      Date:
-      - Mon, 18 Dec 2023 16:13:09 GMT
-      Via:
-      - 1.1 081e5088637a101207bef39b8d7f3d4c.cloudfront.net (CloudFront)
-      X-Amz-Cf-Id:
-      - pJKKrxD2IvhxNN8C7h1J53Ea2uvnO8LzcOlM-Taz_H91jLTI3MnkXg==
-      X-Amz-Cf-Pop:
-      - LHR5-P1
-      X-Cache:
-      - Miss from cloudfront
-      content-encoding:
-      - gzip
-      server:
-      - Apache/2.4.58 (Ubuntu)
-      set-cookie:
-      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Wed, 17-Jan-2024 16:13:09 GMT; Max-Age=2592000; path=/; domain=.flickr.com
+        expires=Sun, 04-Feb-2024 10:18:41 GMT; Max-Age=2592000; path=/; domain=.flickr.com
       vary:
       - Accept-Encoding
       x-frame-options:
