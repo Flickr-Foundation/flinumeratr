@@ -88,6 +88,11 @@ def see_photos() -> ViewResponse:
     except KeyError:
         return redirect(url_for("index"))
 
+    # If the user enters an empty string, just redirect them back to
+    # the homepage.
+    if not flickr_url:
+        return redirect(url_for("index"))
+
     try:
         parsed_url = parse_flickr_url(flickr_url)
     except UnrecognisedUrl:
