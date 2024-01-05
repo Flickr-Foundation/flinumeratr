@@ -113,3 +113,10 @@ def test_it_doesnt_show_date_taken_if_not_known(
 
     assert resp.status_code == 200
     assert b"taken None" not in resp.data
+
+
+def test_empty_url_redirects_to_homepage(client: FlaskClient) -> None:
+    resp = client.get("/see_photos?flickr_url=")
+
+    assert resp.status_code == 302
+    assert resp.headers["location"] == "/"
