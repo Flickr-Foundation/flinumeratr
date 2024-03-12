@@ -1,6 +1,8 @@
 # CHANGELOG
 
-## v1.2.0
+## v1.2.0 - 2024-03-12
+
+*   Remove the custom CLI; just invoke the dev server using the Flask CLI.
 
 ## v1.1.0 - 2023-10-13
 
