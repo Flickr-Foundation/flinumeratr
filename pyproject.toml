@@ -19,9 +19,6 @@ dynamic = ["dependencies", "version"]
 "Homepage" = "https://github.com/Flickr-Foundation/flinumeratr"
 "Changelog" = "https://github.com/Flickr-Foundation/flinumeratr/blob/main/CHANGELOG.md"
 
-[project.scripts]
-flinumeratr = "flinumeratr.cli:main"
-
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 version = {attr = "flinumeratr.__version__"}
