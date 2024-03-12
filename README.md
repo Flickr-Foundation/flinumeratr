@@ -28,13 +28,11 @@ $ pip install -e .
 ```
 
 You need [a Flickr API key][key].
-Then you can run the app by running `flinumeratr` with your API key passed as an environment variable:
+Then you can run the app by running the Flask app with your API key passed as an environment variable:
 
 ```console
-$ FLICKR_API_KEY=<KEY> flinumeratr
+$ FLICKR_API_KEY=<KEY> flask --app flinumeratr.app run --debug
 ```
-
-You can run `flinumeratr --help` to see a few other options.
 
 If you want to run tests, install the dev dependencies and run py.test:
 

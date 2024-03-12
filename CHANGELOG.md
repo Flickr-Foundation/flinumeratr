@@ -1,5 +1,7 @@
 # CHANGELOG
 
+## v1.2.0
+
 ## v1.1.0 - 2023-10-13
 
 *   Add support for finding photos at Flickr short URLs, including:
