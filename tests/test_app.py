@@ -1,9 +1,9 @@
 from flask.testing import FlaskClient
-from flickr_photos_api import FlickrPhotosApi
+from flickr_photos_api import FlickrApi
 import pytest
 
 
-def test_can_load_homepage(client: FlaskClient, api: FlickrPhotosApi) -> None:
+def test_can_load_homepage(client: FlaskClient) -> None:
     resp = client.get("/")
 
     assert resp.status_code == 200
@@ -63,7 +63,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
             [
                 b"This URL shows the photos taken by",
                 b"Alexander Lauterbach",
-                b"who has posted 367 photos",
+                b"who has posted 370 photos",
             ],
             id="user",
         ),
@@ -85,7 +85,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
     ],
 )
 def test_results_page_shows_info_box(
-    client: FlaskClient, api: FlickrPhotosApi, flickr_url: str, expected_text: str
+    client: FlaskClient, api: FlickrApi, flickr_url: str, expected_text: str
 ) -> None:
     resp = client.get(f"/see_photos?flickr_url={flickr_url}")
 
@@ -96,7 +96,7 @@ def test_results_page_shows_info_box(
 
 
 def test_can_load_small_photos_with_downloads_disabled(
-    client: FlaskClient, api: FlickrPhotosApi
+    client: FlaskClient, api: FlickrApi
 ) -> None:
     # This is a URL that caused a 500 issue in prod -- the user only
     # has small photos, so we can't load the "Medium" photo size, but
@@ -109,7 +109,7 @@ def test_can_load_small_photos_with_downloads_disabled(
     assert resp.status_code == 200
 
 
-def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrPhotosApi) -> None:
+def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> None:
     resp = client.get(
         "/see_photos?flickr_url=https://www.flickr.com/photos/doesnotexist/12345678901234567890"
     )
@@ -119,7 +119,7 @@ def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrPhotosApi) 
 
 
 def test_it_doesnt_show_date_taken_if_not_known(
-    client: FlaskClient, api: FlickrPhotosApi
+    client: FlaskClient, api: FlickrApi
 ) -> None:
     resp = client.get(
         "/see_photos?flickr_url=https://www.flickr.com/photos/sdasmarchives/50567413447"
