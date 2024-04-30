@@ -1,8 +1,8 @@
-from collections.abc import Generator
+from collections.abc import Iterator
 import os
 
 from flask.testing import FlaskClient
-from flickr_photos_api import FlickrPhotosApi
+from flickr_photos_api import FlickrApi
 import pytest
 from pytest import FixtureRequest
 import vcr
@@ -32,7 +32,7 @@ def cassette_name(request: FixtureRequest) -> str:
 
 
 @pytest.fixture(scope="function")
-def api(cassette_name: str, user_agent: str) -> Generator[FlickrPhotosApi, None, None]:
+def api(cassette_name: str, user_agent: str) -> Iterator[FlickrApi]:
     """
     Creates an instance of the FlickrPhotosApi class for use in tests.
 
@@ -44,14 +44,14 @@ def api(cassette_name: str, user_agent: str) -> Generator[FlickrPhotosApi, None,
         cassette_library_dir="tests/fixtures/cassettes",
         filter_query_parameters=["api_key"],
     ):
-        yield FlickrPhotosApi(
+        yield FlickrApi(
             api_key=os.environ.get("FLICKR_API_KEY", "<REDACTED>"),
             user_agent=user_agent,
         )
 
 
 @pytest.fixture()
-def client() -> Generator[FlaskClient, None, None]:
+def client() -> Iterator[FlaskClient]:
     """
     Creates an instance of the app for use in testing.
 

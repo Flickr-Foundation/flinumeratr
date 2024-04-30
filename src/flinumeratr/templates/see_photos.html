@@ -11,8 +11,8 @@
 
 	#photos {
 		list-style: none;
-    padding: 0;
-    margin:  0;
+        padding: 0;
+        margin:  0;
 	}
 
 	#photos li {
@@ -42,10 +42,10 @@
   	#photos .photo {
   		grid-column: 1 / 1;
   		grid-row: 1 / 2;
-      margin-left: -1em;
-      margin-right: -1em;
-      
-      text-align: center;
+        margin-left: -1em;
+        margin-right: -1em;
+
+        text-align: center;
   	}
 
   	#photos .metadata {
@@ -84,32 +84,32 @@
   <p id="infobox">
     This URL shows the photos taken by
     <a href="{{ user.profile_url }}">{{ user.realname or user.username }}</a>,
-    who has posted {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
+    who has posted {{ photo_data.count_photos | intcomma }}&nbsp;photo{% if photo_data.count_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif parsed_url.type == "album" %}
   <p id="infobox">
     This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.album.title }}</a> album, which was created by <a href="{{ url_for('see_photos', flickr_url=photo_data.album.owner.profile_url) }}">{{ photo_data.album.owner.realname or photo_data.album.owner.username }}</a>.
-    It contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
+    It contains {{ photo_data.count_photos | intcomma }}&nbsp;photo{% if photo_data.count_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif parsed_url.type == "group" %}
   <p id="infobox">
-    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.group.name }}</a> group pool, which contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
+    This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.group.name }}</a> group pool, which contains {{ photo_data.count_photos | intcomma }}&nbsp;photo{% if photo_data.count_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif parsed_url.type == "gallery" %}
   <p id="infobox">
     This URL shows the photos in the <a href="{{ flickr_url }}">{{ photo_data.gallery.title }}</a> gallery,
-    which contains {{ photo_data.total_photos | intcomma }}&nbsp;photo{% if photo_data.total_photos != 1 %}s{% endif %}</span>.
+    which contains {{ photo_data.count_photos | intcomma }}&nbsp;photo{% if photo_data.count_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif parsed_url.type == "tag" %}
   <p id="infobox">
     This URL shows photos tagged with <a href="{{ flickr_url }}">{{ parsed_url.tag }}</a>.
-    
+
     {#
       We don't include the photo count on tags, because it's pretty inconsistent.
       The number can vary by several hundred or thousand, depending on the popularity
       of the tag -- this is probably due to the hard problem of searching that many
       images on the Flickr side.
-      
+
       Rather than include an obviously inconsistent count, we just omit it for tag pages.
     #}
   </p>
@@ -120,7 +120,7 @@
 {% endif %}
 
 <ul id="photos">
-  
+
 {% if parsed_url.type == "single_photo" %}
   {% set photos = [photo_data] %}
 {% else %}

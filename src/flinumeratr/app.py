@@ -3,7 +3,7 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-from flickr_photos_api import FlickrPhotosApi, ResourceNotFound, Size as PhotoSize
+from flickr_photos_api import FlickrApi, ResourceNotFound, Size as PhotoSize
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -11,6 +11,7 @@ from flickr_url_parser import (
 )
 import humanize
 
+from . import __version__
 from .filters import render_date_taken
 from ._types import ViewResponse
 
@@ -29,9 +30,9 @@ except KeyError:  # pragma: no cover
         "Please set the FLICKR_API_KEY environment variable and run again."
     )
 else:
-    api = FlickrPhotosApi(
+    api = FlickrApi(
         api_key=api_key,
-        user_agent="Flinumeratr/1.1.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)",
+        user_agent=f"Flinumeratr/{__version__} (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)",
     )
 
 
@@ -57,7 +58,7 @@ def image_at(sizes: list[PhotoSize], desired_size: str) -> str:
     try:
         return sizes_by_label[desired_size]["source"]
     except KeyError:  # pragma: no cover
-        return max(sizes, key=lambda s: s["width"])["source"]
+        return max(sizes, key=lambda s: s["width"] or 0)["source"]
 
 
 @app.template_filter()
