@@ -14,7 +14,7 @@ certifi==2023.11.17
     #   httpx
 click==8.1.7
     # via flask
-flask==3.0.0
+flask==3.0.3
     # via -r requirements.in
 flickr-photos-api==2.3.0
     # via -r requirements.in
