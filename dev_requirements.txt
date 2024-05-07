@@ -88,7 +88,7 @@ mccabe==0.7.0
     # via flake8
 multidict==6.0.4
     # via yarl
-mypy==1.8.0
+mypy==1.10.0
     # via -r dev_requirements.in
 mypy-extensions==1.0.0
     # via
