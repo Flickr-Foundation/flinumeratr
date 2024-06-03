@@ -8,8 +8,6 @@ blinker==1.7.0
     # via
     #   -r requirements.txt
     #   flask
-build==1.2.1
-    # via pip-tools
 certifi==2023.11.17
     # via
     #   -r requirements.txt
@@ -19,7 +17,6 @@ click==8.1.7
     # via
     #   -r requirements.txt
     #   flask
-    #   pip-tools
 coverage==7.5.3
     # via pytest-cov
 flask==3.0.3
@@ -82,19 +79,10 @@ mypy-extensions==1.0.0
 packaging==23.2
     # via
     #   -r requirements.txt
-    #   build
     #   gunicorn
     #   pytest
-pip==24.0
-    # via pip-tools
-pip-tools==7.4.1
-    # via -r dev_requirements.in
 pluggy==1.5.0
     # via pytest
-pyproject-hooks==1.1.0
-    # via
-    #   build
-    #   pip-tools
 pytest==8.2.1
     # via pytest-cov
 pytest-cov==5.0.0
@@ -103,8 +91,6 @@ pyyaml==6.0.1
     # via vcrpy
 ruff==0.4.7
     # via -r dev_requirements.in
-setuptools==70.0.0
-    # via pip-tools
 silver-nitrate==1.1.0
     # via
     #   -r requirements.txt
@@ -126,8 +112,6 @@ werkzeug==3.0.1
     # via
     #   -r requirements.txt
     #   flask
-wheel==0.43.0
-    # via pip-tools
 wrapt==1.16.0
     # via vcrpy
 yarl==1.9.4

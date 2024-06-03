@@ -1,7 +1,6 @@
 -r requirements.txt
 
 mypy
-pip-tools
 pytest-cov
 ruff
 vcrpy
