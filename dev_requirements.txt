@@ -24,9 +24,7 @@ click==8.1.7
     #   flask
     #   pip-tools
 coverage==7.5.3
-    # via
-    #   -r dev_requirements.in
-    #   pytest-cov
+    # via pytest-cov
 flake8==7.0.0
     # via -r dev_requirements.in
 flask==3.0.3
@@ -116,9 +114,7 @@ pyproject-hooks==1.1.0
     #   build
     #   pip-tools
 pytest==8.2.1
-    # via
-    #   -r dev_requirements.in
-    #   pytest-cov
+    # via pytest-cov
 pytest-cov==5.0.0
     # via -r dev_requirements.in
 pyyaml==6.0.1
