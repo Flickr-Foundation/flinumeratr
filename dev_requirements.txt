@@ -17,7 +17,7 @@ click==8.1.7
     # via
     #   -r requirements.txt
     #   flask
-coverage[toml]==7.5.3
+coverage==7.5.3
     # via pytest-cov
 flask==3.0.3
     # via -r requirements.txt
