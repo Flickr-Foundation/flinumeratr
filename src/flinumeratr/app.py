@@ -30,7 +30,7 @@ except KeyError:  # pragma: no cover
         "Please set the FLICKR_API_KEY environment variable and run again."
     )
 else:
-    api = FlickrApi(
+    api = FlickrApi.with_api_key(
         api_key=api_key,
         user_agent=f"Flinumeratr/{__version__} (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)",
     )
