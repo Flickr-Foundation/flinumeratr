@@ -1,3 +1,4 @@
+-e file:.
 -r requirements.txt
 
 mypy
