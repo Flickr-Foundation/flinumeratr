@@ -47,6 +47,7 @@ To start the server in prod:
 
 ```console
 export FLICKR_API_KEY=$(keyring get flickr_api key)
+export SCRIPT_NAME=/tools/flinumeratr
 
 gunicorn flinumeratr.app:app \
   --workers 4 \
