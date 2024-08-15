@@ -43,11 +43,24 @@ $ coverage run -m pytest tests
 $ coverage report
 ```
 
-To deploy a new version of flinumeratr, log in to the Glitch app and run the following commands in the Glitch terminal:
+To start the server in prod:
 
 ```console
-$ git pull gh main
-$ refresh
+export FLICKR_API_KEY=$(keyring get flickr_api key)
+
+gunicorn flinumeratr.app:app \
+  --workers 4 \
+  --bind 127.0.0.1:8001 \
+  --access-logfile access.log \
+  --log-file app.log \
+  --pid flinumeratr.pid \
+  --daemon
+```
+
+To restart the server (e.g. if you've changed the code):
+
+```console
+$ kill -HUP $(cat flinumeratr.pid)
 ```
 
 [key]: https://www.flickr.com/services/api/misc.api_keys.html

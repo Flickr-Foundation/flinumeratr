@@ -2,3 +2,8 @@
 *.egg-info
 *.pyc
 .coverage
+
+# These are created when you run the app in prod
+app.log
+access.log
+flinumeratr.pid
