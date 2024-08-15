@@ -1,0 +1,9 @@
+# These version pins are to maintain Python 3.7 support in Glitch, even
+# though Python 3.7 is EOL.
+#
+# See https://github.com/Flickr-Foundation/flinumeratr/issues/23
+flask<2.3.0
+gunicorn<=21.2
+itsdangerous<2.2.0
+packaging<23.2
+werkzeug<2.3.0
