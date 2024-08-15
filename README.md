@@ -4,16 +4,16 @@ This is a toy to help you pull photos out of Flickr.
 You enter a Flickr URL, and it shows you a list of photos that can be viewed at that URL.
 This includes:
 
-*   A single photo, such as [/photos/schlesinger_library/13270291833](https://flinumeratr.glitch.me/see_photos?flickr_url=https://www.flickr.com/photos/schlesinger_library/13270291833)
+*   A single photo, such as [/photos/schlesinger_library/13270291833](https://www.flickr.org/tools/flinumeratr/see_photos?flickr_url=https://www.flickr.com/photos/schlesinger_library/13270291833)
 *   An album, like
-[/photos/aljazeeraenglish/albums/72157626164453131](https://flinumeratr.glitch.me/see_photos?flickr_url=https://www.flickr.com/photos/aljazeeraenglish/albums/72157626164453131)
-*   A member's photo stream, for example [/people/blueminds/](https://flinumeratr.glitch.me/see_photos?flickr_url=https://www.flickr.com/people/blueminds/)
+[/photos/aljazeeraenglish/albums/72157626164453131](https://www.flickr.org/tools/flinumeratr?flickr_url=https://www.flickr.com/photos/aljazeeraenglish/albums/72157626164453131)
+*   A member's photo stream, for example [/people/blueminds/](https://www.flickr.org/tools/flinumeratr?flickr_url=https://www.flickr.com/people/blueminds/)
 
 <img src="screenshot.jpg" alt="Screenshot of flinumeratr. It's a web app with a single input field at the top, into which somebody has entered a Flickr URL. Below the input form is a purple box explaining that this URL shows the photos in a gallery about celebrating Hispanic Heritage Month, and then two photos from the gallery.">
 
 ## Usage
 
-You can use flinumeratr by visiting <https://flinumeratr.glitch.me>
+You can use flinumeratr by visiting <https://www.flickr.org/tools/flinumeratr/>
 
 ## Development
 
