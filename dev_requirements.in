@@ -1,6 +1,7 @@
 -e file:.
 -r requirements.txt
 
+interrogate
 mypy
 pytest-cov
 ruff
