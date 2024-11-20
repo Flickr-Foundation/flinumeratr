@@ -126,6 +126,7 @@ ruff==0.4.8
     # via -r dev_requirements.in
 silver-nitrate==1.1.1
     # via
+    #   -r dev_requirements.in
     #   -r requirements.txt
     #   flickr-photos-api
     #   flinumeratr
