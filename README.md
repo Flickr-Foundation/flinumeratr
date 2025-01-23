@@ -46,16 +46,7 @@ $ coverage report
 To start the server in prod:
 
 ```console
-export FLICKR_API_KEY=$(keyring get flickr_api key)
-export SCRIPT_NAME=/tools/flinumeratr
-
-gunicorn flinumeratr.app:app \
-  --workers 4 \
-  --bind 127.0.0.1:8001 \
-  --access-logfile access.log \
-  --log-file app.log \
-  --pid flinumeratr.pid \
-  --daemon
+$ bash start_prod.sh
 ```
 
 To restart the server (e.g. if you've changed the code):
