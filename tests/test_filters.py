@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 from flickr_photos_api import DateTaken
 import pytest
@@ -13,7 +13,7 @@ from flinumeratr.filters import render_date_taken
         (
             {
                 "granularity": "second",
-                "value": datetime.datetime(2023, 2, 20, 23, 31, 31),
+                "value": datetime(2023, 2, 20, 23, 31, 31),
             },
             "on February 20, 2023",
         ),
@@ -21,7 +21,7 @@ from flinumeratr.filters import render_date_taken
         (
             {
                 "granularity": "second",
-                "value": datetime.datetime(2014, 3, 7, 11, 44, 16),
+                "value": datetime(2014, 3, 7, 11, 44, 16),
             },
             "on March 7, 2014",
         ),
@@ -29,7 +29,7 @@ from flinumeratr.filters import render_date_taken
         (
             {
                 "granularity": "month",
-                "value": datetime.datetime(1970, 3, 1, 0, 0, 0),
+                "value": datetime(1970, 3, 1, 0, 0, 0),
             },
             "in March 1970",
         ),
@@ -37,7 +37,7 @@ from flinumeratr.filters import render_date_taken
         (
             {
                 "granularity": "year",
-                "value": datetime.datetime(1950, 1, 1, 0, 0, 0),
+                "value": datetime(1950, 1, 1, 0, 0, 0),
             },
             "sometime in 1950",
         ),
@@ -45,7 +45,7 @@ from flinumeratr.filters import render_date_taken
         (
             {
                 "granularity": "circa",
-                "value": datetime.datetime(1910, 1, 1, 0, 0, 0),
+                "value": datetime(1910, 1, 1, 0, 0, 0),
             },
             "circa 1910",
         ),
