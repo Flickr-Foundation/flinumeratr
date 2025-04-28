@@ -14,6 +14,7 @@ import werkzeug
 
 from . import __version__
 from .filters import render_date_taken
+from .flickr_api import get_photos_from_parsed_flickr_url
 
 
 app = Flask(__name__)
@@ -112,21 +113,22 @@ def see_photos() -> str | werkzeug.Response:
 
     category_label = {
         "single_photo": "a photo",
-        "photoset": "an album",
-        "people": "a person",
+        "album": "an album",
+        "user": "a person",
         "group": "a group",
-        "galleries": "a gallery",
-        "tags": "a tag",
-    }.get(parsed_url["type"], "a " + parsed_url["type"])
+        "gallery": "a gallery",
+        "tag": "a tag",
+    }[parsed_url["type"]]
 
     try:
-        photo_data = api.get_photos_from_parsed_flickr_url(parsed_url=parsed_url)
+        photo_data = get_photos_from_parsed_flickr_url(api, parsed_url)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
         )
         return render_template("error.html", flickr_url=flickr_url)
     except Exception as e:  # pragma: no cover
+        raise
         flash(f"Boom! Something went wrong: {e}")
         return render_template("error.html", flickr_url=flickr_url, error=e)
     else:

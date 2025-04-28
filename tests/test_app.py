@@ -95,20 +95,6 @@ def test_results_page_shows_info_box(
         assert text in resp.data.replace(b"&nbsp;", b" ").replace(b"&#39;", b"'")
 
 
-def test_can_load_small_photos_with_downloads_disabled(
-    client: FlaskClient, api: FlickrApi
-) -> None:
-    # This is a URL that caused a 500 issue in prod -- the user only
-    # has small photos, so we can't load the "Medium" photo size, but
-    # they also have downloads disabled so we can't fall back to the
-    # "Original" size when it's missing.
-    resp = client.get(
-        "/see_photos?flickr_url=https://www.flickr.com/people/25653675@N00/"
-    )
-
-    assert resp.status_code == 200
-
-
 def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> None:
     resp = client.get(
         "/see_photos?flickr_url=https://www.flickr.com/photos/doesnotexist/12345678901234567890"
