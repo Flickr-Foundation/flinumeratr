@@ -14,7 +14,7 @@ import werkzeug
 
 from . import __version__
 from .filters import render_date_taken
-from .flickr_api import get_photos_from_parsed_flickr_url
+from .flickr_api import get_photos_from_flickr_url
 
 
 app = Flask(__name__)
@@ -121,7 +121,7 @@ def see_photos() -> str | werkzeug.Response:
     }[parsed_url["type"]]
 
     try:
-        photo_data = get_photos_from_parsed_flickr_url(api, parsed_url)
+        photo_data = get_photos_from_flickr_url(api, parsed_url)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"

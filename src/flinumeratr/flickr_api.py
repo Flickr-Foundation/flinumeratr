@@ -29,7 +29,7 @@ from flickr_photos_api.utils import parse_location, parse_safety_level, parse_si
 from .models import PhotosFromUrl
 
 
-def get_photos_from_parsed_flickr_url(
+def get_photos_from_flickr_url(
     api: FlickrApi, parsed_url: ParseResult
 ) -> PhotosFromUrl:
     """
