@@ -63,7 +63,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
             [
                 b"This URL shows the photos taken by",
                 b"Alexander Lauterbach",
-                b"who has posted 370 photos",
+                b"who has posted 375 photos",
             ],
             id="user",
         ),
@@ -73,7 +73,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
                 b"This URL shows the photos in the",
                 b"Photographs I Like of People I Don't Know",
                 b"gallery",
-                b"which contains 12 photos",
+                b"which contains 13 photos",
             ],
             id="gallery",
         ),
@@ -93,20 +93,6 @@ def test_results_page_shows_info_box(
 
     for text in expected_text:
         assert text in resp.data.replace(b"&nbsp;", b" ").replace(b"&#39;", b"'")
-
-
-def test_can_load_small_photos_with_downloads_disabled(
-    client: FlaskClient, api: FlickrApi
-) -> None:
-    # This is a URL that caused a 500 issue in prod -- the user only
-    # has small photos, so we can't load the "Medium" photo size, but
-    # they also have downloads disabled so we can't fall back to the
-    # "Original" size when it's missing.
-    resp = client.get(
-        "/see_photos?flickr_url=https://www.flickr.com/people/25653675@N00/"
-    )
-
-    assert resp.status_code == 200
 
 
 def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> None:

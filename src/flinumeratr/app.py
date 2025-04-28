@@ -3,7 +3,7 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-from flickr_photos_api import FlickrApi, ResourceNotFound, Size as PhotoSize
+from flickr_photos_api import FlickrApi, ResourceNotFound
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -14,6 +14,7 @@ import werkzeug
 
 from . import __version__
 from .filters import render_date_taken
+from .flickr_api import get_photos_from_flickr_url
 
 
 app = Flask(__name__)
@@ -34,31 +35,6 @@ else:
         api_key=api_key,
         user_agent=f"Flinumeratr/{__version__} (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)",
     )
-
-
-@app.template_filter()
-def image_at(sizes: list[PhotoSize], desired_size: str) -> str:
-    """
-    Given a list of sizes of Flickr photo, return the source of
-    the desired size.
-    """
-    sizes_by_label = {s["label"]: s for s in sizes}
-
-    # Flickr has a published list of possible sizes here:
-    # https://www.flickr.com/services/api/misc.urls.html
-    #
-    # If the desired size isn't available, that means one of two things:
-    #
-    #   1.  The owner of this photo has done something to restrict downloads
-    #       of their photo beyond a certain size.  But CC-licensed photos
-    #       are always available to download, so that's not an issue for us.
-    #   2.  This photo is smaller than the size we've asked for, in which
-    #       case we fall back to the largest possible size.
-    #
-    try:
-        return sizes_by_label[desired_size]["source"]
-    except KeyError:  # pragma: no cover
-        return max(sizes, key=lambda s: s["width"] or 0)["source"]
 
 
 @app.template_filter()
@@ -112,21 +88,22 @@ def see_photos() -> str | werkzeug.Response:
 
     category_label = {
         "single_photo": "a photo",
-        "photoset": "an album",
-        "people": "a person",
+        "album": "an album",
+        "user": "a person",
         "group": "a group",
-        "galleries": "a gallery",
-        "tags": "a tag",
-    }.get(parsed_url["type"], "a " + parsed_url["type"])
+        "gallery": "a gallery",
+        "tag": "a tag",
+    }[parsed_url["type"]]
 
     try:
-        photo_data = api.get_photos_from_parsed_flickr_url(parsed_url=parsed_url)
+        photo_data = get_photos_from_flickr_url(api, parsed_url)
     except ResourceNotFound:
         flash(
             f"Unable to find {category_label} at <span class='user_input'>{flickr_url}</span>"
         )
         return render_template("error.html", flickr_url=flickr_url)
     except Exception as e:  # pragma: no cover
+        raise
         flash(f"Boom! Something went wrong: {e}")
         return render_template("error.html", flickr_url=flickr_url, error=e)
     else:

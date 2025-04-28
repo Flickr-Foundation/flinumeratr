@@ -79,11 +79,9 @@
 </style>
 
 {% if parsed_url.type == "user" %}
-  {% set user = photo_data.photos[0].owner %}
-
   <p id="infobox">
     This URL shows the photos taken by
-    <a href="{{ user.profile_url }}">{{ user.realname or user.username }}</a>,
+    <a href="{{ photo_data.photos[0].owner_url }}">{{ photo_data.photos[0].owner_name }}</a>,
     who has posted {{ photo_data.count_photos | intcomma }}&nbsp;photo{% if photo_data.count_photos != 1 %}s{% endif %}</span>.
   </p>
 {% elif parsed_url.type == "album" %}
@@ -130,14 +128,13 @@
 {% for p in photos %}
 	<li>
 		<a class="photo" href="{{ p.url }}">
-      <img src="{{ p.sizes | image_at("Medium") }}">
+      <img src="{{ p.image_url }}">
     </a>
 		<div class="metadata">
       <h4><a href="{{ p.url }}">{{ p.title or "Untitled" }}</a></h4>
-<!-- TODO: parsed_url.type = user/album, not people/photoset -->
-      {% if parsed_url.type != "people" and parsed_url.type != "photoset" %}
+      {% if parsed_url.type != "user" and parsed_url.type != "album" %}
         <h5 class="owner">
-          by <a href="{{ url_for('see_photos', flickr_url=p.owner.profile_url) }}">{{ p.owner.realname or p.owner.username }}</a>
+          by <a href="{{ url_for('see_photos', flickr_url=p.owner_url) }}">{{ p.owner_name }}</a>
         </h5>
       {% endif %}
       <p>
@@ -147,7 +144,7 @@
         uploaded on {{ p.date_posted.strftime("%B %-d, %Y") }}
       </p>
 			<div class="license">
-        {% include "_license.html" %}
+        {% include "components/license.html" %}
       </div>
 		</div>
 	</li>
