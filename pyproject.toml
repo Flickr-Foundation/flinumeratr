@@ -54,5 +54,5 @@ mypy_path = "src"
 strict = true
 
 [tool.interrogate]
-fail_under = 35
+fail_under = 36
 omit-covered-files = true

@@ -7,7 +7,6 @@ from flickr_photos_api import FlickrApi, Size
 from flickr_photos_api.date_parsers import parse_date_taken, parse_timestamp
 from flickr_photos_api.exceptions import ResourceNotFound
 from flickr_photos_api.types import User, create_user
-from flickr_photos_api.utils import parse_sizes
 
 from .models import (
     CollectionOfPhotos,
@@ -118,6 +117,53 @@ def _from_collection_photo(
         "date_posted": date_posted,
         "license": license,
     }
+
+
+def parse_sizes(photo_elem: ET.Element) -> list[Size]:
+    """
+    Get a list of sizes from a photo in a collection response.
+    """
+    # When you get a collection of photos (e.g. in an album)
+    # you can get some of the sizes on the <photo> element, e.g.
+    #
+    #     <
+    #       photo
+    #       url_t="https://live.staticflickr.com/2893/1234567890_t.jpg"
+    #       height_t="78"
+    #       width_t="100"
+    #       …
+    #     />
+    #
+    sizes: list[Size] = []
+
+    for suffix, label in [
+        ("sq", "Square"),
+        ("q", "Large Square"),
+        ("t", "Thumbnail"),
+        ("s", "Small"),
+        ("m", "Medium"),
+        ("l", "Large"),
+        ("o", "Original"),
+    ]:
+        try:
+            media = photo_elem.attrib["media"]
+
+            if media not in ("video", "photo"):  # pragma: no cover
+                raise ValueError(f"Unrecognised media: {media!r}")
+
+            sizes.append(
+                {
+                    "height": int(photo_elem.attrib[f"height_{suffix}"]),
+                    "width": int(photo_elem.attrib[f"width_{suffix}"]),
+                    "label": label,
+                    "media": media,  # type: ignore
+                    "source": photo_elem.attrib[f"url_{suffix}"],
+                }
+            )
+        except KeyError:
+            pass
+
+    return sizes
 
 
 extras = [
