@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='phk3iud.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-    {% include "_favicons.html" %}
+    {% include "components/favicons.html" %}
   </head>
 
   <body>
-    {% include "_header.html" %}
+    {% include "components/header.html" %}
 
     <main>
-      {% include "_errors.html" %}
+      {% include "components/errors.html" %}
 
       {% block content %}{% endblock %}
     </main>
 
-    {% include "_footer.html" %}
+    {% include "components/footer.html" %}
   </body>
 </html>

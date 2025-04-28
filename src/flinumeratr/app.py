@@ -10,10 +10,10 @@ from flickr_url_parser import (
     UnrecognisedUrl,
 )
 import humanize
+import werkzeug
 
 from . import __version__
 from .filters import render_date_taken
-from ._types import ViewResponse
 
 
 app = Flask(__name__)
@@ -78,21 +78,24 @@ def intcomma(n: int) -> str:
 
 
 @app.route("/")
-def index() -> ViewResponse:
-    return render_template("index.html")
+def homepage() -> str:
+    """
+    The Flinumeratr homepage.
+    """
+    return render_template("homepage.html")
 
 
 @app.route("/see_photos")
-def see_photos() -> ViewResponse:
+def see_photos() -> str | werkzeug.Response:
     try:
         flickr_url = request.args["flickr_url"]
     except KeyError:
-        return redirect(url_for("index"))
+        return redirect(url_for("homepage"))
 
     # If the user enters an empty string, just redirect them back to
     # the homepage.
     if not flickr_url:
-        return redirect(url_for("index"))
+        return redirect(url_for("homepage"))
 
     try:
         parsed_url = parse_flickr_url(flickr_url)
