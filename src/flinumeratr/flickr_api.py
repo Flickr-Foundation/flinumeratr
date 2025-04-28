@@ -1,32 +1,23 @@
-"""
-Methods for getting information about collections of photos in Flickr
-(albums, galleries, groups, and so on).
-"""
-
-import typing
 from xml.etree import ElementTree as ET
 
 from flickr_url_parser import ParseResult
-from nitrate.xml import find_optional_text, find_required_elem, find_required_text
+from nitrate.xml import find_required_elem, find_required_text
 
-from flickr_photos_api import FlickrApi
+from flickr_photos_api import FlickrApi, Size
 from flickr_photos_api.date_parsers import parse_date_taken, parse_timestamp
 from flickr_photos_api.exceptions import ResourceNotFound
-from flickr_photos_api.types import (
+from flickr_photos_api.types import User, create_user
+from flickr_photos_api.utils import parse_sizes
+
+from .models import (
     CollectionOfPhotos,
     GroupInfo,
-    MediaType,
     PhotosInAlbum,
     PhotosInGallery,
     PhotosInGroup,
-    SinglePhoto,
-    User,
-    create_user,
-    get_machine_tags,
+    Photo,
+    PhotosFromUrl,
 )
-from flickr_photos_api.utils import parse_location, parse_safety_level, parse_sizes
-
-from .models import PhotosFromUrl
 
 
 def get_photos_from_flickr_url(
@@ -37,7 +28,18 @@ def get_photos_from_flickr_url(
     return the photos at that URL (if possible).
     """
     if parsed_url["type"] == "single_photo":
-        return api.get_single_photo(photo_id=parsed_url["photo_id"])
+        photo = api.get_single_photo(photo_id=parsed_url["photo_id"])
+
+        return {
+            "url": photo["url"],
+            "image_url": get_image_url(photo["sizes"], desired_size="Medium"),
+            "title": photo["title"],
+            "owner_url": photo["owner"]["profile_url"],
+            "owner_name": photo["owner"]["realname"] or photo["owner"]["username"],
+            "date_taken": photo["date_taken"],
+            "date_posted": photo["date_posted"],
+            "license": photo["license"],
+        }
     elif parsed_url["type"] == "album":
         return get_photos_in_album(
             api,
@@ -74,17 +76,11 @@ def get_photos_from_flickr_url(
 
 def _from_collection_photo(
     api: FlickrApi, photo_elem: ET.Element, owner: User | None
-) -> SinglePhoto:
+) -> Photo:
     """
     Given a <photo> element from a collection response, extract all the photo info.
     """
     photo_id = photo_elem.attrib["id"]
-
-    secret = photo_elem.attrib["secret"]
-    server = photo_elem.attrib["server"]
-    farm = photo_elem.attrib["farm"]
-
-    original_format = photo_elem.attrib.get("originalformat")
 
     if owner is None:
         owner = create_user(
@@ -96,13 +92,9 @@ def _from_collection_photo(
 
     assert owner is not None
 
-    safety_level = parse_safety_level(photo_elem.attrib["safety_level"])
-
     license = api.lookup_license_by_id(id=photo_elem.attrib["license"])
 
     title = photo_elem.attrib["title"] or None
-    description = find_optional_text(photo_elem, path="description")
-    tags = photo_elem.attrib["tags"].split()
 
     date_posted = parse_timestamp(photo_elem.attrib["dateupload"])
     date_taken = parse_date_taken(
@@ -111,50 +103,20 @@ def _from_collection_photo(
         unknown=photo_elem.attrib["datetakenunknown"] == "1",
     )
 
-    # The lat/long/accuracy fields will always be populated, even
-    # if there's no geo-information on this photo -- they're just
-    # set to zeroes.
-    #
-    # We have to use the presence of geo permissions on the
-    # <photo> element to determine if there's actually location
-    # information here, or if we're getting the defaults.
-    if photo_elem.attrib.get("geo_is_public") == "1":
-        location = parse_location(photo_elem)
-    else:
-        location = None
-
-    count_comments = int(photo_elem.attrib["count_comments"])
-    count_views = int(photo_elem.attrib["count_views"])
-
     assert owner["photos_url"].endswith("/")
     url = owner["photos_url"] + photo_id + "/"
 
     sizes = parse_sizes(photo_elem)
 
-    assert photo_elem.attrib["media"] in {"photo", "video"}
-    media_type = typing.cast(MediaType, photo_elem.attrib["media"])
-
     return {
-        "id": photo_id,
-        "media": media_type,
-        "secret": secret,
-        "server": server,
-        "farm": farm,
-        "original_format": original_format,
-        "owner": owner,
-        "safety_level": safety_level,
-        "license": license,
-        "title": title,
-        "description": description,
-        "tags": tags,
-        "machine_tags": get_machine_tags(tags),
-        "date_posted": date_posted,
-        "date_taken": date_taken,
-        "location": location,
-        "count_comments": count_comments,
-        "count_views": count_views,
         "url": url,
-        "sizes": sizes,
+        "image_url": get_image_url(sizes, desired_size="Medium"),
+        "title": title,
+        "owner_url": owner["profile_url"],
+        "owner_name": owner["realname"] or owner["username"],
+        "date_taken": date_taken,
+        "date_posted": date_posted,
+        "license": license,
     }
 
 
@@ -162,26 +124,15 @@ extras = [
     "license",
     "date_upload",
     "date_taken",
-    "media",
-    "original_format",
     "owner_name",
     "url_sq",
     "url_t",
     "url_s",
     "url_m",
     "url_o",
-    "tags",
-    "geo",
-    # These parameters aren't documented, but they're quite
-    # useful for our purposes!
-    "url_q",  # Large Square
-    "url_l",  # Large
-    "description",
-    "safety_level",
+    "media",
     "realname",
     "path_alias",
-    "count_comments",
-    "count_views",
 ]
 
 
@@ -456,3 +407,27 @@ def get_photos_with_tag(
     photos_elem = find_required_elem(resp, path="photos")
 
     return _create_collection(api, photos_elem)
+
+
+def get_image_url(sizes: list[Size], desired_size: str) -> str:
+    """
+    Given a list of sizes of Flickr photo, return the source of
+    the desired size.
+    """
+    sizes_by_label = {s["label"]: s for s in sizes}
+
+    # Flickr has a published list of possible sizes here:
+    # https://www.flickr.com/services/api/misc.urls.html
+    #
+    # If the desired size isn't available, that means one of two things:
+    #
+    #   1.  The owner of this photo has done something to restrict downloads
+    #       of their photo beyond a certain size.  But CC-licensed photos
+    #       are always available to download, so that's not an issue for us.
+    #   2.  This photo is smaller than the size we've asked for, in which
+    #       case we fall back to the largest possible size.
+    #
+    try:
+        return sizes_by_label[desired_size]["source"]
+    except KeyError:  # pragma: no cover
+        return max(sizes, key=lambda s: s["width"] or 0)["source"]

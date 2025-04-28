@@ -63,7 +63,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
             [
                 b"This URL shows the photos taken by",
                 b"Alexander Lauterbach",
-                b"who has posted 370 photos",
+                b"who has posted 375 photos",
             ],
             id="user",
         ),
@@ -73,7 +73,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
                 b"This URL shows the photos in the",
                 b"Photographs I Like of People I Don't Know",
                 b"gallery",
-                b"which contains 12 photos",
+                b"which contains 13 photos",
             ],
             id="gallery",
         ),

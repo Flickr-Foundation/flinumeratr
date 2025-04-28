@@ -3,7 +3,7 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-from flickr_photos_api import FlickrApi, ResourceNotFound, Size as PhotoSize
+from flickr_photos_api import FlickrApi, ResourceNotFound
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,
@@ -35,31 +35,6 @@ else:
         api_key=api_key,
         user_agent=f"Flinumeratr/{__version__} (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)",
     )
-
-
-@app.template_filter()
-def image_at(sizes: list[PhotoSize], desired_size: str) -> str:
-    """
-    Given a list of sizes of Flickr photo, return the source of
-    the desired size.
-    """
-    sizes_by_label = {s["label"]: s for s in sizes}
-
-    # Flickr has a published list of possible sizes here:
-    # https://www.flickr.com/services/api/misc.urls.html
-    #
-    # If the desired size isn't available, that means one of two things:
-    #
-    #   1.  The owner of this photo has done something to restrict downloads
-    #       of their photo beyond a certain size.  But CC-licensed photos
-    #       are always available to download, so that's not an issue for us.
-    #   2.  This photo is smaller than the size we've asked for, in which
-    #       case we fall back to the largest possible size.
-    #
-    try:
-        return sizes_by_label[desired_size]["source"]
-    except KeyError:  # pragma: no cover
-        return max(sizes, key=lambda s: s["width"] or 0)["source"]
 
 
 @app.template_filter()
