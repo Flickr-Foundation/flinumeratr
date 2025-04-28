@@ -2,25 +2,25 @@
 #    uv pip compile dev_requirements.in --output-file dev_requirements.txt
 -e file:.
     # via -r dev_requirements.in
-anyio==4.4.0
+anyio==4.9.0
     # via
     #   -r requirements.txt
     #   flinumeratr
     #   httpx
-attrs==24.2.0
+attrs==25.3.0
     # via interrogate
-blinker==1.8.2
+blinker==1.9.0
     # via
     #   -r requirements.txt
     #   flask
     #   flinumeratr
-certifi==2024.6.2
+certifi==2025.4.26
     # via
     #   -r requirements.txt
     #   flinumeratr
     #   httpcore
     #   httpx
-click==8.1.7
+click==8.1.8
     # via
     #   -r requirements.txt
     #   flask
@@ -28,42 +28,42 @@ click==8.1.7
     #   interrogate
 colorama==0.4.6
     # via interrogate
-coverage==7.5.3
+coverage==7.8.0
     # via pytest-cov
-flask==3.0.3
+flask==3.1.0
     # via
     #   -r requirements.txt
     #   flinumeratr
-flickr-photos-api==2.4.1
+flickr-photos-api==2.18.0
     # via
     #   -r requirements.txt
     #   flinumeratr
-flickr-url-parser==1.9.0
+flickr-url-parser==1.11.0
     # via
     #   -r requirements.txt
     #   flickr-photos-api
     #   flinumeratr
-gunicorn==22.0.0
+gunicorn==23.0.0
     # via
     #   -r requirements.txt
     #   flinumeratr
-h11==0.14.0
+h11==0.16.0
     # via
     #   -r requirements.txt
     #   flinumeratr
     #   httpcore
-httpcore==1.0.5
+httpcore==1.0.9
     # via
     #   -r requirements.txt
     #   flinumeratr
     #   httpx
-httpx==0.27.0
+httpx==0.28.1
     # via
     #   -r requirements.txt
     #   flickr-photos-api
     #   flickr-url-parser
     #   flinumeratr
-humanize==4.9.0
+humanize==4.12.2
     # via
     #   -r requirements.txt
     #   flinumeratr
@@ -72,7 +72,7 @@ hyperlink==21.0.0
     #   -r requirements.txt
     #   flickr-url-parser
     #   flinumeratr
-idna==3.7
+idna==3.10
     # via
     #   -r requirements.txt
     #   anyio
@@ -80,7 +80,7 @@ idna==3.7
     #   httpx
     #   hyperlink
     #   yarl
-iniconfig==2.0.0
+iniconfig==2.1.0
     # via pytest
 interrogate==1.7.0
     # via -r dev_requirements.in
@@ -89,24 +89,24 @@ itsdangerous==2.2.0
     #   -r requirements.txt
     #   flask
     #   flinumeratr
-jinja2==3.1.4
+jinja2==3.1.6
     # via
     #   -r requirements.txt
     #   flask
     #   flinumeratr
-markupsafe==2.1.5
+markupsafe==3.0.2
     # via
     #   -r requirements.txt
     #   flinumeratr
     #   jinja2
     #   werkzeug
-multidict==6.0.5
+multidict==6.4.3
     # via yarl
-mypy==1.10.0
+mypy==1.15.0
     # via -r dev_requirements.in
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via mypy
-packaging==24.1
+packaging==25.0
     # via
     #   -r requirements.txt
     #   flinumeratr
@@ -114,17 +114,19 @@ packaging==24.1
     #   pytest
 pluggy==1.5.0
     # via pytest
+propcache==0.3.1
+    # via yarl
 py==1.11.0
     # via interrogate
-pytest==8.2.1
+pytest==8.3.5
     # via pytest-cov
-pytest-cov==5.0.0
+pytest-cov==6.1.1
     # via -r dev_requirements.in
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via vcrpy
-ruff==0.4.8
+ruff==0.11.7
     # via -r dev_requirements.in
-silver-nitrate==1.1.1
+silver-nitrate==1.6.2
     # via
     #   -r requirements.txt
     #   flickr-photos-api
@@ -134,24 +136,29 @@ sniffio==1.3.1
     #   -r requirements.txt
     #   anyio
     #   flinumeratr
-    #   httpx
 tabulate==0.9.0
     # via interrogate
-tenacity==8.3.0
+tenacity==9.1.2
     # via
     #   -r requirements.txt
     #   flickr-photos-api
     #   flinumeratr
-typing-extensions==4.12.1
-    # via mypy
-vcrpy==6.0.1
+typing-extensions==4.13.2
+    # via
+    #   -r requirements.txt
+    #   anyio
+    #   flinumeratr
+    #   mypy
+urllib3==2.4.0
+    # via vcrpy
+vcrpy==7.0.0
     # via -r dev_requirements.in
-werkzeug==3.0.3
+werkzeug==3.1.3
     # via
     #   -r requirements.txt
     #   flask
     #   flinumeratr
-wrapt==1.16.0
+wrapt==1.17.2
     # via vcrpy
-yarl==1.9.4
+yarl==1.20.0
     # via vcrpy
