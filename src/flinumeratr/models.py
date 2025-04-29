@@ -1,7 +1,7 @@
 from datetime import datetime
 import typing
 
-from flickr_photos_api import DateTaken, License, User
+from flickr_api.models import DateTaken, License, User
 
 
 class Photo(typing.TypedDict):

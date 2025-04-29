@@ -1,4 +1,4 @@
-from flickr_photos_api import FlickrApi
+from flickr_api import FlickrApi
 
 from flinumeratr.flickr_api import get_photos_in_user_photostream
 

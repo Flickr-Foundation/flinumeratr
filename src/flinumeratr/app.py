@@ -3,7 +3,7 @@ import secrets
 import sys
 
 from flask import Flask, flash, redirect, render_template, request, url_for
-from flickr_photos_api import FlickrApi, ResourceNotFound
+from flickr_api import FlickrApi, ResourceNotFound
 from flickr_url_parser import (
     parse_flickr_url,
     NotAFlickrUrl,

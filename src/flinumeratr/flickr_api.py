@@ -1,12 +1,10 @@
 from xml.etree import ElementTree as ET
 
+from flickr_api import FlickrApi, ResourceNotFound
+from flickr_api.models import Size, User
+from flickr_api.parsers import create_user, parse_date_taken, parse_timestamp
 from flickr_url_parser import ParseResult
 from nitrate.xml import find_required_elem, find_required_text
-
-from flickr_photos_api import FlickrApi, Size
-from flickr_photos_api.date_parsers import parse_date_taken, parse_timestamp
-from flickr_photos_api.exceptions import ResourceNotFound
-from flickr_photos_api.types import User, create_user
 
 from .models import (
     CollectionOfPhotos,
