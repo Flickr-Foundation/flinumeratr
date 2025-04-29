@@ -1,3 +1,7 @@
+"""
+Tests for `flinumeratr.filters`.
+"""
+
 from datetime import datetime
 
 from flickr_photos_api import DateTaken
