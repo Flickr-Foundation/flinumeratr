@@ -4,7 +4,7 @@ Tests for `flinumeratr.filters`.
 
 from datetime import datetime
 
-from flickr_photos_api import DateTaken
+from flickr_api.models import DateTaken
 import pytest
 
 from flinumeratr.filters import render_date_taken

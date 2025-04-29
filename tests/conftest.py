@@ -2,7 +2,7 @@ from collections.abc import Iterator
 import os
 
 from flask.testing import FlaskClient
-from flickr_photos_api import FlickrApi
+from flickr_api import FlickrApi
 from nitrate.cassettes import cassette_name
 import pytest
 import vcr
@@ -16,7 +16,7 @@ def user_agent() -> str:
 @pytest.fixture(scope="function")
 def api(cassette_name: str, user_agent: str) -> Iterator[FlickrApi]:
     """
-    Creates an instance of the FlickrPhotosApi class for use in tests.
+    Creates an instance of the FlickrApi class for use in tests.
 
     This instance of the API will record its interactions as "cassettes"
     using vcr.py, which can be replayed offline (e.g. in CI tests).
