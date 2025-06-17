@@ -3,13 +3,20 @@ from flickr_api import FlickrApi
 import pytest
 
 
-def test_can_load_homepage(client: FlaskClient) -> None:
+def test_load_homepage(client: FlaskClient) -> None:
+    """
+    Load the Flinumeratr homepage.
+    """
     resp = client.get("/")
 
     assert resp.status_code == 200
 
 
 def test_no_flickr_url_redirects_you_to_homepage(client: FlaskClient) -> None:
+    """
+    If you load /see_photos without passing a URL, you're redirected
+    to the homepage.
+    """
     resp = client.get("/see_photos")
 
     assert resp.status_code == 302
@@ -17,6 +24,10 @@ def test_no_flickr_url_redirects_you_to_homepage(client: FlaskClient) -> None:
 
 
 def test_no_photos_to_show_is_error(client: FlaskClient) -> None:
+    """
+    If you look up a URL which doesn't have any photos, you get
+    a helpful error.
+    """
     resp = client.get("/see_photos?flickr_url=https://www.flickr.com/help")
 
     assert resp.status_code == 200
@@ -24,6 +35,9 @@ def test_no_photos_to_show_is_error(client: FlaskClient) -> None:
 
 
 def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
+    """
+    If you look up a URL which isn't on Flickr.com, you get a helpful error.
+    """
     resp = client.get("/see_photos?flickr_url=https://www.example.net")
 
     assert resp.status_code == 200
