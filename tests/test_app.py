@@ -99,7 +99,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
     ],
 )
 def test_results_page_shows_info_box(
-    client: FlaskClient, api: FlickrApi, flickr_url: str, expected_text: str
+    client: FlaskClient, flickr_api: FlickrApi, flickr_url: str, expected_text: str
 ) -> None:
     resp = client.get(f"/see_photos?flickr_url={flickr_url}")
 
@@ -109,7 +109,9 @@ def test_results_page_shows_info_box(
         assert text in resp.text.replace("&nbsp;", " ").replace("&#39;", "'")
 
 
-def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> None:
+def test_cant_find_resource_is_error(
+    client: FlaskClient, flickr_api: FlickrApi
+) -> None:
     resp = client.get(
         "/see_photos?flickr_url=https://www.flickr.com/photos/doesnotexist/12345678901234567890"
     )
@@ -119,7 +121,7 @@ def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> Non
 
 
 def test_it_doesnt_show_date_taken_if_not_known(
-    client: FlaskClient, api: FlickrApi
+    client: FlaskClient, flickr_api: FlickrApi
 ) -> None:
     resp = client.get(
         "/see_photos?flickr_url=https://www.flickr.com/photos/sdasmarchives/50567413447"
