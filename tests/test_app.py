@@ -31,7 +31,7 @@ def test_no_photos_to_show_is_error(client: FlaskClient) -> None:
     resp = client.get("/see_photos?flickr_url=https://www.flickr.com/help")
 
     assert resp.status_code == 200
-    assert b"There are no photos to show" in resp.data
+    assert "There are no photos to show" in resp.text
 
 
 def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
@@ -41,7 +41,7 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
     resp = client.get("/see_photos?flickr_url=https://www.example.net")
 
     assert resp.status_code == 200
-    assert "doesn’t live on Flickr.com" in resp.data.decode("utf8")
+    assert "doesn’t live on Flickr.com" in resp.text
 
 
 @pytest.mark.parametrize(
@@ -49,51 +49,51 @@ def test_not_a_flickr_url_is_error(client: FlaskClient) -> None:
     [
         pytest.param(
             "https://www.flickr.com/photos/sdasmarchives/50567413447",
-            [b"This URL is", b"a single photo"],
+            ["This URL is", "a single photo"],
             id="single_photo",
         ),
         pytest.param(
             "https://www.flickr.com/photos/aljazeeraenglish/albums/72157626164453131",
             [
-                b"This URL shows the photos in the",
-                b"Faces from the Libyan front",
-                b"album, which was created by",
-                b"Al Jazeera English",
-                b"It contains 22 photos",
+                "This URL shows the photos in the",
+                "Faces from the Libyan front",
+                "album, which was created by",
+                "Al Jazeera English",
+                "It contains 22 photos",
             ],
             id="album",
         ),
         pytest.param(
             "https://www.flickr.com/groups/birdguide/",
             [
-                b"This URL shows the photos in the",
-                b"Field Guide: Birds of the World",
-                b"group pool, which contains",
+                "This URL shows the photos in the",
+                "Field Guide: Birds of the World",
+                "group pool, which contains",
             ],
             id="group",
         ),
         pytest.param(
             "https://www.flickr.com/people/blueminds/",
             [
-                b"This URL shows the photos taken by",
-                b"Alexander Lauterbach",
-                b"who has posted 375 photos",
+                "This URL shows the photos taken by",
+                "Alexander Lauterbach",
+                "who has posted 375 photos",
             ],
             id="user",
         ),
         pytest.param(
             "https://www.flickr.com/photos/george/galleries/72157621848008117/",
             [
-                b"This URL shows the photos in the",
-                b"Photographs I Like of People I Don't Know",
-                b"gallery",
-                b"which contains 13 photos",
+                "This URL shows the photos in the",
+                "Photographs I Like of People I Don't Know",
+                "gallery",
+                "which contains 13 photos",
             ],
             id="gallery",
         ),
         pytest.param(
             "https://flickr.com/photos/tags/thatch/",
-            [b"This URL shows photos tagged with", b"thatch"],
+            ["This URL shows photos tagged with", "thatch"],
             id="tag",
         ),
     ],
@@ -106,7 +106,7 @@ def test_results_page_shows_info_box(
     assert resp.status_code == 200
 
     for text in expected_text:
-        assert text in resp.data.replace(b"&nbsp;", b" ").replace(b"&#39;", b"'")
+        assert text in resp.text.replace("&nbsp;", " ").replace("&#39;", "'")
 
 
 def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> None:
@@ -115,7 +115,7 @@ def test_cant_find_resource_is_error(client: FlaskClient, api: FlickrApi) -> Non
     )
 
     assert resp.status_code == 200
-    assert b"Unable to find" in resp.data
+    assert "Unable to find" in resp.text
 
 
 def test_it_doesnt_show_date_taken_if_not_known(
@@ -126,7 +126,7 @@ def test_it_doesnt_show_date_taken_if_not_known(
     )
 
     assert resp.status_code == 200
-    assert b"taken None" not in resp.data
+    assert "taken None" not in resp.text
 
 
 def test_empty_url_redirects_to_homepage(client: FlaskClient) -> None:
