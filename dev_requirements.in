@@ -1,9 +1,8 @@
 -e file:.
 -r requirements.txt
 
+flickr-photos-api[fixtures]>=3.9
 interrogate
 mypy
 pytest-cov
 ruff
-silver-nitrate
-vcrpy
