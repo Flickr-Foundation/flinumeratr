@@ -34,7 +34,7 @@ flask==3.1.0
     # via
     #   -r requirements.txt
     #   flinumeratr
-flickr-photos-api==3.9
+flickr-photos-api==3.11
     # via
     #   -r dev_requirements.in
     #   -r requirements.txt

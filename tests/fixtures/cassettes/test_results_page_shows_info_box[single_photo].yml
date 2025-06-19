@@ -80,64 +80,44 @@ interactions:
 - request:
     body: ''
     headers:
-      accept:
-      - '*/*'
-      accept-encoding:
-      - gzip, deflate
       connection:
-      - keep-alive
-      cookie:
-      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D
+      - Close
       host:
       - api.flickr.com
       user-agent:
-      - Flinumeratr/1.2.0 (https://github.com/flickr-foundation/flinumeratr; hello@flickr.org)
+      - flickr-photos-api <hello@flickr.org>
     method: GET
     uri: https://api.flickr.com/services/rest/?method=flickr.photos.licenses.getInfo
   response:
     body:
-      string: !!binary |
-        H4sIAAAAAAAAA6WUUU/bMBSFn9dfYflpPDhOCilsaopQK/ayoQmE9uw4l8RKbEe2k9L9+t0W2gmW
-        wFQeIiVS7v3Okc6588tH3ZAenFfWZDSJYkrASFsoU2a0Cw/sgpLLxWTufEt8ECGjtqb43SgJxoNf
-        TD7t34kqMorzRmjI6FXTkFtVVsGTW/Dgeigo6VyT0SqE1n/lfL1eRw+4p3YVNG0kreaV5GBY57lw
-        QckGPE/i8ySezmbpWZqmM3bvURi73k0xpUUJnvlKOChYvmE2VOCYBp2jIUr4a3FnB3EhOJV3AU2T
-        709OXomTDkRQPaAqbY2PrCv53jPPN3waxXyAMBsgsBu7Aqd6fxyKmWKMdjpMM0sUDU4q0XyYLd/A
-        T9/FH+tYjjlO3kWyu20crhpVw9F05sWYgHRIwIeR47zzPe/GktrYtSHSthu3LRZx4DHGcptiTPtI
-        t3a9ek4x7zw2Zii32PKn2t4bFaAgd1h18OSbxdNgNJhAfllXD0BwY1TanuPz/Cc7CBzox5c952eX
-        Y53IymqhDFlBoST2Dev4ebmMT/6jjO1uQbGb57/BWY7Ha8hacjhJL5k/xD+Ghkr/gqNx5i9nfrgI
-        eBA5XsjF5A+oOOaqUAUAAA==
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<rsp stat=\"ok\">\n<licenses>\n\t<license
+        id=\"0\" name=\"All Rights Reserved\" url=\"https://www.flickrhelp.com/hc/en-us/articles/10710266545556-Using-Flickr-images-shared-by-other-members\"
+        />\n\t<license id=\"4\" name=\"CC BY 2.0\" url=\"https://creativecommons.org/licenses/by/2.0/\"
+        />\n\t<license id=\"6\" name=\"CC BY-ND 2.0\" url=\"https://creativecommons.org/licenses/by-nd/2.0/\"
+        />\n\t<license id=\"3\" name=\"CC BY-NC-ND 2.0\" url=\"https://creativecommons.org/licenses/by-nc-nd/2.0/\"
+        />\n\t<license id=\"2\" name=\"CC BY-NC 2.0\" url=\"https://creativecommons.org/licenses/by-nc/2.0/\"
+        />\n\t<license id=\"1\" name=\"CC BY-NC-SA 2.0\" url=\"https://creativecommons.org/licenses/by-nc-sa/2.0/\"
+        />\n\t<license id=\"5\" name=\"CC BY-SA 2.0\" url=\"https://creativecommons.org/licenses/by-sa/2.0/\"
+        />\n\t<license id=\"7\" name=\"No known copyright restrictions\" url=\"https://www.flickr.com/commons/usage/\"
+        />\n\t<license id=\"8\" name=\"United States Government Work\" url=\"https://www.usa.gov/government-copyright\"
+        />\n\t<license id=\"9\" name=\"Public Domain Dedication (CC0)\" url=\"https://creativecommons.org/publicdomain/zero/1.0/\"
+        />\n\t<license id=\"10\" name=\"Public Domain Mark\" url=\"https://creativecommons.org/publicdomain/mark/1.0/\"
+        />\n\t<license id=\"11\" name=\"CC BY 4.0\" url=\"https://creativecommons.org/licenses/by/4.0/\"
+        />\n\t<license id=\"12\" name=\"CC BY-SA 4.0\" url=\"https://creativecommons.org/licenses/by-sa/4.0/\"
+        />\n\t<license id=\"13\" name=\"CC BY-ND 4.0\" url=\"https://creativecommons.org/licenses/by-nd/4.0/\"
+        />\n\t<license id=\"14\" name=\"CC BY-NC 4.0\" url=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+        />\n\t<license id=\"15\" name=\"CC BY-NC-SA 4.0\" url=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\"
+        />\n\t<license id=\"16\" name=\"CC BY-NC-ND 4.0\" url=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\"
+        />\n</licenses>\n</rsp>\n"
     headers:
       Connection:
-      - keep-alive
+      - close
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Mon, 28 Apr 2025 16:13:21 GMT
-      Transfer-Encoding:
-      - chunked
-      Via:
-      - 1.1 8dbddccb44fea3c0ae7cceef434a136a.cloudfront.net (CloudFront)
-      X-Amz-Cf-Id:
-      - rf7txdBx2RSU2wcTJrDaoPE5l0gvWIVS89jaHY5u-blhdfG6nO-TZA==
-      X-Amz-Cf-Pop:
-      - LHR5-P1
-      X-Cache:
-      - Miss from cloudfront
-      content-encoding:
-      - gzip
-      server:
-      - openresty
-      set-cookie:
-      - ccc=%7B%22needsConsent%22%3Atrue%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A1%7D%7D%7D;
-        expires=Wed, 28-May-2025 16:13:21 GMT; Max-Age=2592000; path=/; domain=.flickr.com
-      vary:
-      - Accept-Encoding
-      x-flickr-api-request:
-      - Root=1-680fa921-1e74f5a7459f97cd58e112d1
-      x-robots-tag:
-      - noindex
-      x-server:
-      - serverless-proxy-10.78.33.192
+      - Thu, 19 Jun 2025 07:01:48 GMT
+      content-length:
+      - '1815'
     status:
       code: 200
       message: OK
