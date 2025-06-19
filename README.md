@@ -31,7 +31,7 @@ You need [a Flickr API key][key].
 Then you can run the app by running the Flask app with your API key passed as an environment variable:
 
 ```console
-$ FLICKR_API_KEY=<KEY> flask --app flinumeratr.app run --debug
+$ flask --app flinumeratr.app run --debug
 ```
 
 If you want to run tests, install the dev dependencies and run py.test:
@@ -43,16 +43,16 @@ $ coverage run -m pytest tests
 $ coverage report
 ```
 
-To start the server in prod:
+To start the app in prod, run the `start_prod.sh` script on Sontag:
 
 ```console
 $ bash start_prod.sh
 ```
 
-To restart the server (e.g. if you've changed the code):
+To restart the app with new code, run the restart script on Sontag or in your local checkout:
 
 ```console
-$ kill -HUP $(cat flinumeratr.pid)
+$ bash scripts/restart_prod.sh
 ```
 
 [key]: https://www.flickr.com/services/api/misc.api_keys.html
